@@ -1,0 +1,28 @@
+# trigger workflow:
+
+on:
+  # - on schedule, every 30 minutes
+  schedule:
+    - cron: '*/30 * * * *'
+  # - manually
+  workflow_dispatch:
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+      # Check out the repository, so it can read the files inside it and do other operations
+      - name: Check out repo
+        uses: actions/checkout@v2
+      # Fetch the dataset, write the data to json files and push the files to the repo
+      - name: Fetch and write data
+        uses: ddvlanck/LDES-Action@main
+        with:
+          gh_pages_url: 'ddvlanck.github.io/ldes-action-replication'
+          datasource_strategy: 'ldes-client'
+          # url you want to fetch
+          url: 'https://smartdata.dev-vlaanderen.be/base/gemeente'
+          # output directory name
+          storage: 'gemeente-subject-pages'
+          fragmentation_strategy: 'subject-pages'
+          property_path: '<http://purl.org/dc/terms/isVersionOf>'
