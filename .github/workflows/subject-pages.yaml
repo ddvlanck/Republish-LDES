@@ -1,9 +1,9 @@
 # trigger workflow:
 
 on:
-  # - on schedule, every 30 minutes
+  # - on schedule, every 4 hours
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '0 */4 * * *'
   # - manually
   workflow_dispatch:
 
