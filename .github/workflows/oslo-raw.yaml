@@ -1,0 +1,23 @@
+# trigger workflow:
+
+on:
+  # - on schedule, every 4 hours
+  schedule:
+    - cron: '0 */4 * * *'
+  # - manually
+  workflow_dispatch:
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+      # Check out the repository, so it can read the files inside it and do other operations
+      - name: Check out repo
+        uses: actions/checkout@v2
+      # Fetch the dataset, write the data to json files and push the files to the repo
+      - name: Fetch and write data
+        uses: ddvlanck/OSLO2LDES-Action@main
+        with:
+          gh_pages_url: 'ddvlanck.github.io/Republish-LDES'
+          url: 'https://github.com/Informatievlaanderen/Data.Vlaanderen.be/blob/production/config/publication.json?raw=true'
+          storage: 'oslo-ldes-raw'
