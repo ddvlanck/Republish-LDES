@@ -1,0 +1,53 @@
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://www.cidoc-crm.org/cidoc-crm/P70_documents@2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P70_documents>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Entiteit die wordt gedocumenteerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "documenteert"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E31_Document>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/P70_documents@2021-04-22>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<https://schema.org/Audience@2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/Audience>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De beoogde doelgroep van een informeer actie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Doelgroep"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/Audience@2019-02-07>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<http://schema.org/recipient@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/recipient>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De bestemmeling(en) die de informatie dien(t)(en) te ontvangen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "doelgroep"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/InformAction>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/recipient@2019-02-07>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<https://schema.org/audienceType@2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/audienceType>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een typering van de doelgroep."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "doelgroep type"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Audience>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/audienceType@2019-02-07>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://xmlns.com/foaf/0.1/Document@20-07-2018> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/Document>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een origineel werk in de brede zin (een verslag,een opname,een boek...)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Document"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://xmlns.com/foaf/0.1/Document@20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<https://data.vlaanderen.be/ns/generiek#DocumentOnderdeel@20-07-2018> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/generiek#DocumentOnderdeel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een apart onderdeel van een groter document of verzameld document."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Documentonderdeel"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/generiek#DocumentOnderdeel@20-07-2018>.
+<https://data.vlaanderen.be/ns/toestemming> {
+<http://xmlns.com/foaf/0.1/Document@2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/Document>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Document met omstandige informatie over de identiteit van de verantwoordelijke, de geplande verwerkingen, de doelstelling en de wettelijke grond en over de genomen maatregelen om zijn data te beschermen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Document"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://xmlns.com/foaf/0.1/Document@2019-02-07>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/do.ttl>.

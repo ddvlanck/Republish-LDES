@@ -1,0 +1,118 @@
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel> {
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Fietspad@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Fietspad>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een zone binnen de binnen- of buitenberm en geschikt voor fiets- en/of bromfietsverkeer klasse A en aldus aangegeven via verticale en/of horizontale signalisatie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Fietspad"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Wegbaan>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Fietspad@2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel> {
+<https://data.vlaanderen.be/ns/openbaardomein#FysiekObject@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De hoofdklasse waar alle objecten die geïnventariseerd kunnen worden van afgeleid worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Fysiek object"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/prov#Entity>, <http://schema.org/Thing>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject@2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen> {
+<https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van het fysieke voorkomen van het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Fysiek voorkomen"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen@2021-09-30>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde@2020-06-18> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Dit data type geeft weer welke functies aanwezig zijn binnen een Bedrijventerreinperceel en de overeenkomstige percentages."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Functiewaarde"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde@2020-06-18>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<https://data.vlaanderen.be/ns/bedrijventerrein#functie@2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/bedrijventerrein#functie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De functie geeft de (verschillende) functies aan die men kan terugvinden op het Bedrijventerreinperceel en het percentage van het perceel dat gedekt wordt door elke functie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "functie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/bedrijventerrein#functie@2020-06-18>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<http://schema.org/faxNumber@2020-06-18> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/faxNumber>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Faxnummer waarnaar men kan faxen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "fax"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/faxNumber@2020-06-18>.
+<https://data.vlaanderen.be/ns/openbaardomein> {
+<http://schema.org/faxNumber@2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/faxNumber>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Faxnummer waarnaar men kan faxen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "fax"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/faxNumber@2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietsstalling@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietsstalling>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een fietsstalling is het geheel aan palen en/of verankeringspunten van een constructie bestemd voor het vastmaken van fietsen, gelegen op het openbare domein."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Fietsstalling"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietsstalling@2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#fietsdelen@2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#fietsdelen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan of de fietsstalling al dan niet gebruikt wordt voor deelfietsen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "fietsdelen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietsstalling>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#fietsdelen@2021-09-30>.
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod> {
+<http://purl.org/vocab/cpsv#FormalFramework@2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/vocab/cpsv#FormalFramework>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geheel van formele documenten dat regels, rechten, plichten ten aanzien van burgers, overheden, bedrijven etc beschrijft."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Formeel Kader"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/vocab/cpsv#FormalFramework@2020-04-23>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://schema.org/faxNumber@2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/faxNumber>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Faxnummer waarnaar men kan faxen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "fax"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/faxNumber@2021-04-22>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietstelpaal@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietstelpaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Paal die automatisch voorbij passerende fietsers telt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Fietstelpaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Sensoropstelling>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietstelpaal@2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Flitspaal@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Flitspaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een meettoestel waarmee snelheidsovertredingen en/of het negeren van een rood verkeerslicht vastgesteld kunnen worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Flitspaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Sensoropstelling>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Flitspaal@2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<http://dbpedia.org/resource/Fountain@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://dbpedia.org/resource/Fountain>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een stuk architectuur dat water in een bassin giet of in de lucht spuit (al dan niet opgevangen in een bassin), om drinkwater te leveren en/of voor een decoratief of dramatisch effect."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Fontein"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://dbpedia.org/resource/Fountain@2021-09-30>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<http://schema.org/faxNumber@2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/faxNumber>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Faxnummer waarnaar men kan faxen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "fax"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/faxNumber@2019-02-07>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/f.ttl>.

@@ -1,0 +1,90 @@
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.europa.eu/eli/ontology#changed_by@20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#changed_by>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan dat deze rechtsgrond een verandering met legale gevolgen heeft ondergaan door een andere rechtsgrond. Dit omvat amendementen, vervangingen, herroepingen en andere types verandering."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "veranderd door"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#changed_by>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan dat deze legale verschijningsvorm een verandering met legale gevolgen heeft ondergaan door een andere legale verschijningsvorm. Dit omvat amendementen, vervangingen, herroepingen en andere types verandering."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "veranderd door"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#changed_by@20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.europa.eu/eli/ontology#changes@20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#changes>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan dat deze rechtsgrond een verandering met legale gevolgen doorvoert op een andere rechtsgrond. Dit omvat amendementen, vervangingen, herroepingen en andere types verandering."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "verandert"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#changes>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan dat deze legale verschijningsvorm een verandering met legale gevolgen doorvoert op een andere legale verschijningsvorm. Dit omvat amendementen, vervangingen, herroepingen en andere types verandering."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "verandert"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#changes@20-07-2018>.
+<https://data.vlaanderen.be/ns/melding> {
+<https://data.vlaanderen.be/ns/melding#verwachtType@2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#verwachtType>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "True als de eigenschap verplicht mee te geven is, anders false."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "verplicht"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Eigenschap>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#verwachtType@2019-02-07>.
+<https://data.vlaanderen.be/ns/melding> {
+<https://www.w3.org/ns/hydra/core#required@2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.w3.org/ns/hydra/core#required>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "True als de eigenschap verplicht mee te sturen is ter informatie van de behandelaar en bronhouder, anders false."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "verplicht"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Eigenschap>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://www.w3.org/ns/hydra/core#required@2019-02-07>.
+<https://data.vlaanderen.be/ns/toestemming> {
+<https://data.vlaanderen.be/ns/toestemming#Verwerkersovereenkomst@2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#Verwerkersovereenkomst>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De overeenkomst die de verhouding tussen de verwerkersverantwoordelijke en de verwerker regelt. In deze overeenkomst wordt onder andere het doel van de verwerking, de beveiliging, geheimhouding, bewaartermijnen, procedures met betrekking tot vergeet-, wijzigings- en portatieverzoeken en de aansprakelijkheidsverdeling geregeld."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Verwerkersovereenkomst"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://xmlns.com/foaf/0.1/Document>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/toestemming#Verwerkersovereenkomst@2019-02-07>.
+<https://data.vlaanderen.be/ns/toestemming> {
+<http://data.vlaanderen.be/ns/adres#verwijstNaar@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/adres#verwijstNaar>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijst naar de identificator (URI) van een adres in het adresregister."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "verwijst naar"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/adres#verwijstNaar@2019-02-07>.
+<https://data.vlaanderen.be/ns/wetgeving> {
+<https://data.vlaanderen.be/ns/wetgeving#vervangenBij@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#vervangenBij>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft een bron aan die volledig vernieuwd is door een andere."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "vervangen bij"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/wetgeving#vervangenBij@2019-02-07>.
+<https://data.vlaanderen.be/ns/wetgeving> {
+<https://data.vlaanderen.be/ns/wetgeving#vervangt@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#vervangt>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat deze bron een andere volledig vernieuwt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "vervangt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/wetgeving#vervangt@2019-02-07>.
+<https://data.vlaanderen.be/ns/wetgeving> {
+<http://data.europa.eu/eli/ontology#LegalExpression@2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#LegalExpression>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De intellectuele realisatie van een rechtsbron in de vorm van een \"reeks van tekens\" (meestal alfanumerieke tekens in een juridische context)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Verschijningsvorm"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#LegalExpression@2019-02-07>.
+<https://data.vlaanderen.be/ns/wetgeving> {
+<http://data.europa.eu/eli/ontology#responsibility_of@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#responsibility_of>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een aparte intellectuele creatie (d.w.z. de intellectuele inhoud)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "verantwoordelijke"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#responsibility_of@2019-02-07>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ver.ttl>.
