@@ -1,0 +1,404 @@
+<https://data.vlaanderen.be/ns/openbaardomein> {
+<https://data.vlaanderen.be/ns/openbaardomein#Collectie@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#Collectie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een verzameling van individuele objecten waartussen een functionele relatie bestaat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Collectie"@nl.
+<https://data.vlaanderen.be/ns/openbaardomein#Deel@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#Deel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Homogeen gedeelte van het aardoppervlak, met een gelijkaardige hoofdfunctie en fysiek voorkomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Deel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>.
+<https://data.vlaanderen.be/ns/openbaardomein#Element@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#Element>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Afzonderlijk te onderscheiden element dat ofwel direct of indirect bevestigd is aan het aardoppervlak."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Element"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>.
+<https://data.vlaanderen.be/ns/openbaardomein#FysiekObject@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De hoofdklasse waar alle objecten die geïnventariseerd kunnen worden van afgeleid worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Fysiek object"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/prov#Entity, http://schema.org/Thing>.
+<https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van het fysieke voorkomen van het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Fysiek voorkomen"@nl.
+<https://data.vlaanderen.be/ns/openbaardomein#begindatum@2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#begindatum>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum waarop de huidige versie van het gebied of object in gebruik wordt genomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "begindatum"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>.
+<https://data.vlaanderen.be/ns/openbaardomein#bevat@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#bevat>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Relatie naar de objecten die deel uitmaken van de collectie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bevat"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#Collectie>.
+<https://data.vlaanderen.be/ns/openbaardomein#bronnaam@2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#bronnaam>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van de bron."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bronnaam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>.
+<https://data.vlaanderen.be/ns/openbaardomein#einddatum@2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#einddatum>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum waarop de huidige versie van het beheerobject uit gebruik wordt genomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "einddatum"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>.
+<https://data.vlaanderen.be/ns/openbaardomein#nauwkeurigheid@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#nauwkeurigheid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De precisie waarmee het object opgemeten werd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "nauwkeurigheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>.
+<https://data.vlaanderen.be/ns/openbaardomein#niveau@2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#niveau>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het niveau waarop het object zich bevindt, relatief ten opzichte van andere objecten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "niveau"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>.
+<https://data.vlaanderen.be/ns/openbaardomein#oppervlakte@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#oppervlakte>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De afmeting van het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "oppervlakte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#Deel>.
+<https://data.vlaanderen.be/ns/openbaardomein#uuid@2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#uuid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een globaal unieke identificator voor het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "uuid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>.
+<https://data.vlaanderen.be/ns/openbaardomein#voorkomen@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#voorkomen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijst naar het fysiek voorkomen van het beheerdeel."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "voorkomen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#Deel>.
+<http://schema.org/ContactPoint@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email, telefoon, adres die toelaat om iemand of iets te contacteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Contactinfo"@nl.
+<http://www.opengis.net/ont/geosparql#Geometry@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/geosparql#Geometry>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Vorm- en positiekenmerken van een object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Geometrie"@nl.
+<http://www.opengis.net/ont/sf#LineString@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/sf#LineString>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Curve met lineaire interpolatie tussen de punten. Elk opeenvolgend paar punten vormt een lijnsegment. De lijnstring heeft ten minste twee punten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Lijnstring"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.opengis.net/ont/geosparql#Geometry>.
+<http://www.opengis.net/ont/sf#Point@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/sf#Point>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een 0-dimensioneel geometrisch object dat een bepaalde locatie in een coördinaatruimte voorstelt. Heeft een x-coördinaat en een y-coördinaat. Kan ook een z-coördinaat (hoogte) en een m-coördinaat (afstand langs een curve) hebben."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Punt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.opengis.net/ont/geosparql#Geometry>.
+<http://www.opengis.net/ont/sf#Polygon@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/sf#Polygon>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Oppervlak bestaande uit 1 buitengrens en 0 of meer binnengrenzen. Elke binnengrens vormt een gat in de polygoon."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Polygoon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.opengis.net/ont/geosparql#Geometry>.
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#langString@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Benaming toegekend aan of gebruikt voor een geografisch object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Geografische Naam"@nl.
+<http://www.w3.org/2000/01/rdf-schema#Resource@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Object dat dient om vanuit een beheerobject naar te verwijzen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Relatie object"@nl.
+<http://www.w3.org/2004/02/skos/core#Concept@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2004/02/skos/core#Concept>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De mate van drassigheid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "DrassigheidWaarde"@nl;
+    a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2004/02/skos/core#Concept>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Codelijst voor de de hellingsgraad van een talud."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "TaludWaarde"@nl;
+    a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2004/02/skos/core#Concept>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De nauwkeurigheid waarmee objecten opgemeten worden hangt af van de meetmethode (terrestrisch of via luchtfotogrammetrie) en van de precisie waarmee objecten op het terrein kunnen aangeduid worden. Het GRB definieert 6 nauwkeurigheidsklassen van A tot en met F. Daarnaast werden op basis van het IMKL datamodel ook nog de waarden 'tot 50cm' en 'tot 100cm' opgenomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nauwkeurigheidsklassen"@nl;
+    a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2004/02/skos/core#Concept>;
+    a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2004/02/skos/core#Concept>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het aantal obstakels."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Aantal Obstakels"@nl.
+<http://www.w3.org/ns/org#Organization@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/org#Organization>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een aantal mensen georganiseerd in een gemeenschap of andere sociale, commerciële of politieke structuur. De groep heeft een gemeenschappelijk doel of bestaanreden die de individuele leden ervan overstijgt en kan handelen als agent. Een organisatie heeft dikwijls een hiërarchische structuur."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Organisatie"@nl.
+<https://data.vlaanderen.be/ns/generiek#StandaardEenheid@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/generiek#StandaardEenheid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Eenheid vastgelegd door een standaardiserende organisatie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Standaard Eenheid"@nl.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De ruimtelijke massa van planten-individuen, in samenhang met de plaats waar zij groeien. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Begroeid voorkomen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen>.
+<https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een ruimte met daarin objecten in de openbare ruimte die samen een hoofdfunctie hebben."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Gebied"@nl.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Individueel object op het Openbaar Domein dat niet vegetatief is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Infrastructuurelement"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#Element>.
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#OnbegroeidVoorkomen@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#OnbegroeidVoorkomen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Fysiek voorkomen van het aardoppervlak dat niet vegetatief is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Onbegroeid voorkomen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen>.
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van het terrein voorkomen van het terreindeel."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Terrein voorkomen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen>.
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Zichtbare laag van het aardoppervlak, met een gelijkaardige functie, dat geen deel uitmaakt van 'waterdeel'."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Terreindeel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#Deel>.
+<https://data.vlaanderen.be/ns/openbaardomein/vegetatie#VegetatieElement@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#VegetatieElement>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Solitaire plant in de ruimte."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Vegetatie element"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#Element, http://rs.tdwg.org/dwc/terms/Taxon>.
+<https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Waterdeel@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Waterdeel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Gebied dat rechtstreeks gedomineerd wordt door de tijdelijke of permanente aanwezigheid van oppervlaktewater, met een bepaalde hieraan verbonden functie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Waterdeel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#Deel>.
+<https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen#WaterVoorkomen@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen#WaterVoorkomen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Fysiek voorkomen van het oppervlak bestaande uit water."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Water voorkomen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen>.
+<https://schema.org/Number@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/Number>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van een hoeveelheid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Getal"@nl.
+<https://schema.org/QuantitativeValue@2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/QuantitativeValue>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van de kwantiteit van een bepaald kenmerk van een object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Kwantitatieve Waarde"@nl.
+<http://fixme.com#beheerder@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://fixme.com#beheerder>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Instantie die instaat voor het beheer van het gebied."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beheerder"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://fixme.com#beheerder>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Instantie die instaat voor het beheer van het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beheerder"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>.
+<http://fixme.com#eigenaar@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://fixme.com#eigenaar>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De entiteit (bv. de gemeente) die eigenaar is van het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "eigenaar"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://fixme.com#eigenaar>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De entiteit (bv. de gemeente) die eigenaar is van het gebied."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "eigenaar"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>.
+<http://open.vocab.org/terms/length@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://open.vocab.org/terms/length>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De lineare grootte van het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "lengte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>.
+<http://purl.org/dc/terms/relation@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/relation>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijst naar een object in een andere databank dat meer informatie kan verschaffen over het beheerobject."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "relatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>.
+<http://purl.org/dc/terms/title@2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een naam voor het gebied."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een titel voor de collectie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#Collectie>.
+<http://rs.tdwg.org/dwc/terms/scientificName@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://rs.tdwg.org/dwc/terms/scientificName>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De wetenschappelijke soortnaam."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "wetenschappelijke soortnaam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://rs.tdwg.org/dwc/terms/scientificName>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De wetenschappelijke soortnaam van het vegetatie-element."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "wetenschappelijke soortnaam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>.
+<http://schema.org/contactPoint@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/contactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email, telefoon ... die toelaat de Organisatie te contacteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactinfo"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/org#Organization>.
+<http://schema.org/email@2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/email>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Email-adres waarnaar men kan mailen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "email"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>.
+<http://schema.org/faxNumber@2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/faxNumber>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Faxnummer waarnaar men kan faxen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "fax"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>.
+<http://schema.org/height@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/height>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De hoogte van het object zelf."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "hoogte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#VegetatieElement>.
+<http://schema.org/hoursAvailable@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/hoursAvailable>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Periode waarin contact kan worden opgenomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschikbaarheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>.
+<http://schema.org/openingHours@2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/openingHours>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Uren waarbinnen contact kan worden opgenomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "openingsuren"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>.
+<http://schema.org/telephone@2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/telephone>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Telefoonnummer waarop men kan bellen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "telefoon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>.
+<http://schema.org/width@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/width>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De breedte van het object. In geval van een ongelijkmatige breedte wordt de gemiddelde breedte opgenomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "breedte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>.
+<http://www.opengis.net/ont/geosparql#asGML@2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/geosparql#asGML>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geometrie uitgedrukt in gml-formaat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "gml"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#Geometry>.
+<http://www.opengis.net/ont/geosparql#asWKT@2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/geosparql#asWKT>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geometrie uitgedrukt in wkt-formaat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "wkt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#Geometry>.
+<http://www.w3.org/2004/02/skos/core#altLabel@2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2004/02/skos/core#altLabel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Andere naam waaronder de organisatie bekend is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "alternatieve naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/org#Organization>.
+<http://www.w3.org/2004/02/skos/core#prefLabel@2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam waarmee de organisatie bij voorkeur wordt aangeduid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "voorkeursnaam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/org#Organization>.
+<http://www.w3.org/2006/vcard/ns#honorific-prefix@2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2006/vcard/ns#honorific-prefix>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Titel waarmee iemand wordt aangeschreven of aangesproken of waarmee naar iemand wordt verwezen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "aanschrijfvorm"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>.
+<http://www.w3.org/ns/locn#address@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#address>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Adres dat men kan aanschrijven of bezoeken."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "adres"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>.
+<http://www.w3.org/ns/locn#geometry@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#geometry>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De geometrie overeenkomstig met een bepaald object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "geometrie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#geometry>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De geometrie overeenkomstig met een bepaald gebied."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "geometrie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
+<http://xmlns.com/foaf/0.1/name@2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/name>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van bvb de persoon die men kan contacteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactnaam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>.
+<http://xmlns.com/foaf/0.1/page@2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/page>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Website waarnaar men kan surfen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "website"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#drassigheid@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#drassigheid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Mate waarin de bodem verzadigd is met water."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "drassigheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortcode@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortcode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een unieke identificator voor de soort van het vegetatie-element. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "soortcode"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortnaamNederlands@2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortnaamNederlands>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Soortnaam in het Nederlands."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "soortnaam Nederlands"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>.
+<https://data.vlaanderen.be/ns/openbaardomein/gebied#begindatum@2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#begindatum>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum waarop de huidige versie van het beheergebied in gebruik wordt genomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "begindatum"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>.
+<https://data.vlaanderen.be/ns/openbaardomein/gebied#einddatum@2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#einddatum>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum waarop de huidige versie van het beheergebied uit gebruik wordt genomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "einddatum"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#materiaal@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#materiaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Materiaal waar het object uit vervaardigd is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "materiaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#heeftObstakel@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#heeftObstakel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het specifieke Element dat een obstakel vormt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft obstakel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>.
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#obstakels@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#obstakels>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Eigenschap die aangeeft of er binnen het beheerdeel al dan niet objecten voorkomen die de vrije werking van machines of andere werktuigen kan verhinderen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "obstakels"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen>.
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#talud@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#talud>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een talud is het kunstmatig gedeelte van een vlak van de wegbaan, dijken, spoorbanen, vestingswerken, ... dat een helling (min. 20%, max 80% voor kunstmatig verharde taluds) vertoont en bedoeld voor het opvangen van een hoogteverschil."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "talud"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen>.
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#voorkomen@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#voorkomen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het voorkomen van het terreindeel."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "voorkomen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#Deel>.
+<https://data.vlaanderen.be/ns/openbaardomein/vegetatie#soortcode@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#soortcode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een unieke identificator voor de soort van het vegetatie-element. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "soortcode"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>.
+<https://data.vlaanderen.be/ns/openbaardomein/vegetatie#soortnaamNederlands@2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#soortnaamNederlands>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Soortnaam in het Nederlands."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "soortnaam Nederlands"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>.
+<https://data.vlaanderen.be/ns/openbaardomein/waterdeel#voorkomen@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#voorkomen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijst naar het voorkomen van het Waterdeel."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "voorkomen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#Deel>.
+<https://schema.org/unitCode@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/unitCode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De gestandaardiseerde eenheid waarin de waarde is uitgedrukt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "standaard eenheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>.
+<https://schema.org/unitText@2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/unitText>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De eenheid waarin de waarde is uitgedrukt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "eenheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>.
+<https://schema.org/value@2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/value>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Getal waarmee de kwantiteit van het kenmerk kan worden uitgedrukt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "waarde"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>
+}
+<ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein#Collectie@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#Deel@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#Element@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#begindatum@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#bevat@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#bronnaam@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#einddatum@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#nauwkeurigheid@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#niveau@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#oppervlakte@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#uuid@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#voorkomen@2021-09-30>, <http://schema.org/ContactPoint@2021-09-30>, <http://www.opengis.net/ont/geosparql#Geometry@2021-09-30>, <http://www.opengis.net/ont/sf#LineString@2021-09-30>, <http://www.opengis.net/ont/sf#Point@2021-09-30>, <http://www.opengis.net/ont/sf#Polygon@2021-09-30>, <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString@2021-09-30>, <http://www.w3.org/2000/01/rdf-schema#Resource@2021-09-30>, <http://www.w3.org/2004/02/skos/core#Concept@2021-09-30>, <http://www.w3.org/2004/02/skos/core#Concept@2021-09-30>, <http://www.w3.org/2004/02/skos/core#Concept@2021-09-30>, <http://www.w3.org/2004/02/skos/core#Concept@2021-09-30>, <http://www.w3.org/2004/02/skos/core#Concept@2021-09-30>, <http://www.w3.org/ns/org#Organization@2021-09-30>, <https://data.vlaanderen.be/ns/generiek#StandaardEenheid@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#OnbegroeidVoorkomen@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#VegetatieElement@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Waterdeel@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen#WaterVoorkomen@2021-09-30>, <https://schema.org/Number@2021-09-30>, <https://schema.org/QuantitativeValue@2021-09-30>, <http://fixme.com#beheerder@2021-09-30>, <http://fixme.com#beheerder@2021-09-30>, <http://fixme.com#eigenaar@2021-09-30>, <http://fixme.com#eigenaar@2021-09-30>, <http://open.vocab.org/terms/length@2021-09-30>, <http://purl.org/dc/terms/relation@2021-09-30>, <http://purl.org/dc/terms/title@2021-09-30>, <http://purl.org/dc/terms/title@2021-09-30>, <http://rs.tdwg.org/dwc/terms/scientificName@2021-09-30>, <http://rs.tdwg.org/dwc/terms/scientificName@2021-09-30>, <http://schema.org/contactPoint@2021-09-30>, <http://schema.org/email@2021-09-30>, <http://schema.org/faxNumber@2021-09-30>, <http://schema.org/height@2021-09-30>, <http://schema.org/hoursAvailable@2021-09-30>, <http://schema.org/openingHours@2021-09-30>, <http://schema.org/telephone@2021-09-30>, <http://schema.org/width@2021-09-30>, <http://www.opengis.net/ont/geosparql#asGML@2021-09-30>, <http://www.opengis.net/ont/geosparql#asWKT@2021-09-30>, <http://www.w3.org/2004/02/skos/core#altLabel@2021-09-30>, <http://www.w3.org/2004/02/skos/core#prefLabel@2021-09-30>, <http://www.w3.org/2006/vcard/ns#honorific-prefix@2021-09-30>, <http://www.w3.org/ns/locn#address@2021-09-30>, <http://www.w3.org/ns/locn#geometry@2021-09-30>, <http://www.w3.org/ns/locn#geometry@2021-09-30>, <http://xmlns.com/foaf/0.1/name@2021-09-30>, <http://xmlns.com/foaf/0.1/page@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#drassigheid@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortcode@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortnaamNederlands@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#begindatum@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#einddatum@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#materiaal@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#heeftObstakel@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#obstakels@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#talud@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#voorkomen@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#soortcode@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#soortnaamNederlands@2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#voorkomen@2021-09-30>, <https://schema.org/unitCode@2021-09-30>, <https://schema.org/unitText@2021-09-30>, <https://schema.org/value@2021-09-30>;
+    <https://w3id.org/tree#view> <ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/12.ttl>.
+<ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/12.ttl> <https://w3id.org/tree#relation> _:df_0_11.
+_:df_0_11 a <https://w3id.org/tree#Relation>;
+    <https://w3id.org/tree#node> <ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/13.ttl>.
