@@ -1,0 +1,256 @@
+<https://data.vlaanderen.be/ns/wetgeving> {
+<https://data.vlaanderen.be/ns/wetgeving#bekrachtigdBij@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#bekrachtigdBij>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse van bekrachtigt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bekrachtigd bij"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>.
+<https://data.vlaanderen.be/ns/wetgeving#bekrachtigt@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#bekrachtigt>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Betekent dat dit document instemt met een ander type document waardoor dat laatste volledige rechtskracht krijgt. De bekrachtiging is in dit geval een opschortende voorwaarde."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bekrachtigt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>.
+<https://data.vlaanderen.be/ns/wetgeving#heftOp@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#heftOp>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat deze bron een andere buiten werking stelt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heft op"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>.
+<https://data.vlaanderen.be/ns/wetgeving#ingetrokkenBij@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#ingetrokkenBij>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat deze bron volledig wordt geannuleerd door een andere bron."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "ingetrokken bij"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>.
+<https://data.vlaanderen.be/ns/wetgeving#ingevoegdBij@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#ingevoegdBij>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft een bron aan die deze bron aanvult met juridische impact."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "ingevoegd bij"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>.
+<https://data.vlaanderen.be/ns/wetgeving#opgehevenBij@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#opgehevenBij>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat deze juridische bron of juridische uitdrukking volledig wordt ingetrokken door een andere juridische hulpbron."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "opgeheven bij"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>.
+<https://data.vlaanderen.be/ns/wetgeving#trektIn@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#trektIn>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat deze juridische bron of juridische uitdrukking volledig kan worden geannuleerd door een andere."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "trekt in"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>.
+<https://data.vlaanderen.be/ns/wetgeving#vervangenBij@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#vervangenBij>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft een bron aan die volledig vernieuwd is door een andere."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "vervangen bij"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>.
+<https://data.vlaanderen.be/ns/wetgeving#vervangt@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#vervangt>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat deze bron een andere volledig vernieuwt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "vervangt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>.
+<https://data.vlaanderen.be/ns/wetgeving#voegtIn@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#voegtIn>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Deze bron vult een andere aan met legale impact."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "voegt in"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>.
+<http://data.europa.eu/eli/ontology#LegalExpression@2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#LegalExpression>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De intellectuele realisatie van een rechtsbron in de vorm van een \"reeks van tekens\" (meestal alfanumerieke tekens in een juridische context)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Verschijningsvorm"@nl.
+<http://data.europa.eu/eli/ontology#LegalResource@2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#LegalResource>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een legaal concept dat los staat van een bepaalde vorm (het achterliggende idee)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Rechtsbron"@nl.
+<http://data.europa.eu/eli/ontology#LegalResourceSubdivision@2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#LegalResourceSubdivision>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een onderdeel van een rechtshandeling, op een willekeurig niveau van nauwkeurigheid, zoals een hoofdstuk, een artikel, een alinea, een alinea of een lijstitem."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Rechtsbrononderdeel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://data.europa.eu/eli/ontology#LegalResource>.
+<http://purl.org/dc/terms/Agent@2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/Agent>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Iemand die of iets dat kan handelen of een effect kan teweeg brengen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@nl.
+<http://www.w3.org/2004/02/skos/core#Concept@2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2004/02/skos/core#Concept>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type van de subdivsie van de rechtsbron."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Type rechtsbron onderdeel"@nl;
+    a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2004/02/skos/core#Concept>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type van de rechtsbron."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "aard van de wetgeving"@nl.
+<http://www.w3.org/ns/adms#Identifier@2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/adms#Identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie gebruikt om een object uniek te identificeren. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Identificator"@nl.
+<http://data.europa.eu/eli/ontology#amended_by@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#amended_by>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan dat deze rechtsbron een verandering met legale gevolgen heeft ondergaan door een andere rechtsbron. Dit omvat amendementen, vervangingen, herroepingen en andere types verandering."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "gewijzigd bij"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>.
+<http://data.europa.eu/eli/ontology#amends@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#amends>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan dat deze rechtsbron een verandering met legale gevolgen doorvoert op een andere rechtsbron. Dit omvat amendementen, vervangingen, herroepingen en andere types verandering."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "wijzigt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>.
+<http://data.europa.eu/eli/ontology#cites@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#cites>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een citatie in de wettelijke tekst. Dit omvat zowel woordelijke citaten als citaten in verwijzingen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "citeert"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>.
+<http://data.europa.eu/eli/ontology#consolidates@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#consolidates>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat deze geconsolideerde juridische bron of uitdrukking (meestal het product van een redactioneel proces dat de wetgeving herziet) rekening houdt met een andere."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "consolideert"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>.
+<http://data.europa.eu/eli/ontology#corrected_by@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#corrected_by>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft een hulpmiddel aan dat tekstuele wijzigingen introduceert (zoals correctie of spelfouten) zonder juridische wijzigingen in deze bron, uitdrukking of indeling."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "errata"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>.
+<http://data.europa.eu/eli/ontology#date_applicability@2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#date_applicability>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De datum waarop de wetgeving van toepassing wordt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "datum toepasbaarheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>.
+<http://data.europa.eu/eli/ontology#date_document@2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#date_document>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Adoptiedatum of handtekendatum (in de vorm jjjj-mm-dd)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "datum document"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>.
+<http://data.europa.eu/eli/ontology#date_no_longer_in_force@2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#date_no_longer_in_force>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De laatste dag waarop de regelgeving nog van kracht is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "buitenwerkingtreding"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#date_no_longer_in_force>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De laatste dag waarop de regelgeving nog van kracht is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "buitenwerkingtreding"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>.
+<http://data.europa.eu/eli/ontology#date_publication@2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#date_publication>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De officiële publicatiedatum van de verschijningsvorm."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "publicatiedatum"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>.
+<http://data.europa.eu/eli/ontology#first_date_entry_in_force@2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#first_date_entry_in_force>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De laatste dag waarop een specifieke versie van de regelgeving of een onderdeel ervan nog van kracht is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "inwerkingtreding"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#first_date_entry_in_force>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De datum waarop de regelgeving van kracht wordt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "inwerkingtreding"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>.
+<http://data.europa.eu/eli/ontology#id_local@2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#id_local>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De unieke ID die wordt gebruikt in een lokaal referentiesysteem om compatibiliteit met eerdere versies te handhaven."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "lokaleid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>.
+<http://data.europa.eu/eli/ontology#is_about@2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#is_about>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Term uit een thesaurus die verwijst naar een bevoegdheidsdomein."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "thema"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>.
+<http://data.europa.eu/eli/ontology#is_part_of@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#is_part_of>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Relatie die documenten en onderdelen (hoofdstukken, artikels...) aan elkaar linkt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "is deel van"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResourceSubdivision>.
+<http://data.europa.eu/eli/ontology#is_realized_by@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#is_realized_by>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De verschijningsvorm die deze rechtsbron materialiseert in een concrete tekst."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "is gerealiseerd door"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>.
+<http://data.europa.eu/eli/ontology#language@2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#language>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De taal van de verschijningsvorm."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "taal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>.
+<http://data.europa.eu/eli/ontology#number@2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#number>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een identificator of een ander onderscheidend kenmerk voor een verschijningsvorm."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "nummer"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>.
+<http://data.europa.eu/eli/ontology#realizes@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#realizes>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Heeft betrekking op de rechtsbron die door de verschijningsvorm gematerialiseerd wordt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "realiseert"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>.
+<http://data.europa.eu/eli/ontology#related_to@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#related_to>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt op een of ander manier gerelateerd ander document, niet noodzakelijk een legale bron."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "zie ook"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>.
+<http://data.europa.eu/eli/ontology#responsibility_of@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#responsibility_of>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een aparte intellectuele creatie (d.w.z. de intellectuele inhoud)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "verantwoordelijke"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>.
+<http://data.europa.eu/eli/ontology#title@2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De titel of officiële naam van een decreet, wet, besluit... Deze wordt officieel vastgelegd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "opschrift"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>.
+<http://data.europa.eu/eli/ontology#title_short@2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#title_short>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De beknopte titel of officiële korte naam van een decreet, wet, besluit..."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "citeeropschrift"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>.
+<http://data.europa.eu/eli/ontology#transposes@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#transposes>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat deze wetgeving (of een deel van de wetgeving) voldoet aan de doelstellingen van een andere wetgeving, door het nemen van passende uitvoeringsmaatregelen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "zet om"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>.
+<http://data.europa.eu/eli/ontology#type_document@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#type_document>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type van het regelgevend document."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "type document"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>.
+<http://purl.org/dc/terms/creator@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/creator>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Link naar de agent die de identificator heeft uitgegeven."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegekend door"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>.
+<http://purl.org/dc/terms/description@2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een verslag van de bron."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "commentaar"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>.
+<http://purl.org/dc/terms/hasPart@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/hasPart>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat deze bron uit deelbronnen bestaat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft deel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>.
+<http://purl.org/dc/terms/issued@2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/issued>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijdstip waarop de identificator werd uitgegeven."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegekend op"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>.
+<http://purl.org/dc/terms/subject@2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/subject>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Vrije term als extra zoekingang tot de rechtsbron."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "trefwoord"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>.
+<http://purl.org/dc/terms/type@2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/type>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type van het rechtsbrononderdeel."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResourceSubdivision>.
+<http://www.w3.org/2004/02/skos/core#notation@2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2004/02/skos/core#notation>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "String gebruikt om het object uniek te identificeren. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "identificator"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>.
+<http://www.w3.org/ns/adms#schemaAgency@2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/adms#schemaAgency>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam vd agent die de identificator heeft toegekend."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegekend door (String)"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>.
+<http://www.w3.org/ns/prov#value@2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/prov#value>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De beschrijving van de beoogde rechtsgevolgen, het zogenaamde beschikkend gedeelte."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "inhoud"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/wetgeving#bekrachtigdBij@2019-02-07>, <https://data.vlaanderen.be/ns/wetgeving#bekrachtigt@2019-02-07>, <https://data.vlaanderen.be/ns/wetgeving#heftOp@2019-02-07>, <https://data.vlaanderen.be/ns/wetgeving#ingetrokkenBij@2019-02-07>, <https://data.vlaanderen.be/ns/wetgeving#ingevoegdBij@2019-02-07>, <https://data.vlaanderen.be/ns/wetgeving#opgehevenBij@2019-02-07>, <https://data.vlaanderen.be/ns/wetgeving#trektIn@2019-02-07>, <https://data.vlaanderen.be/ns/wetgeving#vervangenBij@2019-02-07>, <https://data.vlaanderen.be/ns/wetgeving#vervangt@2019-02-07>, <https://data.vlaanderen.be/ns/wetgeving#voegtIn@2019-02-07>, <http://data.europa.eu/eli/ontology#LegalExpression@2019-02-07>, <http://data.europa.eu/eli/ontology#LegalResource@2019-02-07>, <http://data.europa.eu/eli/ontology#LegalResourceSubdivision@2019-02-07>, <http://purl.org/dc/terms/Agent@2019-02-07>, <http://www.w3.org/2004/02/skos/core#Concept@2019-02-07>, <http://www.w3.org/2004/02/skos/core#Concept@2019-02-07>, <http://www.w3.org/ns/adms#Identifier@2019-02-07>, <http://data.europa.eu/eli/ontology#amended_by@2019-02-07>, <http://data.europa.eu/eli/ontology#amends@2019-02-07>, <http://data.europa.eu/eli/ontology#cites@2019-02-07>, <http://data.europa.eu/eli/ontology#consolidates@2019-02-07>, <http://data.europa.eu/eli/ontology#corrected_by@2019-02-07>, <http://data.europa.eu/eli/ontology#date_applicability@2019-02-07>, <http://data.europa.eu/eli/ontology#date_document@2019-02-07>, <http://data.europa.eu/eli/ontology#date_no_longer_in_force@2019-02-07>, <http://data.europa.eu/eli/ontology#date_no_longer_in_force@2019-02-07>, <http://data.europa.eu/eli/ontology#date_publication@2019-02-07>, <http://data.europa.eu/eli/ontology#first_date_entry_in_force@2019-02-07>, <http://data.europa.eu/eli/ontology#first_date_entry_in_force@2019-02-07>, <http://data.europa.eu/eli/ontology#id_local@2019-02-07>, <http://data.europa.eu/eli/ontology#is_about@2019-02-07>, <http://data.europa.eu/eli/ontology#is_part_of@2019-02-07>, <http://data.europa.eu/eli/ontology#is_realized_by@2019-02-07>, <http://data.europa.eu/eli/ontology#language@2019-02-07>, <http://data.europa.eu/eli/ontology#number@2019-02-07>, <http://data.europa.eu/eli/ontology#realizes@2019-02-07>, <http://data.europa.eu/eli/ontology#related_to@2019-02-07>, <http://data.europa.eu/eli/ontology#responsibility_of@2019-02-07>, <http://data.europa.eu/eli/ontology#title@2019-02-07>, <http://data.europa.eu/eli/ontology#title_short@2019-02-07>, <http://data.europa.eu/eli/ontology#transposes@2019-02-07>, <http://data.europa.eu/eli/ontology#type_document@2019-02-07>, <http://purl.org/dc/terms/creator@2019-02-07>, <http://purl.org/dc/terms/description@2019-02-07>, <http://purl.org/dc/terms/hasPart@2019-02-07>, <http://purl.org/dc/terms/issued@2019-02-07>, <http://purl.org/dc/terms/subject@2019-02-07>, <http://purl.org/dc/terms/type@2019-02-07>, <http://www.w3.org/2004/02/skos/core#notation@2019-02-07>, <http://www.w3.org/ns/adms#schemaAgency@2019-02-07>, <http://www.w3.org/ns/prov#value@2019-02-07>;
+    <https://w3id.org/tree#view> <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/23.ttl>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/23.ttl> <https://w3id.org/tree#relation> _:df_0_22.
+_:df_0_22 a <https://w3id.org/tree#Relation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/24.ttl>.
