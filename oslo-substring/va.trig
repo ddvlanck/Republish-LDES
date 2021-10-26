@@ -1,0 +1,54 @@
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen> {
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#VastePlanten#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#VastePlanten>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Begroeiingstype met planten die een kruidachtige stengel hebben en overblijvend zijn."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Vaste planten"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sierbeplanting>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#VastePlanten#2021-09-30>.
+<https://data.vlaanderen.be/ns/transactie> {
+<http://data.europa.eu/m8g/appliesToPeriodOfTime#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/appliesToPeriodOfTime>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Wanneer de het antwoord op het criterium van toepassing is binnen een specifieke periode kan deze eigenschap gebruikt worden om het tijdsinterval te beschrijven."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "van toepassing op tijdsinterval"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/RequirementResponse>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/PeriodOfTime>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/m8g/appliesToPeriodOfTime#2019-02-07>.
+<https://data.vlaanderen.be/ns/transactie> {
+<http://data.europa.eu/m8g/currency#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/currency>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Munteenheid waarin de Kost is gedefinieerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "valuta"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/Cost>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/m8g/currency#2019-02-07>.
+<https://data.vlaanderen.be/ns/transactie> {
+<http://data.europa.eu/m8g/validatesCriterionRequirement#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/validatesCriterionRequirement>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Relatie naar de criterium vereiste waaraan het antwoord voldoet."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "valideert criterium vereiste"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/RequirementResponse>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/CriterionRequirement>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/m8g/validatesCriterionRequirement#2019-02-07>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://www.cidoc-crm.org/cidoc-crm/P35_has_identified#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P35_has_identified>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De conditie waarin het MaterieelDing zich bleek te bevinden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "vastgestelde staat"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/P35_has_identified#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://www.cidoc-crm.org/cidoc-crm/P40_observed_dimension#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P40_observed_dimension>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De Dimensie die werd gemeten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "vastgestelde waarde"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E16_Measurement>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/P40_observed_dimension#2021-04-22>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/va.trig>.

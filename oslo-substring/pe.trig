@@ -1,0 +1,34 @@
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://id.loc.gov/datatypes/edtf/EDTF#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://id.loc.gov/datatypes/edtf/EDTF>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Min of meer afgebakende tijdsduur."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Periode"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://id.loc.gov/datatypes/edtf/EDTF#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://www.w3.org/ns/person#Person#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/person#Person>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Natuurlijk persoon."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Persoon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://purl.org/dc/terms/Agent>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/person#Person#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijdspanne waarin het object zich in deze Conditie bevindt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "periode"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/PeriodOfTime>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://www.cidoc-crm.org/cidoc-crm/P54_has_current_permanent_location#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P54_has_current_permanent_location>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijft de permanente locatie van het MensgemaaktObject."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "permanente locatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Location>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/P54_has_current_permanent_location#2021-04-22>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/pe.trig>.
