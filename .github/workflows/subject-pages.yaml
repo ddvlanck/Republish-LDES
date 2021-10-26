@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v2
       # Fetch the dataset, write the data to json files and push the files to the repo
       - name: Fetch and write data
-        uses: treecg/LDES-Action@main
+        uses: ddvlanck/LDES-Action@main
         with:
           gh_pages_url: 'ddvlanck.github.io/Republish-LDES'
           datasource_strategy: 'ldes-client'
