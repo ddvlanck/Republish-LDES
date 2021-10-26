@@ -24,7 +24,7 @@ jobs:
           url: 'https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig'
           # output directory name
           storage: 'oslo-substring'
-          fragmentation_strategy: '@treecg/substring-bucketizer'
+          fragmentation_strategy: 'substring'
           fragmentation_page_size: 40
           property_path: '<http://www.w3.org/2000/01/rdf-schema#label>'
           stream_data: "true"
