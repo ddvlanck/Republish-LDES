@@ -1,20 +1,4 @@
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Elektriciteitspaal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Elektriciteitspaal>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Paal van de elektriciteitsleiding."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Elektriciteitspaal"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Elektriciteitspaal#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
-<https://data.vlaanderen.be/ns/openbaardomein#Element#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#Element>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Afzonderlijk te onderscheiden element dat ofwel direct of indirect bevestigd is aan het aardoppervlak."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Element"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein#Element#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/vegetatie> {
 <https://data.vlaanderen.be/ns/openbaardomein#einddatum#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#einddatum>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "Datum waarop de huidige versie van het beheerobject uit gebruik wordt genomen."@nl;
@@ -23,51 +7,42 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein#einddatum#2021-09-30>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod> {
-<http://data.europa.eu/m8g/endTime#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/endTime>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Einde vd tijdsduur."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "einde"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/PeriodOfTime>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/m8g/endTime#2020-04-23>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod> {
-<https://schema.org/unitText#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+<https://data.vlaanderen.be/ns/openbaardomein/vegetatie> {
+<https://schema.org/unitText#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
     <http://purl.org/dc/terms/isVersionOf> <https://schema.org/unitText>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "De eenheid waarin de waarde is uitgedrukt."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "eenheid"@nl;
     <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/unitText#2020-04-23>.
-<https://data.vlaanderen.be/ns/notificatie> {
-<http://data.europa.eu/m8g/endTime#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/endTime>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Moment waarop het tijdsinterval eindigt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "einde"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/PeriodOfTime>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/unitText#2021-09-30>.
+<http://data.vlaanderen.be/ns/dcatapvl> {
+<http://www.w3.org/2006/vcard/ns#hasEmail#13-06-2019> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2006/vcard/ns#hasEmail>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het e-mail adres waarmee je contact kan opnemen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "e-mail"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2006/vcard/ns#Kind>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/m8g/endTime#2019-02-07>.
-<https://data.vlaanderen.be/ns/notificatie> {
-<http://schema.org/email#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/email>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Email-adres waarnaar men kan mailen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "email"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/email#2019-02-07>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied> {
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#einddatum#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#einddatum>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum waarop de huidige versie van het beheergebied uit gebruik wordt genomen."@nl;
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/2006/vcard/ns#hasEmail#13-06-2019>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<https://data.vlaanderen.be/ns/dossier#Activiteit.einddatum#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#Activiteit.einddatum>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De einddatum van de activiteit."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "einddatum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Activity>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/gebied#einddatum#2021-09-30>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/dossier#Activiteit.einddatum#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<https://data.vlaanderen.be/ns/dossier#Procedurestap.einddatum#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#Procedurestap.einddatum>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De einddatum van de procedurestap."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "einddatum"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Procedurestap>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/dossier#Procedurestap.einddatum#2021-02-04>.
 <https://data.vlaanderen.be/ns/bedrijventerrein> {
 <https://data.vlaanderen.be/ns/bedrijventerrein#EconomischGebied#2020-06-18> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/bedrijventerrein#EconomischGebied>;
@@ -103,6 +78,59 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/unitText#2020-06-18>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Elektriciteitspaal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Elektriciteitspaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Paal van de elektriciteitsleiding."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Elektriciteitspaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Elektriciteitspaal#2021-09-30>.
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod> {
+<http://data.europa.eu/m8g/endTime#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/endTime>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Einde vd tijdsduur."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "einde"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/PeriodOfTime>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/m8g/endTime#2020-04-23>.
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod> {
+<https://schema.org/unitText#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/unitText>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De eenheid waarin de waarde is uitgedrukt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "eenheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/unitText#2020-04-23>.
+<https://data.vlaanderen.be/ns/wetgeving> {
+<http://data.europa.eu/eli/ontology#corrected_by#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#corrected_by>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft een hulpmiddel aan dat tekstuele wijzigingen introduceert (zoals correctie of spelfouten) zonder juridische wijzigingen in deze bron, uitdrukking of indeling."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "errata"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalExpression>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#corrected_by#2019-02-07>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<http://data.europa.eu/m8g/endTime#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/endTime>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Moment waarop het tijdsinterval eindigt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "einde"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/PeriodOfTime>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/m8g/endTime#2019-02-07>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<http://schema.org/email#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/email>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Email-adres waarnaar men kan mailen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "email"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/email#2019-02-07>.
 <https://data.vlaanderen.be/ns/melding> {
 <https://data.vlaanderen.be/ns/melding#Eigenschap#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#Eigenschap>;
@@ -125,31 +153,22 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/melding#Eigenschap>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#eigenschap#2019-02-07>.
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen> {
-<https://schema.org/unitText#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/unitText>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De eenheid waarin de waarde is uitgedrukt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "eenheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/unitText#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats> {
+<https://data.vlaanderen.be/ns/openbaardomein> {
 <http://fixme.com#eigenaar#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://fixme.com#eigenaar>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De entiteit (bv. de gemeente) die eigenaar is van het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De entiteit (bv. de gemeente) die eigenaar is van het gebied."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "eigenaar"@nl;
     <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#Organization>;
     a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://fixme.com#eigenaar>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De entiteit (bv. de gemeente) die eigenaar is van het gebied."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De entiteit (bv. de gemeente) die eigenaar is van het object."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "eigenaar"@nl;
     <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#Organization>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://fixme.com#eigenaar#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats> {
+<https://data.vlaanderen.be/ns/openbaardomein> {
 <http://schema.org/email#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://schema.org/email>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "Email-adres waarnaar men kan mailen."@nl;
@@ -158,15 +177,15 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/email#2021-09-30>.
-<https://data.vlaanderen.be/ns/wetgeving> {
-<http://data.europa.eu/eli/ontology#corrected_by#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#corrected_by>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft een hulpmiddel aan dat tekstuele wijzigingen introduceert (zoals correctie of spelfouten) zonder juridische wijzigingen in deze bron, uitdrukking of indeling."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "errata"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalExpression>
+<https://data.vlaanderen.be/ns/openbaardomein> {
+<https://data.vlaanderen.be/ns/openbaardomein/gebied#einddatum#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#einddatum>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum waarop de huidige versie van het beheergebied uit gebruik wordt genomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "einddatum"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#corrected_by#2019-02-07>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/gebied#einddatum#2021-09-30>.
 <http://data.vlaanderen.be/ns/metadata-dcat> {
 <http://www.w3.org/2006/vcard/ns#hasEmail#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2006/vcard/ns#hasEmail>;
@@ -194,14 +213,6 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/dcat#endpointURL#2021-04-22>.
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel> {
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#EigenBedding#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#EigenBedding>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Terreindeel bestemd voor het gebruik van spoorvoertuigen (trein, tram) dat niet behoord tot de wegbaan."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Eigen bedding"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Wegbaan>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#EigenBedding#2021-09-30>.
 <https://data.vlaanderen.be/ns/cultureel-erfgoed> {
 <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity>;
@@ -252,22 +263,12 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <https://www.iflastandards.info/fr/frbr/frbroo#F22>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://www.iflastandards.info/fr/frbr/frbroo#R17#2021-04-22>.
-<https://data.vlaanderen.be/ns/besluitvorming> {
-<https://data.vlaanderen.be/ns/dossier#Activiteit.einddatum#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#Activiteit.einddatum>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De einddatum van de activiteit."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "einddatum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Activity>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel> {
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#EigenBedding#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#EigenBedding>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Terreindeel bestemd voor het gebruik van spoorvoertuigen (trein, tram) dat niet behoord tot de wegbaan."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Eigen bedding"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Wegbaan>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/dossier#Activiteit.einddatum#2021-02-04>.
-<https://data.vlaanderen.be/ns/besluitvorming> {
-<https://data.vlaanderen.be/ns/dossier#Procedurestap.einddatum#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#Procedurestap.einddatum>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De einddatum van de procedurestap."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "einddatum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Procedurestap>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/dossier#Procedurestap.einddatum#2021-02-04>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#EigenBedding#2021-09-30>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/e.trig>.

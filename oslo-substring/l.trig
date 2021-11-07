@@ -1,3 +1,53 @@
+<http://data.vlaanderen.be/ns/dcatapvl> {
+<http://purl.org/dc/terms/LicenseDocument#13-06-2019> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/LicenseDocument>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een wettelijk document dat de voorwaarden waaronder men een resource mag gebruiken."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Licentiedocument"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/LicenseDocument#13-06-2019>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<http://www.w3.org/ns/prov#Location#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/prov#Location>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van een geogrrafische positie, dmv coordinaten, een toponiem, een adreslabel, een verwijzing naar een plaats/regio of verwijzing naar een adres."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Locatie"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/prov#Location#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<https://data.vlaanderen.be/ns/generiek#lokaleIdentificator#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/generiek#lokaleIdentificator>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "String gebruikt om het object uniek te identificeren binnen de naamruimte."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "lokale identificator"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/generiek#lokaleIdentificator#2021-02-04>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<https://data.vlaanderen.be/ns/bedrijventerrein#linkSchorsing#2020-06-18> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/bedrijventerrein#linkSchorsing>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Link naar het arrest van de schorsing"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "link schorsing"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/bedrijventerrein#SchorsingInfo>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/bedrijventerrein#linkSchorsing#2020-06-18>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<https://data.vlaanderen.be/ns/generiek#lokaleIdentificator#2020-06-18> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/generiek#lokaleIdentificator>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "String gebruikt om het object uniek te identificeren binnen de naamruimte."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "lokale identificator"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/generiek#lokaleIdentificator#2020-06-18>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<https://data.vlaanderen.be/ns/perceel#landgebruik#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#landgebruik>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft het gebruik aan van de ruimtelijke eenheid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "landgebruik"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#landgebruik#2020-06-18>.
 <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
 <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Lichtpunt#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Lichtpunt>;
@@ -79,42 +129,23 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/netwerk#Link>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/netwerk#GerichteLink.link#2020-04-23>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied> {
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#lichteRecreatie#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#lichteRecreatie>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of de begraafplaats al dan niet geschikt is voor lichte recreatie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "lichte recreatie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Begraafplaats>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>
+<https://data.vlaanderen.be/ns/wetgeving> {
+<http://data.europa.eu/eli/ontology#id_local#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#id_local>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De unieke ID die wordt gebruikt in een lokaal referentiesysteem om compatibiliteit met eerdere versies te handhaven."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "lokaleid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Identifier>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/gebied#lichteRecreatie#2021-09-30>.
-<https://data.vlaanderen.be/ns/bedrijventerrein> {
-<https://data.vlaanderen.be/ns/bedrijventerrein#linkSchorsing#2020-06-18> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/bedrijventerrein#linkSchorsing>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Link naar het arrest van de schorsing"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "link schorsing"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/bedrijventerrein#SchorsingInfo>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#id_local#2019-02-07>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.europa.eu/eli/ontology#LegalExpression#20-07-2018> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#LegalExpression>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een legale verschijningsvorm is een intellectuele realisatie van een rechtsgrond onder de vorm van een opeenvolging van tekens (meestal alphanumerieke tekens)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Legale Verschijningsvorm"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/wetgeving#UnieRGLV>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/bedrijventerrein#linkSchorsing#2020-06-18>.
-<https://data.vlaanderen.be/ns/bedrijventerrein> {
-<https://data.vlaanderen.be/ns/generiek#lokaleIdentificator#2020-06-18> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/generiek#lokaleIdentificator>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "String gebruikt om het object uniek te identificeren binnen de naamruimte."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "lokale identificator"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/generiek#lokaleIdentificator#2020-06-18>.
-<https://data.vlaanderen.be/ns/bedrijventerrein> {
-<https://data.vlaanderen.be/ns/perceel#landgebruik#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#landgebruik>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft het gebruik aan van de ruimtelijke eenheid."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "landgebruik"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#landgebruik#2020-06-18>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#LegalExpression#20-07-2018>.
 <https://data.vlaanderen.be/ns/melding> {
 <http://www.w3.org/2000/01/rdf-schema#label#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2000/01/rdf-schema#label>;
@@ -133,24 +164,7 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/2004/02/skos/core#prefLabel#2019-02-07>.
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen> {
-<http://open.vocab.org/terms/length#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://open.vocab.org/terms/length>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De lineare grootte van het object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "lengte"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://open.vocab.org/terms/length#2021-09-30>.
-<http://data.vlaanderen.be/ns/besluit> {
-<http://data.europa.eu/eli/ontology#LegalExpression#20-07-2018> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#LegalExpression>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een legale verschijningsvorm is een intellectuele realisatie van een rechtsgrond onder de vorm van een opeenvolging van tekens (meestal alphanumerieke tekens)."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Legale Verschijningsvorm"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/wetgeving#UnieRGLV>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#LegalExpression#20-07-2018>.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats> {
+<https://data.vlaanderen.be/ns/openbaardomein> {
 <http://www.opengis.net/ont/sf#LineString#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/sf#LineString>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "Curve met lineaire interpolatie tussen de punten. Elk opeenvolgend paar punten vormt een lijnsegment. De lijnstring heeft ten minste twee punten."@nl;
@@ -158,23 +172,24 @@
     <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.opengis.net/ont/geosparql#Geometry>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.opengis.net/ont/sf#LineString#2021-09-30>.
-<https://data.vlaanderen.be/ns/wetgeving> {
-<http://data.europa.eu/eli/ontology#id_local#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#id_local>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De unieke ID die wordt gebruikt in een lokaal referentiesysteem om compatibiliteit met eerdere versies te handhaven."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "lokaleid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Identifier>
+<https://data.vlaanderen.be/ns/openbaardomein> {
+<http://open.vocab.org/terms/length#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://open.vocab.org/terms/length>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De lineare grootte van het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "lengte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#id_local#2019-02-07>.
-<https://data.vlaanderen.be/ns/openbaardomein/vegetatie> {
-<https://data.vlaanderen.be/ns/openbaardomein/vegetatie#Leiboom#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#Leiboom>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een leiboom is een boom waarvan alle gesteltakken in één verticaal vlak worden geleid. Soms worden de geleide bomen tegen een muur geleid of wordt er in een leidconstructie voorzien."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Leiboom"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#Vormboom>
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://open.vocab.org/terms/length#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats> {
+<https://data.vlaanderen.be/ns/openbaardomein/gebied#lichteRecreatie#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#lichteRecreatie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of de begraafplaats al dan niet geschikt is voor lichte recreatie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "lichte recreatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Begraafplaats>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#Leiboom#2021-09-30>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/gebied#lichteRecreatie#2021-09-30>.
 <http://data.vlaanderen.be/ns/metadata-dcat> {
 <http://data.vlaanderen.be/ns/metadata-dcat#landingspaginaVoorAuthenticatie#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/metadata-dcat#landingspaginaVoorAuthenticatie>;
@@ -263,22 +278,6 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/perceel#KadastraalPlanperceel>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/gebouw#ligtOp#2020-06-18>.
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel> {
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Laagstamboomgaard#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Laagstamboomgaard>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het betreft vrijwel uitsluitend productieboomgaarden met lage fruitbomen in rijen, dicht op elkaar. Tussen de rijen is meestal een grasstrook vrijgelaten die als doorgang voor landbouwmachines dient."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Laagstamboomgaard"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Laagstamboomgaard#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel> {
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Ligweide#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Ligweide>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Terreindeel voor hoofdzakelijk sedentaire ontspanning."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Ligweide"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#RecreatieveRuimte>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Ligweide#2021-09-30>.
 <https://data.vlaanderen.be/ns/cultureel-erfgoed> {
 <http://www.w3.org/ns/prov#Location#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/prov#Location>;
@@ -304,22 +303,22 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Location>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location#2021-04-22>.
-<https://data.vlaanderen.be/ns/besluitvorming> {
-<http://www.w3.org/ns/prov#Location#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/prov#Location>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van een geogrrafische positie, dmv coordinaten, een toponiem, een adreslabel, een verwijzing naar een plaats/regio of verwijzing naar een adres."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Locatie"@nl
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel> {
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Laagstamboomgaard#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Laagstamboomgaard>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het betreft vrijwel uitsluitend productieboomgaarden met lage fruitbomen in rijen, dicht op elkaar. Tussen de rijen is meestal een grasstrook vrijgelaten die als doorgang voor landbouwmachines dient."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Laagstamboomgaard"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/prov#Location#2021-02-04>.
-<https://data.vlaanderen.be/ns/besluitvorming> {
-<https://data.vlaanderen.be/ns/generiek#lokaleIdentificator#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/generiek#lokaleIdentificator>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "String gebruikt om het object uniek te identificeren binnen de naamruimte."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "lokale identificator"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Laagstamboomgaard#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel> {
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Ligweide#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Ligweide>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Terreindeel voor hoofdzakelijk sedentaire ontspanning."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Ligweide"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#RecreatieveRuimte>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/generiek#lokaleIdentificator#2021-02-04>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Ligweide#2021-09-30>.
 <https://data.vlaanderen.be/ns/toestemming> {
 <http://data.vlaanderen.be/ns/adres#land#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/adres#land>;

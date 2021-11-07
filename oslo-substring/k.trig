@@ -1,3 +1,34 @@
+<https://data.vlaanderen.be/ns/openbaardomein/vegetatie> {
+<https://schema.org/QuantitativeValue#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/QuantitativeValue>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van de kwantiteit van een bepaald kenmerk van een object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Kwantitatieve Waarde"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/QuantitativeValue#2021-09-30>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<https://data.vlaanderen.be/ns/besluitvorming#korteTitel#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#korteTitel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een verkorte vorm van de naam."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "korte titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Agendapunt>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/besluitvorming#korteTitel#2021-02-04>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<https://data.vlaanderen.be/ns/perceel#KadastraalPlanperceel#2020-06-18> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#KadastraalPlanperceel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een gedeelte van het Belgische grondgebied, geografische afgebakend en geïdentificeerd door de AAPD op het kadastraal percelenplan, dat overeenstemt met het grondoppervlak van één of meerdere kadastrale patrimoniale percelen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Kadastraal Planperceel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#KadastraalPlanperceel#2020-06-18>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<https://schema.org/QuantitativeValue#2020-06-18> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/QuantitativeValue>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van de kwantiteit van een bepaald kenmerk van een object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Kwantitatieve Waarde"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/QuantitativeValue#2020-06-18>.
 <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
 <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Keldergat#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Keldergat>;
@@ -70,21 +101,38 @@
     <http://www.w3.org/2000/01/rdf-schema#label> "Kwantitatieve Waarde"@nl
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/QuantitativeValue#2020-04-23>.
-<https://data.vlaanderen.be/ns/bedrijventerrein> {
-<https://data.vlaanderen.be/ns/perceel#KadastraalPlanperceel#2020-06-18> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#KadastraalPlanperceel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een gedeelte van het Belgische grondgebied, geografische afgebakend en geïdentificeerd door de AAPD op het kadastraal percelenplan, dat overeenstemt met het grondoppervlak van één of meerdere kadastrale patrimoniale percelen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Kadastraal Planperceel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid>
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen> {
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Kassei#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Kassei>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Bestrating van kasseien, in rij gelegd. Kasseien zijn bestratingselementen van porfier, kwartsiet, graniet, of van harde zandsteen die geen schilferige structuur heeft. Ze hebben een dicht aaneengesloten en homogene korrel, zonder steenkorst, kwade aders of kwakaders en vertonen geen diamantkop."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Kassei"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Bestrating>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#KadastraalPlanperceel#2020-06-18>.
-<https://data.vlaanderen.be/ns/bedrijventerrein> {
-<https://schema.org/QuantitativeValue#2020-06-18> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/QuantitativeValue>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van de kwantiteit van een bepaald kenmerk van een object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Kwantitatieve Waarde"@nl
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Kassei#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen> {
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Kunstgras#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Kunstgras>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Bedekking bestaande uit synthetisch materiaal, met de bedoeling om natuurlijk gras te imiteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Kunstgras"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#OnbegroeidVoorkomen>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/QuantitativeValue#2020-06-18>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Kunstgras#2021-09-30>.
+<https://data.vlaanderen.be/ns/transactie> {
+<http://data.europa.eu/m8g/Cost#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/Cost>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Deel vd kost verbonden aan de uitvoering van de Dienstverlening te betalen door de gebruiker."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Kost"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/m8g/Cost#2019-02-07>.
+<https://data.vlaanderen.be/ns/transactie> {
+<http://data.europa.eu/m8g/hasCost#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/hasCost>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Kostprijs verbonden aan het gebruik van de publieke dienstverlening."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "kost"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/cpsv#PublicService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/Cost>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/m8g/hasCost#2019-02-07>.
 <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen> {
 <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Kleinfruit#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Kleinfruit>;
@@ -110,38 +158,23 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#knipoppervlak#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen> {
-<https://schema.org/QuantitativeValue#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/QuantitativeValue>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van de kwantiteit van een bepaald kenmerk van een object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Kwantitatieve Waarde"@nl
+<https://data.vlaanderen.be/ns/perceel> {
+<https://data.vlaanderen.be/ns/perceel#KadastraalPatrimoniumperceel#2020-06-18> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#KadastraalPatrimoniumperceel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een onroerend goed of onroerend recht dat in hoofde van één of meerdere titularissen van een zakelijk recht onderworpen is aan een bepaald eigendomsstatuut."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Kadastraal Patrimoniumperceel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/prov#Entity>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/QuantitativeValue#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/vegetatie> {
-<https://data.vlaanderen.be/ns/openbaardomein/vegetatie#Klimvorm#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#Klimvorm>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Plant met buigzame stengels die zich aan muren, bomen, enz. hecht en zodoende omhoog klimt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Klimvorm"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#VegetatieElement>
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#KadastraalPatrimoniumperceel#2020-06-18>.
+<https://data.vlaanderen.be/ns/perceel> {
+<https://data.vlaanderen.be/ns/perceel#ZakelijkRecht.kadastraalPatrimoniumperceel#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#ZakelijkRecht.kadastraalPatrimoniumperceel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Referentie naar verbonden klasse."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Kadastraal Patrimoniumperceel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/perceel#ZakelijkRecht>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/perceel#KadastraalPatrimoniumperceel>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#Klimvorm#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/vegetatie> {
-<https://data.vlaanderen.be/ns/openbaardomein/vegetatie#Knotboom#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#Knotboom>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een knotboom is een boom waarvan de stam op een bepaalde hoogte wordt afgezet en die hierop opnieuw uitloopt. Door periodiek afzetten van de takken ontstaat een knot. Het knotten van de knotboom wordt uitgevoerd in kapcyclussen. De hoogte van de knot wordt bepaald tijdens de eerste knotbeurt. De minimale knothoogte van een knotboom wordt hier bepaald op 1 meter. Indien de knothoogte lager is dan spreken we van hakhout."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Knotboom"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#Vormboom>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#Knotboom#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/vegetatie> {
-<https://data.vlaanderen.be/ns/openbaardomein/vegetatie#kroondiameter#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#kroondiameter>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Diameter van de kroonprojectie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "kroondiameter"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#Boomvorm>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#kroondiameter#2021-09-30>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#ZakelijkRecht.kadastraalPatrimoniumperceel#2020-06-18>.
 <https://data.vlaanderen.be/ns/openbaardomein/waterdeel> {
 <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Kanaal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Kanaal>;
@@ -166,55 +199,6 @@
     <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Waterloop>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#KunstmatigeWaterloop#2021-09-30>.
-<https://data.vlaanderen.be/ns/transactie> {
-<http://data.europa.eu/m8g/Cost#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/Cost>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Deel vd kost verbonden aan de uitvoering van de Dienstverlening te betalen door de gebruiker."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Kost"@nl
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/m8g/Cost#2019-02-07>.
-<https://data.vlaanderen.be/ns/transactie> {
-<http://data.europa.eu/m8g/hasCost#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/hasCost>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Kostprijs verbonden aan het gebruik van de publieke dienstverlening."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "kost"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/cpsv#PublicService>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/Cost>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/m8g/hasCost#2019-02-07>.
-<https://data.vlaanderen.be/ns/perceel> {
-<https://data.vlaanderen.be/ns/perceel#KadastraalPatrimoniumperceel#2020-06-18> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#KadastraalPatrimoniumperceel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een onroerend goed of onroerend recht dat in hoofde van één of meerdere titularissen van een zakelijk recht onderworpen is aan een bepaald eigendomsstatuut."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Kadastraal Patrimoniumperceel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/prov#Entity>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#KadastraalPatrimoniumperceel#2020-06-18>.
-<https://data.vlaanderen.be/ns/perceel> {
-<https://data.vlaanderen.be/ns/perceel#ZakelijkRecht.kadastraalPatrimoniumperceel#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#ZakelijkRecht.kadastraalPatrimoniumperceel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Referentie naar verbonden klasse."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Kadastraal Patrimoniumperceel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/perceel#ZakelijkRecht>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/perceel#KadastraalPatrimoniumperceel>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#ZakelijkRecht.kadastraalPatrimoniumperceel#2020-06-18>.
-<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen> {
-<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Kassei#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Kassei>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Bestrating van kasseien, in rij gelegd. Kasseien zijn bestratingselementen van porfier, kwartsiet, graniet, of van harde zandsteen die geen schilferige structuur heeft. Ze hebben een dicht aaneengesloten en homogene korrel, zonder steenkorst, kwade aders of kwakaders en vertonen geen diamantkop."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Kassei"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Bestrating>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Kassei#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen> {
-<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Kunstgras#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Kunstgras>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Bedekking bestaande uit synthetisch materiaal, met de bedoeling om natuurlijk gras te imiteren."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Kunstgras"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#OnbegroeidVoorkomen>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Kunstgras#2021-09-30>.
 <https://data.vlaanderen.be/ns/openbaardomein/terreindeel> {
 <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Kantsteen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Kantsteen>;
@@ -223,13 +207,4 @@
     <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Wegbaan>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Kantsteen#2021-09-30>.
-<https://data.vlaanderen.be/ns/besluitvorming> {
-<https://data.vlaanderen.be/ns/besluitvorming#korteTitel#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#korteTitel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een verkorte vorm van de naam."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "korte titel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Agendapunt>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/besluitvorming#korteTitel#2021-02-04>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/k.trig>.

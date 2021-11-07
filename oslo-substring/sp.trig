@@ -1,3 +1,20 @@
+<https://data.vlaanderen.be/ns/transactie> {
+<http://data.europa.eu/m8g/playsRole#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/playsRole>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Participatie van de agent (aan een publieke dienstverlening)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "speelt rol"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Agent>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/Participation>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/m8g/playsRole#2019-02-07>.
+<https://data.vlaanderen.be/ns/openbaardomein/gebied> {
+<https://data.vlaanderen.be/ns/openbaardomein/gebied#Spoorweg#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Spoorweg>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Zone bedoeld om hoofdzakelijk treinverkeer te kunnen laten plaatsvinden, inclusief de gebieden die de spoorinfrastructuur ondersteunen (vb: spoorbermen)"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Spoorweg"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Spoorweg#2021-09-30>.
 <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen> {
 <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Speelgazon#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Speelgazon>;
@@ -14,15 +31,6 @@
     <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Gazon>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sportgazon#2021-09-30>.
-<https://data.vlaanderen.be/ns/transactie> {
-<http://data.europa.eu/m8g/playsRole#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/playsRole>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Participatie van de agent (aan een publieke dienstverlening)."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "speelt rol"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Agent>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/Participation>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/m8g/playsRole#2019-02-07>.
 <https://data.vlaanderen.be/ns/openbaardomein/terreindeel> {
 <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Speelruimte#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Speelruimte>;

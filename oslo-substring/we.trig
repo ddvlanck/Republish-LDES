@@ -22,22 +22,20 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <https://www.iflastandards.info/fr/frbr/frbroo#F1>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://www.iflastandards.info/fr/frbr/frbroo#R16#2021-04-22>.
-<https://data.vlaanderen.be/ns/besluitvorming> {
-<http://data.vlaanderen.be/ns/besluit#werkingsgebied#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#werkingsgebied>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geografische gebied waarbinnen de bestuurseenheid bepaalde verantwoordelijkheden heeft waarbinnen het bestuurshandelingen kan stellen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "werkingsgebied"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Bestuurseenheid>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Location>
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel> {
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Wegbaan#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Wegbaan>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De wegbaan (Wbn) is de voorstelling van de wegcorridor in het GRB. De wegbaan wordt overlangs opgedeeld in verschillende arbitrair afgebakende wegbaanelementen. Er zijn twee types wegbaanelementen: een kruispuntzone komt overeen met een kruispunt; een wegsegment komt overeen met een wegvak."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Wegbaan"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#werkingsgebied#2021-02-04>.
-<https://data.vlaanderen.be/ns/besluitvorming> {
-<http://purl.org/dc/terms/spatial#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/spatial>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Administratief gebied dat de Publieke Organisatie dekt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "werkingsgebied"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/PublicOrganisation>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Location>
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Wegbaan#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel> {
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Wegberm#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Wegberm>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Langgerekte strook grond binnen de wegcorridor gelegen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Wegberm"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Wegbaan>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/spatial#2021-02-04>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Wegberm#2021-09-30>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/we.trig>.

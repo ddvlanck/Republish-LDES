@@ -1,3 +1,150 @@
+<https://data.vlaanderen.be/ns/openbaardomein/vegetatie> {
+<http://schema.org/height#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/height>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De hoogte van het object zelf."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "hoogte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#VegetatieElement>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/height#2021-09-30>.
+<http://data.vlaanderen.be/ns/dcatapvl> {
+<http://purl.org/dc/terms/license#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/license>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De licentie van de distributie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft licentie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/LicenseDocument>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/license>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De licentie van de datasetcatalogus."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft licentie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/LicenseDocument>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/license#13-06-2019>.
+<http://data.vlaanderen.be/ns/dcatapvl> {
+<http://purl.org/dc/terms/publisher#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/publisher>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De uitgever van de dataset. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft uitgever"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/publisher>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De uitgever van de datasetcatalogus"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft uitgever"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/publisher#13-06-2019>.
+<http://data.vlaanderen.be/ns/dcatapvl> {
+<http://www.w3.org/ns/dcat#dataset#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een dataset die behoort tot de datasetcatalogus"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft dataset"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Dataset>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/dcat#dataset#13-06-2019>.
+<http://data.vlaanderen.be/ns/dcatapvl> {
+<http://www.w3.org/ns/dcat#distribution#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#distribution>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De distributie van een dataset."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft distributie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Distribution>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/dcat#distribution#13-06-2019>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<https://data.vlaanderen.be/ns/besluitvorming#heeftAanleiding#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#heeftAanleiding>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De motivatie voor het opstarten van de Besluitvormingsaangelegenheid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft aanleiding"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/besluitvorming#Besluitvormingsaangelegenheid>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/besluitvorming#Aanleiding>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/besluitvorming#heeftAanleiding#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<https://data.vlaanderen.be/ns/besluitvorming#heeftBeslissing#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#heeftBeslissing>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De Beslissing die volgt uit de Behandeling van het Agendapunt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft beslissing"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/besluitvorming#Beslissingsactiviteit>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/besluitvorming#heeftBeslissing#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<https://data.vlaanderen.be/ns/besluitvorming#heeftBijlage#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#heeftBijlage>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een gerelateerd Stuk dat vereist is om het stuk zijn functie of samenhang te ondersteunen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft bijlage"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Stuk>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/dossier#Stuk>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/besluitvorming#heeftBijlage#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<https://data.vlaanderen.be/ns/besluitvorming#heeftNotulen#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#heeftNotulen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De formele notulen van de vergadering."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft notulen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/dossier#Stuk>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/besluitvorming#heeftNotulen#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<https://data.vlaanderen.be/ns/besluitvorming#heeftOorsprongIn#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#heeftOorsprongIn>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het stuk waarop de aanleiding zich baseert."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft oorsprong in"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/besluitvorming#Aanleiding>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/dossier#Stuk>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/besluitvorming#heeftOorsprongIn#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<http://data.vlaanderen.be/ns/besluit#heeftAanwezige#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#heeftAanwezige>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een agent (bvb: mandataris) die aanwezig was tijdens (een deel van) de activiteit waar hij een zekere verantwoordelijkheid had."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft aanwezige"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#heeftAanwezige#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<http://data.vlaanderen.be/ns/besluit#heeftStemming#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#heeftStemming>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een stemming die plaatsvond tijdens de behandeling van het agendapunt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft stemming"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/besluit#Stemming>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#heeftStemming#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<http://purl.org/dc/terms/subject#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/subject>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het onderwerp van de activiteit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft onderwerp"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/besluit#Agendapunt>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/subject#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<http://www.w3.org/ns/prov#qualifiedAssociation#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/prov#qualifiedAssociation>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Persoon of organisatie die binnen een bepaalde rol een verantwoordelijkheid opneemt voor deze activiteit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft deelnemer"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Activity>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Association>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/prov#qualifiedAssociation#2021-02-04>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<http://xmlns.com/foaf/0.1/homepage#2020-06-18> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/homepage>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Adres van de homepage van de website van de ontwikkelbare bedrijvenzone of ontwikkelaar."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "homepage"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://xmlns.com/foaf/0.1/homepage#2020-06-18>.
 <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
 <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Haltepaal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Haltepaal>;
@@ -38,6 +185,59 @@
     <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Deksel>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Huisaansluiting#2021-09-30>.
+<https://data.vlaanderen.be/ns/melding> {
+<https://data.vlaanderen.be/ns/melding#heeftStatus#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#heeftStatus>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De Status verbonden aan de Melding."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft status"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/melding#Meldingstatus>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#heeftStatus#2019-02-07>.
+<https://data.vlaanderen.be/ns/melding> {
+<https://data.vlaanderen.be/ns/organisatie#Hoedanigheid#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Agent met een Functie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Hoedanigheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://purl.org/dc/terms/Agent>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid#2019-02-07>.
+<https://data.vlaanderen.be/ns/melding> {
+<http://www.w3.org/ns/oa#hasBody#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/oa#hasBody>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het object van deze associatie is een resource die de body van de Melding beschrijft (MeldingBody)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft body"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Melding>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/melding#MeldingBody>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/oa#hasBody#2019-02-07>.
+<https://data.vlaanderen.be/ns/melding> {
+<http://www.w3.org/ns/org#hasUnit#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/org#hasUnit>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijst naar een organisatie-eenheid die deel uitmaakt van de organisatie, bv een afdeling.\t"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft eenheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.w3.org/ns/org#Organization>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#OrganizationalUnit>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/org#hasUnit#2019-02-07>.
+<https://data.vlaanderen.be/ns/wetgeving> {
+<https://data.vlaanderen.be/ns/wetgeving#heftOp#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#heftOp>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat deze bron een andere buiten werking stelt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heft op"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/wetgeving#heftOp#2019-02-07>.
+<https://data.vlaanderen.be/ns/wetgeving> {
+<http://purl.org/dc/terms/hasPart#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/hasPart>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat deze bron uit deelbronnen bestaat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft deel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResourceSubdivision>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/hasPart#2019-02-07>.
 <https://data.vlaanderen.be/ns/notificatie> {
 <http://data.europa.eu/m8g/hasCompetentAuthority#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/hasCompetentAuthority>;
@@ -56,174 +256,6 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/Brand>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/brand#2019-02-07>.
-<https://data.vlaanderen.be/ns/bedrijventerrein> {
-<http://xmlns.com/foaf/0.1/homepage#2020-06-18> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/homepage>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Adres van de homepage van de website van de ontwikkelbare bedrijvenzone of ontwikkelaar."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "homepage"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://xmlns.com/foaf/0.1/homepage#2020-06-18>.
-<https://data.vlaanderen.be/ns/melding> {
-<https://data.vlaanderen.be/ns/melding#heeftEigenschap#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#heeftEigenschap>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Refereert naar een Eigenschap die deel uitmaakt van het Meldingsobject."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft eigenschap"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Meldingsobject>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/melding#MeldingsobjectAttribuut>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#heeftEigenschap#2019-02-07>.
-<https://data.vlaanderen.be/ns/melding> {
-<https://data.vlaanderen.be/ns/melding#heeftStatus#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#heeftStatus>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De Status verbonden aan de Melding."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft status"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/melding#Meldingstatus>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#heeftStatus>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De Status verbonden aan het Meldingsobject."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft status"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/melding#Meldingstatus>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#heeftStatus#2019-02-07>.
-<https://data.vlaanderen.be/ns/melding> {
-<https://data.vlaanderen.be/ns/melding#huidigeWaarde#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#huidigeWaarde>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De huidige waarde van een Eigenschap."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "huidige waarde"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#MeldingsobjectAttribuut>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#huidigeWaarde#2019-02-07>.
-<https://data.vlaanderen.be/ns/melding> {
-<https://data.vlaanderen.be/ns/organisatie#Hoedanigheid#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Agent met een Functie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Hoedanigheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://purl.org/dc/terms/Agent>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid#2019-02-07>.
-<https://data.vlaanderen.be/ns/melding> {
-<http://www.w3.org/ns/oa#hasBody#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/oa#hasBody>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het object van deze associatie is een resource die de body van de Melding beschrijft (MeldingBody)."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft body"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Terugmelding>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/melding#MeldingBody>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/oa#hasBody#2019-02-07>.
-<https://data.vlaanderen.be/ns/melding> {
-<http://www.w3.org/ns/oa#hasSource#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/oa#hasSource>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De bron (Dataset) waar het Meldingsobject in voor komt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeftBron"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Meldingsobject>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/dcmitype/Dataset>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/oa#hasSource#2019-02-07>.
-<https://data.vlaanderen.be/ns/melding> {
-<http://www.w3.org/ns/oa#hasState#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/oa#hasState>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De relatie tussen het Meldingsobject en een TijdToestand."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft toestand"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Meldingsobject>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/oa#TimeState>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/oa#hasState#2019-02-07>.
-<https://data.vlaanderen.be/ns/melding> {
-<http://www.w3.org/ns/oa#hasTarget#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/oa#hasTarget>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De relatie tussen de Melding en het doelwit, het Meldingsobject waarop de melding slaat."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft doelwit"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Terugmelding>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/melding#Meldingsobject>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/oa#hasTarget#2019-02-07>.
-<https://data.vlaanderen.be/ns/melding> {
-<http://www.w3.org/ns/org#hasUnit#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/org#hasUnit>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijst naar een organisatie-eenheid die deel uitmaakt van de organisatie, bv een afdeling.\t"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft eenheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.w3.org/ns/org#Organization>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#OrganizationalUnit>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/org#hasUnit#2019-02-07>.
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen> {
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Haag#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Haag>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Hagen zijn lijnvormige elementen en onderscheiden zich van een heestermassief doordat zowel de bovenkant als de zijkanten geschoren worden en dit 1 keer per jaar."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Haag"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Haag#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen> {
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heester#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heester>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Houtachtige planten die in of dicht bij de grond vertakken. Anders dan een boom vormen ze in het algemeen geen duidelijke stam, maar komen de meeste soorten met een aantal takken uit de grond, die dan ook grondtakken genoemd worden. Voorwaarde is wel dat de plant in zijn eventuele stam en takken houtweefsel vormt, hoewel dat niet tot in het hart hoeft te zijn."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Heester"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heester#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen> {
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heestermassief#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heestermassief>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Heestertype gekenmerkt door een gesloten, massieve structuur, waarbij de individuele heesters moeilijk te onderscheiden zijn."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Heestermassief"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heester>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heestermassief#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen> {
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heg#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heg>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Haag die om de twee jaar wordt geschoren (of minder)."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Heg"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Haag>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heg#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen> {
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Hooiland#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Hooiland>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een grasland gebruikt wordt om hooi te oogsten met hoofdzakelijk inheemse planten en dat extensief gemaaid wordt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Hooiland"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Hooiland#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen> {
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Houtige planten of houtige gewassen (planta lignosa) zijn overblijvende planten die worden gekenmerkt door secundaire diktegroei, waardoor de takken, stammen en wortels veel hout bevatten."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Houtachtigen"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen> {
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtkant#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtkant>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Ongeschoren haag of mantelvegetatie, die soms als hakhout wordt behandeld, maar niet op een door de mens aangelegde wal (verhoging)."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Houtkant"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtkant#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen> {
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtwal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtwal>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Houtkant op een door de mens aangelegde wal (verhoging)."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Houtwal"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtwal#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen> {
-<http://schema.org/height#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/height>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De hoogte van het object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "hoogte"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/height#2021-09-30>.
 <http://data.vlaanderen.be/ns/besluit> {
 <http://data.vlaanderen.be/ns/besluit#heeftAanwezige#20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#heeftAanwezige>;
@@ -356,46 +388,20 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Document>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#heeftZittingsverslag#20-07-2018>.
-<http://data.vlaanderen.be/ns/besluit> {
-<http://data.europa.eu/eli/ontology#cites#20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#cites>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een citatie in de wettelijke tekst. Dit omvat zowel woordelijke citaten als citaten in verwijzingen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "citeert"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#cites>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een citatie in de wettelijke tekst. Dit omvat zowel woordelijke citaten als citaten in verwijzingen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "citeert"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalExpression>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#cites>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een bijlage waarnaar verwezen wordt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft bijlage"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Document>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#cites#20-07-2018>.
-<http://data.vlaanderen.be/ns/besluit> {
-<http://data.europa.eu/eli/ontology#has_part#20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#has_part>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt een artikel aan van dit besluit."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft deel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResourceSubdivision>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#has_part#20-07-2018>.
-<https://ddvlanck.github.io/Republish-LDES/oslo-substring/h.trig> <https://w3id.org/tree#relation> _:df_0_67.
-_:df_0_67 a <https://w3id.org/tree#SubstringRelation>;
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/h.trig> <https://w3id.org/tree#relation> _:df_0_71.
+_:df_0_71 a <https://w3id.org/tree#SubstringRelation>;
     <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/he.trig>;
     <https://w3id.org/tree#value> "he".
-<https://ddvlanck.github.io/Republish-LDES/oslo-substring/h.trig> <https://w3id.org/tree#relation> _:df_0_68.
-_:df_0_68 a <https://w3id.org/tree#SubstringRelation>;
-    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ho.trig>;
-    <https://w3id.org/tree#value> "ho".
-<https://ddvlanck.github.io/Republish-LDES/oslo-substring/h.trig> <https://w3id.org/tree#relation> _:df_0_69.
-_:df_0_69 a <https://w3id.org/tree#SubstringRelation>;
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/h.trig> <https://w3id.org/tree#relation> _:df_0_72.
+_:df_0_72 a <https://w3id.org/tree#SubstringRelation>;
     <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/hu.trig>;
     <https://w3id.org/tree#value> "hu".
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/h.trig> <https://w3id.org/tree#relation> _:df_0_73.
+_:df_0_73 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ha.trig>;
+    <https://w3id.org/tree#value> "ha".
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/h.trig> <https://w3id.org/tree#relation> _:df_0_74.
+_:df_0_74 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ho.trig>;
+    <https://w3id.org/tree#value> "ho".
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/h.trig>.

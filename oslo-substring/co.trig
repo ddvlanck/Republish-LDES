@@ -1,3 +1,56 @@
+<http://data.vlaanderen.be/ns/metadata-dcat> {
+<http://purl.org/dc/terms/conformsTo#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/conformsTo>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een protocol waaraan de dataservice voldoet."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "conform aan protocol"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Standard>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/conformsTo>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een standaard, schema, applicatieprofiel, vocabularium waaraan de dataset voldoet."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "conform"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Standard>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/conformsTo#2021-04-22>.
+<http://data.vlaanderen.be/ns/metadata-dcat> {
+<http://www.w3.org/ns/dcat#contactPoint#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#contactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De relevante contactinformatie waarmee een eindgebruiker in contact kan treden met de verantwoordelijken van de catalogus."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactinformatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/vcard/ns#Kind>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#contactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De relevante contactinformatie waarmee een eindgebruiker in contact kan treden met de verantwoordelijken van de dataservice."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactinformatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/vcard/ns#Kind>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#contactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De relevante contactinformatie waarmee een eindgebruiker in contact kan treden met de verantwoordelijken van de dataset."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactinformatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/ContactPoint>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/dcat#contactPoint#2021-04-22>.
+<http://data.vlaanderen.be/ns/metadata-dcat> {
+<http://xmlns.com/foaf/0.1/page#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/page>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een webpagina die ofwel toelaat om contact op te nemen (via b.v. een webformulier) of die informatie bevat hoe men contact kan opnemen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactpagina"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2006/vcard/ns#Kind>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://xmlns.com/foaf/0.1/page#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://purl.org/dc/dcmitype/Collection#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/dcmitype/Collection>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aggregatie van Entiteiten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Collectie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://wherever/TODO>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/dcmitype/Collection#2021-04-22>.
 <https://data.vlaanderen.be/ns/cultureel-erfgoed> {
 <http://schema.org/ContactPoint#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <http://schema.org/ContactPoint>;

@@ -1,21 +1,25 @@
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen> {
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Braakland#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Braakland>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijdelijke eenheid die ongebruikt blijft liggen en nog niet tot ruigte of bos geëvolueerd is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Braakland"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen>
+<https://data.vlaanderen.be/ns/melding> {
+<https://data.vlaanderen.be/ns/melding#bronhouder#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#bronhouder>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De bronhouder is verantwoordelijk voor het opnemen van gegevens in de dataset en het bewaken van de kwaliteit daarvan."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bronhouder"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.w3.org/ns/org#Organization>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#bronhouder>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De bronhouder is verantwoordelijk voor het opnemen van gegevens in de dataset en het bewaken van de kwaliteit daarvan."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bronhouder"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.w3.org/ns/org#Organization>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#bronhouder>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De bronhouder is verantwoordelijk voor het opnemen van gegevens in de dataset en het bewaken van de kwaliteit daarvan."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bronhouder"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.w3.org/ns/org#Organization>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Braakland#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen> {
-<http://schema.org/width#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/width>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De breedte van het object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "breedte"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/width#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats> {
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#bronhouder#2019-02-07>.
+<https://data.vlaanderen.be/ns/openbaardomein> {
 <https://data.vlaanderen.be/ns/openbaardomein#bronnaam#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#bronnaam>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van de bron."@nl;
@@ -24,4 +28,21 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein#bronnaam#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein> {
+<http://schema.org/width#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/width>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De breedte van het object. In geval van een ongelijkmatige breedte wordt de gemiddelde breedte opgenomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "breedte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/width#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen> {
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Braakland#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Braakland>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijdelijke eenheid die ongebruikt blijft liggen en nog niet tot ruigte of bos geëvolueerd is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Braakland"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Braakland#2021-09-30>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/br.trig>.

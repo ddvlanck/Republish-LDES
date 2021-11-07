@@ -1,10 +1,19 @@
-<https://data.vlaanderen.be/ns/transactie> {
-<http://data.europa.eu/m8g/Participation#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/Participation>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Deelname aan een Publieke Dienstverlening door een Agent."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Participatie"@nl
+<https://data.vlaanderen.be/ns/openbaardomein/gebied> {
+<https://data.vlaanderen.be/ns/openbaardomein/gebied#Park#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Park>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een onbebouwde en openbare ruimte omgeven door gebouwen en maakt deel uit van het stratennet van een stad of dorp."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Park"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/m8g/Participation#2019-02-07>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Park#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/gebied> {
+<https://data.vlaanderen.be/ns/openbaardomein/gebied#Parking#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Parking>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Hoofdzakelijk buiten de rijbaan gelegen zone, bedoeld voor het langdurig laten stilstaan van een voertuig in parkeervakken, inclusief de gemeenschappelijk gebruikte ruimte van de zone die buiten de parkeervakken."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Parking"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Parking#2021-09-30>.
 <https://data.vlaanderen.be/ns/openbaardomein/terreindeel> {
 <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Parkeervlak#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Parkeervlak>;

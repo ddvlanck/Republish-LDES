@@ -1,3 +1,21 @@
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<http://data.vlaanderen.be/ns/besluit#motivering#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#motivering>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van de juridische en feitelijke motivering achter de beslissing die wordt uitgedrukt in het besluit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "motivering"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Besluit>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#motivering#2021-02-04>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<https://data.vlaanderen.be/ns/perceel#methode#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#methode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De methode geeft aan op welke manier de geometrie tot stand is gekomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "methode"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#methode#2020-06-18>.
 <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
 <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Mast#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Mast>;
@@ -63,22 +81,13 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#mogelijkeRoute#2020-04-23>.
-<https://data.vlaanderen.be/ns/notificatie> {
-<https://schema.org/Brand#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/Brand>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam gebruikt door een Publieke Organisatie om te communiceren over een bepaalde Publieke Dienstverlening."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Merk"@nl
+<https://data.vlaanderen.be/ns/melding> {
+<https://data.vlaanderen.be/ns/melding#Melding#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#Melding>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijft de melding van een probleem of een vaststelling die mogelijks aanleiding geeft tot een actie van de overheid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Melding"@nl
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/Brand#2019-02-07>.
-<https://data.vlaanderen.be/ns/bedrijventerrein> {
-<https://data.vlaanderen.be/ns/perceel#methode#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#methode>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De methode geeft aan op welke manier de geometrie tot stand is gekomen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "methode"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#methode#2020-06-18>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#Melding#2019-02-07>.
 <https://data.vlaanderen.be/ns/melding> {
 <https://data.vlaanderen.be/ns/melding#MeldingBody#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#MeldingBody>;
@@ -86,6 +95,63 @@
     <http://www.w3.org/2000/01/rdf-schema#label> "Melding Body"@nl
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#MeldingBody#2019-02-07>.
+<https://data.vlaanderen.be/ns/melding> {
+<https://data.vlaanderen.be/ns/melding#Meldingstatus#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#Meldingstatus>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De Status van de Melding in het verwerkingsproces op een bepaald tijdstip."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Meldingstatus"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#Meldingstatus#2019-02-07>.
+<https://data.vlaanderen.be/ns/melding> {
+<https://data.vlaanderen.be/ns/melding#meldingsapplicatie#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#meldingsapplicatie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De applicatie dat de Melding creëerde."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "meldingsapplicatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Melding>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/melding#Applicatie>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#meldingsapplicatie#2019-02-07>.
+<https://data.vlaanderen.be/ns/melding> {
+<https://data.vlaanderen.be/ns/melding#meldingsorganisatie#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#meldingsorganisatie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De organisatie die verantwoordelijk is voor de applicatie die werd gebruikt voor de creatie van de melding."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "meldingsorganisatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Melding>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.w3.org/ns/org#Organization>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#meldingsorganisatie#2019-02-07>.
+<https://data.vlaanderen.be/ns/melding> {
+<http://www.w3.org/ns/oa#motivatedBy#2019-02-07> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/oa#motivatedBy>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De relatie tussen de Melding en het Meldingstype dat gebruikt worden om de melding te categoriseren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "meldingstype"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Melding>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/oa#motivatedBy#2019-02-07>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<https://schema.org/Brand#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/Brand>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam gebruikt door een Publieke Organisatie om te communiceren over een bepaalde Publieke Dienstverlening."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Merk"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/Brand#2019-02-07>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.vlaanderen.be/ns/besluit#motivering#20-07-2018> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#motivering>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van de juridische en feitelijke motivering achter de beslissing die wordt uitgedrukt in het besluit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "motivering"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Besluit>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#motivering#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.vlaanderen.be/ns/mandaat#Mandataris#20-07-2018> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/mandaat#Mandataris>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een persoon in zijn rol als houder van een mandaat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Mandataris"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://purl.org/dc/terms/Agent>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/mandaat#Mandataris#20-07-2018>.
 <https://data.vlaanderen.be/ns/melding> {
 <https://data.vlaanderen.be/ns/melding#Meldingsobject#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#Meldingsobject>;
@@ -100,13 +166,6 @@
     <http://www.w3.org/2000/01/rdf-schema#label> "Meldingsobject Attribuut"@nl
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#MeldingsobjectAttribuut#2019-02-07>.
-<https://data.vlaanderen.be/ns/melding> {
-<https://data.vlaanderen.be/ns/melding#Meldingstatus#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#Meldingstatus>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De Status van de Melding in het verwerkingsproces op een bepaald tijdstip."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Meldingstatus"@nl
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#Meldingstatus#2019-02-07>.
 <https://data.vlaanderen.be/ns/melding> {
 <https://data.vlaanderen.be/ns/melding#meldbaar#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#meldbaar>;
@@ -126,24 +185,6 @@
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#melder#2019-02-07>.
 <https://data.vlaanderen.be/ns/melding> {
-<https://data.vlaanderen.be/ns/melding#meldingsapplicatie#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#meldingsapplicatie>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De applicatie dat de Melding creëerde."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "meldingsapplicatie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Terugmelding>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/melding#Applicatie>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#meldingsapplicatie#2019-02-07>.
-<https://data.vlaanderen.be/ns/melding> {
-<https://data.vlaanderen.be/ns/melding#meldingsorganisatie#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#meldingsorganisatie>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De organisatie die verantwoordelijk is voor de applicatie die werd gebruikt voor de creatie van de melding."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "meldingsorganisatie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Terugmelding>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.w3.org/ns/org#Organization>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#meldingsorganisatie#2019-02-07>.
-<https://data.vlaanderen.be/ns/melding> {
 <https://data.vlaanderen.be/ns/melding#meldingstype#2019-02-07> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#meldingstype>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "De relatie tussen de Melding en het Meldingstype dat gebruikt worden om de melding te categoriseren."@nl;
@@ -160,57 +201,6 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#mogelijkeWaarden#2019-02-07>.
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen> {
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#materiaal#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#materiaal>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Materiaal waaruit de Grasdal is vervaardigd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "materiaal"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#materiaal#2021-09-30>.
-<http://data.vlaanderen.be/ns/besluit> {
-<http://data.vlaanderen.be/ns/besluit#motivering#20-07-2018> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#motivering>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van de juridische en feitelijke motivering achter de beslissing die wordt uitgedrukt in het besluit."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "motivering"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Besluit>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#motivering#20-07-2018>.
-<http://data.vlaanderen.be/ns/besluit> {
-<http://data.vlaanderen.be/ns/mandaat#Mandataris#20-07-2018> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/mandaat#Mandataris>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een persoon in zijn rol als houder van een mandaat."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Mandataris"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://purl.org/dc/terms/Agent>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/mandaat#Mandataris#20-07-2018>.
-<https://data.vlaanderen.be/ns/openbaardomein/vegetatie> {
-<https://data.vlaanderen.be/ns/openbaardomein/vegetatie#Muurvegetatie#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#Muurvegetatie>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Muurvegetaties zijn gebonden aan door de mens gecreëerde stenige, doorgaans steile tot verticale standplaatsen. Voorbeelden zijn kerkhofmuren, stadswallen, ruïnes, kademuren, oude forten en bunkers."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Muurvegetatie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#VegetatieElement>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#Muurvegetatie#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/vegetatie> {
-<https://data.vlaanderen.be/ns/openbaardomein/vegetatie#markantElement#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#markantElement>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een kenmerk van een boom waardoor deze zich onderscheidt van andere bomen van dezelfde soort. Bijvoorbeeld door een bepaalde erfgoedwaarde."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "markant element"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#Boomvorm>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#markantElement#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/waterdeel> {
-<https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Meer#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Meer>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een meer is een door land omringde watervlakte. De meeste meren hebben een of meer voedende en afwaterende rivieren."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Meer"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Watervlak>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Meer#2021-09-30>.
 <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen> {
 <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Mozaiekkei#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Mozaiekkei>;
@@ -227,22 +217,15 @@
     <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#OnbegroeidVoorkomen>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Mulch#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel> {
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Middenberm#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Middenberm>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een middenberm is een wegberm tussen twee rijbanen.\t"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Middenberm"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Wegberm>
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen> {
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#materiaal#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#materiaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Materiaal waaruit de Grasdal is vervaardigd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "materiaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Middenberm#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel> {
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Moestuin#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Moestuin>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een tuin waarin op kleine schaal verschillende groenten, kruiden en/of fruit worden verbouwd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Moestuin"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Moestuin#2021-09-30>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#materiaal#2021-09-30>.
 <https://data.vlaanderen.be/ns/cultureel-erfgoed> {
 <http://www.cidoc-crm.org/cidoc-crm/E16_Measurement#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E16_Measurement>;
@@ -323,23 +306,28 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E78_Collection>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of#2021-04-22>.
-<https://data.vlaanderen.be/ns/melding> {
-<https://data.vlaanderen.be/ns/melding#Melding#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#Melding>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijft de melding van een probleem of een vaststelling die mogelijks aanleiding geeft tot een actie van de overheid."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Melding"@nl
+<https://data.vlaanderen.be/ns/openbaardomein/waterdeel> {
+<https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Meer#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Meer>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een meer is een door land omringde watervlakte. De meeste meren hebben een of meer voedende en afwaterende rivieren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Meer"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Watervlak>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#Melding#2019-02-07>.
-<https://data.vlaanderen.be/ns/melding> {
-<http://www.w3.org/ns/oa#motivatedBy#2019-02-07> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/oa#motivatedBy>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De relatie tussen de Melding en het Meldingstype dat gebruikt worden om de melding te categoriseren."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "meldingstype"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Melding>
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Meer#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel> {
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Middenberm#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Middenberm>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een middenberm is een wegberm tussen twee rijbanen.\t"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Middenberm"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Wegberm>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/oa#motivatedBy#2019-02-07>.
-<https://ddvlanck.github.io/Republish-LDES/oslo-substring/m.trig> <https://w3id.org/tree#relation> _:df_0_110.
-_:df_0_110 a <https://w3id.org/tree#SubstringRelation>;
-    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/mo.trig>;
-    <https://w3id.org/tree#value> "mo".
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Middenberm#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel> {
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Moestuin#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Moestuin>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een tuin waarin op kleine schaal verschillende groenten, kruiden en/of fruit worden verbouwd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Moestuin"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Moestuin#2021-09-30>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/m.trig>.

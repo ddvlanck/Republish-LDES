@@ -1,3 +1,93 @@
+<https://data.vlaanderen.be/ns/openbaardomein/vegetatie> {
+<http://purl.org/dc/terms/relation#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/relation>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijst naar een object in een andere databank dat meer informatie kan verschaffen over het beheerobject."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "relatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/relation#2021-09-30>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<https://data.vlaanderen.be/ns/besluitvorming#resultaat#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#resultaat>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Eindoordeel van de beoordeling."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "resultaat"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/besluitvorming#Beslissingsactiviteit>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/besluitvorming#resultaat#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<http://data.europa.eu/eli/ontology#LegalResource#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#LegalResource>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een legaal concept dat los staat van een bepaalde vorm (het achterliggende idee)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Rechtsgrond"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/wetgeving#UnieRGLV>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#LegalResource#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<http://data.europa.eu/eli/ontology#realizes#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#realizes>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De rechtsgrond (rechtsbron) beschreven door dit besluit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "realiseert"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Besluit>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#realizes#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<http://www.w3.org/ns/prov#hadRole#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/prov#hadRole>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De functie van een agent met betrekking tot een activiteit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "rol"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Association>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#Role>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/prov#hadRole#2021-02-04>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<https://data.vlaanderen.be/ns/perceel#Recht#2020-06-18> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#Recht>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Actie, activiteit of verzameling van acties dat een systeemparticipant mag uitvoeren of mag gebruik maken van een geassocieerde resource."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Recht"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#Recht#2020-06-18>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid#2020-06-18> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Eén gebied (of meerdere gebieden) van land en/of water, of één enkel volume (of meerdere volumes) ruimte, afgebakend voor een bepaald doel."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Ruimtelijke Eenheid"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid#2020-06-18>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie#2020-06-18> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Ruimtelijke Eenheid Geometrie"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie#2020-06-18>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte#2020-06-18> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Ruimtelijke Eenheid Oppervlakte"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte#2020-06-18>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<https://data.vlaanderen.be/ns/perceel#Recht.ruimtelijkeEenheid#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#Recht.ruimtelijkeEenheid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Referentie naar verbonden klasse."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Ruimtelijke Eenheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/perceel#Recht>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#Recht.ruimtelijkeEenheid#2020-06-18>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid.ruimtelijkeEenheid#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid.ruimtelijkeEenheid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Referentie naar verbonden klasse."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Ruimtelijke Eenheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid.ruimtelijkeEenheid#2020-06-18>.
 <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
 <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Recyclagecontainer#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Recyclagecontainer>;
@@ -47,15 +137,6 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#rioleringscode#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
-<http://purl.org/dc/terms/relation#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/relation>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijst naar een object in een andere databank dat meer informatie kan verschaffen over het beheerobject."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "relatie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/relation#2021-09-30>.
 <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod> {
 <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reiziger#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reiziger>;
@@ -260,100 +341,20 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/netwerk#richting#2020-04-23>.
-<https://data.vlaanderen.be/ns/notificatie> {
-<https://data.vlaanderen.be/ns/notificatie#resulteertIn#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/notificatie#resulteertIn>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De relatie tussen een Informeer Actie en het (de) Notificatiebericht(en) die hier uit voortkomen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "resulteert in"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/InformAction>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/notificatie#Notificatiebericht>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/notificatie#resulteertIn#2019-02-07>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied> {
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Recreatiegebied#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Recreatiegebied>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een gebied met hoofdzakelijk een recreatieve functie, waaronder ook sport en spel."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Recreatiegebied"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Recreatiegebied#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied> {
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Recyclagepark#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Recyclagepark>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Zone waar particulieren en KMO's hun afval gescheiden kunnen inzamelen en deponeren."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Recyclagepark"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Recyclagepark#2021-09-30>.
-<https://data.vlaanderen.be/ns/bedrijventerrein> {
-<https://data.vlaanderen.be/ns/perceel#Recht#2020-06-18> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#Recht>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Actie, activiteit of verzameling van acties dat een systeemparticipant mag uitvoeren of mag gebruik maken van een geassocieerde resource."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Recht"@nl
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#Recht#2020-06-18>.
-<https://data.vlaanderen.be/ns/bedrijventerrein> {
-<https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid#2020-06-18> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Eén gebied (of meerdere gebieden) van land en/of water, of één enkel volume (of meerdere volumes) ruimte, afgebakend voor een bepaald doel."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Ruimtelijke Eenheid"@nl
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid#2020-06-18>.
-<https://data.vlaanderen.be/ns/bedrijventerrein> {
-<https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie#2020-06-18> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Ruimtelijke Eenheid Geometrie"@nl
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie#2020-06-18>.
-<https://data.vlaanderen.be/ns/bedrijventerrein> {
-<https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte#2020-06-18> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Ruimtelijke Eenheid Oppervlakte"@nl
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte#2020-06-18>.
-<https://data.vlaanderen.be/ns/bedrijventerrein> {
-<https://data.vlaanderen.be/ns/perceel#Recht.ruimtelijkeEenheid#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#Recht.ruimtelijkeEenheid>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Referentie naar verbonden klasse."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Ruimtelijke Eenheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/perceel#Recht>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#Recht.ruimtelijkeEenheid#2020-06-18>.
-<https://data.vlaanderen.be/ns/bedrijventerrein> {
-<https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid.ruimtelijkeEenheid#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid.ruimtelijkeEenheid>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Referentie naar verbonden klasse."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Ruimtelijke Eenheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid.ruimtelijkeEenheid#2020-06-18>.
-<https://data.vlaanderen.be/ns/melding> {
-<http://data.vlaanderen.be/ns/persoon#registratie#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/persoon#registratie>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Identificatiecode van de persoon in het register."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "registratie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/persoon#GeregistreerdPersoon>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Identifier>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/persoon#registratie#2019-02-07>.
-<https://ddvlanck.github.io/Republish-LDES/oslo-substring/r.trig> <https://w3id.org/tree#relation> _:df_0_46.
-_:df_0_46 a <https://w3id.org/tree#SubstringRelation>;
-    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ro.trig>;
-    <https://w3id.org/tree#value> "ro".
-<https://ddvlanck.github.io/Republish-LDES/oslo-substring/r.trig> <https://w3id.org/tree#relation> _:df_0_47.
-_:df_0_47 a <https://w3id.org/tree#SubstringRelation>;
-    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ru.trig>;
-    <https://w3id.org/tree#value> "ru".
-<https://ddvlanck.github.io/Republish-LDES/oslo-substring/r.trig> <https://w3id.org/tree#relation> _:df_0_48.
-_:df_0_48 a <https://w3id.org/tree#SubstringRelation>;
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/r.trig> <https://w3id.org/tree#relation> _:df_0_56.
+_:df_0_56 a <https://w3id.org/tree#SubstringRelation>;
     <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/re.trig>;
     <https://w3id.org/tree#value> "re".
-<https://ddvlanck.github.io/Republish-LDES/oslo-substring/r.trig> <https://w3id.org/tree#relation> _:df_0_49.
-_:df_0_49 a <https://w3id.org/tree#SubstringRelation>;
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/r.trig> <https://w3id.org/tree#relation> _:df_0_57.
+_:df_0_57 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ru.trig>;
+    <https://w3id.org/tree#value> "ru".
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/r.trig> <https://w3id.org/tree#relation> _:df_0_58.
+_:df_0_58 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ro.trig>;
+    <https://w3id.org/tree#value> "ro".
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/r.trig> <https://w3id.org/tree#relation> _:df_0_59.
+_:df_0_59 a <https://w3id.org/tree#SubstringRelation>;
     <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ri.trig>;
     <https://w3id.org/tree#value> "ri".
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/r.trig>.

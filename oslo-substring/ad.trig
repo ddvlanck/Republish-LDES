@@ -1,4 +1,20 @@
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats> {
+<https://data.vlaanderen.be/ns/notificatie> {
+<https://schema.org/AdministrativeArea#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/AdministrativeArea>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een geografisch gebied,dat typisch onder de jurisdictie van een bepaalde publieke administratie valt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Administratieve Eenheid"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/AdministrativeArea#2019-02-07>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<http://www.w3.org/ns/locn#address#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#address>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Adres dat men kan aanschrijven of bezoeken."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "adres"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/locn#Address>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/locn#address#2019-02-07>.
+<https://data.vlaanderen.be/ns/openbaardomein> {
 <http://www.w3.org/ns/locn#address#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#address>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "Adres dat men kan aanschrijven of bezoeken."@nl;

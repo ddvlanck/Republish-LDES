@@ -1,39 +1,75 @@
-<https://data.vlaanderen.be/ns/bedrijventerrein> {
-<https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "geometrie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie>
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod> {
+<https://schema.org/MonetaryAmount#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/MonetaryAmount>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een geldwaarde of -bereik."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Geldbedrag"@nl
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie#2020-06-18>.
-<https://data.vlaanderen.be/ns/bedrijventerrein> {
-<https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie.geometrie#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie.geometrie>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geometrische voorstelling van een ruimtelijke eenheid."@nl;
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/MonetaryAmount#2020-04-23>.
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod> {
+<https://schema.org/Number#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/Number>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van een hoeveelheid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Getal"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/Number#2020-04-23>.
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod> {
+<http://www.w3.org/ns/locn#geometry#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#geometry>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Locatie van de Routeknoop."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "geometrie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie>;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/sf#Point>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#geometry>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geometrie van de plaats of het gebied."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "geometrie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Location>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/locn#Geometry>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie.geometrie#2020-06-18>.
-<https://data.vlaanderen.be/ns/bedrijventerrein> {
-<https://data.vlaanderen.be/ns/perceel#geldigheidsperiode#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#geldigheidsperiode>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijdsinterval waarbinnen de ruimtelijke eenheid van toepassing is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "geldigheidsperiode"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/PeriodOfTime>
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/locn#geometry#2020-04-23>.
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod> {
+<https://data.vlaanderen.be/ns/netwerk#Knoop.geometrie#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/netwerk#Knoop.geometrie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Locatie van de Transportknoop."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "geometrie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transportnetwerk#Transportknoop>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/sf#Point>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#geldigheidsperiode#2020-06-18>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/netwerk#Knoop.geometrie#2020-04-23>.
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod> {
+<https://data.vlaanderen.be/ns/netwerk#Netwerkgebied.geometrie#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/netwerk#Netwerkgebied.geometrie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van de geometrie van het Transportgebied."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "geometrie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transportnetwerk#Transportgebied>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/sf#Polygon>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/netwerk#Netwerkgebied.geometrie#2020-04-23>.
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod> {
+<https://data.vlaanderen.be/ns/netwerk#geometriemiddellijn#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/netwerk#geometriemiddellijn>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geometrie van de midellijn van de Link."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "geometriemiddellijn"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/netwerk#Link>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/sf#LineString>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/netwerk#geometriemiddellijn#2020-04-23>.
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod> {
+<https://data.vlaanderen.be/ns/transportnetwerk#geografischeNaam#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/transportnetwerk#geografischeNaam>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van het Transportobject."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "geografische naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transportnetwerk#Transportobject>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/transportnetwerk#geografischeNaam#2020-04-23>.
 <https://data.vlaanderen.be/ns/melding> {
-<https://data.vlaanderen.be/ns/melding#gerelateerdeBody#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#gerelateerdeBody>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De body van de Melding die betrekking heeft op het Meldingsobject."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gerelateerde body"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Meldingsobject>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/melding#MeldingBody>
+<http://www.w3.org/ns/locn#Geometry#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#Geometry>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Vorm- en positiekenmerken van een object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Geometrie"@nl
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#gerelateerdeBody#2019-02-07>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/locn#Geometry#2019-02-07>.
 <https://data.vlaanderen.be/ns/melding> {
 <https://data.vlaanderen.be/ns/persoon#GeregistreerdPersoon#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/persoon#GeregistreerdPersoon>;
@@ -42,14 +78,47 @@
     <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/person#Person>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/persoon#GeregistreerdPersoon#2019-02-07>.
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen> {
-<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GeschorenHaag#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GeschorenHaag>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Haag die standaard 2 keer per jaar wordt geschoren."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Geschoren haag"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Haag>
+<https://data.vlaanderen.be/ns/melding> {
+<http://www.w3.org/ns/locn#geometry#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#geometry>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De relatie tussen de MeldingBody en een geometrie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "geometrie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#MeldingBody>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/locn#Geometry>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GeschorenHaag#2021-09-30>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/locn#geometry#2019-02-07>.
+<https://data.vlaanderen.be/ns/wetgeving> {
+<http://data.europa.eu/eli/ontology#amended_by#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#amended_by>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan dat deze rechtsbron een verandering met legale gevolgen heeft ondergaan door een andere rechtsbron. Dit omvat amendementen, vervangingen, herroepingen en andere types verandering."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "gewijzigd bij"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#amended_by#2019-02-07>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#langString#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Benaming toegekend aan of gebruikt voor een geografisch object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Geografische Naam"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString#2019-02-07>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<http://www.w3.org/2000/01/rdf-schema#Literal#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2000/01/rdf-schema#Literal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Combinatie van een string en het type van wat de string voorstelt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Getypeerde String"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/2000/01/rdf-schema#Literal#2019-02-07>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<https://schema.org/geographicArea#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/geographicArea>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het geografisch gebied geassocieerd met de doelgroep."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "geografisch gebied"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Audience>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/AdministrativeArea>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/geographicArea#2019-02-07>.
 <http://data.vlaanderen.be/ns/besluit> {
 <http://data.vlaanderen.be/ns/besluit#gebeurtNa#20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#gebeurtNa>;
@@ -137,38 +206,59 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/prov#startedAtTime#20-07-2018>.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats> {
+<https://data.vlaanderen.be/ns/melding> {
+<https://data.vlaanderen.be/ns/melding#gerelateerdeBody#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#gerelateerdeBody>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De body van de Melding die betrekking heeft op het Meldingsobject."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "gerelateerde body"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Meldingsobject>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/melding#MeldingBody>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#gerelateerdeBody#2019-02-07>.
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen> {
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#GebakkenStraatstenen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#GebakkenStraatstenen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Gebakken straatstenen zijn straatstenen, in hoofdzaak vervaardigd uit klei al dan niet gemengd met leem, zand, brandstoffen of andere toeslagstoffen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Gebakken straatstenen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Bestrating>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#GebakkenStraatstenen#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen> {
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#GeslotenKunststofverharding#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#GeslotenKunststofverharding>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Kunststofverharding die over de totale oppervlakte in één continue laag werd aangebracht."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Gesloten kunststofverharding"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#AndereVerhardingen>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#GeslotenKunststofverharding#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein> {
 <http://www.opengis.net/ont/geosparql#Geometry#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/geosparql#Geometry>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "Vorm- en positiekenmerken van een object."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "Geometrie"@nl
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.opengis.net/ont/geosparql#Geometry#2021-09-30>.
-<https://data.vlaanderen.be/ns/wetgeving> {
-<http://data.europa.eu/eli/ontology#amended_by#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#amended_by>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan dat deze rechtsbron een verandering met legale gevolgen heeft ondergaan door een andere rechtsbron. Dit omvat amendementen, vervangingen, herroepingen en andere types verandering."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gewijzigd bij"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>
+<https://data.vlaanderen.be/ns/openbaardomein> {
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#langString#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Benaming toegekend aan of gebruikt voor een geografisch object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Geografische Naam"@nl
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#amended_by#2019-02-07>.
-<https://data.vlaanderen.be/ns/openbaardomein/vegetatie> {
-<https://data.vlaanderen.be/ns/openbaardomein/vegetatie#GekandelaardeBoom#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#GekandelaardeBoom>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een gekandelaarde boom is een boom waarvan alle gesteltakken op een bepaalde lengte worden afgezet en die hierop opnieuw uitlopen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Gekandelaarde boom"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#Vormboom>
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein> {
+<https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een ruimte met daarin objecten in de openbare ruimte die samen een hoofdfunctie hebben."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Gebied"@nl
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#GekandelaardeBoom#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/vegetatie> {
-<https://data.vlaanderen.be/ns/openbaardomein/vegetatie#GeschorenBoom#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#GeschorenBoom>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Bomen waarvan de kruinen zijn geschoren. De vorm werd bepaald bij de eerste vormsnoei van de gesteltakken en werd uitgevoerd op jonge bomen. Het beheer wordt uitgevoerd in periodieke scheerbeurten, één of meerdere keren per jaar."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Geschoren boom"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#Vormboom>
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein> {
+<https://schema.org/Number#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/Number>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van een hoeveelheid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Getal"@nl
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#GeschorenBoom#2021-09-30>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/Number#2021-09-30>.
 <https://data.vlaanderen.be/ns/transactie> {
 <https://data.vlaanderen.be/ns/generiek#gestructureerdedentificator#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/generiek#gestructureerdedentificator>;
@@ -178,6 +268,14 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/generiek#gestructureerdedentificator#2019-02-07>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen> {
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GeschorenHaag#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GeschorenHaag>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Haag die standaard 2 keer per jaar wordt geschoren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Geschoren haag"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Haag>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GeschorenHaag#2021-09-30>.
 <https://data.vlaanderen.be/ns/perceel> {
 <https://data.vlaanderen.be/ns/perceel#geldigheidperiode#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#geldigheidperiode>;
@@ -195,22 +293,6 @@
     <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/generiek#Object>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/gebouw#Gebouw#2020-06-18>.
-<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen> {
-<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#GebakkenStraatstenen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#GebakkenStraatstenen>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Gebakken straatstenen zijn straatstenen, in hoofdzaak vervaardigd uit klei al dan niet gemengd met leem, zand, brandstoffen of andere toeslagstoffen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Gebakken straatstenen"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Bestrating>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#GebakkenStraatstenen#2021-09-30>.
-<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen> {
-<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#GeslotenKunststofverharding#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#GeslotenKunststofverharding>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Kunststofverharding die over de totale oppervlakte in één continue laag werd aangebracht."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Gesloten kunststofverharding"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#AndereVerhardingen>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#GeslotenKunststofverharding#2021-09-30>.
 <https://data.vlaanderen.be/ns/cultureel-erfgoed> {
 <http://www.cidoc-crm.org/cidoc-crm/E78_Collection#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E78_Collection>;
@@ -261,128 +343,24 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E70_Thing>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object#2021-04-22>.
-<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
-<http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Techniek of methode die gebruikt werd bij de Activiteit."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gebruikte techniek"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique#2021-04-22>.
-<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
-<http://www.cidoc-crm.org/cidoc-crm/P39_measured#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P39_measured>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Entiteit die werd gemeten."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gemeten entiteit"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E16_Measurement>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/P39_measured#2021-04-22>.
-<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
-<http://www.cidoc-crm.org/cidoc-crm/P41_classified#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P41_classified>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "MaterieelDing dat werd geclassificeerd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "getypeerde entiteit"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/P41_classified#2021-04-22>.
-<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
-<https://www.iflastandards.info/fr/frbr/frbroo#R19#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#R19>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Werk dat hierdoor werd gerealiseerd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gerealiseerd werk"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.iflastandards.info/fr/frbr/frbroo#F28>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.iflastandards.info/fr/frbr/frbroo#F1>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://www.iflastandards.info/fr/frbr/frbroo#R19#2021-04-22>.
-<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
-<https://www.iflastandards.info/fr/frbr/frbroo#R22#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#R22>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Opnamewerk dat hierdoor werd gerealiseerd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gerealiseerd werk"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.iflastandards.info/fr/frbr/frbroo#F29>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.iflastandards.info/fr/frbr/frbroo#F21>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://www.iflastandards.info/fr/frbr/frbroo#R22#2021-04-22>.
-<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
-<https://www.iflastandards.info/fr/frbr/frbroo#R23#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#R23>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Publicatiewerk dat hierbij werd gerealiseerd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gerealiseerd werk"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.iflastandards.info/fr/frbr/frbroo#F30>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.iflastandards.info/fr/frbr/frbroo#F19>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://www.iflastandards.info/fr/frbr/frbroo#R23#2021-04-22>.
-<https://data.vlaanderen.be/ns/openbaardomein> {
-<https://schema.org/Number#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/Number>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van een hoeveelheid."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Getal"@nl
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/Number#2021-09-30>.
-<https://data.vlaanderen.be/ns/besluitvorming> {
-<https://data.vlaanderen.be/ns/besluitvorming#geagendeerdStuk#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#geagendeerdStuk>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een gerelateerd stuk waarnaar wordt verwezen, geciteerd of anderszins aangegeven in het agendapunt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "geagendeerd stuk"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Agendapunt>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/dossier#Stuk>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/besluitvorming#geagendeerdStuk#2021-02-04>.
-<https://data.vlaanderen.be/ns/besluitvorming> {
-<https://data.vlaanderen.be/ns/besluitvorming#genereertAgendapunt#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#genereertAgendapunt>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het agendapunt of de agendapunten die werden aangemaakt als gevolg van de agendering."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "genereert agendapunt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/besluitvorming#Agendering>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/besluit#Agendapunt>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/besluitvorming#genereertAgendapunt#2021-02-04>.
-<https://data.vlaanderen.be/ns/besluitvorming> {
-<https://data.vlaanderen.be/ns/besluitvorming#genereertVerslag#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#genereertVerslag>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "de schriftelijke neerslag van (een onderdeel) van deze behandeling van agendapunt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "genereert verslag"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/besluitvorming#Verslag>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/besluitvorming#genereertVerslag#2021-02-04>.
-<https://ddvlanck.github.io/Republish-LDES/oslo-substring/ge.trig> <https://w3id.org/tree#relation> _:df_0_100.
-_:df_0_100 a <https://w3id.org/tree#SubstringRelation>;
-    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/gep.trig>;
-    <https://w3id.org/tree#value> "gep".
-<https://ddvlanck.github.io/Republish-LDES/oslo-substring/ge.trig> <https://w3id.org/tree#relation> _:df_0_101.
-_:df_0_101 a <https://w3id.org/tree#SubstringRelation>;
-    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ges.trig>;
-    <https://w3id.org/tree#value> "ges".
-<https://ddvlanck.github.io/Republish-LDES/oslo-substring/ge.trig> <https://w3id.org/tree#relation> _:df_0_102.
-_:df_0_102 a <https://w3id.org/tree#SubstringRelation>;
-    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/geb.trig>;
-    <https://w3id.org/tree#value> "geb".
-<https://ddvlanck.github.io/Republish-LDES/oslo-substring/ge.trig> <https://w3id.org/tree#relation> _:df_0_103.
-_:df_0_103 a <https://w3id.org/tree#SubstringRelation>;
-    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/geh.trig>;
-    <https://w3id.org/tree#value> "geh".
-<https://ddvlanck.github.io/Republish-LDES/oslo-substring/ge.trig> <https://w3id.org/tree#relation> _:df_0_104.
-_:df_0_104 a <https://w3id.org/tree#SubstringRelation>;
-    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/gev.trig>;
-    <https://w3id.org/tree#value> "gev".
-<https://ddvlanck.github.io/Republish-LDES/oslo-substring/ge.trig> <https://w3id.org/tree#relation> _:df_0_105.
-_:df_0_105 a <https://w3id.org/tree#SubstringRelation>;
-    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/gee.trig>;
-    <https://w3id.org/tree#value> "gee".
-<https://ddvlanck.github.io/Republish-LDES/oslo-substring/ge.trig> <https://w3id.org/tree#relation> _:df_0_106.
-_:df_0_106 a <https://w3id.org/tree#SubstringRelation>;
-    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/gen.trig>;
-    <https://w3id.org/tree#value> "gen".
 <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ge.trig> <https://w3id.org/tree#relation> _:df_0_107.
 _:df_0_107 a <https://w3id.org/tree#SubstringRelation>;
-    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/geg.trig>;
-    <https://w3id.org/tree#value> "geg".
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/geb.trig>;
+    <https://w3id.org/tree#value> "geb".
 <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ge.trig> <https://w3id.org/tree#relation> _:df_0_108.
 _:df_0_108 a <https://w3id.org/tree#SubstringRelation>;
     <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/gem.trig>;
     <https://w3id.org/tree#value> "gem".
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/ge.trig> <https://w3id.org/tree#relation> _:df_0_109.
+_:df_0_109 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/get.trig>;
+    <https://w3id.org/tree#value> "get".
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/ge.trig> <https://w3id.org/tree#relation> _:df_0_110.
+_:df_0_110 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ger.trig>;
+    <https://w3id.org/tree#value> "ger".
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/ge.trig> <https://w3id.org/tree#relation> _:df_0_111.
+_:df_0_111 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/geg.trig>;
+    <https://w3id.org/tree#value> "geg".
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ge.trig>.

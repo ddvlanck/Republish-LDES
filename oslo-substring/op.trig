@@ -1,11 +1,12 @@
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel> {
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Oprit#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Oprit>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een oprit is het gedeelte van een (woon)perceel bedoeld voor het parkeren of stallen van een voertuig, of voor het bereiken van de bij het huis behorende garage. Een oprit is altijd direct bereikbaar vanaf de openbare weg."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Oprit"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>
+<https://data.vlaanderen.be/ns/openbaardomein> {
+<http://schema.org/openingHours#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/openingHours>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Uren waarbinnen contact kan worden opgenomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "openingsuren"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Oprit#2021-09-30>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/openingHours#2021-09-30>.
 <https://data.vlaanderen.be/ns/cultureel-erfgoed> {
 <https://www.iflastandards.info/fr/frbr/frbroo#F21#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#F21>;
@@ -47,31 +48,12 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <https://www.iflastandards.info/fr/frbr/frbroo#F26>
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://www.iflastandards.info/fr/frbr/frbroo#R21#2021-04-22>.
-<https://data.vlaanderen.be/ns/besluitvorming> {
-<http://data.vlaanderen.be/ns/besluit#openbaar#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#openbaar>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat de behandeling van het agendapunt publiek is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "openbaar"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel> {
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Oprit#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Oprit>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een oprit is het gedeelte van een (woon)perceel bedoeld voor het parkeren of stallen van een voertuig, of voor het bereiken van de bij het huis behorende garage. Een oprit is altijd direct bereikbaar vanaf de openbare weg."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Oprit"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#openbaar#2021-02-04>.
-<https://data.vlaanderen.be/ns/besluitvorming> {
-<http://www.w3.org/ns/prov#atLocation#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/prov#atLocation>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Locatie waar de vergaderactiviteit plaatsvindt. Doorgaans is dit een zaal in een gebouw."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "op locatie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Location>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/prov#atLocation#2021-02-04>.
-<https://data.vlaanderen.be/ns/besluitvorming> {
-<https://data.vlaanderen.be/ns/dossier#openingsdatum#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#openingsdatum>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De openingsdatum van de zaak."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "openingsdatum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/besluitvorming#Besluitvormingsaangelegenheid>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>
-}
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/dossier#openingsdatum#2021-02-04>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Oprit#2021-09-30>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/op.trig>.
