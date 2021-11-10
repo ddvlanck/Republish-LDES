@@ -405,3 +405,410 @@ _:df_0_74 a <https://w3id.org/tree#SubstringRelation>;
     <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ho.trig>;
     <https://w3id.org/tree#value> "ho".
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/h.trig>.
+<https://data.vlaanderen.be/ns/openbaardomein/vegetatie> {
+<http://schema.org/height#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/height>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De hoogte van het object zelf."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "hoogte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/vegetatie#VegetatieElement>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/height#2021-09-30>.
+<http://data.vlaanderen.be/ns/dcatapvl> {
+<http://purl.org/dc/terms/license#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/license>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De licentie van de distributie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft licentie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/LicenseDocument>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/license>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De licentie van de datasetcatalogus."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft licentie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/LicenseDocument>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/license#13-06-2019>.
+<http://data.vlaanderen.be/ns/dcatapvl> {
+<http://purl.org/dc/terms/publisher#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/publisher>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De uitgever van de dataset. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft uitgever"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/publisher>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De uitgever van de datasetcatalogus"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft uitgever"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/publisher#13-06-2019>.
+<http://data.vlaanderen.be/ns/dcatapvl> {
+<http://www.w3.org/ns/dcat#dataset#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een dataset die behoort tot de datasetcatalogus"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft dataset"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Dataset>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/dcat#dataset#13-06-2019>.
+<http://data.vlaanderen.be/ns/dcatapvl> {
+<http://www.w3.org/ns/dcat#distribution#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#distribution>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De distributie van een dataset."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft distributie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Distribution>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/dcat#distribution#13-06-2019>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<https://data.vlaanderen.be/ns/besluitvorming#heeftAanleiding#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#heeftAanleiding>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De motivatie voor het opstarten van de Besluitvormingsaangelegenheid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft aanleiding"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/besluitvorming#Besluitvormingsaangelegenheid>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/besluitvorming#Aanleiding>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/besluitvorming#heeftAanleiding#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<https://data.vlaanderen.be/ns/besluitvorming#heeftBeslissing#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#heeftBeslissing>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De Beslissing die volgt uit de Behandeling van het Agendapunt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft beslissing"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/besluitvorming#Beslissingsactiviteit>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/besluitvorming#heeftBeslissing#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<https://data.vlaanderen.be/ns/besluitvorming#heeftBijlage#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#heeftBijlage>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een gerelateerd Stuk dat vereist is om het stuk zijn functie of samenhang te ondersteunen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft bijlage"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Stuk>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/dossier#Stuk>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/besluitvorming#heeftBijlage#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<https://data.vlaanderen.be/ns/besluitvorming#heeftNotulen#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#heeftNotulen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De formele notulen van de vergadering."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft notulen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/dossier#Stuk>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/besluitvorming#heeftNotulen#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<https://data.vlaanderen.be/ns/besluitvorming#heeftOorsprongIn#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#heeftOorsprongIn>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het stuk waarop de aanleiding zich baseert."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft oorsprong in"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/besluitvorming#Aanleiding>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/dossier#Stuk>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/besluitvorming#heeftOorsprongIn#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<http://data.vlaanderen.be/ns/besluit#heeftAanwezige#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#heeftAanwezige>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een agent (bvb: mandataris) die aanwezig was tijdens (een deel van) de activiteit waar hij een zekere verantwoordelijkheid had."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft aanwezige"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#heeftAanwezige#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<http://data.vlaanderen.be/ns/besluit#heeftStemming#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#heeftStemming>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een stemming die plaatsvond tijdens de behandeling van het agendapunt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft stemming"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/besluit#Stemming>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#heeftStemming#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<http://purl.org/dc/terms/subject#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/subject>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het onderwerp van de activiteit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft onderwerp"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/besluit#Agendapunt>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/subject#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<http://www.w3.org/ns/prov#qualifiedAssociation#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/prov#qualifiedAssociation>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Persoon of organisatie die binnen een bepaalde rol een verantwoordelijkheid opneemt voor deze activiteit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft deelnemer"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Activity>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Association>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/prov#qualifiedAssociation#2021-02-04>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<http://xmlns.com/foaf/0.1/homepage#2020-06-18> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/homepage>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Adres van de homepage van de website van de ontwikkelbare bedrijvenzone of ontwikkelaar."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "homepage"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://xmlns.com/foaf/0.1/homepage#2020-06-18>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Haltepaal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Haltepaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een haltepaal duidt de locatie aan waar het openbaar vervoer, bv. bus, tram of trolley, stopt om passagiers te laten in- en uitstappen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Haltepaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegsignalisatie>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Haltepaal#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Hondenpoepbuis#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Hondenpoepbuis>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een buisvormige Openbare Vuilnisbak waarin hondenpoepzakjes gedeponeerd kunnen worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Hondenpoepbuis"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVuilnisbak>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Hondenpoepbuis#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Hoogspanningsmast#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Hoogspanningsmast>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een hoogspanningsmast is een kunstwerk bedoeld voor het transport van stroom onder hoge spanning."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Hoogspanningsmast"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Mast>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Hoogspanningsmast#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Hoogspanningspaal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Hoogspanningspaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een burgerlijke constructie die gebruikt wordt voor het transport van elektriciteit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Hoogspanningspaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Nutspaal>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Hoogspanningspaal#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Huisaansluiting#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Huisaansluiting>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Zichtbaar en publiek eindpunt van een huisaansluiting voor afval- en regenwater."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Huisaansluiting"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Deksel>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Huisaansluiting#2021-09-30>.
+<https://data.vlaanderen.be/ns/melding> {
+<https://data.vlaanderen.be/ns/melding#heeftStatus#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#heeftStatus>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De Status verbonden aan de Melding."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft status"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/melding#Meldingstatus>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#heeftStatus#2019-02-07>.
+<https://data.vlaanderen.be/ns/melding> {
+<https://data.vlaanderen.be/ns/organisatie#Hoedanigheid#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Agent met een Functie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Hoedanigheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://purl.org/dc/terms/Agent>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid#2019-02-07>.
+<https://data.vlaanderen.be/ns/melding> {
+<http://www.w3.org/ns/oa#hasBody#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/oa#hasBody>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het object van deze associatie is een resource die de body van de Melding beschrijft (MeldingBody)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft body"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Melding>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/melding#MeldingBody>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/oa#hasBody#2019-02-07>.
+<https://data.vlaanderen.be/ns/melding> {
+<http://www.w3.org/ns/org#hasUnit#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/org#hasUnit>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijst naar een organisatie-eenheid die deel uitmaakt van de organisatie, bv een afdeling.\t"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft eenheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.w3.org/ns/org#Organization>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#OrganizationalUnit>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/org#hasUnit#2019-02-07>.
+<https://data.vlaanderen.be/ns/wetgeving> {
+<https://data.vlaanderen.be/ns/wetgeving#heftOp#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#heftOp>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat deze bron een andere buiten werking stelt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heft op"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/wetgeving#heftOp#2019-02-07>.
+<https://data.vlaanderen.be/ns/wetgeving> {
+<http://purl.org/dc/terms/hasPart#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/hasPart>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat deze bron uit deelbronnen bestaat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft deel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResourceSubdivision>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/hasPart#2019-02-07>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<http://data.europa.eu/m8g/hasCompetentAuthority#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/hasCompetentAuthority>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Publieke Organisatie die verantwoordelijk is voor het aanbieden en beheren van de Publieke dienstverlening."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft verantwoordelijke autoriteit"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/cpsv#PublicService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/PublicOrganisation>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/m8g/hasCompetentAuthority#2019-02-07>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<http://schema.org/brand#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/brand>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het merk dat geassocieerd is met één of meerdere Publieke Organisatie(s), in de context van Publieke Dienstverlening. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft merk"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/PublicOrganisation>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/Brand>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/brand#2019-02-07>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.vlaanderen.be/ns/besluit#heeftAanwezige#20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#heeftAanwezige>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een agent (bvb: mandataris) die aanwezig was tijdens (een deel van) de activiteit waar hij een zekere verantwoordelijkheid had."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft aanwezige"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#heeftAanwezige>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een mandataris (van het orgaan dat de zitting houdt) die aanwezig was tijdens (een deel van) de behandeling."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft aanwezige"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/mandaat#Mandataris>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#heeftAanwezige>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een mandataris (van het orgaan dat de zitting houdt) die aanwezig was tijdens de stemming."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft aanwezige"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Stemming>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/mandaat#Mandataris>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#heeftAanwezige#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart#20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een mandataris (van het bestuursorsgaan die de zitting hield) die aanwezig was bij de start van de zitting."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft aanwezige bij start"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Zitting>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/mandaat#Mandataris>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.vlaanderen.be/ns/besluit#heeftNotulen#20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#heeftNotulen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De formele notulen van de zitting."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft notulen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Zitting>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Document>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#heeftNotulen#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.vlaanderen.be/ns/besluit#heeftOnthouder#20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#heeftOnthouder>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een mandataris die als onthouder heeft gestemd op het onderwerp van de stemming."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft onthouder"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Stemming>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/mandaat#Mandataris>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#heeftOnthouder#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.vlaanderen.be/ns/besluit#heeftOntwerpbesluit#20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#heeftOntwerpbesluit>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een (mogelijks nog aan te vullen of aan te passen) ontwerp voor het besluit dat uit dit agendapunt zou voortkomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft ontwerpbesluit"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Agendapunt>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Document>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#heeftOntwerpbesluit#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.vlaanderen.be/ns/besluit#heeftSecretaris#20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#heeftSecretaris>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De mandataris die de rol van secretaris heeft gedurende de zitting."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft secretaris"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Zitting>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/mandaat#Mandataris>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#heeftSecretaris>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De mandataris die de rol van secretaris heeft gedurende de behandeling van het agendapunt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft secretaris"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/mandaat#Mandataris>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#heeftSecretaris#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.vlaanderen.be/ns/besluit#heeftStemmer#20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#heeftStemmer>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een mandataris die deelneemt aan de stemming."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft stemmer"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Stemming>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/mandaat#Mandataris>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#heeftStemmer#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.vlaanderen.be/ns/besluit#heeftStemming#20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#heeftStemming>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een stemming die plaatsvond tijdens de behandeling van het agendapunt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft stemming"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/besluit#Stemming>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#heeftStemming#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.vlaanderen.be/ns/besluit#heeftTegenstander#20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#heeftTegenstander>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een mandataris die als tegenstander heeft gestemd op het onderwerp van de stemming."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft tegenstander"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Stemming>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/mandaat#Mandataris>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#heeftTegenstander#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.vlaanderen.be/ns/besluit#heeftVoorstander#20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#heeftVoorstander>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een mandataris die als voorstander heeft gestemd op het onderwerp van de stemming."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft voorstander"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Stemming>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/mandaat#Mandataris>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#heeftVoorstander#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.vlaanderen.be/ns/besluit#heeftVoorzitter#20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#heeftVoorzitter>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De mandataris die de rol als voorzitter heeft gedurende de zitting."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft voorzitter"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Zitting>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/mandaat#Mandataris>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#heeftVoorzitter>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De mandataris die de rol als voorzitter heeft gedurende de behandeling van het agendapunt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft voorzitter"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/mandaat#Mandataris>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#heeftVoorzitter#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.vlaanderen.be/ns/besluit#heeftZittingsverslag#20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#heeftZittingsverslag>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een verslag van de zitting."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft zittingsverslag"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Zitting>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Document>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#heeftZittingsverslag#20-07-2018>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/h.trig> <https://w3id.org/tree#relation> _:df_1_71.
+_:df_1_71 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/he.trig>;
+    <https://w3id.org/tree#value> "he".
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/h.trig> <https://w3id.org/tree#relation> _:df_1_72.
+_:df_1_72 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/hu.trig>;
+    <https://w3id.org/tree#value> "hu".
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/h.trig> <https://w3id.org/tree#relation> _:df_1_73.
+_:df_1_73 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ha.trig>;
+    <https://w3id.org/tree#value> "ha".
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/h.trig> <https://w3id.org/tree#relation> _:df_1_74.
+_:df_1_74 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ho.trig>;
+    <https://w3id.org/tree#value> "ho".
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/h.trig>.

@@ -156,3 +156,161 @@
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TijdelijkGroen#2021-09-30>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ti.trig>.
+<https://data.vlaanderen.be/ns/melding> {
+<http://purl.org/dc/terms/title#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De titel van de Melding."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Melding>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/title#2019-02-07>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<http://data.europa.eu/m8g/PeriodOfTime#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/PeriodOfTime>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De tijdsperiode tussen twee momenten in de tijd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "TijdsInterval"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/m8g/PeriodOfTime#2019-02-07>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<https://schema.org/name#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/name>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van de Administratieve Eenheid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/AdministrativeArea>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/name>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het label is de sleutel van het sleutel/waarde paar."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/PropertyValue>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/name>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een titel voor het Notificatiebericht."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/notificatie#Notificatiebericht>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/name#2019-02-07>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.europa.eu/eli/ontology#title#20-07-2018> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Titel van de legale verschijningsvorm."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#title#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://purl.org/dc/terms/title#20-07-2018> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van het agendapunt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Agendapunt>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/title#20-07-2018>.
+<https://data.vlaanderen.be/ns/melding> {
+<http://www.w3.org/ns/oa#TimeState#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/oa#TimeState>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een TijdToestand legt de datum en het tijdstip vast waarop het Meldingsobject dient geïnterpreteerd te worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "TijdToestand"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/oa#TimeState#2019-02-07>.
+<https://data.vlaanderen.be/ns/openbaardomein> {
+<http://purl.org/dc/terms/title#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een naam voor het gebied."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een titel voor de collectie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#Collectie>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/title#2021-09-30>.
+<http://data.vlaanderen.be/ns/metadata-dcat> {
+<http://purl.org/dc/terms/title#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van de catalogus."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van het record in de catalogus."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#CatalogRecord>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van de dataservice."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van de dataset."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van de distributie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/title#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://www.cidoc-crm.org/cidoc-crm/P102_has_title#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P102_has_title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Titel van het Werk."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.iflastandards.info/fr/frbr/frbroo#F1>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P102_has_title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Titel van het Recht."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E30_Right>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P102_has_title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Titel van het InformatieObject."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P102_has_title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Titel van de GecureerdeCollectie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E78_Collection>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P102_has_title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Titel van het MensgemaaktObject."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P102_has_title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Titel van het MensgemaaktKenmerk."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/P102_has_title#2021-04-22>.
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel> {
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TijdelijkGroen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TijdelijkGroen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijdelijk publieke ruimte met ecologische kwaliteiten die opengesteld en al dan niet ingericht is om de leefbaarheid in de stad te verbeteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Tijdelijk groen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TijdelijkGroen#2021-09-30>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ti.trig>.

@@ -91,3 +91,96 @@
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity#2021-04-22>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/te.trig>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<http://schema.org/telephone#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/telephone>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Telefoonnummer waarop men kan bellen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "telefoon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/telephone#2019-02-07>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<https://schema.org/text#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/text>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De tekstuele inhoud van het Notificatiebericht."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "tekst"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/notificatie#Notificatiebericht>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/text#2019-02-07>.
+<https://data.vlaanderen.be/ns/melding> {
+<https://data.vlaanderen.be/ns/melding#Terugmelding#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#Terugmelding>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een terugmelding kan gebruikt worden om bijvoorbeeld een foutief adres te melden op een website of een fout in de digitale weergave van een diploma."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Terugmelding"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/melding#Melding>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#Terugmelding#2019-02-07>.
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen> {
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#TegelsMetGroenvoeg#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#TegelsMetGroenvoeg>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Tegels die zo gelegd zijn dat de voeg begroeibaar is en waterdoorlaatbaar."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Tegels met groenvoeg"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#AndereVerhardingen>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#TegelsMetGroenvoeg#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen> {
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#TernairMengselVerharding#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#TernairMengselVerharding>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Gebonden mengsel van grof brekerzand van natuurlijke stenen, eventueel gemengd met brekerzand van hoogovenslakken en steenslag."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Ternair mengsel-verharding"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#AndereVerhardingen>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#TernairMengselVerharding#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen> {
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van het terrein voorkomen van het terreindeel."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Terrein voorkomen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein> {
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Zichtbare laag van het aardoppervlak, met een gelijkaardige functie, dat geen deel uitmaakt van 'waterdeel'."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Terreindeel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#Deel>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein> {
+<http://schema.org/telephone#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/telephone>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Telefoonnummer waarop men kan bellen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "telefoon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/telephone#2021-09-30>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<https://data.vlaanderen.be/ns/cultureel-erfgoed#tekst#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/cultureel-erfgoed#tekst>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Tekst van de beschrijving."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "tekst"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Beschrijving>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/cultureel-erfgoed#tekst#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://schema.org/telephone#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/telephone>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Telefoonnummer waarop men kan bellen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "telefoon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/telephone#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Fenomenen die plaatsvinden in een bepaalde tijdspanne."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Temporele Entiteit"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity#2021-04-22>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/te.trig>.

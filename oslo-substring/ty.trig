@@ -105,3 +105,110 @@
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://wherever/TODO#2021-04-22>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ty.trig>.
+<https://data.vlaanderen.be/ns/wetgeving> {
+<http://data.europa.eu/eli/ontology#type_document#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#type_document>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type van het regelgevend document."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "type document"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#type_document#2019-02-07>.
+<https://data.vlaanderen.be/ns/wetgeving> {
+<http://purl.org/dc/terms/type#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/type>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type van het rechtsbrononderdeel."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResourceSubdivision>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/type#2019-02-07>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.vlaanderen.be/ns/besluit#Agendapunt.type#20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#Agendapunt.type>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Type van het agendapunt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Agendapunt>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#Agendapunt.type#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.europa.eu/eli/ontology#type_document#20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#type_document>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type van de rechtsgrond."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "type document"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#ResourceType>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#type_document#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://purl.org/dc/terms/type#20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/type>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aard van het documentonderdeel."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/generiek#DocumentOnderdeel>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/type#20-07-2018>.
+<https://data.vlaanderen.be/ns/perceel> {
+<https://data.vlaanderen.be/ns/perceel#Restrictie.type#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#Restrictie.type>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De aard van de restrictie die een agent heeft ten opzichte van een ruimtelijke eenheid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/perceel#Restrictie>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#Restrictie.type#2020-06-18>.
+<https://data.vlaanderen.be/ns/perceel> {
+<https://data.vlaanderen.be/ns/perceel#ZakelijkRecht.type#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#ZakelijkRecht.type>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De aard van het zakelijk recht."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/perceel#ZakelijkRecht>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#ZakelijkRecht.type#2020-06-18>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<https://data.vlaanderen.be/ns/cultureel-erfgoed#type#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/cultureel-erfgoed#type>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aard van de beschrijving."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Beschrijving>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/cultureel-erfgoed#type#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://www.cidoc-crm.org/cidoc-crm/P2_has_type#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Grootheid van de Dimensie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aard van de Conditie waarin het object zich bevindt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Soort Recht."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E30_Right>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Type van de Entiteit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<https://wherever/TODO#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://wherever/TODO>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Type Entiteit"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://wherever/TODO#2021-04-22>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ty.trig>.

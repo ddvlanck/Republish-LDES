@@ -395,3 +395,400 @@ _:df_0_102 a <https://w3id.org/tree#SubstringRelation>;
     <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/beg.trig>;
     <https://w3id.org/tree#value> "beg".
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/be.trig>.
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod> {
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Transportobject.beschikbaarheid#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Transportobject.beschikbaarheid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschikbaarheid van het Transportobject."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschikbaarheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transportnetwerk#Transportobject>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Beschikbaarheid>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Transportobject.beschikbaarheid#2020-04-23>.
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod> {
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#bedrag#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#bedrag>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geldbedrag dat aan de Mobiliteitsdienst kan worden besteed."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bedrag"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/MonetaryAmount>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#bedrag#2020-04-23>.
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod> {
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#berekendMet#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#berekendMet>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Routeplanner waarmee de Route is berekend."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "berekend met"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeplanner>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#berekendMet#2020-04-23>.
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod> {
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#beschikbaarOp#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#beschikbaarOp>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Transportobject waarop de Mobiliteitsdienst wordt aangeboden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschikbaar op"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/transportnetwerk#Transportobject>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#beschikbaarOp#2020-04-23>.
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod> {
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#bestaatUit#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#bestaatUit>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Opeenvolging van Routesegmenten waaruit de Route bestaat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bestaat uit"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#bestaatUit#2020-04-23>.
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod> {
+<http://data.europa.eu/m8g/startTime#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/startTime>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanvang van de tijdsduur."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "begin"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/PeriodOfTime>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/m8g/startTime#2020-04-23>.
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod> {
+<http://purl.org/dc/terms/description#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van het formeel kader."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/cpsv#FormalFramework>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van het Prijsplan."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/PriceSpecification>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/description#2020-04-23>.
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod> {
+<https://data.vlaanderen.be/ns/netwerk#bestaatUit#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/netwerk#bestaatUit>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Transportobjecten waaruit het Transportnetwerk bestaat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bestaat uit"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transportnetwerk#Transportnetwerk>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/transportnetwerk#Transportobject>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/netwerk#bestaatUit#2020-04-23>.
+<https://data.vlaanderen.be/ns/melding> {
+<https://data.vlaanderen.be/ns/melding#behandelaar#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#behandelaar>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Agent die werd aangewezen om de melding op te volgen en af te handelen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "behandelaar"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#behandelaar#2019-02-07>.
+<https://data.vlaanderen.be/ns/melding> {
+<https://data.vlaanderen.be/ns/melding#betrokkene#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#betrokkene>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Agent die belang heeft bij de Melding of geïmpacteerd is door de behandeling ervan."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "betrokkene"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Melding>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#betrokkene#2019-02-07>.
+<https://data.vlaanderen.be/ns/melding> {
+<http://purl.org/dc/terms/description#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een beschrijving van de Status."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Meldingstatus>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een tekstuele beschrijving van de melding."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#MeldingBody>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/description#2019-02-07>.
+<https://data.vlaanderen.be/ns/wetgeving> {
+<https://data.vlaanderen.be/ns/wetgeving#bekrachtigdBij#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#bekrachtigdBij>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse van bekrachtigt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bekrachtigd bij"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/wetgeving#bekrachtigdBij#2019-02-07>.
+<https://data.vlaanderen.be/ns/wetgeving> {
+<https://data.vlaanderen.be/ns/wetgeving#bekrachtigt#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#bekrachtigt>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Betekent dat dit document instemt met een ander type document waardoor dat laatste volledige rechtskracht krijgt. De bekrachtiging is in dit geval een opschortende voorwaarde."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bekrachtigt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/wetgeving#bekrachtigt#2019-02-07>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<http://data.europa.eu/m8g/startTime#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/startTime>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Moment waarop het tijdsinterval begint."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "begin"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/PeriodOfTime>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/m8g/startTime#2019-02-07>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<http://schema.org/hoursAvailable#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/hoursAvailable>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Periode waarin contact kan worden opgenomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschikbaarheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/OpeningHoursSpecification>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/hoursAvailable#2019-02-07>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<https://schema.org/recipient#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/recipient>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De agent die het notificatiebericht ontvangt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bestemmeling"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/notificatie#Notificatiebericht>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/recipient#2019-02-07>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt#20-07-2018> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De uitvoering van de acties om een agendapunt te verwerken tijdens een zitting."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Behandeling van Agendapunt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.vlaanderen.be/ns/besluit#Besluit#20-07-2018> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#Besluit>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De authentieke schriftelijke neerslag van een beslissing van een bestuursorgaan. Deze beslissing houdt een rechtshandeling in waarbij sprake is van een beoogd rechtsgevolg."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Besluit"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://data.europa.eu/eli/ontology#LegalExpression>, <http://xmlns.com/foaf/0.1/Document>, <http://purl.org/vocab/cpsv#FormalFramework>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#Besluit#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.vlaanderen.be/ns/besluit#Bestuurseenheid#20-07-2018> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#Bestuurseenheid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Publieke,bestuurlijke organisatie verbonden aan een territoriaal omschreven gebied met bepaalde verantwoordelijkheden waarbinnen het bestuurshandelingen kan stellen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bestuurseenheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://data.europa.eu/m8g/PublicOrganisation>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#Bestuurseenheid#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.vlaanderen.be/ns/besluit#Bestuursorgaan#20-07-2018> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#Bestuursorgaan>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een formeel orgaan van een rechtspersoon dat bevoegd is om rechtshandelingen te stellen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bestuursorgaan"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/org#Organization>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#Bestuursorgaan#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.vlaanderen.be/ns/besluit#behandelt#20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#behandelt>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een formeel vastgelegd agendapunt van de zitting."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "behandelt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Zitting>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/besluit#Agendapunt>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#behandelt#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.europa.eu/eli/ontology#description#20-07-2018> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een beknopte beschrijving van het besluit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Besluit>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#description#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.vlaanderen.be/ns/besluit#bestuurt#20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#bestuurt>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De bestuurseenheid die door het orgaan bestuurd wordt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bestuurt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Bestuursorgaan>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/besluit#Bestuurseenheid>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#bestuurt#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://purl.org/dc/terms/description#20-07-2018> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Korte beschrijving van het agendapunt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Agendapunt>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/description#20-07-2018>.
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen> {
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Bestrating#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Bestrating>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verhardingstype opgebouwd uit bestratingen (rechthoekige of vierkante componenten) waardoor een aanzienlijk aantal voegen tussen de componenten zitten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bestrating"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#OnbegroeidVoorkomen>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Bestrating#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen> {
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Betonstraatsteen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Betonstraatsteen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Betonstraatstenen zijn overeenkomstig NBN EN 1338 en NBN B21-311."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Betonstraatsteen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Bestrating>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Betonstraatsteen#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen> {
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Betontegel#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Betontegel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Betontegels zijn overeenkomstig NBN EN 1339 en NBN B21-211."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Betontegel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Bestrating>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Betontegel#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein> {
+<https://data.vlaanderen.be/ns/openbaardomein#bevat#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#bevat>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Relatie naar de objecten die deel uitmaken van de collectie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bevat"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#Collectie>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein#bevat#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein> {
+<http://fixme.com#beheerder#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://fixme.com#beheerder>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Instantie die instaat voor het beheer van het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beheerder"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#Organization>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://fixme.com#beheerder>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Instantie die instaat voor het beheer van het gebied."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beheerder"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#Organization>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://fixme.com#beheerder#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein> {
+<http://schema.org/hoursAvailable#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/hoursAvailable>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Periode waarin contact kan worden opgenomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschikbaarheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/OpeningHoursSpecification>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/hoursAvailable#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein> {
+<https://data.vlaanderen.be/ns/openbaardomein/gebied#begindatum#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#begindatum>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum waarop de huidige versie van het beheergebied in gebruik wordt genomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "begindatum"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/gebied#begindatum#2021-09-30>.
+<https://data.vlaanderen.be/ns/transactie> {
+<https://data.vlaanderen.be/ns/transactie#betrouwbaarheidsniveau#2019-02-07> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/transactie#betrouwbaarheidsniveau>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan hoe betrouwbaar het bewijs is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "betrouwbaarheidsniveau"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/Evidence>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/transactie#betrouwbaarheidsniveau#2019-02-07>.
+<https://data.vlaanderen.be/ns/transactie> {
+<http://data.europa.eu/m8g/Evidence#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/Evidence>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Elk stuk waarmee kan worden aangetoond dat men aan een CriteriumVereiste voldoet."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bewijs"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/m8g/Evidence#2019-02-07>.
+<https://data.vlaanderen.be/ns/transactie> {
+<http://data.europa.eu/m8g/belongsToAgent#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/belongsToAgent>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Bewijs zal behoren tot een Agent. Een criterium kan invloed hebben op verschillende Agents; voor een Bewijs moet daarom gespecifieerd worden tot welke Agent het behoort."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "behoort tot agent"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/Evidence>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/m8g/belongsToAgent#2019-02-07>.
+<https://data.vlaanderen.be/ns/transactie> {
+<http://data.europa.eu/m8g/provenByEvidence#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/provenByEvidence>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het criterium antwoord kan gelinkt zijn aan het bewijs om het antwoord te staven."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bewezen door"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/RequirementResponse>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/Evidence>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/m8g/provenByEvidence#2019-02-07>.
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats> {
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#BegraafplaatsRij#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#BegraafplaatsRij>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een rij is een verzameling graven van hetzelfde type. Een rij ligt typisch volledig binnen een bepaald blok. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Begraafplaats rij"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#BegraafplaatsRij#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats> {
+<https://data.vlaanderen.be/ns/openbaardomein/gebied#Begraafplaats#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Begraafplaats>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Gebied waar stoffelijke resten van overledenen begraven, bijgezet of verstrooid worden, inclusief de gemeenschappelijk gebruikte ruimte."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Begraafplaats"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Begraafplaats#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats> {
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#bezetting#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#bezetting>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft het aantal bezette plaatsen van een graf weer."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bezetting"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Thing>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#bezetting#2021-09-30>.
+<http://data.vlaanderen.be/ns/metadata-dcat> {
+<http://purl.org/dc/terms/description#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een bondige tekstuele omschrijving van de catalogus."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een bondige tekstuele omschrijving van de dataservice."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een bondige tekstuele omschrijving van de dataset."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/description#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<https://data.vlaanderen.be/ns/cultureel-erfgoed#Beschrijving#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Beschrijving>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Schriftelijke weergave van kenmerken van iets of iemand."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Beschrijving"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Beschrijving#2021-04-22>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/be.trig> <https://w3id.org/tree#relation> _:df_1_98.
+_:df_1_98 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/bew.trig>;
+    <https://w3id.org/tree#value> "bew".
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/be.trig> <https://w3id.org/tree#relation> _:df_1_99.
+_:df_1_99 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/bes.trig>;
+    <https://w3id.org/tree#value> "bes".
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/be.trig> <https://w3id.org/tree#relation> _:df_1_100.
+_:df_1_100 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/beh.trig>;
+    <https://w3id.org/tree#value> "beh".
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/be.trig> <https://w3id.org/tree#relation> _:df_1_101.
+_:df_1_101 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/bee.trig>;
+    <https://w3id.org/tree#value> "bee".
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/be.trig> <https://w3id.org/tree#relation> _:df_1_102.
+_:df_1_102 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/beg.trig>;
+    <https://w3id.org/tree#value> "beg".
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/be.trig>.

@@ -39,3 +39,44 @@
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Wegberm#2021-09-30>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/we.trig>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Materieel- of ConceptueelDing dat aan een Recht onderworpen kan worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Wettelijk Object"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<https://www.iflastandards.info/fr/frbr/frbroo#F1#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#F1>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Idee of combinatie van ideeën achter één of meer artistieke of intellectuele Expressies."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Werk"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://wherever/TODO>, <http://fixme.com#ConceptueelDing>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://www.iflastandards.info/fr/frbr/frbroo#F1#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<https://www.iflastandards.info/fr/frbr/frbroo#R16#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#R16>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het Werk dat gecreëerd werd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "werk"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.iflastandards.info/fr/frbr/frbroo#F27>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.iflastandards.info/fr/frbr/frbroo#F1>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://www.iflastandards.info/fr/frbr/frbroo#R16#2021-04-22>.
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel> {
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Wegbaan#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Wegbaan>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De wegbaan (Wbn) is de voorstelling van de wegcorridor in het GRB. De wegbaan wordt overlangs opgedeeld in verschillende arbitrair afgebakende wegbaanelementen. Er zijn twee types wegbaanelementen: een kruispuntzone komt overeen met een kruispunt; een wegsegment komt overeen met een wegvak."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Wegbaan"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Wegbaan#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel> {
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Wegberm#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Wegberm>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Langgerekte strook grond binnen de wegcorridor gelegen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Wegberm"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Wegbaan>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Wegberm#2021-09-30>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/we.trig>.

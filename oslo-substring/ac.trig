@@ -52,3 +52,57 @@
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity#2021-04-22>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ac.trig>.
+<https://data.vlaanderen.be/ns/transactie> {
+<https://data.vlaanderen.be/ns/transactie#actie#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/transactie#actie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Deze parameter laat toe om aan te geven dat - qua procesverloop van de transactie - de bal expliciet in het kamp van de klant (= de Agent) ligt en dat er dus een actie verwacht wordt van zijn kant."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "actie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transactie#Status>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/transactie#actie#2019-02-07>.
+<https://data.vlaanderen.be/ns/transactie> {
+<https://data.vlaanderen.be/ns/transactie#actieNodig#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/transactie#actieNodig>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Indien Actie Nodig 'Ja', dan laat dit veld toe te specifiëren welke Actie van de klant (Agent) wordt verwacht."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "actie nodig"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transactie#Status>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/transactie#actieNodig#2019-02-07>.
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats> {
+<https://data.vlaanderen.be/ns/openbaardomein/gebied#actieveLijkbezorging#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#actieveLijkbezorging>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan of er al dan niet nog aan actieve lijkbezorging gedaan wordt op de begraafplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "actieve lijkbezorging"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Begraafplaats>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/gebied#actieveLijkbezorging#2021-09-30>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://xmlns.com/foaf/0.1/familyName#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/familyName>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Gedeelte van de volledige naam vd persoon ontvangen van de vorige generatie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "achternaam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/person#Person>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://xmlns.com/foaf/0.1/familyName#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol.activiteit#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol.activiteit>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Referentie naar verbonden klasse."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Activiteit"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol.activiteit#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://www.cidoc-crm.org/cidoc-crm/E7_Activity#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Actie die bewust wordt uitgevoerd door een Agent met de bedoeling een cultureel, sociaal of materieel effect teweeg te brengen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Activiteit"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E5_Event>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity#2021-04-22>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ac.trig>.

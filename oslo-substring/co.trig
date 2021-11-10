@@ -168,3 +168,173 @@
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/toestemming#contactkanaal#2019-02-07>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/co.trig>.
+<http://data.vlaanderen.be/ns/metadata-dcat> {
+<http://purl.org/dc/terms/conformsTo#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/conformsTo>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een protocol waaraan de dataservice voldoet."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "conform aan protocol"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Standard>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/conformsTo>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een standaard, schema, applicatieprofiel, vocabularium waaraan de dataset voldoet."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "conform"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Standard>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/conformsTo#2021-04-22>.
+<http://data.vlaanderen.be/ns/metadata-dcat> {
+<http://www.w3.org/ns/dcat#contactPoint#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#contactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De relevante contactinformatie waarmee een eindgebruiker in contact kan treden met de verantwoordelijken van de catalogus."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactinformatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/vcard/ns#Kind>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#contactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De relevante contactinformatie waarmee een eindgebruiker in contact kan treden met de verantwoordelijken van de dataservice."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactinformatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/vcard/ns#Kind>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#contactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De relevante contactinformatie waarmee een eindgebruiker in contact kan treden met de verantwoordelijken van de dataset."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactinformatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/ContactPoint>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/dcat#contactPoint#2021-04-22>.
+<http://data.vlaanderen.be/ns/metadata-dcat> {
+<http://xmlns.com/foaf/0.1/page#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/page>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een webpagina die ofwel toelaat om contact op te nemen (via b.v. een webformulier) of die informatie bevat hoe men contact kan opnemen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactpagina"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2006/vcard/ns#Kind>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://xmlns.com/foaf/0.1/page#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://purl.org/dc/dcmitype/Collection#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/dcmitype/Collection>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aggregatie van Entiteiten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Collectie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://wherever/TODO>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/dcmitype/Collection#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://schema.org/ContactPoint#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email, telefoon, adres die toelaat om iemand of iets te contacteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Contactinfo"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/ContactPoint#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het vaststellen van de staat van een MaterieelDing."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Conditiebeoordeling"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Niet-materiële voortbrengselen van de geest of andere door mensen geproduceerde gegevens."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Conceptueel Ding"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E70_Thing>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Staat waarin een object zich bevindt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Conditie"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<https://www.iflastandards.info/fr/frbr/frbroo#F15#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#F15>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Werk dat uit andere Werken is samengesteld."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Complex Werk"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://www.iflastandards.info/fr/frbr/frbroo#F1>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://www.iflastandards.info/fr/frbr/frbroo#F15#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<https://www.iflastandards.info/fr/frbr/frbroo#F27#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#F27>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Activiteit die het onstaan van een Werk markeert."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Conceptie"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://www.iflastandards.info/fr/frbr/frbroo#F27#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://www.cidoc-crm.org/cidoc-crm/P34i_was_assessed_by#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P34i_was_assessed_by>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De Activiteit waarbij de Conditie van het MaterieelDing werd beoordeeld."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "conditiebeoordeling"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/P34i_was_assessed_by#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://www.cidoc-crm.org/cidoc-crm/P44_has_condition#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P44_has_condition>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijft de Conditie waarin het MensgemaaktKenmerk zich bevindt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "conditie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P44_has_condition>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijft de Conditie waarin het MensgemaaktKenmerk zich bevindt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "conditie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/P44_has_condition#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://www.cidoc-crm.org/cidoc-crm/P76_has_contact_point#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P76_has_contact_point>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Contactinfo van de Agent."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactinfo"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Agent>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/ContactPoint>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/P76_has_contact_point#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<https://www.iflastandards.info/fr/frbr/frbroo#R16i#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#R16i>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Activiteit die het onstaan van het Werk in gang heeft gezet."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "conceptie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.iflastandards.info/fr/frbr/frbroo#F1>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.iflastandards.info/fr/frbr/frbroo#F27>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://www.iflastandards.info/fr/frbr/frbroo#R16i#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://www.cidoc-crm.org/cidoc-crm/P34_concerned#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P34_concerned>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het MaterieelDing dat werd beoordeeld tijdens Conditiebeoordeling."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "conditie van"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/P34_concerned#2021-04-22>.
+<https://data.vlaanderen.be/ns/toestemming> {
+<https://data.vlaanderen.be/ns/toestemming#Cookieverklaring#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#Cookieverklaring>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een document met informatie om personen duidelijk te informeren over welke cookies gebruikt worden in een toepassing en voor welke doeleinden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Cookieverklaring"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://xmlns.com/foaf/0.1/Document>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/toestemming#Cookieverklaring#2019-02-07>.
+<https://data.vlaanderen.be/ns/toestemming> {
+<https://data.vlaanderen.be/ns/toestemming#contactkanaal#2019-02-07> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#contactkanaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het kanaal of medium langs waar een gebruiker gecontacteerd kan worden. Bijvoorbeeld sms of e-mail."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactkanaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/toestemming#Verwerkingsactiviteit>;
+    a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#contactkanaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het kanaal of medium langs waar een gebruiker gecontacteerd kan worden. Bijvoorbeeld sms of e-mail."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactkanaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/toestemming#contactkanaal#2019-02-07>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/co.trig>.

@@ -48,3 +48,53 @@
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://xmlns.com/foaf/0.1/Document#2019-02-07>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/do.trig>.
+<https://data.vlaanderen.be/ns/transactie> {
+<https://lod.milieuinfo.be/ns/dossier#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://lod.milieuinfo.be/ns/dossier>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een dossier is het geheel aan werk gedaan om tot een bestuurlijke of zakelijke beslissing te komen. Een dossier slaat doorgaans neer in een verzameling documenten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Dossier"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://lod.milieuinfo.be/ns/dossier#2019-02-07>.
+<http://data.vlaanderen.be/ns/metadata-dcat> {
+<http://www.w3.org/ns/dcat#downloadURL#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#downloadURL>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De URL waar de data gedownload kan worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "downloadURL"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/dcat#downloadURL#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://www.cidoc-crm.org/cidoc-crm/E31_Document#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E31_Document>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Identificeerbaar immaterieel object dat uitspraken bevat over de werkelijkheid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Document"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/E31_Document#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<http://www.cidoc-crm.org/cidoc-crm/P70_documents#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P70_documents>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Entiteit die wordt gedocumenteerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "documenteert"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E31_Document>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.cidoc-crm.org/cidoc-crm/P70_documents#2021-04-22>.
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel> {
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#doorwortelbaarVolume#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#doorwortelbaarVolume>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het bodemvolume met voldoende mineralen, water en zuurstof die bereikbaar zijn voor een boom om erin te wortelen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "doorwortelbaar volume"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Boomplantplaats>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#doorwortelbaarVolume#2021-09-30>.
+<https://data.vlaanderen.be/ns/toestemming> {
+<http://xmlns.com/foaf/0.1/Document#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/Document>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Document met omstandige informatie over de identiteit van de verantwoordelijke, de geplande verwerkingen, de doelstelling en de wettelijke grond en over de genomen maatregelen om zijn data te beschermen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Document"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://xmlns.com/foaf/0.1/Document#2019-02-07>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/do.trig>.

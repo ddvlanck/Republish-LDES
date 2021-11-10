@@ -89,3 +89,94 @@
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol.agent#2021-04-22>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ag.trig>.
+<https://data.vlaanderen.be/ns/melding> {
+<http://purl.org/dc/terms/Agent#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/Agent>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Iemand die of iets dat kan handelen of een effect kan teweeg brengen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/Agent#2019-02-07>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<https://schema.org/agent#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/agent>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt de agent aan die aanleiding gaf tot de InformeerActie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "agent"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/InformAction>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/PublicOrganisation>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/agent#2019-02-07>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.vlaanderen.be/ns/besluit#Agendapunt#20-07-2018> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#Agendapunt>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Formeel aanvaard te behandelen onderwerp op een zitting."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Agendapunt"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#Agendapunt#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://purl.org/dc/terms/Agent#20-07-2018> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/Agent>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Iemand die of iets dat kan handelen of een effect kan teweeg brengen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/Agent#20-07-2018>.
+<http://data.vlaanderen.be/ns/metadata-dcat> {
+<http://purl.org/dc/terms/Agent#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/Agent>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Iemand die of iets dat kan handelen of een effect kan teweeg brengen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/Agent#2021-04-22>.
+<https://data.vlaanderen.be/ns/perceel> {
+<https://data.vlaanderen.be/ns/perceel#Restrictie.agent#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#Restrictie.agent>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Referentie naar verbonden klasse."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/perceel#Restrictie>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#Restrictie.agent#2020-06-18>.
+<https://data.vlaanderen.be/ns/perceel> {
+<https://data.vlaanderen.be/ns/perceel#ZakelijkRecht.agent#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#ZakelijkRecht.agent>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Referentie naar verbonden klasse."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/perceel#ZakelijkRecht>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#ZakelijkRecht.agent#2020-06-18>.
+<https://data.vlaanderen.be/ns/perceel> {
+<https://data.vlaanderen.be/ns/perceel#agentMetRestrictie#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#agentMetRestrictie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Agent die een restrictie heeft met betrekking tot een ruimtelijke eenheid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "agent met restrictie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#agentMetRestrictie#2020-06-18>.
+<https://data.vlaanderen.be/ns/perceel> {
+<https://data.vlaanderen.be/ns/perceel#agentMetZakelijkRecht#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/perceel#agentMetZakelijkRecht>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Agent die een zakelijk recht heeft op een kadastraal patrimoniumperceel."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "agent met zakelijk recht"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/perceel#KadastraalPatrimoniumperceel>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/perceel#agentMetZakelijkRecht#2020-06-18>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<https://www.iflastandards.info/fr/frbr/frbroo#F17#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#F17>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Werk dat de selectie en/of ordening inhoudt van Expressies van andere Werken."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Aggregatiewerk"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://www.iflastandards.info/fr/frbr/frbroo#F1>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://www.iflastandards.info/fr/frbr/frbroo#F17#2021-04-22>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol.agent#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol.agent>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Referentie naar verbonden klasse."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol.agent#2021-04-22>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ag.trig>.

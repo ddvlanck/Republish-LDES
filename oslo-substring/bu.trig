@@ -48,3 +48,53 @@
 }
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer#2019-02-07>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/bu.trig>.
+<https://data.vlaanderen.be/ns/wetgeving> {
+<http://data.europa.eu/eli/ontology#date_no_longer_in_force#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#date_no_longer_in_force>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De laatste dag waarop de regelgeving nog van kracht is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "buitenwerkingtreding"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#date_no_longer_in_force>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De laatste dag waarop de regelgeving nog van kracht is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "buitenwerkingtreding"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#date_no_longer_in_force#2019-02-07>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.europa.eu/eli/ontology#date_no_longer_in_force#20-07-2018> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#date_no_longer_in_force>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De laatste dag waarop de regelgeving nog van kracht is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "buitenwerkingtreding"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#date_no_longer_in_force#20-07-2018>.
+<https://data.vlaanderen.be/ns/openbaardomein/gebied> {
+<https://data.vlaanderen.be/ns/openbaardomein/gebied#Bufferzone#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Bufferzone>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een bufferzone is een gebied noodzakelijk om de hinder met naastliggende gebieden te beperken, bijvoorbeeld tussen industrie en woonzone of park."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bufferzone"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Bufferzone#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel> {
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Bushaltehaven#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Bushaltehaven>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "\tUitwijkplaats bestemd voor het stilstaan van bussen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bushaltehaven"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Wegbaan>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Bushaltehaven#2021-09-30>.
+<https://data.vlaanderen.be/ns/toestemming> {
+<http://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "busnummer"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer#2019-02-07>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/bu.trig>.

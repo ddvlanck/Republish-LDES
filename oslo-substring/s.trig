@@ -360,3 +360,365 @@ _:df_0_29 a <https://w3id.org/tree#SubstringRelation>;
     <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/se.trig>;
     <https://w3id.org/tree#value> "se".
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/s.trig>.
+<https://data.vlaanderen.be/ns/openbaardomein/vegetatie> {
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortcode#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortcode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een unieke identificator voor de soort van het vegetatie-element. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "soortcode"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortcode#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/vegetatie> {
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortnaamNederlands#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortnaamNederlands>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Soortnaam in het Nederlands."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "soortnaam Nederlands"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortnaamNederlands#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/vegetatie> {
+<https://schema.org/unitCode#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/unitCode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De gestandaardiseerde eenheid waarin de waarde is uitgedrukt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "standaard eenheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/generiek#StandaardEenheid>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/unitCode#2021-09-30>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<http://data.vlaanderen.be/ns/besluit#Stemming#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#Stemming>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geformaliseerde handeling waarbij de stemgerechtigde leden van een bestuursorgaan hun keuze te kennen geven."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Stemming"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit>, <https://data.vlaanderen.be/ns/besluitvorming#Beslissingsactiviteit>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/besluit#Stemming#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<https://data.vlaanderen.be/ns/dossier#Stuk#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#Stuk>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een stuk uit het dossier dat iets beschrijft en/of informatie bevat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Stuk"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/prov#Entity>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/dossier#Stuk#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<https://data.vlaanderen.be/ns/dossier#Activiteit.startdatum#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#Activiteit.startdatum>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De startdatum van de activiteit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "startdatum"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Activity>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/dossier#Activiteit.startdatum#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<https://data.vlaanderen.be/ns/dossier#Procedurestap.startdatum#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#Procedurestap.startdatum>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De startdatum van de procedurestap."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "startdatum"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Procedurestap>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/dossier#Procedurestap.startdatum#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<https://data.vlaanderen.be/ns/dossier#sluitingsdatum#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#sluitingsdatum>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De sluitingsdatum van de zaak."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "sluitingsdatum"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/besluitvorming#Besluitvormingsaangelegenheid>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/dossier#sluitingsdatum#2021-02-04>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<https://data.vlaanderen.be/ns/bedrijventerrein#SchorsingInfo#2020-06-18> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/bedrijventerrein#SchorsingInfo>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft informatie over een mogelijke schorsing van het plan."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "SchorsingInfo"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/bedrijventerrein#SchorsingInfo#2020-06-18>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<https://data.vlaanderen.be/ns/bedrijventerrein#schorsing#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/bedrijventerrein#schorsing>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De schorsing geeft aan of het plan al dan niet geschorst is en bijhorende metadata over de schorsing."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "schorsing"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/bedrijventerrein#Plan>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/bedrijventerrein#SchorsingInfo>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/bedrijventerrein#schorsing#2020-06-18>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<https://data.vlaanderen.be/ns/bedrijventerrein#schorsingOpmerking#2020-06-18> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/bedrijventerrein#schorsingOpmerking>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Opmerkingen in het kader van de schorsing."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "schorsing opmerking"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/bedrijventerrein#SchorsingInfo>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/bedrijventerrein#schorsingOpmerking#2020-06-18>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<https://data.vlaanderen.be/ns/bedrijventerrein#startdatum#2020-06-18> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/bedrijventerrein#startdatum>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum van de start van het plan."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "startdatum"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/bedrijventerrein#Plan>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/bedrijventerrein#startdatum#2020-06-18>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<https://data.vlaanderen.be/ns/bedrijventerrein#status#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/bedrijventerrein#status>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft de status aan waarin het plan zich bevindt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "status"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/bedrijventerrein#Plan>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/bedrijventerrein#status#2020-06-18>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<https://data.vlaanderen.be/ns/bedrijventerrein#statusOntwikkeling#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/bedrijventerrein#statusOntwikkeling>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft de status aan van de Ontwikkelbare Bedrijvezone."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "status ontwikkeling"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/bedrijventerrein#statusOntwikkeling#2020-06-18>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<https://data.vlaanderen.be/ns/bedrijventerrein#stedenbouwkundigeVoorschriften#2020-06-18> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/bedrijventerrein#stedenbouwkundigeVoorschriften>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Link naar de tekst met het stedenbouwkundige voorschrift van het plan."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "stedenbouwkundige voorschriften"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/bedrijventerrein#Plan>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/bedrijventerrein#stedenbouwkundigeVoorschriften#2020-06-18>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<https://data.vlaanderen.be/ns/generiek#StandaardEenheid#2020-06-18> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/generiek#StandaardEenheid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Eenheid vastgelegd door een standaardiserende organisatie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Standaard Eenheid"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/generiek#StandaardEenheid#2020-06-18>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<https://schema.org/unitCode#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/unitCode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De gestandaardiseerde eenheid waarin de waarde is uitgedrukt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "standaard eenheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/generiek#StandaardEenheid>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://schema.org/unitCode#2020-06-18>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Schampblok#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Schampblok>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geprefabriceerde betonnen veiligheidsstootband met beperkte lengte, waarvan meestal een rij geplaatst wordt in longitudinale richting."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Schampblok"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#LongitudinaleWeginrichting>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Schampblok#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SeininstallatieOvergangSpoorbedding#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SeininstallatieOvergangSpoorbedding>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Installatie voor het regelen van de toegang tot een spoorwegovergang."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Seininstallatie overgang spoorbedding"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegsignalisatie>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SeininstallatieOvergangSpoorbedding#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SelectieveAfsluiting#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SelectieveAfsluiting>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Op het terrein ondubbelzinnig aanwijsbare afsluiting die gebruikt kan worden om selectief en/of periodiek toegang te verlenen aan voertuigen, fietsers en/of voetgangers."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Selectieve afsluiting"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Afsluiting>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SelectieveAfsluiting#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Sensoropstelling#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Sensoropstelling>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De gehele opstelling van een meettoestel, bedoeld om iets waar te nemen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Sensoropstelling"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Sensoropstelling#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Signalisatie#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Signalisatie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Elementen langsheen wegen en waterlopen ter orientatie van het verkeer. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Signalisatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Signalisatie#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieEnLeidingenportiek#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieEnLeidingenportiek>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Elke overspanning van een gedeelte van de wegbaan, watergang of spoorbaan waarbij ofwel signalisatieborden werden aangebracht ofwel gebruikt ter overbrugging van de wegbaan, watergang of spoorbaan voor leidingen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Signalisatie en leidingenportiek"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieEnLeidingenportiek#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaart#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaart>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Paalvormige en duurzame verankering van signalisatie langsheen een waterloop ter oriëntatie van het scheepvaartverkeer."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Signalisatie scheepvaart"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Signalisatie>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaart#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaartElektrisch#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaartElektrisch>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Paalvormige en duurzame verankering van signalisatie langsheen een waterloop ter oriëntatie van het scheepvaartverkeer of de bediening ervan die beschikken over een inwendige verlichting, lichten, elektrische ogen en radarscanners."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Signalisatie scheepvaart elektrisch"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaart>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaartElektrisch#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaartNietElektrisch#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaartNietElektrisch>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Paalvormige en duurzame verankering van signalisatie langsheen een waterloop ter oriëntatie van het scheepvaartverkeer bvb. verboden te ankeren, VHF-kanaal aanduiding,..."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Signalisatie scheepvaart niet-elektrisch"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaart>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaartNietElektrisch#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Silo#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Silo>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een silo of een opslagtank is een grote zichtbare installatie opgetrokken uit duurzame materialen voor opslag en verwerking van bulkmaterialen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Silo"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Silo#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Slagboom#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Slagboom>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een afsluitingsmechanisme met slagboomarmen dat dient om controle uit te kunnen oefenen over het gebruik van een doorgang of een toegang."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Slagboom"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SelectieveAfsluiting>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Slagboom#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SpeelEnSportvoorziening#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SpeelEnSportvoorziening>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Element op het terrein ontworpen of kennelijk bestemd om te spelen of te sporten"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Speel- en sportvoorziening"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SpeelEnSportvoorziening#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Spuitkop#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Spuitkop>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een watervoorziening met een visuele functie, bijvoorbeeld op een stadplein, of voor de bewatering van grasperken, sportgazons..."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Spuitkop"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Spuitkop#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StatischeWegmonoliet#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StatischeWegmonoliet>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een niet-verzinkbaar massief obstakel dat de doorgang van voertuigen belet."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Statische wegmonoliet"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegmonoliet>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StatischeWegmonoliet#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Stootband#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Stootband>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Vaste inrichtingselementen binnen de wegbaan (WBN) met als doel de normale verkeersstromen in gescheiden stroken te leiden. Deze zijn overwegend parallel aan de hartlijn van de wegbaan georiënteerd. Een stootband is een geprefabriceerde betonnen veiligheidsband die over haar gehele lengte op de bodem rust en geplaatst werd om te voorkomen dat voertuigen van de weg afraken."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Stootband"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#LongitudinaleWeginrichting>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Stootband#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StootbandDupuis#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StootbandDupuis>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geprefabriceerde betonnen veiligheidsstootband die over haar gehele lengte op de bodem rust en geplaatst werd om te voorkomen dat voertuigen van de weg afgeraken. Deze zijn overwegend parallel aan de hartlijn van de wegbaan georiënteerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Stootband dupuis"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Stootband>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StootbandDupuis#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StootbandNewJersey#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StootbandNewJersey>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Ter plaatse vervaardigde hoge (0,60 tot 1,00m) betonnen veiligheidsstootband die over haar gehele lengte op de bodem rust. Deze zijn overwegend parallel aan de hartlijn van de wegbaan georiënteerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Stootband new jersey"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Stootband>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StootbandNewJersey#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatkap#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatkap>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Elke straatkap of deksel in beton, pvc, polyester of gietijzer die een leiding aanduidt. Een zichtbare straatkap is een merkteken of deksel dat zich in het vlak van de wegbaan bevindt (bv. luiken en deksels communicatieleidingen, waterleiding,...)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Straatkap"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Deksel>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatkap#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatkolk#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatkolk>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De hemelwaterinlaatconstructie, meestal geplaatst in de straatgoot of watergreppel, waarlangs het hemelwater van de verhardingen wordt afgevoerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Straatkolk"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Rooster>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatkolk#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Straatmeubilair is  een diverse groep van objecten die in het algemeen in de openbare ruimte staan (zowel corridor- als surplusgebied)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Straatmeubilair"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatspiegel#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatspiegel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "(Meestal) bolvormig reflecterend voorwerp, specifiek geplaatst ten behoeve van de verkeersveiligheid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Straatspiegel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatspiegel#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#sorteerfractie#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#sorteerfractie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt het materiaal aan om te sorteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "sorteerfractie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Recyclagecontainer>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#sorteerfractie#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#speeltoesteltype#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#speeltoesteltype>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type speeltoestel."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "speeltoesteltype"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SpeelEnSportvoorziening>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#speeltoesteltype#2021-09-30>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/s.trig> <https://w3id.org/tree#relation> _:df_1_23.
+_:df_1_23 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/st.trig>;
+    <https://w3id.org/tree#value> "st".
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/s.trig> <https://w3id.org/tree#relation> _:df_1_24.
+_:df_1_24 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/sa.trig>;
+    <https://w3id.org/tree#value> "sa".
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/s.trig> <https://w3id.org/tree#relation> _:df_1_25.
+_:df_1_25 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/sl.trig>;
+    <https://w3id.org/tree#value> "sl".
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/s.trig> <https://w3id.org/tree#relation> _:df_1_26.
+_:df_1_26 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/sc.trig>;
+    <https://w3id.org/tree#value> "sc".
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/s.trig> <https://w3id.org/tree#relation> _:df_1_27.
+_:df_1_27 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/sp.trig>;
+    <https://w3id.org/tree#value> "sp".
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/s.trig> <https://w3id.org/tree#relation> _:df_1_28.
+_:df_1_28 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/si.trig>;
+    <https://w3id.org/tree#value> "si".
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/s.trig> <https://w3id.org/tree#relation> _:df_1_29.
+_:df_1_29 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/se.trig>;
+    <https://w3id.org/tree#value> "se".
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/s.trig>.

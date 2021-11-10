@@ -385,3 +385,390 @@ _:df_0_97 a <https://w3id.org/tree#SubstringRelation>;
     <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ca.trig>;
     <https://w3id.org/tree#value> "ca".
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/c.trig>.
+<http://data.vlaanderen.be/ns/dcatapvl> {
+<http://www.w3.org/2006/vcard/ns#Kind#13-06-2019> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2006/vcard/ns#Kind>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een beschrijving van contact informatie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Contactinfo"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/2006/vcard/ns#Kind#13-06-2019>.
+<http://data.vlaanderen.be/ns/dcatapvl> {
+<http://www.w3.org/ns/dcat#contactPoint#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#contactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De contactinformatie via men in contact kan treden met de verantwoordelijken van de dataset. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactinfo"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/vcard/ns#Kind>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/dcat#contactPoint#13-06-2019>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<http://data.europa.eu/eli/ontology#title_short#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#title_short>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De beknopte titel of officiële korte naam van een decreet, wet, besluit... Deze wordt officieel vastgelegd. Deze benaming wordt in de praktijk gebruikt om naar de rechtsgrond te verwijzen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "citeeropschrift"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Besluit>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#title_short#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<http://purl.org/dc/terms/created#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/created>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De creatiedatum van het stuk."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "creatiedatum"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Stuk>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://purl.org/dc/terms/created#2021-02-04>.
+<https://data.vlaanderen.be/ns/besluitvorming> {
+<http://www.w3.org/ns/org#classification#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/org#classification>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Classificatie van de bestuurseenheid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "classificatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Bestuurseenheid>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/org#classification>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type bestuursorgaan."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "classificatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Bestuursorgaan>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/org#classification#2021-02-04>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<http://schema.org/ContactPoint#2020-06-18> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email, telefoon, adres die toelaat om iemand of iets te contacteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Contactinfo"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/ContactPoint#2020-06-18>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<http://schema.org/contactPoint#2020-06-18> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/contactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email, telefoon, adres die toelaat om iemand of iets te contacteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactinfo"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Agent>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/ContactPoint>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/contactPoint#2020-06-18>.
+<https://data.vlaanderen.be/ns/bedrijventerrein> {
+<http://xmlns.com/foaf/0.1/name#2020-06-18> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/name>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van bvb de persoon die men kan contacteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactnaam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://xmlns.com/foaf/0.1/name#2020-06-18>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Camera#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Camera>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Vast of mobiel observatiesysteem dat beelden verzamelt, verwerkt of bewaart om: misdrijven te voorkomen, vast te stellen of op te sporen; overlast te voorkomen, vast te stellen of op te sporen; de orde te handhaven."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Camera"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Sensoropstelling>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Camera#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Communicatiemast#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Communicatiemast>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een meervoudige metalen constructie zoals een tijdelijke GSM-mast, een mast van een radio-amateur, een private ontvangst- en zendinstallatie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Communicatiemast"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Mast>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Communicatiemast#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#CultuurhistorischMonument#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#CultuurhistorischMonument>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een cultuurhistorisch monument is een zichtbare constructie met historische, esthetische of landschappelijke waarde opgetrokken uit duurzame materialen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Cultuurhistorisch monument"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#CultuurhistorischMonument#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#capaciteit#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#capaciteit>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan hoeveel fietsen gestald kunnen worden aan of in de fietsenstalling."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "capaciteit"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietsstalling>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#capaciteit#2021-09-30>.
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod> {
+<http://schema.org/ContactPoint#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email,telefoon,adres die toelaat om iemand of iets te contacteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Contactinfo"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/ContactPoint#2020-04-23>.
+<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod> {
+<http://schema.org/contactPoint#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/contactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email, telefoon... die toelaat de Organisatie te contacteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactinfo"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Aanbieder>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/ContactPoint>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/contactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email, telefoon... die toelaat de Organisatie te contacteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactinfo"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/PublicOrganisation>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/ContactPoint>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/contactPoint#2020-04-23>.
+<https://data.vlaanderen.be/ns/wetgeving> {
+<http://data.europa.eu/eli/ontology#cites#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#cites>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een citatie in de wettelijke tekst. Dit omvat zowel woordelijke citaten als citaten in verwijzingen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "citeert"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#cites#2019-02-07>.
+<https://data.vlaanderen.be/ns/wetgeving> {
+<http://data.europa.eu/eli/ontology#consolidates#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#consolidates>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat deze geconsolideerde juridische bron of uitdrukking (meestal het product van een redactioneel proces dat de wetgeving herziet) rekening houdt met een andere."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "consolideert"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#consolidates#2019-02-07>.
+<https://data.vlaanderen.be/ns/wetgeving> {
+<http://data.europa.eu/eli/ontology#title_short#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#title_short>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De beknopte titel of officiële korte naam van een decreet, wet, besluit..."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "citeeropschrift"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#title_short#2019-02-07>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<http://schema.org/ContactPoint#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email, telefoon, adres die toelaat om iemand of iets te contacteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Contactinfo"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/ContactPoint#2019-02-07>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<http://schema.org/contactPoint#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/contactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email, telefoon... die toelaat de entiteit te contacteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactinfo"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Brand>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/ContactPoint>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/contactPoint#2019-02-07>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<http://xmlns.com/foaf/0.1/name#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/name>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van bvb de persoon die men kan contacteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactnaam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://xmlns.com/foaf/0.1/name#2019-02-07>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.europa.eu/eli/ontology#cites#20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#cites>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een citatie in de wettelijke tekst. Dit omvat zowel woordelijke citaten als citaten in verwijzingen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "citeert"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#cites>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een citatie in de wettelijke tekst. Dit omvat zowel woordelijke citaten als citaten in verwijzingen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "citeert"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalExpression>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#cites>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een bijlage waarnaar verwezen wordt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft bijlage"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Document>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#cites#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.europa.eu/eli/ontology#corrects#20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#corrects>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan dat deze legale verschijningsvorm tekstuele veranderingen zonder legale impact aanbrengt in een andere legale verschijningsvorm."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "corrigeert"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalExpression>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#corrects>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan dat deze rechtsgrond tekstuele veranderingen zonder legale impact aanbrengt in een andere rechtsgrond."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "corrigeert"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#corrects#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://data.europa.eu/eli/ontology#title_short#20-07-2018> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#title_short>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De beknopte titel of officiële korte naam van een decreet, wet, besluit... Deze wordt officieel vastgelegd. Deze benaming wordt in de praktijk gebruikt om naar de rechtsgrond te verwijzen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "citeeropschrift"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Besluit>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/eli/ontology#title_short#20-07-2018>.
+<http://data.vlaanderen.be/ns/besluit> {
+<http://www.w3.org/ns/org#classification#20-07-2018> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/org#classification>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Classificatie van de bestuurseenheid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "classificatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Bestuurseenheid>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/org#classification>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type bestuursorgaan."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "classificatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Bestuursorgaan>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/org#classification#20-07-2018>.
+<https://data.vlaanderen.be/ns/melding> {
+<http://www.w3.org/ns/oa#cachedSource#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/oa#cachedSource>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een cached momentopname van de bron op het moment van de vaststelling van de fout of onvolledigheid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "cached bron"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/oa#TimeState>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/oa#cachedSource#2019-02-07>.
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen> {
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Cementbetonverharding#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Cementbetonverharding>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Stijve verharding met of zonder wapening verkregen door cementbeton te spreiden en mechanisch te verdichten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Cementbetonverharding"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#OnbegroeidVoorkomen>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#Cementbetonverharding#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen> {
+<https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#ColloidaalBeton#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#ColloidaalBeton>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Betonspecie voor toepassing onder water, waarvan de samenhang is verbeterd door toevoeging van een waterretentiemiddel."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Colloidaal Beton"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#AndereVerhardingen>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#ColloidaalBeton#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein> {
+<https://data.vlaanderen.be/ns/openbaardomein#Collectie#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#Collectie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een verzameling van individuele objecten waartussen een functionele relatie bestaat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Collectie"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein#Collectie#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein> {
+<http://schema.org/ContactPoint#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email, telefoon, adres die toelaat om iemand of iets te contacteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Contactinfo"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/ContactPoint#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein> {
+<http://schema.org/contactPoint#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/contactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email, telefoon ... die toelaat de Organisatie te contacteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactinfo"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/org#Organization>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/ContactPoint>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://schema.org/contactPoint#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein> {
+<http://xmlns.com/foaf/0.1/name#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/name>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van bvb de persoon die men kan contacteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactnaam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://xmlns.com/foaf/0.1/name#2021-09-30>.
+<https://data.vlaanderen.be/ns/transactie> {
+<http://data.europa.eu/m8g/CriterionRequirement#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/CriterionRequirement>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Criterium dat toelaat te bepalen of een gebruiker recht heeft op een dienstverlening of deze mag gebruiken."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Criteriumvereiste"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/m8g/CriterionRequirement#2019-02-07>.
+<https://data.vlaanderen.be/ns/transactie> {
+<http://data.europa.eu/m8g/RequirementResponse#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/RequirementResponse>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een criterium antwoord is een bewering over een bepaald criterium vereiste. Met deze klasse wordt het effectieve antwoord van een agent op een criterium vereiste bedoelt. Een beantwoorde vereiste bestaat uit een specifieke waarde voor de specifieke vereiste en het tijdsinterval waarop de waarde van toepassing is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Criterium antwoord"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://data.europa.eu/m8g/RequirementResponse#2019-02-07>.
+<https://data.vlaanderen.be/ns/transactie> {
+<https://data.vlaanderen.be/ns/organisatie#contactinfo#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/organisatie#contactinfo>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email, telefoon die toelaat de hoedanigheid te contacteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactinfo"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/ContactPoint>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/organisatie#contactinfo#2019-02-07>.
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats> {
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Columbarium#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Columbarium>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een columbarium is een muur met nissen waarin urnen geplaatst worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Columbarium"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#Element>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Columbarium#2021-09-30>.
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats> {
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#capaciteit#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#capaciteit>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft het aantal beschikbare plaatsen van een graf weer."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "capaciteit"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Graf>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer>
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#capaciteit#2021-09-30>.
+<http://data.vlaanderen.be/ns/metadata-dcat> {
+<http://www.w3.org/2006/vcard/ns#Kind#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2006/vcard/ns#Kind>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een beschrijving van contactinformatie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Contactinfo"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/2006/vcard/ns#Kind#2021-04-22>.
+<http://data.vlaanderen.be/ns/metadata-dcat> {
+<http://www.w3.org/ns/dcat#Catalog#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een beheerde verzameling van metadata over resources (zoals datasets en dataservices in de context van een datacatalogus)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Catalogus"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/dcat#Catalog#2021-04-22>.
+<http://data.vlaanderen.be/ns/metadata-dcat> {
+<http://www.w3.org/ns/dcat#CatalogRecord#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#CatalogRecord>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een record in een catalogus beschrijft de registratie van één resource in de catalogus."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Catalogus Record"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/dcat#CatalogRecord#2021-04-22>.
+<http://data.vlaanderen.be/ns/metadata-dcat> {
+<http://www.w3.org/ns/dcat#Resource#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een bron (resource) gepubliceerd of beheerd door één agent."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Catalogus Resource"@nl
+}
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <https://w3id.org/tree#member> <http://www.w3.org/ns/dcat#Resource#2021-04-22>.
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/c.trig> <https://w3id.org/tree#relation> _:df_1_93.
+_:df_1_93 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/co.trig>;
+    <https://w3id.org/tree#value> "co".
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/c.trig> <https://w3id.org/tree#relation> _:df_1_94.
+_:df_1_94 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/cl.trig>;
+    <https://w3id.org/tree#value> "cl".
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/c.trig> <https://w3id.org/tree#relation> _:df_1_95.
+_:df_1_95 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/cr.trig>;
+    <https://w3id.org/tree#value> "cr".
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/c.trig> <https://w3id.org/tree#relation> _:df_1_96.
+_:df_1_96 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/cu.trig>;
+    <https://w3id.org/tree#value> "cu".
+<https://ddvlanck.github.io/Republish-LDES/oslo-substring/c.trig> <https://w3id.org/tree#relation> _:df_1_97.
+_:df_1_97 a <https://w3id.org/tree#SubstringRelation>;
+    <https://w3id.org/tree#node> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/ca.trig>;
+    <https://w3id.org/tree#value> "ca".
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/1.trig> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/oslo-substring/c.trig>.
