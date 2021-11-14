@@ -1,132 +1,30 @@
-<http://data.vlaanderen.be/ns/dcatapvl> {
-<http://purl.org/dc/terms/LicenseDocument#13-06-2019> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/LicenseDocument>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een wettelijk document dat de voorwaarden waaronder men een resource mag gebruiken."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Licentiedocument"@nl.
-<http://www.w3.org/2006/vcard/ns#Kind#13-06-2019> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2006/vcard/ns#Kind>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een beschrijving van contact informatie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Contactinfo"@nl.
-<http://www.w3.org/ns/dcat#Catalog#13-06-2019> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#Catalog>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Open Data datasetcatalogus is een verzameling van Open Data datasets."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Datasetcatalogus"@nl.
-<http://www.w3.org/ns/dcat#Dataset#13-06-2019> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#Dataset>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een verzameling van data, gepubliseerd en/of beheerd door een bronbeheerder, en beschikbaar in een of meerdere formaten. "@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Dataset"@nl.
-<http://www.w3.org/ns/dcat#Distribution#13-06-2019> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#Distribution>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een distributie is een vorm waarin de dataset wordt gepubliceerd. Dit kan als een filedump zijn, maar ook door  een API."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Distributie"@nl.
-<http://xmlns.com/foaf/0.1/Agent#13-06-2019> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/Agent>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De agent in zijn rol als uitgever  is de organisatie die verantwoordelijk is voor het toegankelijk maken, dus de publicatie, van een datasetcatalogus of dataset."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@nl.
-<http://purl.org/dc/terms/accessRights#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/accessRights>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De toegankelijkheidscategorie van de dataset."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "toegankelijkheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<http://purl.org/dc/terms/description#13-06-2019> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een bondige omschrijving van de datasetcatalogus. "@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
-    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een bondige omschrijving van de dataset."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
-<http://purl.org/dc/terms/license#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/license>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De licentie van de distributie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft licentie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/LicenseDocument>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/license>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De licentie van de datasetcatalogus."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft licentie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/LicenseDocument>.
-<http://purl.org/dc/terms/publisher#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/publisher>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De uitgever van de dataset. "@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft uitgever"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/publisher>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De uitgever van de datasetcatalogus"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft uitgever"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent>.
-<http://purl.org/dc/terms/title#13-06-2019> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van de datasetcatalogus."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
-    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van de dataset"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
-    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een naam voor de distributie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
-<http://www.w3.org/2006/vcard/ns#hasEmail#13-06-2019> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2006/vcard/ns#hasEmail>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het e-mail adres waarmee je contact kan opnemen"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "e-mail"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2006/vcard/ns#Kind>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
-<http://www.w3.org/ns/dcat#accessURL#13-06-2019> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#accessURL>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De URL waar de data kan gevonden worden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "toegangsURL"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
-<http://www.w3.org/ns/dcat#contactPoint#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#contactPoint>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De contactinformatie via men in contact kan treden met de verantwoordelijken van de dataset. "@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "contactinfo"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/vcard/ns#Kind>.
-<http://www.w3.org/ns/dcat#dataset#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#dataset>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een dataset die behoort tot de datasetcatalogus"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft dataset"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Dataset>.
-<http://www.w3.org/ns/dcat#distribution#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#distribution>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De distributie van een dataset."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft distributie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Distribution>.
-<http://www.w3.org/ns/dcat#theme#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#theme>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het thema waartoe de dataset behoort."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "thema"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<http://xmlns.com/foaf/0.1/name#13-06-2019> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/name>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van de uitgever"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+<https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen> {
+<https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen#DiepWater#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen#DiepWater>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Oppervlakte volledig bedekt met water en een waterdiepte en/of bodemsubstraat die geen plantengroei toestaat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Diep water"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen#WaterVoorkomen>.
+<https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen#DiepWaterMetOevervegetatie#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen#DiepWaterMetOevervegetatie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Oppervlakte volledig bedekt met water met beperkte plantengroei aan de oevers"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Diep water met oevervegetatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen#WaterVoorkomen>.
+<https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen#OndiepWater#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen#OndiepWater>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Oppervlakte volledig bedekt, maar met bepekte waterdiepte en/of bodemsubstraat die plantengroei toestaat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Ondiep water"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen#WaterVoorkomen>.
+<https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen#WaterVoorkomen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen#WaterVoorkomen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Fysiek voorkomen van het oppervlak bestaande uit water."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Water voorkomen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen>.
+<https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van het fysieke voorkomen van het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Fysiek voorkomen"@nl
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <http://purl.org/dc/terms/LicenseDocument#13-06-2019>, <http://www.w3.org/2006/vcard/ns#Kind#13-06-2019>, <http://www.w3.org/ns/dcat#Catalog#13-06-2019>, <http://www.w3.org/ns/dcat#Dataset#13-06-2019>, <http://www.w3.org/ns/dcat#Distribution#13-06-2019>, <http://xmlns.com/foaf/0.1/Agent#13-06-2019>, <http://purl.org/dc/terms/accessRights#13-06-2019>, <http://purl.org/dc/terms/description#13-06-2019>, <http://purl.org/dc/terms/description#13-06-2019>, <http://purl.org/dc/terms/license#13-06-2019>, <http://purl.org/dc/terms/license#13-06-2019>, <http://purl.org/dc/terms/publisher#13-06-2019>, <http://purl.org/dc/terms/publisher#13-06-2019>, <http://purl.org/dc/terms/title#13-06-2019>, <http://purl.org/dc/terms/title#13-06-2019>, <http://purl.org/dc/terms/title#13-06-2019>, <http://www.w3.org/2006/vcard/ns#hasEmail#13-06-2019>, <http://www.w3.org/ns/dcat#accessURL#13-06-2019>, <http://www.w3.org/ns/dcat#contactPoint#13-06-2019>, <http://www.w3.org/ns/dcat#dataset#13-06-2019>, <http://www.w3.org/ns/dcat#distribution#13-06-2019>, <http://www.w3.org/ns/dcat#theme#13-06-2019>, <http://xmlns.com/foaf/0.1/name#13-06-2019>;
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen#DiepWater#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen#DiepWaterMetOevervegetatie#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen#OndiepWater#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen#WaterVoorkomen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen#2021-09-30>;
     <https://w3id.org/tree#view> <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/2.trig>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/2.trig> <https://w3id.org/tree#relation> _:df_0_1.
 _:df_0_1 a <https://w3id.org/tree#Relation>;
