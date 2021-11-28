@@ -1,291 +1,768 @@
-<https://data.vlaanderen.be/ns/wetgeving> {
-<https://data.vlaanderen.be/ns/wetgeving#bekrachtigdBij#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#bekrachtigdBij>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse van bekrachtigt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "bekrachtigd bij"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>.
-<https://data.vlaanderen.be/ns/wetgeving#bekrachtigt#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#bekrachtigt>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Betekent dat dit document instemt met een ander type document waardoor dat laatste volledige rechtskracht krijgt. De bekrachtiging is in dit geval een opschortende voorwaarde."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "bekrachtigt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>.
-<https://data.vlaanderen.be/ns/wetgeving#heftOp#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#heftOp>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat deze bron een andere buiten werking stelt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heft op"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>.
-<https://data.vlaanderen.be/ns/wetgeving#ingetrokkenBij#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#ingetrokkenBij>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat deze bron volledig wordt geannuleerd door een andere bron."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "ingetrokken bij"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>.
-<https://data.vlaanderen.be/ns/wetgeving#ingevoegdBij#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#ingevoegdBij>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft een bron aan die deze bron aanvult met juridische impact."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "ingevoegd bij"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>.
-<https://data.vlaanderen.be/ns/wetgeving#opgehevenBij#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#opgehevenBij>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat deze juridische bron of juridische uitdrukking volledig wordt ingetrokken door een andere juridische hulpbron."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "opgeheven bij"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>.
-<https://data.vlaanderen.be/ns/wetgeving#trektIn#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#trektIn>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat deze juridische bron of juridische uitdrukking volledig kan worden geannuleerd door een andere."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "trekt in"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>.
-<https://data.vlaanderen.be/ns/wetgeving#vervangenBij#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#vervangenBij>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft een bron aan die volledig vernieuwd is door een andere."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "vervangen bij"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>.
-<https://data.vlaanderen.be/ns/wetgeving#vervangt#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#vervangt>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat deze bron een andere volledig vernieuwt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "vervangt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>.
-<https://data.vlaanderen.be/ns/wetgeving#voegtIn#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/wetgeving#voegtIn>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Deze bron vult een andere aan met legale impact."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "voegt in"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>.
-<http://data.europa.eu/eli/ontology#LegalExpression#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#LegalExpression>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De intellectuele realisatie van een rechtsbron in de vorm van een \"reeks van tekens\" (meestal alfanumerieke tekens in een juridische context)."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Verschijningsvorm"@nl.
-<http://data.europa.eu/eli/ontology#LegalResource#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een legaal concept dat los staat van een bepaalde vorm (het achterliggende idee)."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Rechtsbron"@nl.
-<http://data.europa.eu/eli/ontology#LegalResourceSubdivision#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#LegalResourceSubdivision>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een onderdeel van een rechtshandeling, op een willekeurig niveau van nauwkeurigheid, zoals een hoofdstuk, een artikel, een alinea, een alinea of een lijstitem."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Rechtsbrononderdeel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://data.europa.eu/eli/ontology#LegalResource>.
-<http://purl.org/dc/terms/Agent#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/Agent>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Iemand die of iets dat kan handelen of een effect kan teweeg brengen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@nl.
-<http://www.w3.org/ns/adms#Identifier#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/adms#Identifier>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie gebruikt om een object uniek te identificeren. "@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Identificator"@nl.
-<http://data.europa.eu/eli/ontology#amended_by#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#amended_by>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan dat deze rechtsbron een verandering met legale gevolgen heeft ondergaan door een andere rechtsbron. Dit omvat amendementen, vervangingen, herroepingen en andere types verandering."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gewijzigd bij"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>.
-<http://data.europa.eu/eli/ontology#amends#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#amends>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan dat deze rechtsbron een verandering met legale gevolgen doorvoert op een andere rechtsbron. Dit omvat amendementen, vervangingen, herroepingen en andere types verandering."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "wijzigt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>.
-<http://data.europa.eu/eli/ontology#cites#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#cites>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een citatie in de wettelijke tekst. Dit omvat zowel woordelijke citaten als citaten in verwijzingen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "citeert"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>.
-<http://data.europa.eu/eli/ontology#consolidates#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#consolidates>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat deze geconsolideerde juridische bron of uitdrukking (meestal het product van een redactioneel proces dat de wetgeving herziet) rekening houdt met een andere."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "consolideert"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>.
-<http://data.europa.eu/eli/ontology#corrected_by#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#corrected_by>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft een hulpmiddel aan dat tekstuele wijzigingen introduceert (zoals correctie of spelfouten) zonder juridische wijzigingen in deze bron, uitdrukking of indeling."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "errata"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalExpression>.
-<http://data.europa.eu/eli/ontology#date_applicability#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#date_applicability>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De datum waarop de wetgeving van toepassing wordt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "datum toepasbaarheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>.
-<http://data.europa.eu/eli/ontology#date_document#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#date_document>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Adoptiedatum of handtekendatum (in de vorm jjjj-mm-dd)."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "datum document"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>.
-<http://data.europa.eu/eli/ontology#date_no_longer_in_force#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#date_no_longer_in_force>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De laatste dag waarop de regelgeving nog van kracht is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "buitenwerkingtreding"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>;
-    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#date_no_longer_in_force>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De laatste dag waarop de regelgeving nog van kracht is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "buitenwerkingtreding"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>.
-<http://data.europa.eu/eli/ontology#date_publication#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#date_publication>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De officiële publicatiedatum van de verschijningsvorm."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "publicatiedatum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>.
-<http://data.europa.eu/eli/ontology#first_date_entry_in_force#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#first_date_entry_in_force>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De laatste dag waarop een specifieke versie van de regelgeving of een onderdeel ervan nog van kracht is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "inwerkingtreding"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>;
-    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#first_date_entry_in_force>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De datum waarop de regelgeving van kracht wordt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "inwerkingtreding"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>.
-<http://data.europa.eu/eli/ontology#id_local#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#id_local>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De unieke ID die wordt gebruikt in een lokaal referentiesysteem om compatibiliteit met eerdere versies te handhaven."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "lokaleid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Identifier>.
-<http://data.europa.eu/eli/ontology#is_about#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#is_about>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Term uit een thesaurus die verwijst naar een bevoegdheidsdomein."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "thema"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://data.europa.eu/eli/ontology#is_part_of#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#is_part_of>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Relatie die documenten en onderdelen (hoofdstukken, artikels...) aan elkaar linkt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "is deel van"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResourceSubdivision>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>.
-<http://data.europa.eu/eli/ontology#is_realized_by#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#is_realized_by>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De verschijningsvorm die deze rechtsbron materialiseert in een concrete tekst."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "is gerealiseerd door"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalExpression>.
-<http://data.europa.eu/eli/ontology#language#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#language>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De taal van de verschijningsvorm."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "taal"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://data.europa.eu/eli/ontology#number#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#number>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een identificator of een ander onderscheidend kenmerk voor een verschijningsvorm."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "nummer"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://data.europa.eu/eli/ontology#realizes#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#realizes>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Heeft betrekking op de rechtsbron die door de verschijningsvorm gematerialiseerd wordt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "realiseert"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>.
-<http://data.europa.eu/eli/ontology#related_to#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#related_to>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt op een of ander manier gerelateerd ander document, niet noodzakelijk een legale bron."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "zie ook"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>.
-<http://data.europa.eu/eli/ontology#responsibility_of#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#responsibility_of>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een aparte intellectuele creatie (d.w.z. de intellectuele inhoud)."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "verantwoordelijke"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
-<http://data.europa.eu/eli/ontology#title#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#title>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De titel of officiële naam van een decreet, wet, besluit... Deze wordt officieel vastgelegd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "opschrift"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://data.europa.eu/eli/ontology#title_short#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#title_short>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De beknopte titel of officiële korte naam van een decreet, wet, besluit..."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "citeeropschrift"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://data.europa.eu/eli/ontology#transposes#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#transposes>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat deze wetgeving (of een deel van de wetgeving) voldoet aan de doelstellingen van een andere wetgeving, door het nemen van passende uitvoeringsmaatregelen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "zet om"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>.
-<http://data.europa.eu/eli/ontology#type_document#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#type_document>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type van het regelgevend document."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "type document"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur> {
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Aanplakbord#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Aanplakbord>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "(Paalvormige en duurzame verankering van) signalisatie langsheen de openbare weg met allerlei aankondigingen, al of niet van commerciële aard, op te plakken"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Aanplakbord"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Afsluiting#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Afsluiting>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Op het terrein ondubbelzinnig aanwijsbare en permanent verankerde scheiding."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Afsluiting"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Bedieningszuil#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Bedieningszuil>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Sensor in functie van elektrische installaties of straatmeubilair"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bedieningszuil"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Sensoropstelling>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BestendigeAfsluiting#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BestendigeAfsluiting>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Op het terrein ondubbelzinnig aanwijsbare en permanent verankerde scheiding die statisch is in vorm en geen doorgang toelaat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bestendige afsluiting"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Afsluiting>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Betaalautomaat#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Betaalautomaat>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Automaat die betaalkaarten of geld accepteert om betalingen uit te voeren bijvoorbeeld voor parkeertickets of tickets voor het openbaar vervoer."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Betaalautomaat"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Biggetje#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Biggetje>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geprefabriceerde zeer lage (betonnen) veiligheidsstootband die over haar gehele lengte in de bodem is ingewerkt. Deze zijn overwegend parallel aan de hartlijn van de wegbaan georiënteerd en worden individueel geplaatst."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Biggetje"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Stootband>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Boombeugel#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Boombeugel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een boombeugel is een verticale structuur die enerzijds zorgt voor een adequate bescherming van bomen tegen auto's, fietsen, bromfietsen, en de anderzijds ook de nodige steun biedt bij het opgroeien van jonge bomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Boombeugel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Borstwering#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Borstwering>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Hekwerk of constructie (balustrade, 'omega'-profielen,...) die geplaatst werd met het oog op de veiligheid van de zwakke weggebruiker, overwegend parallel aan de hartlijn van de wegbaan georiënteerd"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Borstwering"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#LongitudinaleWeginrichting>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BovengrondseBrandkraan#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BovengrondseBrandkraan>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Bovengronds aansluitingspunt aan de waterleiding, gelegen boven het maaiveld waar brandslangen op aangesloten kunnen worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bovengrondse brandkraan"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Bushok#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Bushok>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een bushok biedt in de regel onderdak aan reizigers van het openbaar vervoer."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bushok"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Camera#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Camera>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Vast of mobiel observatiesysteem dat beelden verzamelt, verwerkt of bewaart om: misdrijven te voorkomen, vast te stellen of op te sporen; overlast te voorkomen, vast te stellen of op te sporen; de orde te handhaven."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Camera"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Sensoropstelling>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Communicatiemast#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Communicatiemast>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een meervoudige metalen constructie zoals een tijdelijke GSM-mast, een mast van een radio-amateur, een private ontvangst- en zendinstallatie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Communicatiemast"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Mast>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#CultuurhistorischMonument#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#CultuurhistorischMonument>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een cultuurhistorisch monument is een zichtbare constructie met historische, esthetische of landschappelijke waarde opgetrokken uit duurzame materialen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Cultuurhistorisch monument"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Debietmeter#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Debietmeter>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een meettoestel bevestigd in of langs een waterloop die het aantal kubieke meter water registreert dat op een bepaald punt in een waterloop per seconde passeert."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Debietmeter"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Sensoropstelling>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Deksel#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Deksel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een object om een holte of hol voorwerp af te sluiten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Deksel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Detectielus#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Detectielus>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Inductielus van koperdraad verzonken in het wegdek waarmee met behulp van elektronica een voertuig kan worden waargenomen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Detectielus"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Sensoropstelling>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Draadafsluiting#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Draadafsluiting>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Op het terrein ondubbelzinnig aanwijsbare en permanent verankerde scheiding, bestaande uit draad. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Draadafsluiting"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BestendigeAfsluiting>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Dwarsligger#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Dwarsligger>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Op het terrein ondubbelzinnig aanwijsbare en permanent verankerde scheiding, bestaande uit één of meerdere horizontale dwarsliggers."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Dwarsligger"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BestendigeAfsluiting>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Elektriciteitspaal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Elektriciteitspaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Paal van de elektriciteitsleiding."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Elektriciteitspaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietsstalling#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietsstalling>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een fietsstalling is het geheel aan palen en/of verankeringspunten van een constructie bestemd voor het vastmaken van fietsen, gelegen op het openbare domein."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Fietsstalling"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietstelpaal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietstelpaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Paal die automatisch voorbij passerende fietsers telt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Fietstelpaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Sensoropstelling>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Flitspaal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Flitspaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een meettoestel waarmee snelheidsovertredingen en/of het negeren van een rood verkeerslicht vastgesteld kunnen worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Flitspaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Sensoropstelling>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#GSM-paal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#GSM-paal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een burgerlijke constructie die gebruikt wordt voor de distributie van mobiele netwerken."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "GSM-paal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Nutspaal>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Geluidscherm#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Geluidscherm>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een geluidswerende wandvormige constructie bestaande uit een desgevallend geluidsisolerend materiaal en/of geluidsabsorberend materiaal en voorzien van de nodige structuren om de bouwkundige stabiliteit te verzekeren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Geluidscherm"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#LongitudinaleWeginrichting>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Grenspaal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Grenspaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een merkpaal die de grens van de Belgische Staat, de provincies en de gemeenten aanduidt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Grenspaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Weginrichtingselement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Haltepaal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Haltepaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een haltepaal duidt de locatie aan waar het openbaar vervoer, bv. bus, tram of trolley, stopt om passagiers te laten in- en uitstappen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Haltepaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegsignalisatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Hondenpoepbuis#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Hondenpoepbuis>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een buisvormige Openbare Vuilnisbak waarin hondenpoepzakjes gedeponeerd kunnen worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Hondenpoepbuis"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVuilnisbak>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Hoogspanningsmast#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Hoogspanningsmast>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een hoogspanningsmast is een kunstwerk bedoeld voor het transport van stroom onder hoge spanning."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Hoogspanningsmast"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Mast>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Hoogspanningspaal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Hoogspanningspaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een burgerlijke constructie die gebruikt wordt voor het transport van elektriciteit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Hoogspanningspaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Nutspaal>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Huisaansluiting#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Huisaansluiting>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Zichtbaar en publiek eindpunt van een huisaansluiting voor afval- en regenwater."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Huisaansluiting"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Deksel>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infozuil#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infozuil>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "(Paalvormige en duurzame verankering van) signalisatie langsheen de openbare weg met allerlei aankondigingen, al of niet van commerciële aard, op te plakken."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Infozuil"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Individueel object op het Openbaar Domein dat niet vegetatief is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Infrastructuurelement"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#Element>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Keldergat#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Keldergat>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Elke horizontale en artificieel afgebakende opening in het maaiveld langsheen de gevelwand van een gebouw, bedoeld als toegang of als verluchting en verlichting van kelders."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Keldergat"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Rooster>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#KleineWindturbine#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#KleineWindturbine>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een kleine windturbine is een constructie die gebruikt wordt voor de aanmaak van nutssignalen. Een kleine windturbine onderscheid zich van middelgrote of grootschalige windturbines door zijn beperkte ashoogte (15m), gemeten vanaf de voet van de windturbine. Een kleine windturbine kan voorkomen ter hoogte van het maaiveld of op gebouwen en constructies."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Kleine windturbine"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Knipperlicht#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Knipperlicht>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een oranje of wit knipperlicht op een paal, dat dienst doet als verkeerssignaal op wegen (vb. zone 30)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Knipperlicht"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegsignalisatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Kopmuur#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Kopmuur>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een kopmuur is een inrichtingselement van de wegbaan, dat gebruikt wordt voor de geleiding van verkeer bij grachten. Een kopmuur is een keermuur die een functie vervult van afwateringssysteem en is in de regel haaks op de hartlijn van de wegcorridor georiënteerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Kopmuur"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#LongitudinaleWeginrichting>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Krooshek#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Krooshek>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een rooster, bedoeld om drijvend materiaal tegen te houden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Krooshek"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Rooster>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Lichtpunt#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Lichtpunt>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Elk lichtpunt dat is ingewerkt in het maaiveld of op een paaltje op beperkte hoogte boven het maaiveld (tot 2 meter) en dat gebruikt wordt als randverlichting (bvb verlichting van monument, parking,...), naast de openbare straatverlichting"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Lichtpunt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVerlichting>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#LijnvormigeWegmarkering#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#LijnvormigeWegmarkering>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Lijnvormige schilderingen aangebracht op het verhard gedeelte van de wegbaan of kleurveranderingen van de verharding die een onderdeel vormen van de verkeerswetgeving."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Lijnvormige wegmarkering"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegmarkering>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#LongitudinaleWeginrichting#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#LongitudinaleWeginrichting>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een vast inrichtingselement binnen de wegbaan, met als doel de verkeersstromen in gescheiden stroken te leiden. Deze inrichtingselementen zijn overwegend parallel aan de lengteas van de wegbaan georiënteerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Longitudinale weginrichting"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Weginrichtingselement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Mast#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Mast>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een civieltechnische constructie, anders dan een gebouw, opgetrokken uit duurzame materialen en zichtbaar aan het aardoppervlak. Een mast onderscheidt zich van een paal door zijn meervoudige duurzame verankering met de grond (bv. drievoetige mast)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Mast"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Meerpaal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Meerpaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een paal/bolder, gelegen aan de rand van grote waterpartijen en van een speciale vorm voorzien om een schip vast te kunnen leggen bij het aanmeren. Een meerpaal is in principe hetzelfde als een bolder."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Meerpaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Meteopaal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Meteopaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Paal, permanent en duurzaam verankerd met de bodem, waarop een meetinstrument (windzak, windmeter, ...) bevestigd is ter bepaling van atmosferische omstandigheden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Meteopaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Sensoropstelling>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Muur#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Muur>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Buiten de wegbaan gelegen en op het terrein ondubbelzinnig aanwijsbare en permanent, lijnvormig verankerde en rechtopstaande scheiding of grondkering bestaande uit opeengestapeld (min. 2 lagen) metselwerk of beton."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Muur"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Afsluiting>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#MuurBinnenWegbaan#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#MuurBinnenWegbaan>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Muren binnen de wegbaan met als doel de normale verkeersstromen in gescheiden stroken te leiden. Deze zijn overwegend parallel aan de hartlijn van de wegbaan georiënteerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Muur binnen de wegbaan"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#LongitudinaleWeginrichting>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#NormandischeAfsluiting#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#NormandischeAfsluiting>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een afsluiting die typisch bestaat uit betonnen palen met betonnen dwarsbalken."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Normandische afsluiting"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BestendigeAfsluiting>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Nutskast#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Nutskast>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een voor de mens niet-toegankelijke bovengrondse en beschermende ombouw waarin elektrische onderdelen en installaties, noodzakelijk voor de distributie van gas, elektriciteit en communicatiesignalen, worden ondergebracht (algemeen)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nutskast"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Nutspaal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Nutspaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een nutspaal is een burgerlijke constructie, die gebruikt wordt voor de aanmaak (windturbine), het transport (hoogspanningspaal) of distributie (GSM-paal) van nutssignalen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nutspaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OmklapbareWegmonoliet#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OmklapbareWegmonoliet>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een omklapbaar massief obstakel dat de doorgang van voertuigen kan beletten en dynamisch is in aard."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Omklapbare wegmonoliet"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegmonoliet>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbaarToilet#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbaarToilet>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een toilet dat bestemd is voor algemeen gebruik en dat zich bevindt in de openbare ruimte of op een locatie met veel passanten, zoals in trein- of benzinestations, of op een evenemententerrein."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Openbaar toilet"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareBrievenbus#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareBrievenbus>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een openbare postbus ter verzameling van briefwisseling voor regelmatige verzending via postbedrijven."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Openbare brievenbus"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareStraatverlichtingAanGevelOfMuur#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareStraatverlichtingAanGevelOfMuur>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een openbaar lichtpunt dat is bevestigd aan de gevel van een gebouw of constructie of bevestigd is aan een muur en dat gebruikt wordt om de omgeving te verlichten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Openbare straatverlichting aan gevel of muur"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVerlichting>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVerlichting#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVerlichting>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een openbare lichtpunt dat gebruikt wordt om de omgeving te verlichten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Openbare verlichting"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVuilnisbak#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVuilnisbak>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Deels in de grond ingewerkte of verankerde vuilnisbak, bestemd voor het deponeren van afval van de voorbijgangers en gelegen op het openbare domein."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Openbare vuilnisbak"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Oplaadpunt#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Oplaadpunt>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een infrastructuurelement dat elektrische energie voorziet om een elektrisch voertuig zoals een boot, fiets of een auto op te laden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Oplaadpunt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#PaalBovenleidingTramTreinTrolley#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#PaalBovenleidingTramTreinTrolley>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Paal van de bovenleiding van trolley- of spoorinstallaties"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Paal bovenleiding tram trein trolley"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Paneelafsluiting#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Paneelafsluiting>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een afsluiting opgebouwd uit een of meerdere panelen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Paneelafsluiting"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BestendigeAfsluiting>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Parkeersensor#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Parkeersensor>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een sensor die de aanwezigheid van een voertuig op een parkeerplaats registreert."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Parkeersensor"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Sensoropstelling>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Picknicktafel#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Picknicktafel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Voor iedereen vrij toegankelijke tafel op verzorgingsplaatsen (o.a. langs autowegen, recreatiegebieden, parken, pleinen ...) met vaak daaraan gemonteerde zitbanken of stoelen die kan gebruikt worden om te picknicken."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Picknicktafel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Pijler#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Pijler>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een pijler is een civieltechnische constructie, anders dan gebouw, opgetrokken uit duurzame materialen en zichtbaar aan het aardoppervlak bedoeld voor het ondersteunen van civieltechnische constructies zoals gebouwen of bruggen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Pijler"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Plooibaken#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Plooibaken>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een zacht kunststoffen paal met verschillende diameter en reflecterende banden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Plooibaken"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegsignalisatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#PuntvormigeWegmarkering#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#PuntvormigeWegmarkering>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Puntvormige schilderingen aangebracht op het verhard gedeelte van de wegbaan en die een onderdeel vormen van de verkeerswetgeving."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Puntvormige wegmarkering"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegmarkering>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Putdeksel#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Putdeksel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een putdeksel is een deksel of luik van ondergrondse leidingen en installaties. Onder putdeksels vallen cirkelvormige (vrije) deksels met diameter gelegen tussen 65 en 100cm en vierkante (vrije) deksels (65cm <= zijde <= 100cm)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Putdeksel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Deksel>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Recyclagecontainer#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Recyclagecontainer>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Container voor het verzamelen van al dan niet specifiek materiaal met als doel het te sorteren, recycleren of hergebruiken."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Recyclagecontainer"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Reddingsband#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Reddingsband>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Elk ringvormig object gemonteerd op een paal, in een kast of aan een haak bevestigd dat bedoeld is om toegeworpen te worden als reddingsmiddel naar personen die in water terecht gekomen zijn."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Reddingsband"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Reflectorpaal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Reflectorpaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een kunstoffen paal met reflector om het verkeer te geleiden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Reflectorpaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegsignalisatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Rijbaankussen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Rijbaankussen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een verkeersremmer vervaardigd uit kunststof en strekt zich doorgaans niet uit over de volledige breedte van de rijbaan."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Rijbaankussen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#TransversaleWeginrichting>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Rooster#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Rooster>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een rooster is een civieltechnische constructie, anders dan gebouw, opgetrokken uit duurzame materialen, en zichtbaar aan het aardoppervlak."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Rooster"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Schampblok#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Schampblok>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geprefabriceerde betonnen veiligheidsstootband met beperkte lengte, waarvan meestal een rij geplaatst wordt in longitudinale richting."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Schampblok"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#LongitudinaleWeginrichting>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SeininstallatieOvergangSpoorbedding#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SeininstallatieOvergangSpoorbedding>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Installatie voor het regelen van de toegang tot een spoorwegovergang."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Seininstallatie overgang spoorbedding"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegsignalisatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SelectieveAfsluiting#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SelectieveAfsluiting>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Op het terrein ondubbelzinnig aanwijsbare afsluiting die gebruikt kan worden om selectief en/of periodiek toegang te verlenen aan voertuigen, fietsers en/of voetgangers."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Selectieve afsluiting"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Afsluiting>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Sensoropstelling#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Sensoropstelling>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De gehele opstelling van een meettoestel, bedoeld om iets waar te nemen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Sensoropstelling"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Signalisatie#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Signalisatie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Elementen langsheen wegen en waterlopen ter orientatie van het verkeer. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Signalisatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieEnLeidingenportiek#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieEnLeidingenportiek>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Elke overspanning van een gedeelte van de wegbaan, watergang of spoorbaan waarbij ofwel signalisatieborden werden aangebracht ofwel gebruikt ter overbrugging van de wegbaan, watergang of spoorbaan voor leidingen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Signalisatie en leidingenportiek"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaart#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaart>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Paalvormige en duurzame verankering van signalisatie langsheen een waterloop ter oriëntatie van het scheepvaartverkeer."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Signalisatie scheepvaart"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Signalisatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaartElektrisch#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaartElektrisch>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Paalvormige en duurzame verankering van signalisatie langsheen een waterloop ter oriëntatie van het scheepvaartverkeer of de bediening ervan die beschikken over een inwendige verlichting, lichten, elektrische ogen en radarscanners."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Signalisatie scheepvaart elektrisch"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaart>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaartNietElektrisch#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaartNietElektrisch>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Paalvormige en duurzame verankering van signalisatie langsheen een waterloop ter oriëntatie van het scheepvaartverkeer bvb. verboden te ankeren, VHF-kanaal aanduiding,..."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Signalisatie scheepvaart niet-elektrisch"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaart>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Silo#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Silo>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een silo of een opslagtank is een grote zichtbare installatie opgetrokken uit duurzame materialen voor opslag en verwerking van bulkmaterialen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Silo"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Slagboom#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Slagboom>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een afsluitingsmechanisme met slagboomarmen dat dient om controle uit te kunnen oefenen over het gebruik van een doorgang of een toegang."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Slagboom"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SelectieveAfsluiting>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SpandraadKetting#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SpandraadKetting>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Op het terrein ondubbelzinnig aanwijsbare en permanent verankerde scheiding, bestaande uit spandraad en/of kettingen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Afsluiting spandraad en -ketting"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BestendigeAfsluiting>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SpeelEnSportvoorziening#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SpeelEnSportvoorziening>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Element op het terrein ontworpen of kennelijk bestemd om te spelen of te sporten"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Speel- en sportvoorziening"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Spuitkop#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Spuitkop>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een watervoorziening met een visuele functie, bijvoorbeeld op een stadplein, of voor de bewatering van grasperken, sportgazons..."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Spuitkop"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StatischeWegmonoliet#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StatischeWegmonoliet>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een niet-verzinkbaar massief obstakel dat de doorgang van voertuigen belet."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Statische wegmonoliet"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegmonoliet>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Stootband#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Stootband>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Vaste inrichtingselementen binnen de wegbaan (WBN) met als doel de normale verkeersstromen in gescheiden stroken te leiden. Deze zijn overwegend parallel aan de hartlijn van de wegbaan georiënteerd. Een stootband is een geprefabriceerde betonnen veiligheidsband die over haar gehele lengte op de bodem rust en geplaatst werd om te voorkomen dat voertuigen van de weg afraken."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Stootband"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#LongitudinaleWeginrichting>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StootbandDupuis#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StootbandDupuis>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geprefabriceerde betonnen veiligheidsstootband die over haar gehele lengte op de bodem rust en geplaatst werd om te voorkomen dat voertuigen van de weg afgeraken. Deze zijn overwegend parallel aan de hartlijn van de wegbaan georiënteerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Stootband dupuis"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Stootband>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StootbandNewJersey#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StootbandNewJersey>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Ter plaatse vervaardigde hoge (0,60 tot 1,00m) betonnen veiligheidsstootband die over haar gehele lengte op de bodem rust. Deze zijn overwegend parallel aan de hartlijn van de wegbaan georiënteerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Stootband new jersey"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Stootband>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatkap#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatkap>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Elke straatkap of deksel in beton, pvc, polyester of gietijzer die een leiding aanduidt. Een zichtbare straatkap is een merkteken of deksel dat zich in het vlak van de wegbaan bevindt (bv. luiken en deksels communicatieleidingen, waterleiding,...)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Straatkap"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Deksel>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatkolk#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatkolk>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De hemelwaterinlaatconstructie, meestal geplaatst in de straatgoot of watergreppel, waarlangs het hemelwater van de verhardingen wordt afgevoerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Straatkolk"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Rooster>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Straatmeubilair is  een diverse groep van objecten die in het algemeen in de openbare ruimte staan (zowel corridor- als surplusgebied)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Straatmeubilair"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatspiegel#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatspiegel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "(Meestal) bolvormig reflecterend voorwerp, specifiek geplaatst ten behoeve van de verkeersveiligheid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Straatspiegel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#TV-mast#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#TV-mast>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een TV-mast is een kunstwerk bedoeld voor de distributie van TV-signalen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "TV-mast"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Mast>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Telefoonpaal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Telefoonpaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Paal van de telefoonleiding."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Telefoonpaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Toegangspoort#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Toegangspoort>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een object dat de toegang tot een gebied, zone of terreindeel periodiek kan afsluiten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Toegangspoort"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SelectieveAfsluiting>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Tractorsluis#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Tractorsluis>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "\tEen vast inrichtingselement binnen de zone voor snelverkeer van de wegbaan met als doel slechts bepaalde types voertuigen door te laten (c.q. tractoren"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Tractorsluis"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#TransversaleWeginrichting>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#TransversaleWeginrichting#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#TransversaleWeginrichting>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een vast inrichtingselement binnen de zone voor snelverkeer met als doel de normale verkeersstroom te remmen of te compartimenteren. Deze inrichtingselementen zijn overwegend dwars op de lengteas van de wegbaan georiënteerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Transversale weginrichting"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Weginrichtingselement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Treinbiels#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Treinbiels>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Afsluiting bestaande uit dwarsliggers die oorspronkelijk een onderdeel zijn van de bovenbouw van een spoorweg om de spoorstaven te dragen en houden de beide spoorstaven in de gewenste spoorwijdte uit elkaar. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Treinbiels"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BestendigeAfsluiting>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Vangrail#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Vangrail>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een vangrail is een constructie-element bestaande uit metalen stroken voor de scheiding en beveiliging van diverse soorten weggebruikers, voornamelijk langs de berm van wegen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Vangrail"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#LongitudinaleWeginrichting>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Veerooster#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Veerooster>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een veerooster is een infrastructurele voorziening die is aangebracht in het wegdek om te voorkomen dat vee een gebied binnenkomt of verlaat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Veerooster"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Rooster>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Veiligheidsband#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Veiligheidsband>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geprefabriceerde lage betonnen veiligheidsstootband die over haar gehele lengte op de bodem rust. Deze zijn overwegend parallel aan de hartlijn van de wegbaan georiënteerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Veiligheidsband"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Stootband>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verkeersbord#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verkeersbord>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Wegsignalisatie aangebracht op een element op het openbaar domein (paal, gevel, portiek ...) om het verkeer op de openbare weg te regelen en die geen verkeerslicht zijn."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Verkeersbord"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegsignalisatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verkeersdrempel#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verkeersdrempel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een verhoogde verkeersdrempel is een vast inrichtingselement binnen de zone voor snelverkeer van de wegbaan met als doel de normale verkeersstroom te remmen of te compartimenteren. Een verhoogde verkeersdrempel is een transversaal inrichtingselement dat overwegend dwars op de hartlijn van de wegbaan georiënteerd is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Verkeersdrempel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#TransversaleWeginrichting>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verkeerslicht#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verkeerslicht>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Wegsignalisatie dat met behulp van lichtsignalen het regelen van het oprijden van onder andere een gelijkvloerse kruising, de toegang tot bruggen, tunnels en spoorwegovergangen, de toegang tot parkeergarages en -terreinen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Verkeerslicht"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegsignalisatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#VerkeerslichtVoetgangerFietser#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#VerkeerslichtVoetgangerFietser>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Wegsignalisatie dat met behulp van lichtsignalen het regelen voor zwakke weggebruikers (onder andere voetgangers en fietsers) van het oprijden van onder andere een gelijkvloerse kruising, de toegang tot bruggen, tunnels en spoorwegovergangen, de toegang tot parkeergarages en -terreinen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Verkeerslicht voetganger fietser"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegsignalisatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verlichtingspaal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verlichtingspaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een openbare lichtpunt op een paal dat gebruikt wordt om de omgeving te verlichten. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Verlichtingspaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVerlichting>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verluchtingsrooster#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verluchtingsrooster>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een rooster is een civieltechnische constructie, anders dan gebouw, opgetrokken uit duurzame materialen, en zichtbaar aan het aardoppervlak bedoeld voor de ventilatie van ondergrondse ruimtes.\t"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Verluchtingsrooster"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Rooster>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#VerzinkbareWegmonoliet#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#VerzinkbareWegmonoliet>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een verzinkbaar massief obstakel dat de doorgang van voertuigen belet."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Verzinkbare wegmonoliet"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegmonoliet>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Vlaggenpaal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Vlaggenpaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Paal, permanent en duurzaam verankerd met de bodem en opgericht voor het bevestigen en hijsen van vlaggen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Vlaggenpaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#VlakvormigeWegmarkering#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#VlakvormigeWegmarkering>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Vlakvormige schilderingen aangebracht op het verhard gedeelte van de wegbaan of kleurveranderingen van de verharding die een onderdeel vormen van de verkeerswetgeving."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Vlakvormige wegmarkering"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegmarkering>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Waterpunt#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Waterpunt>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een voorziening waar water kan bekomen worden, bijvoorbeeld door middel van een pomp, kraan, ..."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Waterpunt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Weginrichtingselement#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Weginrichtingselement>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een ruimtelijk object dat dient voor de inrichting van de openbare weg om het verkeer fysiek te sturen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Weginrichtingselement"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegmarkering#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegmarkering>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Schilderingen aangebracht op het verhard gedeelte van de wegbaan of kleurveranderingen van de verharding die een onderdeel vormen van de verkeerswetgeving."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Wegmarkering"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegsignalisatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegmonoliet#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegmonoliet>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een massief obstakel dat de doorgang van voertuigen belet."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Wegmonoliet"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Weginrichtingselement>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#WegneembareWegmonoliet#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#WegneembareWegmonoliet>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een wegneembaar obstakel dat de doorgang van voertuigen belet en niet dynamisch is in aard."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Wegneembare wegmonoliet"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegmonoliet>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegsignalisatie#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegsignalisatie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Alle elementen aangebracht ten behoeve van de weggebruiker, bijvoorbeeld: reflectorpaaltjes, palen voor verkeersborden, wegwijzers, plaatsnaamborden, straatnaambord, bord bebouwde kom, signalisatiepalen openbaar vervoer."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Wegsignalisatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Signalisatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Windturbine#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Windturbine>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een burgerlijke constructie die gebruikt wordt voor de opwekking van elektriciteit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Windturbine"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Nutspaal>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#ZichtbaarDekselOfLuik#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#ZichtbaarDekselOfLuik>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een zichtbaar deksel of luik is een merkteken dat zich in het vlak van de wegbaan bevindt. Het gaat om rechthoekige en veelhoekige luiken waarvan de zijde groter is dan 1,00m en cirkelvormige of vierkante deksels en luiken waarvan de zijde of diameter groter is dan 1,00m."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Zichtbaar deksel of luik"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Deksel>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Zitbank#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Zitbank>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een openbaar zitmeubel, op een duurzame manier verbonden met het aardoppervlak en gelegen in parken of langsheen de openbare weg."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Zitbank"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#aantalAnkerpunten#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#aantalAnkerpunten>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het aantal bevestigingspunten waarmee de mast verankerd is aan het aardoppervlak."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "aantal ankerpunten"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Mast>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#afsluitbaar#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#afsluitbaar>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan of de fietsstalling al dan niet kan afgesloten worden om toegang voor onbevoegden te verhinderen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "afsluitbaar"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/infrastructuur#Infrastructuurelement>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#capaciteit#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#capaciteit>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan hoeveel fietsen gestald kunnen worden aan of in de fietsenstalling."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "capaciteit"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietsstalling>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#dekselVorm#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#dekselVorm>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De vorm van het deksel."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "deksel vorm"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Deksel>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<http://purl.org/dc/terms/creator#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/creator>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Link naar de agent die de identificator heeft uitgegeven."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "toegekend door"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
-<http://purl.org/dc/terms/description#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een verslag van de bron."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "commentaar"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://purl.org/dc/terms/hasPart#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/hasPart>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat deze bron uit deelbronnen bestaat."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft deel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResourceSubdivision>.
-<http://purl.org/dc/terms/issued#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/issued>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijdstip waarop de identificator werd uitgegeven."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "toegekend op"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>;
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#drinkbaar#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#drinkbaar>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geschikt voor menselijke consumptie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "drinkbaar"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Waterpunt>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#fietsdelen#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#fietsdelen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan of de fietsstalling al dan niet gebruikt wordt voor deelfietsen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "fietsdelen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietsstalling>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#geschiktVoor#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#geschiktVoor>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt het vervoersmiddel aan waarvoor het oplaadpunt geschikt is: auto, fiets,..."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "geschikt voor"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Oplaadpunt>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#inwendigVerlicht#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#inwendigVerlicht>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan of het element al dan niet inwendig verlicht is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "inwendig verlicht"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Signalisatie>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#materiaal#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#materiaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Materiaal waar het object uit vervaardigd is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "materiaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#nutsvoorzieningscode#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#nutsvoorzieningscode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van de soort nutsvoorziening."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "nutsvoorzieningscode"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/infrastructuur#Infrastructuurelement>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#nutsvoorzieningscode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van de soort nutsvoorziening."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "nutsvoorzieningscode"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/infrastructuur#Infrastructuurelement>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#nutsvoorzieningscode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van de soort nutsvoorziening."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "nutsvoorzieningscode"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/infrastructuur#Infrastructuurelement>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#oplaadwijze#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#oplaadwijze>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De oplaadwijze volgens de IEC norm 62196."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "oplaadwijze"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Oplaadpunt>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#overdekt#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#overdekt>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan of de fietsstalling al dan niet overdekt is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "overdekt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/infrastructuur#Infrastructuurelement>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#rioleringscode#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#rioleringscode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De rioleringscode is een arbitraire notitie van waarneembare eigenschappen van het deksel m.b.t. de beheerder en de functie van de ondergrondse ioleringsleiding."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "rioleringscode"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/infrastructuur#Infrastructuurelement>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#sorteerfractie#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#sorteerfractie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt het materiaal aan om te sorteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "sorteerfractie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Recyclagecontainer>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#speeltoesteltype#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#speeltoesteltype>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type speeltoestel."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "speeltoesteltype"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SpeelEnSportvoorziening>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#stekkertype#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#stekkertype>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het stekkertype volgens de IEC norm 62196."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "stekkertype"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Oplaadpunt>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#straatkolktype#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#straatkolktype>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type straatkolk."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "straatkolktype"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatkolk>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#verplaatsbaar#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#verplaatsbaar>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan of het element al dan niet verplaatsbaar is en dus niet permanent verankerd werd met het aardoppervlak."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "verplaatsbaar"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#Element>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
+<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#verzinkbaar#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#verzinkbaar>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat het element ondergronds opgeborgen kan worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "verzinkbaar"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbaarToilet>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
+<http://dbpedia.org/resource/Fountain#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://dbpedia.org/resource/Fountain>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een stuk architectuur dat water in een bassin giet of in de lucht spuit (al dan niet opgevangen in een bassin), om drinkwater te leveren en/of voor een decoratief of dramatisch effect."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Fontein"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
+<https://data.vlaanderen.be/ns/openbaardomein#Element#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#Element>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Afzonderlijk te onderscheiden element dat ofwel direct of indirect bevestigd is aan het aardoppervlak."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Element"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>.
+<https://data.vlaanderen.be/ns/openbaardomein#FysiekObject#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De hoofdklasse waar alle objecten die geïnventariseerd kunnen worden van afgeleid worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Fysiek object"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/prov#Entity>, <http://schema.org/Thing>.
+<http://purl.org/dc/terms/relation#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/relation>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijst naar een object in een andere databank dat meer informatie kan verschaffen over het beheerobject."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "relatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource>.
+<http://www.w3.org/ns/locn#geometry#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#geometry>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De geometrie overeenkomstig met een bepaald object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "geometrie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#Geometry>.
+<https://data.vlaanderen.be/ns/openbaardomein#begindatum#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#begindatum>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum waarop de huidige versie van het gebied of object in gebruik wordt genomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "begindatum"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<http://purl.org/dc/terms/subject#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/subject>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Vrije term als extra zoekingang tot de rechtsbron."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "trefwoord"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://purl.org/dc/terms/type#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/type>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type van het rechtsbrononderdeel."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResourceSubdivision>;
+<https://data.vlaanderen.be/ns/openbaardomein#einddatum#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#einddatum>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum waarop de huidige versie van het beheerobject uit gebruik wordt genomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "einddatum"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://data.vlaanderen.be/ns/openbaardomein#nauwkeurigheid#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#nauwkeurigheid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De precisie waarmee het object opgemeten werd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "nauwkeurigheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<http://www.w3.org/2004/02/skos/core#notation#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2004/02/skos/core#notation>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "String gebruikt om het object uniek te identificeren. "@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "identificator"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>.
-<http://www.w3.org/ns/adms#schemaAgency#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/adms#schemaAgency>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam vd agent die de identificator heeft toegekend."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "toegekend door (String)"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://www.w3.org/ns/prov#value#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/prov#value>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De beschrijving van de beoogde rechtsgevolgen, het zogenaamde beschikkend gedeelte."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "inhoud"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalExpression>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+<https://data.vlaanderen.be/ns/openbaardomein#niveau#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#niveau>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het niveau waarop het object zich bevindt, relatief ten opzichte van andere objecten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "niveau"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/wetgeving#bekrachtigdBij#2019-02-07>, <https://data.vlaanderen.be/ns/wetgeving#bekrachtigt#2019-02-07>, <https://data.vlaanderen.be/ns/wetgeving#heftOp#2019-02-07>, <https://data.vlaanderen.be/ns/wetgeving#ingetrokkenBij#2019-02-07>, <https://data.vlaanderen.be/ns/wetgeving#ingevoegdBij#2019-02-07>, <https://data.vlaanderen.be/ns/wetgeving#opgehevenBij#2019-02-07>, <https://data.vlaanderen.be/ns/wetgeving#trektIn#2019-02-07>, <https://data.vlaanderen.be/ns/wetgeving#vervangenBij#2019-02-07>, <https://data.vlaanderen.be/ns/wetgeving#vervangt#2019-02-07>, <https://data.vlaanderen.be/ns/wetgeving#voegtIn#2019-02-07>, <http://data.europa.eu/eli/ontology#LegalExpression#2019-02-07>, <http://data.europa.eu/eli/ontology#LegalResource#2019-02-07>, <http://data.europa.eu/eli/ontology#LegalResourceSubdivision#2019-02-07>, <http://purl.org/dc/terms/Agent#2019-02-07>, <http://www.w3.org/ns/adms#Identifier#2019-02-07>, <http://data.europa.eu/eli/ontology#amended_by#2019-02-07>, <http://data.europa.eu/eli/ontology#amends#2019-02-07>, <http://data.europa.eu/eli/ontology#cites#2019-02-07>, <http://data.europa.eu/eli/ontology#consolidates#2019-02-07>, <http://data.europa.eu/eli/ontology#corrected_by#2019-02-07>, <http://data.europa.eu/eli/ontology#date_applicability#2019-02-07>, <http://data.europa.eu/eli/ontology#date_document#2019-02-07>, <http://data.europa.eu/eli/ontology#date_no_longer_in_force#2019-02-07>, <http://data.europa.eu/eli/ontology#date_no_longer_in_force#2019-02-07>, <http://data.europa.eu/eli/ontology#date_publication#2019-02-07>, <http://data.europa.eu/eli/ontology#first_date_entry_in_force#2019-02-07>, <http://data.europa.eu/eli/ontology#first_date_entry_in_force#2019-02-07>, <http://data.europa.eu/eli/ontology#id_local#2019-02-07>, <http://data.europa.eu/eli/ontology#is_about#2019-02-07>, <http://data.europa.eu/eli/ontology#is_part_of#2019-02-07>, <http://data.europa.eu/eli/ontology#is_realized_by#2019-02-07>, <http://data.europa.eu/eli/ontology#language#2019-02-07>, <http://data.europa.eu/eli/ontology#number#2019-02-07>, <http://data.europa.eu/eli/ontology#realizes#2019-02-07>, <http://data.europa.eu/eli/ontology#related_to#2019-02-07>, <http://data.europa.eu/eli/ontology#responsibility_of#2019-02-07>, <http://data.europa.eu/eli/ontology#title#2019-02-07>, <http://data.europa.eu/eli/ontology#title_short#2019-02-07>, <http://data.europa.eu/eli/ontology#transposes#2019-02-07>, <http://data.europa.eu/eli/ontology#type_document#2019-02-07>, <http://purl.org/dc/terms/creator#2019-02-07>, <http://purl.org/dc/terms/description#2019-02-07>, <http://purl.org/dc/terms/hasPart#2019-02-07>, <http://purl.org/dc/terms/issued#2019-02-07>, <http://purl.org/dc/terms/subject#2019-02-07>, <http://purl.org/dc/terms/type#2019-02-07>, <http://www.w3.org/2004/02/skos/core#notation#2019-02-07>, <http://www.w3.org/ns/adms#schemaAgency#2019-02-07>, <http://www.w3.org/ns/prov#value#2019-02-07>;
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Aanplakbord#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Afsluiting#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Bedieningszuil#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BestendigeAfsluiting#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Betaalautomaat#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Biggetje#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Boombeugel#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Borstwering#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BovengrondseBrandkraan#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Bushok#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Camera#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Communicatiemast#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#CultuurhistorischMonument#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Debietmeter#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Deksel#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Detectielus#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Draadafsluiting#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Dwarsligger#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Elektriciteitspaal#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietsstalling#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietstelpaal#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Flitspaal#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#GSM-paal#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Geluidscherm#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Grenspaal#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Haltepaal#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Hondenpoepbuis#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Hoogspanningsmast#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Hoogspanningspaal#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Huisaansluiting#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infozuil#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Keldergat#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#KleineWindturbine#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Knipperlicht#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Kopmuur#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Krooshek#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Lichtpunt#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#LijnvormigeWegmarkering#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#LongitudinaleWeginrichting#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Mast#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Meerpaal#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Meteopaal#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Muur#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#MuurBinnenWegbaan#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#NormandischeAfsluiting#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Nutskast#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Nutspaal#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OmklapbareWegmonoliet#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbaarToilet#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareBrievenbus#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareStraatverlichtingAanGevelOfMuur#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVerlichting#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVuilnisbak#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Oplaadpunt#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#PaalBovenleidingTramTreinTrolley#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Paneelafsluiting#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Parkeersensor#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Picknicktafel#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Pijler#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Plooibaken#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#PuntvormigeWegmarkering#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Putdeksel#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Recyclagecontainer#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Reddingsband#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Reflectorpaal#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Rijbaankussen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Rooster#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Schampblok#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SeininstallatieOvergangSpoorbedding#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SelectieveAfsluiting#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Sensoropstelling#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Signalisatie#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieEnLeidingenportiek#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaart#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaartElektrisch#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaartNietElektrisch#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Silo#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Slagboom#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SpandraadKetting#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SpeelEnSportvoorziening#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Spuitkop#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StatischeWegmonoliet#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Stootband#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StootbandDupuis#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StootbandNewJersey#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatkap#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatkolk#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatspiegel#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#TV-mast#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Telefoonpaal#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Toegangspoort#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Tractorsluis#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#TransversaleWeginrichting#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Treinbiels#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Vangrail#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Veerooster#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Veiligheidsband#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verkeersbord#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verkeersdrempel#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verkeerslicht#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#VerkeerslichtVoetgangerFietser#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verlichtingspaal#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verluchtingsrooster#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#VerzinkbareWegmonoliet#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Vlaggenpaal#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#VlakvormigeWegmarkering#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Waterpunt#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Weginrichtingselement#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegmarkering#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegmonoliet#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#WegneembareWegmonoliet#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegsignalisatie#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Windturbine#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#ZichtbaarDekselOfLuik#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Zitbank#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#aantalAnkerpunten#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#afsluitbaar#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#capaciteit#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#dekselVorm#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#drinkbaar#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#fietsdelen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#geschiktVoor#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#inwendigVerlicht#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#materiaal#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#nutsvoorzieningscode#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#nutsvoorzieningscode#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#nutsvoorzieningscode#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#oplaadwijze#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#overdekt#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#rioleringscode#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#sorteerfractie#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#speeltoesteltype#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#stekkertype#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#straatkolktype#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#verplaatsbaar#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#verzinkbaar#2021-09-30>, <http://dbpedia.org/resource/Fountain#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#Element#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject#2021-09-30>, <http://purl.org/dc/terms/relation#2021-09-30>, <http://www.w3.org/ns/locn#geometry#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#begindatum#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#einddatum#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#nauwkeurigheid#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#niveau#2021-09-30>;
     <https://w3id.org/tree#view> <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/15.trig>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/15.trig> <https://w3id.org/tree#relation> _:df_0_14.
 _:df_0_14 a <https://w3id.org/tree#Relation>;
