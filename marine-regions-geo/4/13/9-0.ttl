@@ -39,3 +39,97 @@ _:n3-2675 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6525?t=1638014230>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/13/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/13/9-0.ttl>.
+<http://marineregions.org/mrgid/48497?t=1638008538> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48497/geometries?source=50&attributeValue=WAU-WA>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47872>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/8914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48497>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:22:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:WAU-WA>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Western Australia"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(129.00588989258 -13.726692199707,112.90721130371 -13.726692199707,112.90721130371 -35.138336181641,129.00588989258 -35.138336181641,129.00588989258 -13.726692199707)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(122.28139827699 -25.328063795678)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47872> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Western Australia"@en.
+<http://marineregions.org/mrgid/8914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Western Australia"@en.
+_:n3-535 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "WAU-WA".
+<urn:tdwg:wgsrpd:WAU-WA> <https://schema.org/identifier> _:n3-535;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48497?t=1638008538>.
+<http://marineregions.org/mrgid/21745?t=1638009282> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/21949>, <http://marineregions.org/mrgid/21950>, <http://marineregions.org/mrgid/21951>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21745/geometries?source=56&attributeValue=21745>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/21724>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21745>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:34:42Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southwest Australian Shelf"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(126.532 -33.3155)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-819 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas>.
+<http://marineregions.org/mrgid/21745?t=1638009282> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-819.
+<http://marineregions.org/mrgid/21949> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Great Australian Bight"@en.
+<http://marineregions.org/mrgid/21950> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Leeuwin"@en.
+<http://marineregions.org/mrgid/21951> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Australian Gulfs"@en.
+<http://marineregions.org/mrgid/21724> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Realm>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Temperate Australasia"@en.
+<https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas> <http://www.w3.org/2000/01/rdf-schema#label> "Spalding, M. D. Fox, H. E. Allen, G. R. Davidson, N. Ferdana, Z. A. Finlayson, M. Halpern, B. S. Jorge, M. A. Lombana, A. Lourie, S. A., (2007). Marine Ecoregions of the World: A Bioregionalization of Coastal and Shelf Areas. Bioscience 2007, VOL 57; numb 7, pages 573-584. doi: 10.1641/B570707".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21745?t=1638009282>.
+<http://marineregions.org/mrgid/9064?t=1638009349> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/19972>, <http://marineregions.org/mrgid/20379>, <http://marineregions.org/mrgid/20449>, <http://marineregions.org/mrgid/23570>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/9064/geometries?source=19&attributeValue=135987251>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>, <http://marineregions.org/mrgid/8914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/9064>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:35:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Rottnest Island"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(115.5 -32)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-851 <http://www.w3.org/2000/01/rdf-schema#label> "(2001). The Times comprehensive atlas of the world. 10th ed. Times Books: London. ISBN 0-7230-0792-6. 67, 220, 124 plates pp.".
+_:n3-850 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-851.
+<http://marineregions.org/mrgid/9064?t=1638009349> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-850.
+<http://marineregions.org/mrgid/19972> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Point>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Beach Point"@en.
+<http://marineregions.org/mrgid/20379> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Point>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Point Clune"@en.
+<http://marineregions.org/mrgid/20449> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Reef>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ravin Reef"@en.
+<http://marineregions.org/mrgid/23570> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Thomson Bay"@en.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/8914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Western Australia"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/9064?t=1638009349>.
+<http://marineregions.org/mrgid/59227?t=1638010295> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#HABMonitoringGrid>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/59227/geometries?source=243&attributeValue=AU-27>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4276>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/59227>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:51:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "AU-27"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(133.98 -32.07,133.38 -32.07,133.38 -32.54,133.98 -32.54,133.98 -32.07)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(133.7 -32.28)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://haedat.iode.org>.
+<http://marineregions.org/mrgid/4276> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Great Australian Bight"@en.
+<http://haedat.iode.org> <http://www.w3.org/2000/01/rdf-schema#label> "Harmful Algae Event Database [HAEDAT] (2018)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/59227?t=1638010295>.
+<http://marineregions.org/mrgid/22018?t=1638005337> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/22018/geometries?source=38&attributeValue=22018>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/21746>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/22018>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T09:28:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Shark Bay"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(113.379 -25.7559)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2134 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas>.
+<http://marineregions.org/mrgid/22018?t=1638005337> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2134.
+<http://marineregions.org/mrgid/21746> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "West Central Australian Shelf"@en.
+<https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas> <http://www.w3.org/2000/01/rdf-schema#label> "Spalding, M. D. Fox, H. E. Allen, G. R. Davidson, N. Ferdana, Z. A. Finlayson, M. Halpern, B. S. Jorge, M. A. Lombana, A. Lourie, S. A., (2007). Marine Ecoregions of the World: A Bioregionalization of Coastal and Shelf Areas. Bioscience 2007, VOL 57; numb 7, pages 573-584. doi: 10.1641/B570707".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/22018?t=1638005337>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/13/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/13/9-0.ttl>.

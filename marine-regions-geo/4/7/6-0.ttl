@@ -710,3 +710,805 @@ _:n3-982 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47877?t=1638016612>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/7/6-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/7/6-0.ttl>.
+<http://marineregions.org/mrgid/39957?t=1638007263> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/39957/geometries?source=213&attributeValue=10E0>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/36329>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/39957>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:01:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "10E0"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-9 41,-10 41,-10 40.5,-9 40.5,-9 41)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-9.5 40.750765520975)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-22 <http://www.w3.org/ns/prov#wasAttributedTo> <http://gis.ices.dk/>.
+<http://marineregions.org/mrgid/39957?t=1638007263> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-22.
+<http://marineregions.org/mrgid/36329> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "ICES Statistical Rectangles"@en.
+<http://gis.ices.dk/> <http://www.w3.org/2000/01/rdf-schema#label> "International Council for the Exploration of the Sea (ICES)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/39957?t=1638007263>.
+<http://marineregions.org/mrgid/25033?t=1638007322> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/25033/geometries?source=111&attributeValue=2650>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/25033>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:02:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Gora Rybina"@ru, "Гора Рыбина"@ru;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:9196319>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 31.79; Long: -12.82"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-17. Proposer: Department of Navigation and Oceanography (DNO), Russia. Year of proposal: 2004."@en, "GEBCO: discoverer and year of discovery: History: Named after Georgiy Nikolayevich Rybin (1901-1975), a Russian hydrographer and active explorer of the Arctic and Baltic seas. He made considerable contributions to the study of the bottom relief of Russian seas. He was a professor of geodesy at t"@en, "Additional information: This feature is located NE of the Canary Islands among the depths of 2800-3600 meters.  It is on the 200 M limit of the Spanish EEZ, in the vicinity of Agadir Canyon. Minimum depth (m): 412. Maximum depth (m): 3200. Total relief (m): 2788."@en, "Coordinates in ACUF: Latitude: 31.783333; Longitude: -12.816667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Rybin Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-12.823333 31.786667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+_:n3-49 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "9196319".
+<urn:acuf:ufi:9196319> <https://schema.org/identifier> _:n3-49;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D9196319>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25033?t=1638007322>.
+<http://marineregions.org/mrgid/3912?t=1638007341> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/3912/geometries?source=111&attributeValue=881>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/3324>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/3912>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:02:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-153288>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 36.15; Long: -1.93333333"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "El Mansour Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-1.933333 36.15)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/3324> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alboran Sea"@en.
+_:n3-60 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153288".
+<urn:acuf:ufi:-153288> <https://schema.org/identifier> _:n3-60;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153288>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/3912?t=1638007341>.
+<http://marineregions.org/mrgid/4877?t=1638007388> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Spur>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/4877/geometries?source=111&attributeValue=832>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/4877>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:03:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Crista Duarte Pacheco"@pt, "Esporão Duarte Pacheco"@pt;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:9032572>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 39.58333333; Long: -10.66666667"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-13. Proposer: Jean-René Vanney, University of Paris IV, France. Year of proposal: 1999."@en, "GEBCO: discoverer and year of discovery: History: Named after the Portuguese cosmographer and discoverer Duarte Pacheco Pereira (c. 1460-1533), and the Portuguese engineer Duarte José Pacheco (1899-1943)."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Duarte Pacheco Spur"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-10.666667 39.583333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+_:n3-80 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "9032572".
+<urn:acuf:ufi:9032572> <https://schema.org/identifier> _:n3-80;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D9032572>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/4877?t=1638007388>.
+<http://marineregions.org/mrgid/39173?t=1638007423> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/39173/geometries?source=213&attributeValue=10D1>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/36329>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/39173>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:03:43Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "10D1"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-18 41,-19 41,-19 40.5,-18 40.5,-18 41)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-18.5 40.750765520975)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-99 <http://www.w3.org/ns/prov#wasAttributedTo> <http://gis.ices.dk/>.
+<http://marineregions.org/mrgid/39173?t=1638007423> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-99.
+<http://marineregions.org/mrgid/36329> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "ICES Statistical Rectangles"@en.
+<http://gis.ices.dk/> <http://www.w3.org/2000/01/rdf-schema#label> "International Council for the Exploration of the Sea (ICES)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/39173?t=1638007423>.
+<http://marineregions.org/mrgid/28191?t=1638007440> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SiteOfCommunityImportanceSCIEUHabitatsDirective>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/28191/geometries?source=90&attributeValue=ES6200031>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4279>, <http://marineregions.org/mrgid/5693>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/28191>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:04:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://natura2000.eea.europa.eu/natura2000/SDF.aspx?site=ES6200031>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cabo Cope"@es;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-1.489543 37.429404)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.eea.europa.eu/data-and-maps/data/natura-2>.
+<http://marineregions.org/mrgid/4279> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mediterranean Sea - Western Basin"@en.
+<http://marineregions.org/mrgid/5693> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Spanish Exclusive Economic Zone"@en.
+<http://www.eea.europa.eu/data-and-maps/data/natura-2> <http://www.w3.org/2000/01/rdf-schema#label> "Natura 2000 Sites, European Environment Agency (EEA) (Updates 2011)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/28191?t=1638007440>.
+<http://marineregions.org/mrgid/38699?t=1638007445> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/38699/geometries?source=213&attributeValue=01C7>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/36329>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/38699>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:04:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "01C7"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-22 36.5,-23 36.5,-23 36,-22 36,-22 36.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-22.5 36.250773714657)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-110 <http://www.w3.org/ns/prov#wasAttributedTo> <http://gis.ices.dk/>.
+<http://marineregions.org/mrgid/38699?t=1638007445> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-110.
+<http://marineregions.org/mrgid/36329> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "ICES Statistical Rectangles"@en.
+<http://gis.ices.dk/> <http://www.w3.org/2000/01/rdf-schema#label> "International Council for the Exploration of the Sea (ICES)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/38699?t=1638007445>.
+<http://marineregions.org/mrgid/37213?t=1638007522> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/37213/geometries?source=213&attributeValue=02D2>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/36329>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/37213>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:05:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "02D2"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-17 37,-18 37,-18 36.5,-17 36.5,-17 37)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-17.5 36.750774370064)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-128 <http://www.w3.org/ns/prov#wasAttributedTo> <http://gis.ices.dk/>.
+<http://marineregions.org/mrgid/37213?t=1638007522> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-128.
+<http://marineregions.org/mrgid/36329> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "ICES Statistical Rectangles"@en.
+<http://gis.ices.dk/> <http://www.w3.org/2000/01/rdf-schema#label> "International Council for the Exploration of the Sea (ICES)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/37213?t=1638007522>.
+<http://marineregions.org/mrgid/56973?t=1638007524> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/56973/geometries?source=95&attributeValue=56973>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/56797>, <http://marineregions.org/mrgid/56798>, <http://marineregions.org/mrgid/30235>, <http://marineregions.org/mrgid/56788>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/3324>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/56973>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:05:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Drift type: Canyon related"@en, "Prevailing contourite type: sandy-silty"@en, "Maximum age: Quaternary"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alboran Trough Drift CR2"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-3.196 36.007,-3.273 36.007,-3.273 35.99,-3.196 35.99,-3.196 36.007)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-3.2382546 35.9983242)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-131 <http://www.w3.org/2000/01/rdf-schema#label> "Ercilla, G., Juan, C., Hernandez-Molina, F. J., Bruno, M., Estrada, F., Alonso, B., ... & Vazquez, J. T. (2016). Significance of bottom currents in deep-sea morphodynamics: An example from the Alboran Sea. Marine Geology, 378, 157-170.".
+_:n3-130 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-131.
+<http://marineregions.org/mrgid/56973?t=1638007524> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-130.
+<http://marineregions.org/mrgid/56797> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Atlantic Water"@en.
+<http://marineregions.org/mrgid/56798> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Western Intermediate Water"@en.
+<http://marineregions.org/mrgid/30235> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Levantine Intermediate Water"@en.
+<http://marineregions.org/mrgid/56788> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Western Mediterranean Deep Water"@en.
+<http://marineregions.org/mrgid/3324> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alboran Sea"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/56973?t=1638007524>.
+<http://marineregions.org/mrgid/56984?t=1638007757> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/56984/geometries?source=95&attributeValue=56984>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/56797>, <http://marineregions.org/mrgid/56798>, <http://marineregions.org/mrgid/30235>, <http://marineregions.org/mrgid/56788>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/3324>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/56984>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:09:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Drift type: Elongated Separated"@en, "Prevailing contourite type: sandy-silty"@en, "Maximum age: Quaternary"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Eastern Alboran Basin Drift ES3"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-2.268 36.551,-2.337 36.551,-2.337 36.491,-2.268 36.491,-2.268 36.551)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-2.3052894 36.524185)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-233 <http://www.w3.org/2000/01/rdf-schema#label> "Ercilla, G., Juan, C., Hernandez-Molina, F. J., Bruno, M., Estrada, F., Alonso, B., ... & Vazquez, J. T. (2016). Significance of bottom currents in deep-sea morphodynamics: An example from the Alboran Sea. Marine Geology, 378, 157-170.".
+_:n3-232 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-233.
+<http://marineregions.org/mrgid/56984?t=1638007757> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-232.
+<http://marineregions.org/mrgid/56797> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Atlantic Water"@en.
+<http://marineregions.org/mrgid/56798> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Western Intermediate Water"@en.
+<http://marineregions.org/mrgid/30235> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Levantine Intermediate Water"@en.
+<http://marineregions.org/mrgid/56788> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Western Mediterranean Deep Water"@en.
+<http://marineregions.org/mrgid/3324> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alboran Sea"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/56984?t=1638007757>.
+<http://marineregions.org/mrgid/40208?t=1638007761> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/40208/geometries?source=213&attributeValue=05E3>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/36329>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/40208>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:09:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "05E3"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-6 38.5,-7 38.5,-7 38,-6 38,-6 38.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-6.5 38.250774023667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-235 <http://www.w3.org/ns/prov#wasAttributedTo> <http://gis.ices.dk/>.
+<http://marineregions.org/mrgid/40208?t=1638007761> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-235.
+<http://marineregions.org/mrgid/36329> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "ICES Statistical Rectangles"@en.
+<http://gis.ices.dk/> <http://www.w3.org/2000/01/rdf-schema#label> "International Council for the Exploration of the Sea (ICES)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/40208?t=1638007761>.
+<http://marineregions.org/mrgid/27232?t=1638007785> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SiteOfCommunityImportanceSCIEUHabitatsDirective>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/27232/geometries?source=90&attributeValue=ES7010046>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>, <http://marineregions.org/mrgid/8364>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/27232>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:09:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://natura2000.eea.europa.eu/natura2000/SDF.aspx?site=ES7010046>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Los Volcanes"@es;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-13.750008 29.006226)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.eea.europa.eu/data-and-maps/data/natura-2>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/8364> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Spanish Exclusive Economic Zone (Canary Islands)"@en.
+<http://www.eea.europa.eu/data-and-maps/data/natura-2> <http://www.w3.org/2000/01/rdf-schema#label> "Natura 2000 Sites, European Environment Agency (EEA) (Updates 2011)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/27232?t=1638007785>.
+<http://marineregions.org/mrgid/25323?t=1638007810> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/25323/geometries?source=80&attributeValue=25323>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>, <http://marineregions.org/mrgid/8368>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/8368>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/25323>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:10:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Overlapping claim Western Saharan part of the North Atlantic Ocean"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-13.17315 27.83362,-20.66692 27.83362,-20.66692 19.33012,-13.17315 19.33012,-13.17315 27.83362)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-17.69542 23.34236)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://doi.org/10.14284/402>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/8368> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Overlapping claim Western Saharan Exclusive Economic Zone"@en.
+<https://doi.org/10.14284/402> <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2020). Intersect of IHO Sea Areas and Exclusive Economic Zones (version 4)   ".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25323?t=1638007810>.
+<http://marineregions.org/mrgid/48279?t=1638008051> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48279/geometries?source=50&attributeValue=MDR-OO>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47706>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/47706>, <http://marineregions.org/mrgid/4955>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48279>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:14:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:MDR-OO>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Madeira"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-16.285835266113 33.109992980957,-17.255836486816 33.109992980957,-17.255836486816 32.637496948242,-16.285835266113 32.637496948242,-16.285835266113 33.109992980957)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-16.947195551015 32.767440496793)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47706> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Madeira"@en.
+<http://marineregions.org/mrgid/4955> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#AutonomousRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Madeira"@en.
+_:n3-358 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "MDR-OO".
+<urn:tdwg:wgsrpd:MDR-OO> <https://schema.org/identifier> _:n3-358;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48279?t=1638008051>.
+<http://marineregions.org/mrgid/47786?t=1638008094> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/48403>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/47786/geometries?source=51&attributeValue=POR>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47471>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/2243>, <http://marineregions.org/mrgid/48403>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/47786>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:14:54Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:POR>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Portugal"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-6.1872224810326 42.15274047839,-9.4947223661442 42.15274047839,-9.4947223661442 37.008331298651,-6.1872224810326 37.008331298651,-6.1872224810326 42.15274047839)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-7.9695944767968 39.666230101527)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/48403> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Portugal"@en.
+<http://marineregions.org/mrgid/47471> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southwestern Europe"@en.
+<http://marineregions.org/mrgid/2243> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Portugal"@en.
+_:n3-381 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "POR".
+<urn:tdwg:wgsrpd:POR> <https://schema.org/identifier> _:n3-381;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47786?t=1638008094>.
+<http://marineregions.org/mrgid/40388?t=1638008358> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/40388/geometries?source=213&attributeValue=08E5>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/36329>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/40388>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:19:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "08E5"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-4 40,-5 40,-5 39.5,-4 39.5,-4 40)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-4.5 39.750770132371)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-478 <http://www.w3.org/ns/prov#wasAttributedTo> <http://gis.ices.dk/>.
+<http://marineregions.org/mrgid/40388?t=1638008358> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-478.
+<http://marineregions.org/mrgid/36329> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "ICES Statistical Rectangles"@en.
+<http://gis.ices.dk/> <http://www.w3.org/2000/01/rdf-schema#label> "International Council for the Exploration of the Sea (ICES)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/40388?t=1638008358>.
+<http://marineregions.org/mrgid/40586?t=1638008547> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/40586/geometries?source=213&attributeValue=10E7>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/36329>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/40586>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:22:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "10E7"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-2 41,-3 41,-3 40.5,-2 40.5,-2 41)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-2.5 40.750765520975)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-539 <http://www.w3.org/ns/prov#wasAttributedTo> <http://gis.ices.dk/>.
+<http://marineregions.org/mrgid/40586?t=1638008547> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-539.
+<http://marineregions.org/mrgid/36329> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "ICES Statistical Rectangles"@en.
+<http://gis.ices.dk/> <http://www.w3.org/2000/01/rdf-schema#label> "International Council for the Exploration of the Sea (ICES)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/40586?t=1638008547>.
+<http://marineregions.org/mrgid/5688?t=1638008627> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/4834>, <http://marineregions.org/mrgid/4836>, <http://marineregions.org/mrgid/4837>, <http://marineregions.org/mrgid/4843>, <http://marineregions.org/mrgid/4845>, <http://marineregions.org/mrgid/4848>, <http://marineregions.org/mrgid/4864>, <http://marineregions.org/mrgid/4868>, <http://marineregions.org/mrgid/4870>, <http://marineregions.org/mrgid/4874>, <http://marineregions.org/mrgid/4880>, <http://marineregions.org/mrgid/4882>, <http://marineregions.org/mrgid/4883>, <http://marineregions.org/mrgid/4884>, <http://marineregions.org/mrgid/4886>, <http://marineregions.org/mrgid/4887>, <http://marineregions.org/mrgid/4888>, <http://marineregions.org/mrgid/7635>, <http://marineregions.org/mrgid/25368>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/5688/geometries?source=79&attributeValue=5688>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2243>, <http://marineregions.org/mrgid/1912>;
+    <http://marineregions.org/ns/ontology#partlyContains> <http://marineregions.org/mrgid/4833>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/5688>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:23:47Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=5688>;
+    <http://www.w3.org/2004/02/skos/core#note> "Centroid calculation method: Centroid"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Portuguese Exclusive Economic Zone"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-7.25694 42.05467,-13.86535 42.05467,-13.86535 34.8776,-7.25694 34.8776,-7.25694 42.05467)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-10.92284 38.31921)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/hydra/core#next> <http://marineregions.org/mrgid/5688?page=2&t=1638008627>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/4834> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Faro Canyon"@en.
+<http://marineregions.org/mrgid/4836> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Terrace>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sagres Terrace"@en.
+<http://marineregions.org/mrgid/4837> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lagos Canyon"@en.
+<http://marineregions.org/mrgid/4843> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Passage>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Carlos Ribeiro Passage"@en.
+<http://marineregions.org/mrgid/4845> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "São Vicente Canyon"@en.
+<http://marineregions.org/mrgid/4848> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Passage>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Baldaque Da Silva Passage"@en.
+<http://marineregions.org/mrgid/4864> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tore Seamounts"@en.
+<http://marineregions.org/mrgid/4868> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Passage>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Carvalho Araújo Passage"@en.
+<http://marineregions.org/mrgid/4870> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Setúbal Canyon"@en.
+<http://marineregions.org/mrgid/4874> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Promontory>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Estremadura Promontory"@en.
+<http://marineregions.org/mrgid/4880> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "São Pedro Canyon"@en.
+<http://marineregions.org/mrgid/4882> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nazaré Canyon"@en.
+<http://marineregions.org/mrgid/4883> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Valley>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "São Gabriel Valley"@en.
+<http://marineregions.org/mrgid/4884> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "São Rafael Canyon"@en.
+<http://marineregions.org/mrgid/4886> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Valley>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Aveiro Valley"@en.
+<http://marineregions.org/mrgid/4887> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Escarpment>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Beiral de Viana Escarpment"@en.
+<http://marineregions.org/mrgid/4888> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Valley>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Porto Valley"@en.
+<http://marineregions.org/mrgid/7635> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Spur>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gil Vicente Spur"@en.
+<http://marineregions.org/mrgid/25368> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Portuguese part of the North Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/2243> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Portugal"@en.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/4833> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Terrace>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bartolomeu Dias Terrace"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Maritime Boundaries and Exclusive Economic Zones (200NM), version 11. Available online at http://www.marineregions.org/. https://doi.org/10.14284/386".
+<http://marineregions.org/mrgid/5688> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/26999>, <http://marineregions.org/mrgid/27209>, <http://marineregions.org/mrgid/27517>, <http://marineregions.org/mrgid/27610>, <http://marineregions.org/mrgid/27908>, <http://marineregions.org/mrgid/27968>, <http://marineregions.org/mrgid/28057>, <http://marineregions.org/mrgid/28422>, <http://marineregions.org/mrgid/28656>, <http://marineregions.org/mrgid/28671>, <http://marineregions.org/mrgid/28806>, <http://marineregions.org/mrgid/28867>, <http://marineregions.org/mrgid/28926>, <http://marineregions.org/mrgid/29014>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/25368>;
+    <http://marineregions.org/ns/ontology#partlyContains> <http://marineregions.org/mrgid/28000>, <http://marineregions.org/mrgid/28044>, <http://marineregions.org/mrgid/28721>, <http://marineregions.org/mrgid/28824>, <http://marineregions.org/mrgid/28959>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Portuguese Exclusive Economic Zone"@en;
+    <http://www.w3.org/ns/hydra/core#next> <http://marineregions.org/mrgid/5688?page=3&t=1638008627>.
+<http://marineregions.org/mrgid/26999> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SpecialProtectionAreaSPAEUBirdsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Estuário Do Tejo"@pt.
+<http://marineregions.org/mrgid/27209> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SiteOfCommunityImportanceSCIEUHabitatsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Litoral Norte"@pt.
+<http://marineregions.org/mrgid/27517> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SiteOfCommunityImportanceSCIEUHabitatsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dunas de Mira, Gândara E Gafanhas"@pt.
+<http://marineregions.org/mrgid/27610> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SiteOfCommunityImportanceSCIEUHabitatsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arrábida/Espichel"@pt.
+<http://marineregions.org/mrgid/27908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SpecialProtectionAreaSPAEUBirdsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cabo Espichel"@pt.
+<http://marineregions.org/mrgid/27968> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SpecialProtectionAreaSPAEUBirdsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lagoa da Sancha"@pt.
+<http://marineregions.org/mrgid/28057> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SpecialProtectionAreaSPAEUBirdsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ilhas Berlengas"@pt.
+<http://marineregions.org/mrgid/28422> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SiteOfCommunityImportanceSCIEUHabitatsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Peniche / Stª Cruz"@pt.
+<http://marineregions.org/mrgid/28656> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SiteOfCommunityImportanceSCIEUHabitatsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Estuário Do Sado"@pt.
+<http://marineregions.org/mrgid/28671> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SpecialProtectionAreaSPAEUBirdsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Estuário Do Sado"@pt.
+<http://marineregions.org/mrgid/28806> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SpecialProtectionAreaSPAEUBirdsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ria de Aveiro"@pt.
+<http://marineregions.org/mrgid/28867> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SiteOfCommunityImportanceSCIEUHabitatsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Estuário Do Tejo"@pt.
+<http://marineregions.org/mrgid/28926> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SiteOfCommunityImportanceSCIEUHabitatsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Costa Sudoeste"@pt.
+<http://marineregions.org/mrgid/29014> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SiteOfCommunityImportanceSCIEUHabitatsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Rio Minho"@pt.
+<http://marineregions.org/mrgid/25368> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Portuguese part of the North Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/28000> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SpecialProtectionAreaSPAEUBirdsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sapais de Castro Marim"@pt.
+<http://marineregions.org/mrgid/28044> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SiteOfCommunityImportanceSCIEUHabitatsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Rio Guadiana Y Ribera de Chanza"@es.
+<http://marineregions.org/mrgid/28721> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SpecialProtectionAreaSPAEUBirdsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Esteiro Do Miño"@es.
+<http://marineregions.org/mrgid/28824> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SiteOfCommunityImportanceSCIEUHabitatsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ria Formosa/Castro Marim"@pt.
+<http://marineregions.org/mrgid/28959> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SiteOfCommunityImportanceSCIEUHabitatsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Baixo Miño"@es.
+<http://marineregions.org/mrgid/5688> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/29133>, <http://marineregions.org/mrgid/29195>, <http://marineregions.org/mrgid/29241>, <http://marineregions.org/mrgid/29473>, <http://marineregions.org/mrgid/29680>, <http://marineregions.org/mrgid/29730>, <http://marineregions.org/mrgid/30436>, <http://marineregions.org/mrgid/49029>, <http://marineregions.org/mrgid/49262>, <http://marineregions.org/mrgid/49564>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Portuguese Exclusive Economic Zone"@en.
+<http://marineregions.org/mrgid/29133> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SiteOfCommunityImportanceSCIEUHabitatsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sintra/Cascais"@pt.
+<http://marineregions.org/mrgid/29195> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SpecialProtectionAreaSPAEUBirdsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Costa Sudoeste"@pt.
+<http://marineregions.org/mrgid/29241> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SiteOfCommunityImportanceSCIEUHabitatsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arquipélago da Berlenga"@pt.
+<http://marineregions.org/mrgid/29473> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SpecialProtectionAreaSPAEUBirdsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ria Formosa"@pt.
+<http://marineregions.org/mrgid/29680> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SpecialProtectionAreaSPAEUBirdsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Estuários Dos Rios Minho E Coura"@pt.
+<http://marineregions.org/mrgid/29730> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SpecialProtectionAreaSPAEUBirdsDirective>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lagoa de Santo andré"@pt.
+<http://marineregions.org/mrgid/30436> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContouriteDepositionalSystem>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southwest Portugal CDS"@en.
+<http://marineregions.org/mrgid/49029> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TerritorialSea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Portuguese 12 NM"@en.
+<http://marineregions.org/mrgid/49262> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContiguousZone>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Portuguese 24 NM"@en.
+<http://marineregions.org/mrgid/49564> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#InternalWaters>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Portuguese Internal Waters"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5688?t=1638008627>.
+<http://marineregions.org/mrgid/30287?t=1638008703> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/30287/geometries?source=95&attributeValue=30287>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/30235>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/21897>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30287>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:25:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Maximum age: Quaternary"@en, "Coordinate information: Coordinates redefined in 2014. \nThese coordinates represent the centroid and the bounding box of the polygon from the shapefile."@en, "Drift type: Elongated mounded and separated Drift"@en, "Mean contourite type: Muddy"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ceuta Drift"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-4.2411782 35.9206805,-5.2492061 35.9206805,-5.2492061 35.2238336,-4.2411782 35.2238336,-4.2411782 35.9206805)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-4.8194273669875 35.521648833375)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-609 <http://www.w3.org/2000/01/rdf-schema#label> "Ercilla, G., et al. (2002). The Ceuta Drift, Alboran Sea, southwestern Mediterranean. Deep-Water Contourite Systems: Modern Drifts and Ancient Series, Seismic and Sedimentary Characteristics. D. A. V. Stow, C. J. Pudsey, J. A. Howe, J.-C. Faugères and A. R. Viana. London, Geological Society. 22: 155-170.".
+_:n3-608 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-609.
+<http://marineregions.org/mrgid/30287?t=1638008703> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-608.
+<http://marineregions.org/mrgid/30235> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Levantine Intermediate Water"@en.
+<http://marineregions.org/mrgid/21897> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alboran Sea"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30287?t=1638008703>.
+<http://marineregions.org/mrgid/40382?t=1638008960> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/40382/geometries?source=213&attributeValue=02E5>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/36329>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/40382>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:29:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "02E5"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-4 37,-5 37,-5 36.5,-4 36.5,-4 37)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-4.5 36.750774370064)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-707 <http://www.w3.org/ns/prov#wasAttributedTo> <http://gis.ices.dk/>.
+<http://marineregions.org/mrgid/40382?t=1638008960> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-707.
+<http://marineregions.org/mrgid/36329> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "ICES Statistical Rectangles"@en.
+<http://gis.ices.dk/> <http://www.w3.org/2000/01/rdf-schema#label> "International Council for the Exploration of the Sea (ICES)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/40382?t=1638008960>.
+<http://marineregions.org/mrgid/39283?t=1638008968> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/39283/geometries?source=213&attributeValue=03D3>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/36329>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/39283>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:29:28Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "03D3"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-16 37.5,-17 37.5,-17 37,-16 37,-16 37.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-16.5 37.250774642463)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-711 <http://www.w3.org/ns/prov#wasAttributedTo> <http://gis.ices.dk/>.
+<http://marineregions.org/mrgid/39283?t=1638008968> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-711.
+<http://marineregions.org/mrgid/36329> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "ICES Statistical Rectangles"@en.
+<http://gis.ices.dk/> <http://www.w3.org/2000/01/rdf-schema#label> "International Council for the Exploration of the Sea (ICES)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/39283?t=1638008968>.
+<http://marineregions.org/mrgid/27710?t=1638009001> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SpecialProtectionAreaSPAEUBirdsDirective>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/27710/geometries?source=90&attributeValue=ES0000197>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/3324>, <http://marineregions.org/mrgid/5693>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/27710>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:30:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://natura2000.eea.europa.eu/natura2000/SDF.aspx?site=ES0000197>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Acantilados del Monte Hacho"@es;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-5.285595 35.897004)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.eea.europa.eu/data-and-maps/data/natura-2>.
+<http://marineregions.org/mrgid/3324> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alboran Sea"@en.
+<http://marineregions.org/mrgid/5693> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Spanish Exclusive Economic Zone"@en.
+<http://www.eea.europa.eu/data-and-maps/data/natura-2> <http://www.w3.org/2000/01/rdf-schema#label> "Natura 2000 Sites, European Environment Agency (EEA) (Updates 2011)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/27710?t=1638009001>.
+<http://marineregions.org/mrgid/48595?t=1638009085> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#FAOSubdivisions>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48595/geometries?source=143&attributeValue=48595>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/48584>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48595>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:31:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.gfcmonline.org/maps/gsas/>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Ile d'Alboran"@fr, "GSA02"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alboran Island"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-2.666667 36.083332,-3.333333 36.083332,-3.333333 35.75,-2.666667 35.75,-2.666667 36.083332)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-2.99994 35.917006)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-766 <http://www.w3.org/2000/01/rdf-schema#label> "FAO Major Fishing Areas, UN Atlas of the Oceans".
+_:n3-765 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-766.
+<http://marineregions.org/mrgid/48595?t=1638009085> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-765.
+<http://marineregions.org/mrgid/48584> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#FAODivisions>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Balearic"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48595?t=1638009085>.
+<http://marineregions.org/mrgid/27186?t=1638009156> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SiteOfCommunityImportanceSCIEUHabitatsDirective>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/27186/geometries?source=90&attributeValue=ES7010014>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>, <http://marineregions.org/mrgid/8364>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/27186>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:32:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://natura2000.eea.europa.eu/natura2000/SDF.aspx?site=ES7010014>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cueva de Lobos"@es;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-14.265363 28.289028)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.eea.europa.eu/data-and-maps/data/natura-2>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/8364> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Spanish Exclusive Economic Zone (Canary Islands)"@en.
+<http://www.eea.europa.eu/data-and-maps/data/natura-2> <http://www.w3.org/2000/01/rdf-schema#label> "Natura 2000 Sites, European Environment Agency (EEA) (Updates 2011)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/27186?t=1638009156>.
+<http://marineregions.org/mrgid/40381?t=1638009265> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/40381/geometries?source=213&attributeValue=01E5>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/36329>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/40381>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:34:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "01E5"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-4 36.5,-5 36.5,-5 36,-4 36,-4 36.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-4.5 36.250773714657)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-813 <http://www.w3.org/ns/prov#wasAttributedTo> <http://gis.ices.dk/>.
+<http://marineregions.org/mrgid/40381?t=1638009265> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-813.
+<http://marineregions.org/mrgid/36329> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "ICES Statistical Rectangles"@en.
+<http://gis.ices.dk/> <http://www.w3.org/2000/01/rdf-schema#label> "International Council for the Exploration of the Sea (ICES)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/40381?t=1638009265>.
+<http://marineregions.org/mrgid/28405?t=1638009389> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SiteOfCommunityImportanceSCIEUHabitatsDirective>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/28405/geometries?source=90&attributeValue=PTMAD0003>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>, <http://marineregions.org/mrgid/8363>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/28405>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:36:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://natura2000.eea.europa.eu/natura2000/SDF.aspx?site=PTMAD0003>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ponta de S. Lourenço"@pt;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-16.712355 32.749617)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.eea.europa.eu/data-and-maps/data/natura-2>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/8363> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Portuguese Exclusive Economic Zone (Madeira)"@en.
+<http://www.eea.europa.eu/data-and-maps/data/natura-2> <http://www.w3.org/2000/01/rdf-schema#label> "Natura 2000 Sites, European Environment Agency (EEA) (Updates 2011)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/28405?t=1638009389>.
+<http://marineregions.org/mrgid/27996?t=1638009488> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SiteOfCommunityImportanceSCIEUHabitatsDirective>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/27996/geometries?source=90&attributeValue=ES7020120>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>, <http://marineregions.org/mrgid/8364>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/27996>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:38:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://natura2000.eea.europa.eu/natura2000/SDF.aspx?site=ES7020120>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sebadal de San andrés"@es;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-16.190071 28.49603)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.eea.europa.eu/data-and-maps/data/natura-2>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/8364> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Spanish Exclusive Economic Zone (Canary Islands)"@en.
+<http://www.eea.europa.eu/data-and-maps/data/natura-2> <http://www.w3.org/2000/01/rdf-schema#label> "Natura 2000 Sites, European Environment Agency (EEA) (Updates 2011)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/27996?t=1638009488>.
+<http://marineregions.org/mrgid/23295?t=1638009527> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/3746>, <http://marineregions.org/mrgid/3755>, <http://marineregions.org/mrgid/3757>, <http://marineregions.org/mrgid/22727>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/23295/geometries?source=155&attributeValue=35>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/3743>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/9233>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/23295>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:38:47Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Las Palmas"@es;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-14.333333333 28.3333333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/3746> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gran Canaria"@en.
+<http://marineregions.org/mrgid/3755> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lanzarote"@en.
+<http://marineregions.org/mrgid/3757> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Fuerteventura"@en.
+<http://marineregions.org/mrgid/22727> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lobos Island"@en.
+<http://marineregions.org/mrgid/3743> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Archipelago>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Canary Islands"@en.
+<http://marineregions.org/mrgid/9233> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#GeneralRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "East Canary Islands"@en.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/23295?t=1638009527>.
+<http://marineregions.org/mrgid/49001?t=1638009551> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#OverlappingClaim>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/49688>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/49001/geometries?source=79&attributeValue=49001>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/48995>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/49688>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/49001>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:39:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=49001>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Overlapping claim Alhucemas Islands: Spain / Morocco"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-3.84588 35.26534,-3.9051 35.26534,-3.9051 35.20947,-3.84588 35.20947,-3.84588 35.26534)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-3.87866 35.23422)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/49688> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Overlapping claim Alhucemas Islands: Spain / Morocco part of the Alboran Sea"@en.
+<http://marineregions.org/mrgid/48995> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IslandGroup>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alhucemas Islands"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Maritime Boundaries and Exclusive Economic Zones (200NM), version 11. Available online at http://www.marineregions.org/. https://doi.org/10.14284/386".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/49001?t=1638009551>.
+<http://marineregions.org/mrgid/30302?t=1638009705> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/30302/geometries?source=95&attributeValue=30302>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/30236>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/30247>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30302>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:41:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Maximum age: Late Pleistocene"@en, "Additional information: NW: Mounded elongated & separated drift"@en, "Coordinate information: Coordinates redefined in 2014. \nThese coordinates represent the centroid and the bounding box of the polygon from the shapefile."@en, "Drift type: Sheeted Drift"@en, "Mean contourite type: Silty"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Faro-Cadiz Drift"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-6.8681277 36.8424338,-7.7840844 36.8424338,-7.7840844 36.3831106,-6.8681277 36.3831106,-6.8681277 36.8424338)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-7.3247984551361 36.616870435154)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1017 <http://www.w3.org/2000/01/rdf-schema#label> "Gonthier, E., et al. (1984). Contourite facies of the Faro Drift, Gulf of Cadiz. Fine Grained Sediments, Deep-Water Processes and Facies. D. A. V. Stow and D. J. W. Piper. London, Geological Society. 15: 275-291.".
+_:n3-1016 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-1017.
+<http://marineregions.org/mrgid/30302?t=1638009705> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1016.
+<http://marineregions.org/mrgid/30236> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mediterranean Outflow Water"@en.
+<http://marineregions.org/mrgid/30247> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContouriteDepositionalSystem>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of Cadiz CDS"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30302?t=1638009705>.
+<http://marineregions.org/mrgid/30332?t=1638009892> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/30332/geometries?source=95&attributeValue=30332>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/30236>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/30247>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30332>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:44:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Maximum age: Early Pleistocene"@en, "Additional information: Is fossilised in Late Pleistocene"@en, "Coordinate information: Coordinates redefined in 2014. \nThese coordinates represent the centroid and the bounding box of the polygon from the shapefile."@en, "Drift type: Elongated mounded and separated Drift"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Huelva Drift"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-7.2066199 36.4931826,-7.6104933 36.4931826,-7.6104933 36.4021456,-7.2066199 36.4021456,-7.2066199 36.4931826)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-7.3871438766596 36.455088605222)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1093 <http://www.w3.org/2000/01/rdf-schema#label> "Laberg, J. S., et al. (2005). Cenozoic alongslope processes and sedimentation on the NW European Atlantic margin. Marine and Petroleum Geology 22: 1069-1088.".
+_:n3-1092 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-1093.
+<http://marineregions.org/mrgid/30332?t=1638009892> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1092.
+<http://marineregions.org/mrgid/30236> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mediterranean Outflow Water"@en.
+<http://marineregions.org/mrgid/30247> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContouriteDepositionalSystem>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of Cadiz CDS"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30332?t=1638009892>.
+<http://marineregions.org/mrgid/4855?t=1638009898> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Rise>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/4855/geometries?source=110&attributeValue=1071>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/4855>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:44:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Elevação Gago Coutinho"@pt, "Gago Coutinho Seamounts"@en, "Montanha Gago Coutinho"@pt;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:9032560>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-13. Proposer: Jean-René Vanney, University of Paris IV, France. Year of proposal: 1999."@en, "GEBCO: discoverer and year of discovery: History: Named after the Portuguese flying boat pilot Carlos Viegos Gago Coutinho (1869-1959) who carried out the first crossing of the South Atlantic in 1922."@en, "Additional information: This feature has several small and one large elevation on it : Josephine Banks at position 36°45'N-14°15'W. Shown as Gago Coutinho Seamounts in the ACUF Gazetteer."@en, "Coordinates in ACUF: Latitude: 37.083333; Longitude: -14.916667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gago Coutinho Rise"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-13.666667 37.666667,-14.916667 37.666667,-14.916667 37.083333,-13.666667 37.083333,-13.666667 37.666667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-14.294087130722 37.376658635316)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+_:n3-1096 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "9032560".
+<urn:acuf:ufi:9032560> <https://schema.org/identifier> _:n3-1096;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D9032560>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/4855?t=1638009898>.
+<http://marineregions.org/mrgid/40488?t=1638009917> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/40488/geometries?source=213&attributeValue=10E6>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/36329>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/40488>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:45:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "10E6"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-3 41,-4 41,-4 40.5,-3 40.5,-3 41)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-3.5 40.750765520975)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1105 <http://www.w3.org/ns/prov#wasAttributedTo> <http://gis.ices.dk/>.
+<http://marineregions.org/mrgid/40488?t=1638009917> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1105.
+<http://marineregions.org/mrgid/36329> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "ICES Statistical Rectangles"@en.
+<http://gis.ices.dk/> <http://www.w3.org/2000/01/rdf-schema#label> "International Council for the Exploration of the Sea (ICES)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/40488?t=1638009917>.
+<http://marineregions.org/mrgid/4854?t=1638009929> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/4854/geometries?source=111&attributeValue=1766>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/4854>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:45:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Lion Seamount"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154177>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 35.25; Long: -15.58333333"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: Shown as Lion Seamount in the ACUF Gazetteer."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lion Bank"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-15.583333 35.25)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+_:n3-1111 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154177".
+<urn:acuf:ufi:-154177> <https://schema.org/identifier> _:n3-1111;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154177>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/4854?t=1638009929>.
+<http://marineregions.org/mrgid/29473?t=1638010159> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SpecialProtectionAreaSPAEUBirdsDirective>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/29473/geometries?source=90&attributeValue=PTZPE0017>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>, <http://marineregions.org/mrgid/5688>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/29473>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:49:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://natura2000.eea.europa.eu/natura2000/SDF.aspx?site=PTZPE0017>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ria Formosa"@pt;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-7.790147 37.044033)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.eea.europa.eu/data-and-maps/data/natura-2>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/5688> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Portuguese Exclusive Economic Zone"@en.
+<http://www.eea.europa.eu/data-and-maps/data/natura-2> <http://www.w3.org/2000/01/rdf-schema#label> "Natura 2000 Sites, European Environment Agency (EEA) (Updates 2011)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/29473?t=1638010159>.
+<http://marineregions.org/mrgid/9260?t=1638010215> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#GeneralRegion>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/9260/geometries?source=146&attributeValue=9260>;
+    <http://marineregions.org/ns/ontology#isAdjacentTo> <http://marineregions.org/mrgid/1912>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2221>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/9260>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:50:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "West Morocco"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-9.5 30)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1225 <http://www.w3.org/2000/01/rdf-schema#label> "Masdea".
+<http://marineregions.org/mrgid/9260?t=1638010215> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1225.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/2221> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Morocco"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/9260?t=1638010215>.
+<http://marineregions.org/mrgid/40008?t=1638010315> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/40008/geometries?source=213&attributeValue=01E1>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/36329>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/40008>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:51:55Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "01E1"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-8 36.5,-9 36.5,-9 36,-8 36,-8 36.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-8.5 36.250773714657)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1269 <http://www.w3.org/ns/prov#wasAttributedTo> <http://gis.ices.dk/>.
+<http://marineregions.org/mrgid/40008?t=1638010315> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1269.
+<http://marineregions.org/mrgid/36329> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "ICES Statistical Rectangles"@en.
+<http://gis.ices.dk/> <http://www.w3.org/2000/01/rdf-schema#label> "International Council for the Exploration of the Sea (ICES)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/40008?t=1638010315>.
+<http://marineregions.org/mrgid/4874?t=1638010319> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Promontory>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/4874/geometries?source=110&attributeValue=937>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>, <http://marineregions.org/mrgid/5688>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/4874>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:51:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Estremadura Spur"@en, "Promontório da Estremadura"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:9032552>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 38.96132659; Long: -10.33870227; minLat: 38.5; minLong: -11.16666667; maxLat: 39.41666667; maxLong: -9.5"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-13. Proposer: Jean-René Vanney, University of Paris IV, France. Year of proposal: 1999."@en, "GEBCO: discoverer and year of discovery: History: Named from the adjacent Portuguese Province of Estremadura."@en, "Additional information: Shown as Estremadura Spur in the ACUF Gazetteer."@en, "Coordinates in ACUF: Latitude: 38.5; Longitude: -11.166667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Estremadura Promontory"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-9.5 39.416667,-11.166667 39.416667,-11.166667 38.5,-9.5 38.5,-9.5 39.416667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-10.33870227 38.96132659)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/5688> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Portuguese Exclusive Economic Zone"@en.
+_:n3-1270 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "9032552".
+<urn:acuf:ufi:9032552> <https://schema.org/identifier> _:n3-1270;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D9032552>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/4874?t=1638010319>.
+<http://marineregions.org/mrgid/27278?t=1638010481> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Natura2000SiteOfCommunityImportanceSCIEUHabitatsDirective>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/27278/geometries?source=90&attributeValue=ES7020042>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>, <http://marineregions.org/mrgid/8364>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/27278>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:54:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://natura2000.eea.europa.eu/natura2000/SDF.aspx?site=ES7020042>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Charco de Cieno"@es;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-17.347465 28.098003)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.eea.europa.eu/data-and-maps/data/natura-2>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/8364> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Spanish Exclusive Economic Zone (Canary Islands)"@en.
+<http://www.eea.europa.eu/data-and-maps/data/natura-2> <http://www.w3.org/2000/01/rdf-schema#label> "Natura 2000 Sites, European Environment Agency (EEA) (Updates 2011)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/27278?t=1638010481>.
+<http://marineregions.org/mrgid/30437?t=1638010504> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContouriteDepositionalSystem>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/30437/geometries?source=94&attributeValue=30437>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/30236>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/17440>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30437>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:55:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinate information: Coordinates redefined in 2014. \nThese coordinates represent the centroid and the bounding box of the polygon from the shapefile."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Madeira CDS"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-15.869697 33.1226568,-17.827768 33.1226568,-17.827768 31.6722342,-15.869697 31.6722342,-15.869697 33.1226568)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-16.961719675652 32.256827612806)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1362 <http://www.w3.org/2000/01/rdf-schema#label> "Hernández-Molina, F., et al. (2011). Along-slope oceanographic processes and sedimentary products around the Iberian margin. Geo-Marine Letters: 1-27.".
+_:n3-1361 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-1362.
+<http://marineregions.org/mrgid/30437?t=1638010504> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1361.
+<http://marineregions.org/mrgid/30236> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mediterranean Outflow Water"@en.
+<http://marineregions.org/mrgid/17440> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#GeneralSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Central Atlantic Ocean"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30437?t=1638010504>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/7/6-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/7/6-0.ttl>.

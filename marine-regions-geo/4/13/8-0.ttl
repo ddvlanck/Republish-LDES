@@ -151,3 +151,370 @@ _:n3-2705 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47494?t=1638014286>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/13/8-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/13/8-0.ttl>.
+<http://marineregions.org/mrgid/5806?t=1638007587> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/5806/geometries?source=111&attributeValue=2222>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4331>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/5806>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:06:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Northern Banda Basin"@en, "Northwest Banda Basin"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154705>;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: -3.5; Longitude: 124.5"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Banda Basin"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(125 -3.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4331> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#GeneralSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South China and Eastern Archipelagic Seas"@en.
+_:n3-162 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154705".
+<urn:acuf:ufi:-154705> <https://schema.org/identifier> _:n3-162;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154705>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5806?t=1638007587>.
+<http://marineregions.org/mrgid/4353?t=1638008235> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/25689>, <http://marineregions.org/mrgid/34707>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/4353/geometries?source=25&attributeValue=48e>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4331>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/24136>, <http://marineregions.org/mrgid/25689>;
+    <http://marineregions.org/ns/ontology#partlyContains> <http://marineregions.org/mrgid/33662>, <http://marineregions.org/mrgid/33674>, <http://marineregions.org/mrgid/33676>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/4353>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:17:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Halmahera Sea"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(130.93169725859 2.48701016485,127.54915278581 2.48701016485,127.54915278581 -1.68096824379,130.93169725859 -1.68096824379,130.93169725859 2.48701016485)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(128.98856643083 0.03285997319)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-444 <http://www.w3.org/2000/01/rdf-schema#label> "(1953). Limits of oceans and seas. 3rd edition. IHO Special Publication, 23. International Hydrographic Organization (IHO): Monaco. 38 pp.".
+_:n3-443 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-444.
+<http://marineregions.org/mrgid/4353?t=1638008235> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-443.
+<http://marineregions.org/mrgid/25689> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indonesian part of the Halmahera Sea"@en.
+<http://marineregions.org/mrgid/34707> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Reef>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Aurora Reef"@en.
+<http://marineregions.org/mrgid/4331> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#GeneralSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South China and Eastern Archipelagic Seas"@en.
+<http://marineregions.org/mrgid/24136> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Halmahera Sea"@en.
+<http://marineregions.org/mrgid/33662> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#LowerBathyalProvinces>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "West Pacific Lower Bathyal Province"@en.
+<http://marineregions.org/mrgid/33674> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#AbyssalProvinces>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Central Pacific Abyssal Province"@en.
+<http://marineregions.org/mrgid/33676> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#AbyssalProvinces>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "West Pacific Basins Abyssal Province"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/4353?t=1638008235>.
+<http://marineregions.org/mrgid/49463?t=1638008455> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContiguousZone>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/49463/geometries?source=180&attributeValue=49463>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/21791>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/49463>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:20:55Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=21791&zone=eez_24nm>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Oecussi Ambeno 24 NM"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(124.49722 -8.81367,124.08021 -8.81367,124.08021 -9.07544,124.49722 -9.07544,124.49722 -8.81367)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(124.27471 -8.93425)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/21791> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Oecussi Ambeno Exclusive Economic Zone"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Contiguous Zones (24NM), version 3. Available online at http://www.marineregions.org/. https://doi.org/10.14284/384".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/49463?t=1638008455>.
+<http://marineregions.org/mrgid/4349?t=1638009924> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/22517>, <http://marineregions.org/mrgid/22635>, <http://marineregions.org/mrgid/22648>, <http://marineregions.org/mrgid/22662>, <http://marineregions.org/mrgid/25691>, <http://marineregions.org/mrgid/25692>, <http://marineregions.org/mrgid/32546>, <http://marineregions.org/mrgid/34165>, <http://marineregions.org/mrgid/34263>, <http://marineregions.org/mrgid/34410>, <http://marineregions.org/mrgid/34503>, <http://marineregions.org/mrgid/34666>, <http://marineregions.org/mrgid/35887>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/4349/geometries?source=25&attributeValue=48g>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4331>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/22021>, <http://marineregions.org/mrgid/24133>;
+    <http://marineregions.org/ns/ontology#partlyContains> <http://marineregions.org/mrgid/33634>, <http://marineregions.org/mrgid/33661>, <http://marineregions.org/mrgid/33662>, <http://marineregions.org/mrgid/33676>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/4349>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:45:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Banda Sea"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(133.15140479912 -0.83590805521,120.46672639518 -0.83590805521,120.46672639518 -8.86454367625,133.15140479912 -8.86454367625,133.15140479912 -0.83590805521)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(126.41786957078 -5.46594964819)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1108 <http://www.w3.org/2000/01/rdf-schema#label> "(1953). Limits of oceans and seas. 3rd edition. IHO Special Publication, 23. International Hydrographic Organization (IHO): Monaco. 38 pp.".
+_:n3-1107 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-1108.
+<http://marineregions.org/mrgid/4349?t=1638009924> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1107.
+<http://marineregions.org/mrgid/22517> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pulau Hoga"@in.
+<http://marineregions.org/mrgid/22635> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ambon Bay"@en.
+<http://marineregions.org/mrgid/22648> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Archipelago>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Banda Islands"@en.
+<http://marineregions.org/mrgid/22662> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Saparua Bay"@en.
+<http://marineregions.org/mrgid/25691> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indonesian part of the Banda Sea"@en.
+<http://marineregions.org/mrgid/25692> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "East Timorian part of the Banda Sea"@en.
+<http://marineregions.org/mrgid/32546> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Trench>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Banda Trench"@en.
+<http://marineregions.org/mrgid/34165> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Wetar Basin"@en.
+<http://marineregions.org/mrgid/34263> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ambelau Basin"@en.
+<http://marineregions.org/mrgid/34410> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Trough>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Salajar Trough"@en.
+<http://marineregions.org/mrgid/34503> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Manipa Basin"@en.
+<http://marineregions.org/mrgid/34666> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Butung Basin"@en.
+<http://marineregions.org/mrgid/35887> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ridge>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Damar Ridge"@en.
+<http://marineregions.org/mrgid/4331> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#GeneralSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South China and Eastern Archipelagic Seas"@en.
+<http://marineregions.org/mrgid/22021> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Banda Sea"@en.
+<http://marineregions.org/mrgid/24133> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Banda Sea"@en.
+<http://marineregions.org/mrgid/33634> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Timor Island"@en.
+<http://marineregions.org/mrgid/33661> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#LowerBathyalProvinces>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Lower Bathyal Province"@en.
+<http://marineregions.org/mrgid/33662> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#LowerBathyalProvinces>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "West Pacific Lower Bathyal Province"@en.
+<http://marineregions.org/mrgid/33676> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#AbyssalProvinces>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "West Pacific Basins Abyssal Province"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/4349?t=1638009924>.
+<http://marineregions.org/mrgid/25690?t=1638010244> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/25690/geometries?source=80&attributeValue=25690>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4351>, <http://marineregions.org/mrgid/8492>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/4351>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/25690>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:50:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indonesian part of the Ceram Sea"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(133.958309 -1.173474,125.912852 -1.173474,125.912852 -5.293336,133.958309 -5.293336,133.958309 -1.173474)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(130.25345 -2.76723)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://doi.org/10.14284/402>.
+<http://marineregions.org/mrgid/4351> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ceram Sea"@en.
+<http://marineregions.org/mrgid/8492> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indonesian Exclusive Economic Zone"@en.
+<https://doi.org/10.14284/402> <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2020). Intersect of IHO Sea Areas and Exclusive Economic Zones (version 4)   ".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25690?t=1638010244>.
+<http://marineregions.org/mrgid/25708?t=1638003735> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/25708/geometries?source=80&attributeValue=25708>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4343>, <http://marineregions.org/mrgid/21791>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/21791>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/25708>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T09:02:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Oecussi Ambeno part of the Savu Sea"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(124.506074 -8.818636,123.929084 -8.818636,123.929084 -9.334825,124.506074 -9.334825,124.506074 -8.818636)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(124.231928 -9.056089)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://doi.org/10.14284/402>.
+<http://marineregions.org/mrgid/4343> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Savu Sea"@en.
+<http://marineregions.org/mrgid/21791> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Oecussi Ambeno Exclusive Economic Zone"@en.
+<https://doi.org/10.14284/402> <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2020). Intersect of IHO Sea Areas and Exclusive Economic Zones (version 4)   ".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25708?t=1638003735>.
+<http://marineregions.org/mrgid/2127?t=1638004243> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/8492>, <http://marineregions.org/mrgid/8899>, <http://marineregions.org/mrgid/8942>, <http://marineregions.org/mrgid/9029>, <http://marineregions.org/mrgid/14850>, <http://marineregions.org/mrgid/15176>, <http://marineregions.org/mrgid/15186>, <http://marineregions.org/mrgid/15198>, <http://marineregions.org/mrgid/15205>, <http://marineregions.org/mrgid/15305>, <http://marineregions.org/mrgid/17399>, <http://marineregions.org/mrgid/17507>, <http://marineregions.org/mrgid/17572>, <http://marineregions.org/mrgid/17653>, <http://marineregions.org/mrgid/17680>, <http://marineregions.org/mrgid/17847>, <http://marineregions.org/mrgid/17884>, <http://marineregions.org/mrgid/18761>, <http://marineregions.org/mrgid/18766>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/2127/geometries?source=252&attributeValue=Indonesia>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1921>;
+    <http://marineregions.org/ns/ontology#partlyContains> <http://marineregions.org/mrgid/9037>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/2127>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T09:10:43Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indonesia"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(141.007 5.913473,95.21095 5.913473,95.21095 -10.92966,141.007 -10.92966,141.007 5.913473)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(118.109 -2.508091)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/hydra/core#next> <http://marineregions.org/mrgid/2127?page=2&t=1638004243>.
+_:n3-1694 <http://www.w3.org/2000/01/rdf-schema#label> "(2001). The Times comprehensive atlas of the world. 10th ed. Times Books: London. ISBN 0-7230-0792-6. 67, 220, 124 plates pp.".
+_:n3-1693 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-1694.
+<http://marineregions.org/mrgid/2127?t=1638004243> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1693.
+<http://marineregions.org/mrgid/8492> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indonesian Exclusive Economic Zone"@en.
+<http://marineregions.org/mrgid/8899> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bali"@en.
+<http://marineregions.org/mrgid/8942> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sulawesi"@en.
+<http://marineregions.org/mrgid/9029> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Irian Jaya"@en.
+<http://marineregions.org/mrgid/14850> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ambon"@en.
+<http://marineregions.org/mrgid/15176> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Korea Island"@en.
+<http://marineregions.org/mrgid/15186> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Archipelago>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lesser Sunda Islands"@en.
+<http://marineregions.org/mrgid/15198> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Archipelago>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Malay Archipelago"@en.
+<http://marineregions.org/mrgid/15205> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Archipelago>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Molucas"@en.
+<http://marineregions.org/mrgid/15305> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sumatra"@en.
+<http://marineregions.org/mrgid/17399> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Borneo"@en.
+<http://marineregions.org/mrgid/17507> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Archipelago>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "East India Isles"@en.
+<http://marineregions.org/mrgid/17572> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#GeneralRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Irian Jaya"@en.
+<http://marineregions.org/mrgid/17653> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Java"@en.
+<http://marineregions.org/mrgid/17680> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Teluk Kuandang"@en.
+<http://marineregions.org/mrgid/17847> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Strait>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sapeh Strait"@en.
+<http://marineregions.org/mrgid/17884> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#InhabitedPlace>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tasman Sar"@en.
+<http://marineregions.org/mrgid/18761> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Stream>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Muara Angke"@en.
+<http://marineregions.org/mrgid/18766> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#InhabitedPlace>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Surodadi"@en.
+<http://marineregions.org/mrgid/1921> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Continent>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Asia"@en.
+<http://marineregions.org/mrgid/9037> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "New Guinea"@en.
+<http://marineregions.org/mrgid/2127> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/18784>, <http://marineregions.org/mrgid/18786>, <http://marineregions.org/mrgid/18787>, <http://marineregions.org/mrgid/21076>, <http://marineregions.org/mrgid/21632>, <http://marineregions.org/mrgid/22154>, <http://marineregions.org/mrgid/22190>, <http://marineregions.org/mrgid/22194>, <http://marineregions.org/mrgid/22295>, <http://marineregions.org/mrgid/22517>, <http://marineregions.org/mrgid/22636>, <http://marineregions.org/mrgid/26399>, <http://marineregions.org/mrgid/26403>, <http://marineregions.org/mrgid/26416>, <http://marineregions.org/mrgid/26417>, <http://marineregions.org/mrgid/30217>, <http://marineregions.org/mrgid/32400>, <http://marineregions.org/mrgid/32549>;
+    <http://marineregions.org/ns/ontology#isAdjacentTo> <http://marineregions.org/mrgid/22635>, <http://marineregions.org/mrgid/22662>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indonesia"@en;
+    <http://www.w3.org/ns/hydra/core#next> <http://marineregions.org/mrgid/2127?page=3&t=1638004243>.
+<http://marineregions.org/mrgid/18784> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Moluccas"@en.
+<http://marineregions.org/mrgid/18786> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Rakata"@en.
+<http://marineregions.org/mrgid/18787> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sumbawa island"@en.
+<http://marineregions.org/mrgid/21076> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Archipelago>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Raja Ampat"@in.
+<http://marineregions.org/mrgid/21632> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Jolo Bay"@en.
+<http://marineregions.org/mrgid/22154> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bira"@en.
+<http://marineregions.org/mrgid/22190> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Anchorage>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Saleyer anchorage"@en.
+<http://marineregions.org/mrgid/22194> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Shoal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lumu-Lumu shoal"@en.
+<http://marineregions.org/mrgid/22295> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Billiton"@en.
+<http://marineregions.org/mrgid/22517> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pulau Hoga"@in.
+<http://marineregions.org/mrgid/22636> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Stream>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Binanga Barombong"@en.
+<http://marineregions.org/mrgid/26399> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Riau Islands Province"@en.
+<http://marineregions.org/mrgid/26403> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bangka–Belitung Islands"@en.
+<http://marineregions.org/mrgid/26416> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "West Nusa Tenggara"@en.
+<http://marineregions.org/mrgid/26417> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "East Nusa Tenggara"@en.
+<http://marineregions.org/mrgid/30217> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Flores Island"@en.
+<http://marineregions.org/mrgid/32400> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pulau Binonko"@en.
+<http://marineregions.org/mrgid/32549> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Strait>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Selat Solor"@in.
+<http://marineregions.org/mrgid/22635> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ambon Bay"@en.
+<http://marineregions.org/mrgid/22662> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Saparua Bay"@en.
+<http://marineregions.org/mrgid/2127> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/32550>, <http://marineregions.org/mrgid/32551>, <http://marineregions.org/mrgid/32824>, <http://marineregions.org/mrgid/32841>, <http://marineregions.org/mrgid/32975>, <http://marineregions.org/mrgid/33867>, <http://marineregions.org/mrgid/33969>, <http://marineregions.org/mrgid/49204>, <http://marineregions.org/mrgid/49619>, <http://marineregions.org/mrgid/50268>;
+    <http://marineregions.org/ns/ontology#partlyContains> <http://marineregions.org/mrgid/49607>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indonesia"@en.
+<http://marineregions.org/mrgid/32550> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pulau sumba"@in.
+<http://marineregions.org/mrgid/32551> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pulau sumba"@in.
+<http://marineregions.org/mrgid/32824> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#InhabitedPlace>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pulau Salawati"@en.
+<http://marineregions.org/mrgid/32841> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Archipelago>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kepulauan Tengah"@in.
+<http://marineregions.org/mrgid/32975> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Archipelago>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kepulauan Bonerate"@in.
+<http://marineregions.org/mrgid/33867> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kaimana Bay"@en.
+<http://marineregions.org/mrgid/33969> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Roti"@en.
+<http://marineregions.org/mrgid/49204> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TerritorialSea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indonesian 12 NM"@en.
+<http://marineregions.org/mrgid/49619> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IslandGroup>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Talaud Islands"@en.
+<http://marineregions.org/mrgid/50268> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Coast>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indonesian Coast"@en.
+<http://marineregions.org/mrgid/49607> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Mount>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gunong Penrissen"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/2127?t=1638004243>.
+<http://marineregions.org/mrgid/6440?t=1638004328> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Reef>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6440/geometries?source=111&attributeValue=622>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6440>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T09:12:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> ": Previous coordinates 2002: minLat: -17.41, minLong: 119.43, maxLat: -17.22, maxLong: 119.27"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Clerke Reef"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(119.333333 -17.166667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6440?t=1638004328>.
+<http://marineregions.org/mrgid/22021?t=1638005029> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/22021/geometries?source=38&attributeValue=22021>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/21728>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/4349>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/22021>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T09:23:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Banda Sea"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(126.37 -4.87343)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2005 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas>.
+<http://marineregions.org/mrgid/22021?t=1638005029> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2005.
+<http://marineregions.org/mrgid/21728> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Western Coral Triangle"@en.
+<http://marineregions.org/mrgid/4349> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Banda Sea"@en.
+<https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas> <http://www.w3.org/2000/01/rdf-schema#label> "Spalding, M. D. Fox, H. E. Allen, G. R. Davidson, N. Ferdana, Z. A. Finlayson, M. Halpern, B. S. Jorge, M. A. Lombana, A. Lourie, S. A., (2007). Marine Ecoregions of the World: A Bioregionalization of Coastal and Shelf Areas. Bioscience 2007, VOL 57; numb 7, pages 573-584. doi: 10.1641/B570707".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/22021?t=1638005029>.
+<http://marineregions.org/mrgid/50397?t=1638005295> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MesopelagicEcoregions>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/50397/geometries?source=215&attributeValue=50397>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/50384>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/50397>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T09:28:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indo-Pacific \"Pocket\" Basins"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(133.692724 13.895752,114.454069 13.895752,114.454069 -8.676733,133.692724 -8.676733,133.692724 13.895752)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(124.513426 0.036282)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2118 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.sciencedirect.com/science/article/pii/S0967063717301437>.
+<http://marineregions.org/mrgid/50397?t=1638005295> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2118.
+<http://marineregions.org/mrgid/50384> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MesopelagicEcoregions>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mesopelagic ecoregions of the world's oceans"@en.
+<https://www.sciencedirect.com/science/article/pii/S0967063717301437> <http://www.w3.org/2000/01/rdf-schema#label> "Sutton et al. (2017). A global biogeographic classification of the mesopelagic zone. Deep-Sea Res., Part 1, Oceanogr. Res. Pap. 126: 85-102".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/50397?t=1638005295>.
+<http://marineregions.org/mrgid/47558?t=1638006955> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/47989>, <http://marineregions.org/mrgid/47990>, <http://marineregions.org/mrgid/47991>, <http://marineregions.org/mrgid/47992>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/47558/geometries?source=51&attributeValue=BOR>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47494>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/47558>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T09:55:55Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:BOR>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Borneo"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(119.2758178714 7.3536100385725,105.6838684083 7.3536100385725,105.6838684083 -4.8319444660642,119.2758178714 -4.8319444660642,119.2758178714 7.3536100385725)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(114.19738387373 0.86640544539411)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47989> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Brunei"@en.
+<http://marineregions.org/mrgid/47990> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kalimantan"@en.
+<http://marineregions.org/mrgid/47991> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sabah"@en.
+<http://marineregions.org/mrgid/47992> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sarawak"@en.
+<http://marineregions.org/mrgid/47494> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Malesia"@en.
+_:n3-2785 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "BOR".
+<urn:tdwg:wgsrpd:BOR> <https://schema.org/identifier> _:n3-2785;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47558?t=1638006955>.
+<http://marineregions.org/mrgid/24129?t=1638007196> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/24129/geometries?source=128&attributeValue=24129>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23623>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/4350>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/24129>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T09:59:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Teluk Bone"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(121.900779724 -2.62112093,120.185531616 -2.62112093,120.185531616 -5.625070095,121.900779724 -5.625070095,121.900779724 -2.62112093)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(120.88085237312 -4.267992409788)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.bodc.ac.uk/resources/vocabularies/seavox/>.
+<http://marineregions.org/mrgid/23623> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South China and Eastern Archipelagic seas"@en.
+<http://marineregions.org/mrgid/4350> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of Boni"@en.
+<https://www.bodc.ac.uk/resources/vocabularies/seavox/> <http://www.w3.org/2000/01/rdf-schema#label> "The SeaVoX Salt and Fresh Water Body Gazetteer".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24129?t=1638007196>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/13/8-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/13/8-0.ttl>.

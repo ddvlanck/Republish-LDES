@@ -37,3 +37,47 @@ _:n3-2400 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7219?t=1638013610>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/10-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/10-0.ttl>.
+<http://marineregions.org/mrgid/7561?t=1638010236> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#FractureZone>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7561/geometries?source=110&attributeValue=1291>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7561>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:50:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "North Branch of Eltanin Fracture Zone"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-153731>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Proposer: Jacqueline Mammerickx, Scripps Institution of Oceanography (SIO), USA. Year of proposal: 1970."@en, "GEBCO: discoverer and year of discovery: History: Named after Bruce Charles Heezen (1924-1977), an American geologist. He worked with oceanographic cartographer Marie Tharp at Columbia University to map the Mid-Atlantic Ridge during the 1950s."@en, "Coordinates in ACUF: Latitude: -53; Longitude: -135"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Heezen Fracture Zone"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-110 -51.416667,-140 -51.416667,-140 -57.75,-110 -57.75,-110 -51.416667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-125.10244 -54.969451)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+_:n3-1231 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153731".
+<urn:acuf:ufi:-153731> <https://schema.org/identifier> _:n3-1231;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153731>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7561?t=1638010236>.
+<http://marineregions.org/mrgid/7563?t=1638006558> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#FractureZone>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7563/geometries?source=105&attributeValue=890>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7563>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T09:49:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Eltanin Fracture Zone"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-153289>;
+    <http://www.w3.org/2004/02/skos/core#note> ": Coordinates updates <br>\r\n2002: 50S-58S / 146W-110W)\r\nNew coordinates calculated from feature\r\n"@en, "Additional information: Shown as Eltanin Fracture Zone in the ACUF Gazetteer. Coordinates updated at SCUFN-25 (2012)."@en, "Coordinates in ACUF: Latitude: -54; Longitude: -130"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Eltanin Fracture Zone System"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-96.885436 -43.562692,-156.19884 -43.562692,-156.19884 -62.874979,-96.885436 -62.874979,-96.885436 -43.562692)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-127.53537 -54.137999)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+_:n3-2608 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153289".
+<urn:acuf:ufi:-153289> <https://schema.org/identifier> _:n3-2608;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153289>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7563?t=1638006558>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/10-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/10-0.ttl>.

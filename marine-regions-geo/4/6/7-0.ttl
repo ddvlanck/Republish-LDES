@@ -452,3 +452,100 @@ _:n3-2589 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/4635?t=1638014049>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/7-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/7-0.ttl>.
+<http://marineregions.org/mrgid/5233?t=1638007659> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/5233/geometries?source=111&attributeValue=2611>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/5233>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:07:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 15.841667; Long: -36.11166667"@en;
+    <http://www.w3.org/2004/02/skos/core#note> ": Corrected latitude/longitude (GEBCO October 2002 error: 15°10'30\"N/36°6'42\"W)\r\nUpdated with GEBCO May 2014."@en, "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCGN-8. Proposer: M. R. Reeves, UK. Year of proposal: 1968."@en, "GEBCO: discoverer and year of discovery: Discoverer: British vessel HMS \"Rocket\". Year of discovery: 1962. History: Named from the British vessel HMS \"Rocket\" that discovered this feature in 1962."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Rocket Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-36.111667 15.841667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5233?t=1638007659>.
+<http://marineregions.org/mrgid/48108?t=1638009140> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48108/geometries?source=50&attributeValue=CVI-OO>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47608>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/47608>, <http://marineregions.org/mrgid/2168>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48108>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:32:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:CVI-OO>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cape Verde"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-22.665836334229 17.193054199219,-25.360557556152 17.193054199219,-25.360557556152 14.811109542847,-22.665836334229 14.811109542847,-22.665836334229 17.193054199219)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-24.099243253452 15.985231749421)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47608> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cape Verde"@en.
+<http://marineregions.org/mrgid/2168> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cape Verde"@en.
+_:n3-789 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "CVI-OO".
+<urn:tdwg:wgsrpd:CVI-OO> <https://schema.org/identifier> _:n3-789;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48108?t=1638009140>.
+<http://marineregions.org/mrgid/5228?t=1638009352> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/5228/geometries?source=111&attributeValue=1917>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/5228>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:35:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-14. Proposer: Galina V. Agapova, Geological Institute of the Russian Academy of Sciences (GIN RAS). Year of proposal: 2001."@en, "GEBCO: discoverer and year of discovery: History: Named after the Russian Professor A. N. Mazarovitch (1886-1950), at the Department of Geology, Moscow University. He was the author of many monographs on the continent and ocean geology. He supported the idea of continental drift in the 1930s and"@en, "Additional information: Minimum depth (m): 1307."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mazarovich Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-34.15 7.075)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5228?t=1638009352>.
+<http://marineregions.org/mrgid/49085?t=1638010216> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TerritorialSea>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/49085/geometries?source=179&attributeValue=49085>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8362>, <http://marineregions.org/mrgid/2168>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/49085>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:50:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=8362&zone=eez_12nm>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cape Verdean 12 NM"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-22.44902 17.40794,-25.57403 17.40794,-25.57403 14.60065,-22.44902 14.60065,-22.44902 17.40794)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-24.03527 16.07637)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/8362> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cape Verdean Exclusive Economic Zone"@en.
+<http://marineregions.org/mrgid/2168> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cape Verde"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Territorial Seas (12NM), version 3. Available online at http://www.marineregions.org/. https://doi.org/10.14284/387".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/49085?t=1638010216>.
+<http://marineregions.org/mrgid/33584?t=1638010219> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/33584/geometries?source=111&attributeValue=6113>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/33584>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:50:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-25. Proposer: Directorate of Hydrography and Navigation (DHN), Brazil. Year of proposal: 2012."@en, "GEBCO: discoverer and year of discovery: History: Named after Alexandre Tagore Medeiros de Albuquerque, born in Rio de Janeiro, Brazil (1940-2012). He graduated in Marine Science in 1964 at the Brazilian Naval School and, from 1975, he worked on technical activities at the Brazilian Hydrographic"@en, "Additional information: Conical shape. Minimum depth (m): 2251. Maximum depth (m): 4200. Total relief (m): 1949. Dimension: 37 km x 29 km."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tagore Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-40.8053 1.3342)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/33584?t=1638010219>.
+<http://marineregions.org/mrgid/7874?t=1638004340> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#FractureZone>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7874/geometries?source=110&attributeValue=2993>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>, <http://marineregions.org/mrgid/8464>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7874>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T09:12:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 4.29367 ; Long: -31.16402 ; minLat: 4 ; minLong: -39.33333 ; maxLat: 4.5 ; maxLong: -23  (update 2020-04-22)"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCGN-8. Proposer: Galina V. Agapova, Geological Institute of the Russian Academy of Sciences (GIN RAS). Year of proposal: 1989."@en, "GEBCO: discoverer and year of discovery: Discoverer: Russian research vessel \"Akademik Nikolay Strakhov\". Year of discovery: 1988. History: Named after the Russian academician Nicolai M. Strakhov (1907-1978), lithologist, founder of the Russian school of marine sedimentology. Named also from res"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Strakhov Fracture Zone"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-22.77347 4.66495,-40.80616 4.66495,-40.80616 3.83537,-22.77347 3.83537,-22.77347 4.66495)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-31.82039 4.12578)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/8464> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Brazilian Exclusive Economic Zone"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7874?t=1638004340>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/7-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/7-0.ttl>.

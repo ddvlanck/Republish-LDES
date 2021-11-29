@@ -42,3 +42,71 @@ _:n3-2409 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/33648?t=1638013625>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/10-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/10-0.ttl>.
+<http://marineregions.org/mrgid/6533?t=1638008405> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6533/geometries?source=111&attributeValue=2441>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6533>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:20:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:9009013>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -51.25; Long: 71.83333333"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-13. Proposer: J. J. Doyle, Australian Hydrographic Service (AHS). Year of proposal: 1997."@en, "GEBCO: discoverer and year of discovery: History: Named from the species \"Pike glassfish\", which commonly are found on this bank."@en, "Additional information: Submarine bank on the Kerguelen Plateau about 113 M north-west from Heard Island, Australia."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pike Bank"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(71.833333 -51.25)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+_:n3-498 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "9009013".
+<urn:acuf:ufi:9009013> <https://schema.org/identifier> _:n3-498;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D9009013>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6533?t=1638008405>.
+<http://marineregions.org/mrgid/9033?t=1638009312> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/22081>, <http://marineregions.org/mrgid/22082>, <http://marineregions.org/mrgid/22083>, <http://marineregions.org/mrgid/22084>, <http://marineregions.org/mrgid/22085>, <http://marineregions.org/mrgid/22086>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/9033/geometries?source=19&attributeValue=130416653>;
+    <http://marineregions.org/ns/ontology#isAdjacentTo> <http://marineregions.org/mrgid/8630>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/9033>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:35:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Golfe du Morbihan"@fr;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Morbihan Bay"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(70.0666 -49.3833)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-833 <http://www.w3.org/2000/01/rdf-schema#label> "(2001). The Times comprehensive atlas of the world. 10th ed. Times Books: London. ISBN 0-7230-0792-6. 67, 220, 124 plates pp.".
+_:n3-832 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-833.
+<http://marineregions.org/mrgid/9033?t=1638009312> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-832.
+<http://marineregions.org/mrgid/22081> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Île de Groix"@fr.
+<http://marineregions.org/mrgid/22082> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Belle-Île"@fr.
+<http://marineregions.org/mrgid/22083> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Île d’Houat"@fr.
+<http://marineregions.org/mrgid/22084> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Hoëdic"@fr.
+<http://marineregions.org/mrgid/22085> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Île d’Arz"@fr.
+<http://marineregions.org/mrgid/22086> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Île aux Moines"@fr.
+<http://marineregions.org/mrgid/8630> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Archipelago>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kerguélen"@en.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/9033?t=1638009312>.
+<http://marineregions.org/mrgid/7270?t=1638010229> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Spur>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7270/geometries?source=110&attributeValue=1086>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>, <http://marineregions.org/mrgid/8387>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7270>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:50:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-11. Proposer: Roland Schlich, Ecole et Observatoire de Physique du Globe (EOPG), France. Year of proposal: 1993."@en, "GEBCO: discoverer and year of discovery: History: Named from French supply vessel \"Gallieni\", workhorse TAAF re-supply oceanographic research vessel that made several cruises to island bases, Indian Ocean, 1956-1972. It made extensive collections of bathymetric and magnetic data."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gallieni Spur"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(77 -46.75,72.5 -46.75,72.5 -48,77 -48,77 -46.75)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(74.825043551522 -47.479521242446)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/8387> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kerguelen Exclusive Economic Zone"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7270?t=1638010229>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/10-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/10-0.ttl>.

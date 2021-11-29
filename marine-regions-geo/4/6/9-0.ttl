@@ -74,3 +74,61 @@ _:n3-744 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6736?t=1638012623>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/9-0.ttl>.
+<http://marineregions.org/mrgid/5810?t=1638009845> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/5810/geometries?source=111&attributeValue=89>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4261>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/5810>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:44:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152290>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -26.16666667; Long: -35.05"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Proposer: Eric S. W. Simpson and E. Forder, University of Cape Town (UCT), South Africa. Year of proposal: 1967."@en, "Coordinates in ACUF: Latitude: 26.166667; Longitude: -35.05"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Almirante Leite Bank"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-35.05 -26.166667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4261> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mozambique Channel"@en.
+_:n3-1077 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152290".
+<urn:acuf:ufi:-152290> <https://schema.org/identifier> _:n3-1077;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152290>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5810?t=1638009845>.
+<http://marineregions.org/mrgid/23643?t=1638010776> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Level2>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/24034>, <http://marineregions.org/mrgid/24038>, <http://marineregions.org/mrgid/24039>, <http://marineregions.org/mrgid/24160>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/23643/geometries?source=125&attributeValue=23643>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23632>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/23643>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:59:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southwest Atlantic Ocean (20W)"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-20 0,-69.5857162 0,-69.5857162 -60,-20 -60,-20 0)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-38.32883 -36.095517)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.bodc.ac.uk/resources/vocabularies/seavox/>.
+<http://marineregions.org/mrgid/24034> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Scotia Sea"@en.
+<http://marineregions.org/mrgid/24038> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Rio De La Plata"@en.
+<http://marineregions.org/mrgid/24039> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southwest Atlantic Ocean (20W)"@en.
+<http://marineregions.org/mrgid/24160> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Drake Passage"@en.
+<http://marineregions.org/mrgid/23632> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Level1>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<https://www.bodc.ac.uk/resources/vocabularies/seavox/> <http://www.w3.org/2000/01/rdf-schema#label> "The SeaVoX Salt and Fresh Water Body Gazetteer".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/23643?t=1638010776>.
+<http://marineregions.org/mrgid/63428?t=1638006244> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/63428/geometries?source=110&attributeValue=889376>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/63428>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T09:44:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: This feature has a sinuous shape. It has been mentioned in many scientific papers, publications and studies on the Brazilian continental margin, such as Viana et al (2002), Schereiner et al (2008), and Almeida & Kowsmann (2014). Minimum depth (m): 213. Maximum depth (m): 1773. Total relief (m): 1560. Dimension/size: 24 km long and 1 to 2.5 km wide."@en, "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-34. Proposer: Directorate of Hydrography and Navigation (DHN), Brazil. History: 2020."@en, "GEBCO: discoverer and year of discovery: Discoverer: British vessel HMS \"Endurance\". Year of discovery: 1985. History: Named from its geographic location, on the shelf break in front of São Tomé Cape, a peninsula in the north of Rio de Janeiro State, Brazil. This feature was formed by accumulation of sediments from the Paraíba do Sul River."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "São Tomé Canyons"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-39.79692 -22.21415,-40.01922 -22.21415,-40.01922 -22.31,-39.79692 -22.31,-39.79692 -22.21415)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-39.92646 -22.27507)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/63428?t=1638006244>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/9-0.ttl>.

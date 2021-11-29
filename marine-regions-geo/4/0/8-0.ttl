@@ -169,3 +169,120 @@ _:n3-2699 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7106?t=1638014273>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/8-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/8-0.ttl>.
+<http://marineregions.org/mrgid/6887?t=1638007481> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Reef>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6887/geometries?source=111&attributeValue=332>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6887>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:04:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Beveridje Riff"@en, "Rif Beveridzh"@en, "Риф Беверидж"@ru;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152608>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -20; Long: 167.8333333"@en, "Previous coordinates: Lat: -20 ; Long: -167.86667 (update 2020-04-22)"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-11."@en, "Additional information: Taken from NZOI Bathymetric map \"Tonga\"."@en, "Coordinates in ACUF: Latitude: -20.033333; Longitude: -167.866667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Beveridge Reef"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-167.86667 -20.03333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+_:n3-111 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152608".
+<urn:acuf:ufi:-152608> <https://schema.org/identifier> _:n3-111;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152608>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6887?t=1638007481>.
+<http://marineregions.org/mrgid/48419?t=1638007874> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48419/geometries?source=50&attributeValue=SAM-AS>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47801>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/8670>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48419>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:11:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:SAM-AS>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "American Samoa"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-169.43832397461 -14.166389465332,-170.82611083984 -14.166389465332,-170.82611083984 -14.375555038452,-169.43832397461 -14.375555038452,-169.43832397461 -14.166389465332)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-170.40170535028 -14.286487470881)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47801> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Samoa"@en.
+<http://marineregions.org/mrgid/8670> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#DependentState>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "American Samoa"@en.
+_:n3-291 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "SAM-AS".
+<urn:tdwg:wgsrpd:SAM-AS> <https://schema.org/identifier> _:n3-291;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48419?t=1638007874>.
+<http://marineregions.org/mrgid/33764?t=1638004504> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/33764/geometries?source=95&attributeValue=33764>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/30246>;
+    <http://marineregions.org/ns/ontology#isPartlyPartOf> <http://marineregions.org/mrgid/25653>, <http://marineregions.org/mrgid/25652>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/33764>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T09:15:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Maximum age: Late-Palaeocene"@en, "Prevailing contourite type: Silty-muddy"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NW Drift"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-168.6 -6.79625,-169.262 -6.79625,-169.262 -7.28048,-168.6 -7.28048,-168.6 -6.79625)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-169.00437019819 -6.9966291625451)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1800 <http://www.w3.org/2000/01/rdf-schema#label> "P. Lonsdale,1981,Drifts and ponds of reworked pelagic sediment in part of the Southwest Pacific,Marine Geology, 43 (1981), pp. 153–193".
+_:n3-1799 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-1800.
+<http://marineregions.org/mrgid/33764?t=1638004504> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1799.
+<http://marineregions.org/mrgid/30246> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pacific Deep Water"@en.
+<http://marineregions.org/mrgid/25653> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kiribati (Phoenix Islands) part of the South Pacific Ocean"@en.
+<http://marineregions.org/mrgid/25652> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tokelau part of the South Pacific Ocean"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/33764?t=1638004504>.
+<http://marineregions.org/mrgid/7065?t=1638006273> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Plateau>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7065/geometries?source=111&attributeValue=1854>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7065>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T09:44:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Massif Sous-marin de Manihiki"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154315>;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: -11; Longitude: -164"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Manihiki Plateau"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-162.5 -11)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+_:n3-2492 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154315".
+<urn:acuf:ufi:-154315> <https://schema.org/identifier> _:n3-2492;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154315>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7065?t=1638006273>.
+<http://marineregions.org/mrgid/8451?t=1638006446> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/25576>, <http://marineregions.org/mrgid/25654>, <http://marineregions.org/mrgid/49166>, <http://marineregions.org/mrgid/49399>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8451/geometries?source=79&attributeValue=8451>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/48684>;
+    <http://marineregions.org/ns/ontology#isPartlyPartOf> <http://marineregions.org/mrgid/1908>, <http://marineregions.org/mrgid/1910>;
+    <http://marineregions.org/ns/ontology#partlyContains> <http://marineregions.org/mrgid/7089>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8451>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T09:47:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=8451>;
+    <http://www.w3.org/2004/02/skos/core#note> "Centroid calculation method: Centroid"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Howland and Baker Islands Exclusive Economic Zone"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-173.14298 4.17013,-179.95195 4.17013,-179.95195 -3.01483,-173.14298 -3.01483,-173.14298 4.17013)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-176.72727 0.7913)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/25576> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Howland and Baker Islands part of the North Pacific Ocean"@en.
+<http://marineregions.org/mrgid/25654> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Howland and Baker Islands part of the South Pacific Ocean"@en.
+<http://marineregions.org/mrgid/49166> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TerritorialSea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Howland and Baker Islands 12 NM"@en.
+<http://marineregions.org/mrgid/49399> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContiguousZone>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Howland and Baker Islands 24 NM"@en.
+<http://marineregions.org/mrgid/48684> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Atoll>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Howland and Baker islands"@en.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+<http://marineregions.org/mrgid/7089> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Penguin Bank"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Maritime Boundaries and Exclusive Economic Zones (200NM), version 11. Available online at http://www.marineregions.org/. https://doi.org/10.14284/386".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8451?t=1638006446>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/8-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/8-0.ttl>.

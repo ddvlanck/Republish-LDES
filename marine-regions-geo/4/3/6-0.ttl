@@ -213,3 +213,285 @@ _:n3-2627 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47509?t=1638014132>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/3/6-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/3/6-0.ttl>.
+<http://marineregions.org/mrgid/5912?t=1638008088> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#FractureZone>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/5912/geometries?source=111&attributeValue=3061>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1908>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/5912>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:14:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155721>;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: 23; Longitude: -108.333333"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tamayo Fracture Zone"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-108 23)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+_:n3-373 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155721".
+<urn:acuf:ufi:-155721> <https://schema.org/identifier> _:n3-373;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155721>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5912?t=1638008088>.
+<http://marineregions.org/mrgid/7467?t=1638009300> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7467/geometries?source=110&attributeValue=1987>;
+    <http://marineregions.org/ns/ontology#isAdjacentTo> <http://marineregions.org/mrgid/4604>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4288>, <http://marineregions.org/mrgid/8429>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7467>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:35:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Meksikanskaya Kotlovina"@ru, "Mexican Basin"@en, "Mexicanisches Becken"@de, "Sigsbee Deep"@en, "Мексиканская Котловина"@ru;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154445>;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: Formerly, Sigsbee Deep."@en, "Coordinates in ACUF: Latitude: 25; Longitude: -92"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mexico Basin"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-90 25,-95 25,-95 22.5,-90 22.5,-90 25)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-92.523883220559 23.770331863222)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4604> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deep>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sigsbee Deep"@en.
+<http://marineregions.org/mrgid/4288> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of Mexico"@en.
+<http://marineregions.org/mrgid/8429> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mexican Exclusive Economic Zone"@en.
+_:n3-826 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154445".
+<urn:acuf:ufi:-154445> <https://schema.org/identifier> _:n3-826;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154445>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7467?t=1638009300>.
+<http://marineregions.org/mrgid/21999?t=1638009839> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21999/geometries?source=38&attributeValue=21999>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/21754>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21999>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:43:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cortezian"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-109.353 27.5021)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1073 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas>.
+<http://marineregions.org/mrgid/21999?t=1638009839> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1073.
+<http://marineregions.org/mrgid/21754> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Warm Temperate Northeast Pacific"@en.
+<https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas> <http://www.w3.org/2000/01/rdf-schema#label> "Spalding, M. D. Fox, H. E. Allen, G. R. Davidson, N. Ferdana, Z. A. Finlayson, M. Halpern, B. S. Jorge, M. A. Lombana, A. Lourie, S. A., (2007). Marine Ecoregions of the World: A Bioregionalization of Coastal and Shelf Areas. Bioscience 2007, VOL 57; numb 7, pages 573-584. doi: 10.1641/B570707".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21999?t=1638009839>.
+<http://marineregions.org/mrgid/19633?t=1638010372> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/48537>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/19633/geometries?source=169&attributeValue=19633>;
+    <http://marineregions.org/ns/ontology#isAdjacentTo> <http://marineregions.org/mrgid/4288>, <http://marineregions.org/mrgid/19248>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/19234>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/19633>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:52:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Aransas Bay"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-96.9833 28.05)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1297 <http://www.w3.org/2000/01/rdf-schema#label> "IMIS".
+<http://marineregions.org/mrgid/19633?t=1638010372> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1297.
+<http://marineregions.org/mrgid/48537> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Copano Bay"@en.
+<http://marineregions.org/mrgid/4288> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of Mexico"@en.
+<http://marineregions.org/mrgid/19248> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Redfish Bay"@en.
+<http://marineregions.org/mrgid/19234> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#County>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nueces"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/19633?t=1638010372>.
+<http://marineregions.org/mrgid/47727?t=1638010510> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/48307>, <http://marineregions.org/mrgid/48308>, <http://marineregions.org/mrgid/48309>, <http://marineregions.org/mrgid/48310>, <http://marineregions.org/mrgid/48311>, <http://marineregions.org/mrgid/48312>, <http://marineregions.org/mrgid/48313>, <http://marineregions.org/mrgid/48314>, <http://marineregions.org/mrgid/48315>, <http://marineregions.org/mrgid/48316>, <http://marineregions.org/mrgid/48317>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/47727/geometries?source=51&attributeValue=MXE>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47511>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/47727>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:55:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:MXE>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mexico Northeast"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-97.136947631928 31.783885956072,-109.14639282227 31.783885956072,-109.14639282227 19.585403442515,-97.136947631928 19.585403442515,-97.136947631928 31.783885956072)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-102.97604904295 25.815245122188)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/48307> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Aguascalientes"@en.
+<http://marineregions.org/mrgid/48308> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Coahuila"@en.
+<http://marineregions.org/mrgid/48309> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chihuahua"@en.
+<http://marineregions.org/mrgid/48310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Durango"@en.
+<http://marineregions.org/mrgid/48311> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Guanajuato"@en.
+<http://marineregions.org/mrgid/48312> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Hidalgo"@en.
+<http://marineregions.org/mrgid/48313> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nuevo León"@en.
+<http://marineregions.org/mrgid/48314> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Querétaro"@en.
+<http://marineregions.org/mrgid/48315> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "San Luis Potosí"@en.
+<http://marineregions.org/mrgid/48316> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tamaulipas"@en.
+<http://marineregions.org/mrgid/48317> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Zacatecas"@en.
+<http://marineregions.org/mrgid/47511> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mexico"@en.
+_:n3-1365 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "MXE".
+<urn:tdwg:wgsrpd:MXE> <https://schema.org/identifier> _:n3-1365;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47727?t=1638010510>.
+<http://marineregions.org/mrgid/18526?t=1638010675> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/18526/geometries?source=169&attributeValue=18526>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8898>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/18526>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T10:57:55Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Magdalena Bay"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-112 24.5833)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.geonames.org>.
+<http://marineregions.org/mrgid/8898> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Baja California"@es.
+<http://www.geonames.org> <http://www.w3.org/2000/01/rdf-schema#label> "GeoNames".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/18526?t=1638010675>.
+<http://marineregions.org/mrgid/47841?t=1638005051> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/48473>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/47841/geometries?source=51&attributeValue=TEX>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47509>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/15521>, <http://marineregions.org/mrgid/48473>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/47841>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T09:24:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:TEX>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Texas"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-93.535278320238 36.500274658349,-106.66416931156 36.500274658349,-106.66416931156 25.839443207138,-93.535278320238 25.839443207138,-93.535278320238 36.500274658349)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-99.32930405578 31.477589413755)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/48473> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Texas"@en.
+<http://marineregions.org/mrgid/47509> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South-Central U.S.A."@en.
+<http://marineregions.org/mrgid/15521> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Texas"@en.
+_:n3-2015 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "TEX".
+<urn:tdwg:wgsrpd:TEX> <https://schema.org/identifier> _:n3-2015;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47841?t=1638005051>.
+<http://marineregions.org/mrgid/25127?t=1638005596> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/31308>, <http://marineregions.org/mrgid/31931>, <http://marineregions.org/mrgid/31932>, <http://marineregions.org/mrgid/31933>, <http://marineregions.org/mrgid/33110>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/25127/geometries?source=132&attributeValue=Utah>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2204>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/47860>, <http://marineregions.org/mrgid/48484>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/25127>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T09:33:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Map source: Sources: Esri, TomTom, Department of Commerce, Census Bureau, U.S. Department of Agriculture (USDA), National Agricultural Statistics Service (NASS) - (http://www.arcgis.com/home/group.html?owner=esri&title=ESRI%20Data%20%26%20Maps&content=all)"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Utah"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-111.75 39.25)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.geonames.org>.
+<http://marineregions.org/mrgid/31308> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Lake>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lake Bear"@en.
+<http://marineregions.org/mrgid/31931> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bear River"@en.
+<http://marineregions.org/mrgid/31932> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Hayden Fork River"@en.
+<http://marineregions.org/mrgid/31933> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Lake>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Great Salt Lake"@en.
+<http://marineregions.org/mrgid/33110> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#InhabitedPlace>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Castle Dale"@en.
+<http://marineregions.org/mrgid/2204> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "United States"@en.
+<http://marineregions.org/mrgid/47860> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Utah"@en.
+<http://marineregions.org/mrgid/48484> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Utah"@en.
+<http://www.geonames.org> <http://www.w3.org/2000/01/rdf-schema#label> "GeoNames".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25127?t=1638005596>.
+<http://marineregions.org/mrgid/49147?t=1638005723> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TerritorialSea>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/49147/geometries?source=179&attributeValue=49147>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8429>, <http://marineregions.org/mrgid/2224>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/49147>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T09:35:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=8429&zone=eez_12nm>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mexican 12 NM"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-86.49624 32.58966,-118.5976 32.58966,-118.5976 14.37051,-86.49624 14.37051,-86.49624 32.58966)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-103.16748 22.64194)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/8429> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mexican Exclusive Economic Zone"@en.
+<http://marineregions.org/mrgid/2224> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mexico"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Territorial Seas (12NM), version 3. Available online at http://www.marineregions.org/. https://doi.org/10.14284/387".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/49147?t=1638005723>.
+<http://marineregions.org/mrgid/6641?t=1638005756> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6641/geometries?source=111&attributeValue=2900>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4314>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6641>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T09:35:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Trinidad Canyon"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155536>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 23.66666667; Long: -109.5333333"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Soledad Canyon"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-109.533333 23.666667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4314> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of California"@en.
+_:n3-2302 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155536".
+<urn:acuf:ufi:-155536> <https://schema.org/identifier> _:n3-2302;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155536>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6641?t=1638005756>.
+<http://marineregions.org/mrgid/49520?t=1638005924> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#InternalWaters>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/49520/geometries?source=177&attributeValue=49520>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8429>, <http://marineregions.org/mrgid/2224>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/49520>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T09:38:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=8429&zone=eez_internal_waters>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mexican Internal Waters"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-87.853 31.94955,-115.03601 31.94955,-115.03601 18.15826,-87.853 18.15826,-87.853 31.94955)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-112.5382 28.91409)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/8429> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mexican Exclusive Economic Zone"@en.
+<http://marineregions.org/mrgid/2224> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mexico"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Internal Waters, version 3. Available online at http://www.marineregions.org/. https://doi.org/10.14284/385".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/49520?t=1638005924>.
+<http://marineregions.org/mrgid/25050?t=1638006516> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#AbyssalPlain>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/25050/geometries?source=105&attributeValue=2863>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4288>, <http://marineregions.org/mrgid/8429>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/25050>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T09:48:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Sigsbee Basin"@en, "Sigsbee Plain"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155490>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-16. Proposer: José Luis Frias Salazar, National Institute of Statistics and Geography (INEGI), Mexico; and Lisa Taylor, National Geophysical Data Center (NGDC), USA. Year of proposal: 2003."@en, "GEBCO: discoverer and year of discovery: History: Named after Commander Charles D. Sigsbee, U.S. Navy, Captain of U.S. ship \"Blake\" in the 1870s. See \"The History of GEBCO 1903-2003\", pp. 10 and 13."@en, "Additional information: Deepest flat sector of Sigsbee Deep."@en, "Coordinates in ACUF: Latitude: 23.5; Longitude: -93"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sigsbee Abyssal Plain"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-89.6833 25.5167,-94.85 25.5167,-94.85 22.65,-89.6833 22.65,-89.6833 25.5167)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-92.651257222191 24.043085260609)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4288> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of Mexico"@en.
+<http://marineregions.org/mrgid/8429> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mexican Exclusive Economic Zone"@en.
+_:n3-2589 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155490".
+<urn:acuf:ufi:-155490> <https://schema.org/identifier> _:n3-2589;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155490>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25050?t=1638006516>.
+<http://marineregions.org/mrgid/6108?t=1638007019> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6108/geometries?source=111&attributeValue=1919>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1908>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6108>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T09:56:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154378>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 22.75; Long: -108.1666667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mazatlán Basin"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-108.166667 22.75)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+_:n3-2806 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154378".
+<urn:acuf:ufi:-154378> <https://schema.org/identifier> _:n3-2806;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154378>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6108?t=1638007019>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/3/6-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/3/6-0.ttl>.
