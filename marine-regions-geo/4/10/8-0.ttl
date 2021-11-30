@@ -1435,3 +1435,184 @@ _:n3-2095 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8201?t=1637411523>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/10/8-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/10/8-0.ttl>.
+<http://marineregions.org/mrgid/49296?t=1637406220> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContiguousZone>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/49296/geometries?source=180&attributeValue=49296>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8338>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/49296>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T11:03:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=8338&zone=eez_24nm>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Réunion 24 NM"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(56.26563 -20.47017,54.78838 -20.47017,54.78838 -21.79169,56.26563 -21.79169,56.26563 -20.47017)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(55.53506 -21.13374)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/8338> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Réunion Exclusive Economic Zone"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Contiguous Zones (24NM), version 3. Available online at http://www.marineregions.org/. https://doi.org/10.14284/384".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/49296?t=1637406220>.
+<http://marineregions.org/mrgid/8199?t=1637406888> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8199/geometries?source=111&attributeValue=3162>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8199>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T11:14:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:343926>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 0.433333333; Long: 56"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-12. Proposer: Russian Federal Research Institute of Fisheries and Oceanography (VNIRO). Year of proposal: 1997."@en, "GEBCO: discoverer and year of discovery: Discoverer: Russian fisheries research vessel \"Geroevka\". Year of discovery: 1980. History: Named after the Russian marine biologist V. I. Travin (1911-1994)."@en, "Additional information: Minimum depth (m): 187."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Travin Bank"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(56 0.433333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+_:n3-169 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "343926".
+<urn:acuf:ufi:343926> <https://schema.org/identifier> _:n3-169;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D343926>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8199?t=1637406888>.
+<http://marineregions.org/mrgid/50294?t=1637409032> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Coast>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/50294/geometries?source=136&attributeValue=50294>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8614>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/50294>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T11:50:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: Derived from ESRI World Countries 2014"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mauritian Coast"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(63.5031708477 -10.3370236155,56.5857144594 -10.3370236155,56.5857144594 -20.5257196422,63.5031708477 -20.5257196422,63.5031708477 -10.3370236155)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(57.487093640015 -20.144213624547)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-511 <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2015). National coastlines based on ESRI Countries (2014)".
+<http://marineregions.org/mrgid/50294?t=1637409032> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-511.
+<http://marineregions.org/mrgid/8614> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Republic of Mauritius"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/50294?t=1637409032>.
+<http://marineregions.org/mrgid/6775?t=1637405798> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6775/geometries?source=111&attributeValue=84>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6775>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T10:56:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152285>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -17.5; Long: 61.33333333"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Proposer: Robert L. Fisher, Scripps Institution of Oceanography (SIO), USA. Year of proposal: 1970."@en, "GEBCO: discoverer and year of discovery: Discoverer: U.S. research vessel \"Argo\". Year of discovery: 1968. History: Na-ed after Alix de Chazal Baissac, wife/colleague of 40-year Mauritius Fishery Officer-naturalist Jean De Baissac for whom Baissac Bank is named. For 5O years, the pair welcomed a"@en, "Coordinates in ACUF: Latitude: -17.516667; Longitude: 61.366667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alix Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(61.37453206 -17.5117872)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+_:n3-1306 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152285".
+<urn:acuf:ufi:-152285> <https://schema.org/identifier> _:n3-1306;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152285>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6775?t=1637405798>.
+<http://marineregions.org/mrgid/7315?t=1637405891> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ridge>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7315/geometries?source=110&attributeValue=1912>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>, <http://marineregions.org/mrgid/8337>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7315>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T10:58:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Hill Ridge"@en, "M. N. Hill Ridge"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154495>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-13. Proposer: Robert L. Fisher, Scripps Institution of Oceanography (SIO), USA. Year of proposal: 1972."@en, "GEBCO: discoverer and year of discovery: Discoverer: U.S. research vessel \"Argo\". Year of discovery: 1962. History: Named after the British marine geophysicist Maurice N. Hill (1919-1966), at UK's Cambridge University, who planned/led early 1960s cruises in East Africa-Seychelles region."@en, "Additional information: This feature was discovered during the Lusiad Expedition, 1962-1963. Shown as M. N. Hill Ridge in the ACUF Gazetteer."@en, "Coordinates in ACUF: Latitude: -3.5; Longitude: 53.166667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Maurice Hill Ridge"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(53.466667 -1.666667,53.083333 -1.666667,53.083333 -4.333333,53.466667 -4.333333,53.466667 -1.666667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(53.274767762615 -3.000033149244)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/8337> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Seychellois Exclusive Economic Zone"@en.
+_:n3-1330 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154495".
+<urn:acuf:ufi:-154495> <https://schema.org/identifier> _:n3-1330;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154495>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7315?t=1637405891>.
+<http://marineregions.org/mrgid/6509?t=1637400085> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Plain>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6509/geometries?source=111&attributeValue=1899>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6509>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T09:21:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Malagassy Abyssal Plain"@en, "Malagasy Abyssal Plain"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154359>;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: -19; Longitude: 52"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mascarene Plain"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(53 -19)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+_:n3-1616 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154359".
+<urn:acuf:ufi:-154359> <https://schema.org/identifier> _:n3-1616;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154359>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6509?t=1637400085>.
+<http://marineregions.org/mrgid/6523?t=1637400184> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Guyot>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6523/geometries?source=111&attributeValue=2076>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6523>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T09:23:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCGN-8. Proposer: Robert L. Fisher, Scripps Institution of Oceanography (SIO), USA. Year of proposal: 1980."@en, "GEBCO: discoverer and year of discovery: History: Named after Corneille N. Morphey, captain of French frigate \"Le Cerf\", who took possession of the Seychelles in the name of the King of France, on November 1, 1756, and named the Seychelles group."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Morphey Guyot"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(58.5 -4.45)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6523?t=1637400184>.
+<http://marineregions.org/mrgid/7296?t=1637401947> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#FractureZone>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7296/geometries?source=110&attributeValue=1874>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>, <http://marineregions.org/mrgid/8343>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7296>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T09:52:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154340>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -17.5; Long: 66; minLat: -18.75; minLong: 63; maxLat: -15.58333333; maxLong: 68.5"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-13. Proposer: Robert L. Fisher, Scripps Institution of Oceanography (SIO), USA. Year of proposal: 1969."@en, "GEBCO: discoverer and year of discovery: Discoverer: U.S. research vessel \"Argo\". Year of discovery: 1968. History: Named from the American merchant brigantine \"Mary Celeste\", also known as \"mystery ship\". Originally named \"Amazon\" under the British flag. The ship is famous for having been discovered on 5 December 1872 at about 100 nautical miles southwest of São Miguel Island, Azores, unmanned and apparently abandoned, although the weather was fine and her crew were experienced and capable seamen. When found derelict, \"Mary Celeste\" was in seaworthy condition and still under sail, heading toward the Strait of Gibraltar. She had been at sea for a month and had more than six months' worth of food and water on board. Her cargo was virtually untouched and the crew's personal belongings including valuables were still in place. None of those on board were ever seen or heard from again and their disappearance often is cited as the greatest maritime mystery of all time."@en, "Coordinates in ACUF: Latitude: -17.5; Longitude: 66"@en, "Additional information: Name was changed from 'Marie Celeste Fracture Zone' to 'Mary Celeste Fracture Zone' (2021-03-29)"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mary Celeste Fracture Zone"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(68.5 -15.583333,63 -15.583333,63 -18.75,68.5 -18.75,68.5 -15.583333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(65.97657053 -17.51001129)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/8343> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mauritian Exclusive Economic Zone"@en.
+_:n3-1965 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154340".
+<urn:acuf:ufi:-154340> <https://schema.org/identifier> _:n3-1965;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154340>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7296?t=1637401947>.
+<http://marineregions.org/mrgid/21773?t=1637402153> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/22028>, <http://marineregions.org/mrgid/22029>, <http://marineregions.org/mrgid/22030>, <http://marineregions.org/mrgid/22031>, <http://marineregions.org/mrgid/22032>, <http://marineregions.org/mrgid/22033>, <http://marineregions.org/mrgid/22034>, <http://marineregions.org/mrgid/22035>, <http://marineregions.org/mrgid/22036>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21773/geometries?source=56&attributeValue=21773>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/21720>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21773>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T09:55:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Western Indian Ocean"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(47.1681 -14.71)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2011 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas>.
+<http://marineregions.org/mrgid/21773?t=1637402153> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2011.
+<http://marineregions.org/mrgid/22028> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Seychelles"@en.
+<http://marineregions.org/mrgid/22029> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cargados Carajos/Tromelin Island"@en.
+<http://marineregions.org/mrgid/22030> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mascarene Islands"@en.
+<http://marineregions.org/mrgid/22031> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southeast Madagascar"@en.
+<http://marineregions.org/mrgid/22032> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "East African Coral Coast"@en.
+<http://marineregions.org/mrgid/22033> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northern Monsoon Current Coast"@en.
+<http://marineregions.org/mrgid/22034> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bight of Sofala/Swamp Coast"@en.
+<http://marineregions.org/mrgid/22035> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Western and Northern Madagascar"@en.
+<http://marineregions.org/mrgid/22036> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Delagoa"@en.
+<http://marineregions.org/mrgid/21720> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Realm>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Western Indo-Pacific"@en.
+<https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas> <http://www.w3.org/2000/01/rdf-schema#label> "Spalding, M. D. Fox, H. E. Allen, G. R. Davidson, N. Ferdana, Z. A. Finlayson, M. Halpern, B. S. Jorge, M. A. Lombana, A. Lourie, S. A., (2007). Marine Ecoregions of the World: A Bioregionalization of Coastal and Shelf Areas. Bioscience 2007, VOL 57; numb 7, pages 573-584. doi: 10.1641/B570707".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21773?t=1637402153>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/10/8-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/10/8-0.ttl>.

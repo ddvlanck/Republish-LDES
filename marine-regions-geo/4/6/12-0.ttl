@@ -132,3 +132,40 @@ _:n3-1355 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-1356.
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21503?t=1637985515>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/12-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/12-0.ttl>.
+<http://marineregions.org/mrgid/7006?t=1637407714> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7006/geometries?source=110&attributeValue=2466>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1907>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7006>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T11:28:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:320404>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -74.5; Long: -27; minLat: -74.3817; minLong: 23.0883; maxLat: -71.658; maxLong: 27.3167"@en, "Previous coordinates: Lat: -72.92927 ; Long: 25.63479 ; minLat: -74.3817 ; minLong: 23.0883 ; maxLat: -71.685 ; maxLong: 27.3167  (update 2020-04-22)"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-12. Proposer: Heinrich Hinze, Alfred-Wegener Institute for Polar and Marine Research (AWI), Germany. Year of proposal: 1997."@en, "GEBCO: discoverer and year of discovery: History: Named from the German research vessel \"Polarstern\", which carried out research work in the Weddell Sea from her first commissioning in 1982."@en, "Additional information: Shown as Polarstern Plateau in the ACUF Gazetteer."@en, "Coordinates in ACUF: Latitude: -71.5; Longitude: -21"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Polarstern Canyon"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-23.0883 -71.685,-27.3167 -71.685,-27.3167 -74.3817,-23.0883 -74.3817,-23.0883 -71.685)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-25.26551 -72.91724)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1907> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southern Ocean"@en.
+_:n3-340 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "320404".
+<urn:acuf:ufi:320404> <https://schema.org/identifier> _:n3-340;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D320404>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7006?t=1637407714>.
+<http://marineregions.org/mrgid/6813?t=1637408941> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6813/geometries?source=110&attributeValue=778>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1907>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6813>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T11:49:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -73.5; Long: -29.83333333; minLat: -73.3717; minLong: -32.195; maxLat: -70.5683; maxLong: -24.3683"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Deutschland Canyon"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-24.3683 -70.5683,-32.195 -70.5683,-32.195 -73.3717,-24.3683 -73.3717,-24.3683 -70.5683)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-28.362862 -71.740358)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1907> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southern Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6813?t=1637408941>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/12-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/12-0.ttl>.

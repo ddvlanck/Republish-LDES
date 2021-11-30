@@ -206,3 +206,52 @@ _:n3-106 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/33045?t=1637410483>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/4-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/4-0.ttl>.
+<http://marineregions.org/mrgid/7830?t=1637408354> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Spur>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7830/geometries?source=110&attributeValue=3439>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>, <http://marineregions.org/mrgid/8463>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7830>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T11:39:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-156194>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCGN-7. Proposer: D. E. Gershanovich, Russian Federal Research Institute of Fisheries and Oceanography (VNIRO). Year of proposal: 1959."@en, "GEBCO: discoverer and year of discovery: Discoverer: Russian fisheries research vessel \"Zhemchug\". Year of discovery: 1959. History: Named from the Russian research vessel \"Zhemchug\" that discovered and explored this feature."@en, "Coordinates in ACUF: Latitude: 57.666667; Longitude: -175.666667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Zhemchug Spur"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-175.25 58.5,-176 58.5,-176 57.1667,-175.25 57.1667,-175.25 58.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-175.64345440691 57.83699307355)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+<http://marineregions.org/mrgid/8463> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "United States Exclusive Economic Zone (Alaska)"@en.
+_:n3-449 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-156194".
+<urn:acuf:ufi:-156194> <https://schema.org/identifier> _:n3-449;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-156194>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7830?t=1637408354>.
+<http://marineregions.org/mrgid/32490?t=1637402624> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/32490/geometries?source=169&attributeValue=32490>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8684>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/32490>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T10:03:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chignik Bay"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-158.22611 56.38528)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.geonames.org>.
+<http://marineregions.org/mrgid/8684> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alaska"@en.
+<http://www.geonames.org> <http://www.w3.org/2000/01/rdf-schema#label> "GeoNames".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/32490?t=1637402624>.
+<http://marineregions.org/mrgid/24122?t=1637400173> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/24122/geometries?source=128&attributeValue=24122>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23638>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/24122>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T09:22:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Strait"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-166.018341064 66.366737366,-173.211105347 66.366737366,-173.211105347 64.236312663,-166.018341064 64.236312663,-166.018341064 66.366737366)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-169.45558933969 65.198626992044)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.bodc.ac.uk/resources/vocabularies/seavox/>.
+<http://marineregions.org/mrgid/23638> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northeast Pacific Ocean (180W)"@en.
+<https://www.bodc.ac.uk/resources/vocabularies/seavox/> <http://www.w3.org/2000/01/rdf-schema#label> "The SeaVoX Salt and Fresh Water Body Gazetteer".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24122?t=1637400173>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/4-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/4-0.ttl>.

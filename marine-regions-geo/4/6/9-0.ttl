@@ -518,3 +518,55 @@ _:n3-1503 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/58596?t=1637412300>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/9-0.ttl>.
+<http://marineregions.org/mrgid/24935?t=1637403606> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/24935/geometries?source=111&attributeValue=1549>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/24935>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T10:20:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Gora Kazanskogo"@ru, "Гора Казанского"@ru;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:9196324>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -26.24; Long: -39.25"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-17. Proposer: Department of Navigation and Oceanography (DNO), Russia. Year of proposal: 2004."@en, "GEBCO: discoverer and year of discovery: History: Named after Mikhail Mikhaylovich Kazanskiy (1915-1994), a Russian oceanographer and active explorer of the Arctic and Antarctic oceans. He was the scientific leader of 13 complex ocean expeditions and made considerable contributions to the study "@en, "Additional information: This feature is located near the Eastern limit of Santos Plateau among depths of 3900-4100 m. Minimum depth (m): 1112. Maximum depth (m): 4000. Total relief (m): 2888."@en, "Coordinates in ACUF: Latitude: 26.233333; Longitude: -39.25"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kazanskiy Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-39.251667 -26.236667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+_:n3-859 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "9196324".
+<urn:acuf:ufi:9196324> <https://schema.org/identifier> _:n3-859;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D9196324>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24935?t=1637403606>.
+<http://marineregions.org/mrgid/63122?t=1637403909> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/63122/geometries?source=105&attributeValue=889179>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/63122>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T10:25:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: This feature has a conical shape and a steepness of 5 to 30°. Minimum depth (m): 2360. Maximum depth (m): 5050. Total relief (m): 2690. Dimension/size: 19 km x 18 km."@en, "GEBCO: associated meeting, proposer and year of proposal: \"Associated meeting: SCUFN-32. Proposer: Directorate of Hydrography and Navigation (DHN)"@en, "GEBCO: discoverer and year of discovery:  Brazil. History: 2019.\",\"Discoverer: French research and supply vessel \"\"Marion Dufresne\"\". Year of discovery: 2011. History: Named from \"\"Beta Crucis\"\", the second-brightest visible star of the South Cross constellation (Cruzeiro do Sul, in Portuguese) in the southern hemisphere, in association with the nearby Cruzeiro do Sul Rift. Beta Crucis is blue-white and is located at the left point of the crossbar of the South Cross, when facing south.\""@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Beta Crucis Seamount"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-37.94321 -27.99131,-38.12222 -27.99131,-38.12222 -28.14323,-37.94321 -28.14323,-37.94321 -27.99131)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-38.03523 -28.07002)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/63122?t=1637403909>.
+<http://marineregions.org/mrgid/24918?t=1637401900> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/24918/geometries?source=105&attributeValue=5681>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/24918>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T09:51:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -26.69327 ; Long: -39.18084 ; minLat: -27.25417 ; minLong: -40.13417 ; maxLat: -26.22367 ; maxLong: -38.302  (update 2020-04-22)"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-21. Proposer: Brazilian Navy Hydrographic Center of the Brazilian Hydrographic Office (DHN). Year of proposal: 2008."@en, "GEBCO: discoverer and year of discovery: Discoverer: French research vessel \"Jean Charcot\". Year of discovery: 1973. History: Named from the French research vessel \"Jean Charcot\", of the then French \"Centre National pour l'Exploitation des Océans\" (CNEXO - now, IFREMER), that discovered this gro"@en, "Additional information: This is a cluster of 11 seamounts on the border of Sao Paulo Plateau. Minimum depth (m): 1000. Maximum depth (m): 4500. Total relief (m): 3500."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Jean Charcot Seamounts"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-38.05319 -25.99933,-40.31029 -25.99933,-40.31029 -27.51706,-38.05319 -27.51706,-38.05319 -25.99933)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-39.33602 -26.72227)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24918?t=1637401900>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/9-0.ttl>.

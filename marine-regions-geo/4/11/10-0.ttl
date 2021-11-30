@@ -311,3 +311,77 @@ _:n3-1208 <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2015). National co
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/50264?t=1637985193>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/10-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/10-0.ttl>.
+<http://marineregions.org/mrgid/26850?t=1637400011> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WorldMarineHeritageSite>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/26850/geometries?source=83&attributeValue=26850>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>, <http://marineregions.org/mrgid/8388>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/26850>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T09:20:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://whc.unesco.org/en/list/577>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Heard and McDonald Islands"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(73.2872396468 -53.0509193402)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://whc.unesco.org/en/marine-programme>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/8388> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Heard and McDonald Islands Exclusive Economic Zone"@en.
+<http://whc.unesco.org/en/marine-programme> <http://www.w3.org/2000/01/rdf-schema#label> "World Heritage Marine Programme".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/26850?t=1637400011>.
+<http://marineregions.org/mrgid/8388?t=1637400867> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/25550>, <http://marineregions.org/mrgid/26850>, <http://marineregions.org/mrgid/49109>, <http://marineregions.org/mrgid/49342>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8388/geometries?source=79&attributeValue=8388>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>, <http://marineregions.org/mrgid/8631>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/25550>;
+    <http://marineregions.org/ns/ontology#partlyContains> <http://marineregions.org/mrgid/7269>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8388>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T09:34:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=8388>;
+    <http://www.w3.org/2004/02/skos/core#note> "Centroid calculation method: Centroid"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Heard and McDonald Islands Exclusive Economic Zone"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(79.40903 -49.82619,67.05406 -49.82619,67.05406 -56.52455,79.40903 -56.52455,79.40903 -49.82619)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(73.73051 -53.49863)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/25550> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Heard and McDonald Islands part of the Indian Ocean"@en.
+<http://marineregions.org/mrgid/26850> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WorldMarineHeritageSite>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Heard and McDonald Islands"@en.
+<http://marineregions.org/mrgid/49109> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TerritorialSea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Heard and McDonald Islands 12 NM"@en.
+<http://marineregions.org/mrgid/49342> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContiguousZone>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Heard and McDonald Islands 24 NM"@en.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/8631> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Territory>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Heard and McDonald Islands"@en.
+<http://marineregions.org/mrgid/7269> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Plateau>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kerguelen Plateau"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Maritime Boundaries and Exclusive Economic Zones (200NM), version 11. Available online at http://www.marineregions.org/. https://doi.org/10.14284/386".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8388?t=1637400867>.
+<http://marineregions.org/mrgid/7269?t=1637401686> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Plateau>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7269/geometries?source=105&attributeValue=1565>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://marineregions.org/ns/ontology#isPartlyPartOf> <http://marineregions.org/mrgid/8388>, <http://marineregions.org/mrgid/8387>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7269>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T09:48:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Dorsale des Kerguelen"@fr, "Gaussberg-Kerguelen Ridge"@en, "Kerguelen Ridge"@en, "Kerguelen-Gaussberg Ridge"@en, "Khrebet Kergelen"@ru, "Хребет Кергелен"@ru;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154012>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -54.74973833; Long: 74.40059403; minLat: -63; minLong: 63.75; maxLat: -46; maxLong: 85"@en;
+    <http://www.w3.org/2004/02/skos/core#note> ": Updated coordinates (GEBCO May 2014) - \r\nPrevious values (GEBCO October 2002):\r\n [Min. Lat: 51°0'0\"S] ; \r\n[Min. Long: 72°0'0\"E] ;\r\n [Max. Lat: 60°0'0\"S] ; \r\n[Max. Long: 83°0'0\"E]"@en, "Coordinates in ACUF: Latitude: -55; Longitude: 75"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kerguelen Plateau"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(85.00000002 -46.00000003,63.75000004 -46.00000003,63.75000004 -63.00000001,85.00000002 -63.00000001,85.00000002 -46.00000003)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(74.40059403 -54.74973833)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/8388> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Heard and McDonald Islands Exclusive Economic Zone"@en.
+<http://marineregions.org/mrgid/8387> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kerguelen Exclusive Economic Zone"@en.
+_:n3-1920 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154012".
+<urn:acuf:ufi:-154012> <https://schema.org/identifier> _:n3-1920;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154012>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7269?t=1637401686>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/10-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/10-0.ttl>.
