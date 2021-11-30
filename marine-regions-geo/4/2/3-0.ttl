@@ -89,3 +89,54 @@ _:n3-0 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.lmehub.net/>.
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8534?t=1637982001>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/3-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/3-0.ttl>.
+<http://marineregions.org/mrgid/18847?t=1637386829> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Territory>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/18815>, <http://marineregions.org/mrgid/23501>, <http://marineregions.org/mrgid/23504>, <http://marineregions.org/mrgid/31073>, <http://marineregions.org/mrgid/31206>, <http://marineregions.org/mrgid/31435>, <http://marineregions.org/mrgid/31674>, <http://marineregions.org/mrgid/49602>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/18847/geometries?source=195&attributeValue=LBCFB>;
+    <http://marineregions.org/ns/ontology#isAdjacentTo> <http://marineregions.org/mrgid/4256>, <http://marineregions.org/mrgid/1906>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2169>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/18847>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T05:40:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www4.rncan.gc.ca/search-place-names/unique/LBCFB>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "North West Territories"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northwest Territories"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-102.000009 78.761345,-136.466609 78.761345,-136.466609 59.999818,-102.000009 59.999818,-102.000009 78.761345)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-121.502223 69.500306)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/18815> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Archipelago>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Queen Elizabeth Islands"@en.
+<http://marineregions.org/mrgid/23501> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Gulf>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Amundsen Gulf"@en.
+<http://marineregions.org/mrgid/23504> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Victoria Island"@en.
+<http://marineregions.org/mrgid/31073> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Lake>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Great Slave Lake"@en.
+<http://marineregions.org/mrgid/31206> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Lake>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lac Resolution"@en.
+<http://marineregions.org/mrgid/31435> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cameron River"@en.
+<http://marineregions.org/mrgid/31674> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Melville Island"@en.
+<http://marineregions.org/mrgid/49602> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Emerald Isle"@en.
+<http://marineregions.org/mrgid/4256> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Beaufort Sea"@en.
+<http://marineregions.org/mrgid/1906> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arctic Ocean"@en.
+<http://marineregions.org/mrgid/2169> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Canada"@en.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/18847?t=1637386829>.
+<http://marineregions.org/mrgid/23530?t=1637383518> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IOSRegion>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/23530/geometries?source=68&attributeValue=23530>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23493>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/23530>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T04:45:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Canadian Beaufort Shelf / Slope"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-130.729359 71.366797)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2581 <http://www.w3.org/2000/01/rdf-schema#label> "Fisheries and Oceans Canada (Pacific); Marine Environmental Assessment Database.  MDE Version 5.0.1 ".
+<http://marineregions.org/mrgid/23530?t=1637383518> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2581.
+<http://marineregions.org/mrgid/23493> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IOSRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arctic"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/23530?t=1637383518>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/3-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/3-0.ttl>.

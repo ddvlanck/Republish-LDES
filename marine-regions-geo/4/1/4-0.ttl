@@ -398,3 +398,165 @@ _:n3-1403 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25054?t=1637399014>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/1/4-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/1/4-0.ttl>.
+<http://marineregions.org/mrgid/23544?t=1637395414> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IOSRegion>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/23544/geometries?source=68&attributeValue=23544>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23537>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/23544>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T08:03:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sitka Shelf"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-136.018667 58.158296)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-49 <http://www.w3.org/2000/01/rdf-schema#label> "Fisheries and Oceans Canada (Pacific); Marine Environmental Assessment Database.  MDE Version 5.0.1 ".
+<http://marineregions.org/mrgid/23544?t=1637395414> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-49.
+<http://marineregions.org/mrgid/23537> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IOSRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pacific"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/23544?t=1637395414>.
+<http://marineregions.org/mrgid/6621?t=1637389463> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Valley>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6621/geometries?source=111&attributeValue=93>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4312>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6621>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T06:24:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Alsek Canyon"@en, "Alsek Strath"@en, "Dry Bay Canyon"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152298>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alsek Valley"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-139.5 58.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4312> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of Alaska"@en.
+_:n3-1263 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152298".
+<urn:acuf:ufi:-152298> <https://schema.org/identifier> _:n3-1263;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152298>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6621?t=1637389463>.
+<http://marineregions.org/mrgid/4312?t=1637391318> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/6620>, <http://marineregions.org/mrgid/6621>, <http://marineregions.org/mrgid/6622>, <http://marineregions.org/mrgid/6623>, <http://marineregions.org/mrgid/6624>, <http://marineregions.org/mrgid/6625>, <http://marineregions.org/mrgid/6626>, <http://marineregions.org/mrgid/6627>, <http://marineregions.org/mrgid/6628>, <http://marineregions.org/mrgid/9008>, <http://marineregions.org/mrgid/18823>, <http://marineregions.org/mrgid/19106>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/4312/geometries?source=25&attributeValue=58>;
+    <http://marineregions.org/ns/ontology#isAdjacentTo> <http://marineregions.org/mrgid/18832>, <http://marineregions.org/mrgid/18857>, <http://marineregions.org/mrgid/19104>, <http://marineregions.org/mrgid/19105>, <http://marineregions.org/mrgid/19108>, <http://marineregions.org/mrgid/19116>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1908>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/8543>, <http://marineregions.org/mrgid/18852>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/4312>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T06:55:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of Alaska"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-136.61806464177 61.549499631,-163.35763296168 61.549499631,-163.35763296168 54.29833316814,-136.61806464177 54.29833316814,-136.61806464177 61.549499631)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-149.05089788877 57.90710494826)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/hydra/core#next> <http://marineregions.org/mrgid/4312?page=2&t=1637391318>.
+_:n3-1536 <http://www.w3.org/2000/01/rdf-schema#label> "(1953). Limits of oceans and seas. 3rd edition. IHO Special Publication, 23. International Hydrographic Organization (IHO): Monaco. 38 pp.".
+_:n3-1535 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-1536.
+<http://marineregions.org/mrgid/4312?t=1637391318> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1535.
+<http://marineregions.org/mrgid/6620> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Albatross Bank"@en.
+<http://marineregions.org/mrgid/6621> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Valley>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alsek Valley"@en.
+<http://marineregions.org/mrgid/6622> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Knolls>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chirikov Knoll"@en.
+<http://marineregions.org/mrgid/6623> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dall Seamount"@en.
+<http://marineregions.org/mrgid/6624> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ground>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Fairweather Ground"@en.
+<http://marineregions.org/mrgid/6625> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kodiak Seamount"@en.
+<http://marineregions.org/mrgid/6626> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Portlock Bank"@en.
+<http://marineregions.org/mrgid/6627> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seachannel>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Surveyor Sea Channel"@en.
+<http://marineregions.org/mrgid/6628> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Valley>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Yakutat Valley"@en.
+<http://marineregions.org/mrgid/9008> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kodiak Island"@en.
+<http://marineregions.org/mrgid/18823> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Strait>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Hecate Strait"@en.
+<http://marineregions.org/mrgid/19106> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Strait>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Shelikof Strait"@en.
+<http://marineregions.org/mrgid/18832> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Queen Charlotte Island"@en.
+<http://marineregions.org/mrgid/18857> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Middleton Island"@en.
+<http://marineregions.org/mrgid/19104> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Prince William Sound"@en.
+<http://marineregions.org/mrgid/19105> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Resurrection Bay"@en.
+<http://marineregions.org/mrgid/19108> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NationalDivision>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sitka"@en.
+<http://marineregions.org/mrgid/19116> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Strait>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Unimak Pass"@en.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+<http://marineregions.org/mrgid/8543> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#LargeMarineEcosystem>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of Alaska"@en.
+<http://marineregions.org/mrgid/18852> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Inlet>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cook Inlet"@en.
+<http://marineregions.org/mrgid/4312> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/19648>, <http://marineregions.org/mrgid/19650>, <http://marineregions.org/mrgid/19651>, <http://marineregions.org/mrgid/25054>, <http://marineregions.org/mrgid/25055>, <http://marineregions.org/mrgid/25503>, <http://marineregions.org/mrgid/32809>, <http://marineregions.org/mrgid/34197>, <http://marineregions.org/mrgid/34919>, <http://marineregions.org/mrgid/35103>, <http://marineregions.org/mrgid/35105>, <http://marineregions.org/mrgid/35410>, <http://marineregions.org/mrgid/35411>, <http://marineregions.org/mrgid/59029>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/21850>, <http://marineregions.org/mrgid/24118>, <http://marineregions.org/mrgid/25503>;
+    <http://marineregions.org/ns/ontology#partlyContains> <http://marineregions.org/mrgid/26855>, <http://marineregions.org/mrgid/33653>, <http://marineregions.org/mrgid/33675>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of Alaska"@en;
+    <http://www.w3.org/ns/hydra/core#next> <http://marineregions.org/mrgid/4312?page=3&t=1637391318>.
+<http://marineregions.org/mrgid/19648> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Channel>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gompertz Channel"@en.
+<http://marineregions.org/mrgid/19650> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Strait>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chatham Strait"@en.
+<http://marineregions.org/mrgid/19651> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Channel>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gastineau Channel"@en.
+<http://marineregions.org/mrgid/25054> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Smith Canyon"@en.
+<http://marineregions.org/mrgid/25055> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Escarpment>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Smith Escarpment"@en.
+<http://marineregions.org/mrgid/25503> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "United States (Alaska) part of the Gulf of Alaska"@en.
+<http://marineregions.org/mrgid/32809> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Sound>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Prince William Sound"@en.
+<http://marineregions.org/mrgid/34197> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Spur>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pamplona Spur"@en.
+<http://marineregions.org/mrgid/34919> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Pinnacle>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Toivo Pinnacle"@en.
+<http://marineregions.org/mrgid/35103> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Reef>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sandman Reefs"@en.
+<http://marineregions.org/mrgid/35105> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Reef>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sanak Reef"@en.
+<http://marineregions.org/mrgid/35410> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Fan>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Middleton Fan"@en.
+<http://marineregions.org/mrgid/35411> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Middleton Canyon"@en.
+<http://marineregions.org/mrgid/59029> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#HABMonitoringGrid>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "US-25"@en.
+<http://marineregions.org/mrgid/21850> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of Alaska"@en.
+<http://marineregions.org/mrgid/24118> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf Of Alaska"@en.
+<http://marineregions.org/mrgid/26855> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WorldMarineHeritageSite>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kluane / Wrangell-St Elias / Glacier Bay / Tatshenshini-Alsek"@en.
+<http://marineregions.org/mrgid/33653> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#LowerBathyalProvinces>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northern Pacific Boreal Lower Bathyal Province"@en.
+<http://marineregions.org/mrgid/33675> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#AbyssalProvinces>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Abyssal Province"@en.
+<http://marineregions.org/mrgid/4312> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/59030>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of Alaska"@en.
+<http://marineregions.org/mrgid/59030> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#HABMonitoringGrid>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "US-26"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/4312?t=1637391318>.
+<http://marineregions.org/mrgid/47961?t=1637383954> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/47961/geometries?source=50&attributeValue=ASK-OO>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47540>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/47540>, <http://marineregions.org/mrgid/8684>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/47961>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T04:52:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:ASK-OO>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alaska"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-129.99053955078 71.365814208984,-173.05364990234 71.365814208984,-173.05364990234 54.367210388184,-129.99053955078 54.367210388184,-129.99053955078 71.365814208984)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-152.18516176439 64.032219377932)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47540> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alaska"@en.
+<http://marineregions.org/mrgid/8684> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alaska"@en.
+_:n3-2642 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "ASK-OO".
+<urn:tdwg:wgsrpd:ASK-OO> <https://schema.org/identifier> _:n3-2642;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47961?t=1637383954>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/1/4-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/1/4-0.ttl>.

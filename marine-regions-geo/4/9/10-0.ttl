@@ -342,3 +342,106 @@ _:n3-1280 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7288?t=1637405711>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/9/10-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/9/10-0.ttl>.
+<http://marineregions.org/mrgid/6477?t=1637392959> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Rise>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6477/geometries?source=111&attributeValue=1085>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6477>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T07:22:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Gallieni Bank"@en, "Gallieni Knoll"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-153471>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -46.41666667; Long: 39.66666667"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-14. Proposer: Robert L. Fisher, Scripps Institution of Oceanography (SIO), USA. Year of proposal: 1981."@en, "GEBCO: discoverer and year of discovery: Discoverer: French supply vessel \"Gallieni\". Year of discovery: 1970. History: Named from French supply vessel \"Gallieni\" that also made geophysical observations in 1960s - early 1970s there."@en, "Additional information: Shown as Gallieni Bank in the ACUF Gazetteer."@en, "Coordinates in ACUF: Latitude: -46.5; Longitude: 39.666667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gallieni Rise"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(39.666667 -46.416667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+_:n3-756 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153471".
+<urn:acuf:ufi:-153471> <https://schema.org/identifier> _:n3-756;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153471>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6477?t=1637392959>.
+<http://marineregions.org/mrgid/8191?t=1637384467> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8191/geometries?source=111&attributeValue=1747>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8191>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T05:01:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Banka Lena"@ru, "Lena Tablemount"@en, "Банка Лена"@ru;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154153>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-15. Proposer: A. P. Lisitsyn, Institute of Oceanology of the Russian Academy of Sciences (IO RAS). Year of proposal: 1956."@en, "GEBCO: discoverer and year of discovery: Discoverer: Russian research vessel \"Lena\". Year of discovery: 1956. History: Named from the Russian icebreaker research vessel \"Lena\" that discovered this feature when participating in the First Soviet Antarctic IGY Expedition."@en, "Additional information: Shown as Lena Tablemount in the ACUF Gazetteer. Minimum depth (m): 254."@en, "Coordinates in ACUF: Latitude: -53; Longitude: 45"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lena Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(44.25 -53)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+_:n3-1589 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154153".
+<urn:acuf:ufi:-154153> <https://schema.org/identifier> _:n3-1589;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154153>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8191?t=1637384467>.
+<http://marineregions.org/mrgid/49105?t=1637386459> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TerritorialSea>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/49105/geometries?source=179&attributeValue=49105>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8384>, <http://marineregions.org/mrgid/22598>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/49105>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T05:34:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=8384&zone=eez_12nm>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South African 12 NM (Prince Edward Islands)"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(38.29392 -46.39968,37.29058 -46.39968,37.29058 -47.18205,38.29392 -47.18205,38.29392 -46.39968)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(37.81581 -46.8048)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/8384> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South African Exclusive Economic Zone (Prince Edward Islands)"@en.
+<http://marineregions.org/mrgid/22598> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Archipelago>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Prince Edward Islands"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Territorial Seas (12NM), version 3. Available online at http://www.marineregions.org/. https://doi.org/10.14284/387".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/49105?t=1637386459>.
+<http://marineregions.org/mrgid/7798?t=1637383076> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ridge>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7798/geometries?source=110&attributeValue=1483>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7798>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T04:37:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:9001190>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -41; Long: 42.43333333; minLat: -43.66666667; minLong: 41.75; maxLat: -41; maxLong: 42.4333"@en;
+    <http://www.w3.org/2004/02/skos/core#note> ": Updated coordinates (GEBCO May 2014) - \r\nPrevious values (GEBCO October 2002):\r\n [Max. Lat: -42.66667°] ; \r\n[Max. Long: 42.216667°]"@en, "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-13. Proposer: Robert L. Fisher, Scripps Institution of Oceanography (SIO), USA; and Desmond P.D. Scott, UK. Year of proposal: 1999."@en, "GEBCO: discoverer and year of discovery: History: Named after John Harrison (1693-1776), the lone English genius who developed the first marine chronometers, thereby solving the greatest scientific problem of his time, the measurement of longitude at sea, or on land, after a sea voyage."@en, "Coordinates in ACUF: Latitude: -42; Longitude: 42.75"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "John Harrison Ridge"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(42.4333 -41,41.75 -41,41.75 -43.6667,42.4333 -43.6667,42.4333 -41)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(42.25749574 -42.35943074)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+_:n3-2520 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "9001190".
+<urn:acuf:ufi:9001190> <https://schema.org/identifier> _:n3-2520;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D9001190>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7798?t=1637383076>.
+<http://marineregions.org/mrgid/47718?t=1637383393> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/48293>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/47718/geometries?source=51&attributeValue=MPE>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47518>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/48293>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/47718>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T04:43:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:MPE>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Marion-Prince Edward Is."@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(37.98166656526 -46.596389770871,37.575553893897 -46.596389770871,37.575553893897 -46.969726562131,37.98166656526 -46.969726562131,37.98166656526 -46.596389770871)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(37.760397981686 -46.859411345887)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/48293> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Marion-Prince Edward Is."@en.
+<http://marineregions.org/mrgid/47518> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Subantarctic Islands"@en.
+_:n3-2562 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "MPE".
+<urn:tdwg:wgsrpd:MPE> <https://schema.org/identifier> _:n3-2562;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47718?t=1637383393>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/9/10-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/9/10-0.ttl>.

@@ -482,3 +482,137 @@ _:n3-1981 <http://www.w3.org/ns/prov#wasAttributedTo> <http://gis.ices.dk/>.
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/46386?t=1637401996>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/6-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/6-0.ttl>.
+<http://marineregions.org/mrgid/46383?t=1637396452> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/46383/geometries?source=213&attributeValue=01M8>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/36329>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/46383>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T08:20:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "01M8"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(69 36.5,68 36.5,68 36,69 36,69 36.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(68.5 36.250773714657)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-155 <http://www.w3.org/ns/prov#wasAttributedTo> <http://gis.ices.dk/>.
+<http://marineregions.org/mrgid/46383?t=1637396452> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-155.
+<http://marineregions.org/mrgid/36329> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "ICES Statistical Rectangles"@en.
+<http://gis.ices.dk/> <http://www.w3.org/2000/01/rdf-schema#label> "International Council for the Exploration of the Sea (ICES)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/46383?t=1637396452>.
+<http://marineregions.org/mrgid/47742?t=1637396579> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/48353>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/47742/geometries?source=51&attributeValue=NEP>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47492>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/2246>, <http://marineregions.org/mrgid/48353>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/47742>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T08:22:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:NEP>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nepal"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(88.195816040078 30.424995422001,80.052200317491 30.424995422001,80.052200317491 26.364719390587,88.195816040078 26.364719390587,88.195816040078 30.424995422001)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(83.969603121243 28.262074964078)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/48353> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nepal"@en.
+<http://marineregions.org/mrgid/47492> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Subcontinent"@en.
+<http://marineregions.org/mrgid/2246> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nepal"@en.
+_:n3-177 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "NEP".
+<urn:tdwg:wgsrpd:NEP> <https://schema.org/identifier> _:n3-177;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47742?t=1637396579>.
+<http://marineregions.org/mrgid/47584?t=1637396966> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/48068>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/47584/geometries?source=51&attributeValue=CHT>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47489>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/25134>, <http://marineregions.org/mrgid/48068>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/47584>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T08:29:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:CHT>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tibet"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(99.103698730712 36.53193664536,78.395263671781 36.53193664536,78.395263671781 27.320831299125,99.103698730712 27.320831299125,99.103698730712 36.53193664536)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(88.209292149064 31.767004397118)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/48068> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tibet"@en.
+<http://marineregions.org/mrgid/47489> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "China"@en.
+<http://marineregions.org/mrgid/25134> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#AutonomousRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tibet"@en.
+_:n3-258 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "CHT".
+<urn:tdwg:wgsrpd:CHT> <https://schema.org/identifier> _:n3-258;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47584?t=1637396966>.
+<http://marineregions.org/mrgid/48172?t=1637394649> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48172/geometries?source=50&attributeValue=TZK-OO>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47856>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/47856>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48172>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T07:50:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:TZK-OO>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tadzhikistan"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(75.187484741211 41.050224304199,67.364700317383 41.050224304199,67.364700317383 36.671844482422,75.187484741211 36.671844482422,75.187484741211 41.050224304199)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(71.055360053704 38.533967656542)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47856> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tadzhikistan"@en.
+_:n3-937 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "TZK-OO".
+<urn:tdwg:wgsrpd:TZK-OO> <https://schema.org/identifier> _:n3-937;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48172?t=1637394649>.
+<http://marineregions.org/mrgid/48391?t=1637388309> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48391/geometries?source=50&attributeValue=PAK-OO>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47775>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/47775>, <http://marineregions.org/mrgid/2250>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48391>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T06:05:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:PAK-OO>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pakistan"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(75.391296386719 36.90266418457,60.866302490234 36.90266418457,60.866302490234 23.688049316406,75.391296386719 23.688049316406,75.391296386719 36.90266418457)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(68.674415655701 29.311314260528)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47775> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pakistan"@en.
+<http://marineregions.org/mrgid/2250> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pakistan"@en.
+_:n3-1088 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "PAK-OO".
+<urn:tdwg:wgsrpd:PAK-OO> <https://schema.org/identifier> _:n3-1088;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48391?t=1637388309>.
+<http://marineregions.org/mrgid/47874?t=1637381173> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/48499>, <http://marineregions.org/mrgid/48500>, <http://marineregions.org/mrgid/48501>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/47874/geometries?source=51&attributeValue=WHM>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47492>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/47874>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T04:06:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:WHM>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "West Himalaya"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(81.031661987111 37.062591552558,72.512771606025 37.062591552558,72.512771606025 28.747776899484,81.031661987111 28.747776899484,81.031661987111 37.062591552558)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(76.735898874691 33.289909897812)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/48499> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Himachal Pradesh"@en.
+<http://marineregions.org/mrgid/48500> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Jammu-Kashmir"@en.
+<http://marineregions.org/mrgid/48501> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Uttaranchal"@en.
+<http://marineregions.org/mrgid/47492> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Subcontinent"@en.
+_:n3-2191 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "WHM".
+<urn:tdwg:wgsrpd:WHM> <https://schema.org/identifier> _:n3-2191;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47874?t=1637381173>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/6-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/6-0.ttl>.

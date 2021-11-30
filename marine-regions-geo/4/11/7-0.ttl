@@ -1393,3 +1393,206 @@ _:n3-1733 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-1734.
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/4269?t=1637400769>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/7-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/7-0.ttl>.
+<http://marineregions.org/mrgid/5791?t=1637395292> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/5791/geometries?source=111&attributeValue=2353>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4268>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/5791>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T08:01:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:111205>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 16.2; Long: 69.36666667"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-11. Proposer: Gauri C. Bhattacharya, National Institute of Oceanography (NIO), India. Year of proposal: 1993."@en, "GEBCO: discoverer and year of discovery: Discoverer: Indian research vessel \"Sagar Kanya\". Year of discovery: 1992. History: Named after Dr. N. K. Panikkar (1913-1977), eminent Indian oceanographer and the Founder-Director of the National Institute of Oceanography (NIO), India. He was responsibl"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Panikkar Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(69.366667 16.2)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4268> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arabian Sea"@en.
+_:n3-24 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "111205".
+<urn:acuf:ufi:111205> <https://schema.org/identifier> _:n3-24;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D111205>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5791?t=1637395292>.
+<http://marineregions.org/mrgid/25418?t=1637395662> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/25418/geometries?source=80&attributeValue=25418>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4268>, <http://marineregions.org/mrgid/8480>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/25418>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T08:07:42Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian part of the Arabian Sea"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(74.101363 23.844164,65.606408 23.844164,65.606408 7.790972,74.101363 7.790972,74.101363 23.844164)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(70.358374 16.192176)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://doi.org/10.14284/402>.
+<http://marineregions.org/mrgid/4268> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arabian Sea"@en.
+<http://marineregions.org/mrgid/8480> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Exclusive Economic Zone"@en.
+<https://doi.org/10.14284/402> <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2020). Intersect of IHO Sea Areas and Exclusive Economic Zones (version 4)   ".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25418?t=1637395662>.
+<http://marineregions.org/mrgid/25411?t=1637397789> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/25411/geometries?source=80&attributeValue=25411>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4269>, <http://marineregions.org/mrgid/8480>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/25411>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T08:43:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian part of the Laccadive Sea"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(79.533334 14.867091,72.031404 14.867091,72.031404 4.784,79.533334 4.784,79.533334 14.867091)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(74.865455 9.720085)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://doi.org/10.14284/402>.
+<http://marineregions.org/mrgid/4269> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Laccadive Sea"@en.
+<http://marineregions.org/mrgid/8480> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Exclusive Economic Zone"@en.
+<https://doi.org/10.14284/402> <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2020). Intersect of IHO Sea Areas and Exclusive Economic Zones (version 4)   ".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25411?t=1637397789>.
+<http://marineregions.org/mrgid/49068?t=1637391876> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TerritorialSea>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/49068/geometries?source=179&attributeValue=49068>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8345>, <http://marineregions.org/mrgid/2229>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/49068>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T07:04:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=8345&zone=eez_12nm>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Maldives 12 NM"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(73.97042 7.31081,72.35433 7.31081,72.35433 -0.90779,73.97042 -0.90779,73.97042 7.31081)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(73.18397 3.21444)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/8345> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Maldives Exclusive Economic Zone"@en.
+<http://marineregions.org/mrgid/2229> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Maldives"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Territorial Seas (12NM), version 3. Available online at http://www.marineregions.org/. https://doi.org/10.14284/387".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/49068?t=1637391876>.
+<http://marineregions.org/mrgid/48210?t=1637395062> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48210/geometries?source=50&attributeValue=IND-YA>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47657>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48210>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T07:57:42Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:IND-YA>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Yanam"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(82.314796447754 16.781700134277,82.202072143555 16.781700134277,82.202072143555 16.717960357666,82.314796447754 16.717960357666,82.314796447754 16.781700134277)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(82.254731691919 16.745507483548)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47657> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "India"@en.
+_:n3-1016 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "IND-YA".
+<urn:tdwg:wgsrpd:IND-YA> <https://schema.org/identifier> _:n3-1016;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48210?t=1637395062>.
+<http://marineregions.org/mrgid/48193?t=1637386816> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48193/geometries?source=50&attributeValue=IND-GO>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47657>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/17456>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48193>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T05:40:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:IND-GO>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Goa"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(74.377746582031 15.799240112305,73.681365966797 15.799240112305,73.681365966797 14.867094039917,74.377746582031 14.867094039917,74.377746582031 15.799240112305)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(74.079834183592 15.358873067937)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47657> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "India"@en.
+<http://marineregions.org/mrgid/17456> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Goa"@en.
+_:n3-1908 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "IND-GO".
+<urn:tdwg:wgsrpd:IND-GO> <https://schema.org/identifier> _:n3-1908;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48193?t=1637386816>.
+<http://marineregions.org/mrgid/48189?t=1637387590> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48189/geometries?source=50&attributeValue=IND-DD>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47657>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48189>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T05:53:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:IND-DD>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dadra-Nagar-Haveli"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(73.248931884766 20.315160751343,72.976226806641 20.315160751343,72.976226806641 20.04594039917,73.248931884766 20.04594039917,73.248931884766 20.315160751343)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(73.106258283641 20.16622979736)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47657> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "India"@en.
+_:n3-2061 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "IND-DD".
+<urn:tdwg:wgsrpd:IND-DD> <https://schema.org/identifier> _:n3-2061;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48189?t=1637387590>.
+<http://marineregions.org/mrgid/5792?t=1637380831> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/5792/geometries?source=111&attributeValue=2549>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4268>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/5792>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T04:00:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Raman Guyot"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:18812>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 17.1; Long: 69.01666667"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-10. Proposer: Gauri C. Bhattacharya, National Institute of Oceanography (NIO), India. Year of proposal: 1992."@en, "GEBCO: discoverer and year of discovery: Discoverer: U.S. fleet oiler vessel \"Aucilla\". Year of discovery: 1951. History: Named after the indian physicist Sir Chandrasekhara Venkata Raman (1888-1970), recipient of the 1930 Nobel Prize for Physics."@en, "Additional information: Shown as Raman Guyot in the ACUF Gazetteer."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Raman Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(69.016667 17.1)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4268> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arabian Sea"@en.
+_:n3-2138 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "18812".
+<urn:acuf:ufi:18812> <https://schema.org/identifier> _:n3-2138;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D18812>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5792?t=1637380831>.
+<http://marineregions.org/mrgid/5794?t=1637381107> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/5794/geometries?source=111&attributeValue=2803>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4268>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/5794>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T04:05:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 13.08333333; Long: 72"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sesostris Bank"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(72 13.083333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4268> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arabian Sea"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5794?t=1637381107>.
+<http://marineregions.org/mrgid/7356?t=1637381975> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ridge>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7356/geometries?source=110&attributeValue=560>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4268>;
+    <http://marineregions.org/ns/ontology#isPartlyPartOf> <http://marineregions.org/mrgid/8344>, <http://marineregions.org/mrgid/8480>, <http://marineregions.org/mrgid/8345>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7356>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T04:19:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Chagos-Laccadive Plateau"@en, "Laccadive-Chagos Ridge"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152902>;
+    <http://www.w3.org/2004/02/skos/core#note> ": Updated coordinates (GEBCO May 2014) - \r\nPrevious values (GEBCO October 2002):\r\n[Min. Long: 72.5°]"@en, "Additional information: Shown as Chagos-Laccadive Plateau in the ACUF Gazetteer."@en, "Coordinates in ACUF: Latitude: 3; Longitude: 73"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chagos-Laccadive Ridge"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(73.2167 13.5,70.5 13.5,70.5 -9,73.2167 -9,73.2167 13.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(73.098934475774 1.986525736454)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4268> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arabian Sea"@en.
+<http://marineregions.org/mrgid/8344> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#OverlappingClaim>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Overlapping claim Chagos Archipelago Exclusive Economic Zone: UK / Mauritius"@en.
+<http://marineregions.org/mrgid/8480> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Exclusive Economic Zone"@en.
+<http://marineregions.org/mrgid/8345> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Maldives Exclusive Economic Zone"@en.
+_:n3-2329 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152902".
+<urn:acuf:ufi:-152902> <https://schema.org/identifier> _:n3-2329;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152902>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7356?t=1637381975>.
+<http://marineregions.org/mrgid/5763?t=1637384223> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Reef>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/5763/geometries?source=111&attributeValue=443>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4268>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/5763>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T04:57:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 11.91666667; Long: 71.76666667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Byramgore Reef"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(71.766667 11.916667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4268> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arabian Sea"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5763?t=1637384223>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/7-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/7-0.ttl>.

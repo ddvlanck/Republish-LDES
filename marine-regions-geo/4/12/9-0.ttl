@@ -495,3 +495,59 @@ _:n3-1968 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6482?t=1637401954>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/9-0.ttl>.
+<http://marineregions.org/mrgid/17991?t=1637396920> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#GeneralSeaArea>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/17991/geometries?source=149&attributeValue=17991>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/17991>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T08:28:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Southeastern Indian Ocean"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Eastern Indian Ocean"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(97.75 -36.6)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-248 <http://www.w3.org/2000/01/rdf-schema#label> "Aphia".
+<http://marineregions.org/mrgid/17991?t=1637396920> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-248.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/17991?t=1637396920>.
+<http://marineregions.org/mrgid/6243?t=1637391966> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ridge>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6243/geometries?source=111&attributeValue=3180>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6243>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T07:06:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155861>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Proposer: Robert L. Fisher, Scripps Institution of Oceanography (SIO), USA. Year of proposal: 1981."@en, "GEBCO: discoverer and year of discovery: Discoverer: Netherlands submarine \"K-18\". Year of discovery: 1934. History: Named from HMS \"Tryal\" (Captain Brooke), a British ship wrecked, but with survivors, in 1622 on a West Australian reef. First Mate Thomas Bright took 35 to Batavia in long-boat."@en, "Coordinates in ACUF: Latitude: -31; Longitude: 102.666667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tryal Ridge"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(102.75 -31)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+_:n3-686 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155861".
+<urn:acuf:ufi:-155861> <https://schema.org/identifier> _:n3-686;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155861>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6243?t=1637391966>.
+<http://marineregions.org/mrgid/7347?t=1637386371> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Terrace>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7347/geometries?source=110&attributeValue=507>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>, <http://marineregions.org/mrgid/8323>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7347>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T05:32:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:11230>;
+    <http://www.w3.org/2004/02/skos/core#note> ": Updated coordinates (GEBCO May 2014) - \r\nPrevious values (GEBCO October 2002):\r\n [Min. Lat: -22.5°] ; \r\n[Min. Long: 111°] ;\r\n [Max. Lat: -28.6667°] ; \r\n[Max. Long: 112°]"@en, "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-10. Proposer: J. J. Doyle, Australian Hydrographic Service (AHS). Year of proposal: 1991."@en, "GEBCO: discoverer and year of discovery: History: Named from the adjacent town of Carnarvon, Western Australia."@en, "Additional information: Taken from the AGSO bathymetric map \"Hartog\"."@en, "Coordinates in ACUF: Latitude: -25.583333; Longitude: 111.5"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Carnarvon Terrace"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(113.147177743 -22.4751771149,111.636729087 -22.4751771149,111.636729087 -28.1936310489,113.147177743 -28.1936310489,113.147177743 -22.4751771149)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(111.65802157587 -25.236159166081)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/8323> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Australian Exclusive Economic Zone"@en.
+_:n3-1823 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "11230".
+<urn:acuf:ufi:11230> <https://schema.org/identifier> _:n3-1823;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D11230>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7347?t=1637386371>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/9-0.ttl>.

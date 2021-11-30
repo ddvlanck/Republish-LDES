@@ -552,3 +552,136 @@ _:n3-1966 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/61807?t=1637401951>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/4-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/4-0.ttl>.
+<http://marineregions.org/mrgid/33196?t=1637396340> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/33196/geometries?source=100&attributeValue=2HC>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23381>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/33196>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T08:19:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO 2HC"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-57 57.082264)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nafo.int/Data/GIS>.
+<http://marineregions.org/mrgid/23381> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO 2H"@en.
+<https://www.nafo.int/Data/GIS> <http://www.w3.org/2000/01/rdf-schema#label> "NAFO Divisions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/33196?t=1637396340>.
+<http://marineregions.org/mrgid/23370?t=1637396889> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/23370/geometries?source=195&attributeValue=OAGBA>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/15519>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/4291>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/23370>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T08:28:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www4.rncan.gc.ca/search-place-names/unique/OAGBA>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Frobisher Bay"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-66.583333 62.833333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/15519> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Territory>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nunavut"@en.
+<http://marineregions.org/mrgid/4291> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Labrador Sea"@en.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/23370?t=1637396889>.
+<http://marineregions.org/mrgid/49753?t=1637397018> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/49753/geometries?source=105&attributeValue=6513>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4291>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/49753>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T08:30:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/0cc5ce8c849c20c370fbba5754171e2b>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:cgnd:uid:0cc5ce8c849c20c370fbba5754171e2b>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 57.99382 ; Long: -60.38198 (update 2020-04-22)"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-29. Proposer: Canadian Advisory Committee on Undersea Feature Names. Year of proposal: 2016. "@en, "GEBCO: discoverer and year of discovery: History: Named from the nearby settlement of Okak, Okak Bay and Okak Islands, Labrador."@en, "Additional information: This feature lies between Saglek Bank and Nain Bank. It is about 45 miles NE of Cape Mugford, Labrador. Minimum depth (m): 144. Maximum depth (m): 200. Total relief (m): 56. Dimension: 46 km long and 22 km wide; 700 km² for a perimeter of 120 km."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Okak Bank"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-59.95223 58.08256,-60.79305 58.08256,-60.79305 57.90602,-59.95223 57.90602,-59.95223 58.08256)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-60.38198 57.99382)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4291> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Labrador Sea"@en.
+_:n3-268 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "0cc5ce8c849c20c370fbba5754171e2b".
+<urn:cgnd:uid:0cc5ce8c849c20c370fbba5754171e2b> <https://schema.org/identifier> _:n3-268;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/0cc5ce8c849c20c370fbba5754171e2b>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/49753?t=1637397018>.
+<http://marineregions.org/mrgid/33188?t=1637394786> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/33188/geometries?source=100&attributeValue=2GC>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23380>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/33188>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T07:53:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO 2GC"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-62.183251 59.02928)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nafo.int/Data/GIS>.
+<http://marineregions.org/mrgid/23380> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO 2G"@en.
+<https://www.nafo.int/Data/GIS> <http://www.w3.org/2000/01/rdf-schema#label> "NAFO Divisions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/33188?t=1637394786>.
+<http://marineregions.org/mrgid/23499?t=1637394972> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Sound>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/23499/geometries?source=195&attributeValue=OAEAQ>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/15519>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/23499>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T07:56:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www4.rncan.gc.ca/search-place-names/unique/OAEAQ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cumberland Sound"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-66.016667 65.333333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/15519> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Territory>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nunavut"@en.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/23499?t=1637394972>.
+<http://marineregions.org/mrgid/33167?t=1637395041> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/23374>, <http://marineregions.org/mrgid/23375>, <http://marineregions.org/mrgid/23376>, <http://marineregions.org/mrgid/23377>, <http://marineregions.org/mrgid/23378>, <http://marineregions.org/mrgid/23379>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/33167/geometries?source=98&attributeValue=1>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23536>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/33167>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T07:57:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO 1"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-52.101221 64.370503)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nafo.int/Data/GIS>.
+<http://marineregions.org/mrgid/23374> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO 1A"@en.
+<http://marineregions.org/mrgid/23375> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO 1B"@en.
+<http://marineregions.org/mrgid/23376> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO 1C"@en.
+<http://marineregions.org/mrgid/23377> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO 1D"@en.
+<http://marineregions.org/mrgid/23378> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO 1E"@en.
+<http://marineregions.org/mrgid/23379> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO 1F"@en.
+<http://marineregions.org/mrgid/23536> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO Areas"@en.
+<https://www.nafo.int/Data/GIS> <http://www.w3.org/2000/01/rdf-schema#label> "NAFO Divisions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/33167?t=1637395041>.
+<http://marineregions.org/mrgid/25273?t=1637385348> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/25273/geometries?source=80&attributeValue=25273>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4291>, <http://marineregions.org/mrgid/8438>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/25273>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T05:15:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Greenlandic part of the Labrador Sea"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-43.902218 59.884495,-55.306078 59.884495,-55.306078 56.576519,-43.902218 56.576519,-43.902218 59.884495)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-48.982592 58.62706)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://doi.org/10.14284/402>.
+<http://marineregions.org/mrgid/4291> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Labrador Sea"@en.
+<http://marineregions.org/mrgid/8438> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Greenlandic Exclusive Economic Zone"@en.
+<https://doi.org/10.14284/402> <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2020). Intersect of IHO Sea Areas and Exclusive Economic Zones (version 4)   ".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25273?t=1637385348>.
+<http://marineregions.org/mrgid/24050?t=1637387107> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/24050/geometries?source=128&attributeValue=24050>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23639>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/4291>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/24050>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T05:45:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Labrador Sea"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-43.783073425 60.000068665,-64.302696228 60.000068665,-64.302696228 47.386413574,-43.783073425 47.386413574,-43.783073425 60.000068665)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-53.758832763091 56.024767352973)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.bodc.ac.uk/resources/vocabularies/seavox/>.
+<http://marineregions.org/mrgid/23639> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northwest Atlantic Ocean (40W)"@en.
+<http://marineregions.org/mrgid/4291> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Labrador Sea"@en.
+<https://www.bodc.ac.uk/resources/vocabularies/seavox/> <http://www.w3.org/2000/01/rdf-schema#label> "The SeaVoX Salt and Fresh Water Body Gazetteer".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24050?t=1637387107>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/4-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/4-0.ttl>.
