@@ -659,3 +659,60 @@ _:n3-3059 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6518?t=1637988798>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/8-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/8-0.ttl>.
+<http://marineregions.org/mrgid/7324?t=1637983999> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Fan>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7324/geometries?source=105&attributeValue=2176>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>, <http://marineregions.org/mrgid/8333>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7324>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T03:33:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:111196>;
+    <http://www.w3.org/2004/02/skos/core#note> ": Corrected Min. Long (wrong input: 92°0'0\"E)\r\nSource GEBCO October 2002 was correct"@en, "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-11. Proposer: Joseph R. Curray, Scripps Institution of Oceanography (SIO), USA. Year of proposal: 1993."@en, "GEBCO: discoverer and year of discovery: Discoverer: Research vessels of the International Indian Ocean Expedition (IIOE). Year of discovery: 1960. History: Named from the nearby Nicobar Islands, present head of this deltaic structure (inactive) being just southwest of these islands."@en, "Coordinates in ACUF: Latitude: 0; Longitude: 92"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nicobar Fan"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(96 5,91 5,91 -5,96 -5,96 5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(93.147751847396 -1.851953925509)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/8333> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Exclusive Economic Zone (Andaman and Nicobar Islands)"@en.
+_:n3-742 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "111196".
+<urn:acuf:ufi:111196> <https://schema.org/identifier> _:n3-742;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D111196>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7324?t=1637983999>.
+<http://marineregions.org/mrgid/50218?t=1637984284> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Coast>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/50218/geometries?source=136&attributeValue=50218>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8589>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/50218>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T03:38:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: Derived from ESRI World Countries 2014"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cocos Islands Coast"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(96.9302778241 -11.8222171069,96.8169878724 -11.8222171069,96.8169878724 -12.2078435422,96.9302778241 -12.2078435422,96.9302778241 -11.8222171069)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(96.845103593842 -12.205831858645)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-849 <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2015). National coastlines based on ESRI Countries (2014)".
+<http://marineregions.org/mrgid/50218?t=1637984284> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-849.
+<http://marineregions.org/mrgid/8589> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#DependentState>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cocos Islands"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/50218?t=1637984284>.
+<http://marineregions.org/mrgid/25528?t=1637984573> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/32156>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/25528/geometries?source=80&attributeValue=25528>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>, <http://marineregions.org/mrgid/8308>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/8308>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/25528>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T03:42:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cocos Islands part of the Indian Ocean"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(100.33435 -8.472063,93.412316 -8.472063,93.412316 -15.55884,100.33435 -15.55884,100.33435 -8.472063)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(96.853338 -12.031985)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://doi.org/10.14284/402>.
+<http://marineregions.org/mrgid/32156> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WetlandOfInternationalImportanceRamsarConvention>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pulu Keeling National Park"@en.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/8308> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cocos Islands Exclusive Economic Zone"@en.
+<https://doi.org/10.14284/402> <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2020). Intersect of IHO Sea Areas and Exclusive Economic Zones (version 4)   ".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25528?t=1637984573>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/8-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/8-0.ttl>.

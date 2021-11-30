@@ -278,3 +278,61 @@ _:n3-2441 <http://www.w3.org/2000/01/rdf-schema#label> "Aphia".
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/17994?t=1637986861>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/10-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/10-0.ttl>.
+<http://marineregions.org/mrgid/7158?t=1637982954> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ridge>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7158/geometries?source=110&attributeValue=967>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7158>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T03:15:54Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: discoverer and year of discovery: History: Named from the nearby Falkland / Malvinas Islands."@en, "Additional information: The name \"Malvinas Ridge\" is to be inserted under \"Falkland Ridge\" on maps/charts."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Falkland Ridge"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-30.5 -48.666667,-35.5 -48.666667,-35.5 -49,-30.5 -49,-30.5 -48.666667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-32.991702195993 -48.860448384317)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7158?t=1637982954>.
+<http://marineregions.org/mrgid/47813?t=1637983288> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/48433>, <http://marineregions.org/mrgid/50354>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/47813/geometries?source=51&attributeValue=SGE>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47518>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/21927>, <http://marineregions.org/mrgid/48433>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/47813>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T03:21:28Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:SGE>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Georgia"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-35.782501220355 -53.989723205861,-38.033058166901 -53.989723205861,-38.033058166901 -54.890281677657,-35.782501220355 -54.890281677657,-35.782501220355 -53.989723205861)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-36.723729424377 -54.357789693616)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/48433> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Georgia"@en.
+<http://marineregions.org/mrgid/50354> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Coast>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Georgian Coast"@en.
+<http://marineregions.org/mrgid/47518> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Subantarctic Islands"@en.
+<http://marineregions.org/mrgid/21927> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Georgia"@en.
+_:n3-482 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "SGE".
+<urn:tdwg:wgsrpd:SGE> <https://schema.org/identifier> _:n3-482;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47813?t=1637983288>.
+<http://marineregions.org/mrgid/24971?t=1637410037> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/24971/geometries?source=111&attributeValue=3530>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/24971>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T12:07:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Mann-Borgese Seamount"@en;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -55.6; Long: -43.08"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-21. Proposer: Heinrich Hinze, Alfred-Wegener Institute for Polar and Marine Research (AWI), Germany. Year of proposal: 2008."@en, "GEBCO: discoverer and year of discovery: Discoverer: German research vessel \"Polarstern\". Year of discovery: 2005. History: Named after Elisabeth Veronika Mann-Borghese (1918-2002), who early committed herself to the protection of the environment, in particular the oceans, and was one of the fou"@en, "Additional information: This feature has an elongated shape. Minimum depth (m): 2150. Maximum depth (m): 3225. Total relief (m): 1075. Dimension: About 50 km in the SW-NE direction, and 17 km in the SE-NW direction."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mann-Borghese Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-43.066667 -55.6)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24971?t=1637410037>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/10-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/10-0.ttl>.

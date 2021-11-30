@@ -156,3 +156,41 @@ _:n3-526 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/15059?t=1637994589>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/3-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/3-0.ttl>.
+<http://marineregions.org/mrgid/61777?t=1637984097> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Shoal>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/61777/geometries?source=195&attributeValue=MACTX>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/5698>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/61777>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T03:34:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/68b8ce33849c214a341e4bca9e002eb9>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:cgnd:uid:68b8ce33849c214a341e4bca9e002eb9>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lone Shoal"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-80.46804 72.20696,-80.48731 72.20696,-80.48731 72.2012,-80.46804 72.2012,-80.46804 72.20696)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-80.4776276 72.2040761)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/5698> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northwestern Passages"@en.
+_:n3-781 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "68b8ce33849c214a341e4bca9e002eb9".
+<urn:cgnd:uid:68b8ce33849c214a341e4bca9e002eb9> <https://schema.org/identifier> _:n3-781;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/68b8ce33849c214a341e4bca9e002eb9>.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/61777?t=1637984097>.
+<http://marineregions.org/mrgid/49205?t=1637985523> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TerritorialSea>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/49205/geometries?source=179&attributeValue=49205>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8493>, <http://marineregions.org/mrgid/2169>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/49205>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T03:58:43Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=8493&zone=eez_12nm>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Canadian 12 NM"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-52.32377 83.3345,-141 83.3345,-141 43.18816,-52.32377 43.18816,-52.32377 83.3345)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-84.64095 69.41058)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/8493> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Canadian Exclusive Economic Zone"@en.
+<http://marineregions.org/mrgid/2169> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Canada"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Territorial Seas (12NM), version 3. Available online at http://www.marineregions.org/. https://doi.org/10.14284/387".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/49205?t=1637985523>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/3-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/3-0.ttl>.

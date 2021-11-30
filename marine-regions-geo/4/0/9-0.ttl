@@ -582,3 +582,61 @@ _:n3-2523 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/33563?t=1637987131>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/9-0.ttl>.
+<http://marineregions.org/mrgid/7566?t=1637983237> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#FractureZone>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7566/geometries?source=110&attributeValue=33>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>, <http://marineregions.org/mrgid/8446>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7566>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T03:20:37Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:18775>;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: SCGN/10 was of the opinion that this feature might better be classed as a Ridge."@en, "Coordinates in ACUF: Latitude: -25; Longitude: -165"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Aguila Fracture Zone"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-157 -22,-161 -22,-161 -29,-157 -29,-157 -22)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-159 -25.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+<http://marineregions.org/mrgid/8446> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cook Islands Exclusive Economic Zone"@en.
+_:n3-461 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "18775".
+<urn:acuf:ufi:18775> <https://schema.org/identifier> _:n3-461;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D18775>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7566?t=1637983237>.
+<http://marineregions.org/mrgid/48854?t=1637984891> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ridge>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48854/geometries?source=111&attributeValue=3479>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48854>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T03:48:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-12. Proposer: Thomas J. Osborne, AT&T Submarine Systems, USA. Year of proposal: 1997."@en, "GEBCO: discoverer and year of discovery: Discoverer: U.S. research vessel \"Moana Wave\". History: Named from the research vessel \"Moana Wave\", of University of Hawaii, which performed the PacRimEast survey."@en, "Additional information: Accepted by ACUF as Moana Wave Range (1997)."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Moana Wave Ridge"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-176.1 -32.2)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48854?t=1637984891>.
+<http://marineregions.org/mrgid/7567?t=1637411215> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deep>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7567/geometries?source=111&attributeValue=1357>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7567>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T12:26:55Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Horizon Depth"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-153798>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -23.255; Long: -174.7333333"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "General information: Coordinates updated: GEBCO (2002): Lat: -23.255°; Lon: -174.73333333°"@en, "GEBCO: associated meeting, proposer and year of proposal: Proposer: Robert L. Fisher and Roger R.D. Revelle, Scripps Institution of Oceanography (SIO), USA. Year of proposal: 1953."@en, "GEBCO: discoverer and year of discovery: Discoverer: U.S. research vessel \"Horizon\". Year of discovery: 1952. History: Named from the U.S. research vessel \"Horizon\" of the Scripps Institution of Oceanography (SIO). The British vessel HMS \"Egeria\" (1880's) found deep water in vicinity, but greate"@en, "Additional information: Discovered during the Capricorn Expedition (1952-1953). This is the deepest part of Tonga Trench, also deepest point (10,800 m ± 10 m) in the Southern Hemisphere and second deepest trench. Only Challenger Deep (10,920 m ± 10 m) in Marianas Trench, southwe"@en, "Coordinates in ACUF: Latitude: -23.266667; Longitude: -174.733333"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Horizon Deep"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-174.726667 -23.258333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+_:n3-2073 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153798".
+<urn:acuf:ufi:-153798> <https://schema.org/identifier> _:n3-2073;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153798>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7567?t=1637411215>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/9-0.ttl>.

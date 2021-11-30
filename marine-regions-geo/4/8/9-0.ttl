@@ -471,3 +471,136 @@ _:n3-2205 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6716?t=1637987635>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/8/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/8/9-0.ttl>.
+<http://marineregions.org/mrgid/7177?t=1637982125> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ridge>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7177/geometries?source=110&attributeValue=3307>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7177>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T03:02:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Crête de Walfish"@fr, "Khrebet Kitovyy"@ru, "Walvish Ridge"@en, "Хребет Китовый"@ru;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-156032>;
+    <http://www.w3.org/2004/02/skos/core#note> ": Updated coordinates (GEBCO May 2014) - \r\nPrevious values (GEBCO October 2002):\r\n[Max. Long: 6°]"@en, "GEBCO: discoverer and year of discovery: History: Named from the nearby town of Walvis Bay, in Namibia."@en, "Coordinates in ACUF: Latitude: -28; Longitude: 3"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Walvis Ridge"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(6.32358984375 -23.5,1.75 -23.5,1.75 -32.8333,6.32358984375 -32.8333,6.32358984375 -23.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(3.461472756261 -27.810096252671)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+_:n3-49 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-156032".
+<urn:acuf:ufi:-156032> <https://schema.org/identifier> _:n3-49;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-156032>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7177?t=1637982125>.
+<http://marineregions.org/mrgid/8751?t=1637982520> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#FAOMajorMarineFishingAreas>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8751/geometries?source=34&attributeValue=47>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/22541>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8751>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T03:08:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "FAO fishing area 47"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Atlantic, Southeast"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(0.79549 -30.2194)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-201 <http://www.w3.org/2000/01/rdf-schema#label> "FAO Major Fishing Areas, UN Atlas of the Oceans".
+_:n3-200 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-201.
+<http://marineregions.org/mrgid/8751?t=1637982520> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-200.
+<http://marineregions.org/mrgid/22541> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#FAOFishingArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "FAO Fishing Areas"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8751?t=1637982520>.
+<http://marineregions.org/mrgid/6755?t=1637982582> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6755/geometries?source=111&attributeValue=3231>;
+    <http://marineregions.org/ns/ontology#isAdjacentTo> <http://marineregions.org/mrgid/23408>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6755>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T03:09:42Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Banc de la Valdivia"@fr, "Banka Val’diviya"@ru, "Valdivia Seamount"@en, "Банка Вальдивия"@ru;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155920>;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: Shown as Valdivia Seamount in the ACUF Gazetteer."@en, "Coordinates in ACUF: Latitude: -26.25; Longitude: 6.416667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Valdivia Bank"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(6 -25.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/23408> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Valdivia Seamount"@en.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+_:n3-220 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155920".
+<urn:acuf:ufi:-155920> <https://schema.org/identifier> _:n3-220;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155920>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6755?t=1637982582>.
+<http://marineregions.org/mrgid/8170?t=1637984478> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8170/geometries?source=111&attributeValue=166>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8170>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T03:41:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Anton Leonov Hill"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:9008963>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -39.86666667; Long: 7.758333333"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-13. Proposer: Gleb B. Udintsev, Institute of Oceanology of the Russian Academy of Sciences (IO RAS). Year of proposal: 1999."@en, "GEBCO: discoverer and year of discovery: Discoverer: Russian research vessel \"Akademik Boris Petrov\". Year of discovery: 1998. History: Named after Anton Leonov (1919-1994), a long-time navigator of Soviet Research Ships and developer of echo sounders."@en, "Additional information: This is an isolated seamount.Total relief (m): 1200."@en, "Coordinates in ACUF: Latitude: -39.866667; Longitude: 7.766667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Anton Leonov Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(7.758333 -39.866667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+_:n3-931 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "9008963".
+<urn:acuf:ufi:9008963> <https://schema.org/identifier> _:n3-931;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D9008963>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8170?t=1637984478>.
+<http://marineregions.org/mrgid/20368?t=1637984534> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Cove>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/20368/geometries?source=169&attributeValue=20368>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/9019>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/20368>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T03:42:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Plankiesbaai"@af;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(17.95 -33.13337)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-953 <http://www.w3.org/2000/01/rdf-schema#label> "Algologie (Ugent)".
+_:n3-952 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-953.
+<http://marineregions.org/mrgid/20368?t=1637984534> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-952.
+<http://marineregions.org/mrgid/9019> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Lagoon>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Langebaan Lagoon"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/20368?t=1637984534>.
+<http://marineregions.org/mrgid/9019?t=1637984740> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Lagoon>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/20368>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/9019/geometries?source=169&attributeValue=9019>;
+    <http://marineregions.org/ns/ontology#isAdjacentTo> <http://marineregions.org/mrgid/1914>, <http://marineregions.org/mrgid/20225>, <http://marineregions.org/mrgid/20415>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8935>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/9019>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T03:45:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Langebaan Lagoon"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(18 -33.08,18.15 -33.08,18.15 -33.2,18 -33.2,18 -33.08)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(18 -33.04)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1030 <http://www.w3.org/2000/01/rdf-schema#label> "Les Watling".
+_:n3-1029 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-1030.
+<http://marineregions.org/mrgid/9019?t=1637984740> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1029.
+<http://marineregions.org/mrgid/20368> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Cove>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Plankiesbaai"@af.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/20225> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kraalbaai"@af.
+<http://marineregions.org/mrgid/20415> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Hills>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Postberg"@af.
+<http://marineregions.org/mrgid/8935> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Western Cape, Province of the"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/9019?t=1637984740>.
+<http://marineregions.org/mrgid/14829?t=1637410215> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#GeneralRegion>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/14829/geometries?source=145&attributeValue=14829>;
+    <http://marineregions.org/ns/ontology#isAdjacentTo> <http://marineregions.org/mrgid/1914>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2218>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/14829>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T12:10:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Namibia"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(15.3378 -26.4063)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1857 <http://www.w3.org/2000/01/rdf-schema#label> "Masdea".
+<http://marineregions.org/mrgid/14829?t=1637410215> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1857.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/2218> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Namibia"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/14829?t=1637410215>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/8/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/8/9-0.ttl>.
