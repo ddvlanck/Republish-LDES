@@ -549,3 +549,91 @@ _:n3-789 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7874?t=1638004340>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/7-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/7-0.ttl>.
+<http://marineregions.org/mrgid/47608?t=1638000242> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/48108>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/47608/geometries?source=51&attributeValue=CVI>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47474>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/2168>, <http://marineregions.org/mrgid/48108>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/47608>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T08:04:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:CVI>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cape Verde"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-22.665836334179 17.193054199392,-25.360557556586 17.193054199392,-25.360557556586 14.811109543071,-22.665836334179 14.811109543071,-22.665836334179 17.193054199392)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-24.099243254068 15.985231749772)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/48108> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cape Verde"@en.
+<http://marineregions.org/mrgid/47474> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Macaronesia"@en.
+<http://marineregions.org/mrgid/2168> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cape Verde"@en.
+_:n3-76 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "CVI".
+<urn:tdwg:wgsrpd:CVI> <https://schema.org/identifier> _:n3-76;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47608?t=1638000242>.
+<http://marineregions.org/mrgid/8082?t=1637996521> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8082/geometries?source=111&attributeValue=316>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8082>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T07:02:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:10903>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 1.458333333; Long: -24.96666667"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-10. Proposer: Galina V. Agapova, Geological Institute of the Russian Academy of Sciences (GIN RAS). Year of proposal: 1993."@en, "GEBCO: discoverer and year of discovery: Discoverer: Russian research vessel \"Akademik Nikolay Strakhov\". Year of discovery: 1988. History: Named after the Russian tectonicist, Professor V. V. Belousov (1907-1990), one of the leaders of the Russian tectonic school, primarily of vertical movement"@en, "Additional information: Minimum depth (m): 623."@en, "Coordinates in ACUF: Latitude: 1.45; Longitude: -24.966667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Belousov Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-24.966667 1.458333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+_:n3-1538 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "10903".
+<urn:acuf:ufi:10903> <https://schema.org/identifier> _:n3-1538;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D10903>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8082?t=1637996521>.
+<http://marineregions.org/mrgid/5102?t=1637996732> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/5102/geometries?source=111&attributeValue=1620>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/5102>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T07:05:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154043>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 5.616666667; Long: -26.88333333"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCGN-7. Proposer: Galina V. Agapova, Geological Institute of the Russian Academy of Sciences (GIN RAS). Year of proposal: 1987."@en, "GEBCO: discoverer and year of discovery: Discoverer: Russian research vessel \"Akademik Knipovich\". Year of discovery: 1976. History: Named from the Russian research vessel \"Akademik Knipovich\" that discovered this feature."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Knipovich Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-26.883333 5.616667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+_:n3-1616 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154043".
+<urn:acuf:ufi:-154043> <https://schema.org/identifier> _:n3-1616;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154043>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5102?t=1637996732>.
+<http://marineregions.org/mrgid/8080?t=1637999422> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8080/geometries?source=111&attributeValue=1656>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8080>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T07:50:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Albatross Seamount"@en, "Krylou Seamount"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154076>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 17.51666667; Long: -30.05"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Proposer: Russian Federal Research Institute of Fisheries and Oceanography (VNIRO). Year of proposal: 1982."@en, "GEBCO: discoverer and year of discovery: Discoverer: Russian fisheries research vessel \"Atlant\". Year of discovery: 1981. History: Named after the Russian academician A. N. Krylov (1883-1945), expert in ship-building and technology."@en, "Additional information: Minimum depth (m): 1270."@en, "Coordinates in ACUF: Latitude: 17.583333; Longitude: -30.116667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Krylov Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-30.05 17.516667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+_:n3-2623 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154076".
+<urn:acuf:ufi:-154076> <https://schema.org/identifier> _:n3-2623;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154076>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8080?t=1637999422>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/7-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/7-0.ttl>.

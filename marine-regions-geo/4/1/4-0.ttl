@@ -140,3 +140,77 @@ _:n3-2256 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25103?t=1638005622>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/1/4-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/1/4-0.ttl>.
+<http://marineregions.org/mrgid/23543?t=1638000401> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IOSRegion>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/23543/geometries?source=68&attributeValue=23543>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23537>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/23543>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T08:06:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Yakutat Basin"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-146.783657 56.747874)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-156 <http://www.w3.org/2000/01/rdf-schema#label> "Fisheries and Oceans Canada (Pacific); Marine Environmental Assessment Database.  MDE Version 5.0.1 ".
+<http://marineregions.org/mrgid/23543?t=1638000401> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-156.
+<http://marineregions.org/mrgid/23537> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IOSRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pacific"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/23543?t=1638000401>.
+<http://marineregions.org/mrgid/47540?t=1638001900> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/47961>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/47540/geometries?source=51&attributeValue=ASK>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47502>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/8684>, <http://marineregions.org/mrgid/47961>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/47540>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T08:31:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:ASK>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alaska"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-129.99053955116 71.365814209059,-173.05364990242 71.365814209059,-173.05364990242 54.367210388349,-129.99053955116 54.367210388349,-129.99053955116 71.365814209059)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-152.18516176454 64.032219378004)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47961> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alaska"@en.
+<http://marineregions.org/mrgid/47502> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Subarctic America"@en.
+<http://marineregions.org/mrgid/8684> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alaska"@en.
+_:n3-810 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "ASK".
+<urn:tdwg:wgsrpd:ASK> <https://schema.org/identifier> _:n3-810;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47540?t=1638001900>.
+<http://marineregions.org/mrgid/6620?t=1638002115> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6620/geometries?source=111&attributeValue=58>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4312>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6620>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T08:35:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152245>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 56.16666667; Long: -152.3333333"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Albatross Bank"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-152.333333 56.166667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4312> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of Alaska"@en.
+_:n3-904 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152245".
+<urn:acuf:ufi:-152245> <https://schema.org/identifier> _:n3-904;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152245>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6620?t=1638002115>.
+<http://marineregions.org/mrgid/21850?t=1637999862> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21850/geometries?source=38&attributeValue=21850>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/22755>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/4312>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21850>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T07:57:42Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of Alaska"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-149.934 58.4334)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2767 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas>.
+<http://marineregions.org/mrgid/21850?t=1637999862> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2767.
+<http://marineregions.org/mrgid/22755> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cold Temperate Northeast Pacific"@en.
+<http://marineregions.org/mrgid/4312> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of Alaska"@en.
+<https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas> <http://www.w3.org/2000/01/rdf-schema#label> "Spalding, M. D. Fox, H. E. Allen, G. R. Davidson, N. Ferdana, Z. A. Finlayson, M. Halpern, B. S. Jorge, M. A. Lombana, A. Lourie, S. A., (2007). Marine Ecoregions of the World: A Bioregionalization of Coastal and Shelf Areas. Bioscience 2007, VOL 57; numb 7, pages 573-584. doi: 10.1641/B570707".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21850?t=1637999862>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/1/4-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/1/4-0.ttl>.
