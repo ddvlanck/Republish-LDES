@@ -382,3 +382,42 @@ _:n3-1971 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25643?t=1637382934>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/9-0.ttl>.
+<http://marineregions.org/mrgid/47784?t=1636792072> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/48401>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/47784/geometries?source=51&attributeValue=PIT>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47499>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/48401>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/47784>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T08:27:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:PIT>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pitcairn Is."@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-124.77113342297 -24.325004577399,-130.10748291051 -24.325004577399,-130.10748291051 -25.082225799181,-124.77113342297 -25.082225799181,-124.77113342297 -24.325004577399)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-128.44054622075 -24.509108174144)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/48401> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pitcairn Is."@en.
+<http://marineregions.org/mrgid/47499> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South-Central Pacific"@en.
+_:n3-2432 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "PIT".
+<urn:tdwg:wgsrpd:PIT> <https://schema.org/identifier> _:n3-2432;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47784?t=1636792072>.
+<http://marineregions.org/mrgid/33655?t=1636783634> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#LowerBathyalProvinces>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/33655/geometries?source=108&attributeValue=33655>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/33655>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T06:07:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "BY5"@en, "SE Pacific Ridges"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southeast Pacific Ridges Lower Bathyal Province"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-115.35499699129 -27.171737471714)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-3044 <http://www.w3.org/2000/01/rdf-schema#label> "Watling, L.; Guinotte, J.; Clark, M.R.; Smith, C.R. (2013). A proposed biogeography of the deep ocean floor. Prog. Oceanogr. 111: 91-112 DOI: 10.1016/j.pocean.2012.11.003".
+_:n3-3043 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-3044.
+<http://marineregions.org/mrgid/33655?t=1636783634> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-3043.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/33655?t=1636783634>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/9-0.ttl>.

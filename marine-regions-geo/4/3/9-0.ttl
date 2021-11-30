@@ -412,3 +412,54 @@ _:n3-1974 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25662?t=1637383321>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/3/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/3/9-0.ttl>.
+<http://marineregions.org/mrgid/8742?t=1637378760> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#FAOMajorMarineFishingAreas>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8742/geometries?source=34&attributeValue=87>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/22541>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8742>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T03:26:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "FAO fishing area 87"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pacific, Southeast"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-96.8097 -28.5811)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-228 <http://www.w3.org/2000/01/rdf-schema#label> "FAO Major Fishing Areas, UN Atlas of the Oceans".
+_:n3-227 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-228.
+<http://marineregions.org/mrgid/8742?t=1637378760> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-227.
+<http://marineregions.org/mrgid/22541> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#FAOFishingArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "FAO Fishing Areas"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8742?t=1637378760>.
+<http://marineregions.org/mrgid/7077?t=1636789542> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7077/geometries?source=111&attributeValue=2029>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7077>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T07:45:42Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:402365>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: discoverer and year of discovery: History: This feature is close west of Easter Island and it has been named from the unique island stone figures \"Moais\"."@en, "Coordinates in ACUF: Latitude: -27.1; Longitude: -109.85"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Moai Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-109.7 -27.1)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+_:n3-2932 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "402365".
+<urn:acuf:ufi:402365> <https://schema.org/identifier> _:n3-2932;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D402365>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7077?t=1636789542>.
+<http://marineregions.org/mrgid/21738?t=1636789584> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/21865>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21738/geometries?source=56&attributeValue=21738>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/21722>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21738>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T07:46:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Easter Island"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-107.477 -26.8412)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2938 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas>.
+<http://marineregions.org/mrgid/21738?t=1636789584> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2938.
+<http://marineregions.org/mrgid/21865> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Easter Island"@en.
+<http://marineregions.org/mrgid/21722> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Realm>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Eastern Indo-Pacific"@en.
+<https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas> <http://www.w3.org/2000/01/rdf-schema#label> "Spalding, M. D. Fox, H. E. Allen, G. R. Davidson, N. Ferdana, Z. A. Finlayson, M. Halpern, B. S. Jorge, M. A. Lombana, A. Lourie, S. A., (2007). Marine Ecoregions of the World: A Bioregionalization of Coastal and Shelf Areas. Bioscience 2007, VOL 57; numb 7, pages 573-584. doi: 10.1641/B570707".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21738?t=1636789584>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/3/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/3/9-0.ttl>.

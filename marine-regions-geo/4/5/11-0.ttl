@@ -774,3 +774,35 @@ _:n3-1459 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/4326?t=1637382842>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/11-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/11-0.ttl>.
+<http://marineregions.org/mrgid/24034?t=1636797664> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/24034/geometries?source=128&attributeValue=24034>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23624>, <http://marineregions.org/mrgid/23643>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/24034>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T10:01:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Scotia Sea"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-26.237617493 -53.102487512,-63.727428436 -53.102487512,-63.727428436 -61.101024628,-26.237617493 -61.101024628,-26.237617493 -53.102487512)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-48.964392027104 -60.640767699362)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.bodc.ac.uk/resources/vocabularies/seavox/>.
+<http://marineregions.org/mrgid/23624> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southern Ocean"@en.
+<http://marineregions.org/mrgid/23643> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southwest Atlantic Ocean (20W)"@en.
+<https://www.bodc.ac.uk/resources/vocabularies/seavox/> <http://www.w3.org/2000/01/rdf-schema#label> "The SeaVoX Salt and Fresh Water Body Gazetteer".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24034?t=1636797664>.
+<http://marineregions.org/mrgid/30399?t=1636795328> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/30399/geometries?source=95&attributeValue=30399>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/30240>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/30239>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30399>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T09:22:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Maximum age: Oligocene"@en, "Coordinate information: Coordinates redefined in 2014. \nThese coordinates represent the centroid and the bounding box of the polygon from the shapefile."@en, "Drift type: Plastered and separated drift"@en, "Mean contourite type: Sandy-silty"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Weddell Sea Drift"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-51.331153 -63.318272,-53.186941 -63.318272,-53.186941 -64.285531,-51.331153 -64.285531,-51.331153 -63.318272)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-52.27971414552 -63.841635800694)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://marineregions.org/mrgid/30240> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Weddell Sea Deep Water"@en.
+<http://marineregions.org/mrgid/30239> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Sea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Wedell Sea "@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30399?t=1636795328>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/11-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/11-0.ttl>.

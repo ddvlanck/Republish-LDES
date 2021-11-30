@@ -366,3 +366,55 @@ _:n3-449 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24119?t=1637385141>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/4-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/4-0.ttl>.
+<http://marineregions.org/mrgid/7831?t=1637378062> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7831/geometries?source=110&attributeValue=3438>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>, <http://marineregions.org/mrgid/8463>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7831>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T03:14:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-156193>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 57.99215 ; Long: -174.9313 ; minLat: 57.25 ; minLong: -175.75 ; maxLat: 58.75 ; maxLong: -174.6938  (update 2020-04-22)"@en;
+    <http://www.w3.org/2004/02/skos/core#note> ": Updated coordinates (GEBCO May 2014) - \r\nPrevious values (GEBCO May 2004):\r\n[Max. Long: -175.25°]"@en, "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCGN-7. Proposer: B. N. Kotenev, Russian Federal Research Institute of Fisheries and Oceanography (VNIRO). Year of proposal: 1960."@en, "GEBCO: discoverer and year of discovery: Discoverer: Russian fisheries research vessel \"Zhemchug\". Year of discovery: 1959. History: Named from the Russian research vessel \"Zhemchug\" that discovered and explored this feature."@en, "Coordinates in ACUF: Latitude: 57.5; Longitude: -175.333333"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Zhemchug Canyon"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-169.6833 60.7517,-179.9467 60.7517,-179.9467 56.1733,-169.6833 56.1733,-169.6833 60.7517)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-174.22154 57.9043)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+<http://marineregions.org/mrgid/8463> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "United States Exclusive Economic Zone (Alaska)"@en.
+_:n3-133 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-156193".
+<urn:acuf:ufi:-156193> <https://schema.org/identifier> _:n3-133;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-156193>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7831?t=1637378062>.
+<http://marineregions.org/mrgid/33047?t=1636787473> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/33047/geometries?source=169&attributeValue=33047>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8684>, <http://marineregions.org/mrgid/4310>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/33047>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T07:11:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Grantley Harbor"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-166.22833 65.27583)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.geonames.org>.
+<http://marineregions.org/mrgid/8684> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alaska"@en.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+<http://www.geonames.org> <http://www.w3.org/2000/01/rdf-schema#label> "GeoNames".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/33047?t=1636787473>.
+<http://marineregions.org/mrgid/24121?t=1636788718> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/24121/geometries?source=128&attributeValue=24121>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23651>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/24121>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T07:31:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Anadyrskiy Zaliv"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(180 66.376121521,-179.999908447 66.376121521,-179.999908447 62.281845093,180 62.281845093,180 66.376121521)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-177.346077 64.7388411)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.bodc.ac.uk/resources/vocabularies/seavox/>.
+<http://marineregions.org/mrgid/23651> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+<https://www.bodc.ac.uk/resources/vocabularies/seavox/> <http://www.w3.org/2000/01/rdf-schema#label> "The SeaVoX Salt and Fresh Water Body Gazetteer".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24121?t=1636788718>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/4-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/4-0.ttl>.

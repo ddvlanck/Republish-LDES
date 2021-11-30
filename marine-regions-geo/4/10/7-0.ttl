@@ -1324,3 +1324,269 @@ _:n3-2268 <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2015). National co
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/49806?t=1637383263>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/10/7-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/10/7-0.ttl>.
+<http://marineregions.org/mrgid/8095?t=1637377548> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8095/geometries?source=111&attributeValue=2661>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4268>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8095>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T03:05:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "MGU Seamount"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154447>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 12.36666667; Long: 61.25"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCGN-8. Proposer: V. F. Kanaev and Galina V. Agapova, Institute of Oceanology of the Russian Academy of Sciences (IO RAS). Year of proposal: 1967."@en, "GEBCO: discoverer and year of discovery: Discoverer: Russian research vessel \"Vityaz\". Year of discovery: 1967. History: Named after \"Sadko\", the hero of Russian folklore, singer and traveller, who found himself on the bottom of the Indian Ocean, in the Kingdom of Neptune."@en, "Additional information: Formerly, MGU Seamount. Shown as MGU Seamount in the ACUF Gazetteer."@en, "Coordinates in ACUF: Latitude: 12.333333; Longitude: 61.25"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sadko Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(61.25 12.366667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4268> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arabian Sea"@en.
+_:n3-57 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154447".
+<urn:acuf:ufi:-154447> <https://schema.org/identifier> _:n3-57;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154447>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8095?t=1637377548>.
+<http://marineregions.org/mrgid/21720?t=1637379541> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Realm>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/21771>, <http://marineregions.org/mrgid/21772>, <http://marineregions.org/mrgid/21773>, <http://marineregions.org/mrgid/21774>, <http://marineregions.org/mrgid/21775>, <http://marineregions.org/mrgid/21776>, <http://marineregions.org/mrgid/21777>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21720/geometries?source=35&attributeValue=21720>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/22544>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21720>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T03:39:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Western Indo-Pacific"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(60.5973 4.97831)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-381 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas>.
+<http://marineregions.org/mrgid/21720?t=1637379541> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-381.
+<http://marineregions.org/mrgid/21771> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Andaman"@en.
+<http://marineregions.org/mrgid/21772> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Somali/Arabian"@en.
+<http://marineregions.org/mrgid/21773> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Western Indian Ocean"@en.
+<http://marineregions.org/mrgid/21774> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Central Indian Ocean Islands"@en.
+<http://marineregions.org/mrgid/21775> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bay of Bengal"@en.
+<http://marineregions.org/mrgid/21776> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Red Sea and Gulf of Aden"@en.
+<http://marineregions.org/mrgid/21777> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "West and South Indian Shelf"@en.
+<http://marineregions.org/mrgid/22544> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#GeneralRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Realms"@en.
+<https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas> <http://www.w3.org/2000/01/rdf-schema#label> "Spalding, M. D. Fox, H. E. Allen, G. R. Davidson, N. Ferdana, Z. A. Finlayson, M. Halpern, B. S. Jorge, M. A. Lombana, A. Lourie, S. A., (2007). Marine Ecoregions of the World: A Bioregionalization of Coastal and Shelf Areas. Bioscience 2007, VOL 57; numb 7, pages 573-584. doi: 10.1641/B570707".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21720?t=1637379541>.
+<http://marineregions.org/mrgid/5762?t=1637380295> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/5762/geometries?source=111&attributeValue=175>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4268>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/5762>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T03:51:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Araabia Nõgu"@ee, "Arabian Allas"@fi, "Arabisch Bekken"@nl, "Arabiska Bäckenet"@sv, "Araviyskaya Kotlovina"@ru, "Аравийская Котловина"@ru;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152385>;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: 11.5; Longitude: 65"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arabian Basin"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(65 12)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4268> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arabian Sea"@en.
+_:n3-509 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152385".
+<urn:acuf:ufi:-152385> <https://schema.org/identifier> _:n3-509;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152385>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5762?t=1637380295>.
+<http://marineregions.org/mrgid/49309?t=1636807284> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContiguousZone>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/49309/geometries?source=180&attributeValue=49309>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8353>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/49309>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T12:41:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=8353&zone=eez_24nm>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Yemeni 24 NM"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(54.94469 16.46986,41.51335 16.46986,41.51335 11.70626,54.94469 11.70626,54.94469 16.46986)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(49.38628 13.59148)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/8353> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Yemeni Exclusive Economic Zone"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Contiguous Zones (24NM), version 3. Available online at http://www.marineregions.org/. https://doi.org/10.14284/384".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/49309?t=1636807284>.
+<http://marineregions.org/mrgid/48439?t=1636801574> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48439/geometries?source=50&attributeValue=SOC-OO>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47818>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/47818>, <http://marineregions.org/mrgid/9128>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48439>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T11:06:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:SOC-OO>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Socotra"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(54.476943969727 12.717777252197,52.083053588867 12.717777252197,52.083053588867 12.106109619141,54.476943969727 12.106109619141,54.476943969727 12.717777252197)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(53.783301248163 12.491939226048)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47818> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Socotra"@en.
+<http://marineregions.org/mrgid/9128> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Socotra"@en.
+_:n3-1073 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "SOC-OO".
+<urn:tdwg:wgsrpd:SOC-OO> <https://schema.org/identifier> _:n3-1073;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48439?t=1636801574>.
+<http://marineregions.org/mrgid/50352?t=1636802895> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Coast>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/50352/geometries?source=136&attributeValue=50352>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2187>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/50352>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T11:28:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: Derived from ESRI World Countries 2014"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Somali Coast"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(51.4156491757 11.9890886546,41.5662163492 11.9890886546,41.5662163492 -1.65406811225,51.4156491757 -1.65406811225,51.4156491757 11.9890886546)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(50.597881267056 9.039121796272)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1210 <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2015). National coastlines based on ESRI Countries (2014)".
+<http://marineregions.org/mrgid/50352?t=1636802895> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1210.
+<http://marineregions.org/mrgid/2187> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Federal Republic of Somalia"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/50352?t=1636802895>.
+<http://marineregions.org/mrgid/50400?t=1636803736> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MesopelagicEcoregions>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/50400/geometries?source=215&attributeValue=50400>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/50384>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/50400>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T11:42:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Somali Current"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(60.685625 15.489593,42.289844 15.489593,42.289844 -0.964426,60.685625 -0.964426,60.685625 15.489593)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(51.105646 8.797083)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1323 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.sciencedirect.com/science/article/pii/S0967063717301437>.
+<http://marineregions.org/mrgid/50400?t=1636803736> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1323.
+<http://marineregions.org/mrgid/50384> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MesopelagicEcoregions>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mesopelagic ecoregions of the world's oceans"@en.
+<https://www.sciencedirect.com/science/article/pii/S0967063717301437> <http://www.w3.org/2000/01/rdf-schema#label> "Sutton et al. (2017). A global biogeographic classification of the mesopelagic zone. Deep-Sea Res., Part 1, Oceanogr. Res. Pap. 126: 85-102".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/50400?t=1636803736>.
+<http://marineregions.org/mrgid/8354?t=1636798676> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/22775>, <http://marineregions.org/mrgid/25396>, <http://marineregions.org/mrgid/25401>, <http://marineregions.org/mrgid/25415>, <http://marineregions.org/mrgid/49077>, <http://marineregions.org/mrgid/49310>, <http://marineregions.org/mrgid/49500>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8354/geometries?source=79&attributeValue=8354>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2251>;
+    <http://marineregions.org/ns/ontology#isPartlyPartOf> <http://marineregions.org/mrgid/4268>, <http://marineregions.org/mrgid/4267>, <http://marineregions.org/mrgid/4266>;
+    <http://marineregions.org/ns/ontology#partlyContains> <http://marineregions.org/mrgid/7308>, <http://marineregions.org/mrgid/7351>, <http://marineregions.org/mrgid/7353>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8354>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T10:17:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=8354>;
+    <http://www.w3.org/2004/02/skos/core#note> "Centroid calculation method: Centroid"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Omani Exclusive Economic Zone"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(63.36954 26.7375,53.10934 26.7375,53.10934 13.76417,63.36954 13.76417,63.36954 26.7375)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(58.66998 18.94915)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/22775> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Omani Exclusive Economic Zone [Eastern part]"@en.
+<http://marineregions.org/mrgid/25396> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Omani part of the Gulf of Oman"@en.
+<http://marineregions.org/mrgid/25401> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Omani part of the Persian Gulf"@en.
+<http://marineregions.org/mrgid/25415> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Omani part of the Arabian Sea"@en.
+<http://marineregions.org/mrgid/49077> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TerritorialSea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Omani 12 NM"@en.
+<http://marineregions.org/mrgid/49310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContiguousZone>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Omani 24 NM"@en.
+<http://marineregions.org/mrgid/49500> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#InternalWaters>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Omani Internal Waters"@en.
+<http://marineregions.org/mrgid/2251> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Oman"@en.
+<http://marineregions.org/mrgid/4268> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arabian Sea"@en.
+<http://marineregions.org/mrgid/4267> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of Oman"@en.
+<http://marineregions.org/mrgid/4266> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Persian Gulf"@en.
+<http://marineregions.org/mrgid/7308> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#FractureZone>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Owen Fracture Zone"@en.
+<http://marineregions.org/mrgid/7351> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ridge>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "East Sheba Ridge"@en.
+<http://marineregions.org/mrgid/7353> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ridge>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Murray Ridge"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Maritime Boundaries and Exclusive Economic Zones (200NM), version 11. Available online at http://www.marineregions.org/. https://doi.org/10.14284/386".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8354?t=1636798676>.
+<http://marineregions.org/mrgid/5789?t=1636800749> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/5789/geometries?source=111&attributeValue=1118>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4268>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/5789>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T10:52:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-153499>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 16.55; Long: 53.46666667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Genista Bank"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(53.466667 16.55)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4268> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arabian Sea"@en.
+_:n3-1809 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153499".
+<urn:acuf:ufi:-153499> <https://schema.org/identifier> _:n3-1809;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153499>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5789?t=1636800749>.
+<http://marineregions.org/mrgid/50316?t=1636794823> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Coast>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/50316/geometries?source=136&attributeValue=50316>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2251>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/50316>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T09:13:43Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: Derived from ESRI World Countries 2014"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Omani Coast"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(59.8382891417 26.5066498518,53.1091904644 26.5066498518,53.1091904644 16.6494832038,59.8382891417 16.6494832038,59.8382891417 26.5066498518)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(57.815743125143 20.165568657669)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1950 <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2015). National coastlines based on ESRI Countries (2014)".
+<http://marineregions.org/mrgid/50316?t=1636794823> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1950.
+<http://marineregions.org/mrgid/2251> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Oman"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/50316?t=1636794823>.
+<http://marineregions.org/mrgid/56958?t=1636790707> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/56958/geometries?source=95&attributeValue=56958>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/56795>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/56805>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/56958>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T08:05:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Drift type: Patch "@en, "Prevailing contourite type: silty"@en, "Maximum age: Late-Miocene"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sawqirah Drift P1"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(57.777 17.818,57.72 17.818,57.72 17.739,57.777 17.739,57.777 17.818)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(57.7493473 17.7726412)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2302 <http://www.w3.org/2000/01/rdf-schema#label> "Rodriguez, M., Bourget, J., Chamot-Rooke, N., Huchon, P., Fournier, M., Delescluse, M., & Zaragosi, S. (2016). The Sawqirah contourite drift system in the Arabian Sea (NW Indian Ocean): A case study of interactions between margin reactivation and contouritic processes. Marine Geology, 381, 1-16.".
+_:n3-2301 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-2302.
+<http://marineregions.org/mrgid/56958?t=1636790707> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2301.
+<http://marineregions.org/mrgid/56795> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Intermediate Indian Water"@en.
+<http://marineregions.org/mrgid/56805> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContouriteDepositionalSystem>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sawqirah CDS"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/56958?t=1636790707>.
+<http://marineregions.org/mrgid/8561?t=1636786883> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#LargeMarineEcosystem>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8561/geometries?source=24&attributeValue=32>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/22539>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/4268>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8561>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T07:01:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://lme.edc.uri.edu/index.php/lme-briefs/40-arabian-sea-lme-32>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arabian Sea"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(78.01475 30.51916,42.50861 30.51916,42.50861 5.98041,78.01475 5.98041,78.01475 30.51916)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(62.84666 16.26404)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2672 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.lmehub.net/>.
+<http://marineregions.org/mrgid/8561?t=1636786883> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2672.
+<http://marineregions.org/mrgid/22539> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#GeneralRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Large Marine Ecosystems"@en.
+<http://marineregions.org/mrgid/4268> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arabian Sea"@en.
+<https://www.lmehub.net/> <http://www.w3.org/2000/01/rdf-schema#label> "Large Marine Ecosystems of the World".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8561?t=1636786883>.
+<http://marineregions.org/mrgid/56959?t=1636786010> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/56959/geometries?source=95&attributeValue=56959>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/56795>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/56805>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/56959>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T06:46:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Drift type: Patch "@en, "Prevailing contourite type: silty"@en, "Maximum age: Late-Miocene"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sawqirah Drift P2"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(57.8 17.791,57.75 17.791,57.75 17.689,57.8 17.689,57.8 17.791)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(57.7698621 17.7386013)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-3187 <http://www.w3.org/2000/01/rdf-schema#label> "Rodriguez, M., Bourget, J., Chamot-Rooke, N., Huchon, P., Fournier, M., Delescluse, M., & Zaragosi, S. (2016). The Sawqirah contourite drift system in the Arabian Sea (NW Indian Ocean): A case study of interactions between margin reactivation and contouritic processes. Marine Geology, 381, 1-16.".
+_:n3-3186 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-3187.
+<http://marineregions.org/mrgid/56959?t=1636786010> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-3186.
+<http://marineregions.org/mrgid/56795> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Intermediate Indian Water"@en.
+<http://marineregions.org/mrgid/56805> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContouriteDepositionalSystem>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sawqirah CDS"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/56959?t=1636786010>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/10/7-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/10/7-0.ttl>.

@@ -210,3 +210,87 @@ _:n3-1926 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7521?t=1637386906>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/3/8-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/3/8-0.ttl>.
+<http://marineregions.org/mrgid/7529?t=1637379375> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#FractureZone>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7529/geometries?source=110&attributeValue=294>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7529>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T03:36:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152537>;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: -15; Longitude: -100"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bauer Fracture Zone"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-98 -14.666667,-101.5 -14.666667,-101.5 -15,-98 -15,-98 -14.666667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-99.75 -14.833334)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+_:n3-330 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152537".
+<urn:acuf:ufi:-152537> <https://schema.org/identifier> _:n3-330;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152537>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7529?t=1637379375>.
+<http://marineregions.org/mrgid/21872?t=1637376864> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21872/geometries?source=38&attributeValue=21872>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/21770>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21872>;
+    <http://purl.org/dc/terms/modified> "2021-11-20T02:54:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Western Galapagos Islands"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-93.1689 -0.984982)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-706 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas>.
+<http://marineregions.org/mrgid/21872?t=1637376864> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-706.
+<http://marineregions.org/mrgid/21770> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Galapagos"@en.
+<https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas> <http://www.w3.org/2000/01/rdf-schema#label> "Spalding, M. D. Fox, H. E. Allen, G. R. Davidson, N. Ferdana, Z. A. Finlayson, M. Halpern, B. S. Jorge, M. A. Lombana, A. Lourie, S. A., (2007). Marine Ecoregions of the World: A Bioregionalization of Coastal and Shelf Areas. Bioscience 2007, VOL 57; numb 7, pages 573-584. doi: 10.1641/B570707".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21872?t=1637376864>.
+<http://marineregions.org/mrgid/26668?t=1636804900> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Hills>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/26929>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/26668/geometries?source=111&attributeValue=6043>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/26668>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T12:01:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -1.366667; Long: -102.458"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-24. Proposer: Zhanhai Zhang, State Oceanic Administration (SOA), Beijing, China. Year of proposal: 2011."@en, "GEBCO: discoverer and year of discovery: Discoverer: Chinese research vessel \"Dayang Yihao\". Year of discovery: 2008. History: The feature was discovered during the 20th Cruise conducted by the China Ocean Mineral Resources R&D Association on board the research vessel \"Dayang Yihao\" in August 20"@en, "Additional information: There is a small caldera on the top of this feature. Minimum depth (m): 2625. Maximum depth (m): 2875. Total relief (m): 250. Dimension: 3.5 km × 3.5 km."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Niaochao Hill"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-102.458 -1.367)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/26929> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Hills>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Central Point of the Niaochao Hill"@en.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/26668?t=1636804900>.
+<http://marineregions.org/mrgid/33677?t=1636807309> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#AbyssalProvinces>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/33677/geometries?source=106&attributeValue=33677>;
+    <http://marineregions.org/ns/ontology#isPartlyPartOf> <http://marineregions.org/mrgid/4314>, <http://marineregions.org/mrgid/1908>, <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/33677>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T12:41:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "AB9"@en, "East Pacific Basins"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chile, Peru, Guatemala Basins Abyssal Province"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-93.241369889404 -14.107337320991)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-982 <http://www.w3.org/2000/01/rdf-schema#label> "Watling, L.; Guinotte, J.; Clark, M.R.; Smith, C.R. (2013). A proposed biogeography of the deep ocean floor. Prog. Oceanogr. 111: 91-112 DOI: 10.1016/j.pocean.2012.11.003".
+_:n3-981 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-982.
+<http://marineregions.org/mrgid/33677?t=1636807309> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-981.
+<http://marineregions.org/mrgid/4314> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of California"@en.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/33677?t=1636807309>.
+<http://marineregions.org/mrgid/50392?t=1636802855> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MesopelagicEcoregions>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/50392/geometries?source=215&attributeValue=50392>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/50384>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/50392>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T11:27:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southern Central Pacific"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(180 3.383942,-180 3.383942,-180 -45.494995,180 -45.494995,180 3.383942)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-97.319657 -18.513944)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1206 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.sciencedirect.com/science/article/pii/S0967063717301437>.
+<http://marineregions.org/mrgid/50392?t=1636802855> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1206.
+<http://marineregions.org/mrgid/50384> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MesopelagicEcoregions>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mesopelagic ecoregions of the world's oceans"@en.
+<https://www.sciencedirect.com/science/article/pii/S0967063717301437> <http://www.w3.org/2000/01/rdf-schema#label> "Sutton et al. (2017). A global biogeographic classification of the mesopelagic zone. Deep-Sea Res., Part 1, Oceanogr. Res. Pap. 126: 85-102".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/50392?t=1636802855>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/3/8-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/3/8-0.ttl>.
