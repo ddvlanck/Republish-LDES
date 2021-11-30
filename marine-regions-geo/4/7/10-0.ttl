@@ -20,3 +20,40 @@ _:n3-820 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/35025?t=1638016253>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/7/10-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/7/10-0.ttl>.
+<http://marineregions.org/mrgid/8181?t=1637986831> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8181/geometries?source=111&attributeValue=3409>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8181>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:20:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Junov Seamount"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:343909>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -43.50833333; Long: -4.508333333"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-12. Proposer: Galina V. Agapova, Geological Institute of the Russian Academy of Sciences (GIN RAS). Year of proposal: 1997."@en, "GEBCO: discoverer and year of discovery: Discoverer: Russian fisheries research vessel \"Atlant\". Year of discovery: 1980. History: Named after the Russian geophysicist A. Yu. Yunov (1926-1996), senior scientist on the Arctic expeditions of Soyuzmorgeo (Murmansk)."@en, "Additional information: Minimum depth (m): 489."@en, "Coordinates in ACUF: Latitude: -43.5; Longitude: -4.5"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Yunov Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-4.508333 -43.508333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+_:n3-2432 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "343909".
+<urn:acuf:ufi:343909> <https://schema.org/identifier> _:n3-2432;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D343909>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8181?t=1637986831>.
+<http://marineregions.org/mrgid/21501?t=1637986902> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#LonghurstProvince>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21501/geometries?source=44&attributeValue=SANT>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/22538>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21501>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:21:42Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "SANT"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Subantarctic Province"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-3.58357202195 -51.0331185477)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2460 <http://www.w3.org/2000/01/rdf-schema#label> "Ecological geography of the Sea (Longhurst, 1998)".
+_:n3-2459 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-2460.
+<http://marineregions.org/mrgid/21501?t=1637986902> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2459.
+<http://marineregions.org/mrgid/22538> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#LonghurstProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Longhurst Provinces"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21501?t=1637986902>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/7/10-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/7/10-0.ttl>.

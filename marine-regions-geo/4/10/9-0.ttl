@@ -155,3 +155,95 @@ _:n3-1920 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48907?t=1637998066>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/10/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/10/9-0.ttl>.
+<http://marineregions.org/mrgid/7261?t=1637994370> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Plateau>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7261/geometries?source=110&attributeValue=1815>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>, <http://marineregions.org/mrgid/8348>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7261>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:26:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Madagascar Ridge"@en, "Madagascar Rise"@en, "Madagaskarskiy Khrebet"@ru, "South Madagascar Ridge"@en, "South Madagascar Rise"@en, "Мадагаскарский Хребет"@ru;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154269>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-13."@en, "Coordinates in ACUF: Latitude: -30; Longitude: 45"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Madagascar Plateau"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(46 -27,45 -27,45 -34,46 -34,46 -27)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(45.517925101629 -30.501896970162)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/8348> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Madagascan Exclusive Economic Zone"@en.
+_:n3-422 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154269".
+<urn:acuf:ufi:-154269> <https://schema.org/identifier> _:n3-422;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154269>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7261?t=1637994370>.
+<http://marineregions.org/mrgid/6774?t=1637995778> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/14915>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6774/geometries?source=111&attributeValue=688>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6774>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:49:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Crozet’ Nõgu"@ee, "Crozet’n Allas"@fi, "Crozetbäckenet"@sv, "East Crozet Basin"@en, "Kerguelen Basin"@en, "Kotlovina Kroze"@ru, "Southwest Indian Basin"@en, "Tsentral’no-Indiyskaya Kotlovina"@ru, "Котловина Крозе"@ru, "Котловина Кроэе"@ru, "Центрально-Индийская Котловина"@ru;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-153068>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Crozet Basin"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(60 -39)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/14915> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "American Bay"@en.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+_:n3-803 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153068".
+<urn:acuf:ufi:-153068> <https://schema.org/identifier> _:n3-803;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153068>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6774?t=1637995778>.
+<http://marineregions.org/mrgid/7126?t=1637989321> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#GeneralSeaArea>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7126/geometries?source=151&attributeValue=7126>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7126>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T05:02:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "West Indian Ocean"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(55 -28)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.fao.org/3/CA2741EN/ca2741en.pdf>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://www.fao.org/3/CA2741EN/ca2741en.pdf> <http://www.w3.org/2000/01/rdf-schema#label> "ASFA thesaurus".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7126?t=1637989321>.
+<http://marineregions.org/mrgid/48864?t=1637992375> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48864/geometries?source=111&attributeValue=6401>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48864>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T05:52:55Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-27. Proposer: Geological Institute of the Russian Academy of Sciences (GIN RAS). Year of proposal: 2014."@en, "GEBCO: discoverer and year of discovery: Discoverer: Russian research vessel \"Akademik Nikolay Strakhov\". Year of discovery: 2012. History: Named after Yu. P. Neprochnov  (1930-2010), a Russian expert in seismic researches of oceanic crust. He participated in, and organized many expeditions in t"@en, "Additional information: This feature is located north of Southwest Indian Ridge, near the Melville Fracture Zone. Minimum depth (m): 3088. Maximum depth (m): 4750. Total relief (m): 1600. Dimension: 16 km x 11 km."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Neprochnov Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(59.89 -23.3183)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48864?t=1637992375>.
+<http://marineregions.org/mrgid/6497?t=1637987841> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6497/geometries?source=111&attributeValue=1814>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6497>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:37:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Madagaskar-Becken"@de, "Madagaskarskaya Kotlovina"@ru, "Mauritius Basin"@en, "Reunion Basin"@en, "Мадагаскарская Котловина"@ru;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154268>;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: -27; Longitude: 53"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Madagascar Basin"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(54.5 -27)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+_:n3-2786 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154268".
+<urn:acuf:ufi:-154268> <https://schema.org/identifier> _:n3-2786;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154268>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6497?t=1637987841>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/10/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/10/9-0.ttl>.

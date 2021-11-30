@@ -74,3 +74,45 @@ _:n3-2586 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6823?t=1638000884>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/12-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/12-0.ttl>.
+<http://marineregions.org/mrgid/6859?t=1637991820> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Knolls>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6859/geometries?source=111&attributeValue=949>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1907>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6859>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T05:43:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:319886>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -71.98333; Long: -24.36667"@en;
+    <http://www.w3.org/2004/02/skos/core#note> ": Corrected latitude/longitude (GEBCO October 2002 inaccuracy: 72°2'0\"S/24°0'0\"W)\r\nUpdated with GEBCO May 2014."@en, "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-12. Proposer: Heinrich Hinze, Alfred-Wegener Institute for Polar and Marine Research (AWI), Germany. Year of proposal: 1997."@en, "GEBCO: discoverer and year of discovery: Discoverer: German research vessel \"Explora\". Year of discovery: 1977. History: Named from the German research vessel \"Explora\", which carried out geophysical research work in this part of the Weddell Sea, 1977-1980."@en, "Additional information: Minimum depth (m): 3605."@en, "Coordinates in ACUF: Latitude: -72; Longitude: -24"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Explora Knoll"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-24.36666672 -71.98333332)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1907> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southern Ocean"@en.
+_:n3-1714 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "319886".
+<urn:acuf:ufi:319886> <https://schema.org/identifier> _:n3-1714;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D319886>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6859?t=1637991820>.
+<http://marineregions.org/mrgid/7007?t=1637986072> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Plateau>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7007/geometries?source=111&attributeValue=2467>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1907>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7007>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:07:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Polarstern Knoll"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:320403>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-12. Proposer: Heinrich Hinze, Alfred-Wegener Institute for Polar and Marine Research (AWI), Germany. Year of proposal: 1997."@en, "GEBCO: discoverer and year of discovery: History: Named from the German research vessel \"Polarstern\", which carried out research work in the Weddell Sea from her first commissioning in 1982."@en, "Additional information: Minimum depth (m): 3663."@en, "Coordinates in ACUF: Latitude: -71.416667; Longitude: -24.783333"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Polarstern Plateau"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-24.5 -71.2)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1907> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southern Ocean"@en.
+_:n3-2119 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "320403".
+<urn:acuf:ufi:320403> <https://schema.org/identifier> _:n3-2119;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D320403>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7007?t=1637986072>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/12-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/12-0.ttl>.

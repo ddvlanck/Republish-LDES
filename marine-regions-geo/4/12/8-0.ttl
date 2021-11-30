@@ -508,3 +508,154 @@ _:n3-2487 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6514?t=1637999073>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/8-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/8-0.ttl>.
+<http://marineregions.org/mrgid/7291?t=1637993289> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7291/geometries?source=110&attributeValue=3341>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7291>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:08:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Fosse de Wharton"@fr, "India-Australia Basin"@en, "Indian-Australian Basin"@en, "Indo-Australian Basin"@en, "West Australian Basin"@en, "Wharton Deep"@en, "Zapadno-Avstraliyskaya Kotlovina"@ru, "Западно-Австралийская Котловина"@ru;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-156094>;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: -21; Longitude: 100"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Wharton Basin"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(110 -14,93 -14,93 -23,110 -23,110 -14)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(101.72415049015 -18.693369744207)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+_:n3-127 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-156094".
+<urn:acuf:ufi:-156094> <https://schema.org/identifier> _:n3-127;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-156094>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7291?t=1637993289>.
+<http://marineregions.org/mrgid/8308?t=1637993473> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/7332>, <http://marineregions.org/mrgid/25528>, <http://marineregions.org/mrgid/49038>, <http://marineregions.org/mrgid/49271>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8308/geometries?source=79&attributeValue=8308>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>, <http://marineregions.org/mrgid/8589>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/25528>;
+    <http://marineregions.org/ns/ontology#partlyContains> <http://marineregions.org/mrgid/7326>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8308>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:11:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=8308>;
+    <http://www.w3.org/2004/02/skos/core#note> "Centroid calculation method: Centroid"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cocos Islands Exclusive Economic Zone"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(100.33611 -8.47174,93.41159 -8.47174,93.41159 -15.55884,100.33611 -15.55884,100.33611 -8.47174)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(96.85434 -12.03146)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/7332> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Rise>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Raitt Rise"@en.
+<http://marineregions.org/mrgid/25528> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cocos Islands part of the Indian Ocean"@en.
+<http://marineregions.org/mrgid/49038> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TerritorialSea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cocos Islands 12 NM"@en.
+<http://marineregions.org/mrgid/49271> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContiguousZone>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cocos Islands 24 NM"@en.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/8589> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#DependentState>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cocos Islands"@en.
+<http://marineregions.org/mrgid/7326> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ridge>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Investigator Ridge"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Maritime Boundaries and Exclusive Economic Zones (200NM), version 11. Available online at http://www.marineregions.org/. https://doi.org/10.14284/386".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8308?t=1637993473>.
+<http://marineregions.org/mrgid/7335?t=1637995239> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7335/geometries?source=110&attributeValue=1158>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>, <http://marineregions.org/mrgid/8309>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7335>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:40:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Golden Bo’sunbird Seamounts"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:94748>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-11. Proposer: Robert L. Fisher, Scripps Institution of Oceanography (SIO), USA. Year of proposal: 1994."@en, "GEBCO: discoverer and year of discovery: Discoverer: U.S. research vessel \"Argo\". Year of discovery: 1960. History: Named from the \"Golden Bo'sunbird\" (aka white-tailed tropic bird or Phaeton lepturus fulvus), a striking apricot-gold seabird believed endemic to Christmas Island."@en, "Coordinates in ACUF: Latitude: -11.383333; Longitude: 104.466667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Golden Bo'sunbird seamounts"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(105.25 -11.383333,103.166667 -11.383333,103.166667 -11.8,105.25 -11.8,105.25 -11.383333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(104.18981882457 -11.472659083119)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/8309> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Christmas Island Exclusive Economic Zone"@en.
+_:n3-666 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "94748".
+<urn:acuf:ufi:94748> <https://schema.org/identifier> _:n3-666;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D94748>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7335?t=1637995239>.
+<http://marineregions.org/mrgid/21917?t=1637995789> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21917/geometries?source=38&attributeValue=21917>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/21732>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21917>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:49:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ningaloo"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(112.603 -21.9349)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-807 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas>.
+<http://marineregions.org/mrgid/21917?t=1637995789> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-807.
+<http://marineregions.org/mrgid/21732> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northwest Australian Shelf"@en.
+<https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas> <http://www.w3.org/2000/01/rdf-schema#label> "Spalding, M. D. Fox, H. E. Allen, G. R. Davidson, N. Ferdana, Z. A. Finlayson, M. Halpern, B. S. Jorge, M. A. Lombana, A. Lourie, S. A., (2007). Marine Ecoregions of the World: A Bioregionalization of Coastal and Shelf Areas. Bioscience 2007, VOL 57; numb 7, pages 573-584. doi: 10.1641/B570707".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21917?t=1637995789>.
+<http://marineregions.org/mrgid/21963?t=1637989572> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21963/geometries?source=38&attributeValue=21963>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/21733>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21963>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T05:06:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sunda Shelf/Java Sea"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(108.834 0.398119)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1071 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas>.
+<http://marineregions.org/mrgid/21963?t=1637989572> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1071.
+<http://marineregions.org/mrgid/21733> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sunda Shelf"@en.
+<https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas> <http://www.w3.org/2000/01/rdf-schema#label> "Spalding, M. D. Fox, H. E. Allen, G. R. Davidson, N. Ferdana, Z. A. Finlayson, M. Halpern, B. S. Jorge, M. A. Lombana, A. Lourie, S. A., (2007). Marine Ecoregions of the World: A Bioregionalization of Coastal and Shelf Areas. Bioscience 2007, VOL 57; numb 7, pages 573-584. doi: 10.1641/B570707".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21963?t=1637989572>.
+<http://marineregions.org/mrgid/49272?t=1637990971> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContiguousZone>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/49272/geometries?source=180&attributeValue=49272>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8309>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/49272>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T05:29:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=8309&zone=eez_24nm>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Christmas Island 24 NM"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(106.11908 -10.01027,105.12682 -10.01027,105.12682 -10.97267,106.11908 -10.97267,106.11908 -10.01027)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(105.62876 -10.48506)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/8309> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Christmas Island Exclusive Economic Zone"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Contiguous Zones (24NM), version 3. Available online at http://www.marineregions.org/. https://doi.org/10.14284/384".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/49272?t=1637990971>.
+<http://marineregions.org/mrgid/49271?t=1637992261> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContiguousZone>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/49271/geometries?source=180&attributeValue=49271>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8308>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/49271>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T05:51:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=8308&zone=eez_24nm>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cocos Islands 24 NM"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(97.33946 -11.42005,96.40716 -11.42005,96.40716 -12.61306,97.33946 -12.61306,97.33946 -11.42005)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(96.85339 -12.02819)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/8308> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cocos Islands Exclusive Economic Zone"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Contiguous Zones (24NM), version 3. Available online at http://www.marineregions.org/. https://doi.org/10.14284/384".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/49271?t=1637992261>.
+<http://marineregions.org/mrgid/6518?t=1637988798> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6518/geometries?source=111&attributeValue=2095>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6518>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:53:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Muirfield Reef"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154562>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -13.16666667; Long: 96.08333333"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: Shown as Muirfield Reef in the ACUF Gazetteer."@en, "Coordinates in ACUF: Latitude: -13.216667; Longitude: 96.083333"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Muirfield Bank"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(96.083333 -13.166667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+_:n3-3059 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154562".
+<urn:acuf:ufi:-154562> <https://schema.org/identifier> _:n3-3059;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154562>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6518?t=1637988798>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/8-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/8-0.ttl>.

@@ -50,3 +50,71 @@ _:n3-158 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24022?t=1638003253>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/3-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/3-0.ttl>.
+<http://marineregions.org/mrgid/7427?t=1637994432> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7427/geometries?source=110&attributeValue=1254>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1906>, <http://marineregions.org/mrgid/8463>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7427>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:27:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-153676>;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: 73.5; Longitude: -160"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Hanna Canyon"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-158 74,-161 74,-161 73.833333,-158 73.833333,-158 74)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-159.50756464127 73.921895900697)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1906> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arctic Ocean"@en.
+<http://marineregions.org/mrgid/8463> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "United States Exclusive Economic Zone (Alaska)"@en.
+_:n3-449 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153676".
+<urn:acuf:ufi:-153676> <https://schema.org/identifier> _:n3-449;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153676>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7427?t=1637994432>.
+<http://marineregions.org/mrgid/4257?t=1637986538> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/25251>, <http://marineregions.org/mrgid/25252>, <http://marineregions.org/mrgid/34152>, <http://marineregions.org/mrgid/34465>, <http://marineregions.org/mrgid/34553>, <http://marineregions.org/mrgid/35659>, <http://marineregions.org/mrgid/58725>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/4257/geometries?source=25&attributeValue=12>;
+    <http://marineregions.org/ns/ontology#isAdjacentTo> <http://marineregions.org/mrgid/32857>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1906>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/8534>, <http://marineregions.org/mrgid/21829>, <http://marineregions.org/mrgid/24022>;
+    <http://marineregions.org/ns/ontology#partlyContains> <http://marineregions.org/mrgid/8463>, <http://marineregions.org/mrgid/26860>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/4257>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:15:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chukchi Sea"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(177.478756114 71.7113098691,-156.479905844 71.7113098691,-156.479905844 65.9343791651,177.478756114 65.9343791651,177.478756114 71.7113098691)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-171.5800034 69.400538)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2309 <http://www.w3.org/2000/01/rdf-schema#label> "(1953). Limits of oceans and seas. 3rd edition. IHO Special Publication, 23. International Hydrographic Organization (IHO): Monaco. 38 pp.".
+_:n3-2308 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-2309.
+<http://marineregions.org/mrgid/4257?t=1637986538> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2308.
+<http://marineregions.org/mrgid/25251> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "United States (Alaska) part of the Chukchi Sea"@en.
+<http://marineregions.org/mrgid/25252> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Russian part of the Chukchi Sea"@en.
+<http://marineregions.org/mrgid/34152> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Reef>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Herald Reef"@en.
+<http://marineregions.org/mrgid/34465> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SubmarineValleys>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ogotoruk Valley"@en.
+<http://marineregions.org/mrgid/34553> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SubmarineValleys>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Hope Valley"@en.
+<http://marineregions.org/mrgid/35659> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Herald Bank"@en.
+<http://marineregions.org/mrgid/58725> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Shelf>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chukchi Shelf"@en.
+<http://marineregions.org/mrgid/32857> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#InhabitedPlace>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pitlekai"@en.
+<http://marineregions.org/mrgid/1906> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arctic Ocean"@en.
+<http://marineregions.org/mrgid/8534> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#LargeMarineEcosystem>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northern Bering - Chukchi Seas"@en.
+<http://marineregions.org/mrgid/21829> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chukchi Sea"@en.
+<http://marineregions.org/mrgid/24022> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chukchi Sea"@en.
+<http://marineregions.org/mrgid/8463> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "United States Exclusive Economic Zone (Alaska)"@en.
+<http://marineregions.org/mrgid/26860> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WorldMarineHeritageSite>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Natural System of Wrangel Island Reserve"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/4257?t=1637986538>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/3-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/3-0.ttl>.

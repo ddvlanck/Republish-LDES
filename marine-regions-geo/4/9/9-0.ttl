@@ -463,3 +463,214 @@ _:n3-2553 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7258?t=1637999244>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/9/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/9/9-0.ttl>.
+<http://marineregions.org/mrgid/7646?t=1637993366> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7646/geometries?source=110&attributeValue=3186>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>, <http://marineregions.org/mrgid/8396>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7646>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:09:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155870>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-13."@en, "Coordinates in ACUF: Latitude: -30.083333; Longitude: 32.216667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tugela Canyon"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(32.7 -29.5,31.75 -29.5,31.75 -30.5,32.7 -30.5,32.7 -29.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(32.222618711681 -30.00087588915)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/8396> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South African Exclusive Economic Zone"@en.
+_:n3-150 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155870".
+<urn:acuf:ufi:-155870> <https://schema.org/identifier> _:n3-150;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155870>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7646?t=1637993366>.
+<http://marineregions.org/mrgid/18093?t=1637994562> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#GeneralRegion>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/18097>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/18093/geometries?source=16&attributeValue=393220>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1923>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/18093>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:29:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southern Africa"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(25 -28)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-492 <http://www.w3.org/2000/01/rdf-schema#label> "Aphia".
+<http://marineregions.org/mrgid/18093?t=1637994562> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-492.
+<http://marineregions.org/mrgid/18097> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Coast>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Western African Coast"@en.
+<http://marineregions.org/mrgid/1923> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Continent>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Africa"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/18093?t=1637994562>.
+<http://marineregions.org/mrgid/48384?t=1637994845> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48384/geometries?source=50&attributeValue=OFS-OO>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47768>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/47768>, <http://marineregions.org/mrgid/25920>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48384>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:34:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:OFS-OO>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Free State"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(29.771110534668 -26.723892211914,24.340587615967 -26.723892211914,24.340587615967 -30.681392669678,29.771110534668 -30.681392669678,29.771110534668 -26.723892211914)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(26.877255601399 -28.606836982454)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47768> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Free State"@en.
+<http://marineregions.org/mrgid/25920> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Free State"@en.
+_:n3-592 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "OFS-OO".
+<urn:tdwg:wgsrpd:OFS-OO> <https://schema.org/identifier> _:n3-592;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48384?t=1637994845>.
+<http://marineregions.org/mrgid/22527?t=1637995641> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Estuary>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/22527/geometries?source=158&attributeValue=22527>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8936>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/22527>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:47:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nxaxo Estuary"@af;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(28.524656 -32.585094)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.vliz.be/vmdcdata/mangroves/>.
+<http://marineregions.org/mrgid/8936> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Eastern Cape, Province of the"@en.
+<http://www.vliz.be/vmdcdata/mangroves/> <http://www.w3.org/2000/01/rdf-schema#label> "Mangroves".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/22527?t=1637995641>.
+<http://marineregions.org/mrgid/20601?t=1637990467> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Estuary>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/20601/geometries?source=158&attributeValue=20601>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8936>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/20601>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T05:21:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Xora River Mouth"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(28.9975 -32.159)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1309 <http://www.w3.org/2000/01/rdf-schema#label> "Algologie (Ugent)".
+_:n3-1308 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-1309.
+<http://marineregions.org/mrgid/20601?t=1637990467> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1308.
+<http://marineregions.org/mrgid/8936> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Eastern Cape, Province of the"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/20601?t=1637990467>.
+<http://marineregions.org/mrgid/17747?t=1637990664> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Estuary>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/17747/geometries?source=158&attributeValue=17747>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8936>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/17747>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T05:24:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Msikaba Estuary"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Msikaba Mouth"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(29.96667 -31.31667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.geonames.org>.
+<http://marineregions.org/mrgid/8936> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Eastern Cape, Province of the"@en.
+<http://www.geonames.org> <http://www.w3.org/2000/01/rdf-schema#label> "GeoNames".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/17747?t=1637990664>.
+<http://marineregions.org/mrgid/22531?t=1637991934> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Estuary>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/22531/geometries?source=158&attributeValue=22531>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8936>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/22531>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T05:45:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mtata Estuary"@af;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(29.166667 -31.95)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.vliz.be/vmdcdata/mangroves/>.
+<http://marineregions.org/mrgid/8936> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Eastern Cape, Province of the"@en.
+<http://www.vliz.be/vmdcdata/mangroves/> <http://www.w3.org/2000/01/rdf-schema#label> "Mangroves".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/22531?t=1637991934>.
+<http://marineregions.org/mrgid/50404?t=1637986249> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MesopelagicEcoregions>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/50404/geometries?source=215&attributeValue=50404>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/50384>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/50404>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:10:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Agulhas Current"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(49.246143 -10.245849,17.588298 -10.245849,17.588298 -38.590912,49.246143 -38.590912,49.246143 -10.245849)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(36.1156 -26.216445)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2187 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.sciencedirect.com/science/article/pii/S0967063717301437>.
+<http://marineregions.org/mrgid/50404?t=1637986249> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2187.
+<http://marineregions.org/mrgid/50384> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MesopelagicEcoregions>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mesopelagic ecoregions of the world's oceans"@en.
+<https://www.sciencedirect.com/science/article/pii/S0967063717301437> <http://www.w3.org/2000/01/rdf-schema#label> "Sutton et al. (2017). A global biogeographic classification of the mesopelagic zone. Deep-Sea Res., Part 1, Oceanogr. Res. Pap. 126: 85-102".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/50404?t=1637986249>.
+<http://marineregions.org/mrgid/7358?t=1637986331> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7358/geometries?source=110&attributeValue=2089>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4261>, <http://marineregions.org/mrgid/8341>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7358>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:12:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Madagascar Basin"@en, "Madagaskarskaya Kotlovina"@ru, "Mocambique Basin"@en, "Mozambikskaya Kotlovina"@ru, "Natal Basin"@en, "South Mozambique Basin"@en, "Мадагаскарская Котловина"@ru, "Мозамбикская Котловина"@ru;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154603>;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: Shown as Natal Basin in the ACUF Gazetteer."@en, "Coordinates in ACUF: Latitude: -30; Longitude: 40"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mozambique Basin"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(40 -25.5,36 -25.5,36 -40,40 -40,40 -25.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(38.162967237907 -32.770034847066)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4261> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mozambique Channel"@en.
+<http://marineregions.org/mrgid/8341> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ile Europa Exclusive Economic Zone"@en.
+_:n3-2235 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154603".
+<urn:acuf:ufi:-154603> <https://schema.org/identifier> _:n3-2235;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154603>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7358?t=1637986331>.
+<http://marineregions.org/mrgid/6567?t=1637987364> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6567/geometries?source=111&attributeValue=3161>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6567>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:29:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155836>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: discoverer and year of discovery: History: Named from the former Bantustan of Transkei, now part of the Eastern Cape province of South Africa."@en, "Additional information: This is not a true basin, but somewhat bounded by local highs between Africana Seamount and the south end of Mozambique Escarpment."@en, "Coordinates in ACUF: Latitude: -35.5; Longitude: 29"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Transkei Basin"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(30 -36)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+_:n3-2604 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155836".
+<urn:acuf:ufi:-155836> <https://schema.org/identifier> _:n3-2604;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155836>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6567?t=1637987364>.
+<http://marineregions.org/mrgid/2181?t=1637987974> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/2181/geometries?source=252&attributeValue=Swaziland>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1923>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/47833>, <http://marineregions.org/mrgid/48459>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/2181>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:39:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Swaziland"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(32.1334 -25.72834,30.79834 -25.72834,30.79834 -27.31639,32.1334 -27.31639,32.1334 -25.72834)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(31.46587 -26.52236)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2814 <http://www.w3.org/2000/01/rdf-schema#label> "(2001). The Times comprehensive atlas of the world. 10th ed. Times Books: London. ISBN 0-7230-0792-6. 67, 220, 124 plates pp.".
+_:n3-2813 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-2814.
+<http://marineregions.org/mrgid/2181?t=1637987974> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2813.
+<http://marineregions.org/mrgid/1923> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Continent>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Africa"@en.
+<http://marineregions.org/mrgid/47833> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Swaziland"@en.
+<http://marineregions.org/mrgid/48459> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Swaziland"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/2181?t=1637987974>.
+<http://marineregions.org/mrgid/47768?t=1637988809> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/48384>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/47768/geometries?source=51&attributeValue=OFS>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47480>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/25920>, <http://marineregions.org/mrgid/48384>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/47768>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:53:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:OFS>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Free State"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(29.771110534624 -26.723892211956,24.340587616325 -26.723892211956,24.340587616325 -30.681392669536,29.771110534624 -30.681392669536,29.771110534624 -26.723892211956)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(26.877255601399 -28.606836982447)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/48384> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Free State"@en.
+<http://marineregions.org/mrgid/47480> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southern Africa"@en.
+<http://marineregions.org/mrgid/25920> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Free State"@en.
+_:n3-3063 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "OFS".
+<urn:tdwg:wgsrpd:OFS> <https://schema.org/identifier> _:n3-3063;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47768?t=1637988809>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/9/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/9/9-0.ttl>.

@@ -631,3 +631,266 @@ _:n3-2719 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-2720.
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/56931?t=1637999760>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/11-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/11-0.ttl>.
+<http://marineregions.org/mrgid/24906?t=1637994436> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/24906/geometries?source=111&attributeValue=1329>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/24906>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:27:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-19. Proposer: Heinrich Hinze, Alfred-Wegener Institute for Polar and Marine Research (AWI), Germany. Year of proposal: 2006."@en, "GEBCO: discoverer and year of discovery: Discoverer: German research vessel \"Polarstern\". Year of discovery: 2005. History: Named after Karl F. Hinz (1934-), a German marine geologist who served as head of the Geological and Geophysical Research Division of the Federal Institute for Geosciences "@en, "Additional information: This feature is circular in shape, with a local deep of about 100 meters at the top. Minimum depth (m): 2420. Maximum depth (m): 3520. Total relief (m): 1100. Dimension: About 13 km in diameter."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Hinz Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-42.666667 -56.015)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24906?t=1637994436>.
+<http://marineregions.org/mrgid/56936?t=1637995426> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/56936/geometries?source=95&attributeValue=56936>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/30240>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/56808>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/56936>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:43:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Drift type: Mounded"@en, "Maximum age: Plio-Quaternary"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Scan Basin Drift SM23"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-38.131 -57.594,-38.366 -57.594,-38.366 -58.11,-38.131 -58.11,-38.131 -57.594)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-38.267746 -57.799988)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-715 <http://www.w3.org/2000/01/rdf-schema#label> "García, M., Lobo, F. J., Maldonado, A., Hernández-Molina, F. J., Bohoyo, F., & Pérez, L. F. (2016). High-resolution seismic stratigraphy and morphology of the Scan Basin contourite fan, southern Scotia Sea, Antarctica. Marine Geology, 378, 361-373.".
+_:n3-714 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-715.
+<http://marineregions.org/mrgid/56936?t=1637995426> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-714.
+<http://marineregions.org/mrgid/30240> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Weddell Sea Deep Water"@en.
+<http://marineregions.org/mrgid/56808> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContouriteDepositionalSystem>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Scan Basin CDS"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/56936?t=1637995426>.
+<http://marineregions.org/mrgid/56911?t=1637989794> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/56911/geometries?source=95&attributeValue=56911>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/56801>, <http://marineregions.org/mrgid/56793>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/56807>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/56911>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T05:09:54Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Drift type: Mounded"@en, "Maximum age: Plio-Quaternary"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Discovery Bank Drift WM13"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-36.909 -58.289,-36.933 -58.289,-36.933 -58.394,-36.909 -58.394,-36.909 -58.289)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-36.921433 -58.346348)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1122 <http://www.w3.org/2000/01/rdf-schema#label> "García, M., Lobo, F. J., Maldonado, A., Hernández-Molina, F. J., Bohoyo, F., & Pérez, L. F. (2016). High-resolution seismic stratigraphy and morphology of the Scan Basin contourite fan, southern Scotia Sea, Antarctica. Marine Geology, 378, 361-373.".
+_:n3-1121 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-1122.
+<http://marineregions.org/mrgid/56911?t=1637989794> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1121.
+<http://marineregions.org/mrgid/56801> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Warm Deep Water"@en.
+<http://marineregions.org/mrgid/56793> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Circumpolar Deep Water"@en.
+<http://marineregions.org/mrgid/56807> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContouriteDepositionalSystem>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Discovery Bank CDS"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/56911?t=1637989794>.
+<http://marineregions.org/mrgid/56909?t=1637990125> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/56909/geometries?source=95&attributeValue=56909>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/56801>, <http://marineregions.org/mrgid/56793>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/56807>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/56909>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T05:15:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Drift type: Mounded"@en, "Maximum age: Plio-Quaternary"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Discovery Bank Drift WM11"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-36.764 -58.082,-36.934 -58.082,-36.934 -58.273,-36.764 -58.273,-36.764 -58.082)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-36.854911 -58.183257)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1207 <http://www.w3.org/2000/01/rdf-schema#label> "García, M., Lobo, F. J., Maldonado, A., Hernández-Molina, F. J., Bohoyo, F., & Pérez, L. F. (2016). High-resolution seismic stratigraphy and morphology of the Scan Basin contourite fan, southern Scotia Sea, Antarctica. Marine Geology, 378, 361-373.".
+_:n3-1206 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-1207.
+<http://marineregions.org/mrgid/56909?t=1637990125> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1206.
+<http://marineregions.org/mrgid/56801> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Warm Deep Water"@en.
+<http://marineregions.org/mrgid/56793> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Circumpolar Deep Water"@en.
+<http://marineregions.org/mrgid/56807> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContouriteDepositionalSystem>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Discovery Bank CDS"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/56909?t=1637990125>.
+<http://marineregions.org/mrgid/56935?t=1637990576> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/56935/geometries?source=95&attributeValue=56935>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/30240>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/56808>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/56935>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T05:22:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Drift type: Mounded"@en, "Maximum age: Plio-Quaternary"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Scan Basin Drift SM22"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-37.821 -57.695,-38.579 -57.695,-38.579 -58.238,-37.821 -58.238,-37.821 -57.695)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-38.14876 -57.98112)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1349 <http://www.w3.org/2000/01/rdf-schema#label> "García, M., Lobo, F. J., Maldonado, A., Hernández-Molina, F. J., Bohoyo, F., & Pérez, L. F. (2016). High-resolution seismic stratigraphy and morphology of the Scan Basin contourite fan, southern Scotia Sea, Antarctica. Marine Geology, 378, 361-373.".
+_:n3-1348 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-1349.
+<http://marineregions.org/mrgid/56935?t=1637990576> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1348.
+<http://marineregions.org/mrgid/30240> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Weddell Sea Deep Water"@en.
+<http://marineregions.org/mrgid/56808> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContouriteDepositionalSystem>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Scan Basin CDS"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/56935?t=1637990576>.
+<http://marineregions.org/mrgid/23624?t=1637990606> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Region>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/23626>, <http://marineregions.org/mrgid/23631>, <http://marineregions.org/mrgid/24034>, <http://marineregions.org/mrgid/24035>, <http://marineregions.org/mrgid/24146>, <http://marineregions.org/mrgid/24148>, <http://marineregions.org/mrgid/24150>, <http://marineregions.org/mrgid/24151>, <http://marineregions.org/mrgid/24152>, <http://marineregions.org/mrgid/24153>, <http://marineregions.org/mrgid/24155>, <http://marineregions.org/mrgid/24156>, <http://marineregions.org/mrgid/24157>, <http://marineregions.org/mrgid/24158>, <http://marineregions.org/mrgid/24159>, <http://marineregions.org/mrgid/24160>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/23624/geometries?source=123&attributeValue=23624>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23616>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/1907>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/23624>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T05:23:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southern Ocean"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-24.008868 -66.522535)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.bodc.ac.uk/resources/vocabularies/seavox/>.
+<http://marineregions.org/mrgid/23626> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Level1>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Davis Sea"@en.
+<http://marineregions.org/mrgid/23631> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Level1>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ross Sea"@en.
+<http://marineregions.org/mrgid/24034> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Scotia Sea"@en.
+<http://marineregions.org/mrgid/24035> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Weddell Sea"@en.
+<http://marineregions.org/mrgid/24146> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Amundsen Sea"@en.
+<http://marineregions.org/mrgid/24148> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bellingshausen Sea"@en.
+<http://marineregions.org/mrgid/24150> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lazarev Sea"@en.
+<http://marineregions.org/mrgid/24151> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Riiser-larsen Sea"@en.
+<http://marineregions.org/mrgid/24152> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cosmonauts Sea"@en.
+<http://marineregions.org/mrgid/24153> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cooperation Sea"@en.
+<http://marineregions.org/mrgid/24155> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mawson Sea"@en.
+<http://marineregions.org/mrgid/24156> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dumont D'urville Sea"@en.
+<http://marineregions.org/mrgid/24157> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Somov Sea"@en.
+<http://marineregions.org/mrgid/24158> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bransfield Strait"@en.
+<http://marineregions.org/mrgid/24159> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southern Ocean"@en.
+<http://marineregions.org/mrgid/24160> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Drake Passage"@en.
+<http://marineregions.org/mrgid/23616> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#GeneralSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "SeaVox Sea Areas"@en.
+<http://marineregions.org/mrgid/1907> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southern Ocean"@en.
+<https://www.bodc.ac.uk/resources/vocabularies/seavox/> <http://www.w3.org/2000/01/rdf-schema#label> "The SeaVoX Salt and Fresh Water Body Gazetteer".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/23624?t=1637990606>.
+<http://marineregions.org/mrgid/30360?t=1637990952> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/30360/geometries?source=95&attributeValue=30360>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/30240>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/56808>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30360>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T05:29:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Maximum age: Early Miocene"@en, "Coordinate information: Coordinates redefined in 2014. \nThese coordinates represent the centroid and the bounding box of the polygon from the shapefile."@en, "Drift type: Elongated mounted and separated drift"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "W2"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-37.209405 -58.143303,-38.483923 -58.143303,-38.483923 -58.918773,-37.209405 -58.918773,-37.209405 -58.143303)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-37.943795430305 -58.716046287257)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1471 <http://www.w3.org/2000/01/rdf-schema#label> "Maldonado, A., et al. (2003). Contourite deposits in the central Scotia Sea: the importance of the Antarctic Circumpolar Current and the Weddell Gyre flows. Palaeogeography, Palaeoclimatology, Palaeoecology 198: 187-221.".
+_:n3-1470 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-1471.
+<http://marineregions.org/mrgid/30360?t=1637990952> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1470.
+<http://marineregions.org/mrgid/30240> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Weddell Sea Deep Water"@en.
+<http://marineregions.org/mrgid/56808> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContouriteDepositionalSystem>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Scan Basin CDS"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30360?t=1637990952>.
+<http://marineregions.org/mrgid/62626?t=1637991002> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#AntarcticConservationBiogeographicRegion>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/62626/geometries?source=251&attributeValue=2>;
+    <http://marineregions.org/ns/ontology#isPartlyPartOf> <http://marineregions.org/mrgid/1926>, <http://marineregions.org/mrgid/1907>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/62626>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T05:30:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Orkney Islands"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-44.39365 -60.51366,-46.67568 -60.51366,-46.67568 -60.798,-44.39365 -60.798,-44.39365 -60.51366)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-45.29861 -60.66924)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://data.aad.gov.au/metadata/records/AAS_4296_Antarctic_Conservation_Biogeographic_Regions_v2>.
+<http://marineregions.org/mrgid/1926> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Continent>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Antarctica"@en.
+<http://marineregions.org/mrgid/1907> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southern Ocean"@en.
+<https://data.aad.gov.au/metadata/records/AAS_4296_Antarctic_Conservation_Biogeographic_Regions_v2> <http://www.w3.org/2000/01/rdf-schema#label> "Terauds, A. (2016, updated 2017) An update of the Antarctic Conservation Biogeographic Regions (ACBRs) Australian Antarctic Data Centre - doi:10.4225/15/5729930925224".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/62626?t=1637991002>.
+<http://marineregions.org/mrgid/56938?t=1637992033> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/56938/geometries?source=95&attributeValue=56938>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/30240>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/56808>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/56938>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T05:47:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Drift type: Mounded"@en, "Maximum age: Plio-Quaternary"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Scan Basin Drift SM25"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-38.305 -58.351,-38.413 -58.351,-38.413 -58.615,-38.305 -58.615,-38.305 -58.351)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-38.356005 -58.483477)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1774 <http://www.w3.org/2000/01/rdf-schema#label> "García, M., Lobo, F. J., Maldonado, A., Hernández-Molina, F. J., Bohoyo, F., & Pérez, L. F. (2016). High-resolution seismic stratigraphy and morphology of the Scan Basin contourite fan, southern Scotia Sea, Antarctica. Marine Geology, 378, 361-373.".
+_:n3-1773 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-1774.
+<http://marineregions.org/mrgid/56938?t=1637992033> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1773.
+<http://marineregions.org/mrgid/30240> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Weddell Sea Deep Water"@en.
+<http://marineregions.org/mrgid/56808> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContouriteDepositionalSystem>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Scan Basin CDS"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/56938?t=1637992033>.
+<http://marineregions.org/mrgid/56905?t=1637985875> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/56905/geometries?source=95&attributeValue=56905>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/56801>, <http://marineregions.org/mrgid/56793>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/56807>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/56905>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:04:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Drift type: Mounded"@en, "Maximum age: Plio-Quaternary"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Discovery Bank Drift WM7"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-36.876 -58.434,-37.025 -58.434,-37.025 -58.955,-36.876 -58.955,-36.876 -58.434)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-36.947944 -58.676003)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2044 <http://www.w3.org/2000/01/rdf-schema#label> "García, M., Lobo, F. J., Maldonado, A., Hernández-Molina, F. J., Bohoyo, F., & Pérez, L. F. (2016). High-resolution seismic stratigraphy and morphology of the Scan Basin contourite fan, southern Scotia Sea, Antarctica. Marine Geology, 378, 361-373.".
+_:n3-2043 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-2044.
+<http://marineregions.org/mrgid/56905?t=1637985875> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2043.
+<http://marineregions.org/mrgid/56801> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Warm Deep Water"@en.
+<http://marineregions.org/mrgid/56793> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Circumpolar Deep Water"@en.
+<http://marineregions.org/mrgid/56807> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContouriteDepositionalSystem>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Discovery Bank CDS"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/56905?t=1637985875>.
+<http://marineregions.org/mrgid/56928?t=1637986731> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/56928/geometries?source=95&attributeValue=56928>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/56801>, <http://marineregions.org/mrgid/56793>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/56807>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/56928>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:18:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Drift type: Mounded"@en, "Maximum age: Plio-Quaternary"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Discovery Bank Drift SM15"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-36.814 -57.975,-37.034 -57.975,-37.034 -58.447,-36.814 -58.447,-36.814 -57.975)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-36.934692 -58.189448)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2393 <http://www.w3.org/2000/01/rdf-schema#label> "García, M., Lobo, F. J., Maldonado, A., Hernández-Molina, F. J., Bohoyo, F., & Pérez, L. F. (2016). High-resolution seismic stratigraphy and morphology of the Scan Basin contourite fan, southern Scotia Sea, Antarctica. Marine Geology, 378, 361-373.".
+_:n3-2392 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-2393.
+<http://marineregions.org/mrgid/56928?t=1637986731> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2392.
+<http://marineregions.org/mrgid/56801> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Warm Deep Water"@en.
+<http://marineregions.org/mrgid/56793> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Circumpolar Deep Water"@en.
+<http://marineregions.org/mrgid/56807> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContouriteDepositionalSystem>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Discovery Bank CDS"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/56928?t=1637986731>.
+<http://marineregions.org/mrgid/21929?t=1637986779> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21929/geometries?source=38&attributeValue=21929>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/21742>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21929>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:19:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Sandwich Islands"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-27.0912 -57.9453)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2413 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas>.
+<http://marineregions.org/mrgid/21929?t=1637986779> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2413.
+<http://marineregions.org/mrgid/21742> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Scotia Sea"@en.
+<https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas> <http://www.w3.org/2000/01/rdf-schema#label> "Spalding, M. D. Fox, H. E. Allen, G. R. Davidson, N. Ferdana, Z. A. Finlayson, M. Halpern, B. S. Jorge, M. A. Lombana, A. Lourie, S. A., (2007). Marine Ecoregions of the World: A Bioregionalization of Coastal and Shelf Areas. Bioscience 2007, VOL 57; numb 7, pages 573-584. doi: 10.1641/B570707".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21929?t=1637986779>.
+<http://marineregions.org/mrgid/56921?t=1637988231> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/56921/geometries?source=95&attributeValue=56921>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/56801>, <http://marineregions.org/mrgid/56793>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/56807>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/56921>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:43:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Drift type: Mounded"@en, "Maximum age: Plio-Quaternary"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Discovery Bank Drift SM8"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-36.806 -59.295,-36.933 -59.295,-36.933 -59.585,-36.806 -59.585,-36.806 -59.295)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-36.858649 -59.458259)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2876 <http://www.w3.org/2000/01/rdf-schema#label> "García, M., Lobo, F. J., Maldonado, A., Hernández-Molina, F. J., Bohoyo, F., & Pérez, L. F. (2016). High-resolution seismic stratigraphy and morphology of the Scan Basin contourite fan, southern Scotia Sea, Antarctica. Marine Geology, 378, 361-373.".
+_:n3-2875 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-2876.
+<http://marineregions.org/mrgid/56921?t=1637988231> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2875.
+<http://marineregions.org/mrgid/56801> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Warm Deep Water"@en.
+<http://marineregions.org/mrgid/56793> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Circumpolar Deep Water"@en.
+<http://marineregions.org/mrgid/56807> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContouriteDepositionalSystem>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Discovery Bank CDS"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/56921?t=1637988231>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/11-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/11-0.ttl>.

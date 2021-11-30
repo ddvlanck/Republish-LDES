@@ -850,3 +850,291 @@ _:n3-2395 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/57049?t=1637999653>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/8-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/8-0.ttl>.
+<http://marineregions.org/mrgid/24963?t=1637992927> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Terrace>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/26924>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/24963/geometries?source=111&attributeValue=5801>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>, <http://marineregions.org/mrgid/8464>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/24963>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:02:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:12358116>;
+    <http://www.w3.org/2004/02/skos/core#note> ": Previous coordinates 2011: minLat: -8.99, minLong: -34.52, maxLat: -9.58, maxLong: -35.02"@en, "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-23. Proposer: Brazilian Navy Hydrographic Center of the Brazilian Hydrographic Office (DHN). Year of proposal: 2010."@en, "GEBCO: discoverer and year of discovery: Discoverer: Brazilian survey vessel \"Sirius\". Year of discovery: 1994. History: Named from the nearby city of Maceió, the capital of Alagoas State, Brazil. This name has been used by the Brazilian scientific community since 1970s."@en, "Additional information: This feature has an irregular triangle shape. Minimum depth (m): 500. Maximum depth (m): 3800. Total relief (m): 3300. Dimension: ~ 60 km x 45 km."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Maceió Norte Terrace"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-34.76616667 -9.282333333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/26924> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Terrace>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Top of the Maceió Norte Terrace"@en.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/8464> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Brazilian Exclusive Economic Zone"@en.
+_:n3-28 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "12358116".
+<urn:acuf:ufi:12358116> <https://schema.org/identifier> _:n3-28;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D12358116>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24963?t=1637992927>.
+<http://marineregions.org/mrgid/48011?t=1637993389> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48011/geometries?source=50&attributeValue=BZE-RN>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47566>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/25807>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48011>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:09:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:BZE-RN>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Rio Grande do Norte"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-34.966354370117 -4.831413269043,-38.613616943359 -4.831413269043,-38.613616943359 -6.9833335876465,-34.966354370117 -6.9833335876465,-34.966354370117 -4.831413269043)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-36.682189886528 -5.8425133154149)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47566> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Brazil Northeast"@en.
+<http://marineregions.org/mrgid/25807> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Rio Grande do Norte"@pt.
+_:n3-155 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "BZE-RN".
+<urn:tdwg:wgsrpd:BZE-RN> <https://schema.org/identifier> _:n3-155;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48011?t=1637993389>.
+<http://marineregions.org/mrgid/19047?t=1637993671> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Region>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/8920>, <http://marineregions.org/mrgid/9069>, <http://marineregions.org/mrgid/19046>, <http://marineregions.org/mrgid/19049>, <http://marineregions.org/mrgid/19064>, <http://marineregions.org/mrgid/31388>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/19047/geometries?source=153&attributeValue=19047>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2143>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/19047>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:14:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Região Sudeste"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "Map source: IBGE"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southeast Region"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-42 -16)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-212 <http://www.w3.org/2000/01/rdf-schema#label> "IMIS".
+<http://marineregions.org/mrgid/19047?t=1637993671> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-212.
+<http://marineregions.org/mrgid/8920> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Rio de Janeiro"@pt.
+<http://marineregions.org/mrgid/9069> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "São Paulo"@pt.
+<http://marineregions.org/mrgid/19046> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Guanabara, Baía de"@es.
+<http://marineregions.org/mrgid/19049> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Lagoon>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Saquarema, Lagoa de"@es.
+<http://marineregions.org/mrgid/19064> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Espírito Santo"@pt.
+<http://marineregions.org/mrgid/31388> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Minas Gerais"@pt.
+<http://marineregions.org/mrgid/2143> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Brazil"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/19047?t=1637993671>.
+<http://marineregions.org/mrgid/63429?t=1637994264> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/63429/geometries?source=110&attributeValue=889377>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/63429>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:24:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: This feature has been mentioned in many scientific papers, publications and studies on the Brazilian continental margin, such as Schereiner et al (2008), and Almeida & Kowsmann (2014). Minimum depth (m): 431. Maximum depth (m): 1754. Total relief (m): 1323. Dimension/size: 25 km long and 1 to 2.5 km wide."@en, "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-34. Proposer: Directorate of Hydrography and Navigation (DHN), Brazil. History: 2020."@en, "GEBCO: discoverer and year of discovery: Discoverer: Brazilian survey vessel \"Almirante Câmara\". Year of discovery: 1991. History: Tabajara is known as a historic indigenous group that lived in coastal areas of the Northeast of Brazil.The Tabajara group originated as a subdivision of the Tupi people. This is a historical classification for indigenous groups which demonstrated a receptive behavior with the Portuguese colonizers. Nowadays, the Tabajara people seek recognition of their ethnicity and lands in Northeast Brazil."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tabajara Canyon"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-39.79668 -21.77446,-39.98282 -21.77446,-39.98282 -21.87122,-39.79668 -21.87122,-39.79668 -21.77446)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-39.8906 -21.82126)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/63429?t=1637994264>.
+<http://marineregions.org/mrgid/26697?t=1637994614> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/26697/geometries?source=110&attributeValue=6038>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>, <http://marineregions.org/mrgid/8464>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/26697>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:30:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-24. Proposer: Petróleo Brasileiro (Petrobras), Brazil. Year of proposal: 2011."@en, "GEBCO: discoverer and year of discovery: History: Named to point out its likely association with the nearby Doce River fluvial system during sea level falls. The specific term \"Watu\" means \"wide river or sweet river\" in the language of the local Botocudos. The Botocudos belong to a great Indian "@en, "Additional information: Feature discovered in 2006 during geohazards studies in continental slope of Brazilian margin. Minimum depth (m): 55. Maximum depth (m): 1320. Total relief (m): 1265. Dimension: 19 km long and 600 m to 1800 m wide."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Watu Sul Canyon"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-39.537 -19.874,-39.66 -19.874,-39.66 -19.988,-39.537 -19.988,-39.537 -19.874)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-39.599979746954 -19.936577061934)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/8464> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Brazilian Exclusive Economic Zone"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/26697?t=1637994614>.
+<http://marineregions.org/mrgid/6850?t=1637990260> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6850/geometries?source=111&attributeValue=567>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6850>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T05:17:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152915>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -20.1166667; Long: -37.4833333"@en;
+    <http://www.w3.org/2004/02/skos/core#note> ": Corrected latitude/longitude (GEBCO October 2002 error: 20°15'0\"S/37°20'0\"W)\r\nUpdated with GEBCO May 2014."@en, "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-25."@en, "Additional information: Change in position agreed at SCUFN-25 (2012). Shown as Eclaireur Bank in INT 2007 Nautical Chart."@en, "Coordinates in ACUF: Latitude: -20.25; Longitude: -37.333333"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Champlain Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-37.48333333 -20.1166666)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+_:n3-1246 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152915".
+<urn:acuf:ufi:-152915> <https://schema.org/identifier> _:n3-1246;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152915>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6850?t=1637990260>.
+<http://marineregions.org/mrgid/21989?t=1637990751> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21989/geometries?source=38&attributeValue=21989>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/21766>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21989>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T05:25:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Trindade and Martin Vaz Islands"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-30.0948 -20.53)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1392 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas>.
+<http://marineregions.org/mrgid/21989?t=1637990751> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1392.
+<http://marineregions.org/mrgid/21766> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tropical Southwestern Atlantic"@en.
+<https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas> <http://www.w3.org/2000/01/rdf-schema#label> "Spalding, M. D. Fox, H. E. Allen, G. R. Davidson, N. Ferdana, Z. A. Finlayson, M. Halpern, B. S. Jorge, M. A. Lombana, A. Lourie, S. A., (2007). Marine Ecoregions of the World: A Bioregionalization of Coastal and Shelf Areas. Bioscience 2007, VOL 57; numb 7, pages 573-584. doi: 10.1641/B570707".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21989?t=1637990751>.
+<http://marineregions.org/mrgid/57051?t=1637991143> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/57051/geometries?source=110&attributeValue=6745>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/57051>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T05:32:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: discoverer and year of discovery: Discoverer: Brazilian survey vessel \"Sirius\". Year of discovery: 2011. History: Named from the nearby coastal city of Grossos, in the Brazilian State of Rio Grande do Norte."@en, "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-30. Proposer: Helenice Vital, Geology and Geophysics Laboratory of Rio Grande do Norte Federal University, Brazil. History: 2017."@en, "Additional information: This feature has a steepness of 25 to 35°. The name first appeared in 2015 in a scientific paper from Almeida, N., Vital, H., and Gomes, M.: \"Morphology of submarine canyons along the continental margin of the Potiguar Basin, NE Brazil\". Minimum depth (m): 150. Maximum depth (m): 950. Total relief (m): 800. Dimension: 0.9 km to 1.9 km width x 6.5 km long"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Grossos Canyon"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-36.90061 -4.52324,-36.91368 -4.52324,-36.91368 -4.57887,-36.90061 -4.57887,-36.90061 -4.52324)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-36.90879 -4.55022)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/57051?t=1637991143>.
+<http://marineregions.org/mrgid/19060?t=1637985627> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Region>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/9046>, <http://marineregions.org/mrgid/17383>, <http://marineregions.org/mrgid/19059>, <http://marineregions.org/mrgid/19063>, <http://marineregions.org/mrgid/19065>, <http://marineregions.org/mrgid/19067>, <http://marineregions.org/mrgid/25807>, <http://marineregions.org/mrgid/25808>, <http://marineregions.org/mrgid/48626>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/19060/geometries?source=153&attributeValue=19060>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2143>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/19060>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:00:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Grande Região Nordeste"@pt, "Região Nordeste"@pt;
+    <http://www.w3.org/2004/02/skos/core#note> "Map source: IBGE"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northeast region"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-42 -6)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1927 <http://www.w3.org/2000/01/rdf-schema#label> "IMIS".
+<http://marineregions.org/mrgid/19060?t=1637985627> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1927.
+<http://marineregions.org/mrgid/9046> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pernambuco"@pt.
+<http://marineregions.org/mrgid/17383> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bahia"@pt.
+<http://marineregions.org/mrgid/19059> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alagoas"@pt.
+<http://marineregions.org/mrgid/19063> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ceará"@en.
+<http://marineregions.org/mrgid/19065> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Maranhão"@pt.
+<http://marineregions.org/mrgid/19067> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Paraíba"@es.
+<http://marineregions.org/mrgid/25807> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Rio Grande do Norte"@pt.
+<http://marineregions.org/mrgid/25808> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Piauí"@pt.
+<http://marineregions.org/mrgid/48626> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sergipe"@en.
+<http://marineregions.org/mrgid/2143> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Brazil"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/19060?t=1637985627>.
+<http://marineregions.org/mrgid/48007?t=1637985787> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48007/geometries?source=50&attributeValue=BZE-MA>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47566>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/17719>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48007>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:03:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:BZE-MA>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Maranhão"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-41.809440612793 -1.0747222900391,-48.750556945801 -1.0747222900391,-48.750556945801 -10.317687988281,-41.809440612793 -10.317687988281,-41.809440612793 -1.0747222900391)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-45.28567248733 -5.0829778550649)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47566> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Brazil Northeast"@en.
+<http://marineregions.org/mrgid/17719> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Archipelago>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Îles Marquises"@fr.
+_:n3-1997 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "BZE-MA".
+<urn:tdwg:wgsrpd:BZE-MA> <https://schema.org/identifier> _:n3-1997;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48007?t=1637985787>.
+<http://marineregions.org/mrgid/6676?t=1637986045> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6676/geometries?source=111&attributeValue=478>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6676>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:07:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152789>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -2.166666667; Long: -38.33333333"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Canopus Bank"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-38.333333 -2.166667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+_:n3-2107 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152789".
+<urn:acuf:ufi:-152789> <https://schema.org/identifier> _:n3-2107;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152789>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6676?t=1637986045>.
+<http://marineregions.org/mrgid/6679?t=1637986237> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6679/geometries?source=111&attributeValue=739>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6679>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:10:37Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -20.58333333; Long: -34.75"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Davis Bank"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-34.75 -20.583333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6679?t=1637986237>.
+<http://marineregions.org/mrgid/5808?t=1637986503> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Plateau>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/5808/geometries?source=111&attributeValue=535>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/5808>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:15:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Ceara Guyot"@en, "Guyot do Ceará"@en, "Platô do Ceará"@pt;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152872>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -3.333333333; Long: -37.5"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: -3.25; Longitude: -37.5"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ceará Plateau"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-37.5 -3.333333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+_:n3-2293 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152872".
+<urn:acuf:ufi:-152872> <https://schema.org/identifier> _:n3-2293;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152872>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5808?t=1637986503>.
+<http://marineregions.org/mrgid/48626?t=1637986848> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48626/geometries?source=152&attributeValue=48626>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/19060>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/31401>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48626>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:20:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Map source: IBGE"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sergipe"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-37.443755 -10.583976)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://marineregions.org/mrgid/19060> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northeast region"@en.
+<http://marineregions.org/mrgid/31401> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "São Francisco"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48626?t=1637986848>.
+<http://marineregions.org/mrgid/58706?t=1637988911> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/58706/geometries?source=110&attributeValue=888895>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/58706>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:55:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: This feature has an elongated shape and a steepness of 4 to 10°. It is the continuity on the seafloor of Real river on the continent. The canyon is known since the 1970's and has been mentioned in many scientific papers and publications. Ref. REMAC Project \"Geomorphology of the Brazilian Continental Margin and adjacent oceanic areas\", Junior et al (2017). Minimum depth (m): 35. Maximum depth (m): 2876. Total relief (m): 2841. Dimension/size: 60 km."@en, "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-31. Proposer: Directorate of Hydrography and Navigation (DHN), Brazil. History: 2018."@en, "GEBCO: discoverer and year of discovery: Discoverer: Brazilian survey vessel \"Sea Surveyor\". Year of discovery: 1996. History: Named from the nearby Real river and the city of Rio Real, in the Brazilian Bahia State."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Real Canyon"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-36.77322 -11.45225,-37.20372 -11.45225,-37.20372 -11.77277,-36.77322 -11.77277,-36.77322 -11.45225)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-36.98847 -11.61251)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/58706?t=1637988911>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/8-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/8-0.ttl>.

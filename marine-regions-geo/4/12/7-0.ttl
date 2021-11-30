@@ -883,3 +883,364 @@ _:n3-1669 <http://www.w3.org/2000/01/rdf-schema#label> "Aphia".
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/49427?t=1637999403>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/7-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/7-0.ttl>.
+<http://marineregions.org/mrgid/5841?t=1637992824> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Shelf>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/5841/geometries?source=111&attributeValue=3016>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4332>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/5841>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:00:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Soenda Plat"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155674>;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: 5; Longitude: 107"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sunda Shelf"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(106.5 2)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4332> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South China Sea"@en.
+_:n3-4 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155674".
+<urn:acuf:ufi:-155674> <https://schema.org/identifier> _:n3-4;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155674>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5841?t=1637992824>.
+<http://marineregions.org/mrgid/33730?t=1637993821> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/33730/geometries?source=95&attributeValue=33730>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/33645>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/25450>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/33730>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:17:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Drift type: Elongated Mounded"@en, "Prevailing contourite type: Silty-muddy"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dongsha Giant Elongated drift 3"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(111.593 17.0345,110.723 17.0345,110.723 16.4915,111.593 16.4915,111.593 17.0345)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(111.16705641825 16.777156200561)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-255 <http://www.w3.org/2000/01/rdf-schema#label> "H. Li, Y. Wang, W. Zhu, Q. Xu, Y. He, W. Tang, H. Zhuo, D. Wang, J. Wu, D. Li (2013). Seismic characteristics and processes of the Plio-Quaternary unidirectionally migrating channels and contourites in the northern slope of the South China Sea. Marine and Petroleum Geology, 43 (2013), pp. 370–380".
+_:n3-254 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-255.
+<http://marineregions.org/mrgid/33730?t=1637993821> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-254.
+<http://marineregions.org/mrgid/33645> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Current>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South China Sea Water Circulation"@en.
+<http://marineregions.org/mrgid/25450> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Paracel Islands part of the South China Sea"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/33730?t=1637993821>.
+<http://marineregions.org/mrgid/47866?t=1637994100> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/48490>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/47866/geometries?source=51&attributeValue=VIE>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47493>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/2200>, <http://marineregions.org/mrgid/48490>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/47866>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:21:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:VIE>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Vietnam"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(109.4663772587 23.334720611267,102.14074707072 23.334720611267,102.14074707072 8.5586090085989,109.4663772587 8.5586090085989,109.4663772587 23.334720611267)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(106.35052267166 16.54837646577)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/48490> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Vietnam"@en.
+<http://marineregions.org/mrgid/47493> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indo-China"@en.
+<http://marineregions.org/mrgid/2200> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Vietnam"@en.
+_:n3-321 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "VIE".
+<urn:tdwg:wgsrpd:VIE> <https://schema.org/identifier> _:n3-321;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47866?t=1637994100>.
+<http://marineregions.org/mrgid/22477?t=1637994560> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/22477/geometries?source=169&attributeValue=22477>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8333>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/22477>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:29:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Minnie Bay"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(92.719008 11.651811)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.vliz.be/vmdcdata/mangroves/>.
+<http://marineregions.org/mrgid/8333> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Exclusive Economic Zone (Andaman and Nicobar Islands)"@en.
+<http://www.vliz.be/vmdcdata/mangroves/> <http://www.w3.org/2000/01/rdf-schema#label> "Mangroves".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/22477?t=1637994560>.
+<http://marineregions.org/mrgid/49493?t=1637994764> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#InternalWaters>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/49493/geometries?source=177&attributeValue=49493>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8331>, <http://marineregions.org/mrgid/2171>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/49493>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:32:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=8331&zone=eez_internal_waters>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cambodian Internal Waters"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(104.52001 11.83098,102.78833 11.83098,102.78833 9.58703,104.52001 9.58703,104.52001 11.83098)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(103.27693 10.50776)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/8331> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cambodian Exclusive Economic Zone"@en.
+<http://marineregions.org/mrgid/2171> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cambodia"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Internal Waters, version 3. Available online at http://www.marineregions.org/. https://doi.org/10.14284/385".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/49493?t=1637994764>.
+<http://marineregions.org/mrgid/2219?t=1637995956> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/8482>, <http://marineregions.org/mrgid/14767>, <http://marineregions.org/mrgid/17556>, <http://marineregions.org/mrgid/26207>, <http://marineregions.org/mrgid/26208>, <http://marineregions.org/mrgid/26209>, <http://marineregions.org/mrgid/26210>, <http://marineregions.org/mrgid/26211>, <http://marineregions.org/mrgid/26212>, <http://marineregions.org/mrgid/26213>, <http://marineregions.org/mrgid/26214>, <http://marineregions.org/mrgid/26215>, <http://marineregions.org/mrgid/26216>, <http://marineregions.org/mrgid/26217>, <http://marineregions.org/mrgid/26218>, <http://marineregions.org/mrgid/26219>, <http://marineregions.org/mrgid/26220>, <http://marineregions.org/mrgid/32843>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/2219/geometries?source=252&attributeValue=Myanmar>;
+    <http://marineregions.org/ns/ontology#isAdjacentTo> <http://marineregions.org/mrgid/17551>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1921>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/47733>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/2219>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:52:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Burma"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Myanmar"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(101.1694 28.54653,92.20499 28.54653,92.20499 9.839582,101.1694 9.839582,101.1694 28.54653)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(96.68721 19.19305)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/hydra/core#next> <http://marineregions.org/mrgid/2219?page=2&t=1637995956>.
+_:n3-847 <http://www.w3.org/2000/01/rdf-schema#label> "(2001). The Times comprehensive atlas of the world. 10th ed. Times Books: London. ISBN 0-7230-0792-6. 67, 220, 124 plates pp.".
+_:n3-846 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-847.
+<http://marineregions.org/mrgid/2219?t=1637995956> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-846.
+<http://marineregions.org/mrgid/8482> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Myanmar Exclusive Economic Zone"@en.
+<http://marineregions.org/mrgid/14767> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Archipelago>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mergui Archipelago"@en.
+<http://marineregions.org/mrgid/17556> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Peninsula>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Malay Peninsula"@en.
+<http://marineregions.org/mrgid/26207> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kachin State"@en.
+<http://marineregions.org/mrgid/26208> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kayah State"@en.
+<http://marineregions.org/mrgid/26209> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kayin State"@en.
+<http://marineregions.org/mrgid/26210> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chin State"@en.
+<http://marineregions.org/mrgid/26211> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sagaing Region"@en.
+<http://marineregions.org/mrgid/26212> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tanintharyi Region"@en.
+<http://marineregions.org/mrgid/26213> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bago Region"@en.
+<http://marineregions.org/mrgid/26214> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Magway Region"@en.
+<http://marineregions.org/mrgid/26215> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mandalay Region"@en.
+<http://marineregions.org/mrgid/26216> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mon State"@en.
+<http://marineregions.org/mrgid/26217> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Rakhine State"@en.
+<http://marineregions.org/mrgid/26218> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Yangon Region"@en.
+<http://marineregions.org/mrgid/26219> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Shan State"@en.
+<http://marineregions.org/mrgid/26220> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ayeyarwady Region"@en.
+<http://marineregions.org/mrgid/32843> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#InhabitedPlace>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bago"@en.
+<http://marineregions.org/mrgid/17551> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Laos"@en.
+<http://marineregions.org/mrgid/1921> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Continent>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Asia"@en.
+<http://marineregions.org/mrgid/47733> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Myanmar"@en.
+<http://marineregions.org/mrgid/2219> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/49196>, <http://marineregions.org/mrgid/49546>, <http://marineregions.org/mrgid/50304>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/48337>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Burma"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Myanmar"@en.
+<http://marineregions.org/mrgid/49196> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TerritorialSea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Myanmar 12 NM"@en.
+<http://marineregions.org/mrgid/49546> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#InternalWaters>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Myanmar Internal Waters"@en.
+<http://marineregions.org/mrgid/50304> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Coast>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Myanmar Coast"@en.
+<http://marineregions.org/mrgid/48337> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Myanmar"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/2219?t=1637995956>.
+<http://marineregions.org/mrgid/25433?t=1637990928> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/25433/geometries?source=80&attributeValue=25433>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4273>, <http://marineregions.org/mrgid/8492>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/25433>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T05:28:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indonesian part of the Bay of Bengal"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(95.233582 6.266583,96.838649 6.266583,96.838649 5.570136,95.233582 5.570136,95.233582 6.266583)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(94.490141 5.81363)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://doi.org/10.14284/402>.
+<http://marineregions.org/mrgid/4273> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bay of Bengal"@en.
+<http://marineregions.org/mrgid/8492> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indonesian Exclusive Economic Zone"@en.
+<https://doi.org/10.14284/402> <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2020). Intersect of IHO Sea Areas and Exclusive Economic Zones (version 4)   ".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25433?t=1637990928>.
+<http://marineregions.org/mrgid/21733?t=1637991514> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/21963>, <http://marineregions.org/mrgid/21964>, <http://marineregions.org/mrgid/21965>, <http://marineregions.org/mrgid/21966>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21733/geometries?source=56&attributeValue=21733>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/21718>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21733>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T05:38:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sunda Shelf"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(106.498 4.08044)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1637 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas>.
+<http://marineregions.org/mrgid/21733?t=1637991514> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1637.
+<http://marineregions.org/mrgid/21963> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sunda Shelf/Java Sea"@en.
+<http://marineregions.org/mrgid/21964> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southern Vietnam"@en.
+<http://marineregions.org/mrgid/21965> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Malacca Strait"@en.
+<http://marineregions.org/mrgid/21966> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of Thailand"@en.
+<http://marineregions.org/mrgid/21718> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Realm>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Central Indo-Pacific"@en.
+<https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas> <http://www.w3.org/2000/01/rdf-schema#label> "Spalding, M. D. Fox, H. E. Allen, G. R. Davidson, N. Ferdana, Z. A. Finlayson, M. Halpern, B. S. Jorge, M. A. Lombana, A. Lourie, S. A., (2007). Marine Ecoregions of the World: A Bioregionalization of Coastal and Shelf Areas. Bioscience 2007, VOL 57; numb 7, pages 573-584. doi: 10.1641/B570707".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21733?t=1637991514>.
+<http://marineregions.org/mrgid/33737?t=1637991678> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/33737/geometries?source=95&attributeValue=33737>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/33645>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/25450>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/33737>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T05:41:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Drift type: Sheeted"@en, "Prevailing contourite type: Silty-muddy"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dongsha Sheeted Drift 1"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(111.663 17.4191,111.2 17.4191,111.2 17.1401,111.663 17.1401,111.663 17.4191)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(111.49021260856 17.306259168043)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1665 <http://www.w3.org/2000/01/rdf-schema#label> "H. Li, Y. Wang, W. Zhu, Q. Xu, Y. He, W. Tang, H. Zhuo, D. Wang, J. Wu, D. Li (2013). Seismic characteristics and processes of the Plio-Quaternary unidirectionally migrating channels and contourites in the northern slope of the South China Sea. Marine and Petroleum Geology, 43 (2013), pp. 370–380".
+_:n3-1664 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-1665.
+<http://marineregions.org/mrgid/33737?t=1637991678> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1664.
+<http://marineregions.org/mrgid/33645> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Current>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South China Sea Water Circulation"@en.
+<http://marineregions.org/mrgid/25450> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Paracel Islands part of the South China Sea"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/33737?t=1637991678>.
+<http://marineregions.org/mrgid/50348?t=1637985638> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Coast>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/50348/geometries?source=136&attributeValue=50348>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2190>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/50348>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:00:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: Derived from ESRI World Countries 2014"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Singaporean Coast"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(104.085727334 1.47126805797,103.605721712 1.47126805797,103.605721712 1.16658365731,104.085727334 1.16658365731,104.085727334 1.47126805797)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(103.9491160841 1.383071816241)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1931 <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2015). National coastlines based on ESRI Countries (2014)".
+<http://marineregions.org/mrgid/50348?t=1637985638> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1931.
+<http://marineregions.org/mrgid/2190> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Singapore"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/50348?t=1637985638>.
+<http://marineregions.org/mrgid/21809?t=1637986292> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21809/geometries?source=38&attributeValue=21809>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/21771>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21809>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:11:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Andaman Sea Coral Coast"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(97.8104 10.3395)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2209 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas>.
+<http://marineregions.org/mrgid/21809?t=1637986292> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2209.
+<http://marineregions.org/mrgid/21771> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Andaman"@en.
+<https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas> <http://www.w3.org/2000/01/rdf-schema#label> "Spalding, M. D. Fox, H. E. Allen, G. R. Davidson, N. Ferdana, Z. A. Finlayson, M. Halpern, B. S. Jorge, M. A. Lombana, A. Lourie, S. A., (2007). Marine Ecoregions of the World: A Bioregionalization of Coastal and Shelf Areas. Bioscience 2007, VOL 57; numb 7, pages 573-584. doi: 10.1641/B570707".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21809?t=1637986292>.
+<http://marineregions.org/mrgid/47733?t=1637986585> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/48337>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/47733/geometries?source=51&attributeValue=MYA>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47493>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/2219>, <http://marineregions.org/mrgid/48337>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/47733>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:16:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:MYA>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Myanmar"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(101.17082214393 28.549163818156,92.204986571873 28.549163818156,92.204986571873 9.786386489445,101.17082214393 9.786386489445,101.17082214393 28.549163818156)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(96.515808584306 21.06542108771)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/48337> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Myanmar"@en.
+<http://marineregions.org/mrgid/47493> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indo-China"@en.
+<http://marineregions.org/mrgid/2219> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Myanmar"@en.
+_:n3-2326 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "MYA".
+<urn:tdwg:wgsrpd:MYA> <https://schema.org/identifier> _:n3-2326;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47733?t=1637986585>.
+<http://marineregions.org/mrgid/48877?t=1637986676> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48877/geometries?source=111&attributeValue=6421>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4332>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48877>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:17:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-28. Proposer: National Hydrographic Centre (NHC), Malaysia. Year of proposal: 2015."@en, "GEBCO: discoverer and year of discovery: Discoverer: Malaysian survey vessel \"Coastal 1\". Year of discovery: 2013. History: Named from Santubong, the highest mount in Sarawak. This name is derived from the word Si-antubong which means spirit boat in the Iban language, the Ibans - or Sea Dayaks -"@en, "Additional information: This feature has a rounded shape and a steepness of 45°. Minimum depth (m): 493. Maximum depth (m): 1910. Total relief (m): 1417. Dimension: 127 km²."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Santubong Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(111.504579 6.401546)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4332> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South China Sea"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48877?t=1637986676>.
+<http://marineregions.org/mrgid/25445?t=1637988709> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/32223>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/25445/geometries?source=80&attributeValue=25445>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4334>, <http://marineregions.org/mrgid/8332>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/25445>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:51:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Thailand part of the Gulf of Thailand"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(103.497462 13.519164,99.144382 13.519164,99.144382 6.236136,103.497462 6.236136,103.497462 13.519164)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(101.080293 9.858132)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://doi.org/10.14284/402>.
+<http://marineregions.org/mrgid/32223> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WetlandOfInternationalImportanceRamsarConvention>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mu Koh Ang Thong Marine National Park"@en.
+<http://marineregions.org/mrgid/4334> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of Thailand"@en.
+<http://marineregions.org/mrgid/8332> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Thailand Exclusive Economic Zone"@en.
+<https://doi.org/10.14284/402> <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2020). Intersect of IHO Sea Areas and Exclusive Economic Zones (version 4)   ".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25445?t=1637988709>.
+<http://marineregions.org/mrgid/2190?t=1637988903> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/8485>, <http://marineregions.org/mrgid/16489>, <http://marineregions.org/mrgid/22342>, <http://marineregions.org/mrgid/24400>, <http://marineregions.org/mrgid/24401>, <http://marineregions.org/mrgid/24402>, <http://marineregions.org/mrgid/30129>, <http://marineregions.org/mrgid/32944>, <http://marineregions.org/mrgid/32945>, <http://marineregions.org/mrgid/49199>, <http://marineregions.org/mrgid/49741>, <http://marineregions.org/mrgid/49748>, <http://marineregions.org/mrgid/50348>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/2190/geometries?source=252&attributeValue=Singapore>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1921>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/48286>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/2190>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:55:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Singapore"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(103.9979 1.445282,103.6409 1.445282,103.6409 1.259027,103.9979 1.259027,103.9979 1.445282)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(103.8194 1.352154)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-3087 <http://www.w3.org/2000/01/rdf-schema#label> "(2001). The Times comprehensive atlas of the world. 10th ed. Times Books: London. ISBN 0-7230-0792-6. 67, 220, 124 plates pp.".
+_:n3-3086 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-3087.
+<http://marineregions.org/mrgid/2190?t=1637988903> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-3086.
+<http://marineregions.org/mrgid/8485> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Singaporean Exclusive Economic Zone"@en.
+<http://marineregions.org/mrgid/16489> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pulau Hantu"@en.
+<http://marineregions.org/mrgid/22342> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Coast>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sungei Buloh Kranji"@ml.
+<http://marineregions.org/mrgid/24400> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Lighthouse>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Horsburgh"@en.
+<http://marineregions.org/mrgid/24401> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Lighthouse>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Raffles"@en.
+<http://marineregions.org/mrgid/24402> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Lighthouse>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sultan Shoal"@en.
+<http://marineregions.org/mrgid/30129> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Estuary>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pulau Ketam Estuary"@en.
+<http://marineregions.org/mrgid/32944> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Stream>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sungai Punggol"@en.
+<http://marineregions.org/mrgid/32945> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pulau Ubin"@en.
+<http://marineregions.org/mrgid/49199> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TerritorialSea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Singaporean 12 NM"@en.
+<http://marineregions.org/mrgid/49741> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Marina Bay"@en.
+<http://marineregions.org/mrgid/49748> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bintan Island"@en.
+<http://marineregions.org/mrgid/50348> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Coast>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Singaporean Coast"@en.
+<http://marineregions.org/mrgid/1921> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Continent>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Asia"@en.
+<http://marineregions.org/mrgid/48286> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Singapore"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/2190?t=1637988903>.
+<http://marineregions.org/mrgid/5799?t=1637989127> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/5799/geometries?source=111&attributeValue=823>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4274>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/5799>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T04:58:47Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Dreanought Bank"@en;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 6.666666667; Long: 95.83333333"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dreadnought Bank"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(95.833333 6.666667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4274> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Andaman Sea"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5799?t=1637989127>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/7-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/7-0.ttl>.

@@ -236,3 +236,40 @@ _:n3-2741 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6008?t=1637999806>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/9-0.ttl>.
+<http://marineregions.org/mrgid/7093?t=1637993236> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7093/geometries?source=111&attributeValue=2478>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7093>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:07:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Banc Portland"@fr, "Portland Reef"@en, "Portland Seamount"@en, "Récif Portland"@fr;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155037>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -23.66666667; Long: -134.4166667"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: Shown as Portland Reef in the ACUF Gazetteer."@en, "Coordinates in ACUF: Latitude: -23.683333; Longitude: -134.5"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Portland Bank"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-134.416667 -23.666667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+_:n3-113 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155037".
+<urn:acuf:ufi:-155037> <https://schema.org/identifier> _:n3-113;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155037>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7093?t=1637993236>.
+<http://marineregions.org/mrgid/8233?t=1637996251> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8233/geometries?source=111&attributeValue=826>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8233>;
+    <http://purl.org/dc/terms/modified> "2021-11-27T06:57:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -35.77833333; Long: -115.5533333"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-11. Proposer: Russian Federal Research Institute of Fisheries and Oceanography (VNIRO). Year of proposal: 1993."@en, "GEBCO: discoverer and year of discovery: Discoverer: Russian fisheries research vessel \"Kulikovo Pole\". Year of discovery: 1987. History: Named after Prof. A. D. Druzhinin (1926-1979), a Russian ichthyologist, head of the pelagic fish laboratory at the Russian Institute of Fish Economy and Fishe"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Druzhinin Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-115.553333 -35.778333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8233?t=1637996251>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/9-0.ttl>.
