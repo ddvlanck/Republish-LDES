@@ -1024,3 +1024,56 @@ _:n3-1032 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24120?t=1636188363>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/14/5-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/14/5-0.ttl>.
+<http://marineregions.org/mrgid/6589?t=1635581015> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Rise>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6589/geometries?source=111&attributeValue=42>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4309>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6589>;
+    <http://purl.org/dc/terms/modified> "2021-10-30T08:03:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "AN Rise"@en, "Massif Sous-marin de l’Académie des Sciences de l’URSS"@en, "Vozvyshennost’ Akademii Nauk SSSR"@en, "Возвышенность Академии Наук СССР"@ru;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152369>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-15. Proposer: Gleb B. Udintsev, Institute of Oceanology of the Russian Academy of Sciences (IO RAS)."@en, "GEBCO: discoverer and year of discovery: Discoverer: Russian research vessel \"Vityaz\". History: Named from the Russian Academy of Sciences which organized many expeditions to the northern part of the Pacific Ocean from 1949 to 1957."@en, "Additional information: Shown as AN Rise in ACUF Gazetteer."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "AkademiI Nauk Rise"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(150 49.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4309> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sea of Okhotsk"@en.
+_:n3-1125 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152369".
+<urn:acuf:ufi:-152369> <https://schema.org/identifier> _:n3-1125;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152369>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6589?t=1635581015>.
+<http://marineregions.org/mrgid/8546?t=1635582664> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#LargeMarineEcosystem>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8546/geometries?source=24&attributeValue=50>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/22539>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/4307>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8546>;
+    <http://purl.org/dc/terms/modified> "2021-10-30T08:31:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://lme.edc.uri.edu/index.php/lme-briefs/22-sea-of-japan-east-sea-lme-50>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sea of Japan"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(142.26781 53.27287,127.3747 53.27287,127.3747 33.87193,142.26781 33.87193,142.26781 53.27287)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(135.66735 41.26266)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1171 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.lmehub.net/>.
+<http://marineregions.org/mrgid/8546?t=1635582664> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1171.
+<http://marineregions.org/mrgid/22539> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#GeneralRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Large Marine Ecosystems"@en.
+<http://marineregions.org/mrgid/4307> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Japan Sea/East Sea"@en.
+<https://www.lmehub.net/> <http://www.w3.org/2000/01/rdf-schema#label> "Large Marine Ecosystems of the World".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8546?t=1635582664>.
+<http://marineregions.org/mrgid/24114?t=1634970198> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/24114/geometries?source=128&attributeValue=24114>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23648>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/24114>;
+    <http://purl.org/dc/terms/modified> "2021-10-23T06:23:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tatarskiy Proliv"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(142.255752563 51.744194031,137.685302734 51.744194031,137.685302734 45.822544098,142.255752563 45.822544098,142.255752563 51.744194031)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(140.66125556454 48.178536555244)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.bodc.ac.uk/resources/vocabularies/seavox/>.
+<http://marineregions.org/mrgid/23648> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Japan Sea"@en.
+<https://www.bodc.ac.uk/resources/vocabularies/seavox/> <http://www.w3.org/2000/01/rdf-schema#label> "The SeaVoX Salt and Fresh Water Body Gazetteer".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24114?t=1634970198>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/14/5-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/14/5-0.ttl>.

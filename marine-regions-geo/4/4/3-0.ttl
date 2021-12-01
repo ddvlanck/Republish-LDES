@@ -407,3 +407,71 @@ _:n3-134 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/23372?t=1636193691>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/3-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/3-0.ttl>.
+<http://marineregions.org/mrgid/48373?t=1636180740> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48373/geometries?source=50&attributeValue=NUN-OO>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47758>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/47758>, <http://marineregions.org/mrgid/15519>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48373>;
+    <http://purl.org/dc/terms/modified> "2021-11-06T06:39:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:NUN-OO>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nunavut"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-60.877211718157 83.189577319085,-132.98438827187 83.189577319085,-132.98438827187 51.7570002342,-60.877211718157 51.7570002342,-60.877211718157 83.189577319085)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-82.57211291337 72.104189810739)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47758> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nunavut"@en.
+<http://marineregions.org/mrgid/15519> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Territory>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nunavut"@en.
+_:n3-269 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "NUN-OO".
+<urn:tdwg:wgsrpd:NUN-OO> <https://schema.org/identifier> _:n3-269;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48373?t=1636180740>.
+<http://marineregions.org/mrgid/21821?t=1635575067> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21821/geometries?source=38&attributeValue=21821>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/21780>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21821>;
+    <http://purl.org/dc/terms/modified> "2021-10-30T06:24:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Baffin Bay - Davis Strait"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-71.1218 71.8383)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1321 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas>.
+<http://marineregions.org/mrgid/21821?t=1635575067> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1321.
+<http://marineregions.org/mrgid/21780> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arctic"@en.
+<https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas> <http://www.w3.org/2000/01/rdf-schema#label> "Spalding, M. D. Fox, H. E. Allen, G. R. Davidson, N. Ferdana, Z. A. Finlayson, M. Halpern, B. S. Jorge, M. A. Lombana, A. Lourie, S. A., (2007). Marine Ecoregions of the World: A Bioregionalization of Coastal and Shelf Areas. Bioscience 2007, VOL 57; numb 7, pages 573-584. doi: 10.1641/B570707".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21821?t=1635575067>.
+<http://marineregions.org/mrgid/19457?t=1635566609> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NationalPark>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/18813>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/19457/geometries?source=195&attributeValue=OAUQP>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/15519>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/19457>;
+    <http://purl.org/dc/terms/modified> "2021-10-30T04:03:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www4.rncan.gc.ca/search-place-names/unique/OAUQP>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sirmilik National Park of Canada"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-80.583333 72.833333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/18813> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bylot Island"@en.
+<http://marineregions.org/mrgid/15519> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Territory>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nunavut"@en.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/19457?t=1635566609>.
+<http://marineregions.org/mrgid/25266?t=1634979198> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/25266/geometries?source=80&attributeValue=25266>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4253>, <http://marineregions.org/mrgid/8493>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/25266>;
+    <http://purl.org/dc/terms/modified> "2021-10-23T08:53:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Canadian part of the Baffin Bay"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-58.885519 82.482482,-82.158755 82.482482,-82.158755 69.614991,-58.885519 69.614991,-58.885519 82.482482)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-71.595998 74.301953)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://doi.org/10.14284/402>.
+<http://marineregions.org/mrgid/4253> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Baffin Bay"@en.
+<http://marineregions.org/mrgid/8493> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Canadian Exclusive Economic Zone"@en.
+<https://doi.org/10.14284/402> <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2020). Intersect of IHO Sea Areas and Exclusive Economic Zones (version 4)   ".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25266?t=1634979198>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/3-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/3-0.ttl>.

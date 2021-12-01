@@ -1451,3 +1451,66 @@ _:n3-1774 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21870?t=1636186216>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/8-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/8-0.ttl>.
+<http://marineregions.org/mrgid/48112?t=1636172088> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48112/geometries?source=50&attributeValue=GAL-OO>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47633>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/47633>, <http://marineregions.org/mrgid/25876>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48112>;
+    <http://purl.org/dc/terms/modified> "2021-11-06T04:14:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:GAL-OO>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Galápagos"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-89.245010375977 0.65166664123537,-91.66389465332 0.65166664123537,-91.66389465332 -1.4080557823181,-89.245010375977 -1.4080557823181,-89.245010375977 0.65166664123537)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-90.89334732803 -0.56224109003321)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47633> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Galápagos"@en.
+<http://marineregions.org/mrgid/25876> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Galápagos"@en.
+_:n3-451 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "GAL-OO".
+<urn:tdwg:wgsrpd:GAL-OO> <https://schema.org/identifier> _:n3-451;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48112?t=1636172088>.
+<http://marineregions.org/mrgid/50322?t=1636173815> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Coast>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/50322/geometries?source=136&attributeValue=50322>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2257>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/50322>;
+    <http://purl.org/dc/terms/modified> "2021-11-06T04:43:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: Derived from ESRI World Countries 2014"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Peruvian Coast"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-70.37954998 -3.40322232245,-81.3307670359 -3.40322232245,-81.3307670359 -18.3507187365,-70.37954998 -18.3507187365,-70.37954998 -3.40322232245)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-78.019046689311 -10.369463607746)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-540 <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2015). National coastlines based on ESRI Countries (2014)".
+<http://marineregions.org/mrgid/50322?t=1636173815> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-540.
+<http://marineregions.org/mrgid/2257> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Peru"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/50322?t=1636173815>.
+<http://marineregions.org/mrgid/22344?t=1635580893> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Estuary>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/22344/geometries?source=158&attributeValue=22344>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/25881>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/22344>;
+    <http://purl.org/dc/terms/modified> "2021-10-30T08:01:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chone River Estuary"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-80.416667 -1.583333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.vliz.be/vmdcdata/mangroves/>.
+<http://marineregions.org/mrgid/25881> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Manabí"@en.
+<http://www.vliz.be/vmdcdata/mangroves/> <http://www.w3.org/2000/01/rdf-schema#label> "Mangroves".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/22344?t=1635580893>.
+<http://marineregions.org/mrgid/22008?t=1634983678> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/22008/geometries?source=38&attributeValue=22008>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/21755>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/22008>;
+    <http://purl.org/dc/terms/modified> "2021-10-23T10:07:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Humboldtian"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-72.5823 -18.1662)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1654 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas>.
+<http://marineregions.org/mrgid/22008?t=1634983678> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1654.
+<http://marineregions.org/mrgid/21755> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Warm Temperate Southeastern Pacific"@en.
+<https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas> <http://www.w3.org/2000/01/rdf-schema#label> "Spalding, M. D. Fox, H. E. Allen, G. R. Davidson, N. Ferdana, Z. A. Finlayson, M. Halpern, B. S. Jorge, M. A. Lombana, A. Lourie, S. A., (2007). Marine Ecoregions of the World: A Bioregionalization of Coastal and Shelf Areas. Bioscience 2007, VOL 57; numb 7, pages 573-584. doi: 10.1641/B570707".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/22008?t=1634983678>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/8-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/8-0.ttl>.

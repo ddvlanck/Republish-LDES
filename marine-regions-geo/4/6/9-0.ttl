@@ -809,3 +809,103 @@ _:n3-706 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-707.
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/63068?t=1636192268>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/9-0.ttl>.
+<http://marineregions.org/mrgid/63081?t=1636172988> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/63081/geometries?source=105&attributeValue=889187>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/63081>;
+    <http://purl.org/dc/terms/modified> "2021-11-06T04:29:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: This feature has an elongated shape. Minimum depth (m): 1430. Maximum depth (m): 3600. Total relief (m): 2170. Dimension/size: 47 km x 25 km."@en, "GEBCO: associated meeting, proposer and year of proposal: \"Associated meeting: SCUFN-32. Proposer: Directorate of Hydrography and Navigation (DHN)"@en, "GEBCO: discoverer and year of discovery:  Brazil. History: 2019.\",\"Discoverer: OSAE survey vessel \"\"Fugro Gauss\"\". Year of discovery: 2012. History: Named after Gilberto Henrique Griep (1952-2019), a Brazilian oceanographer with the Rio Grande Federal University (FURG) and one of the founders of the Marine Geology and Geophysics Program of Brazil. He joined FURG as a professor of geological oceanography in 1977, where he developed teaching, research and various important projects.\""@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Griep Seamount"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-30.69233 -30.64909,-31.03568 -30.64909,-31.03568 -30.89946,-30.69233 -30.89946,-30.69233 -30.64909)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-30.85158 -30.77932)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/63081?t=1636172988>.
+<http://marineregions.org/mrgid/56836?t=1636166994> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/56836/geometries?source=95&attributeValue=56836>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/2265>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/56836>;
+    <http://purl.org/dc/terms/modified> "2021-11-06T02:49:54Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Drift type: Elongated Mounded"@en, "Maximum age: Late-Pliocene-Quaternary"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ioffe Drift"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-33.84 -26.698,-34.249 -26.698,-34.249 -26.933,-33.84 -26.933,-33.84 -26.698)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-34.02522 -26.828398)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-759 <http://www.w3.org/2000/01/rdf-schema#label> "Ivanova, E., Murdmaa, I., Borisov, D., Dmitrenko, O., Levchenko, O., & Emelyanov, E. (2016). Late Pliocene–Pleistocene stratigraphy and history of formation of the Ioffe calcareous contourite drift, Western South Atlantic. Marine Geology, 372, 17-30.".
+_:n3-758 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-759.
+<http://marineregions.org/mrgid/56836?t=1636166994> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-758.
+<http://marineregions.org/mrgid/2265> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Antarctic Bottom Water"@en.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/56836?t=1636166994>.
+<http://marineregions.org/mrgid/24039?t=1635589086> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/24039/geometries?source=128&attributeValue=24039>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23643>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/24039>;
+    <http://purl.org/dc/terms/modified> "2021-10-30T10:18:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southwest Atlantic Ocean (20W)"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-20 1.0E-8,-69.585716248 1.0E-8,-69.585716248 -60,-20 -60,-20 1.0E-8)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-35.608263101289 -31.392863086942)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.bodc.ac.uk/resources/vocabularies/seavox/>.
+<http://marineregions.org/mrgid/23643> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southwest Atlantic Ocean (20W)"@en.
+<https://www.bodc.ac.uk/resources/vocabularies/seavox/> <http://www.w3.org/2000/01/rdf-schema#label> "The SeaVoX Salt and Fresh Water Body Gazetteer".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24039?t=1635589086>.
+<http://marineregions.org/mrgid/63106?t=1635574341> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/63106/geometries?source=105&attributeValue=889178>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/63106>;
+    <http://purl.org/dc/terms/modified> "2021-10-30T06:12:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: This feature has a conical shape and a steepness of 3 to 30°. Minimum depth (m): 1995. Maximum depth (m): 5080. Total relief (m): 3085. Dimension/size: 42 km X 40 km."@en, "GEBCO: associated meeting, proposer and year of proposal: \"Associated meeting: SCUFN-32. Proposer: Directorate of Hydrography and Navigation (DHN)"@en, "GEBCO: discoverer and year of discovery:  Brazil. History: 2019.\",\"Discoverer: French research and supply vessel \"\"Marion Dufresne\"\". Year of discovery: 2011. History: Named from the blue subgiant star \"\"Alpha Crucis\"\", located in the South Cross constellation (Cruzeiro do Sul, in Portuguese) in the southern hemisphere, in association with the nearby Cruzeiro do Sul Rift. Alpha Crucis is the main and southern most star of the South Cross constellation and marks the bottom of the South Cross, when facing south.\""@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alpha Crucis Seamount"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-37.7678 -27.66828,-38.13081 -27.66828,-38.13081 -27.99267,-37.7678 -27.99267,-37.7678 -27.66828)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-37.95577 -27.83492)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/63106?t=1635574341>.
+<http://marineregions.org/mrgid/62607?t=1635576194> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Municipality>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/62607/geometries?source=244&attributeValue=62607>;
+    <http://marineregions.org/ns/ontology#isAdjacentTo> <http://marineregions.org/mrgid/1914>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/9069>;
+    <http://marineregions.org/ns/ontology#replaces> <http://marineregions.org/mrgid/22617>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/62607>;
+    <http://purl.org/dc/terms/modified> "2021-10-30T06:43:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ubatuba"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-44.72386 -23.19836,-45.2803 -23.19836,-45.2803 -23.59702,-44.72386 -23.59702,-44.72386 -23.19836)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-45.02366 -23.38079)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://datacatalog.worldbank.org/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/9069> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "São Paulo"@pt.
+<http://marineregions.org/mrgid/22617> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#InhabitedPlace>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ubatuba"@en.
+<https://datacatalog.worldbank.org/> <http://www.w3.org/2000/01/rdf-schema#label> "The World Bank Data Catalog".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/62607?t=1635576194>.
+<http://marineregions.org/mrgid/6762?t=1635567446> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6762/geometries?source=111&attributeValue=3419>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6762>;
+    <http://purl.org/dc/terms/modified> "2021-10-30T04:17:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-156186>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -38.16666667; Long: -26.25"@en, "Previous coordinates: Lat: -38.16667 ; Long: -26.25 (update 2020-04-22)"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: -38.25; Longitude: -26.25"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Zapiola Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-26.13876 -38.16667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+_:n3-1445 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-156186".
+<urn:acuf:ufi:-156186> <https://schema.org/identifier> _:n3-1445;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-156186>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6762?t=1635567446>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/9-0.ttl>.

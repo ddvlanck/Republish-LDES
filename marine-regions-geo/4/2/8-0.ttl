@@ -661,3 +661,60 @@ _:n3-81 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6792?t=1636776712>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/8-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/8-0.ttl>.
+<http://marineregions.org/mrgid/6007?t=1635592594> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6007/geometries?source=111&attributeValue=627>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6007>;
+    <http://purl.org/dc/terms/modified> "2021-10-30T11:16:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -18.66666667; Long: -113.8166667"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-12. Proposer: Daniel Scheirer, Brown University, USA. Year of proposal: 1995."@en, "GEBCO: discoverer and year of discovery: Discoverer: U.S. research vessel \"Melville\". Year of discovery: 1992. History: Named after Preston Cloud (1912-1990), an American earth scientist."@en, "Additional information: 100% multibeam coverage (Seabeam 2000) and GPS navigation."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cloud Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-113.816667 -18.666667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6007?t=1635592594>.
+<http://marineregions.org/mrgid/7547?t=1635576666> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7547/geometries?source=110&attributeValue=2556>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7547>;
+    <http://purl.org/dc/terms/modified> "2021-10-30T06:51:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:186274>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-12. Proposer: Daniel Scheirer, Brown University, USA. Year of proposal: 1995."@en, "GEBCO: discoverer and year of discovery: Discoverer: U.S. research vessel \"Melville\". Year of discovery: 1992. History: Rano Rahi is the Pascuense term for \"many peaks\" or \"many volcanoes\"."@en, "Additional information: Collective name for the undersea volcanoes found within this area. 100% multibeam coverage (Seabeam 2000) and GPS navigation."@en, "Coordinates in ACUF: Latitude: -17.5; Longitude: -115"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Rano Rahi Seamounts"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-112 -15,-118 -15,-118 -19,-112 -19,-112 -15)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-114.96813752388 -17.022311303569)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+_:n3-1353 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "186274".
+<urn:acuf:ufi:186274> <https://schema.org/identifier> _:n3-1353;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D186274>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7547?t=1635576666>.
+<http://marineregions.org/mrgid/7545?t=1634962841> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ridge>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7545/geometries?source=110&attributeValue=1236>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7545>;
+    <http://purl.org/dc/terms/modified> "2021-10-23T04:20:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Hakateka Seamount Chain"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:186261>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-12. Proposer: Daniel Scheirer, Brown University, USA. Year of proposal: 1995."@en, "GEBCO: discoverer and year of discovery: Discoverer: U.S. research vessel \"Melville\". Year of discovery: 1992. History: Hakateka is a Pascuense term for \"many corners\" or \"multiple corners\", describing the changes of orientation of the volcanoes within the chain."@en, "Additional information: 100% multibeam coverage (Seabeam 2000) and GPS navigation. Shown as Hakateka Seamount Chain in the ACUF Gazetteer."@en, "Coordinates in ACUF: Latitude: -18.733333; Longitude: -115.6"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Hakateka Ridge"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-115.25 -18.8,-115.966667 -18.8,-115.966667 -18.983333,-115.25 -18.983333,-115.25 -18.8)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-115.60852851459 -18.892012287731)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+_:n3-1895 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "186261".
+<urn:acuf:ufi:186261> <https://schema.org/identifier> _:n3-1895;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D186261>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7545?t=1634962841>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/8-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/8-0.ttl>.

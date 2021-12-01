@@ -799,3 +799,30 @@ _:n3-2791 <http://www.w3.org/2000/01/rdf-schema#label> "Aphia".
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/23381?t=1636198275>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/4-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/4-0.ttl>.
+<http://marineregions.org/mrgid/5123?t=1635568759> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Sill>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/5123/geometries?source=111&attributeValue=741>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4250>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/5123>;
+    <http://purl.org/dc/terms/modified> "2021-10-30T04:39:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/0cc6cd1b849c20c341b624659cf89d75>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Baffin-Greenland Rise"@en, "Davis Strait Ridge"@en, "Davis Strait Rise"@en, "Davis Strait Sill"@en, "Grenlandsko-Kanadskiy Porog"@ru, "Гренландско-Канадский Порог"@ru;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-153129>, <urn:cgnd:uid:0cc6cd1b849c20c341b624659cf89d75>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Davis Sill"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-57 65.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4250> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Davis Strait"@en.
+_:n3-1474 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153129".
+<urn:acuf:ufi:-153129> <https://schema.org/identifier> _:n3-1474;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153129>.
+_:n3-1475 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "0cc6cd1b849c20c341b624659cf89d75".
+<urn:cgnd:uid:0cc6cd1b849c20c341b624659cf89d75> <https://schema.org/identifier> _:n3-1475;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/0cc6cd1b849c20c341b624659cf89d75>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5123?t=1635568759>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/4-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/4-0.ttl>.

@@ -605,3 +605,28 @@ _:n3-3074 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6715?t=1636197284>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/8/10-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/8/10-0.ttl>.
+<http://marineregions.org/mrgid/7173?t=1634973273> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ridge>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7173/geometries?source=110&attributeValue=38>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>, <http://marineregions.org/mrgid/8396>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7173>;
+    <http://purl.org/dc/terms/modified> "2021-10-23T07:14:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Cape Rise"@en, "Cape Swell"@en, "Kap-Schwelle"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152803>;
+    <http://www.w3.org/2004/02/skos/core#note> ": Updated coordinates (GEBCO May 2014) - \r\nPrevious values (GEBCO October 2002):\r\n[Min. Lat: 43°30'0\"S] ; [Min. Long: 7°0'0\"E] ; [Max. Lat: 37°0'0\"S] ; [Max. Long: 18°30'0\"E]"@en, "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-25. Proposer: Eric S. W. Simpson, University of Cape Town (UCT), South Africa."@en, "Additional information: Shown as Cape Rise in ACUF Gazetteer."@en, "Coordinates in ACUF: Latitude: -42; Longitude: 15"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Agulhas Ridge"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(15.550029178 -40.2934850893,3.47528519766 -40.2934850893,3.47528519766 -44.5808941838,15.550029178 -44.5808941838,15.550029178 -40.2934850893)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(9.769422276299 -42.681553433802)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/8396> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South African Exclusive Economic Zone"@en.
+_:n3-1772 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152803".
+<urn:acuf:ufi:-152803> <https://schema.org/identifier> _:n3-1772;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152803>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7173?t=1634973273>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/8/10-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/8/10-0.ttl>.
