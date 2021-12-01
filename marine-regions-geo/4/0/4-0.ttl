@@ -630,3 +630,399 @@ _:n3-22 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/58738?t=1558402442>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/4-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/4-0.ttl>.
+<http://marineregions.org/mrgid/18653?t=1417434717> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/19656>;
+    <http://marineregions.org/ns/ontology#isAdjacentTo> <http://marineregions.org/mrgid/19109>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/18809>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/18653>;
+    <http://purl.org/dc/terms/modified> "2014-12-01T11:51:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Chirikov Basin"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152940>;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: Feature also available in IMIS with the same coordinates"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chirikof Basin"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-169 64.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://geonames.nga.mil/gns/html/acuf.html>.
+<http://marineregions.org/mrgid/19656> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Strait>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "shpanberg strait"@en.
+<http://marineregions.org/mrgid/19109> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "St. Lawrence"@en.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+<http://marineregions.org/mrgid/18809> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chirikov Basin"@en.
+_:n3-301 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152940".
+<urn:acuf:ufi:-152940> <https://schema.org/identifier> _:n3-301;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152940>.
+<http://geonames.nga.mil/gns/html/acuf.html> <http://www.w3.org/2000/01/rdf-schema#label> "US BGN Advisory Committee on Undersea Features (ACUF)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/18653?t=1417434717>.
+<http://marineregions.org/mrgid/18809?t=1417163129> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/18653>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/18809>;
+    <http://purl.org/dc/terms/modified> "2014-11-28T08:25:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chirikov Basin"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-169 64.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-323 <http://www.w3.org/2000/01/rdf-schema#label> "IMIS".
+<http://marineregions.org/mrgid/18809?t=1417163129> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-323.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+<http://marineregions.org/mrgid/18653> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chirikof Basin"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/18809?t=1417163129>.
+<http://marineregions.org/mrgid/34645?t=1417009191> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SubmarineValleys>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/34645>;
+    <http://purl.org/dc/terms/modified> "2014-11-26T13:39:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Chaplino Sea Valley"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152917>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chaplino Valley"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-171.783333 64.166667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://geonames.nga.mil/gns/html/acuf.html>.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+_:n3-407 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152917".
+<urn:acuf:ufi:-152917> <https://schema.org/identifier> _:n3-407;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152917>.
+<http://geonames.nga.mil/gns/html/acuf.html> <http://www.w3.org/2000/01/rdf-schema#label> "US BGN Advisory Committee on Undersea Features (ACUF)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/34645?t=1417009191>.
+<http://marineregions.org/mrgid/34688?t=1417009191> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SubmarineValleys>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/34688>;
+    <http://purl.org/dc/terms/modified> "2014-11-26T13:39:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Bering Strait Sea Valley"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152590>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Strait Valley"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-168.5 65.75)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://geonames.nga.mil/gns/html/acuf.html>.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+_:n3-430 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152590".
+<urn:acuf:ufi:-152590> <https://schema.org/identifier> _:n3-430;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152590>.
+<http://geonames.nga.mil/gns/html/acuf.html> <http://www.w3.org/2000/01/rdf-schema#label> "US BGN Advisory Committee on Undersea Features (ACUF)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/34688?t=1417009191>.
+<http://marineregions.org/mrgid/34520?t=1417009191> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SubmarineValleys>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/34520>;
+    <http://purl.org/dc/terms/modified> "2014-11-26T13:39:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Kookoolik Sea Valley"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154061>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kookoolik Valley"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-169.916667 64.166667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://geonames.nga.mil/gns/html/acuf.html>.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+_:n3-476 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154061".
+<urn:acuf:ufi:-154061> <https://schema.org/identifier> _:n3-476;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154061>.
+<http://geonames.nga.mil/gns/html/acuf.html> <http://www.w3.org/2000/01/rdf-schema#label> "US BGN Advisory Committee on Undersea Features (ACUF)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/34520?t=1417009191>.
+<http://marineregions.org/mrgid/35122?t=1417009191> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Spur>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/35122>;
+    <http://purl.org/dc/terms/modified> "2014-11-26T13:39:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155266>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Saint Paul Spur"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-173.583333 57.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://geonames.nga.mil/gns/html/acuf.html>.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+_:n3-588 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155266".
+<urn:acuf:ufi:-155266> <https://schema.org/identifier> _:n3-588;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155266>.
+<http://geonames.nga.mil/gns/html/acuf.html> <http://www.w3.org/2000/01/rdf-schema#label> "US BGN Advisory Committee on Undersea Features (ACUF)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/35122?t=1417009191>.
+<http://marineregions.org/mrgid/35123?t=1417009191> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/35123>;
+    <http://purl.org/dc/terms/modified> "2014-11-26T13:39:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155262>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 58.5; Long:-177.333333 (update 2020-07-28)"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Saint Matthew Canyon"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-177.661667 57.945)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://geonames.nga.mil/gns/html/acuf.html>.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+_:n3-658 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155262".
+<urn:acuf:ufi:-155262> <https://schema.org/identifier> _:n3-658;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155262>.
+<http://geonames.nga.mil/gns/html/acuf.html> <http://www.w3.org/2000/01/rdf-schema#label> "US BGN Advisory Committee on Undersea Features (ACUF)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/35123?t=1417009191>.
+<http://marineregions.org/mrgid/35416?t=1417009191> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/35416>;
+    <http://purl.org/dc/terms/modified> "2014-11-26T13:39:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154457>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 58.616667; Long:-176.75 (update 2020-07-28)"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Middle Canyon"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-177.045 57.733333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://geonames.nga.mil/gns/html/acuf.html>.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+_:n3-778 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154457".
+<urn:acuf:ufi:-154457> <https://schema.org/identifier> _:n3-778;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154457>.
+<http://geonames.nga.mil/gns/html/acuf.html> <http://www.w3.org/2000/01/rdf-schema#label> "US BGN Advisory Committee on Undersea Features (ACUF)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/35416?t=1417009191>.
+<http://marineregions.org/mrgid/34587?t=1417009191> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Shoal>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/34587>;
+    <http://purl.org/dc/terms/modified> "2014-11-26T13:39:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Gambell Ridge"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-153475>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gambell Shoal"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-170.75 64)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://geonames.nga.mil/gns/html/acuf.html>.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+_:n3-875 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153475".
+<urn:acuf:ufi:-153475> <https://schema.org/identifier> _:n3-875;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153475>.
+<http://geonames.nga.mil/gns/html/acuf.html> <http://www.w3.org/2000/01/rdf-schema#label> "US BGN Advisory Committee on Undersea Features (ACUF)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/34587?t=1417009191>.
+<http://marineregions.org/mrgid/35480?t=1417009191> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Shoal>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/35480>;
+    <http://purl.org/dc/terms/modified> "2014-11-26T13:39:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154222>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lost River Shoal"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-167.166667 65.233333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://geonames.nga.mil/gns/html/acuf.html>.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+_:n3-1122 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154222".
+<urn:acuf:ufi:-154222> <https://schema.org/identifier> _:n3-1122;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154222>.
+<http://geonames.nga.mil/gns/html/acuf.html> <http://www.w3.org/2000/01/rdf-schema#label> "US BGN Advisory Committee on Undersea Features (ACUF)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/35480?t=1417009191>.
+<http://marineregions.org/mrgid/34528?t=1417009191> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SubmarineValleys>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/34528>;
+    <http://purl.org/dc/terms/modified> "2014-11-26T13:39:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "King Island Sea Valley"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154027>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "King Island Valley"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-168 64.75)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://geonames.nga.mil/gns/html/acuf.html>.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+_:n3-1260 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154027".
+<urn:acuf:ufi:-154027> <https://schema.org/identifier> _:n3-1260;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154027>.
+<http://geonames.nga.mil/gns/html/acuf.html> <http://www.w3.org/2000/01/rdf-schema#label> "US BGN Advisory Committee on Undersea Features (ACUF)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/34528?t=1417009191>.
+<http://marineregions.org/mrgid/34414?t=1417009191> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SubmarineValleys>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/34414>;
+    <http://purl.org/dc/terms/modified> "2014-11-26T13:39:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Saint Lawrence Sea Valley"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155259>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Saint Lawrence Valley"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-168.666667 62.833333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://geonames.nga.mil/gns/html/acuf.html>.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+_:n3-1296 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155259".
+<urn:acuf:ufi:-155259> <https://schema.org/identifier> _:n3-1296;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155259>.
+<http://geonames.nga.mil/gns/html/acuf.html> <http://www.w3.org/2000/01/rdf-schema#label> "US BGN Advisory Committee on Undersea Features (ACUF)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/34414?t=1417009191>.
+<http://marineregions.org/mrgid/35125?t=1417009191> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Trough>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/35125>;
+    <http://purl.org/dc/terms/modified> "2014-11-26T13:39:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155258>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Saint Lawrence Trough"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-168.383333 63.166667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://geonames.nga.mil/gns/html/acuf.html>.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+_:n3-1415 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155258".
+<urn:acuf:ufi:-155258> <https://schema.org/identifier> _:n3-1415;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155258>.
+<http://geonames.nga.mil/gns/html/acuf.html> <http://www.w3.org/2000/01/rdf-schema#label> "US BGN Advisory Committee on Undersea Features (ACUF)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/35125?t=1417009191>.
+<http://marineregions.org/mrgid/34767?t=1417009191> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Shoal>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/34767>;
+    <http://purl.org/dc/terms/modified> "2014-11-26T13:39:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-156175>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "York Shoal"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-167.5 65.2)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://geonames.nga.mil/gns/html/acuf.html>.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+_:n3-1669 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-156175".
+<urn:acuf:ufi:-156175> <https://schema.org/identifier> _:n3-1669;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-156175>.
+<http://geonames.nga.mil/gns/html/acuf.html> <http://www.w3.org/2000/01/rdf-schema#label> "US BGN Advisory Committee on Undersea Features (ACUF)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/34767?t=1417009191>.
+<http://marineregions.org/mrgid/34440?t=1417009191> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SubmarineValleys>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/34440>;
+    <http://purl.org/dc/terms/modified> "2014-11-26T13:39:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Port Clarence Sea Valley"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155036>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Port Clarence Valley"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-167.5 65.383333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://geonames.nga.mil/gns/html/acuf.html>.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+_:n3-1886 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155036".
+<urn:acuf:ufi:-155036> <https://schema.org/identifier> _:n3-1886;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155036>.
+<http://geonames.nga.mil/gns/html/acuf.html> <http://www.w3.org/2000/01/rdf-schema#label> "US BGN Advisory Committee on Undersea Features (ACUF)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/34440?t=1417009191>.
+<http://marineregions.org/mrgid/35308?t=1417009191> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Plain>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/35308>;
+    <http://purl.org/dc/terms/modified> "2014-11-26T13:39:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154755>;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: Previous placetype: Abyssal Plain (update 2020-07-28)"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Norton Plain"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-168 63.9)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://geonames.nga.mil/gns/html/acuf.html>.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+_:n3-1958 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154755".
+<urn:acuf:ufi:-154755> <https://schema.org/identifier> _:n3-1958;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154755>.
+<http://geonames.nga.mil/gns/html/acuf.html> <http://www.w3.org/2000/01/rdf-schema#label> "US BGN Advisory Committee on Undersea Features (ACUF)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/35308?t=1417009191>.
+<http://marineregions.org/mrgid/35320?t=1417009191> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Shoal>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/35320>;
+    <http://purl.org/dc/terms/modified> "2014-11-26T13:39:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154710>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northeast Cape Shoal"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-168.5 63.333333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://geonames.nga.mil/gns/html/acuf.html>.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+_:n3-1972 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154710".
+<urn:acuf:ufi:-154710> <https://schema.org/identifier> _:n3-1972;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154710>.
+<http://geonames.nga.mil/gns/html/acuf.html> <http://www.w3.org/2000/01/rdf-schema#label> "US BGN Advisory Committee on Undersea Features (ACUF)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/35320?t=1417009191>.
+<http://marineregions.org/mrgid/35552?t=1417009191> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Shoal>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/35552>;
+    <http://purl.org/dc/terms/modified> "2014-11-26T13:39:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154026>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "King Island Shoal"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-168.1 65)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://geonames.nga.mil/gns/html/acuf.html>.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+_:n3-1985 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154026".
+<urn:acuf:ufi:-154026> <https://schema.org/identifier> _:n3-1985;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154026>.
+<http://geonames.nga.mil/gns/html/acuf.html> <http://www.w3.org/2000/01/rdf-schema#label> "US BGN Advisory Committee on Undersea Features (ACUF)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/35552?t=1417009191>.
+<http://marineregions.org/mrgid/34183?t=1417009191> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Spur>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/34183>;
+    <http://purl.org/dc/terms/modified> "2014-11-26T13:39:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Sevoukok Ridge"@en, "Sevuokok Spur"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155424>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sevuokuk Spur"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-172.4 63.766667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://geonames.nga.mil/gns/html/acuf.html>.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+_:n3-2185 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155424".
+<urn:acuf:ufi:-155424> <https://schema.org/identifier> _:n3-2185;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155424>.
+<http://geonames.nga.mil/gns/html/acuf.html> <http://www.w3.org/2000/01/rdf-schema#label> "US BGN Advisory Committee on Undersea Features (ACUF)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/34183?t=1417009191>.
+<http://marineregions.org/mrgid/34887?t=1417009191> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Shoal>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/34887>;
+    <http://purl.org/dc/terms/modified> "2014-11-26T13:39:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155889>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ukivok Shoal"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-167.783333 65.083333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://geonames.nga.mil/gns/html/acuf.html>.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+_:n3-2186 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155889".
+<urn:acuf:ufi:-155889> <https://schema.org/identifier> _:n3-2186;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155889>.
+<http://geonames.nga.mil/gns/html/acuf.html> <http://www.w3.org/2000/01/rdf-schema#label> "US BGN Advisory Committee on Undersea Features (ACUF)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/34887?t=1417009191>.
+<http://marineregions.org/mrgid/34928?t=1417009191> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Shoal>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/34928>;
+    <http://purl.org/dc/terms/modified> "2014-11-26T13:39:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155794>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tin City Shoal"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-167.666667 65.133333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://geonames.nga.mil/gns/html/acuf.html>.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+_:n3-2246 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155794".
+<urn:acuf:ufi:-155794> <https://schema.org/identifier> _:n3-2246;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155794>.
+<http://geonames.nga.mil/gns/html/acuf.html> <http://www.w3.org/2000/01/rdf-schema#label> "US BGN Advisory Committee on Undersea Features (ACUF)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/34928?t=1417009191>.
+<http://marineregions.org/mrgid/34677?t=1417009191> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Spur>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/34677>;
+    <http://purl.org/dc/terms/modified> "2014-11-26T13:39:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Booshu Ridge"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152666>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Booshu Spur"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-172.283333 63.566667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://geonames.nga.mil/gns/html/acuf.html>.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+_:n3-2375 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152666".
+<urn:acuf:ufi:-152666> <https://schema.org/identifier> _:n3-2375;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152666>.
+<http://geonames.nga.mil/gns/html/acuf.html> <http://www.w3.org/2000/01/rdf-schema#label> "US BGN Advisory Committee on Undersea Features (ACUF)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/34677?t=1417009191>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/4-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/4-0.ttl>.
