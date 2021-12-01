@@ -3222,3 +3222,122 @@ _:n3-490 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6569?t=1594125820>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/14/7-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/14/7-0.ttl>.
+<http://marineregions.org/mrgid/58585?t=1557886088> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Guyot>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/58585/geometries?source=111&attributeValue=6855>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1908>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/58585>;
+    <http://purl.org/dc/terms/modified> "2019-05-15T02:08:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: This feature has a conical and distorded shape. Minimum depth (m): 1579. Maximum depth (m): 5685. Total relief (m): 4106. Dimension/size: 50 km × 55 km."@en, "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-31. Proposer: Japanese Committee on Undersea Feature Names (JCUFN). History: 2018."@en, "GEBCO: discoverer and year of discovery: Discoverer: Japanese survey vessel \"Takuyo\". Year of discovery: 2001. History: Named after Dr. Toshio Akiyoshi (1889-1947), a Japanese geophysicist. When astronomical almanacs could not be imported into Japan during World War II, he was in charge of developing an astronomical navigation table, which resulted in Japan's own astronomical navigation table (Japanese ephemeris) in 1943."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Akiyoshi Guyot"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(155.983 20.39117)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/58585?t=1557886088>.
+<http://marineregions.org/mrgid/57157?t=1539784176> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deep>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1908>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/57157>;
+    <http://purl.org/dc/terms/modified> "2018-10-17T13:49:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:14457396>;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: Falkor Deep is located in the northwest Pacific Ocean, between Guam and the Mariana Trench. Feature Description: Max depth: approx. 8,000m, Min. depth: approx. 6,700m, Total Relief: approx. 1,300m; Dimensions: approx. 37000mx27000m. Survey vessel: Research Vessel (R/V) Falkor; oceanographic research vessel, and flagship vessel of the Schmidt Ocean Institute. Named after the discovering ship, Research Vessel (R/V) Falkor; oceanographic research vessel, and flagship vessel of the Schmidt Ocean Institute. Proposed by Mr. Leighton Rolley, Schmidt Ocean Institute. Approved by the U.S. Board on Geographic Names at USBGN Meeting 271; 17 Oct. 2017."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Falkor Deep"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(144.919501 12.530884)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://geonames.nga.mil/gns/html/acuf.html>.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+_:n3-49 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "14457396".
+<urn:acuf:ufi:14457396> <https://schema.org/identifier> _:n3-49;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D14457396>.
+<http://geonames.nga.mil/gns/html/acuf.html> <http://www.w3.org/2000/01/rdf-schema#label> "US BGN Advisory Committee on Undersea Features (ACUF)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/57157?t=1539784176>.
+<http://marineregions.org/mrgid/57158?t=1539784176> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4300>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/57158>;
+    <http://purl.org/dc/terms/modified> "2018-10-17T13:49:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:14457397>;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: Afa’maolek Seamount is located in the northwest Pacific Ocean; between the Northern Mariana island of Anatahan and east of the Mariana Trough. Feature Description: Max depth: approx. 4,228m, Min. depth: approx. 1,876m, Total Relief: approx. 2,352m. Survey vessel: Research Vessel (R/V) Falkor; oceanographic research vessel, and flagship vessel of the Schmidt Ocean Institute. Meaning: “Afa’maolek”; Chamorro word for ‘cooperation’; Chamorro is the spoken language of the Chamorro people indigenous to Guam and Northern Mariana Islands; the translation and context of Afa’maolek was verified by the council on Guam and translates as: To be good to one another; collaborate; form a group; help out; cooperate with; be friends. The word communicates the close working relationship between the Falkor (Schmidt Ocean Institute) and Okeanos Explorer’s (NOAA) for coordinating surveying and sharing of data. It also honors the local indigenous language and culture. Proposed by Mr. Leighton Rolley, Schmidt Ocean Institute. Approved by the U.S. Board on Geographic Names at USBGN Meeting 271; 17 Oct. 2017."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Afa’maolek Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(144.952348 16.315371)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://geonames.nga.mil/gns/html/acuf.html>.
+<http://marineregions.org/mrgid/4300> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Philippine Sea"@en.
+_:n3-50 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "14457397".
+<urn:acuf:ufi:14457397> <https://schema.org/identifier> _:n3-50;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D14457397>.
+<http://geonames.nga.mil/gns/html/acuf.html> <http://www.w3.org/2000/01/rdf-schema#label> "US BGN Advisory Committee on Undersea Features (ACUF)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/57158?t=1539784176>.
+<http://marineregions.org/mrgid/49663?t=1481930091> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4300>, <http://marineregions.org/mrgid/48957>;
+    <http://marineregions.org/ns/ontology#replaces> <http://marineregions.org/mrgid/25485>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/49663>;
+    <http://purl.org/dc/terms/modified> "2016-12-16T23:14:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Guam part of the Philippine Sea"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(145.069787 15.726687,141.195407 15.726687,141.195407 11.930179,145.069787 11.930179,145.069787 15.726687)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(144.002608 12.929575)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://doi.org/10.14284/402>.
+<http://marineregions.org/mrgid/4300> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Philippine Sea"@en.
+<http://marineregions.org/mrgid/48957> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Guam Exclusive Economic Zone"@en.
+<http://marineregions.org/mrgid/25485> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northern Mariana Islands and Guam part of the Philippine Sea"@en.
+<https://doi.org/10.14284/402> <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2020). Intersect of IHO Sea Areas and Exclusive Economic Zones (version 4)   ".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/49663?t=1481930091>.
+<http://marineregions.org/mrgid/49664?t=1481930091> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4300>, <http://marineregions.org/mrgid/48980>;
+    <http://marineregions.org/ns/ontology#replaces> <http://marineregions.org/mrgid/25485>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/49664>;
+    <http://purl.org/dc/terms/modified> "2016-12-16T23:14:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northern Mariana part of the Philippine Sea"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(146.053342 22.47993,141.331091 22.47993,141.331091 13.848772,146.053342 13.848772,146.053342 22.47993)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(145.739332 18.286598)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://doi.org/10.14284/402>.
+<http://marineregions.org/mrgid/4300> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Philippine Sea"@en.
+<http://marineregions.org/mrgid/48980> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northern Mariana Exclusive Economic Zone"@en.
+<http://marineregions.org/mrgid/25485> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northern Mariana Islands and Guam part of the Philippine Sea"@en.
+<https://doi.org/10.14284/402> <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2020). Intersect of IHO Sea Areas and Exclusive Economic Zones (version 4)   ".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/49664?t=1481930091>.
+<http://marineregions.org/mrgid/49662?t=1481930091> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1908>, <http://marineregions.org/mrgid/48957>;
+    <http://marineregions.org/ns/ontology#replaces> <http://marineregions.org/mrgid/25561>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/49662>;
+    <http://purl.org/dc/terms/modified> "2016-12-16T23:14:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Guam part of the North Pacific Ocean"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(148.077095 13.848772,142.208457 13.848772,142.208457 10.953972,148.077095 10.953972,148.077095 13.848772)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(144.002608 12.929575)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://doi.org/10.14284/402>.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+<http://marineregions.org/mrgid/48957> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Guam Exclusive Economic Zone"@en.
+<http://marineregions.org/mrgid/25561> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northern Mariana Islands and Guam part of the North Pacific Ocean"@en.
+<https://doi.org/10.14284/402> <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2020). Intersect of IHO Sea Areas and Exclusive Economic Zones (version 4)   ".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/49662?t=1481930091>.
+<http://marineregions.org/mrgid/49665?t=1481930091> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1908>, <http://marineregions.org/mrgid/48980>;
+    <http://marineregions.org/ns/ontology#replaces> <http://marineregions.org/mrgid/25561>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/49665>;
+    <http://purl.org/dc/terms/modified> "2016-12-16T23:14:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northern Mariana part of the North Pacific Ocean"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(149.52928 23.895654,143.27647 23.895654,143.27647 12.22788,149.52928 12.22788,149.52928 23.895654)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(145.739332 18.286598)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://doi.org/10.14284/402>.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+<http://marineregions.org/mrgid/48980> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northern Mariana Exclusive Economic Zone"@en.
+<http://marineregions.org/mrgid/25561> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northern Mariana Islands and Guam part of the North Pacific Ocean"@en.
+<https://doi.org/10.14284/402> <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2020). Intersect of IHO Sea Areas and Exclusive Economic Zones (version 4)   ".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/49665?t=1481930091>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/14/7-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/14/7-0.ttl>.
