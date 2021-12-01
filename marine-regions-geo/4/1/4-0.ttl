@@ -803,3 +803,64 @@ _:n3-2884 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6627?t=1636789074>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/1/4-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/1/4-0.ttl>.
+<http://marineregions.org/mrgid/6198?t=1636775298> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Guyot>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6198/geometries?source=111&attributeValue=2491>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1908>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6198>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T03:48:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/0cc5aaf1849c20c37b719fcff17e99fa>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Gora Pratt"@ru, "Pratt Seamount"@en, "Гора Пратт"@ru;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155051>, <urn:cgnd:uid:0cc5aaf1849c20c37b719fcff17e99fa>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 56.25 ; Long: -142.5 (update 2020-04-22)"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: 56.166667; Longitude: -142.5"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pratt Guyot"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-142.56729 56.24771)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+_:n3-975 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155051".
+<urn:acuf:ufi:-155051> <https://schema.org/identifier> _:n3-975;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155051>.
+_:n3-976 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "0cc5aaf1849c20c37b719fcff17e99fa".
+<urn:cgnd:uid:0cc5aaf1849c20c37b719fcff17e99fa> <https://schema.org/identifier> _:n3-976;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/0cc5aaf1849c20c37b719fcff17e99fa>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6198?t=1636775298>.
+<http://marineregions.org/mrgid/32745?t=1636771797> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/32745/geometries?source=169&attributeValue=32745>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8684>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/32745>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T02:49:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Berg Bay"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-136.16722 58.51917)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.geonames.org>.
+<http://marineregions.org/mrgid/8684> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alaska"@en.
+<http://www.geonames.org> <http://www.w3.org/2000/01/rdf-schema#label> "GeoNames".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/32745?t=1636771797>.
+<http://marineregions.org/mrgid/6206?t=1636193869> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6206/geometries?source=111&attributeValue=2538>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1908>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6206>;
+    <http://purl.org/dc/terms/modified> "2021-11-06T10:17:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Gora Kuinn"@ru, "Gora Kvin"@ru, "Quinn Guyot"@en, "Гора Квин"@ru, "Гора Куинн"@ru;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155100>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 56.30337 ; Long: -145.22802 (update 2020-04-22)"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Quinn Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-145.22803 56.30337)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+_:n3-1471 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155100".
+<urn:acuf:ufi:-155100> <https://schema.org/identifier> _:n3-1471;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155100>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6206?t=1636193869>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/1/4-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/1/4-0.ttl>.

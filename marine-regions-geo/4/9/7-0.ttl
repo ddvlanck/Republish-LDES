@@ -1094,3 +1094,56 @@ _:n3-2769 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48137?t=1636787944>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/9/7-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/9/7-0.ttl>.
+<http://marineregions.org/mrgid/18010?t=1636779837> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#GeneralRegion>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/18010/geometries?source=144&attributeValue=18010>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2128>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/18010>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T05:03:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Southwest India"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South West India"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(26.1 10.8)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-31 <http://www.w3.org/2000/01/rdf-schema#label> "Aphia".
+<http://marineregions.org/mrgid/18010?t=1636779837> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-31.
+<http://marineregions.org/mrgid/2128> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "India"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/18010?t=1636779837>.
+<http://marineregions.org/mrgid/47623?t=1636772488> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/48136>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/47623/geometries?source=51&attributeValue=ERI>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47477>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/2111>, <http://marineregions.org/mrgid/48136>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/47623>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T03:01:28Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:ERI>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Eritrea"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(43.121383667123 17.994880675902,36.44328308065 17.994880675902,36.44328308065 12.363887786692,43.121383667123 12.363887786692,43.121383667123 17.994880675902)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(38.86400590239 15.358043904101)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/48136> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Eritrea"@en.
+<http://marineregions.org/mrgid/47477> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northeast Tropical Africa"@en.
+<http://marineregions.org/mrgid/2111> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Eritrea"@en.
+_:n3-674 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "ERI".
+<urn:tdwg:wgsrpd:ERI> <https://schema.org/identifier> _:n3-674;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47623?t=1636772488>.
+<http://marineregions.org/mrgid/21918?t=1636774931> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21918/geometries?source=38&attributeValue=21918>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/21776>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21918>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T03:42:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southern Red Sea"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(40.8145 16.7933)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-926 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas>.
+<http://marineregions.org/mrgid/21918?t=1636774931> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-926.
+<http://marineregions.org/mrgid/21776> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Red Sea and Gulf of Aden"@en.
+<https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas> <http://www.w3.org/2000/01/rdf-schema#label> "Spalding, M. D. Fox, H. E. Allen, G. R. Davidson, N. Ferdana, Z. A. Finlayson, M. Halpern, B. S. Jorge, M. A. Lombana, A. Lourie, S. A., (2007). Marine Ecoregions of the World: A Bioregionalization of Coastal and Shelf Areas. Bioscience 2007, VOL 57; numb 7, pages 573-584. doi: 10.1641/B570707".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21918?t=1636774931>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/9/7-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/9/7-0.ttl>.

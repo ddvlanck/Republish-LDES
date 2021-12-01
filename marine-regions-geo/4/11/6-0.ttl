@@ -781,3 +781,63 @@ _:n3-3057 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48187?t=1636783823>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/6-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/6-0.ttl>.
+<http://marineregions.org/mrgid/46388?t=1636776018> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/46388/geometries?source=213&attributeValue=06M8>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/36329>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/46388>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T04:00:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "06M8"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(69 39,68 39,68 38.5,69 38.5,69 39)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(68.5 38.750773125241)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-311 <http://www.w3.org/ns/prov#wasAttributedTo> <http://gis.ices.dk/>.
+<http://marineregions.org/mrgid/46388?t=1636776018> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-311.
+<http://marineregions.org/mrgid/36329> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "ICES Statistical Rectangles"@en.
+<http://gis.ices.dk/> <http://www.w3.org/2000/01/rdf-schema#label> "International Council for the Exploration of the Sea (ICES)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/46388?t=1636776018>.
+<http://marineregions.org/mrgid/48209?t=1636774211> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48209/geometries?source=50&attributeValue=IND-WB>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47657>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/18752>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48209>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T03:30:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:IND-WB>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "West Bengal"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(89.822006225586 26.859996795654,85.83332824707 26.859996795654,85.83332824707 21.520553588867,89.822006225586 21.520553588867,89.822006225586 26.859996795654)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(87.963201479937 23.667812652877)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47657> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "India"@en.
+<http://marineregions.org/mrgid/18752> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "West Bengal"@en.
+_:n3-861 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "IND-WB".
+<urn:tdwg:wgsrpd:IND-WB> <https://schema.org/identifier> _:n3-861;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48209?t=1636774211>.
+<http://marineregions.org/mrgid/48206?t=1636771888> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48206/geometries?source=50&attributeValue=IND-RA>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47657>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/18746>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48206>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T02:51:28Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:IND-RA>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Rajasthan"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(78.262176513672 30.136001586914,69.484985351563 30.136001586914,69.484985351563 23.070020675659,78.262176513672 23.070020675659,78.262176513672 30.136001586914)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(73.849950239266 26.579980116568)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47657> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "India"@en.
+<http://marineregions.org/mrgid/18746> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Rajasthan"@en.
+_:n3-1085 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "IND-RA".
+<urn:tdwg:wgsrpd:IND-RA> <https://schema.org/identifier> _:n3-1085;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48206?t=1636771888>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/6-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/6-0.ttl>.

@@ -1097,3 +1097,86 @@ _:n3-2740 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24130?t=1636789492>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/8-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/8-0.ttl>.
+<http://marineregions.org/mrgid/6452?t=1636778075> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6452/geometries?source=111&attributeValue=915>;
+    <http://marineregions.org/ns/ontology#isAdjacentTo> <http://marineregions.org/mrgid/6513>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6452>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T04:34:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Enganno Basin"@en, "Mentawai Basin"@en, "Mentawei Basin"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-153310>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -6; Long: 103.6666667"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: -6; Longitude: 103.75"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Enggano Basin"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(103.666667 -6)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/6513> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mentawai Basin"@en.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+_:n3-539 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153310".
+<urn:acuf:ufi:-153310> <https://schema.org/identifier> _:n3-539;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153310>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6452?t=1636778075>.
+<http://marineregions.org/mrgid/7334?t=1636774001> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7334/geometries?source=110&attributeValue=3253>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>, <http://marineregions.org/mrgid/8309>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7334>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T03:26:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155954>;
+    <http://www.w3.org/2004/02/skos/core#note> ": Updated coordinates (GEBCO May 2014) - \r\nPrevious values (GEBCO October 2002):\r\n[Max. Long: 104.5°]"@en, "GEBCO: associated meeting, proposer and year of proposal: Proposer: Robert L. Fisher, Scripps Institution of Oceanography (SIO), USA. Year of proposal: 1981."@en, "GEBCO: discoverer and year of discovery: Discoverer: Research vessels of the International Indian Ocean Expedition (IIOE). Year of discovery: 1960. History: Named after Felix A. Vening Meinesz (1887-1966), pioneer Dutch geodesist who conducted pendulum gravity measurements throughout the Indones"@en, "Additional information: The group is distinct from Shcherbakov Seamount, 10°55'S - 104°40'E."@en, "Coordinates in ACUF: Latitude: -11; Longitude: 102.5"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Vening Meinesz Seamounts"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(105 -11,102.5 -11,102.5 -11.5,105 -11.5,105 -11)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(103.746694 -11.291116)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/8309> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Christmas Island Exclusive Economic Zone"@en.
+_:n3-838 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155954".
+<urn:acuf:ufi:-155954> <https://schema.org/identifier> _:n3-838;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155954>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7334?t=1636774001>.
+<http://marineregions.org/mrgid/24127?t=1636774768> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/24127/geometries?source=128&attributeValue=24127>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23623>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/24127>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T03:39:28Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Selat Sunda"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(106.038223267 -5.446417809,104.516304016 -5.446417809,104.516304016 -6.835165024,106.038223267 -6.835165024,106.038223267 -5.446417809)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(105.27523105162 -6.115937512313)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.bodc.ac.uk/resources/vocabularies/seavox/>.
+<http://marineregions.org/mrgid/23623> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South China and Eastern Archipelagic seas"@en.
+<https://www.bodc.ac.uk/resources/vocabularies/seavox/> <http://www.w3.org/2000/01/rdf-schema#label> "The SeaVoX Salt and Fresh Water Body Gazetteer".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24127?t=1636774768>.
+<http://marineregions.org/mrgid/7332?t=1636196075> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Rise>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7332/geometries?source=110&attributeValue=2547>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>, <http://marineregions.org/mrgid/8308>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7332>;
+    <http://purl.org/dc/terms/modified> "2021-11-06T10:54:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:111155>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-11. Proposer: Robert L. Fisher, Scripps Institution of Oceanography (SIO), USA. Year of proposal: 1993."@en, "GEBCO: discoverer and year of discovery: Discoverer: U.S. research vessels \"Argo\" and \"Horizon\". Year of discovery: 1962. History: Named after Russell W. Raitt (1907-1995), SIO marine seismologist and a major figure in development and shipboard employment of seismic methods to study entire crust"@en, "Coordinates in ACUF: Latitude: -13.183333; Longitude: 96.166667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Raitt Rise"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(97.666667 -12.1,95.1 -12.1,95.1 -14.416667,97.666667 -14.416667,97.666667 -12.1)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(96.354885 -13.289501)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/8308> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cocos Islands Exclusive Economic Zone"@en.
+_:n3-1569 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "111155".
+<urn:acuf:ufi:111155> <https://schema.org/identifier> _:n3-1569;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D111155>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7332?t=1636196075>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/8-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/8-0.ttl>.

@@ -146,3 +146,43 @@ _:n3-246 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/62617?t=1636798177>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/3/12-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/3/12-0.ttl>.
+<http://marineregions.org/mrgid/6852?t=1636781802> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6852/geometries?source=111&attributeValue=720>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1907>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6852>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T05:36:42Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:263204>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -67.16666667; Long: -96.88333333"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-12. Proposer: Rick Hagen, Alfred-Wegener Institute for Polar and Marine Research (AWI), Germany. Year of proposal: 1997."@en, "GEBCO: discoverer and year of discovery: Discoverer: German research vessel \"Polarstern\". Year of discovery: 1995. History: Named after Eduard Dallmann (1839-1896), ship's captain and polar explorer who surveyed the area west of Graham Land up to about 66°S."@en, "Additional information: Minimum depth (m): 2100."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dallmann Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-96.883333 -67.166667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1907> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southern Ocean"@en.
+_:n3-185 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "263204".
+<urn:acuf:ufi:263204> <https://schema.org/identifier> _:n3-185;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D263204>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6852?t=1636781802>.
+<http://marineregions.org/mrgid/33715?t=1636777038> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/33715/geometries?source=95&attributeValue=33715>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/5395>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/25668>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/33715>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T04:17:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Drift type: Mounded"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Depocentre C"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-90.9104 -68.5126,-96.7446 -68.5126,-96.7446 -70.8218,-90.9104 -70.8218,-90.9104 -68.5126)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-93.290961066346 -69.810217832246)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-423 <http://www.w3.org/2000/01/rdf-schema#label> "C. Scheuer, K. Gohl, R.D. Larter, M. Rebesco, G. Udintsev (2006). Variability in Cenozoic sedimentation along the continental rise of the Bellinghausen Sea, West Antarctica. Marine Geology, 227 (2006), pp. 279–298".
+_:n3-422 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-423.
+<http://marineregions.org/mrgid/33715?t=1636777038> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-422.
+<http://marineregions.org/mrgid/5395> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Current>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Antarctic Circumpolar Current"@en.
+<http://marineregions.org/mrgid/25668> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Antarctic 200NM zone beyond the coastline part of the Southern Ocean"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/33715?t=1636777038>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/3/12-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/3/12-0.ttl>.

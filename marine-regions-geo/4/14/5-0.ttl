@@ -968,3 +968,59 @@ _:n3-2934 <http://www.w3.org/2000/01/rdf-schema#label> "Aphia".
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/17976?t=1636789548>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/14/5-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/14/5-0.ttl>.
+<http://marineregions.org/mrgid/32398?t=1636774191> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/32398/geometries?source=169&attributeValue=32398>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4307>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/32398>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T03:29:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Olga Bay"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(135.239167 43.709444)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/4307> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Japan Sea/East Sea"@en.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/32398?t=1636774191>.
+<http://marineregions.org/mrgid/7410?t=1636775872> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7410/geometries?source=110&attributeValue=1461>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4307>;
+    <http://marineregions.org/ns/ontology#isPartlyPartOf> <http://marineregions.org/mrgid/8487>, <http://marineregions.org/mrgid/5690>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7410>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T03:57:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Japan Deep"@en, "Japan Sea Basin"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-153925>;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: 40; Longitude: 135"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Japan Basin"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(138 43,132.5 43,132.5 41,138 41,138 43)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(135.2069063292 42.033032922976)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4307> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Japan Sea/East Sea"@en.
+<http://marineregions.org/mrgid/8487> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Japanese Exclusive Economic Zone"@en.
+<http://marineregions.org/mrgid/5690> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Russian Exclusive economic Zone"@en.
+_:n3-1032 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153925".
+<urn:acuf:ufi:-153925> <https://schema.org/identifier> _:n3-1032;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153925>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7410?t=1636775872>.
+<http://marineregions.org/mrgid/24120?t=1636188363> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/24120/geometries?source=128&attributeValue=24120>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23640>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/4309>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/24120>;
+    <http://purl.org/dc/terms/modified> "2021-11-06T08:46:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sea Of Okhotsk"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(165.30871582 62.694526672,135.170669556 62.694526672,135.170669556 43.222248077,165.30871582 43.222248077,165.30871582 62.694526672)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(148.59603894149 53.287521348765)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.bodc.ac.uk/resources/vocabularies/seavox/>.
+<http://marineregions.org/mrgid/23640> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northwest Pacific Ocean (180W)"@en.
+<http://marineregions.org/mrgid/4309> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sea of Okhotsk"@en.
+<https://www.bodc.ac.uk/resources/vocabularies/seavox/> <http://www.w3.org/2000/01/rdf-schema#label> "The SeaVoX Salt and Fresh Water Body Gazetteer".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24120?t=1636188363>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/14/5-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/14/5-0.ttl>.

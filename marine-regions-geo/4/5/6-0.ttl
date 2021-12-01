@@ -1139,3 +1139,150 @@ _:n3-2617 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24972?t=1636793684>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/6-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/6-0.ttl>.
+<http://marineregions.org/mrgid/33316?t=1636777118> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/33316/geometries?source=101&attributeValue=5ZEM>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23398>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/33316>;
+    <http://purl.org/dc/terms/modified> "2021-11-13T04:18:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO 5ZEM"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-66.413671 40.598371)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nafo.int/Data/GIS>.
+<http://marineregions.org/mrgid/23398> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO 5ZE"@en.
+<https://www.nafo.int/Data/GIS> <http://www.w3.org/2000/01/rdf-schema#label> "NAFO Divisions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/33316?t=1636777118>.
+<http://marineregions.org/mrgid/5143?t=1636200439> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/5143/geometries?source=111&attributeValue=2579>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/5143>;
+    <http://purl.org/dc/terms/modified> "2021-11-06T12:07:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/0cc59f71849c20c3318143157bcba45e>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155145>, <urn:cgnd:uid:0cc59f71849c20c3318143157bcba45e>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: discoverer and year of discovery: History: Named from the C. and W. ship \"Retriever\" that made extensive surveys in several oceans."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Retriever Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-66.25 39.8)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+_:n3-1161 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155145".
+<urn:acuf:ufi:-155145> <https://schema.org/identifier> _:n3-1161;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155145>.
+_:n3-1162 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "0cc59f71849c20c3318143157bcba45e".
+<urn:cgnd:uid:0cc59f71849c20c3318143157bcba45e> <https://schema.org/identifier> _:n3-1162;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/0cc59f71849c20c3318143157bcba45e>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5143?t=1636200439>.
+<http://marineregions.org/mrgid/33306?t=1636198585> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/33306/geometries?source=100&attributeValue=4XX>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23396>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/33306>;
+    <http://purl.org/dc/terms/modified> "2021-11-06T11:36:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO 4XX"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-64.418051 40.021738)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nafo.int/Data/GIS>.
+<http://marineregions.org/mrgid/23396> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO 4X"@en.
+<https://www.nafo.int/Data/GIS> <http://www.w3.org/2000/01/rdf-schema#label> "NAFO Divisions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/33306?t=1636198585>.
+<http://marineregions.org/mrgid/5164?t=1636199793> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/5164/geometries?source=111&attributeValue=1339>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/5164>;
+    <http://purl.org/dc/terms/modified> "2021-11-06T11:56:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-153777>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 31.9; Long: -58.73333333"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: 31.9; Longitude: -58.733333"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Hodges Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-58.78139852 31.91632095)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+_:n3-1412 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153777".
+<urn:acuf:ufi:-153777> <https://schema.org/identifier> _:n3-1412;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153777>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5164?t=1636199793>.
+<http://marineregions.org/mrgid/24813?t=1636193458> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/24813/geometries?source=110&attributeValue=234>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/24813>;
+    <http://purl.org/dc/terms/modified> "2021-11-06T10:10:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Atlantis II Seamount Group"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152435>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-18. Year of proposal: 2004."@en, "Additional information: Adopted from the ACUF Gazetteer in 2004. Minimum depth (m): 1644. Maximum depth (m): 4900. Total relief (m): 3256."@en, "Coordinates in ACUF: Latitude: 38.45; Longitude: -63.116667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Atlantis II Seamounts"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-62.8 38.45,-63.1166666667 38.45,-63.1166666667 38.3166666667,-62.8 38.3166666667,-62.8 38.45)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-62.847277889631 38.407523689489)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+_:n3-1454 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152435".
+<urn:acuf:ufi:-152435> <https://schema.org/identifier> _:n3-1454;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152435>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24813?t=1636193458>.
+<http://marineregions.org/mrgid/59770?t=1636192045> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/59770/geometries?source=105&attributeValue=889322>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/59770>;
+    <http://purl.org/dc/terms/modified> "2021-11-06T09:47:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/0d01c205849c20c391a5d31920041175>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:cgnd:uid:0d01c205849c20c391a5d31920041175>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat:  40.9; Long: -52.5 (update 2021-09-02)"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: This feature is located on the Sohm Abyssal Plain and is one of the Fogo Seamounts. Adopted from the Canadian Geographical Names Data Base (CGNDB). Minimum depth (m): 3900. Maximum depth (m): 5100. Total relief (m): 1200. Dimension/size: 40 km x 18 km."@en, "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-34. Proposer: A. Ruffman, Geomarine Associates Ltd, NS, Canada. History: 1993."@en, "GEBCO: discoverer and year of discovery: Discoverer: . Year of discovery: . History: Named from the \"Algerine\" , a Newfoundland ship owned by Bowring Brothers of St. John's. She was chartered by the White Star Line late in the search, to operate with the Canadian government vessel \"Montmagny\". She left St. John's on May 15, 1912, and returned June 8, 1912. She recovered the last body, that of James McGrady, who was buried in Halifax."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Algerine Seamount"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-52.41807 41.15792,-52.75042 41.15792,-52.75042 40.84636,-52.41807 40.84636,-52.41807 41.15792)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-52.58154 40.99455)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+_:n3-1709 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "0d01c205849c20c391a5d31920041175".
+<urn:cgnd:uid:0d01c205849c20c391a5d31920041175> <https://schema.org/identifier> _:n3-1709;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/0d01c205849c20c391a5d31920041175>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/59770?t=1636192045>.
+<http://marineregions.org/mrgid/23403?t=1636192639> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/23403/geometries?source=99&attributeValue=6D>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>, <http://marineregions.org/mrgid/33172>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/23403>;
+    <http://purl.org/dc/terms/modified> "2021-11-06T09:57:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO 6D"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-67.5 37)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nafo.int/Data/GIS>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/33172> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO 6"@en.
+<https://www.nafo.int/Data/GIS> <http://www.w3.org/2000/01/rdf-schema#label> "NAFO Divisions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/23403?t=1636192639>.
+<http://marineregions.org/mrgid/5148?t=1636186178> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/5148/geometries?source=111&attributeValue=220>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/5148>;
+    <http://purl.org/dc/terms/modified> "2021-11-06T08:09:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Asperias Seamount"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152419>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Asterias Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-65.3 38.9)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+_:n3-1772 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152419".
+<urn:acuf:ufi:-152419> <https://schema.org/identifier> _:n3-1772;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152419>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5148?t=1636186178>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/6-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/6-0.ttl>.

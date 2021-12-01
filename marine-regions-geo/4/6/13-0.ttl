@@ -330,3 +330,27 @@ _:n3-630 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6971?t=1637376403>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/13-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/13-0.ttl>.
+<http://marineregions.org/mrgid/7186?t=1636187500> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7186/geometries?source=105&attributeValue=322>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1907>, <http://marineregions.org/mrgid/8489>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7186>;
+    <http://purl.org/dc/terms/modified> "2021-11-06T08:31:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152592>;
+    <http://www.w3.org/2004/02/skos/core#note> ": Updated coordinates (GEBCO May 2014) - \r\nPrevious values (GEBCO October 2002):\r\n [Min. Lat: 77°0'0\"S] ; \r\n[Min. Long: 48°0'0\"W] ;\r\n [Max. Lat: 74°18'0\"S] ; \r\n[Max. Long: 41°0'0\"W]\r\n"@en, "GEBCO: discoverer and year of discovery: History: Named from the nearby Berkner Island, Antarctica, which itself was named after Lloyd V. Berkner, American physicist and an engineer with the Byrd Antarctic Expedition, 1928-1930."@en, "Additional information: Adopted from the ACUF Gazetteer. References: 1) \"Surface Features on Sand Grains from Antarctic Continental Shelf and Deep-Sea Cores\", by Rex and Margolis in Antarctic Journal, Sept./Oct. 1969, p. 168; 2) \"Possible Interglacial Dune Sands in 300 Meters Wa"@en, "Coordinates in ACUF: Latitude: -75; Longitude: -48"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Berkner Bank"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-37.6633 -74.095,-48.4617 -74.095,-48.4617 -77.35,-37.6633 -77.35,-37.6633 -74.095)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-42.911183787441 -75.638881062983)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1907> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southern Ocean"@en.
+<http://marineregions.org/mrgid/8489> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Antarctic 200NM zone beyond the coastline"@en.
+_:n3-1820 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152592".
+<urn:acuf:ufi:-152592> <https://schema.org/identifier> _:n3-1820;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152592>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7186?t=1636187500>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/13-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/13-0.ttl>.
