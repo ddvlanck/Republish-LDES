@@ -1408,3 +1408,78 @@ _:n3-1802 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-1803.
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21495?t=1634969704>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/9-0.ttl>.
+<http://marineregions.org/mrgid/8265?t=1634356403> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Guyot>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8265/geometries?source=111&attributeValue=2848>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8265>;
+    <http://purl.org/dc/terms/modified> "2021-10-16T03:53:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Šorygin Guyot"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:343933>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -22.085; Long: -81.30666667"@en, "Previous coordinates: Lat: -22.085 ; Long: -81.30667 (update 2020-04-22)"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-12. Proposer: Russian Federal Research Institute of Fisheries and Oceanography (VNIRO). Year of proposal: 1993."@en, "GEBCO: discoverer and year of discovery: Discoverer: Russian fisheries research vessel \"Zvezda\". Year of discovery: 1978. History: Named after the Russian ichthyologist, A. A. Shorygin (1896-1948)."@en, "Coordinates in ACUF: Latitude: -22.083333; Longitude: -81.3"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Shorygin Guyot"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-81.30392 -22.14098)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+_:n3-139 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "343933".
+<urn:acuf:ufi:343933> <https://schema.org/identifier> _:n3-139;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D343933>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8265?t=1634356403>.
+<http://marineregions.org/mrgid/22756?t=1633173444> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/30178>, <http://marineregions.org/mrgid/49214>, <http://marineregions.org/mrgid/49445>, <http://marineregions.org/mrgid/49681>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/22756/geometries?source=79&attributeValue=22756>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8465>, <http://marineregions.org/mrgid/25135>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/49681>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/22756>;
+    <http://purl.org/dc/terms/modified> "2021-10-02T11:17:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=22756>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chilean Exclusive Economic Zone (San Felix and San Ambrosio islands)"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-76.15315 -22.93996,-83.8278 -22.93996,-83.8278 -29.69836,-76.15315 -29.69836,-76.15315 -22.93996)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-79.99086 -26.33091)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/30178> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IslandGroup>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "(no name found)"@na.
+<http://marineregions.org/mrgid/49214> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TerritorialSea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chilean 12 NM (San Felix and San Ambrosio islands)"@en.
+<http://marineregions.org/mrgid/49445> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContiguousZone>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chilean 24 NM (San Felix and San Ambrosio islands)"@en.
+<http://marineregions.org/mrgid/49681> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chilean (San Felix and San Ambrosio islands) part of the South Pacific Ocean"@en.
+<http://marineregions.org/mrgid/8465> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chilean Exclusive Economic Zone"@en.
+<http://marineregions.org/mrgid/25135> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Archipelago>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Islas San Félix and San Ambrosio"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Maritime Boundaries and Exclusive Economic Zones (200NM), version 11. Available online at http://www.marineregions.org/. https://doi.org/10.14284/386".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/22756?t=1633173444>.
+<http://marineregions.org/mrgid/63389?t=1622557362> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2165>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/63389>;
+    <http://purl.org/dc/terms/modified> "2021-06-01T14:22:42Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bahia Totoralillo Centro"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-71.46667 -30.05)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-422 <http://www.w3.org/2000/01/rdf-schema#label> "Valdivia, N.; Thiel, M. (2006). Effects of point-source nutrient addition and mussel removal on epibiotic assemblages in Perumytilus purpuratus beds. J. Sea Res. 56(4): 271-283. http://dx.doi.org/10.1016/j.seares.2006.06.003".
+_:n3-421 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-422.
+<http://marineregions.org/mrgid/63389?t=1622557362> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-421.
+<http://marineregions.org/mrgid/2165> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chile"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/63389?t=1622557362>.
+<http://marineregions.org/mrgid/25058?t=1594129415> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Guyot>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/25058/geometries?source=111&attributeValue=2914>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/25058>;
+    <http://purl.org/dc/terms/modified> "2020-07-07T13:43:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -22.09; Long: -81.31"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-12. Proposer: Galina V. Agapova, Geological Institute of the Russian Academy of Sciences (GIN RAS). Year of proposal: 1997."@en, "GEBCO: discoverer and year of discovery: Discoverer: Russian fisheries research vessel \"Zvezda\". Year of discovery: 1978. History: Named after the Russian ichthyologist, Professor A. A. Sorygin (1896-1948)."@en, "Additional information: Minimum depth (m): 155."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sorygin Guyot"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-81.306667 -22.093333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names (deleted features)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25058?t=1594129415>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/9-0.ttl>.

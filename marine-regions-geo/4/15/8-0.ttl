@@ -2138,3 +2138,38 @@ _:n3-1300 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21996?t=1635573776>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/15/8-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/15/8-0.ttl>.
+<http://marineregions.org/mrgid/7015?t=1634358999> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7015/geometries?source=111&attributeValue=1278>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7015>;
+    <http://purl.org/dc/terms/modified> "2021-10-16T04:36:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Banc Hazel Holme"@fr;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-153713>;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: -12.816667; Longitude: 174.05"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Hazel Holme Bank"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(174 -12.75)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+_:n3-118 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153713".
+<urn:acuf:ufi:-153713> <https://schema.org/identifier> _:n3-118;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153713>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7015?t=1634358999>.
+<http://marineregions.org/mrgid/63305?t=1604592912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2261>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/63305>;
+    <http://purl.org/dc/terms/modified> "2020-11-05T16:15:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mare"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(168.13387 -21.34855,167.79998 -21.34855,167.79998 -21.6609,168.13387 -21.6609,168.13387 -21.34855)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(167.97349 -21.5174)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-473 <http://www.w3.org/2000/01/rdf-schema#label> "Sayre, Roger; Noble, Suzanne; Hamann, Sharon; Smith, Rebecca; Wright, Dawn; Breyer, Sean; Butler, Kevin; Van Graafeiland, Keith; Frye, Charlie; Karagulle, Deniz; Hopkins, Dabney; Stephens, Drew; Kelly, Kevin; Basher, Zeenatul; Burton, Devon; Cress, Jill; Atkins, Karina; Van Sistine, D. Paco; Friesen, Beverly; Allee, Rebecca; Allen, Tom; Aniello, Peter; Asaad, Irawan; Costello, Mark John; Goodin, Kathy; Harris, Peter; Kavanaugh, Maria; Lillis, Helen; Manca, Eleonora; Muller-Karger, Frank; Nyberg, Bjorn; Parsons, Rost; Saarinen, Justin; Steiner, Jac; Reed, Adam (2019). A new 30 meter resolution global shoreline vector and associated global islands database for the development of standardized ecological coastal units. J. Oper. Oceangr. 12(Suppl. 2): S47-S56. https://hdl.handle.net/10.1080/1755876x.2018.1529714 ".
+_:n3-472 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-473.
+<http://marineregions.org/mrgid/63305?t=1604592912> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-472.
+<http://marineregions.org/mrgid/2261> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#DependentState>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "New Caledonia"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/63305?t=1604592912>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/15/8-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/15/8-0.ttl>.

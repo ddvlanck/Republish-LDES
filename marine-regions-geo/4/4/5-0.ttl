@@ -2029,3 +2029,218 @@ _:n3-1539 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47773?t=1635564709>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/5-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/5-0.ttl>.
+<http://marineregions.org/mrgid/21364?t=1633148141> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21364/geometries?source=195&attributeValue=FAHWH>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23494>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21364>;
+    <http://purl.org/dc/terms/modified> "2021-10-02T04:15:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www4.rncan.gc.ca/search-place-names/unique/FAHWH>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Big Duck Island"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-80.6 51.3,-80.57 51.3,-80.57 51.28,-80.6 51.28,-80.6 51.3)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-80.58569 51.29196)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/23494> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontario"@en.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21364?t=1633148141>.
+<http://marineregions.org/mrgid/35767?t=1563812482> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/35767>;
+    <http://purl.org/dc/terms/modified> "2019-07-22T16:21:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/0cc69712849c20c38f05b0f1e96b0059>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-153441>, <urn:cgnd:uid:0cc69712849c20c38f05b0f1e96b0059>;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude:  42.083333; Longitude: -68.083333"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Franklin Basin"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-68 42.1666667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+_:n3-548 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153441".
+<urn:acuf:ufi:-153441> <https://schema.org/identifier> _:n3-548;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153441>.
+_:n3-549 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "0cc69712849c20c38f05b0f1e96b0059".
+<urn:cgnd:uid:0cc69712849c20c38f05b0f1e96b0059> <https://schema.org/identifier> _:n3-549;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/0cc69712849c20c38f05b0f1e96b0059>.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/35767?t=1563812482>.
+<http://marineregions.org/mrgid/34655?t=1563812482> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ridge>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/34655>;
+    <http://purl.org/dc/terms/modified> "2019-07-22T16:21:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/0cc6f1ae849c20c377a6dee5612b8719>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Cashe Ledge"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152844>, <urn:cgnd:uid:0cc6f1ae849c20c377a6dee5612b8719>;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude:  42.883333; Longitude: -68.916667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cashes Ledge"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-68.933333 42.9)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+_:n3-619 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152844".
+<urn:acuf:ufi:-152844> <https://schema.org/identifier> _:n3-619;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152844>.
+_:n3-620 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "0cc6f1ae849c20c377a6dee5612b8719".
+<urn:cgnd:uid:0cc6f1ae849c20c377a6dee5612b8719> <https://schema.org/identifier> _:n3-620;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/0cc6f1ae849c20c377a6dee5612b8719>.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/34655?t=1563812482>.
+<http://marineregions.org/mrgid/35896?t=1563812482> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Shoal>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/35896>;
+    <http://purl.org/dc/terms/modified> "2019-07-22T16:21:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/0cc6d533849c20c3c27bfc730f5b1c61>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-153074>, <urn:cgnd:uid:0cc6d533849c20c3c27bfc730f5b1c61>;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude:  41.5; Longitude: -68.166667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cultivator Shoal"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-68.1666667 41.55)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+_:n3-637 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153074".
+<urn:acuf:ufi:-153074> <https://schema.org/identifier> _:n3-637;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153074>.
+_:n3-638 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "0cc6d533849c20c3c27bfc730f5b1c61".
+<urn:cgnd:uid:0cc6d533849c20c3c27bfc730f5b1c61> <https://schema.org/identifier> _:n3-638;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/0cc6d533849c20c3c27bfc730f5b1c61>.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/35896?t=1563812482>.
+<http://marineregions.org/mrgid/60655?t=1563812845> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Rock>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4252>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/60655>;
+    <http://purl.org/dc/terms/modified> "2019-07-22T16:27:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/0cc6910f849c20c3f066789fb1ec3030>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:cgnd:uid:0cc6910f849c20c3f066789fb1ec3030>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gasket Rock"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-81.6 53.9)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/4252> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Hudson Bay"@en.
+_:n3-796 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "0cc6910f849c20c3f066789fb1ec3030".
+<urn:cgnd:uid:0cc6910f849c20c3f066789fb1ec3030> <https://schema.org/identifier> _:n3-796;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/0cc6910f849c20c3f066789fb1ec3030>.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/60655?t=1563812845>.
+<http://marineregions.org/mrgid/60656?t=1563812845> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Shoal>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4252>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/60656>;
+    <http://purl.org/dc/terms/modified> "2019-07-22T16:27:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/0cc57178849c20c31dca1ac359938626>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:cgnd:uid:0cc57178849c20c31dca1ac359938626>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sheldrake Shoal"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-81.066667 54.333333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/4252> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Hudson Bay"@en.
+_:n3-978 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "0cc57178849c20c31dca1ac359938626".
+<urn:cgnd:uid:0cc57178849c20c31dca1ac359938626> <https://schema.org/identifier> _:n3-978;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/0cc57178849c20c31dca1ac359938626>.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/60656?t=1563812845>.
+<http://marineregions.org/mrgid/60652?t=1563812845> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Reef>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4252>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/60652>;
+    <http://purl.org/dc/terms/modified> "2019-07-22T16:27:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/68b8dee4849c214a307f6f50a58a90b4>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:cgnd:uid:68b8dee4849c214a307f6f50a58a90b4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Wicked Reef"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-79.383333 53.766667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/4252> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Hudson Bay"@en.
+_:n3-1890 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "68b8dee4849c214a307f6f50a58a90b4".
+<urn:cgnd:uid:68b8dee4849c214a307f6f50a58a90b4> <https://schema.org/identifier> _:n3-1890;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/68b8dee4849c214a307f6f50a58a90b4>.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/60652?t=1563812845>.
+<http://marineregions.org/mrgid/60653?t=1563812845> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Rock>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4252>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/60653>;
+    <http://purl.org/dc/terms/modified> "2019-07-22T16:27:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/68b89e53849c214ae3065fb34335ed76>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:cgnd:uid:68b89e53849c214ae3065fb34335ed76>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Blind Rock"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-79.3 53.716667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/4252> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Hudson Bay"@en.
+_:n3-2362 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "68b89e53849c214ae3065fb34335ed76".
+<urn:cgnd:uid:68b89e53849c214ae3065fb34335ed76> <https://schema.org/identifier> _:n3-2362;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/68b89e53849c214ae3065fb34335ed76>.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/60653?t=1563812845>.
+<http://marineregions.org/mrgid/60657?t=1563812845> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Shoal>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4252>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/60657>;
+    <http://purl.org/dc/terms/modified> "2019-07-22T16:27:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/0cc5d50f849c20c3c384e8f963e9f397>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:cgnd:uid:0cc5d50f849c20c3c384e8f963e9f397>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Star Shoal"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-79.95 53.95)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/4252> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Hudson Bay"@en.
+_:n3-2544 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "0cc5d50f849c20c3c384e8f963e9f397".
+<urn:cgnd:uid:0cc5d50f849c20c3c384e8f963e9f397> <https://schema.org/identifier> _:n3-2544;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/0cc5d50f849c20c3c384e8f963e9f397>.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/60657?t=1563812845>.
+<http://marineregions.org/mrgid/60654?t=1563812845> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Rock>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4252>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/60654>;
+    <http://purl.org/dc/terms/modified> "2019-07-22T16:27:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/0cc650f1849c20c3d3a3100bc0c470b4>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:cgnd:uid:0cc650f1849c20c3d3a3100bc0c470b4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Hiding Rock"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-79.283333 53.75)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/4252> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Hudson Bay"@en.
+_:n3-2561 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "0cc650f1849c20c3d3a3100bc0c470b4".
+<urn:cgnd:uid:0cc650f1849c20c3d3a3100bc0c470b4> <https://schema.org/identifier> _:n3-2561;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/0cc650f1849c20c3d3a3100bc0c470b4>.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/60654?t=1563812845>.
+<http://marineregions.org/mrgid/60195?t=1563812845> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Rise>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/60195>;
+    <http://purl.org/dc/terms/modified> "2019-07-22T16:27:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/0cc59686849c20c3e2dd088f8dd8b42d>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:cgnd:uid:0cc59686849c20c3e2dd088f8dd8b42d>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Rodgers Swell"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-68.7166666 42.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+_:n3-2956 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "0cc59686849c20c3e2dd088f8dd8b42d".
+<urn:cgnd:uid:0cc59686849c20c3e2dd088f8dd8b42d> <https://schema.org/identifier> _:n3-2956;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/0cc59686849c20c3e2dd088f8dd8b42d>.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/60195?t=1563812845>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/5-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/5-0.ttl>.

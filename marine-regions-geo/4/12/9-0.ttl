@@ -795,3 +795,82 @@ _:n3-1095 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6441?t=1635586973>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/9-0.ttl>.
+<http://marineregions.org/mrgid/7345?t=1634365209> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ridge>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7345/geometries?source=110&attributeValue=2909>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>, <http://marineregions.org/mrgid/8323>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7345>;
+    <http://purl.org/dc/terms/modified> "2021-10-16T06:20:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:11224>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -21.92531 ; Long: 110.02923 ; minLat: -23 ; minLong: 109.9537 ; maxLat: -21 ; maxLong: 110.5833  (update 2020-04-22)"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-10. Proposer: J. J. Doyle, Australian Hydrographic Service (AHS). Year of proposal: 1992."@en, "GEBCO: discoverer and year of discovery: Discoverer: German research vessel \"Sonne\". Year of discovery: 1979. History: Named from the German research vessel \"Sonne\" that surveyed this feature."@en, "Additional information: Taken from the AGSO Bathymetric Map \"Cuvier\"."@en, "Coordinates in ACUF: Latitude: -22; Longitude: 110.283333"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sonne Ridge"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(110.5833 -21,109.32294 -21,109.32294 -23.9998,110.5833 -23.9998,110.5833 -21)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(109.93844 -22.48827)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/8323> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Australian Exclusive Economic Zone"@en.
+_:n3-91 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "11224".
+<urn:acuf:ufi:11224> <https://schema.org/identifier> _:n3-91;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D11224>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7345?t=1634365209>.
+<http://marineregions.org/mrgid/63043?t=1591612209> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContinentalShelfCLCSRecommendation>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>, <http://marineregions.org/mrgid/2147>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/63043>;
+    <http://purl.org/dc/terms/modified> "2020-06-08T10:30:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Australian Continental Shelf (Naturaliste Plateau region)"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(112.36359 -30.75226,107.83853 -30.75226,107.83853 -36.8457,112.36359 -36.8457,112.36359 -30.75226)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(109.76407 -33.77674)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/2147> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Australia"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/63043?t=1591612209>.
+<http://marineregions.org/mrgid/63016?t=1587470620> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProtectedArea>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/63016/geometries?source=253&attributeValue=88>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/63016>;
+    <http://purl.org/dc/terms/modified> "2020-04-21T12:03:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "WDPA attributes: English designation: Australian Marine Park. Status year: 2018. Management authority: AU-DOEE. Sub-national location: AU-COM."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Carnarvon Canyon Australian Marine Park"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(111.4 -23.31667,110.6 -23.31667,110.6 -24,111.4 -24,111.4 -23.31667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(111 -23.65833)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.environment.gov.au/fed/catalog/search/resource/details.page?uuid=%7BAF4EE98E-7F09-4172-B95E-067AB8FA10FC%7D>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<https://www.environment.gov.au/fed/catalog/search/resource/details.page?uuid=%7BAF4EE98E-7F09-4172-B95E-067AB8FA10FC%7D> <http://www.w3.org/2000/01/rdf-schema#label> " Collaborative Australian Protected Areas Database (CAPAD) 2018, Commonwealth of Australia 2019".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/63016?t=1587470620>.
+<http://marineregions.org/mrgid/62852?t=1587470620> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProtectedArea>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/62852/geometries?source=253&attributeValue=262>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/62852>;
+    <http://purl.org/dc/terms/modified> "2020-04-21T12:03:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "WDPA attributes: English designation: Australian Marine Park. Status year: 2018. Management authority: AU-DOEE. Sub-national location: AU-COM."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Shark Bay Australian Marine Park"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(113.10667 -24.3,112.5 -24.3,112.5 -25.5,113.10667 -25.5,113.10667 -24.3)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(112.7801 -24.86639)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.environment.gov.au/fed/catalog/search/resource/details.page?uuid=%7BAF4EE98E-7F09-4172-B95E-067AB8FA10FC%7D>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<https://www.environment.gov.au/fed/catalog/search/resource/details.page?uuid=%7BAF4EE98E-7F09-4172-B95E-067AB8FA10FC%7D> <http://www.w3.org/2000/01/rdf-schema#label> " Collaborative Australian Protected Areas Database (CAPAD) 2018, Commonwealth of Australia 2019".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/62852?t=1587470620>.
+<http://marineregions.org/mrgid/62967?t=1587470620> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProtectedArea>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/62967/geometries?source=253&attributeValue=170>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/62967>;
+    <http://purl.org/dc/terms/modified> "2020-04-21T12:03:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "WDPA attributes: English designation: Australian Marine Park. Status year: 2018. Management authority: AU-DOEE. Sub-national location: AU-COM."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Abrolhos Australian Marine Park"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(114.4 -24.3,109.23348 -24.3,109.23348 -29.3,114.4 -29.3,114.4 -24.3)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(111.0524 -27.18662)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.environment.gov.au/fed/catalog/search/resource/details.page?uuid=%7BAF4EE98E-7F09-4172-B95E-067AB8FA10FC%7D>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<https://www.environment.gov.au/fed/catalog/search/resource/details.page?uuid=%7BAF4EE98E-7F09-4172-B95E-067AB8FA10FC%7D> <http://www.w3.org/2000/01/rdf-schema#label> " Collaborative Australian Protected Areas Database (CAPAD) 2018, Commonwealth of Australia 2019".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/62967?t=1587470620>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/9-0.ttl>.
