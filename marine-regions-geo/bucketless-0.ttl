@@ -6192,3 +6192,731 @@ _:n3-3 <http://www.w3.org/2000/01/rdf-schema#label> "Aphia".
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30917?t=1376384115>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/bucketless-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/bucketless-0.ttl>.
+<http://marineregions.org/mrgid/30720?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/30995>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/3098>, <http://marineregions.org/mrgid/2708>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30720>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Leuvense Vaart"@nl, "Kanaal Leuven-Mechelen"@nl;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kanaal Leuven-Dijle"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/30995> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dijle- en Zennebekken"@nl.
+<http://marineregions.org/mrgid/3098> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dijle"@nl.
+<http://marineregions.org/mrgid/2708> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Leuven"@nl.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30720?t=1376299569>.
+<http://marineregions.org/mrgid/30995?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/3098>, <http://marineregions.org/mrgid/3099>, <http://marineregions.org/mrgid/29855>, <http://marineregions.org/mrgid/30984>, <http://marineregions.org/mrgid/30720>, <http://marineregions.org/mrgid/30982>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30995>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.waterstanden.be/metingen-voorspellingen/hic-meetpunten/dijle-_en_zennebekken>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dijle- en Zennebekken"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://marineregions.org/mrgid/3098> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dijle"@nl.
+<http://marineregions.org/mrgid/3099> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Zenne"@nl.
+<http://marineregions.org/mrgid/29855> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Brussels–Scheldt Maritime Canal"@en.
+<http://marineregions.org/mrgid/30984> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kanaal Charleroi-Brussel"@nl.
+<http://marineregions.org/mrgid/30720> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kanaal Leuven-Dijle"@nl.
+<http://marineregions.org/mrgid/30982> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Zuunbeek"@nl.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30995?t=1376299569>.
+<http://marineregions.org/mrgid/31002?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Stream>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23130>, <http://marineregions.org/mrgid/2738>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/31002>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.vlaanderen.be/nl/publicaties/detail/visbestandopnames-op-het-oud-kanaal-bocholt-en-het-oud-kanaal-bree-beek-2003>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Oud kanaal Bree-beek"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://marineregions.org/mrgid/23130> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Commune>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Beek"@nl.
+<http://marineregions.org/mrgid/2738> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bree"@nl.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/31002?t=1376299569>.
+<http://marineregions.org/mrgid/31020?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Stream>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/2786>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/31020>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.vlaanderen.be/nl/publicaties/detail/visbestandopnames-op-t-liefken-de-wagemakersbeek-de-burggravestroom-de-lede-scherpeleibeek-en-de-eeklose-watergang-2004>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Wagemakersbeek"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://marineregions.org/mrgid/2786> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Maldegem"@nl.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/31020?t=1376299569>.
+<http://marineregions.org/mrgid/31055?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Polder>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/31>, <http://marineregions.org/mrgid/14274>, <http://marineregions.org/mrgid/20738>, <http://marineregions.org/mrgid/36>, <http://marineregions.org/mrgid/20744>, <http://marineregions.org/mrgid/20745>, <http://marineregions.org/mrgid/20796>, <http://marineregions.org/mrgid/20798>, <http://marineregions.org/mrgid/20794>, <http://marineregions.org/mrgid/20795>, <http://marineregions.org/mrgid/20819>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/31055>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nieuwe polder van Blankenberge"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://marineregions.org/mrgid/31> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Blankenberge"@nl.
+<http://marineregions.org/mrgid/14274> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Village>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Wenduine"@nl.
+<http://marineregions.org/mrgid/20738> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lissewege"@nl.
+<http://marineregions.org/mrgid/36> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Zuienkerke"@nl.
+<http://marineregions.org/mrgid/20744> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Vlissegem"@nl.
+<http://marineregions.org/mrgid/20745> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Klemskerke"@nl.
+<http://marineregions.org/mrgid/20796> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Stalhille"@nl.
+<http://marineregions.org/mrgid/20798> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Jabbeke"@nl.
+<http://marineregions.org/mrgid/20794> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Snellegem"@nl.
+<http://marineregions.org/mrgid/20795> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Varsenare"@nl.
+<http://marineregions.org/mrgid/20819> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Meetkerke"@nl.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/31055?t=1376299569>.
+<http://marineregions.org/mrgid/30594?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2474>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/3098>, <http://marineregions.org/mrgid/30595>, <http://marineregions.org/mrgid/2666>, <http://marineregions.org/mrgid/2673>, <http://marineregions.org/mrgid/2620>, <http://marineregions.org/mrgid/2684>, <http://marineregions.org/mrgid/2687>, <http://marineregions.org/mrgid/2688>, <http://marineregions.org/mrgid/30596>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30594>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Barebeek"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/2474> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Antwerpen"@nl.
+<http://marineregions.org/mrgid/3098> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dijle"@nl.
+<http://marineregions.org/mrgid/30595> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Perk "@nl.
+<http://marineregions.org/mrgid/2666> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kampenhout"@nl.
+<http://marineregions.org/mrgid/2673> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Machelen"@nl.
+<http://marineregions.org/mrgid/2620> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mechelen"@nl.
+<http://marineregions.org/mrgid/2684> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Vilvoorde"@nl.
+<http://marineregions.org/mrgid/2687> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Zaventem"@nl.
+<http://marineregions.org/mrgid/2688> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Zemst"@nl.
+<http://marineregions.org/mrgid/30596> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Muizen"@nl.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30594?t=1376299569>.
+<http://marineregions.org/mrgid/31030?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/2585>, <http://marineregions.org/mrgid/3114>, <http://marineregions.org/mrgid/31031>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/31030>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Schijn"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/2585> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Antwerpen"@nl.
+<http://marineregions.org/mrgid/3114> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Groot Schijn"@nl.
+<http://marineregions.org/mrgid/31031> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Klein schijn"@nl.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/31030?t=1376299569>.
+<http://marineregions.org/mrgid/31019?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Stream>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2797>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/31019>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.vlaanderen.be/nl/publicaties/detail/visbestandopnames-op-t-liefken-de-wagemakersbeek-de-burggravestroom-de-lede-scherpeleibeek-en-de-eeklose-watergang-2004>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Scherpeleiebeek"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://marineregions.org/mrgid/2797> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lochristi"@nl.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/31019?t=1376299569>.
+<http://marineregions.org/mrgid/31028?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/2585>, <http://marineregions.org/mrgid/3114>, <http://marineregions.org/mrgid/31022>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/31028>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Herentalse vaart"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/2585> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Antwerpen"@nl.
+<http://marineregions.org/mrgid/3114> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Groot Schijn"@nl.
+<http://marineregions.org/mrgid/31022> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Wondelgem"@nl.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/31028?t=1376299569>.
+<http://marineregions.org/mrgid/30662?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Stream>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/30663>, <http://marineregions.org/mrgid/39>, <http://marineregions.org/mrgid/20778>, <http://marineregions.org/mrgid/20789>, <http://marineregions.org/mrgid/20757>, <http://marineregions.org/mrgid/20756>, <http://marineregions.org/mrgid/90>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30662>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Vladslovaart"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/30663> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kanaal Plassendale-Nieuwpoort"@nl.
+<http://marineregions.org/mrgid/39> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Diksmuide"@nl.
+<http://marineregions.org/mrgid/20778> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Beerst"@nl.
+<http://marineregions.org/mrgid/20789> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Leke"@nl.
+<http://marineregions.org/mrgid/20757> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Schore"@nl.
+<http://marineregions.org/mrgid/20756> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mannekensvere"@nl.
+<http://marineregions.org/mrgid/90> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nieuwpoort"@nl.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30662?t=1376299569>.
+<http://marineregions.org/mrgid/30994?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/30597>, <http://marineregions.org/mrgid/3152>, <http://marineregions.org/mrgid/30989>, <http://marineregions.org/mrgid/2350>, <http://marineregions.org/mrgid/30701>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30994>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.waterstanden.be/metingen-voorspellingen/hic-meetpunten/bekken_brugse_polders>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bekken Brugse polders"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://marineregions.org/mrgid/30597> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Brugse vaart"@en.
+<http://marineregions.org/mrgid/3152> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Leopoldkanaal"@nl.
+<http://marineregions.org/mrgid/30989> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Boudewijnkanaal"@nl.
+<http://marineregions.org/mrgid/2350> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Sea"@en.
+<http://marineregions.org/mrgid/30701> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Blankenbergse Vaart"@nl.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30994?t=1376299569>.
+<http://marineregions.org/mrgid/30488?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/852>, <http://marineregions.org/mrgid/28>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30488>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Kolme"@nl;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bergenvaart"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/852> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Commune>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bergues"@fr.
+<http://marineregions.org/mrgid/28> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Arrondissement>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Veurne"@nl.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30488?t=1376299569>.
+<http://marineregions.org/mrgid/30992?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Polder>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/90>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30992>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.archeonet.be/?p=1094>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Hemmepolder"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://marineregions.org/mrgid/90> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nieuwpoort"@nl.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30992?t=1376299569>.
+<http://marineregions.org/mrgid/30709?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/30993>;
+    <http://marineregions.org/ns/ontology#isAdjacentTo> <http://marineregions.org/mrgid/2826>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/30604>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30709>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.trobken.be/stekense-vaart.html>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Stekense Vaart"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/30993> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bekken Gentse Kanalen"@nl.
+<http://marineregions.org/mrgid/2826> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Stekene"@nl.
+<http://marineregions.org/mrgid/30604> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Moervaart"@nl.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30709?t=1376299569>.
+<http://marineregions.org/mrgid/31006?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Stream>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/67>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/31006>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://oudenburg.n-va.be/files/afdeling/generated/ledenmagazine/hah_20131.pdf>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Oudenburgs vaartje"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/67> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Oudenburg"@nl.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/31006?t=1376299569>.
+<http://marineregions.org/mrgid/31044?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Polder>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/9108>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/31044>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Doelpolder"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/9108> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Village>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Doel"@nl.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/31044?t=1376299569>.
+<http://marineregions.org/mrgid/30701?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/30994>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/20>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/20740>, <http://marineregions.org/mrgid/20819>, <http://marineregions.org/mrgid/20817>, <http://marineregions.org/mrgid/20820>, <http://marineregions.org/mrgid/20735>, <http://marineregions.org/mrgid/31>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30701>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Blankenbergse Vaart"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/30994> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bekken Brugse polders"@en.
+<http://marineregions.org/mrgid/20> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "West-Vlaanderen"@nl.
+<http://marineregions.org/mrgid/20740> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sint-Andries"@nl.
+<http://marineregions.org/mrgid/20819> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Meetkerke"@nl.
+<http://marineregions.org/mrgid/20817> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nieuwmunster"@nl.
+<http://marineregions.org/mrgid/20820> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Zuienkerke"@nl.
+<http://marineregions.org/mrgid/20735> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Uitkerke"@nl.
+<http://marineregions.org/mrgid/31> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Blankenberge"@nl.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30701?t=1376299569>.
+<http://marineregions.org/mrgid/31005?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Polder>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/42>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/31005>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.vvpw.be/polders%20en%20wateringen/Zuidijzerpolder.html>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Zuid-ijzer polder"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://marineregions.org/mrgid/42> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lo-Reninge"@nl.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/31005?t=1376299569>.
+<http://marineregions.org/mrgid/31003?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Stream>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2737>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/31003>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.vlaanderen.be/nl/publicaties/detail/visbestandopnames-op-het-oud-kanaal-bocholt-en-het-oud-kanaal-bree-beek-2003>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Oud kanaal Bocholt"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://marineregions.org/mrgid/2737> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bocholt"@nl.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/31003?t=1376299569>.
+<http://marineregions.org/mrgid/30998?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Stream>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/2799>, <http://marineregions.org/mrgid/2800>, <http://marineregions.org/mrgid/2804>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30998>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.minaraad.be/adviezen/2011/erkenning-reservaat-gondebeek>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gondebeek"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://marineregions.org/mrgid/2799> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Melle"@nl.
+<http://marineregions.org/mrgid/2800> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Merelbeke"@nl.
+<http://marineregions.org/mrgid/2804> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Oosterzele"@nl.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30998?t=1376299569>.
+<http://marineregions.org/mrgid/30649?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2480>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/2542>, <http://marineregions.org/mrgid/30646>, <http://marineregions.org/mrgid/30648>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30649>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kanaal Nimy-Blaton-Péronnes"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/2480> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Hainaut"@fr.
+<http://marineregions.org/mrgid/2542> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Stream>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Schelde"@nl.
+<http://marineregions.org/mrgid/30646> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nimy"@en.
+<http://marineregions.org/mrgid/30648> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Péronnes-lez-Antoing"@fr.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30649?t=1376299569>.
+<http://marineregions.org/mrgid/30597?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/30993>, <http://marineregions.org/mrgid/30994>, <http://marineregions.org/mrgid/31014>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/20>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/38>, <http://marineregions.org/mrgid/2795>, <http://marineregions.org/mrgid/30598>, <http://marineregions.org/mrgid/30652>, <http://marineregions.org/mrgid/31021>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30597>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Brugse vaart"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/30993> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bekken Gentse Kanalen"@nl.
+<http://marineregions.org/mrgid/30994> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bekken Brugse polders"@en.
+<http://marineregions.org/mrgid/31014> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "kanaal Gent-Oostende"@nl.
+<http://marineregions.org/mrgid/20> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "West-Vlaanderen"@nl.
+<http://marineregions.org/mrgid/38> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Brugge"@nl.
+<http://marineregions.org/mrgid/2795> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gent"@nl.
+<http://marineregions.org/mrgid/30598> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Coupure"@nl.
+<http://marineregions.org/mrgid/30652> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Stream>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nieuwe Kale"@nl.
+<http://marineregions.org/mrgid/31021> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Stream>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "'t Liefken"@nl.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30597?t=1376299569>.
+<http://marineregions.org/mrgid/30982?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/30995>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/3099>, <http://marineregions.org/mrgid/30983>, <http://marineregions.org/mrgid/2678>, <http://marineregions.org/mrgid/2681>, <http://marineregions.org/mrgid/2659>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30982>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Zuunbeek"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/30995> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dijle- en Zennebekken"@nl.
+<http://marineregions.org/mrgid/3099> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Zenne"@nl.
+<http://marineregions.org/mrgid/30983> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kester"@nl.
+<http://marineregions.org/mrgid/2678> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pepingen"@nl.
+<http://marineregions.org/mrgid/2681> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sint-Pieters-Leeuw"@nl.
+<http://marineregions.org/mrgid/2659> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Drogenbos"@nl.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30982?t=1376299569>.
+<http://marineregions.org/mrgid/30550?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2474>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/3103>, <http://marineregions.org/mrgid/3195>, <http://marineregions.org/mrgid/2599>, <http://marineregions.org/mrgid/2649>, <http://marineregions.org/mrgid/2630>, <http://marineregions.org/mrgid/2641>, <http://marineregions.org/mrgid/2651>, <http://marineregions.org/mrgid/2611>, <http://marineregions.org/mrgid/2621>, <http://marineregions.org/mrgid/2602>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30550>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Molenbeek-Bollaak"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/2474> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Antwerpen"@nl.
+<http://marineregions.org/mrgid/3103> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kleine Nete"@nl.
+<http://marineregions.org/mrgid/3195> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tappelbeek"@nl.
+<http://marineregions.org/mrgid/2599> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Malle"@nl.
+<http://marineregions.org/mrgid/2649> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Rijkevorsel"@nl.
+<http://marineregions.org/mrgid/2630> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Beerse"@nl.
+<http://marineregions.org/mrgid/2641> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lille"@nl.
+<http://marineregions.org/mrgid/2651> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Vorselaar"@nl.
+<http://marineregions.org/mrgid/2611> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Zandhoven"@nl.
+<http://marineregions.org/mrgid/2621> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nijlen"@nl.
+<http://marineregions.org/mrgid/2602> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ranst"@nl.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30550?t=1376299569>.
+<http://marineregions.org/mrgid/30631?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://marineregions.org/ns/ontology#isAdjacentTo> <http://marineregions.org/mrgid/30497>, <http://marineregions.org/mrgid/3078>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/14>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30631>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Basse-Sambre"@fr;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/30497> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#City>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Charleroi"@en.
+<http://marineregions.org/mrgid/3078> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Commune>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Namur"@fr.
+<http://marineregions.org/mrgid/14> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Belgium"@en.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30631?t=1376299569>.
+<http://marineregions.org/mrgid/31007?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Polder>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/31008>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/68>, <http://marineregions.org/mrgid/20788>, <http://marineregions.org/mrgid/20778>, <http://marineregions.org/mrgid/20789>, <http://marineregions.org/mrgid/2529>, <http://marineregions.org/mrgid/20756>, <http://marineregions.org/mrgid/19353>, <http://marineregions.org/mrgid/20805>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/31007>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.vvpw.be/polders%20en%20wateringen/Middenkustpolder.html>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Middenkustpolder"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://marineregions.org/mrgid/31008> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Polder>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "de Grote Westpolder"@nl.
+<http://marineregions.org/mrgid/68> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gistel"@nl.
+<http://marineregions.org/mrgid/20788> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Vladslo"@nl.
+<http://marineregions.org/mrgid/20778> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Beerst"@nl.
+<http://marineregions.org/mrgid/20789> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Leke"@nl.
+<http://marineregions.org/mrgid/2529> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Zandvoorde"@nl.
+<http://marineregions.org/mrgid/20756> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mannekensvere"@nl.
+<http://marineregions.org/mrgid/19353> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#InhabitedPlace>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Leffinge"@nl.
+<http://marineregions.org/mrgid/20805> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Westkerke"@nl.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/31007?t=1376299569>.
+<http://marineregions.org/mrgid/30993?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/30605>, <http://marineregions.org/mrgid/30486>, <http://marineregions.org/mrgid/30597>, <http://marineregions.org/mrgid/3152>, <http://marineregions.org/mrgid/30604>, <http://marineregions.org/mrgid/30709>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30993>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.integraalwaterbeleid.be/nl/bekkens/bekken-gentse-kanalen/bekken-in-de-praktijk/kennismaking>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bekken Gentse Kanalen"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://marineregions.org/mrgid/30605> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gent-Terneuzen"@nl.
+<http://marineregions.org/mrgid/30486> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ringvaart"@en.
+<http://marineregions.org/mrgid/30597> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Brugse vaart"@en.
+<http://marineregions.org/mrgid/3152> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Leopoldkanaal"@nl.
+<http://marineregions.org/mrgid/30604> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Moervaart"@nl.
+<http://marineregions.org/mrgid/30709> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Stekense Vaart"@nl.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30993?t=1376299569>.
+<http://marineregions.org/mrgid/31025?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Stream>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2689>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/3098>, <http://marineregions.org/mrgid/2717>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/31025>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.grotelaakbeek.be/>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "De Grote Laakbeek"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://marineregions.org/mrgid/2689> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Aarschot"@nl.
+<http://marineregions.org/mrgid/3098> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dijle"@nl.
+<http://marineregions.org/mrgid/2717> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tremelo"@nl.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/31025?t=1376299569>.
+<http://marineregions.org/mrgid/31008?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Polder>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/31007>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/31008>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.vvpw.be/polders%20en%20wateringen/Groote%20West-Polder.html>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "de Grote Westpolder"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/31007> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Polder>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Middenkustpolder"@nl.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/31008?t=1376299569>.
+<http://marineregions.org/mrgid/30543?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/31014>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/25>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/30541>, <http://marineregions.org/mrgid/30663>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30543>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kanaal Brugge-Oostende"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(2.909722 51.224444,3.224167 51.224444,3.224167 51.208611,2.909722 51.208611,2.909722 51.224444)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/31014> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "kanaal Gent-Oostende"@nl.
+<http://marineregions.org/mrgid/25> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Arrondissement>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Oostende"@nl.
+<http://marineregions.org/mrgid/30541> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Stream>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Rivierbeek"@en.
+<http://marineregions.org/mrgid/30663> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kanaal Plassendale-Nieuwpoort"@nl.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30543?t=1376299569>.
+<http://marineregions.org/mrgid/30586?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2476>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/3098>, <http://marineregions.org/mrgid/30585>, <http://marineregions.org/mrgid/2677>, <http://marineregions.org/mrgid/30587>, <http://marineregions.org/mrgid/2703>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30586>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "IJse"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/2476> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Vlaams-Brabant"@nl.
+<http://marineregions.org/mrgid/3098> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dijle"@nl.
+<http://marineregions.org/mrgid/30585> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Forest>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Zoniënwoud"@nl.
+<http://marineregions.org/mrgid/2677> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Overijse"@nl.
+<http://marineregions.org/mrgid/30587> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Neerijse"@nl.
+<http://marineregions.org/mrgid/2703> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Huldenberg"@nl.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30586?t=1376299569>.
+<http://marineregions.org/mrgid/31004?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Stream>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2696>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/31004>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://webcache.googleusercontent.com/search?q=cache:H05OkoePP4wJ:https://enot.publicprocurement.be/enot-war/viewNoticeDocument.do%3FnoticeFileId%3D127657+&cd=22&hl=nl&ct=clnk&gl=be&client=firefox-a>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Begijnenbeek"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://marineregions.org/mrgid/2696> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Diest"@nl.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/31004?t=1376299569>.
+<http://marineregions.org/mrgid/30486?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/30993>, <http://marineregions.org/mrgid/31048>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/2542>, <http://marineregions.org/mrgid/30605>, <http://marineregions.org/mrgid/2795>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30486>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ringvaart"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/30993> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bekken Gentse Kanalen"@nl.
+<http://marineregions.org/mrgid/31048> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Lock>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sluis van Merelbeke"@nl.
+<http://marineregions.org/mrgid/2542> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Stream>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Schelde"@nl.
+<http://marineregions.org/mrgid/30605> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gent-Terneuzen"@nl.
+<http://marineregions.org/mrgid/2795> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gent"@nl.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30486?t=1376299569>.
+<http://marineregions.org/mrgid/30604?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/30993>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2473>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/2548>, <http://marineregions.org/mrgid/30605>, <http://marineregions.org/mrgid/30601>, <http://marineregions.org/mrgid/30692>, <http://marineregions.org/mrgid/30709>, <http://marineregions.org/mrgid/30883>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30604>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Moervaart"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/30993> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bekken Gentse Kanalen"@nl.
+<http://marineregions.org/mrgid/2473> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Oost-Vlaanderen"@nl.
+<http://marineregions.org/mrgid/2548> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Durme"@nl.
+<http://marineregions.org/mrgid/30605> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gent-Terneuzen"@nl.
+<http://marineregions.org/mrgid/30601> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Stream>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Belselebeek"@nl.
+<http://marineregions.org/mrgid/30692> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Zuidlede"@nl.
+<http://marineregions.org/mrgid/30709> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Stekense Vaart"@nl.
+<http://marineregions.org/mrgid/30883> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Langelede"@nl.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30604?t=1376299569>.
+<http://marineregions.org/mrgid/30561?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Stream>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/20>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/30563>, <http://marineregions.org/mrgid/30560>, <http://marineregions.org/mrgid/30562>, <http://marineregions.org/mrgid/49>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30561>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Vleterbeek"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/20> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "West-Vlaanderen"@nl.
+<http://marineregions.org/mrgid/30563> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canal>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Poperingevaart"@nl.
+<http://marineregions.org/mrgid/30560> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Hills>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Katsberg"@en.
+<http://marineregions.org/mrgid/30562> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Abele"@nl.
+<http://marineregions.org/mrgid/49> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Poperinge"@nl.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30561?t=1376299569>.
+<http://marineregions.org/mrgid/30479?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Stream>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/3129>, <http://marineregions.org/mrgid/30478>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30479>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Wijlegemse beek"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/3129> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Zwalm"@nl.
+<http://marineregions.org/mrgid/30478> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Village>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Wijlegem"@en.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30479?t=1376299569>.
+<http://marineregions.org/mrgid/30568?t=1376299569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2475>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/30569>, <http://marineregions.org/mrgid/2555>, <http://marineregions.org/mrgid/30570>, <http://marineregions.org/mrgid/30571>, <http://marineregions.org/mrgid/2743>, <http://marineregions.org/mrgid/30573>, <http://marineregions.org/mrgid/30574>, <http://marineregions.org/mrgid/30576>, <http://marineregions.org/mrgid/30577>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30568>;
+    <http://purl.org/dc/terms/modified> "2013-08-12T09:26:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Itterbeek"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/2475> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Limburg"@nl.
+<http://marineregions.org/mrgid/30569> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gruitrode"@nl.
+<http://marineregions.org/mrgid/2555> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Maas"@nl.
+<http://marineregions.org/mrgid/30570> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Opitter"@nl.
+<http://marineregions.org/mrgid/30571> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tongerloo"@nl.
+<http://marineregions.org/mrgid/2743> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kinrooi"@nl.
+<http://marineregions.org/mrgid/30573> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Neeritter"@nl.
+<http://marineregions.org/mrgid/30574> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Village>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ittervoort"@nl.
+<http://marineregions.org/mrgid/30576> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Thorn "@nl.
+<http://marineregions.org/mrgid/30577> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#City>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Wessem"@nl.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30568?t=1376299569>.
+<http://marineregions.org/mrgid/30948?t=1376057390> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NaturalReserve>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2703>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30948>;
+    <http://purl.org/dc/terms/modified> "2013-08-09T14:09:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Rodebos"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/2703> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Huldenberg"@nl.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30948?t=1376057390>.
+<http://marineregions.org/mrgid/30565?t=1376057390> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Stream>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/14706>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/2696>, <http://marineregions.org/mrgid/2741>, <http://marineregions.org/mrgid/2730>, <http://marineregions.org/mrgid/30566>, <http://marineregions.org/mrgid/30567>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30565>;
+    <http://purl.org/dc/terms/modified> "2013-08-09T14:09:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Zwarte Beek"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/14706> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Limburg"@nl.
+<http://marineregions.org/mrgid/2696> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Diest"@nl.
+<http://marineregions.org/mrgid/2741> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Hechtel-Eksel"@nl.
+<http://marineregions.org/mrgid/2730> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lummen"@nl.
+<http://marineregions.org/mrgid/30566> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Meldert"@nl.
+<http://marineregions.org/mrgid/30567> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Zelem"@nl.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30565?t=1376057390>.
+<http://marineregions.org/mrgid/30957?t=1376057390> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/30958>, <http://marineregions.org/mrgid/2841>, <http://marineregions.org/mrgid/2849>, <http://marineregions.org/mrgid/2677>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30957>;
+    <http://purl.org/dc/terms/modified> "2013-08-09T14:09:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Laan"@nl;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point( )"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/30958> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Deelgemeente>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sint-Agatha-Rode"@nl.
+<http://marineregions.org/mrgid/2841> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Commune>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lasne"@fr.
+<http://marineregions.org/mrgid/2849> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Commune>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Rixensart"@fr.
+<http://marineregions.org/mrgid/2677> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Overijse"@nl.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30957?t=1376057390>.
