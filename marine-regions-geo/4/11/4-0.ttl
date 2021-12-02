@@ -371,3 +371,51 @@ _:n3-37 <http://www.w3.org/ns/prov#wasAttributedTo> <http://gis.ices.dk/>.
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47430?t=1634381181>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/4-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/4-0.ttl>.
+<http://marineregions.org/mrgid/17911?t=1377696952> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Lake>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/25777>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/17911>;
+    <http://purl.org/dc/terms/modified> "2013-08-28T13:35:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Ozero Veli-Lor"@ru;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Veli Lake"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(75.79944 62.13359,75.80047 62.13359,75.80047 62.13306,75.79944 62.13306,75.79944 62.13359)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(75.8 62.13333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-486 <http://www.w3.org/2000/01/rdf-schema#label> "Aphia".
+<http://marineregions.org/mrgid/17911?t=1377696952> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-486.
+<http://marineregions.org/mrgid/25777> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#AutonomousRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Khanty-Mansi"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/17911?t=1377696952>.
+<http://marineregions.org/mrgid/31782?t=1377075921> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2240>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/31784>, <http://marineregions.org/mrgid/31783>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/31782>;
+    <http://purl.org/dc/terms/modified> "2013-08-21T09:05:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ob River"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(71.394722 66.533889)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.geonames.org>.
+<http://marineregions.org/mrgid/2240> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Russia"@en.
+<http://marineregions.org/mrgid/31784> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of Ob"@en.
+<http://marineregions.org/mrgid/31783> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Katun River"@en.
+<http://www.geonames.org> <http://www.w3.org/2000/01/rdf-schema#label> "GeoNames".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/31782?t=1377075921>.
+<http://marineregions.org/mrgid/25777?t=1377075921> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#AutonomousRegion>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/17911>, <http://marineregions.org/mrgid/31785>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2240>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/25777>;
+    <http://purl.org/dc/terms/modified> "2013-08-21T09:05:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Yugra"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Khanty-Mansi"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(70.166667 62.25)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.wikipedia.org/>.
+<http://marineregions.org/mrgid/17911> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Lake>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Veli Lake"@en.
+<http://marineregions.org/mrgid/31785> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Man’ya River"@en.
+<http://marineregions.org/mrgid/2240> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Russia"@en.
+<https://www.wikipedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Wikipedia".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25777?t=1377075921>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/4-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/4-0.ttl>.
