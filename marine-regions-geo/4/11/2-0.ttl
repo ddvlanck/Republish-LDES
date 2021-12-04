@@ -403,3 +403,52 @@ _:n3-1555 <http://www.w3.org/ns/prov#wasAttributedTo> <http://gis.ices.dk/>.
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47450?t=1638612205>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/2-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/2-0.ttl>.
+<http://marineregions.org/mrgid/47452?t=1638617968> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/47452/geometries?source=213&attributeValue=82M8>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/36329>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/47452>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T11:39:28Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "82M8"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(69 77,68 77,68 76.5,69 76.5,69 77)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(68.5 76.748942560062)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1069 <http://www.w3.org/ns/prov#wasAttributedTo> <http://gis.ices.dk/>.
+<http://marineregions.org/mrgid/47452?t=1638617968> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1069.
+<http://marineregions.org/mrgid/36329> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "ICES Statistical Rectangles"@en.
+<http://gis.ices.dk/> <http://www.w3.org/2000/01/rdf-schema#label> "International Council for the Exploration of the Sea (ICES)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47452?t=1638617968>.
+<http://marineregions.org/mrgid/25248?t=1638619600> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/25248/geometries?source=80&attributeValue=25248>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4246>, <http://marineregions.org/mrgid/5690>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/4246>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/25248>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T12:06:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Russian part of the Kara Sea"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(104.758609 81.289427,55.132973 81.289427,55.132973 66.219436,104.758609 66.219436,104.758609 81.289427)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(77.19451 75.985403)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://doi.org/10.14284/402>.
+<http://marineregions.org/mrgid/4246> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kara Sea"@en.
+<http://marineregions.org/mrgid/5690> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Russian Exclusive economic Zone"@en.
+<https://doi.org/10.14284/402> <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2020). Intersect of IHO Sea Areas and Exclusive Economic Zones (version 4)   ".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25248?t=1638619600>.
+<http://marineregions.org/mrgid/8763?t=1638620034> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/17723>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8763/geometries?source=80&attributeValue=25245>, <http://marineregions.org/mrgid/8763/geometries?source=80&attributeValue=25247>, <http://marineregions.org/mrgid/8763/geometries?source=80&attributeValue=25248>, <http://marineregions.org/mrgid/8763/geometries?source=80&attributeValue=25249>, <http://marineregions.org/mrgid/8763/geometries?source=80&attributeValue=25250>, <http://marineregions.org/mrgid/8763/geometries?source=80&attributeValue=25252>, <http://marineregions.org/mrgid/8763/geometries?source=80&attributeValue=25262>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/25262>, <http://marineregions.org/mrgid/1906>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8763>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T12:13:54Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Russian Exclusive economic Zone [Arctic part]"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(77.92668 76.45728)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org/eez.php>.
+<http://marineregions.org/mrgid/17723> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Strait>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Matochkin Strait"@en.
+<http://marineregions.org/mrgid/25262> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Russian part of the Arctic Ocean"@en.
+<http://marineregions.org/mrgid/1906> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arctic Ocean"@en.
+<http://www.marineregions.org/eez.php> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute. Maritime Boundaries Geodatabase. Available online at http://www.marineregions.org/. Consulted on YYYY-MM-DD".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8763?t=1638620034>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/2-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/2-0.ttl>.

@@ -4840,3 +4840,154 @@ _:n3-2596 <http://www.w3.org/2000/01/rdf-schema#label> "Aphia".
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/17840?t=1638614617>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/9/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/9/9-0.ttl>.
+<http://marineregions.org/mrgid/6246?t=1638615784> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Shoal>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6246/geometries?source=111&attributeValue=3305>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6246>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T11:03:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Natal Seamount"@en, "Walters Shoals"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-156030>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -33.2; Long: 43.83333333"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-13. Proposer: Eric S. W. Simpson and E. Forder, University of Cape Town, South Africa; and J. K. Mallory, South African Navy Hydrographic Office (SANHO). Year of proposal: 1964."@en, "GEBCO: discoverer and year of discovery: Discoverer: South African survey vessel \"Natal\". Year of discovery: 1962. History: Named after Charlie Walters, a South African Captain and Hydrographer of 1950s."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Walters Shoal"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(43.833333 -33.2)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+_:n3-102 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-156030".
+<urn:acuf:ufi:-156030> <https://schema.org/identifier> _:n3-102;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-156030>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6246?t=1638615784>.
+<http://marineregions.org/mrgid/7260?t=1638616033> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Plateau>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7260/geometries?source=110&attributeValue=2090>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://marineregions.org/ns/ontology#isPartlyPartOf> <http://marineregions.org/mrgid/8347>, <http://marineregions.org/mrgid/8396>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7260>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T11:07:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Moçambique Ridge"@en, "Mozambique Rise"@en, "Natal Ridge"@en, "South Mozambique Rise"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154556>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-13. Proposer: Eric S. W. Simpson and E. Forder, University of Cape Town, South Africa; and J. K. Mallory, South African Navy Hydrographic Office (SANHO). Year of proposal: 1964."@en, "Coordinates in ACUF: Latitude: -32; Longitude: 35"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mozambique Plateau"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(36 -27,34 -27,34 -35,36 -35,36 -27)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(35.041815191945 -31.005103450337)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/8347> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mozambican Exclusive Economic Zone"@en.
+<http://marineregions.org/mrgid/8396> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South African Exclusive Economic Zone"@en.
+_:n3-214 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154556".
+<urn:acuf:ufi:-154556> <https://schema.org/identifier> _:n3-214;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154556>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7260?t=1638616033>.
+<http://marineregions.org/mrgid/21716?t=1638617694> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Realm>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/21760>, <http://marineregions.org/mrgid/21761>, <http://marineregions.org/mrgid/21762>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21716/geometries?source=35&attributeValue=21716>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/22544>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21716>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T11:34:54Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Temperate Southern Africa"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(27.9979 -30.0201)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-952 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas>.
+<http://marineregions.org/mrgid/21716?t=1638617694> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-952.
+<http://marineregions.org/mrgid/21760> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Agulhas"@en.
+<http://marineregions.org/mrgid/21761> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Amsterdam-St Paul"@en.
+<http://marineregions.org/mrgid/21762> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Benguela"@en.
+<http://marineregions.org/mrgid/22544> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#GeneralRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Realms"@en.
+<https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas> <http://www.w3.org/2000/01/rdf-schema#label> "Spalding, M. D. Fox, H. E. Allen, G. R. Davidson, N. Ferdana, Z. A. Finlayson, M. Halpern, B. S. Jorge, M. A. Lombana, A. Lourie, S. A., (2007). Marine Ecoregions of the World: A Bioregionalization of Coastal and Shelf Areas. Bioscience 2007, VOL 57; numb 7, pages 573-584. doi: 10.1641/B570707".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21716?t=1638617694>.
+<http://marineregions.org/mrgid/21195?t=1638618132> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Estuary>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21195/geometries?source=158&attributeValue=21195>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8935>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21195>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T11:42:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Knysna Estuary"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(23.06667 -34.08333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1136 <http://www.w3.org/2000/01/rdf-schema#label> "Algologie (Ugent)".
+_:n3-1135 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-1136.
+<http://marineregions.org/mrgid/21195?t=1638618132> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1135.
+<http://marineregions.org/mrgid/8935> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Western Cape, Province of the"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21195?t=1638618132>.
+<http://marineregions.org/mrgid/22533?t=1638620362> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Estuary>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/22533/geometries?source=158&attributeValue=22533>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8936>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/22533>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T12:19:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kobonqaba Estuary"@af;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(28.490517 -32.607131)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.vliz.be/vmdcdata/mangroves/>.
+<http://marineregions.org/mrgid/8936> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Eastern Cape, Province of the"@en.
+<http://www.vliz.be/vmdcdata/mangroves/> <http://www.w3.org/2000/01/rdf-schema#label> "Mangroves".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/22533?t=1638620362>.
+<http://marineregions.org/mrgid/6768?t=1638621012> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6768/geometries?source=111&attributeValue=26>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6768>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T12:30:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Africana II Seamount"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152220>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -37.23758; Long: 29.051124"@en;
+    <http://www.w3.org/2004/02/skos/core#note> ": Corrected latitude/longitude (GEBCO October 2002 inaccuracy: 37°15'0\"N/29°10'0\"E)\r\nUpdated with GEBCO May 2014."@en, "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-25. Proposer: Eric S. W. Simpson and E. Forder, University of Cape Town, South Africa; and J. K. Mallory, South African Navy Hydrographic Office (SANHO)."@en, "GEBCO: discoverer and year of discovery: Discoverer: South African fisheries research vessel \"Africana\"."@en, "Coordinates in ACUF: Latitude: -37.166667; Longitude: 29.166667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Africana Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(29.05112386 -37.23757841)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+_:n3-2399 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152220".
+<urn:acuf:ufi:-152220> <https://schema.org/identifier> _:n3-2399;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152220>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6768?t=1638621012>.
+<http://marineregions.org/mrgid/50404?t=1638621024> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MesopelagicEcoregions>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/50404/geometries?source=215&attributeValue=50404>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/50384>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/50404>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T12:30:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Agulhas Current"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(49.246143 -10.245849,17.588298 -10.245849,17.588298 -38.590912,49.246143 -38.590912,49.246143 -10.245849)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(36.1156 -26.216445)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2407 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.sciencedirect.com/science/article/pii/S0967063717301437>.
+<http://marineregions.org/mrgid/50404?t=1638621024> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2407.
+<http://marineregions.org/mrgid/50384> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MesopelagicEcoregions>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mesopelagic ecoregions of the world's oceans"@en.
+<https://www.sciencedirect.com/science/article/pii/S0967063717301437> <http://www.w3.org/2000/01/rdf-schema#label> "Sutton et al. (2017). A global biogeographic classification of the mesopelagic zone. Deep-Sea Res., Part 1, Oceanogr. Res. Pap. 126: 85-102".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/50404?t=1638621024>.
+<http://marineregions.org/mrgid/7646?t=1638621262> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7646/geometries?source=110&attributeValue=3186>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>, <http://marineregions.org/mrgid/8396>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7646>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T12:34:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155870>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-13."@en, "Coordinates in ACUF: Latitude: -30.083333; Longitude: 32.216667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tugela Canyon"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(32.7 -29.5,31.75 -29.5,31.75 -30.5,32.7 -30.5,32.7 -29.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(32.222618711681 -30.00087588915)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/8396> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South African Exclusive Economic Zone"@en.
+_:n3-2497 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155870".
+<urn:acuf:ufi:-155870> <https://schema.org/identifier> _:n3-2497;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155870>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7646?t=1638621262>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/9/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/9/9-0.ttl>.
