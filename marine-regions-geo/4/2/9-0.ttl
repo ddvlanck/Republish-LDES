@@ -541,3 +541,141 @@ _:n3-183 <http://www.w3.org/2000/01/rdf-schema#label> "IMIS".
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/18912?t=1216027214>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/9-0.ttl>.
+<http://marineregions.org/mrgid/33655?t=1638586620> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#LowerBathyalProvinces>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/33655/geometries?source=108&attributeValue=33655>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/33655>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T02:57:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "BY5"@en, "SE Pacific Ridges"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southeast Pacific Ridges Lower Bathyal Province"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-115.35499699129 -27.171737471714)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-245 <http://www.w3.org/2000/01/rdf-schema#label> "Watling, L.; Guinotte, J.; Clark, M.R.; Smith, C.R. (2013). A proposed biogeography of the deep ocean floor. Prog. Oceanogr. 111: 91-112 DOI: 10.1016/j.pocean.2012.11.003".
+_:n3-244 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-245.
+<http://marineregions.org/mrgid/33655?t=1638586620> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-244.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/33655?t=1638586620>.
+<http://marineregions.org/mrgid/8439?t=1638587657> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/25643>, <http://marineregions.org/mrgid/49154>, <http://marineregions.org/mrgid/49387>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8439/geometries?source=79&attributeValue=8439>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>, <http://marineregions.org/mrgid/2259>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/25643>;
+    <http://marineregions.org/ns/ontology#partlyContains> <http://marineregions.org/mrgid/7456>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8439>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T03:14:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=8439>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Pitcairn Exclusive Economic Zone"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "Centroid calculation method: Centroid"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pitcairn Islands Exclusive Economic Zone"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-121.10897 -20.56054,-133.43269 -20.56054,-133.43269 -28.4247,-121.10897 -28.4247,-121.10897 -20.56054)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-127.42131 -24.60623)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/25643> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pitcairn Islands part of the South Pacific Ocean"@en.
+<http://marineregions.org/mrgid/49154> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TerritorialSea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pitcairn Islands 12 NM"@en.
+<http://marineregions.org/mrgid/49387> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContiguousZone>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pitcairn Islands 24 NM"@en.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+<http://marineregions.org/mrgid/2259> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#DependentState>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pitcairn"@en.
+<http://marineregions.org/mrgid/7456> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Rise>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "East Pacific Rise"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Maritime Boundaries and Exclusive Economic Zones (200NM), version 11. Available online at http://www.marineregions.org/. https://doi.org/10.14284/386".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8439?t=1638587657>.
+<http://marineregions.org/mrgid/7437?t=1638588667> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#FractureZone>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7437/geometries?source=110&attributeValue=44>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7437>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T03:31:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Kurchatov Trough"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:9032671>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -37.08333; Long: -125.5; minLat: -37.5; minLong: -130.5; maxLat: -36.66667; maxLong: -120.5"@en;
+    <http://www.w3.org/2004/02/skos/core#note> ": Centroid coordinate updated (2002: -36.666667, -125.166667)"@en, ": Updated coordinates (GEBCO May 2014) - \r\nPrevious values (GEBCO October 2002):\r\n [Max. Lat: -37°]"@en, "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-13. Proposer: Aleksandr V. Zhivago, Institute of Oceanology of the Russian Academy of Sciences (IO RAS)."@en, "GEBCO: discoverer and year of discovery: Discoverer: Russian research vessels \"Akademic Kurchatov\" and \"Dmitriy Mendeleev\". History: Named after the Russian R/V \"Akademik Kurchatov\" that closely investigated this feature."@en, "Coordinates in ACUF: Latitude: -36.666667; Longitude: -125.166667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Akademik Kurchatov Fracture Zone"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-120.5 -36.666667,-130.5 -36.666667,-130.5 -37.5,-120.5 -37.5,-120.5 -36.666667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-125.4563661 -36.69100961)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+_:n3-1185 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "9032671".
+<urn:acuf:ufi:9032671> <https://schema.org/identifier> _:n3-1185;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D9032671>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7437?t=1638588667>.
+<http://marineregions.org/mrgid/48401?t=1638590092> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48401/geometries?source=50&attributeValue=PIT-OO>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47784>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/47784>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48401>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T03:54:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:PIT-OO>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pitcairn Is."@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-124.77113342285 -24.325004577637,-130.10748291016 -24.325004577637,-130.10748291016 -25.082225799561,-124.77113342285 -25.082225799561,-124.77113342285 -24.325004577637)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-128.4405462184 -24.509108175193)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47784> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pitcairn Is."@en.
+_:n3-1737 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "PIT-OO".
+<urn:tdwg:wgsrpd:PIT-OO> <https://schema.org/identifier> _:n3-1737;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48401?t=1638590092>.
+<http://marineregions.org/mrgid/26565?t=1638591728> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/33749>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/26565/geometries?source=80&attributeValue=26565>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://marineregions.org/ns/ontology#partlyContains> <http://marineregions.org/mrgid/33763>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/26565>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T04:22:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "High Seas of the South Pacific Ocean"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-125.150331 -38.031538)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://doi.org/10.14284/402>.
+<http://marineregions.org/mrgid/33749> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "East Drift"@en.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+<http://marineregions.org/mrgid/33763> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NE Scarp drift"@en.
+<https://doi.org/10.14284/402> <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2020). Intersect of IHO Sea Areas and Exclusive Economic Zones (version 4)   ".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/26565?t=1638591728>.
+<http://marineregions.org/mrgid/2259?t=1638592724> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#DependentState>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/8439>, <http://marineregions.org/mrgid/18912>, <http://marineregions.org/mrgid/18915>, <http://marineregions.org/mrgid/18917>, <http://marineregions.org/mrgid/49154>, <http://marineregions.org/mrgid/50324>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/2259/geometries?source=252&attributeValue=Pitcairn>;
+    <http://marineregions.org/ns/ontology#isAdministrativePartOf> <http://marineregions.org/mrgid/2208>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1922>, <http://marineregions.org/mrgid/32473>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/2259>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T04:38:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Pitcairn Islands"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pitcairn"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-128.2861 -24.32584,-130.1051 -24.32584,-130.1051 -25.08223,-128.2861 -25.08223,-128.2861 -24.32584)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-129.1956 -24.70403)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2837 <http://www.w3.org/2000/01/rdf-schema#label> "(2001). The Times comprehensive atlas of the world. 10th ed. Times Books: London. ISBN 0-7230-0792-6. 67, 220, 124 plates pp.".
+_:n3-2836 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-2837.
+<http://marineregions.org/mrgid/2259?t=1638592724> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2836.
+<http://marineregions.org/mrgid/8439> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pitcairn Islands Exclusive Economic Zone"@en.
+<http://marineregions.org/mrgid/18912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Atoll>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ducie Island"@en.
+<http://marineregions.org/mrgid/18915> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Apron>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Oeno Island"@en.
+<http://marineregions.org/mrgid/18917> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "PitCairn Island"@en.
+<http://marineregions.org/mrgid/49154> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TerritorialSea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pitcairn Islands 12 NM"@en.
+<http://marineregions.org/mrgid/50324> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Coast>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pitcairn Coast"@en.
+<http://marineregions.org/mrgid/2208> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "United Kingdom"@en.
+<http://marineregions.org/mrgid/1922> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Continent>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Oceania"@en.
+<http://marineregions.org/mrgid/32473> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Territory>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "British Overseas Territories"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/2259?t=1638592724>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/9-0.ttl>.

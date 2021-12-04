@@ -2814,3 +2814,201 @@ _:n3-839 <http://www.w3.org/2000/01/rdf-schema#label> "Aphia".
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/18107?t=1208965010>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/8-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/8-0.ttl>.
+<http://marineregions.org/mrgid/50322?t=1638588003> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Coast>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/50322/geometries?source=136&attributeValue=50322>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2257>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/50322>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T03:20:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: Derived from ESRI World Countries 2014"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Peruvian Coast"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-70.37954998 -3.40322232245,-81.3307670359 -3.40322232245,-81.3307670359 -18.3507187365,-70.37954998 -18.3507187365,-70.37954998 -3.40322232245)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-78.019046689311 -10.369463607746)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-869 <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2015). National coastlines based on ESRI Countries (2014)".
+<http://marineregions.org/mrgid/50322?t=1638588003> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-869.
+<http://marineregions.org/mrgid/2257> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Peru"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/50322?t=1638588003>.
+<http://marineregions.org/mrgid/7524?t=1638588358> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ridge>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7524/geometries?source=110&attributeValue=1205>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://marineregions.org/ns/ontology#isPartlyPartOf> <http://marineregions.org/mrgid/8431>, <http://marineregions.org/mrgid/8432>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7524>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T03:25:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-153614>;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: -5; Longitude: -85"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Grijalva Ridge"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-82.5 -3,-86.25 -3,-86.25 -5.5,-82.5 -5.5,-82.5 -3)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-84.371978808812 -4.252303822161)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+<http://marineregions.org/mrgid/8431> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ecuadorian Exclusive Economic Zone"@en.
+<http://marineregions.org/mrgid/8432> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Peruvian Exclusive Economic Zone"@en.
+_:n3-1035 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153614".
+<urn:acuf:ufi:-153614> <https://schema.org/identifier> _:n3-1035;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153614>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7524?t=1638588358>.
+<http://marineregions.org/mrgid/8247?t=1638588398> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8247/geometries?source=111&attributeValue=1892>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8247>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T03:26:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:343930>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -20.76666667; Long: -80.88333333"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-12. Proposer: Russian Federal Research Institute of Fisheries and Oceanography (VNIRO). Year of proposal: 1993."@en, "GEBCO: discoverer and year of discovery: Discoverer: Russian fisheries research vessel \"Zvezda\". Year of discovery: 1978. History: Named after Yu. Yu. Marti (1906-1980), former Director of the Russian Fisheries Research Institute (VNIRO)."@en, "Additional information: Minimum depth (m): 317."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Marti Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-80.883333 -20.766667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+_:n3-1058 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "343930".
+<urn:acuf:ufi:343930> <https://schema.org/identifier> _:n3-1058;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D343930>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8247?t=1638588398>.
+<http://marineregions.org/mrgid/24866?t=1638588438> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Trench>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/24866/geometries?source=110&attributeValue=5380>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>, <http://marineregions.org/mrgid/8431>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/24866>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T03:27:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-22. Proposer: Ecuador Hydrographic Office (INOCAR). Year of proposal: 2008."@en, "GEBCO: discoverer and year of discovery: Discoverer: Peter Lonsdale, Scripps Institution of Oceanography (SIO), USA. Year of discovery: 1978. History: Named from the nearby country of Ecuador."@en, "Additional information: This feature coincides with the collision area of the Carnegie Ridge with the continental slope. It is significantly lower than the Colombian Trench to the north and the Peru Trench to the south. This is due to the different tectonic processes which have "@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ecuador Trench"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-80.8 0.46666667,-81.63333333 0.46666667,-81.63333333 -3.16666667,-80.8 -3.16666667,-80.8 0.46666667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-81.216357297587 -1.350049544384)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+<http://marineregions.org/mrgid/8431> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ecuadorian Exclusive Economic Zone"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24866?t=1638588438>.
+<http://marineregions.org/mrgid/21870?t=1638590599> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21870/geometries?source=38&attributeValue=21870>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/21770>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21870>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T04:03:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Eastern Galapagos Islands"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-88.7965 -1.07706)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1948 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas>.
+<http://marineregions.org/mrgid/21870?t=1638590599> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1948.
+<http://marineregions.org/mrgid/21770> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Galapagos"@en.
+<https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas> <http://www.w3.org/2000/01/rdf-schema#label> "Spalding, M. D. Fox, H. E. Allen, G. R. Davidson, N. Ferdana, Z. A. Finlayson, M. Halpern, B. S. Jorge, M. A. Lombana, A. Lourie, S. A., (2007). Marine Ecoregions of the World: A Bioregionalization of Coastal and Shelf Areas. Bioscience 2007, VOL 57; numb 7, pages 573-584. doi: 10.1641/B570707".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21870?t=1638590599>.
+<http://marineregions.org/mrgid/22344?t=1638590773> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Estuary>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/22344/geometries?source=158&attributeValue=22344>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/25881>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/22344>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T04:06:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chone River Estuary"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-80.416667 -1.583333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.vliz.be/vmdcdata/mangroves/>.
+<http://marineregions.org/mrgid/25881> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Manabí"@en.
+<http://www.vliz.be/vmdcdata/mangroves/> <http://www.w3.org/2000/01/rdf-schema#label> "Mangroves".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/22344?t=1638590773>.
+<http://marineregions.org/mrgid/48018?t=1638590919> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48018/geometries?source=50&attributeValue=BZN-AC>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47568>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48018>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T04:08:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:BZN-AC>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Acre"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-66.640014648438 -7.1226234436035,-74.010559082031 -7.1226234436035,-74.010559082031 -11.140556335449,-66.640014648438 -11.140556335449,-66.640014648438 -7.1226234436035)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-70.487966984532 -9.3040249401335)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47568> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Brazil North"@en.
+_:n3-2095 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "BZN-AC".
+<urn:tdwg:wgsrpd:BZN-AC> <https://schema.org/identifier> _:n3-2095;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48018?t=1638590919>.
+<http://marineregions.org/mrgid/49123?t=1638592577> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TerritorialSea>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/49123/geometries?source=179&attributeValue=49123>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8403>, <http://marineregions.org/mrgid/5660>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/49123>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T04:36:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=8403&zone=eez_12nm>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ecuadorian 12 NM (Galapagos)"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-89.04078 1.88085,-92.20764 1.88085,-92.20764 -1.6125,-89.04078 -1.6125,-89.04078 1.88085)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-90.81158 -0.02464)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/8403> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ecuadorian Exclusive Economic Zone (Galapagos)"@en.
+<http://marineregions.org/mrgid/5660> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Archipelago>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Galapagos"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Territorial Seas (12NM), version 3. Available online at http://www.marineregions.org/. https://doi.org/10.14284/387".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/49123?t=1638592577>.
+<http://marineregions.org/mrgid/22503?t=1638592661> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Estuary>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/22503/geometries?source=158&attributeValue=22503>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2166>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/22503>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T04:37:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Estuario de Churute"@es;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Churute estuary"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-79.668056 -2.416667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.vliz.be/vmdcdata/mangroves/>.
+<http://marineregions.org/mrgid/2166> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ecuador"@en.
+<http://www.vliz.be/vmdcdata/mangroves/> <http://www.w3.org/2000/01/rdf-schema#label> "Mangroves".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/22503?t=1638592661>.
+<http://marineregions.org/mrgid/8431?t=1638593461> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/24866>, <http://marineregions.org/mrgid/25571>, <http://marineregions.org/mrgid/25641>, <http://marineregions.org/mrgid/26845>, <http://marineregions.org/mrgid/49149>, <http://marineregions.org/mrgid/49382>, <http://marineregions.org/mrgid/49521>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8431/geometries?source=79&attributeValue=8431>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2166>;
+    <http://marineregions.org/ns/ontology#isPartlyPartOf> <http://marineregions.org/mrgid/1908>, <http://marineregions.org/mrgid/1910>;
+    <http://marineregions.org/ns/ontology#partlyContains> <http://marineregions.org/mrgid/7523>, <http://marineregions.org/mrgid/7524>, <http://marineregions.org/mrgid/25016>, <http://marineregions.org/mrgid/25017>, <http://marineregions.org/mrgid/48962>, <http://marineregions.org/mrgid/48974>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8431>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T04:51:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=8431>;
+    <http://www.w3.org/2004/02/skos/core#note> "Centroid calculation method: Centroid"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ecuadorian Exclusive Economic Zone"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-78.76202 1.45667,-84.489 1.45667,-84.489 -3.44414,-78.76202 -3.44414,-78.76202 1.45667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-82.20864 -0.96556)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/24866> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Trench>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ecuador Trench"@en.
+<http://marineregions.org/mrgid/25571> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ecuadorian part of the North Pacific Ocean"@en.
+<http://marineregions.org/mrgid/25641> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ecuadorian part of the South Pacific Ocean"@en.
+<http://marineregions.org/mrgid/26845> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WorldMarineHeritageSite>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Galápagos Islands"@en.
+<http://marineregions.org/mrgid/49149> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TerritorialSea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ecuadorian 12 NM"@en.
+<http://marineregions.org/mrgid/49382> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContiguousZone>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ecuadorian 24 NM"@en.
+<http://marineregions.org/mrgid/49521> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#InternalWaters>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ecuadorian Internal Waters"@en.
+<http://marineregions.org/mrgid/2166> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ecuador"@en.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+<http://marineregions.org/mrgid/7523> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ridge>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Carnegie Ridge"@en.
+<http://marineregions.org/mrgid/7524> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ridge>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Grijalva Ridge"@en.
+<http://marineregions.org/mrgid/25016> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Trench>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Peru Trench"@en.
+<http://marineregions.org/mrgid/25017> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Perú-Máncora Bank"@en.
+<http://marineregions.org/mrgid/48962> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#JointRegimeEEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Joint regime area Peru - Ecuador"@en.
+<http://marineregions.org/mrgid/48974> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#JointRegimeEEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Joint regime area Ecuador - Colombia"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Maritime Boundaries and Exclusive Economic Zones (200NM), version 11. Available online at http://www.marineregions.org/. https://doi.org/10.14284/386".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8431?t=1638593461>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/8-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/8-0.ttl>.

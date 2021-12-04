@@ -2021,3 +2021,108 @@ _:n3-843 <http://www.w3.org/2000/01/rdf-schema#label> "Aphia".
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/18101?t=1208953905>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/7-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/7-0.ttl>.
+<http://marineregions.org/mrgid/48865?t=1638587230> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Guyot>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48865/geometries?source=111&attributeValue=6345>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1908>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48865>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T03:07:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-27. Proposer: Zhanhai Zhang, Sub Committee on Undersea Feature Names of China Committee on Geographical Names. Year of proposal: 2014."@en, "GEBCO: discoverer and year of discovery: Discoverer: Chinese research vessel \"Dayang Yihao\". Year of discovery: 1998. History: Nianfeng comes from a Chinese poem named Wu Yang in Shi Jing - Xiao Ya (Shi Jing is a collection of ancient Chinese poems). This poem describes the lively hunting life w"@en, "Additional information: This feature has a conical shape, and a flat top with steep hillsides. Minimum depth (m): 1800. Maximum depth (m): 3800. Total relief (m): 2000. Dimension: 17 km × 18 km."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nianfeng Guyot"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-178.4 18.0233)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48865?t=1638587230>.
+<http://marineregions.org/mrgid/8452?t=1638587448> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/7374>, <http://marineregions.org/mrgid/7451>, <http://marineregions.org/mrgid/25577>, <http://marineregions.org/mrgid/49167>, <http://marineregions.org/mrgid/49464>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8452/geometries?source=79&attributeValue=8452>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1908>, <http://marineregions.org/mrgid/8678>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/25577>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8452>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T03:10:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=8452>;
+    <http://www.w3.org/2004/02/skos/core#note> "Centroid calculation method: Centroid"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Johnston Atoll Exclusive Economic Zone"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-165.98452 20.13212,-173.03289 20.13212,-173.03289 13.35822,-165.98452 13.35822,-165.98452 20.13212)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-169.50612 16.75109)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/7374> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mid-Pacific Seamounts"@en.
+<http://marineregions.org/mrgid/7451> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ridge>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sculpin Ridge"@en.
+<http://marineregions.org/mrgid/25577> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Johnston Atoll part of the North Pacific Ocean"@en.
+<http://marineregions.org/mrgid/49167> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TerritorialSea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Johnston Atoll 12 NM"@en.
+<http://marineregions.org/mrgid/49464> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContiguousZone>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Johnston Atoll 24 NM"@en.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+<http://marineregions.org/mrgid/8678> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Territory>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Johnston Atoll"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Maritime Boundaries and Exclusive Economic Zones (200NM), version 11. Available online at http://www.marineregions.org/. https://doi.org/10.14284/386".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8452?t=1638587448>.
+<http://marineregions.org/mrgid/48823?t=1638589412> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48823/geometries?source=111&attributeValue=6346>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1908>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48823>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T03:43:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-28. Proposer: China Ocean Mineral Resources R&D Association (COMRA). Year of proposal: 2015."@en, "GEBCO: discoverer and year of discovery: Discoverer: Chinese research vessel \"Dayang Yihao\". Year of discovery: 1998. History: Huigong comes from a poem named Wu Yang in Shi Jing - Xiao Ya (Shi Jing is a collection of ancient Chinese poems). This poem describes the lively hunting life with prosp"@en, "Additional information: This feature has a conical shape and 3 small peaks. Minimum depth (m): 3240. Maximum depth (m): 4750. Total relief (m): 1510. Dimension: 14 km × 15 km."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Huigong Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-179.3767 18.0583)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48823?t=1638589412>.
+<http://marineregions.org/mrgid/5969?t=1638591195> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/5969/geometries?source=111&attributeValue=3364>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1908>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/5969>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T04:13:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-156132>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 21.26666667; Long: -165.1333333"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Wisconsin Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-165.133333 21.266667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+_:n3-2211 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-156132".
+<urn:acuf:ufi:-156132> <https://schema.org/identifier> _:n3-2211;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-156132>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5969?t=1638591195>.
+<http://marineregions.org/mrgid/48884?t=1638591749> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Guyot>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48884/geometries?source=111&attributeValue=6343>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1908>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48884>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T04:22:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-27. Proposer: Zhanhai Zhang, Sub Committee on Undersea Feature Names of China Committee on Geographical Names. Year of proposal: 2014."@en, "GEBCO: discoverer and year of discovery: Discoverer: Chinese research vessel \"Dayang Yihao\". Year of discovery: 1998. History: Suoli comes from a Chinese poem named Wu Yang in Shi Jing - Xiao Ya (Shi Jing is a collection of ancient Chinese poems). This poem describes the lively hunting life with"@en, "Additional information: This feature has a flat top and steep hillsides, and extends from east to west. Minimum depth (m): 1600. Maximum depth (m): 4400. Total relief (m): 2800. Dimension: 35 km x 38 km."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Suoli Guyot"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-178.7083 18.71)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48884?t=1638591749>.
+<http://marineregions.org/mrgid/49158?t=1638593592> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TerritorialSea>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/49158/geometries?source=179&attributeValue=49158>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8443>, <http://marineregions.org/mrgid/8669>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/49158>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T04:53:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=8443&zone=eez_12nm>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Palmyra Atoll 12 NM"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-161.83902 6.63536,-162.59145 6.63536,-162.59145 5.66934,-161.83902 5.66934,-161.83902 6.63536)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-162.22355 6.14384)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/8443> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Palmyra Atoll Exclusive Economic Zone"@en.
+<http://marineregions.org/mrgid/8669> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Palmyra Atoll"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Territorial Seas (12NM), version 3. Available online at http://www.marineregions.org/. https://doi.org/10.14284/387".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/49158?t=1638593592>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/7-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/7-0.ttl>.

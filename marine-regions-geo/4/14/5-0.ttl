@@ -2237,3 +2237,159 @@ _:n3-395 <http://www.w3.org/2000/01/rdf-schema#label> "Aphia".
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/4321?t=1154077115>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/14/5-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/14/5-0.ttl>.
+<http://marineregions.org/mrgid/7789?t=1638587411> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Rise>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7789/geometries?source=110&attributeValue=3434>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1908>;
+    <http://marineregions.org/ns/ontology#isPartlyPartOf> <http://marineregions.org/mrgid/21799>, <http://marineregions.org/mrgid/5690>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7789>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T03:10:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Hokkaido Rise"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-156191>, <urn:acuf:ufi:-153786>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Proposer: Gleb B. Udintsev, Institute of Oceanology of the Russian Academy of Sciences (IO RAS). Year of proposal: 1958."@en, "GEBCO: discoverer and year of discovery: Discoverer: Russian research vessel \"Vityaz\". Year of discovery: 1953. History: Named after the Russian marine biologist, Academician L. A. Zenkevich (1889-1970), leader of many expeditions in the Arctic seas and the Pacific Ocean."@en, "Coordinates in ACUF: Latitude: 46; Longitude: 155"@en, "Coordinates in ACUF: Latitude: 51; Longitude: 161"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Zenkevich Rise"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(162.25 51.25,148.5 51.25,148.5 41.5,162.25 41.5,162.25 51.25)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(155.79658171507 45.914750699959)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+<http://marineregions.org/mrgid/21799> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Russia-Japan Conflict Zone"@en.
+<http://marineregions.org/mrgid/5690> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Russian Exclusive economic Zone"@en.
+_:n3-604 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-156191".
+<urn:acuf:ufi:-156191> <https://schema.org/identifier> _:n3-604;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-156191>.
+_:n3-605 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153786".
+<urn:acuf:ufi:-153786> <https://schema.org/identifier> _:n3-605;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153786>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7789?t=1638587411>.
+<http://marineregions.org/mrgid/25068?t=1638587650> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/26954>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/25068/geometries?source=111&attributeValue=5991>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1908>, <http://marineregions.org/mrgid/5690>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/25068>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T03:14:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:12358086>;
+    <http://www.w3.org/2004/02/skos/core#note> ": Previous coordinates 2011: minLat: 46.72, minLong: 156.61, maxLat: 46.93, maxLong: 156.85"@en, "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-23. Proposer: Rainer Gersonde, Alfred-Wegener Institute for Polar and Marine Research (AWI), Germany. Year of proposal: 2009."@en, "GEBCO: discoverer and year of discovery: Discoverer: German research vessel \"Sonne\". Year of discovery: 2009. History: Name after Dr. Alexander Svarichevskiy (1943-2006) who worked for the Far Eastern Institutes of the Russian Academy of Sciences and participated in numerous marine cruises on Ru"@en, "Additional information: Expedition conducted by V. Karnaukh. This feature has a steep circular shape. Minimum depth (m): 3361. Maximum depth (m): 5060. Total relief (m): 1699. Dimension: 16 km x 10 km."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Svarichevskiy Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(156.746666667 46.79333333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/26954> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Top of the Svarichevskiy Seamount"@en.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+<http://marineregions.org/mrgid/5690> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Russian Exclusive economic Zone"@en.
+_:n3-726 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "12358086".
+<urn:acuf:ufi:12358086> <https://schema.org/identifier> _:n3-726;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D12358086>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25068?t=1638587650>.
+<http://marineregions.org/mrgid/48418?t=1638589731> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48418/geometries?source=50&attributeValue=SAK-OO>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47800>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/47800>, <http://marineregions.org/mrgid/25769>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48418>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T03:48:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:SAK-OO>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sakhalin"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(144.75164794922 54.424713134766,141.63803100586 54.424713134766,141.63803100586 45.888603210449,144.75164794922 45.888603210449,144.75164794922 54.424713134766)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(142.71136777976 50.246880686803)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47800> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sakhalin"@en.
+<http://marineregions.org/mrgid/25769> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Oblast>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sakhalin"@en.
+_:n3-1585 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "SAK-OO".
+<urn:tdwg:wgsrpd:SAK-OO> <https://schema.org/identifier> _:n3-1585;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48418?t=1638589731>.
+<http://marineregions.org/mrgid/25498?t=1638590425> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/33742>, <http://marineregions.org/mrgid/33743>, <http://marineregions.org/mrgid/33744>, <http://marineregions.org/mrgid/33745>, <http://marineregions.org/mrgid/33746>, <http://marineregions.org/mrgid/33747>, <http://marineregions.org/mrgid/33748>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/25498/geometries?source=80&attributeValue=25498>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4309>, <http://marineregions.org/mrgid/5690>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/25498>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T04:00:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Russian part of the Sea of Okhotsk"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(165.629991 62.7118,135.156436 62.7118,135.156436 44.893006,165.629991 44.893006,165.629991 62.7118)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(149.172105 54.019169)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://doi.org/10.14284/402>.
+<http://marineregions.org/mrgid/33742> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Okhotsk Margin Slope Drifts"@en.
+<http://marineregions.org/mrgid/33743> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Sakhalin Island Drifts"@en.
+<http://marineregions.org/mrgid/33744> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northern Sakhalin Slope drifts"@en.
+<http://marineregions.org/mrgid/33745> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Rotated Basement Block Drifts"@en.
+<http://marineregions.org/mrgid/33746> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Staretsky Trough drifts"@en.
+<http://marineregions.org/mrgid/33747> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kurile drift 1"@en.
+<http://marineregions.org/mrgid/33748> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kurile drift 2"@en.
+<http://marineregions.org/mrgid/4309> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sea of Okhotsk"@en.
+<http://marineregions.org/mrgid/5690> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Russian Exclusive economic Zone"@en.
+<https://doi.org/10.14284/402> <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2020). Intersect of IHO Sea Areas and Exclusive Economic Zones (version 4)   ".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25498?t=1638590425>.
+<http://marineregions.org/mrgid/26870?t=1638591107> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WorldMarineHeritageSite>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/26870/geometries?source=83&attributeValue=26870>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4309>, <http://marineregions.org/mrgid/8487>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/26870>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T04:11:47Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://whc.unesco.org/en/list/1193>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Shiretoko"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(145.247998383 44.2320657374)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://whc.unesco.org/en/marine-programme>.
+<http://marineregions.org/mrgid/4309> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sea of Okhotsk"@en.
+<http://marineregions.org/mrgid/8487> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Japanese Exclusive Economic Zone"@en.
+<http://whc.unesco.org/en/marine-programme> <http://www.w3.org/2000/01/rdf-schema#label> "World Heritage Marine Programme".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/26870?t=1638591107>.
+<http://marineregions.org/mrgid/25496?t=1638591901> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/32205>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/25496/geometries?source=80&attributeValue=25496>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4309>, <http://marineregions.org/mrgid/8487>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/25496>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T04:25:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Japanese part of the Sea of Okhotsk"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(145.847755 45.703583,141.971073 45.703583,141.971073 43.251109,145.847755 43.251109,145.847755 45.703583)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(144.140458 44.752103)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://doi.org/10.14284/402>.
+<http://marineregions.org/mrgid/32205> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WetlandOfInternationalImportanceRamsarConvention>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Notsuke-hanto and Notsuke-wan"@en.
+<http://marineregions.org/mrgid/4309> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sea of Okhotsk"@en.
+<http://marineregions.org/mrgid/8487> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Japanese Exclusive Economic Zone"@en.
+<https://doi.org/10.14284/402> <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2020). Intersect of IHO Sea Areas and Exclusive Economic Zones (version 4)   ".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25496?t=1638591901>.
+<http://marineregions.org/mrgid/8764?t=1638592167> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8764/geometries?source=80&attributeValue=25495>, <http://marineregions.org/mrgid/8764/geometries?source=80&attributeValue=25498>, <http://marineregions.org/mrgid/8764/geometries?source=80&attributeValue=25501>, <http://marineregions.org/mrgid/8764/geometries?source=80&attributeValue=25590>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/25590>, <http://marineregions.org/mrgid/1908>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8764>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T04:29:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Russian Exclusive economic Zone [Pacific part]"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(155.10526 53.40875)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org/eez.php>.
+<http://marineregions.org/mrgid/25590> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Russian part of the North Pacific Ocean"@en.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+<http://www.marineregions.org/eez.php> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute. Maritime Boundaries Geodatabase. Available online at http://www.marineregions.org/. Consulted on YYYY-MM-DD".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8764?t=1638592167>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/14/5-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/14/5-0.ttl>.
