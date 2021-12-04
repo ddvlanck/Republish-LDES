@@ -8508,3 +8508,465 @@ _:n3-2188 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/31723?t=1638608135>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/5-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/5-0.ttl>.
+<http://marineregions.org/mrgid/23511?t=1638608477> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IOSRegion>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/23511/geometries?source=68&attributeValue=23511>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23491>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/23511>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T09:01:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NVI Shelf Slope Region"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-128.228928 50.427415)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-35 <http://www.w3.org/2000/01/rdf-schema#label> "Fisheries and Oceans Canada (Pacific); Marine Environmental Assessment Database.  MDE Version 5.0.1 ".
+<http://marineregions.org/mrgid/23511?t=1638608477> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-35.
+<http://marineregions.org/mrgid/23491> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IOSRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "West Coast Vancouver Island"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/23511?t=1638608477>.
+<http://marineregions.org/mrgid/6630?t=1638608875> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6630/geometries?source=111&attributeValue=1739>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4313>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6630>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T09:07:55Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/0cc623cc849c20c3e84f1b4a2837e7fb>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Learmouth Bank"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154143>, <urn:cgnd:uid:0cc623cc849c20c3e84f1b4a2837e7fb>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 54.48333333; Long: -133.05"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: 54.416667; Longitude: -133.083333"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Learmonth Bank"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-133.05 54.483333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4313> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "The Coastal Waters of Southeast Alaska and British Columbia"@en.
+_:n3-196 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154143".
+<urn:acuf:ufi:-154143> <https://schema.org/identifier> _:n3-196;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154143>.
+_:n3-197 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "0cc623cc849c20c3e84f1b4a2837e7fb".
+<urn:cgnd:uid:0cc623cc849c20c3e84f1b4a2837e7fb> <https://schema.org/identifier> _:n3-197;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/0cc623cc849c20c3e84f1b4a2837e7fb>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6630?t=1638608875>.
+<http://marineregions.org/mrgid/31065?t=1638609521> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Lake>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/31065/geometries?source=195&attributeValue=JAHFI>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8909>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/31065>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T09:18:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www4.rncan.gc.ca/search-place-names/unique/JAHFI>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Lake Mahoney"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mahoney Lake"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-119.581944 49.29)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/8909> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "British Columbia"@en.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/31065?t=1638609521>.
+<http://marineregions.org/mrgid/60125?t=1638609539> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Rock>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/60125/geometries?source=195&attributeValue=MADGM>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4313>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/60125>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T09:18:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/68b50288849c214a6c1ebdd7f2a3ae18>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:cgnd:uid:68b50288849c214a6c1ebdd7f2a3ae18>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Musgrave Rock"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-123.54301 48.74313,-123.54447 48.74313,-123.54447 48.74267,-123.54301 48.74267,-123.54301 48.74313)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-123.55 48.733333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/4313> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "The Coastal Waters of Southeast Alaska and British Columbia"@en.
+_:n3-445 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "68b50288849c214a6c1ebdd7f2a3ae18".
+<urn:cgnd:uid:68b50288849c214a6c1ebdd7f2a3ae18> <https://schema.org/identifier> _:n3-445;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/68b50288849c214a6c1ebdd7f2a3ae18>.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/60125?t=1638609539>.
+<http://marineregions.org/mrgid/24117?t=1638610360> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/24117/geometries?source=128&attributeValue=24117>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23638>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/4313>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/24117>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T09:32:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Coastal Waters of Southeast Alaska and British Columbia"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-122.177993774 59.481708527,-137.146408081 59.481708527,-137.146408081 47.250003815,-122.177993774 47.250003815,-122.177993774 59.481708527)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-129.9209192993 53.271703666174)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.bodc.ac.uk/resources/vocabularies/seavox/>.
+<http://marineregions.org/mrgid/23638> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northeast Pacific Ocean (180W)"@en.
+<http://marineregions.org/mrgid/4313> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "The Coastal Waters of Southeast Alaska and British Columbia"@en.
+<https://www.bodc.ac.uk/resources/vocabularies/seavox/> <http://www.w3.org/2000/01/rdf-schema#label> "The SeaVoX Salt and Fresh Water Body Gazetteer".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24117?t=1638610360>.
+<http://marineregions.org/mrgid/6264?t=1638610543> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6264/geometries?source=111&attributeValue=2954>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1908>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6264>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T09:35:43Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/0cf0fcba849c20c3fbe462eb3822491f>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155614>, <urn:cgnd:uid:0cf0fcba849c20c3fbe462eb3822491f>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 48.06666667; Long: -130.2"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Springfield Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-130.2 48.066667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+_:n3-846 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155614".
+<urn:acuf:ufi:-155614> <https://schema.org/identifier> _:n3-846;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155614>.
+_:n3-847 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "0cf0fcba849c20c3fbe462eb3822491f".
+<urn:cgnd:uid:0cf0fcba849c20c3fbe462eb3822491f> <https://schema.org/identifier> _:n3-847;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/0cf0fcba849c20c3fbe462eb3822491f>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6264?t=1638610543>.
+<http://marineregions.org/mrgid/9062?t=1638610579> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Town>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/9062/geometries?source=195&attributeValue=JCJUY>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8908>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/9062>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T09:36:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www4.rncan.gc.ca/search-place-names/unique/JCJUY>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Rock Bay"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-125.48333 50.333333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/8908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Vancouver Island"@en.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/9062?t=1638610579>.
+<http://marineregions.org/mrgid/25139?t=1638610597> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/31278>, <http://marineregions.org/mrgid/31830>, <http://marineregions.org/mrgid/31831>, <http://marineregions.org/mrgid/31850>, <http://marineregions.org/mrgid/31853>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/25139/geometries?source=132&attributeValue=Idaho>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2204>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/47655>, <http://marineregions.org/mrgid/48183>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/25139>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T09:36:37Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Map source: Sources: Esri, TomTom, Department of Commerce, Census Bureau, U.S. Department of Agriculture (USDA), National Agricultural Statistics Service (NASS) - (http://www.arcgis.com/home/group.html?owner=esri&title=ESRI%20Data%20%26%20Maps&content=all)"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Idaho"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-114.25 44.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.geonames.org>.
+<http://marineregions.org/mrgid/31278> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Lake>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bear Lake"@en.
+<http://marineregions.org/mrgid/31830> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Clearwater River"@en.
+<http://marineregions.org/mrgid/31831> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Middle Fork Clearwater River"@en.
+<http://marineregions.org/mrgid/31850> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Salmon River"@en.
+<http://marineregions.org/mrgid/31853> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Lake>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lake Coeur d'Alene"@en.
+<http://marineregions.org/mrgid/2204> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "United States"@en.
+<http://marineregions.org/mrgid/47655> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Idaho"@en.
+<http://marineregions.org/mrgid/48183> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Idaho"@en.
+<http://www.geonames.org> <http://www.w3.org/2000/01/rdf-schema#label> "GeoNames".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25139?t=1638610597>.
+<http://marineregions.org/mrgid/31413?t=1638610946> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NationalPark>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/31413/geometries?source=195&attributeValue=IATZL>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23495>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/31414>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/31413>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T09:42:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www4.rncan.gc.ca/search-place-names/unique/IATZL>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Jasper National Park of Canada"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-118.1 52.983333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/23495> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alberta"@en.
+<http://marineregions.org/mrgid/31414> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "River Athabasca"@en.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/31413?t=1638610946>.
+<http://marineregions.org/mrgid/5945?t=1638611216> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/5945/geometries?source=111&attributeValue=3218>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1908>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/5945>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T09:46:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/0cf121f7849c20c3a7bd3f53974b08eb>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Gora Yunion"@ru, "Гора Юнион"@ru;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155907>, <urn:cgnd:uid:0cf121f7849c20c3a7bd3f53974b08eb>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 49.58333333; Long: -132.6666667"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: 49.583333; Longitude: -132.75"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Union Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-132.72159830786 49.549487868153)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+_:n3-1130 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155907".
+<urn:acuf:ufi:-155907> <https://schema.org/identifier> _:n3-1130;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155907>.
+_:n3-1131 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "0cf121f7849c20c3a7bd3f53974b08eb".
+<urn:cgnd:uid:0cf121f7849c20c3a7bd3f53974b08eb> <https://schema.org/identifier> _:n3-1131;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/0cf121f7849c20c3a7bd3f53974b08eb>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5945?t=1638611216>.
+<http://marineregions.org/mrgid/6629?t=1638611414> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6629/geometries?source=111&attributeValue=657>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4313>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6629>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T09:50:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/0cf15cc1849c20c38baf247a3234b77e>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Cook Trough"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-153026>, <urn:cgnd:uid:0cf15cc1849c20c38baf247a3234b77e>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 51.33333333; Long: -128.6666667"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: Shown as Cook Trough in the ACUF Gazetteer."@en, "Coordinates in ACUF: Latitude: 51.1; Longitude: -128.3"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cook Canyon"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-128.666667 51.333333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4313> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "The Coastal Waters of Southeast Alaska and British Columbia"@en.
+_:n3-1220 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153026".
+<urn:acuf:ufi:-153026> <https://schema.org/identifier> _:n3-1220;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153026>.
+_:n3-1221 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "0cf15cc1849c20c38baf247a3234b77e".
+<urn:cgnd:uid:0cf15cc1849c20c38baf247a3234b77e> <https://schema.org/identifier> _:n3-1221;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/0cf15cc1849c20c38baf247a3234b77e>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6629?t=1638611414>.
+<http://marineregions.org/mrgid/32735?t=1638611887> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/32735/geometries?source=169&attributeValue=32735>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8684>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/32735>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T09:58:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Yes Bay"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-131.79361 55.91333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.geonames.org>.
+<http://marineregions.org/mrgid/8684> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alaska"@en.
+<http://www.geonames.org> <http://www.w3.org/2000/01/rdf-schema#label> "GeoNames".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/32735?t=1638611887>.
+<http://marineregions.org/mrgid/31067?t=1638612505> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Lake>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/31067/geometries?source=195&attributeValue=JBEBW>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8909>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/31067>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:08:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www4.rncan.gc.ca/search-place-names/unique/JBEBW>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Lake Pitt"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pitt Lake"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-122.562778 49.4)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/8909> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "British Columbia"@en.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/31067?t=1638612505>.
+<http://marineregions.org/mrgid/31428?t=1638612935> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Plateau>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/31428/geometries?source=195&attributeValue=JBKEF>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8909>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/31427>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/31428>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:15:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www4.rncan.gc.ca/search-place-names/unique/JBKEF>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nechako Plateau"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-125.9999999 54.4999999)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/8909> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "British Columbia"@en.
+<http://marineregions.org/mrgid/31427> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#River>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nechako River"@en.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/31428?t=1638612935>.
+<http://marineregions.org/mrgid/21846?t=1638613078> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21846/geometries?source=38&attributeValue=21846>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/22755>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21846>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:17:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North American Pacific Fijordland"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-131.259 55.161)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1914 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas>.
+<http://marineregions.org/mrgid/21846?t=1638613078> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1914.
+<http://marineregions.org/mrgid/22755> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cold Temperate Northeast Pacific"@en.
+<https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas> <http://www.w3.org/2000/01/rdf-schema#label> "Spalding, M. D. Fox, H. E. Allen, G. R. Davidson, N. Ferdana, Z. A. Finlayson, M. Halpern, B. S. Jorge, M. A. Lombana, A. Lourie, S. A., (2007). Marine Ecoregions of the World: A Bioregionalization of Coastal and Shelf Areas. Bioscience 2007, VOL 57; numb 7, pages 573-584. doi: 10.1641/B570707".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21846?t=1638613078>.
+<http://marineregions.org/mrgid/18817?t=1638613493> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Inlet>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/18817/geometries?source=195&attributeValue=JAUIG>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/9091>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/19641>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/18817>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:24:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www4.rncan.gc.ca/search-place-names/unique/JAUIG>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "False Creek"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-123.126944 49.269444)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/9091> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#InhabitedPlace>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Vancouver"@en.
+<http://marineregions.org/mrgid/19641> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bay>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "English Bay"@en.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/18817?t=1638613493>.
+<http://marineregions.org/mrgid/31421?t=1638613519> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Channel>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/31421/geometries?source=195&attributeValue=JBEZC>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8908>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/31420>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/31421>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:25:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www4.rncan.gc.ca/search-place-names/unique/JBEZC>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Discovery Passage"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-125.361667 50.176944)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/8908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Vancouver Island"@en.
+<http://marineregions.org/mrgid/31420> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Lake>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lake Buttle"@en.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/31421?t=1638613519>.
+<http://marineregions.org/mrgid/26584?t=1638613714> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/50171>, <http://marineregions.org/mrgid/50172>, <http://marineregions.org/mrgid/50173>, <http://marineregions.org/mrgid/50174>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/26584/geometries?source=80&attributeValue=25505>, <http://marineregions.org/mrgid/26584/geometries?source=80&attributeValue=25585>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8493>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/26584>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:28:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Canadian Exclusive Economic Zone [Pacific part]"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-135 55)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://marineregions.org/mrgid/50171> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineBioregion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Strait of Georgia "@en.
+<http://marineregions.org/mrgid/50172> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineBioregion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southern Shelf "@en.
+<http://marineregions.org/mrgid/50173> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineBioregion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Offshore Pacific"@en.
+<http://marineregions.org/mrgid/50174> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineBioregion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northern Shelf"@en.
+<http://marineregions.org/mrgid/8493> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Canadian Exclusive Economic Zone"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/26584?t=1638613714>.
+<http://marineregions.org/mrgid/32411?t=1638613818> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/32411/geometries?source=195&attributeValue=JBEHH>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8909>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/32411>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:30:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www4.rncan.gc.ca/search-place-names/unique/JBEHH>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nootka Island"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-126.769444 49.743056)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/8909> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "British Columbia"@en.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/32411?t=1638613818>.
+<http://marineregions.org/mrgid/6293?t=1638613879> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6293/geometries?source=111&attributeValue=5200>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1908>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6293>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:31:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/7d5cbf16ba3611d892e2080020a0f4c9>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Bassin Cascadia"@fr, "Cascadia Abyssal Plain"@en, "Great Trough"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152838>, <urn:cgnd:uid:7d5cbf16ba3611d892e2080020a0f4c9>;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: 47; Longitude: -127.5"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cascadia Basin"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-128 46.6666666667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+_:n3-2263 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152838".
+<urn:acuf:ufi:-152838> <https://schema.org/identifier> _:n3-2263;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152838>.
+_:n3-2264 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "7d5cbf16ba3611d892e2080020a0f4c9".
+<urn:cgnd:uid:7d5cbf16ba3611d892e2080020a0f4c9> <https://schema.org/identifier> _:n3-2264;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/7d5cbf16ba3611d892e2080020a0f4c9>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6293?t=1638613879>.
+<http://marineregions.org/mrgid/19638?t=1638614098> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Peninsula>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/19638/geometries?source=195&attributeValue=JAXMH>;
+    <http://marineregions.org/ns/ontology#isAdjacentTo> <http://marineregions.org/mrgid/18821>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8908>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/19638>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:34:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www4.rncan.gc.ca/search-place-names/unique/JAXMH>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Saanich Peninsula"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-123.433333 48.549722)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/18821> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Strait>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Strait of Georgia"@en.
+<http://marineregions.org/mrgid/8908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Island>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Vancouver Island"@en.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/19638?t=1638614098>.
+<http://marineregions.org/mrgid/59874?t=1638614870> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/59874/geometries?source=195&attributeValue=MAAAD>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4313>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/59874>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:47:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/68b4b38e849c214a46e570672ac371cc>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:cgnd:uid:68b4b38e849c214a46e570672ac371cc>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Achilles Bank"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-124.49899 49.56058,-124.50411 49.56058,-124.50411 49.55657,-124.49899 49.55657,-124.49899 49.56058)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-124.5 49.55)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170>.
+<http://marineregions.org/mrgid/4313> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "The Coastal Waters of Southeast Alaska and British Columbia"@en.
+_:n3-2694 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "68b4b38e849c214a46e570672ac371cc".
+<urn:cgnd:uid:68b4b38e849c214a46e570672ac371cc> <https://schema.org/identifier> _:n3-2694;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/68b4b38e849c214a46e570672ac371cc>.
+<https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Geographical Names Database (CGND)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/59874?t=1638614870>.
+<http://marineregions.org/mrgid/15254?t=1638614952> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Inlet>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/15254/geometries?source=169&attributeValue=15254>;
+    <http://marineregions.org/ns/ontology#isAdjacentTo> <http://marineregions.org/mrgid/1903>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/9070>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/15254>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:49:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Puget Sound"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-122.43 47.83)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2737 <http://www.w3.org/2000/01/rdf-schema#label> "Masdea".
+<http://marineregions.org/mrgid/15254?t=1638614952> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2737.
+<http://marineregions.org/mrgid/1903> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ocean>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pacific Ocean"@en.
+<http://marineregions.org/mrgid/9070> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Washington"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/15254?t=1638614952>.
+<http://marineregions.org/mrgid/6336?t=1638614984> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ridge>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6336/geometries?source=111&attributeValue=872>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1908>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6336>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:49:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/0cc6b23d849c20c3956af76dae5adfdb>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Eichelburg Seamount Chain"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-153276>, <urn:cgnd:uid:0cc6b23d849c20c3956af76dae5adfdb>;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: 48.5; Longitude: -133.166667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Eickelberg Ridge"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-133.5 48.75)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+_:n3-2747 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153276".
+<urn:acuf:ufi:-153276> <https://schema.org/identifier> _:n3-2747;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153276>.
+_:n3-2748 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "0cc6b23d849c20c3956af76dae5adfdb".
+<urn:cgnd:uid:0cc6b23d849c20c3956af76dae5adfdb> <https://schema.org/identifier> _:n3-2748;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/0cc6b23d849c20c3956af76dae5adfdb>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6336?t=1638614984>.
+<http://marineregions.org/mrgid/23516?t=1638615516> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IOSRegion>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/23516/geometries?source=68&attributeValue=23516>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23492>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/23516>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:58:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Queen Charlotte Strait"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-127.334462 50.780028)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2985 <http://www.w3.org/2000/01/rdf-schema#label> "Fisheries and Oceans Canada (Pacific); Marine Environmental Assessment Database.  MDE Version 5.0.1 ".
+<http://marineregions.org/mrgid/23516?t=1638615516> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2985.
+<http://marineregions.org/mrgid/23492> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IOSRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Strait of Georgia"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/23516?t=1638615516>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/5-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/5-0.ttl>.

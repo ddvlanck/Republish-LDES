@@ -779,3 +779,45 @@ _:n3-1841 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47952?t=1638605366>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/13/5-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/13/5-0.ttl>.
+<http://marineregions.org/mrgid/47580?t=1638613292> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/48043>, <http://marineregions.org/mrgid/48044>, <http://marineregions.org/mrgid/48045>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/47580/geometries?source=51&attributeValue=CHM>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47489>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/47580>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:21:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:CHM>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Manchuria"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(134.77359008751 53.554435729825,118.84664917012 53.554435729825,118.84664917012 38.717491150196,134.77359008751 38.717491150196,134.77359008751 53.554435729825)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(126.42299479672 45.599600332741)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/48043> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Heilongjiang"@en.
+<http://marineregions.org/mrgid/48044> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Jilin"@en.
+<http://marineregions.org/mrgid/48045> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Liaoning"@en.
+<http://marineregions.org/mrgid/47489> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "China"@en.
+_:n3-2016 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "CHM".
+<urn:tdwg:wgsrpd:CHM> <https://schema.org/identifier> _:n3-2016;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47580?t=1638613292>.
+<http://marineregions.org/mrgid/21481?t=1638614170> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#LonghurstProvince>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21481/geometries?source=44&attributeValue=PSAW>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/22538>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21481>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:36:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "PSAW"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pacific Subarctic Gyres Province (West)"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(126.527149971 45.8596381567)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2400 <http://www.w3.org/2000/01/rdf-schema#label> "Ecological geography of the Sea (Longhurst, 1998)".
+_:n3-2399 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-2400.
+<http://marineregions.org/mrgid/21481?t=1638614170> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2399.
+<http://marineregions.org/mrgid/22538> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#LonghurstProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Longhurst Provinces"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21481?t=1638614170>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/13/5-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/13/5-0.ttl>.

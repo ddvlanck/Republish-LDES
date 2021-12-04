@@ -1563,3 +1563,96 @@ _:n3-2543 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6623?t=1638607437>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/1/4-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/1/4-0.ttl>.
+<http://marineregions.org/mrgid/24118?t=1638612644> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/24118/geometries?source=128&attributeValue=24118>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23638>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/4312>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/24118>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:10:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf Of Alaska"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-136.677627563 61.340847015,-163.356735229 61.340847015,-163.356735229 54.227855682,-136.677627563 54.227855682,-136.677627563 61.340847015)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-149.09108589136 58.382325077885)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.bodc.ac.uk/resources/vocabularies/seavox/>.
+<http://marineregions.org/mrgid/23638> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northeast Pacific Ocean (180W)"@en.
+<http://marineregions.org/mrgid/4312> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of Alaska"@en.
+<https://www.bodc.ac.uk/resources/vocabularies/seavox/> <http://www.w3.org/2000/01/rdf-schema#label> "The SeaVoX Salt and Fresh Water Body Gazetteer".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24118?t=1638612644>.
+<http://marineregions.org/mrgid/6620?t=1638612647> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6620/geometries?source=111&attributeValue=58>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4312>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6620>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:10:47Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152245>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 56.16666667; Long: -152.3333333"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Albatross Bank"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-152.333333 56.166667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4312> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of Alaska"@en.
+_:n3-1750 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152245".
+<urn:acuf:ufi:-152245> <https://schema.org/identifier> _:n3-1750;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152245>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6620?t=1638612647>.
+<http://marineregions.org/mrgid/25054?t=1638612712> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/25054/geometries?source=110&attributeValue=2889>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4312>, <http://marineregions.org/mrgid/8463>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/25054>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:11:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:9167331>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-18. Proposer: Advisory Committee on Undersea Features (ACUF), of the Board on Geographic Names, USA. Year of proposal: 2004."@en, "GEBCO: discoverer and year of discovery: Discoverer: U.S. oceanographic survey vessel \"Surveyor\". Year of discovery: 1988. History: Named after Rear Admiral Paul A. Smith (?-1978) of the United States Coast and Geodetic Survey (C&GS), a pioneer bathymetrist, being the first to contour the slopes"@en, "Additional information: This feature has an average steepness of 4%. It is located in the northern Gulf of Alaska. Minimum depth (m): 2900. Maximum depth (m): 3900. Total relief (m): 1000."@en, "Coordinates in ACUF: Latitude: 58.916667; Longitude: -146.216667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Smith Canyon"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-146.191666667 58.9416666667,-146.5 58.9416666667,-146.5 58.8666666,-146.191666667 58.8666666,-146.191666667 58.9416666667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-146.31604918019 58.938338201558)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4312> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of Alaska"@en.
+<http://marineregions.org/mrgid/8463> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "United States Exclusive Economic Zone (Alaska)"@en.
+_:n3-1777 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "9167331".
+<urn:acuf:ufi:9167331> <https://schema.org/identifier> _:n3-1777;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D9167331>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25054?t=1638612712>.
+<http://marineregions.org/mrgid/8169?t=1638613530> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8169/geometries?source=111&attributeValue=2143>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4310>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8169>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:25:30Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Navarinsky Canyon"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154616>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 60.75 ; Long: 179.25 (update 2020-04-22)"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCGN-6. Proposer: D. E. Gershanovich, Russian Federal Research Institute of Fisheries and Oceanography (VNIRO). Year of proposal: 1956."@en, "GEBCO: discoverer and year of discovery: Discoverer: Russian fisheries research vessel \"Zhemchug\". Year of discovery: 1955. History: Named from the nearby Cape Navarin, Russian Federation."@en, "Coordinates in ACUF: Latitude: 60.5; Longitude: 179.75"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Navarin Canyon"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(180 62.5067,-180 62.5067,-180 58.775,180 58.775,180 62.5067)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-147.7792 61.10257)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4310> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bering Sea"@en.
+_:n3-2111 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154616".
+<urn:acuf:ufi:-154616> <https://schema.org/identifier> _:n3-2111;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154616>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8169?t=1638613530>.
+<http://marineregions.org/mrgid/23545?t=1638614943> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IOSRegion>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/23545/geometries?source=68&attributeValue=23545>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23537>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/23545>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:49:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sitka Basin"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-138.387395 56.509928)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2732 <http://www.w3.org/2000/01/rdf-schema#label> "Fisheries and Oceans Canada (Pacific); Marine Environmental Assessment Database.  MDE Version 5.0.1 ".
+<http://marineregions.org/mrgid/23545?t=1638614943> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2732.
+<http://marineregions.org/mrgid/23537> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IOSRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pacific"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/23545?t=1638614943>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/1/4-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/1/4-0.ttl>.

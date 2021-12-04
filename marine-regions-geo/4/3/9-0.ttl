@@ -768,3 +768,42 @@ _:n3-2002 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-2003.
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48873?t=1638606453>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/3/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/3/9-0.ttl>.
+<http://marineregions.org/mrgid/48127?t=1638610242> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48127/geometries?source=50&attributeValue=EAS-OO>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47617>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/47617>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48127>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T09:30:42Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:EAS-OO>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Easter Is."@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-105.45639038086 -26.452503204346,-109.44917297363 -26.452503204346,-109.44917297363 -27.201946258545,-105.45639038086 -27.201946258545,-105.45639038086 -26.452503204346)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-109.31547916444 -27.117692507945)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47617> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Easter Is."@en.
+_:n3-737 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "EAS-OO".
+<urn:tdwg:wgsrpd:EAS-OO> <https://schema.org/identifier> _:n3-737;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48127?t=1638610242>.
+<http://marineregions.org/mrgid/23642?t=1638614117> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Level2>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/24103>, <http://marineregions.org/mrgid/24160>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/23642/geometries?source=125&attributeValue=23642>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23633>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/23642>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:35:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southeast Pacific Ocean (140W)"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-106.7299677 -30.6347788)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.bodc.ac.uk/resources/vocabularies/seavox/>.
+<http://marineregions.org/mrgid/24103> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southeast Pacific Ocean (140W)"@en.
+<http://marineregions.org/mrgid/24160> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Drake Passage"@en.
+<http://marineregions.org/mrgid/23633> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Level1>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+<https://www.bodc.ac.uk/resources/vocabularies/seavox/> <http://www.w3.org/2000/01/rdf-schema#label> "The SeaVoX Salt and Fresh Water Body Gazetteer".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/23642?t=1638614117>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/3/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/3/9-0.ttl>.

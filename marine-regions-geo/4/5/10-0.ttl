@@ -2071,3 +2071,137 @@ _:n3-2095 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-2096.
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/9053?t=1638606317>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/10-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/10-0.ttl>.
+<http://marineregions.org/mrgid/6748?t=1638609913> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6748/geometries?source=111&attributeValue=3033>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6748>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T09:25:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -55.41666667; Long: -65.58333333"@en, "Previous coordinates: Lat: -55.41667 ; Long: -65.58333 (update 2020-04-22)"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sverdrup Canyon"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-65.596 -55.101,-66.183 -55.101,-66.183 -55.563,-65.596 -55.563,-65.596 -55.101)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-65.82474 -55.28571)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6748?t=1638609913>.
+<http://marineregions.org/mrgid/7159?t=1638610756> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#FractureZone>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7159/geometries?source=110&attributeValue=3087>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7159>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T09:39:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155753>;
+    <http://www.w3.org/2004/02/skos/core#note> ": Updated coordinates (GEBCO May 2014) - \r\nPrevious values (GEBCO October 2002):\r\n [Min. Lat: -55°] ; \r\n[Min. Long: -49°] ;\r\n [Max. Lat: -44.5°] ; \r\n[Max. Long: -44°]"@en, "Coordinates in ACUF: Latitude: -54.5; Longitude: -46"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tehuelche Fracture Zone"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-43.9892069378 -54.5571048067,-48.7585167944 -54.5571048067,-48.7585167944 -54.8077561312,-43.9892069378 -54.8077561312,-43.9892069378 -54.5571048067)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-46.375086437817 -54.746182579286)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+_:n3-935 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155753".
+<urn:acuf:ufi:-155753> <https://schema.org/identifier> _:n3-935;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155753>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7159?t=1638610756>.
+<http://marineregions.org/mrgid/7157?t=1638611335> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ridge>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7157/geometries?source=110&attributeValue=2231>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>, <http://marineregions.org/mrgid/8383>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7157>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T09:48:55Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "South Georgia Ridge"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155570>;
+    <http://www.w3.org/2004/02/skos/core#note> ": Updated coordinates (GEBCO May 2014) - \r\nPrevious values (GEBCO October 2002):\r\n [Max. Lat: -53.33333°]"@en, "GEBCO: discoverer and year of discovery: History: Named from the Scotia Sea, of which it forms the northern border."@en, "Additional information: Shown as South Georgia Ridge in the ACUF Gazetteer."@en, "Coordinates in ACUF: Latitude: -54; Longitude: -40"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Scotia Ridge"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-44 -53.0697,-52.75 -53.0697,-52.75 -53.8333,-44 -53.8333,-44 -53.0697)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-48.468714222252 -53.153904166528)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/8383> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Overlapping claim South Georgia and South Sandwich Islands: UK / Argentina"@en.
+_:n3-1187 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155570".
+<urn:acuf:ufi:-155570> <https://schema.org/identifier> _:n3-1187;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155570>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7157?t=1638611335>.
+<http://marineregions.org/mrgid/6668?t=1638612533> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6668/geometries?source=111&attributeValue=259>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6668>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:08:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152467>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -41.41666667; Long: -55.41666667"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: -41.416667; Longitude: -54.333333"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bahía Blanca Canyon"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-55.416667 -41.416667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+_:n3-1698 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152467".
+<urn:acuf:ufi:-152467> <https://schema.org/identifier> _:n3-1698;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152467>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6668?t=1638612533>.
+<http://marineregions.org/mrgid/21890?t=1638614638> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21890/geometries?source=38&attributeValue=21890>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/21756>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21890>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:43:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Malvinas/Falklands"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-59.0608 -51.617)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2606 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas>.
+<http://marineregions.org/mrgid/21890?t=1638614638> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2606.
+<http://marineregions.org/mrgid/21756> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Magellanic"@en.
+<https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas> <http://www.w3.org/2000/01/rdf-schema#label> "Spalding, M. D. Fox, H. E. Allen, G. R. Davidson, N. Ferdana, Z. A. Finlayson, M. Halpern, B. S. Jorge, M. A. Lombana, A. Lourie, S. A., (2007). Marine Ecoregions of the World: A Bioregionalization of Coastal and Shelf Areas. Bioscience 2007, VOL 57; numb 7, pages 573-584. doi: 10.1641/B570707".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21890?t=1638614638>.
+<http://marineregions.org/mrgid/33699?t=1638614941> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/33699/geometries?source=95&attributeValue=33699>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/2265>;
+    <http://marineregions.org/ns/ontology#isPartlyPartOf> <http://marineregions.org/mrgid/26561>, <http://marineregions.org/mrgid/25513>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/33699>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:49:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Drift type: Plastered"@en, "Prevailing contourite type: Sandy-muddy"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Perito Moreno Terrace"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-58.8268 -44.6934,-59.9235 -44.6934,-59.9235 -47.862,-58.8268 -47.862,-58.8268 -44.6934)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-59.331478403273 -46.194816249441)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2731 <http://www.w3.org/2000/01/rdf-schema#label> "A. Muñoz, J. Cristobo, P. Rios, M. Druet, V. Polonio, E. Uchupi, J. Acosta, Atlantis Group (2012). Sediment drifts and cold-water coral reefs in the Patagonian upper and middle continental slope. Marine and Petroleum Geology, 36 (2012), pp. 70–82".
+_:n3-2730 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-2731.
+<http://marineregions.org/mrgid/33699?t=1638614941> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2730.
+<http://marineregions.org/mrgid/2265> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Antarctic Bottom Water"@en.
+<http://marineregions.org/mrgid/26561> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "High Seas of the South Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/25513> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Overlapping claim Falkland Islands: UK / Argentina part of the South Atlantic Ocean"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/33699?t=1638614941>.
+<http://marineregions.org/mrgid/6675?t=1638615367> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6675/geometries?source=111&attributeValue=439>;
+    <http://marineregions.org/ns/ontology#isAdjacentTo> <http://marineregions.org/mrgid/8623>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6675>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:56:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Banc Burdwood"@fr, "Banco Burdwood"@es, "Banka Bërdvud"@ru, "Birdwood Bank"@en, "Burdwood Plateau"@en, "Burwood Bank"@en, "Банка Бёрдвуд"@ru;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152742>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Burdwood Bank"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-59 -54.25)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/8623> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#DependentState>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Falkland Islands"@en.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+_:n3-2925 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152742".
+<urn:acuf:ufi:-152742> <https://schema.org/identifier> _:n3-2925;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152742>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6675?t=1638615367>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/10-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/10-0.ttl>.

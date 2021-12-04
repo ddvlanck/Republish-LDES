@@ -2393,3 +2393,86 @@ _:n3-2370 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5869?t=1638607001>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/7-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/7-0.ttl>.
+<http://marineregions.org/mrgid/5884?t=1638612216> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Guyot>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/5884/geometries?source=111&attributeValue=2828>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1908>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/5884>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:03:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-155446>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 19.16666667; Long: -179.75"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: discoverer and year of discovery: History: Named after U.S. pioneer marine geologist Francis P. Shepard, at Scripps Institution of Oceanography (SIO), from mid-1930s to early 1980s."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Shepard Guyot"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-179.75 19.166667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+_:n3-1560 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-155446".
+<urn:acuf:ufi:-155446> <https://schema.org/identifier> _:n3-1560;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-155446>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5884?t=1638612216>.
+<http://marineregions.org/mrgid/33664?t=1638612489> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#LowerBathyalProvinces>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/33664/geometries?source=108&attributeValue=33664>;
+    <http://marineregions.org/ns/ontology#isPartlyPartOf> <http://marineregions.org/mrgid/1908>, <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/33664>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:08:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "BY14"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Lower Bathyal Province"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-175.04176197418 16.486213533394)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1683 <http://www.w3.org/2000/01/rdf-schema#label> "Watling, L.; Guinotte, J.; Clark, M.R.; Smith, C.R. (2013). A proposed biogeography of the deep ocean floor. Prog. Oceanogr. 111: 91-112 DOI: 10.1016/j.pocean.2012.11.003".
+_:n3-1682 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-1683.
+<http://marineregions.org/mrgid/33664?t=1638612489> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1682.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/33664?t=1638612489>.
+<http://marineregions.org/mrgid/48794?t=1638613293> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48794/geometries?source=111&attributeValue=6344>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1908>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48794>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:21:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-27. Proposer: Zhanhai Zhang, Sub Committee on Undersea Feature Names of China Committee on Geographical Names. Year of proposal: 2014."@en, "GEBCO: discoverer and year of discovery: Discoverer: Chinese research vessel \"Dayang Yihao\". Year of discovery: 1998. History: Chunyang comes from a Chinese poem named Wu Yang in Shi Jing - Xiao Ya (Shi Jing is a collection of ancient Chinese poems). This poem describes the lively hunting life w"@en, "Additional information: This feature has a flat top and has developed into several geomorphic units. Its hillsides are steep and it extends from east to west. Minimum depth (m): 1600. Maximum depth (m): 4000. Total relief (m): 2400. Dimension: 67 km × 38 km."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chunyang Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-178.265 18.3283)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48794?t=1638613293>.
+<http://marineregions.org/mrgid/6423?t=1638615380> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6423/geometries?source=111&attributeValue=1264>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1908>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6423>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:56:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-153692>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 15.3; Long: -163.4833333"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Hassayampa Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-163.483333 15.3)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+_:n3-2932 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153692".
+<urn:acuf:ufi:-153692> <https://schema.org/identifier> _:n3-2932;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153692>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6423?t=1638615380>.
+<http://marineregions.org/mrgid/48800?t=1638615533> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ridge>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48800/geometries?source=111&attributeValue=6482>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1908>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48800>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T10:58:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-28. Proposer: China Ocean Mineral Resources R&D Association (COMRA). Year of proposal: 2015."@en, "GEBCO: discoverer and year of discovery: Discoverer: Chinese research vessel \"Dayang Yihao\". Year of discovery: 1998. History: Echi comes from a poem named Wu Yang in Shi Jing - Xiao Ya (Shi Jing is a collection of ancient Chinese poems). This poem describes the lively hunting life with prospero"@en, "Additional information: This feature has a flat top and steep hillsides, and an east-west extension. Minimum depth (m): 1860. Maximum depth (m): 3110. Total relief (m): 1250. Dimension: 22 km x 7 km."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Echi Ridge"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-178.96667 18.67167)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1908> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Pacific Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48800?t=1638615533>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/7-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/7-0.ttl>.
