@@ -3255,3 +3255,76 @@ _:n3-2289 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24921?t=1638591410>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/11-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/11-0.ttl>.
+<http://marineregions.org/mrgid/30305?t=1638594252> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/30305/geometries?source=95&attributeValue=30305>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/5395>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/25668>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30305>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T05:04:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Maximum age: Miocene"@en, "Coordinate information: Coordinates redefined in 2014. \nThese coordinates represent the centroid and the bounding box of the polygon from the shapefile."@en, "Drift type: Elongate mounded and detached Drift"@en, "Mean contourite type: Glacial"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Drift 1"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-64.847474 -62.401625,-67.468071 -62.401625,-67.468071 -63.492604,-64.847474 -63.492604,-64.847474 -62.401625)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-66.069250232706 -62.90719214952)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-42 <http://www.w3.org/2000/01/rdf-schema#label> "Hernandez-Molina, F. J., et al. (2006). Miocene reversal of bottom water flow along the Pacific Margin of the Antarctic Peninsula: Stratigraphic evidence from a contourite sedimentary tail. Marine Geology 228(1-4): 93-116.".
+_:n3-41 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-42.
+<http://marineregions.org/mrgid/30305?t=1638594252> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-41.
+<http://marineregions.org/mrgid/5395> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Current>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Antarctic Circumpolar Current"@en.
+<http://marineregions.org/mrgid/25668> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Antarctic 200NM zone beyond the coastline part of the Southern Ocean"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30305?t=1638594252>.
+<http://marineregions.org/mrgid/62622?t=1638597845> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#AntarcticConservationBiogeographicRegion>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/62622/geometries?source=251&attributeValue=1>;
+    <http://marineregions.org/ns/ontology#isPartlyPartOf> <http://marineregions.org/mrgid/1926>, <http://marineregions.org/mrgid/1907>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/62622>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T06:04:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North-east Antarctic Peninsula"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-55.48343 -63.15076,-61.19142 -63.15076,-61.19142 -64.93993,-55.48343 -64.93993,-55.48343 -63.15076)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-58.48147 -64.12551)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://data.aad.gov.au/metadata/records/AAS_4296_Antarctic_Conservation_Biogeographic_Regions_v2>.
+<http://marineregions.org/mrgid/1926> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Continent>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Antarctica"@en.
+<http://marineregions.org/mrgid/1907> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southern Ocean"@en.
+<https://data.aad.gov.au/metadata/records/AAS_4296_Antarctic_Conservation_Biogeographic_Regions_v2> <http://www.w3.org/2000/01/rdf-schema#label> "Terauds, A. (2016, updated 2017) An update of the Antarctic Conservation Biogeographic Regions (ACBRs) Australian Antarctic Data Centre - doi:10.4225/15/5729930925224".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/62622?t=1638597845>.
+<http://marineregions.org/mrgid/24160?t=1638599352> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/24160/geometries?source=128&attributeValue=24160>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23624>, <http://marineregions.org/mrgid/23643>, <http://marineregions.org/mrgid/23642>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/4326>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/24160>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T06:29:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Drake Passage"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-53.959312439 -54.696807861,-69.663452148 -54.696807861,-69.663452148 -63.098742414,-53.959312439 -63.098742414,-53.959312439 -54.696807861)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-60.323580111634 -61.155698910503)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.bodc.ac.uk/resources/vocabularies/seavox/>.
+<http://marineregions.org/mrgid/23624> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Region>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southern Ocean"@en.
+<http://marineregions.org/mrgid/23643> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southwest Atlantic Ocean (20W)"@en.
+<http://marineregions.org/mrgid/23642> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southeast Pacific Ocean (140W)"@en.
+<http://marineregions.org/mrgid/4326> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Sea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Drake Passage"@en.
+<https://www.bodc.ac.uk/resources/vocabularies/seavox/> <http://www.w3.org/2000/01/rdf-schema#label> "The SeaVoX Salt and Fresh Water Body Gazetteer".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24160?t=1638599352>.
+<http://marineregions.org/mrgid/33714?t=1638600780> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/33714/geometries?source=95&attributeValue=33714>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/2265>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/25668>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/33714>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T06:53:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Drift type: Mounded"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tabarin Drift"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-57.0051 -63.7392,-57.0745 -63.7392,-57.0745 -63.7579,-57.0051 -63.7579,-57.0051 -63.7392)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-57.039618573017 -63.748729226068)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2825 <http://www.w3.org/2000/01/rdf-schema#label> "A. Camerlenghi, E. Domack, M. Rebesco, R. Gilbert, S. Ishman, A. Leventer, S. Brachfeld, A. Drake (2001). Glacial morphology and post-glacial contourites in northern Prince Gustav Channel (NW Weddell Sea, Antarctica). Marine Geophysical Research, 22 (2001), pp. 417–443".
+_:n3-2824 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-2825.
+<http://marineregions.org/mrgid/33714?t=1638600780> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2824.
+<http://marineregions.org/mrgid/2265> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#WaterMass>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Antarctic Bottom Water"@en.
+<http://marineregions.org/mrgid/25668> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Antarctic 200NM zone beyond the coastline part of the Southern Ocean"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/33714?t=1638600780>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/11-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/11-0.ttl>.

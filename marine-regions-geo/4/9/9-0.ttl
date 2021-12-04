@@ -4332,3 +4332,168 @@ _:n3-3036 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/59208?t=1638593487>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/9/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/9/9-0.ttl>.
+<http://marineregions.org/mrgid/7799?t=1638594786> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7799/geometries?source=111&attributeValue=1585>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7799>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T05:13:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-14. Proposer: Christopher J. H. Hartnady, University of Cape Town (UCT), South Africa. Year of proposal: 1984."@en, "GEBCO: discoverer and year of discovery: Discoverer: South African re-supply vessels. History: Named after Lester C. King, University of Natal Geologist, 1920s-1940s, strong proponent of continental drift."@en, "Additional information: This feature is located in the northern part of Agulhas Plateau. It has a nearly oval shape and trends in the N-S direction. The summit is cupola-shaped and sloping. Within the depth contour of 800 m the steepness of the slopes increases to 26°-28°. Minim"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "King Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(26.15 -39.15)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7799?t=1638594786>.
+<http://marineregions.org/mrgid/21760?t=1638595186> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/21805>, <http://marineregions.org/mrgid/21806>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21760/geometries?source=56&attributeValue=21760>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/21716>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21760>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T05:19:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Agulhas"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(26.0998 -33.1248)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-411 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas>.
+<http://marineregions.org/mrgid/21760?t=1638595186> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-411.
+<http://marineregions.org/mrgid/21805> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Natal"@en.
+<http://marineregions.org/mrgid/21806> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Agulhas Bank"@en.
+<http://marineregions.org/mrgid/21716> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Realm>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Temperate Southern Africa"@en.
+<https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas> <http://www.w3.org/2000/01/rdf-schema#label> "Spalding, M. D. Fox, H. E. Allen, G. R. Davidson, N. Ferdana, Z. A. Finlayson, M. Halpern, B. S. Jorge, M. A. Lombana, A. Lourie, S. A., (2007). Marine Ecoregions of the World: A Bioregionalization of Coastal and Shelf Areas. Bioscience 2007, VOL 57; numb 7, pages 573-584. doi: 10.1641/B570707".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21760?t=1638595186>.
+<http://marineregions.org/mrgid/20601?t=1638595562> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Estuary>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/20601/geometries?source=158&attributeValue=20601>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8936>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/20601>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T05:26:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Xora River Mouth"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(28.9975 -32.159)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-580 <http://www.w3.org/2000/01/rdf-schema#label> "Algologie (Ugent)".
+_:n3-579 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-580.
+<http://marineregions.org/mrgid/20601?t=1638595562> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-579.
+<http://marineregions.org/mrgid/8936> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Eastern Cape, Province of the"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/20601?t=1638595562>.
+<http://marineregions.org/mrgid/48171?t=1638595992> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48171/geometries?source=50&attributeValue=TVL-NW>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47855>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48171>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T05:33:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:TVL-NW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North West Province"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(28.293609619141 -24.618892669678,22.624809265137 -24.618892669678,22.624809265137 -28.09979057312,28.293609619141 -28.09979057312,28.293609619141 -24.618892669678)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(25.341976498222 -26.321097506832)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47855> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northern Provinces"@en.
+_:n3-783 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "TVL-NW".
+<urn:tdwg:wgsrpd:TVL-NW> <https://schema.org/identifier> _:n3-783;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48171?t=1638595992>.
+<http://marineregions.org/mrgid/2181?t=1638596782> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/2181/geometries?source=252&attributeValue=Swaziland>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1923>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/47833>, <http://marineregions.org/mrgid/48459>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/2181>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T05:46:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Swaziland"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(32.1334 -25.72834,30.79834 -25.72834,30.79834 -27.31639,32.1334 -27.31639,32.1334 -25.72834)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(31.46587 -26.52236)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1093 <http://www.w3.org/2000/01/rdf-schema#label> "(2001). The Times comprehensive atlas of the world. 10th ed. Times Books: London. ISBN 0-7230-0792-6. 67, 220, 124 plates pp.".
+_:n3-1092 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-1093.
+<http://marineregions.org/mrgid/2181?t=1638596782> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1092.
+<http://marineregions.org/mrgid/1923> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Continent>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Africa"@en.
+<http://marineregions.org/mrgid/47833> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Swaziland"@en.
+<http://marineregions.org/mrgid/48459> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Swaziland"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/2181?t=1638596782>.
+<http://marineregions.org/mrgid/21786?t=1638597755> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProvince>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/21913>, <http://marineregions.org/mrgid/21914>, <http://marineregions.org/mrgid/21915>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21786/geometries?source=56&attributeValue=21786>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/21724>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21786>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T06:02:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northern New Zealand"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(29.1807 -33.0546)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1518 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas>.
+<http://marineregions.org/mrgid/21786?t=1638597755> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1518.
+<http://marineregions.org/mrgid/21913> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Three Kings-North Cape"@en.
+<http://marineregions.org/mrgid/21914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kermadec Island"@en.
+<http://marineregions.org/mrgid/21915> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineEcoregionOfTheWorldMEOW>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northeastern New Zealand"@en.
+<http://marineregions.org/mrgid/21724> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Realm>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Temperate Australasia"@en.
+<https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas> <http://www.w3.org/2000/01/rdf-schema#label> "Spalding, M. D. Fox, H. E. Allen, G. R. Davidson, N. Ferdana, Z. A. Finlayson, M. Halpern, B. S. Jorge, M. A. Lombana, A. Lourie, S. A., (2007). Marine Ecoregions of the World: A Bioregionalization of Coastal and Shelf Areas. Bioscience 2007, VOL 57; numb 7, pages 573-584. doi: 10.1641/B570707".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21786?t=1638597755>.
+<http://marineregions.org/mrgid/21473?t=1638598804> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#LonghurstProvince>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21473/geometries?source=44&attributeValue=EAFR>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/22538>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21473>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T06:20:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "EAFR"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "E. Africa Coastal Province"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(35.709235229 -27.8393132577)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-1959 <http://www.w3.org/2000/01/rdf-schema#label> "Ecological geography of the Sea (Longhurst, 1998)".
+_:n3-1958 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-1959.
+<http://marineregions.org/mrgid/21473?t=1638598804> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-1958.
+<http://marineregions.org/mrgid/22538> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#LonghurstProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Longhurst Provinces"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21473?t=1638598804>.
+<http://marineregions.org/mrgid/48168?t=1638599759> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48168/geometries?source=50&attributeValue=TVL-GA>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47855>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/25921>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48168>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T06:35:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:TVL-GA>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gauteng"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(29.256660461426 -25.099170684814,27.168609619141 -25.099170684814,27.168609619141 -26.913684844971,29.256660461426 -26.913684844971,29.256660461426 -25.099170684814)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(28.211169552654 -26.04402755476)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47855> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northern Provinces"@en.
+<http://marineregions.org/mrgid/25921> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gauteng"@en.
+_:n3-2383 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "TVL-GA".
+<urn:tdwg:wgsrpd:TVL-GA> <https://schema.org/identifier> _:n3-2383;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48168?t=1638599759>.
+<http://marineregions.org/mrgid/47559?t=1638599783> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/47993>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/47559/geometries?source=51&attributeValue=BOT>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47480>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/2164>, <http://marineregions.org/mrgid/47993>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/47559>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T06:36:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:BOT>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Botswana"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(29.373622894081 -17.781391143986,19.996109009124 -17.781391143986,19.996109009124 -26.875556945796,29.373622894081 -26.875556945796,29.373622894081 -17.781391143986)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(23.825222199599 -22.16323544947)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47993> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Botswana"@en.
+<http://marineregions.org/mrgid/47480> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southern Africa"@en.
+<http://marineregions.org/mrgid/2164> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Botswana"@en.
+_:n3-2393 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "BOT".
+<urn:tdwg:wgsrpd:BOT> <https://schema.org/identifier> _:n3-2393;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47559?t=1638599783>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/9/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/9/9-0.ttl>.

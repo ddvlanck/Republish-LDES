@@ -1053,3 +1053,103 @@ _:n3-2831 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7278?t=1638592708>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/9-0.ttl>.
+<http://marineregions.org/mrgid/6468?t=1638596108> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6468/geometries?source=111&attributeValue=6020>, <http://marineregions.org/mrgid/6468/geometries?source=111&attributeValue=866>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://marineregions.org/ns/ontology#replaces> <http://marineregions.org/mrgid/6451>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6468>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T05:35:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-153272>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -28.58333333; Long: 102.75"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Proposer: Robert L. Fisher, Scripps Institution of Oceanography (SIO), USA; and Rudi Markl, Columbia University, USA. Year of proposal: 1981."@en, "GEBCO: discoverer and year of discovery: Discoverer: U.S. research vessel \"Robert D. Conrad\". Year of discovery: 1965. History: Named after the early 17th Century Dutch wooden-hulled sailing ship \"Eendracht\", launched in 1615 in the service of the Dutch East India Company. It was captained by Di"@en, "Additional information: Mapped by research vessels L-DGO's \"Vema\" and SIO's \"Argo\" (1965)."@en, "Coordinates in ACUF: Latitude: -28.5; Longitude: 103"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Eendracht Seamounts"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(102.75 -28.583333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/6451> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Endracht Seamount"@en.
+_:n3-832 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153272".
+<urn:acuf:ufi:-153272> <https://schema.org/identifier> _:n3-832;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153272>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6468?t=1638596108>.
+<http://marineregions.org/mrgid/7322?t=1638596197> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7322/geometries?source=110&attributeValue=1128>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>, <http://marineregions.org/mrgid/8323>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7322>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T05:36:37Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:11218>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-10. Proposer: J. J. Doyle, Australian Hydrographic Service (AHS). Year of proposal: 1992."@en, "GEBCO: discoverer and year of discovery: History: Named from the nearby city of Geraldton, W. Australia."@en, "Additional information: Taken from the AGSO Bathymetric Map \"Perth\"."@en, "Coordinates in ACUF: Latitude: -29.25; Longitude: 112.916667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Geraldton Canyon"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(113.3667 -29.1167,112.6333 -29.1167,112.6333 -29.3667,113.3667 -29.3667,113.3667 -29.1167)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(112.98407325992 -29.205153383967)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/8323> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Australian Exclusive Economic Zone"@en.
+_:n3-869 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "11218".
+<urn:acuf:ufi:11218> <https://schema.org/identifier> _:n3-869;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D11218>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7322?t=1638596197>.
+<http://marineregions.org/mrgid/6532?t=1638596532> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6532/geometries?source=111&attributeValue=2408>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6532>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T05:42:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154949>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-10. Proposer: J. J. Doyle, Australian Hydrographic Service (AHS). Year of proposal: 1991."@en, "GEBCO: discoverer and year of discovery: History: Named from the nearby city of Perth, Australia."@en, "Additional information: Taken from the AGSO Bathymetric Map \"Hartog\"."@en, "Coordinates in ACUF: Latitude: -28.5; Longitude: 110"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Perth Basin"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(102.5 -30)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+_:n3-967 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154949".
+<urn:acuf:ufi:-154949> <https://schema.org/identifier> _:n3-967;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154949>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6532?t=1638596532>.
+<http://marineregions.org/mrgid/7283?t=1638598932> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Escarpment>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7283/geometries?source=110&attributeValue=781>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7283>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T06:22:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> ": Updated coordinates (GEBCO May 2014) - \r\nPrevious values (GEBCO October 2002):\r\n [Min. Lat: 31°]"@en, "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-10. Proposer: J. J. Doyle, Australian Hydrographic Service (AHS). Year of proposal: 1992."@en, "GEBCO: discoverer and year of discovery: History: Named from the Australian H.M.A.S \"Diamantina\"."@en, "Additional information: This Escarpment runs along the whole of the south side of \"Broken Ridge\". Taken from the AGSO bathymetric map \"Eyre\"."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Diamantina Escarpment"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(102.5 -30.7977,90 -30.7977,90 -32.6667,102.5 -32.6667,102.5 -30.7977)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(96.218201 -31.781053)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7283?t=1638598932>.
+<http://marineregions.org/mrgid/6519?t=1638599857> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Plateau>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6519/geometries?source=111&attributeValue=2142>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6519>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T06:37:37Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Naturaliste Ridge"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154611>;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: -34; Longitude: 111.25"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Naturaliste Plateau"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(111.5 -34)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+_:n3-2429 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154611".
+<urn:acuf:ufi:-154611> <https://schema.org/identifier> _:n3-2429;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154611>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6519?t=1638599857>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/9-0.ttl>.

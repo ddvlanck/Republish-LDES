@@ -320,3 +320,36 @@ _:n3-2615 <http://www.w3.org/ns/prov#wasAttributedTo> <http://gis.ices.dk/>.
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47456?t=1638592229>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/2-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/2-0.ttl>.
+<http://marineregions.org/mrgid/8763?t=1638595886> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/17723>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8763/geometries?source=80&attributeValue=25245>, <http://marineregions.org/mrgid/8763/geometries?source=80&attributeValue=25247>, <http://marineregions.org/mrgid/8763/geometries?source=80&attributeValue=25248>, <http://marineregions.org/mrgid/8763/geometries?source=80&attributeValue=25249>, <http://marineregions.org/mrgid/8763/geometries?source=80&attributeValue=25250>, <http://marineregions.org/mrgid/8763/geometries?source=80&attributeValue=25252>, <http://marineregions.org/mrgid/8763/geometries?source=80&attributeValue=25262>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/25262>, <http://marineregions.org/mrgid/1906>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8763>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T05:31:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Russian Exclusive economic Zone [Arctic part]"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(77.92668 76.45728)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org/eez.php>.
+<http://marineregions.org/mrgid/17723> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Strait>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Matochkin Strait"@en.
+<http://marineregions.org/mrgid/25262> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Russian part of the Arctic Ocean"@en.
+<http://marineregions.org/mrgid/1906> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arctic Ocean"@en.
+<http://www.marineregions.org/eez.php> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute. Maritime Boundaries Geodatabase. Available online at http://www.marineregions.org/. Consulted on YYYY-MM-DD".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8763?t=1638595886>.
+<http://marineregions.org/mrgid/47455?t=1638596528> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/47455/geometries?source=213&attributeValue=85M8>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/36329>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/47455>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T05:42:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "85M8"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(69 78.5,68 78.5,68 78,69 78,69 78.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(68.5 78.248686884886)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-965 <http://www.w3.org/ns/prov#wasAttributedTo> <http://gis.ices.dk/>.
+<http://marineregions.org/mrgid/47455?t=1638596528> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-965.
+<http://marineregions.org/mrgid/36329> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "ICES Statistical Rectangles"@en.
+<http://gis.ices.dk/> <http://www.w3.org/2000/01/rdf-schema#label> "International Council for the Exploration of the Sea (ICES)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47455?t=1638596528>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/2-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/2-0.ttl>.
