@@ -758,3 +758,63 @@ _:n3-2227 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6767?t=1638599428>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/9/10-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/9/10-0.ttl>.
+<http://marineregions.org/mrgid/8384?t=1638604366> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/7254>, <http://marineregions.org/mrgid/7256>, <http://marineregions.org/mrgid/7257>, <http://marineregions.org/mrgid/25546>, <http://marineregions.org/mrgid/49105>, <http://marineregions.org/mrgid/49338>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8384/geometries?source=79&attributeValue=8384>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>, <http://marineregions.org/mrgid/22598>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/25546>;
+    <http://marineregions.org/ns/ontology#partlyContains> <http://marineregions.org/mrgid/7255>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8384>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T07:52:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=8384>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Prince Edward Islands Exclusive Economic Zone"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "Centroid calculation method: Centroid"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South African Exclusive Economic Zone (Prince Edward Islands)"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(42.8475 -43.26482,32.71194 -43.26482,32.71194 -50.31506,42.8475 -50.31506,42.8475 -43.26482)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(37.80854 -46.83292)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/7254> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#FractureZone>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Prince Edward Fracture Zone"@en.
+<http://marineregions.org/mrgid/7256> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#FractureZone>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Discovery II Fracture Zone"@en.
+<http://marineregions.org/mrgid/7257> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#FractureZone>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Eric Simpson Fracture Zone"@en.
+<http://marineregions.org/mrgid/25546> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South African (Prince Edward Islands) part of the Indian Ocean"@en.
+<http://marineregions.org/mrgid/49105> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TerritorialSea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South African 12 NM (Prince Edward Islands)"@en.
+<http://marineregions.org/mrgid/49338> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContiguousZone>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South African 24 NM (Prince Edward Islands)"@en.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/22598> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Archipelago>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Prince Edward Islands"@en.
+<http://marineregions.org/mrgid/7255> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Rise>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Del Cano Rise"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Maritime Boundaries and Exclusive Economic Zones (200NM), version 11. Available online at http://www.marineregions.org/. https://doi.org/10.14284/386".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8384?t=1638604366>.
+<http://marineregions.org/mrgid/47718?t=1638606321> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/48293>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/47718/geometries?source=51&attributeValue=MPE>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47518>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/48293>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/47718>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T08:25:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:MPE>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Marion-Prince Edward Is."@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(37.98166656526 -46.596389770871,37.575553893897 -46.596389770871,37.575553893897 -46.969726562131,37.98166656526 -46.969726562131,37.98166656526 -46.596389770871)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(37.760397981686 -46.859411345887)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/48293> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Marion-Prince Edward Is."@en.
+<http://marineregions.org/mrgid/47518> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Subantarctic Islands"@en.
+_:n3-2099 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "MPE".
+<urn:tdwg:wgsrpd:MPE> <https://schema.org/identifier> _:n3-2099;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47718?t=1638606321>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/9/10-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/9/10-0.ttl>.

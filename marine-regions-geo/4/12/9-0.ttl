@@ -1153,3 +1153,84 @@ _:n3-2429 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6519?t=1638599857>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/9-0.ttl>.
+<http://marineregions.org/mrgid/7344?t=1638602353> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Plateau>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7344/geometries?source=110&attributeValue=697>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7344>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T07:19:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Cuvier Plateaus"@en, "Cuvier Rise"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-153081>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-10. Proposer: J. J. Doyle, Australian Hydrographic Service (AHS). Year of proposal: 1991."@en, "GEBCO: discoverer and year of discovery: History: Cuvier is a historical name for features in this area. Presumably named from the nearby coastal feature, Cape Cuvier, NW Australia. The name \"Cuvier\" originates from the French expedition led by Baudin in 1800-1803. Reportedly after Georges Cuvie"@en, "Additional information: Incorrectly named Wallaby Plateau by Symonds and Cameron, 1977. The incorrect name appears on the AGSO bathymetric map \"Hartog\" which this feature was taken from."@en, "Coordinates in ACUF: Latitude: -24; Longitude: 108"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cuvier Plateau"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(108.65 -23.1,108.5 -23.1,108.5 -25.25,108.65 -25.25,108.65 -23.1)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(108.57562822275 -24.175094185642)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+_:n3-533 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153081".
+<urn:acuf:ufi:-153081> <https://schema.org/identifier> _:n3-533;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153081>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7344?t=1638602353>.
+<http://marineregions.org/mrgid/7348?t=1638604482> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7348/geometries?source=110&attributeValue=626>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>, <http://marineregions.org/mrgid/8323>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7348>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T07:54:42Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:11211>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-10. Proposer: J. J. Doyle, Australian Hydrographic Service (AHS). Year of proposal: 1992."@en, "GEBCO: discoverer and year of discovery: History: Named from the adjacent coastal feature \"Point Cloates\", NW Australia."@en, "Additional information: Taken from the AGSO bathymetric map \"Cuvier\"."@en, "Coordinates in ACUF: Latitude: -22.166667; Longitude: 112.833333"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cloates Canyon"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(113.55 -22.066667,112.1 -22.066667,112.1 -22.266667,113.55 -22.266667,113.55 -22.066667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(112.82448740782 -22.16827971616)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/8323> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Australian Exclusive Economic Zone"@en.
+_:n3-1467 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "11211".
+<urn:acuf:ufi:11211> <https://schema.org/identifier> _:n3-1467;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D11211>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7348?t=1638604482>.
+<http://marineregions.org/mrgid/8185?t=1638606853> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Hole>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8185/geometries?source=111&attributeValue=814>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8185>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T08:34:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Dordrecht Basin"@en, "Dordrecht Deep"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-153209>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -33.5; Long: 101.3333333"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Proposer: Robert L. Fisher, Scripps Institution of Oceanography (SIO), USA. Year of proposal: 1981."@en, "GEBCO: discoverer and year of discovery: Discoverer: U.S. research vessel \"Vema\". Year of discovery: 1960. History: Named from the Dutch East India Company (V.O.C.)'s vessel \"Dordrecht\", under Captain Frederick Houtman. She explored the Australian west coast in 1619 and discovered the Abrolhos g"@en, "Additional information: Formerly, Dordrecht Deep. Shown as Dordrecht Basin in the ACUF Gazetteer."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dordrecht Hole"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(101.333333 -33.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+_:n3-2305 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153209".
+<urn:acuf:ufi:-153209> <https://schema.org/identifier> _:n3-2305;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153209>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8185?t=1638606853>.
+<http://marineregions.org/mrgid/8581?t=1638608120> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#LargeMarineEcosystem>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8581/geometries?source=24&attributeValue=44>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/22539>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8581>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T08:55:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://lme.edc.uri.edu/index.php/lme-briefs/28-west-central-australian-shelf-lme-44>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "West Central Australian Shelf"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(115.7689 -20.27822,109.23419 -20.27822,109.23419 -34.3625,115.7689 -34.3625,115.7689 -20.27822)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(112.28011 -27.70194)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-2850 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.lmehub.net/>.
+<http://marineregions.org/mrgid/8581?t=1638608120> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-2850.
+<http://marineregions.org/mrgid/22539> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#GeneralRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Large Marine Ecosystems"@en.
+<https://www.lmehub.net/> <http://www.w3.org/2000/01/rdf-schema#label> "Large Marine Ecosystems of the World".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8581?t=1638608120>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/12/9-0.ttl>.

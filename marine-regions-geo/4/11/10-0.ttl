@@ -960,3 +960,101 @@ _:n3-2464 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.worldwildlife
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21956?t=1638599943>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/10-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/10-0.ttl>.
+<http://marineregions.org/mrgid/7270?t=1638601635> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Spur>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7270/geometries?source=110&attributeValue=1086>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>, <http://marineregions.org/mrgid/8387>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7270>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T07:07:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-11. Proposer: Roland Schlich, Ecole et Observatoire de Physique du Globe (EOPG), France. Year of proposal: 1993."@en, "GEBCO: discoverer and year of discovery: History: Named from French supply vessel \"Gallieni\", workhorse TAAF re-supply oceanographic research vessel that made several cruises to island bases, Indian Ocean, 1956-1972. It made extensive collections of bathymetric and magnetic data."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gallieni Spur"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(77 -46.75,72.5 -46.75,72.5 -48,77 -48,77 -46.75)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(74.825043551522 -47.479521242446)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/8387> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kerguelen Exclusive Economic Zone"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7270?t=1638601635>.
+<http://marineregions.org/mrgid/8387?t=1638607118> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/7270>, <http://marineregions.org/mrgid/25549>, <http://marineregions.org/mrgid/49108>, <http://marineregions.org/mrgid/49341>, <http://marineregions.org/mrgid/49511>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8387/geometries?source=79&attributeValue=8387>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>, <http://marineregions.org/mrgid/8630>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/25549>;
+    <http://marineregions.org/ns/ontology#partlyContains> <http://marineregions.org/mrgid/7269>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8387>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T08:38:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=8387>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Kerguelen Islands Exclusive Economic Zone"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "Centroid calculation method: Centroid"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kerguelen Exclusive Economic Zone"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(75.65146 -45.11798,63.29775 -45.11798,63.29775 -53.17863,75.65146 -53.17863,75.65146 -45.11798)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(68.9746 -48.87795)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/7270> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Spur>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gallieni Spur"@en.
+<http://marineregions.org/mrgid/25549> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kerguelen part of the Indian Ocean"@en.
+<http://marineregions.org/mrgid/49108> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TerritorialSea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kerguelen 12 NM"@en.
+<http://marineregions.org/mrgid/49341> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContiguousZone>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kerguelen 24 NM"@en.
+<http://marineregions.org/mrgid/49511> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#InternalWaters>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kerguelen Internal Waters"@en.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/8630> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Archipelago>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kerguélen"@en.
+<http://marineregions.org/mrgid/7269> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Plateau>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kerguelen Plateau"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Maritime Boundaries and Exclusive Economic Zones (200NM), version 11. Available online at http://www.marineregions.org/. https://doi.org/10.14284/386".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8387?t=1638607118>.
+<http://marineregions.org/mrgid/6560?t=1638607128> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Bank>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6560/geometries?source=111&attributeValue=2827>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6560>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T08:38:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:9009015>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -51.66666667; Long: 76.25"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-13. Proposer: J. J. Doyle, Australian Hydrographic Service (AHS). Year of proposal: 1998."@en, "GEBCO: discoverer and year of discovery: History: Of all the five outlying submarine banks in the Heard Island region, this is the only one which has sediment made of fine white shell grit. The others have sediment of fine black volcanic sand."@en, "Additional information: A submarine bank on the Kerguelen Plateau 126 M north-east from Heard Island. Minimum depth (m): 200."@en, "Coordinates in ACUF: Latitude: -51.583333; Longitude: 76.083333"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Shell Bank"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(76.25 -51.666667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+_:n3-2417 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "9009015".
+<urn:acuf:ufi:9009015> <https://schema.org/identifier> _:n3-2417;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D9009015>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6560?t=1638607128>.
+<http://marineregions.org/mrgid/7269?t=1638607441> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Plateau>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7269/geometries?source=105&attributeValue=1565>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://marineregions.org/ns/ontology#isPartlyPartOf> <http://marineregions.org/mrgid/8388>, <http://marineregions.org/mrgid/8387>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7269>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T08:44:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Dorsale des Kerguelen"@fr, "Gaussberg-Kerguelen Ridge"@en, "Kerguelen Ridge"@en, "Kerguelen-Gaussberg Ridge"@en, "Khrebet Kergelen"@ru, "Хребет Кергелен"@ru;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154012>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -54.74973833; Long: 74.40059403; minLat: -63; minLong: 63.75; maxLat: -46; maxLong: 85"@en;
+    <http://www.w3.org/2004/02/skos/core#note> ": Updated coordinates (GEBCO May 2014) - \r\nPrevious values (GEBCO October 2002):\r\n [Min. Lat: 51°0'0\"S] ; \r\n[Min. Long: 72°0'0\"E] ;\r\n [Max. Lat: 60°0'0\"S] ; \r\n[Max. Long: 83°0'0\"E]"@en, "Coordinates in ACUF: Latitude: -55; Longitude: 75"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kerguelen Plateau"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(85.00000002 -46.00000003,63.75000004 -46.00000003,63.75000004 -63.00000001,85.00000002 -63.00000001,85.00000002 -46.00000003)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(74.40059403 -54.74973833)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/8388> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Heard and McDonald Islands Exclusive Economic Zone"@en.
+<http://marineregions.org/mrgid/8387> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kerguelen Exclusive Economic Zone"@en.
+_:n3-2546 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154012".
+<urn:acuf:ufi:-154012> <https://schema.org/identifier> _:n3-2546;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154012>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7269?t=1638607441>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/10-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/10-0.ttl>.

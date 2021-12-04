@@ -139,3 +139,39 @@ _:n3-128 <http://www.w3.org/2000/01/rdf-schema#label> "Aphia".
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/26660?t=1638600093>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/11-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/11-0.ttl>.
+<http://marineregions.org/mrgid/7573?t=1638601886> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#FractureZone>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7573/geometries?source=110&attributeValue=2451>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1907>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7573>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T07:11:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:11257>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -64.99546 ; Long: -169.87971 ; minLat: -69.6432 ; minLong: -180 ; maxLat: -60.6245 ; maxLong: 179.9999  (update 2020-04-22)"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-10. Proposer: Steven C. Cande, Scripps Institution of Oceanography (SIO), USA; William F. Haxby, Lamont-Doherty Geological Observatory (L-DGO), USA; and C. Raymond, USA. Year of proposal: 1992."@en, "GEBCO: discoverer and year of discovery: History: Named after the American geophysicist Walter C. Pitman III (1931-), a pioneer in the theory of seafloor spreading."@en, "Coordinates in ACUF: Latitude: -64.5; Longitude: -170"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pitman Fracture Zone"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-156.0817 -61.43416,-179.999 -61.43416,-179.999 -69.6432,-156.0817 -69.6432,-156.0817 -61.43416)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-167.92843 -65.35619)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1907> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southern Ocean"@en.
+_:n3-329 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "11257".
+<urn:acuf:ufi:11257> <https://schema.org/identifier> _:n3-329;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D11257>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7573?t=1638601886>.
+<http://marineregions.org/mrgid/33558?t=1638606454> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Knolls>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/33558/geometries?source=111&attributeValue=6266>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1907>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/33558>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T08:27:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-26. Proposer: Korea Committee on Geographical Names (KCGN). Year of proposal: 2013."@en, "GEBCO: discoverer and year of discovery: Discoverer: Korean research vessel \"Araon\". Year of discovery: 2011. History: Kkotsin is the Korean word for \"flower shoes\" which are traditional Korean woman's shoes, worn in historical times. The shape of the feature is similar to that of flower shoes a"@en, "Additional information: This feature has an elliptical shape. It is located near Heirtzler Fracture Zone. Minimum depth (m): 2750. Maximum depth (m): 3600. Total relief (m): 950. Dimension: 8.0 km x 6.0 km."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kkotsin Knoll"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-172.4833 -61.6033)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1907> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southern Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/33558?t=1638606454>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/11-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/11-0.ttl>.

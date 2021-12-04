@@ -2195,3 +2195,109 @@ _:n3-2180 <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2015). National co
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/50211?t=1638599311>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/4-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/4-0.ttl>.
+<http://marineregions.org/mrgid/25273?t=1638601861> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/25273/geometries?source=80&attributeValue=25273>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4291>, <http://marineregions.org/mrgid/8438>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/25273>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T07:11:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Greenlandic part of the Labrador Sea"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-43.902218 59.884495,-55.306078 59.884495,-55.306078 56.576519,-43.902218 56.576519,-43.902218 59.884495)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-48.982592 58.62706)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://doi.org/10.14284/402>.
+<http://marineregions.org/mrgid/4291> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Labrador Sea"@en.
+<http://marineregions.org/mrgid/8438> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Greenlandic Exclusive Economic Zone"@en.
+<https://doi.org/10.14284/402> <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2020). Intersect of IHO Sea Areas and Exclusive Economic Zones (version 4)   ".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25273?t=1638601861>.
+<http://marineregions.org/mrgid/33168?t=1638602255> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/23380>, <http://marineregions.org/mrgid/23381>, <http://marineregions.org/mrgid/23382>, <http://marineregions.org/mrgid/33190>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/33168/geometries?source=98&attributeValue=2>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23536>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/33168>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T07:17:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO 2"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-54.225179 56.110458)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nafo.int/Data/GIS>.
+<http://marineregions.org/mrgid/23380> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO 2G"@en.
+<http://marineregions.org/mrgid/23381> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO 2H"@en.
+<http://marineregions.org/mrgid/23382> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO 2J"@en.
+<http://marineregions.org/mrgid/33190> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO 2GE"@en.
+<http://marineregions.org/mrgid/23536> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO Areas"@en.
+<https://www.nafo.int/Data/GIS> <http://www.w3.org/2000/01/rdf-schema#label> "NAFO Divisions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/33168?t=1638602255>.
+<http://marineregions.org/mrgid/5123?t=1638603403> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Sill>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/5123/geometries?source=111&attributeValue=741>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4250>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/5123>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T07:36:43Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geogratis.gc.ca/services/geoname/en/features/0cc6cd1b849c20c341b624659cf89d75>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Baffin-Greenland Rise"@en, "Davis Strait Ridge"@en, "Davis Strait Rise"@en, "Davis Strait Sill"@en, "Grenlandsko-Kanadskiy Porog"@ru, "Гренландско-Канадский Порог"@ru;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-153129>, <urn:cgnd:uid:0cc6cd1b849c20c341b624659cf89d75>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Davis Sill"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-57 65.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4250> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Davis Strait"@en.
+_:n3-1004 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-153129".
+<urn:acuf:ufi:-153129> <https://schema.org/identifier> _:n3-1004;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-153129>.
+_:n3-1005 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P821>;
+    <https://schema.org/value> "0cc6cd1b849c20c341b624659cf89d75".
+<urn:cgnd:uid:0cc6cd1b849c20c341b624659cf89d75> <https://schema.org/identifier> _:n3-1005;
+    <https://schema.org/url> <http://geogratis.gc.ca/services/geoname/en/features/0cc6cd1b849c20c341b624659cf89d75>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/5123?t=1638603403>.
+<http://marineregions.org/mrgid/23376?t=1638603545> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/23376/geometries?source=99&attributeValue=1C>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4250>, <http://marineregions.org/mrgid/33167>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/23376>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T07:39:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO 1C"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-54.933622 65.170869)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.nafo.int/Data/GIS>.
+<http://marineregions.org/mrgid/4250> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Davis Strait"@en.
+<http://marineregions.org/mrgid/33167> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#NAFOArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "NAFO 1"@en.
+<https://www.nafo.int/Data/GIS> <http://www.w3.org/2000/01/rdf-schema#label> "NAFO Divisions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/23376?t=1638603545>.
+<http://marineregions.org/mrgid/24050?t=1638604748> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Sub-region>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/24050/geometries?source=128&attributeValue=24050>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/23639>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/4291>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/24050>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T07:59:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Labrador Sea"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-43.783073425 60.000068665,-64.302696228 60.000068665,-64.302696228 47.386413574,-43.783073425 47.386413574,-43.783073425 60.000068665)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-53.758832763091 56.024767352973)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.bodc.ac.uk/resources/vocabularies/seavox/>.
+<http://marineregions.org/mrgid/23639> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#SeaVoXSeaArea-Level2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Northwest Atlantic Ocean (40W)"@en.
+<http://marineregions.org/mrgid/4291> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Labrador Sea"@en.
+<https://www.bodc.ac.uk/resources/vocabularies/seavox/> <http://www.w3.org/2000/01/rdf-schema#label> "The SeaVoX Salt and Fresh Water Body Gazetteer".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24050?t=1638604748>.
+<http://marineregions.org/mrgid/25715?t=1638606409> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/25715/geometries?source=80&attributeValue=25715>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4250>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/25715>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T08:26:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "High Seas of the Davis Strait"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-55.306078 60.999932,-57.21557 60.999932,-57.21557 59.884495,-55.306078 59.884495,-55.306078 60.999932)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-56.428952 60.366112)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://doi.org/10.14284/402>.
+<http://marineregions.org/mrgid/4250> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Davis Strait"@en.
+<https://doi.org/10.14284/402> <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2020). Intersect of IHO Sea Areas and Exclusive Economic Zones (version 4)   ".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25715?t=1638606409>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/4-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/5/4-0.ttl>.

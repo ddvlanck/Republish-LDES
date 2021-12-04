@@ -3142,3 +3142,84 @@ _:n3-2206 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/32380?t=1638600319>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/13/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/13/9-0.ttl>.
+<http://marineregions.org/mrgid/14797?t=1638602431> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#GeneralRegion>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/14797/geometries?source=144&attributeValue=14797>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2147>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/14797>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T07:20:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Northwest Australia"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North West Australia"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(125.7641 -22.0375)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-565 <http://www.w3.org/2000/01/rdf-schema#label> "Masdea".
+<http://marineregions.org/mrgid/14797?t=1638602431> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-565.
+<http://marineregions.org/mrgid/2147> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Australia"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/14797?t=1638602431>.
+<http://marineregions.org/mrgid/7239?t=1638604991> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7239/geometries?source=110&attributeValue=2384>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4276>, <http://marineregions.org/mrgid/8323>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7239>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T08:03:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:11253>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-10. Proposer: J. J. Doyle, Australian Hydrographic Service (AHS). Year of proposal: 1991."@en, "GEBCO: discoverer and year of discovery: History: Named from the adjacent Pearson Isles, South Australia."@en, "Additional information: Taken from the AGSO Bathymetric Map \"Ceduna\"."@en, "Coordinates in ACUF: Latitude: -36.2; Longitude: 134.2"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pearson Canyon"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(134.333333 -35.916667,134.083333 -35.916667,134.083333 -36.5,134.333333 -36.5,134.333333 -35.916667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(134.20786917406 -36.208405898798)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4276> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Great Australian Bight"@en.
+<http://marineregions.org/mrgid/8323> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Australian Exclusive Economic Zone"@en.
+_:n3-1688 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "11253".
+<urn:acuf:ufi:11253> <https://schema.org/identifier> _:n3-1688;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D11253>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7239?t=1638604991>.
+<http://marineregions.org/mrgid/48497?t=1638605982> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48497/geometries?source=50&attributeValue=WAU-WA>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47872>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/8914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48497>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T08:19:42Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:WAU-WA>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Western Australia"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(129.00588989258 -13.726692199707,112.90721130371 -13.726692199707,112.90721130371 -35.138336181641,129.00588989258 -35.138336181641,129.00588989258 -13.726692199707)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(122.28139827699 -25.328063795678)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47872> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Western Australia"@en.
+<http://marineregions.org/mrgid/8914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#State>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Western Australia"@en.
+_:n3-1973 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "WAU-WA".
+<urn:tdwg:wgsrpd:WAU-WA> <https://schema.org/identifier> _:n3-1973;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48497?t=1638605982>.
+<http://marineregions.org/mrgid/7229?t=1638607858> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Canyons>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7229/geometries?source=110&attributeValue=954>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4276>, <http://marineregions.org/mrgid/8323>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7229>;
+    <http://purl.org/dc/terms/modified> "2021-12-04T08:50:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:11215>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-10. Proposer: J. J. Doyle, Australian Hydrographic Service (AHS). Year of proposal: 1992."@en, "GEBCO: discoverer and year of discovery: Discoverer: U.S. oceanographic research vessel \"Oceanographer\". Year of discovery: 1967. History: Named in association with the nearby Eyre Plateau/Terrace, so named after the British explorer Edward John Eyre (1815-1901), who crossed the Nullabor Plain o"@en, "Additional information: Taken from the AGSO Bathymetric Map \"Eyre\"."@en, "Coordinates in ACUF: Latitude: -33.833333; Longitude: 126.316667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Eyre Canyon"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(126.466667 -33.383333,126.15 -33.383333,126.15 -34.3,126.466667 -34.3,126.466667 -33.383333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(126.30748817519 -33.841785225522)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4276> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Great Australian Bight"@en.
+<http://marineregions.org/mrgid/8323> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Australian Exclusive Economic Zone"@en.
+_:n3-2746 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "11215".
+<urn:acuf:ufi:11215> <https://schema.org/identifier> _:n3-2746;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D11215>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7229?t=1638607858>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/13/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/13/9-0.ttl>.
