@@ -1,76 +1,42 @@
-<https://data.vlaanderen.be/ns/toestemming> {
-<https://data.vlaanderen.be/ns/toestemming#AlgemeneVoorwaarden#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#AlgemeneVoorwaarden>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Standaardbedingen waarnaar verwezen kan worden bij het opstellen van een schriftelijke overeenkomst. Algemene voorwaarden mogen niet 'onredelijk bezwarend' zijn; dan kunnen ze door de rechter nietig worden verklaard."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Algemene Voorwaarden"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://xmlns.com/foaf/0.1/Document>.
-<https://data.vlaanderen.be/ns/toestemming#Cookieverklaring#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#Cookieverklaring>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een document met informatie om personen duidelijk te informeren over welke cookies gebruikt worden in een toepassing en voor welke doeleinden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Cookieverklaring"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://xmlns.com/foaf/0.1/Document>.
-<https://data.vlaanderen.be/ns/toestemming#Privacyverklaring#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#Privacyverklaring>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een document met informatie om personen duidelijk te informeren over welke privacygevoelige gegevens u verzamelt en met welk doel."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Privacyverklaring"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://xmlns.com/foaf/0.1/Document>.
-<https://data.vlaanderen.be/ns/toestemming#Toestemming#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#Toestemming>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een expliciete toestemming,gegeven door een bepaalde Agent die het onderwerp vormt van de persoonlijke informatie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Toestemming"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/2000/01/rdf-schema#Resource>.
-<https://data.vlaanderen.be/ns/toestemming#Verwerkersovereenkomst#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#Verwerkersovereenkomst>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De overeenkomst die de verhouding tussen de verwerkersverantwoordelijke en de verwerker regelt. In deze overeenkomst wordt onder andere het doel van de verwerking, de beveiliging, geheimhouding, bewaartermijnen, procedures met betrekking tot vergeet-, wijzigings- en portatieverzoeken en de aansprakelijkheidsverdeling geregeld."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Verwerkersovereenkomst"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://xmlns.com/foaf/0.1/Document>.
-<https://data.vlaanderen.be/ns/toestemming#Verwerkingsactiviteit#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#Verwerkingsactiviteit>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Specificatie van de verwerkingsactiviteit waarvoor een data subject toestemming kan verlenen. Deze verwerkingsactiviteit wordt geconfigureerd door de verwerkingsverantwoordelijke en omvat onder meer informatie over het type verwerking, de verwerkingsgrond en de verwerkers."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Toestemming Descriptor"@nl.
-<https://data.vlaanderen.be/ns/toestemming#contactkanaal#2019-02-07> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#contactkanaal>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het kanaal of medium langs waar een gebruiker gecontacteerd kan worden. Bijvoorbeeld sms of e-mail."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "contactkanaal"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/toestemming#Verwerkingsactiviteit>;
-    a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#contactkanaal>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het kanaal of medium langs waar een gebruiker gecontacteerd kan worden. Bijvoorbeeld sms of e-mail."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "contactkanaal"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>.
-<https://data.vlaanderen.be/ns/toestemming#gegevenOp#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#gegevenOp>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De datum waarop de toestemming werd verleend."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gegeven op"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/toestemming#Toestemming>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>.
-<https://data.vlaanderen.be/ns/toestemming#gegevenVoor#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#gegevenVoor>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Relatie met de verwerkingsactiviteit waarvoor expliciet toestemming werd gegeven."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gegeven voor"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/toestemming#Toestemming>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/toestemming#Verwerkingsactiviteit>.
-<https://data.vlaanderen.be/ns/toestemming#notificatiecategorie#2019-02-07> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#notificatiecategorie>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De notificatie categorie waarvoor de Agent toestemming verleende om gecontacteerd te worden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "notificatiecategorie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/toestemming#Toestemming>.
-<https://data.vlaanderen.be/ns/toestemming#status#2019-02-07> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#status>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De status geeft aan of de toestemming al dan niet actief is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "status"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/toestemming#Toestemming>.
-<https://data.vlaanderen.be/ns/toestemming#toestemmingsvraag#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#toestemmingsvraag>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De vraag die gesteld wordt aan gebruikers om hun toestemming te verlenen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "toestemmingsvraag"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/toestemming#Verwerkingsactiviteit>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<https://data.vlaanderen.be/ns/toestemming#verwerkingsgrond#2019-02-07> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#verwerkingsgrond>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De rechtsgrond voor de verwerkingsactiviteit."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "rechtsgrond"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/toestemming#Verwerkingsactiviteit>.
+<https://data.vlaanderen.be/ns/notificatie> {
+<https://data.vlaanderen.be/ns/notificatie#Notificatiebericht#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/notificatie#Notificatiebericht>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een bericht van een afzender naar een bestemmeling met als doel het informeren van de bestemmeling."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Notificatiebericht"@nl.
+<https://data.vlaanderen.be/ns/notificatie#inhoud#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/notificatie#inhoud>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De inhoud van een Notificatiebericht."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "inhoud"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/InformAction>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/PropertyValue>.
+<https://data.vlaanderen.be/ns/notificatie#notificatiekanaal#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/notificatie#notificatiekanaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het notificatiekanaal duidt het technisch medium aan waarlangs het Notificatiebericht wordt verzonden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "notificatiekanaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/notificatie#notificatiekanaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het notificatiekanaal duidt het technisch medium aan waarlangs het Notificatiebericht wordt verzonden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "notificatiekanaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://data.vlaanderen.be/ns/notificatie#periodeVerzending#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/notificatie#periodeVerzending>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het tijdsinterval waarbinnen de Informeer Actie relevant is en bijgevolg kan resulteren in de verzending van notificatieberichten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "periode verzending"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/InformAction>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/PeriodOfTime>.
+<https://data.vlaanderen.be/ns/notificatie#resulteertIn#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/notificatie#resulteertIn>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De relatie tussen een Informeer Actie en het (de) Notificatiebericht(en) die hier uit voortkomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "resulteert in"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/InformAction>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/notificatie#Notificatiebericht>.
+<http://data.europa.eu/m8g/PeriodOfTime#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/PeriodOfTime>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De tijdsperiode tussen twee momenten in de tijd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "TijdsInterval"@nl.
 <http://data.europa.eu/m8g/PublicOrganisation#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/PublicOrganisation>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "Een Organisatie die volgens een wettelijk kader behoort tot de publieke sector,ongeacht het bestuursniveau waarop dat kader van kracht is."@nl;
@@ -83,82 +49,103 @@
 <http://purl.org/vocab/cpsv#PublicService#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <http://purl.org/vocab/cpsv#PublicService>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "Een Publieke Dienstverlening is een geheel van verplichte of optioneel uitgevoerde of uitvoerbare acties door of in naam van een publieke organisatie. De dienstverlening is ten bate van een individu, een bedrijf, een andere publieke organisatie of groepen hiervan."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Publieke Dienstverlening"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/prov#Entity>.
+    <http://www.w3.org/2000/01/rdf-schema#label> "Publieke Dienstverlening"@nl.
 <http://schema.org/ContactPoint#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <http://schema.org/ContactPoint>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email,telefoon,adres die toelaat om iemand te contacteren."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "ContactInfo"@nl.
-<http://www.w3.org/ns/locn#Address#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#Address>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Gestructureerde voorstelling van een adres."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Adresvoorstelling"@nl.
-<http://www.w3.org/ns/org#Organization#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/org#Organization>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een aantal mensen georganiseerd in een gemeenschap of andere sociale, commerciële of politieke structuur. De groep heeft een gemeenschappelijk doel of bestaansreden die de individuele leden ervan overstijgt en kan handelen als Agent. Een organisatie heeft dikwijls een hiërarchische structuur."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Organisatie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://purl.org/dc/terms/Agent>, <http://www.w3.org/ns/prov#Entity>.
-<http://www.w3.org/ns/person#Person#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/person#Person>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een natuurlijk persoon."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Persoon"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://purl.org/dc/terms/Agent>, <http://www.w3.org/ns/prov#Entity>.
-<http://xmlns.com/foaf/0.1/Document#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/Document>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Document met omstandige informatie over de identiteit van de verantwoordelijke, de geplande verwerkingen, de doelstelling en de wettelijke grond en over de genomen maatregelen om zijn data te beschermen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Document"@nl.
-<https://data.vlaanderen.be/ns/organisatie#Hoedanigheid#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Agent in een bepaalde functie bij een organisatie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Hoedanigheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/org#Post>, <http://purl.org/dc/terms/Agent>.
-<http://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "busnummer"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "huisnummer"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://data.vlaanderen.be/ns/adres#gemeentenaam#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/adres#gemeentenaam>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Gemeentenaam van het adres."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gemeentenaam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
-<http://data.vlaanderen.be/ns/adres#land#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/adres#land>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Land waarin het adres gelegen is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "land"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
-<http://data.vlaanderen.be/ns/adres#verwijstNaar#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/adres#verwijstNaar>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijst naar de identificator (URI) van een adres in het adresregister."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "verwijst naar"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/adres#Adres>.
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email, telefoon, adres die toelaat om iemand of iets te contacteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Contactinfo"@nl.
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#langString#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Benaming toegekend aan of gebruikt voor een geografisch object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Geografische Naam"@nl.
+<http://www.w3.org/2000/01/rdf-schema#Literal#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2000/01/rdf-schema#Literal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Combinatie van een string en het type van wat de string voorstelt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Getypeerde String"@nl.
+<http://www.w3.org/ns/locn#Geometry#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#Geometry>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Vorm- en positiekenmerken van een object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Geometrie"@nl.
+<https://schema.org/AdministrativeArea#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/AdministrativeArea>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een geografisch gebied,dat typisch onder de jurisdictie van een bepaalde publieke administratie valt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Administratieve Eenheid"@nl.
+<https://schema.org/Audience#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/Audience>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De beoogde doelgroep van een informeer actie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Doelgroep"@nl.
+<https://schema.org/Brand#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/Brand>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam gebruikt door een Publieke Organisatie om te communiceren over een bepaalde Publieke Dienstverlening."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Merk"@nl.
+<https://schema.org/InformAction#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/InformAction>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Kennisgeving van informatie aan zij die het aanbelangt. Deze informatie kan via meerdere kanalen naar een individu of naar een doelgroep genotificeerd worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Informeer Actie"@nl.
+<https://schema.org/PropertyValue#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/PropertyValue>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een open data structuur dat uitbreiding toelaat aan de hand van een sleutel en een waarde."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Sleutel/Waarde Paar"@nl.
+<http://data.europa.eu/m8g/endTime#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/endTime>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Moment waarop het tijdsinterval eindigt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "einde"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/PeriodOfTime>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://data.europa.eu/m8g/hasCompetentAuthority#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/hasCompetentAuthority>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Publieke Organisatie die verantwoordelijk is voor het aanbieden en beheren van de Publieke dienstverlening."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft verantwoordelijke autoriteit"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/cpsv#PublicService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/PublicOrganisation>.
+<http://data.europa.eu/m8g/startTime#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/startTime>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Moment waarop het tijdsinterval begint."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "begin"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/PeriodOfTime>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
 <http://purl.org/dc/terms/relation#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/relation>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De Publieke Dienstverlening waarbinnen de toestemming kadert."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De Publieke Dienstverlening waar het Merk aan gerelateerd is."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "is gerelateerd met"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/toestemming#Verwerkingsactiviteit>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocab/cpsv#PublicService>.
-<http://purl.org/dc/terms/type#2019-02-07> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/type>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type van de verwerkingsactiviteit."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "type verwerking"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/toestemming#Verwerkingsactiviteit>.
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Brand>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocab/cpsv#PublicService>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/relation>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een relatie tussen twee Informeer Acties."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "is gerelateerd met"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/InformAction>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/InformAction>.
+<http://schema.org/brand#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/brand>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het merk dat geassocieerd is met één of meerdere Publieke Organisatie(s), in de context van Publieke Dienstverlening. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft merk"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/PublicOrganisation>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/Brand>.
 <http://schema.org/contactPoint#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://schema.org/contactPoint>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email, telefoon die toelaat de Agent te contacteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email, telefoon... die toelaat de entiteit te contacteren."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "contactinfo"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Agent>;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Brand>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/ContactPoint>.
+<http://schema.org/dateRead#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/dateRead>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De datum waarop het Notificatiebericht werd gelezen door de bestemmeling. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "datum gelezen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/notificatie#Notificatiebericht>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://schema.org/dateReceived#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/dateReceived>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De datum waarop het Notificatiebericht werd ontvangen door de bestemmeling."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "datum ontvangen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/notificatie#Notificatiebericht>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://schema.org/dateSent#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/dateSent>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De datum waarop het Notificatiebericht werd verzonden naar de bestemmeling. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "datum verzending"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/notificatie#Notificatiebericht>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
 <http://schema.org/email#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://schema.org/email>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "Email-adres waarnaar men kan mailen."@nl;
@@ -167,52 +154,172 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
 <http://schema.org/expires#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://schema.org/expires>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De datum waarop de toestemming vervalt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De datum waarop een Notificatiebericht vervalt."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "vervalt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/toestemming#Toestemming>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>.
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/notificatie#Notificatiebericht>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://schema.org/faxNumber#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/faxNumber>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Faxnummer waarnaar men kan faxen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "fax"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<http://schema.org/hoursAvailable#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/hoursAvailable>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Periode waarin contact kan worden opgenomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschikbaarheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/OpeningHoursSpecification>.
+<http://schema.org/name#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/name>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van het Merk."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Brand>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<http://schema.org/openingHours#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/openingHours>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Uren waarbinnen contact kan worden opgenomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "openingsuren"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>.
+<http://schema.org/recipient#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/recipient>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De bestemmeling(en) die de informatie dien(t)(en) te ontvangen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "doelgroep"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/InformAction>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/Audience>.
+<http://schema.org/sender#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/sender>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De afzender van het Notificatiebericht."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "afzender"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/notificatie#Notificatiebericht>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/Brand>.
 <http://schema.org/telephone#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://schema.org/telephone>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Telefoonnummer waarop men kan bellen of smsen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Telefoonnummer waarop men kan bellen."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "telefoon"@nl;
     <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://www.w3.org/2000/01/rdf-schema#label#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2000/01/rdf-schema#label>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een label voor de ToestemmingDescriptor."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "label"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/toestemming#Verwerkingsactiviteit>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<http://schema.org/url#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/url>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een url voor het Notificatiebericht."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "url"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/notificatie#Notificatiebericht>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
+<http://www.opengis.net/ont/geosparql#asGML#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/geosparql#asGML>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geometrie uitgedrukt in gml-formaat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "gml"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Geometry>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>.
+<http://www.opengis.net/ont/geosparql#asWKT#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/geosparql#asWKT>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geometrie uitgedrukt in wkt-formaat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "wkt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Geometry>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>.
 <http://www.w3.org/2006/vcard/ns#honorific-prefix#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2006/vcard/ns#honorific-prefix>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "Titel waarmee iemand wordt aangeschreven of aangesproken of waarmee naar iemand wordt verwezen."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "aanschrijfvorm"@nl;
     <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<http://www.w3.org/ns/adms#identifier#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/adms#identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een identificator voor de doelgroep."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "identificator"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Audience>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Identifier>.
 <http://www.w3.org/ns/locn#address#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#address>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Adres dat men kan aanschrijven."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Adres dat men kan aanschrijven of bezoeken."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "adres"@nl;
     <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/locn#Address>.
-<http://www.w3.org/ns/locn#postCode#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#postCode>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Code waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "postcode"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://www.w3.org/ns/locn#thoroughfare#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#thoroughfare>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Straatnaam van het adres."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "straatnaam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<http://www.w3.org/ns/locn#geometry#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#geometry>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De geometrische voorstelling van het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "geometrie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/AdministrativeArea>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/locn#Geometry>.
 <http://xmlns.com/foaf/0.1/name#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/name>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van de persoon die men kan contacteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van bvb de persoon die men kan contacteren."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "contactnaam"@nl;
     <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<http://xmlns.com/foaf/0.1/page#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/page>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Website waarnaar men kan surfen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "website"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
+<https://schema.org/about#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/about>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het onderwerp van de informeer actie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "onderwerp"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/InformAction>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://schema.org/agent#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/agent>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt de agent aan die aanleiding gaf tot de InformeerActie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "agent"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/InformAction>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/PublicOrganisation>.
+<https://schema.org/audienceType#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/audienceType>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een typering van de doelgroep."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "doelgroep type"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Audience>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://schema.org/dateCreated#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/dateCreated>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De datum waarop het Notificatiebericht gecreëerd werd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "datum creatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/notificatie#Notificatiebericht>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://schema.org/geographicArea#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/geographicArea>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het geografisch gebied geassocieerd met de doelgroep."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "geografisch gebied"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Audience>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/AdministrativeArea>.
+<https://schema.org/name#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/name>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van de Administratieve Eenheid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/AdministrativeArea>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/name>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het label is de sleutel van het sleutel/waarde paar."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/PropertyValue>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/name>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een titel voor het Notificatiebericht."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/notificatie#Notificatiebericht>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://schema.org/recipient#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/recipient>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De agent die het notificatiebericht ontvangt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bestemmeling"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/notificatie#Notificatiebericht>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
+<https://schema.org/text#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/text>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De tekstuele inhoud van het Notificatiebericht."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "tekst"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/notificatie#Notificatiebericht>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://schema.org/value#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/value>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De waarde van het sleutel/waarde paar."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "waarde"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/PropertyValue>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/toestemming#AlgemeneVoorwaarden#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#Cookieverklaring#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#Privacyverklaring#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#Toestemming#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#Verwerkersovereenkomst#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#Verwerkingsactiviteit#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#contactkanaal#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#contactkanaal#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#gegevenOp#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#gegevenVoor#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#notificatiecategorie#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#status#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#toestemmingsvraag#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#verwerkingsgrond#2019-02-07>, <http://data.europa.eu/m8g/PublicOrganisation#2019-02-07>, <http://purl.org/dc/terms/Agent#2019-02-07>, <http://purl.org/vocab/cpsv#PublicService#2019-02-07>, <http://schema.org/ContactPoint#2019-02-07>, <http://www.w3.org/ns/locn#Address#2019-02-07>, <http://www.w3.org/ns/org#Organization#2019-02-07>, <http://www.w3.org/ns/person#Person#2019-02-07>, <http://xmlns.com/foaf/0.1/Document#2019-02-07>, <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid#2019-02-07>, <http://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer#2019-02-07>, <http://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer#2019-02-07>, <http://data.vlaanderen.be/ns/adres#gemeentenaam#2019-02-07>, <http://data.vlaanderen.be/ns/adres#land#2019-02-07>, <http://data.vlaanderen.be/ns/adres#verwijstNaar#2019-02-07>, <http://purl.org/dc/terms/relation#2019-02-07>, <http://purl.org/dc/terms/type#2019-02-07>, <http://schema.org/contactPoint#2019-02-07>, <http://schema.org/email#2019-02-07>, <http://schema.org/expires#2019-02-07>, <http://schema.org/telephone#2019-02-07>, <http://www.w3.org/2000/01/rdf-schema#label#2019-02-07>, <http://www.w3.org/2006/vcard/ns#honorific-prefix#2019-02-07>, <http://www.w3.org/ns/locn#address#2019-02-07>, <http://www.w3.org/ns/locn#postCode#2019-02-07>, <http://www.w3.org/ns/locn#thoroughfare#2019-02-07>, <http://xmlns.com/foaf/0.1/name#2019-02-07>;
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/notificatie#Notificatiebericht#2019-02-07>, <https://data.vlaanderen.be/ns/notificatie#inhoud#2019-02-07>, <https://data.vlaanderen.be/ns/notificatie#notificatiekanaal#2019-02-07>, <https://data.vlaanderen.be/ns/notificatie#notificatiekanaal#2019-02-07>, <https://data.vlaanderen.be/ns/notificatie#periodeVerzending#2019-02-07>, <https://data.vlaanderen.be/ns/notificatie#resulteertIn#2019-02-07>, <http://data.europa.eu/m8g/PeriodOfTime#2019-02-07>, <http://data.europa.eu/m8g/PublicOrganisation#2019-02-07>, <http://purl.org/dc/terms/Agent#2019-02-07>, <http://purl.org/vocab/cpsv#PublicService#2019-02-07>, <http://schema.org/ContactPoint#2019-02-07>, <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString#2019-02-07>, <http://www.w3.org/2000/01/rdf-schema#Literal#2019-02-07>, <http://www.w3.org/ns/locn#Geometry#2019-02-07>, <https://schema.org/AdministrativeArea#2019-02-07>, <https://schema.org/Audience#2019-02-07>, <https://schema.org/Brand#2019-02-07>, <https://schema.org/InformAction#2019-02-07>, <https://schema.org/PropertyValue#2019-02-07>, <http://data.europa.eu/m8g/endTime#2019-02-07>, <http://data.europa.eu/m8g/hasCompetentAuthority#2019-02-07>, <http://data.europa.eu/m8g/startTime#2019-02-07>, <http://purl.org/dc/terms/relation#2019-02-07>, <http://purl.org/dc/terms/relation#2019-02-07>, <http://schema.org/brand#2019-02-07>, <http://schema.org/contactPoint#2019-02-07>, <http://schema.org/dateRead#2019-02-07>, <http://schema.org/dateReceived#2019-02-07>, <http://schema.org/dateSent#2019-02-07>, <http://schema.org/email#2019-02-07>, <http://schema.org/expires#2019-02-07>, <http://schema.org/faxNumber#2019-02-07>, <http://schema.org/hoursAvailable#2019-02-07>, <http://schema.org/name#2019-02-07>, <http://schema.org/openingHours#2019-02-07>, <http://schema.org/recipient#2019-02-07>, <http://schema.org/sender#2019-02-07>, <http://schema.org/telephone#2019-02-07>, <http://schema.org/url#2019-02-07>, <http://www.opengis.net/ont/geosparql#asGML#2019-02-07>, <http://www.opengis.net/ont/geosparql#asWKT#2019-02-07>, <http://www.w3.org/2006/vcard/ns#honorific-prefix#2019-02-07>, <http://www.w3.org/ns/adms#identifier#2019-02-07>, <http://www.w3.org/ns/locn#address#2019-02-07>, <http://www.w3.org/ns/locn#geometry#2019-02-07>, <http://xmlns.com/foaf/0.1/name#2019-02-07>, <http://xmlns.com/foaf/0.1/page#2019-02-07>, <https://schema.org/about#2019-02-07>, <https://schema.org/agent#2019-02-07>, <https://schema.org/audienceType#2019-02-07>, <https://schema.org/dateCreated#2019-02-07>, <https://schema.org/geographicArea#2019-02-07>, <https://schema.org/name#2019-02-07>, <https://schema.org/name#2019-02-07>, <https://schema.org/name#2019-02-07>, <https://schema.org/recipient#2019-02-07>, <https://schema.org/text#2019-02-07>, <https://schema.org/value#2019-02-07>;
     <https://w3id.org/tree#view> <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/27.trig>.
