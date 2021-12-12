@@ -4167,3 +4167,43 @@ _:n3-2507 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7576?t=1638621278>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/8/8-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/8/8-0.ttl>.
+<http://marineregions.org/mrgid/48028?t=1639190851> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48028/geometries?source=50&attributeValue=CAB-OO>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47570>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/47570>, <http://marineregions.org/mrgid/9177>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48028>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T02:47:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:CAB-OO>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cabinda"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(13.092777252197 -4.388991355896,12.017221450806 -4.388991355896,12.017221450806 -5.7685556411743,13.092777252197 -5.7685556411743,13.092777252197 -4.388991355896)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(12.46243516317 -5.0410724568939)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47570> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cabinda"@en.
+<http://marineregions.org/mrgid/9177> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ProvinceAdministrative>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cabinda"@en.
+_:n3-49 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "CAB-OO".
+<urn:tdwg:wgsrpd:CAB-OO> <https://schema.org/identifier> _:n3-49;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48028?t=1639190851>.
+<http://marineregions.org/mrgid/49192?t=1639191166> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TerritorialSea>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/49192/geometries?source=179&attributeValue=49192>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/8478>, <http://marineregions.org/mrgid/2150>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/49192>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T02:52:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=8478&zone=eez_12nm>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Angolan 12 NM"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(13.86517 -5.02988,11.46029 -5.02988,11.46029 -17.27214,13.86517 -17.27214,13.86517 -5.02988)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(12.68431 -11.32683)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/8478> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Angolan Exclusive Economic Zone"@en.
+<http://marineregions.org/mrgid/2150> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Angola"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Territorial Seas (12NM), version 3. Available online at http://www.marineregions.org/. https://doi.org/10.14284/387".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/49192?t=1639191166>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/8/8-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/8/8-0.ttl>.

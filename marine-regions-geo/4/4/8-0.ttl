@@ -3822,3 +3822,38 @@ _:n3-2494 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47781?t=1638621246>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/8-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/8-0.ttl>.
+<http://marineregions.org/mrgid/50322?t=1639190855> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Coast>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/50322/geometries?source=136&attributeValue=50322>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2257>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/50322>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T02:47:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: Derived from ESRI World Countries 2014"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Peruvian Coast"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-70.37954998 -3.40322232245,-81.3307670359 -3.40322232245,-81.3307670359 -18.3507187365,-70.37954998 -18.3507187365,-70.37954998 -3.40322232245)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-78.019046689311 -10.369463607746)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-50 <http://www.w3.org/2000/01/rdf-schema#label> "VLIZ (2015). National coastlines based on ESRI Countries (2014)".
+<http://marineregions.org/mrgid/50322?t=1639190855> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-50.
+<http://marineregions.org/mrgid/2257> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Peru"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/50322?t=1639190855>.
+<http://marineregions.org/mrgid/48018?t=1639190960> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/48018/geometries?source=50&attributeValue=BZN-AC>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47568>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/48018>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T02:49:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:BZN-AC>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Acre"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-66.640014648438 -7.1226234436035,-74.010559082031 -7.1226234436035,-74.010559082031 -11.140556335449,-66.640014648438 -11.140556335449,-66.640014648438 -7.1226234436035)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-70.487966984532 -9.3040249401335)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47568> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Brazil North"@en.
+_:n3-90 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "BZN-AC".
+<urn:tdwg:wgsrpd:BZN-AC> <https://schema.org/identifier> _:n3-90;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/48018?t=1639190960>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/8-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/4/8-0.ttl>.

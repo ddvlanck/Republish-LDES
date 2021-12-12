@@ -1967,3 +1967,40 @@ _:n3-2030 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-2031.
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/56836?t=1638620160>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/9-0.ttl>.
+<http://marineregions.org/mrgid/24935?t=1639190804> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/24935/geometries?source=111&attributeValue=1549>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/24935>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T02:46:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Gora Kazanskogo"@ru, "Гора Казанского"@ru;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:9196324>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -26.24; Long: -39.25"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-17. Proposer: Department of Navigation and Oceanography (DNO), Russia. Year of proposal: 2004."@en, "GEBCO: discoverer and year of discovery: History: Named after Mikhail Mikhaylovich Kazanskiy (1915-1994), a Russian oceanographer and active explorer of the Arctic and Antarctic oceans. He was the scientific leader of 13 complex ocean expeditions and made considerable contributions to the study "@en, "Additional information: This feature is located near the Eastern limit of Santos Plateau among depths of 3900-4100 m. Minimum depth (m): 1112. Maximum depth (m): 4000. Total relief (m): 2888."@en, "Coordinates in ACUF: Latitude: 26.233333; Longitude: -39.25"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kazanskiy Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-39.251667 -26.236667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+_:n3-28 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "9196324".
+<urn:acuf:ufi:9196324> <https://schema.org/identifier> _:n3-28;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D9196324>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24935?t=1639190804>.
+<http://marineregions.org/mrgid/63106?t=1639190906> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/63106/geometries?source=105&attributeValue=889178>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/63106>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T02:48:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: This feature has a conical shape and a steepness of 3 to 30°. Minimum depth (m): 1995. Maximum depth (m): 5080. Total relief (m): 3085. Dimension/size: 42 km X 40 km."@en, "GEBCO: associated meeting, proposer and year of proposal: \"Associated meeting: SCUFN-32. Proposer: Directorate of Hydrography and Navigation (DHN)"@en, "GEBCO: discoverer and year of discovery:  Brazil. History: 2019.\",\"Discoverer: French research and supply vessel \"\"Marion Dufresne\"\". Year of discovery: 2011. History: Named from the blue subgiant star \"\"Alpha Crucis\"\", located in the South Cross constellation (Cruzeiro do Sul, in Portuguese) in the southern hemisphere, in association with the nearby Cruzeiro do Sul Rift. Alpha Crucis is the main and southern most star of the South Cross constellation and marks the bottom of the South Cross, when facing south.\""@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alpha Crucis Seamount"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-37.7678 -27.66828,-38.13081 -27.66828,-38.13081 -27.99267,-37.7678 -27.99267,-37.7678 -27.66828)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-37.95577 -27.83492)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/63106?t=1639190906>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/9-0.ttl>.
