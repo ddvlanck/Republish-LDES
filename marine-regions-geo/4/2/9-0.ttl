@@ -870,3 +870,25 @@ _:n3-343 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25643?t=1639191254>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/9-0.ttl>.
+<http://marineregions.org/mrgid/7556?t=1639195086> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#FractureZone>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7556/geometries?source=110&attributeValue=2578>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7556>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T03:58:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:18814>;
+    <http://www.w3.org/2004/02/skos/core#note> "Coordinates in ACUF: Latitude: -32; Longitude: -130"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Resolution Fracture Zone"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-127 -31,-135 -31,-135 -32,-127 -32,-127 -31)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-130.9786781846 -31.562612140986)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+_:n3-1432 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "18814".
+<urn:acuf:ufi:18814> <https://schema.org/identifier> _:n3-1432;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D18814>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7556?t=1639195086>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/2/9-0.ttl>.

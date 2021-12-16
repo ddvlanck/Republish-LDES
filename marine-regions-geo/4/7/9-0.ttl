@@ -3552,3 +3552,55 @@ _:n3-1990 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-1991.
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/23632?t=1638621259>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/7/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/7/9-0.ttl>.
+<http://marineregions.org/mrgid/7150?t=1639191762> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#FractureZone>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7150/geometries?source=110&attributeValue=3173>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>, <http://marineregions.org/mrgid/8382>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7150>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T03:02:42Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tristan Da Cunha Fracture Zone"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-13.5 -37.5,-25 -37.5,-25 -38,-13.5 -38,-13.5 -37.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-19.230589942244 -37.890583604213)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/8382> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tristan Da Cunha Exclusive Economic Zone"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7150?t=1639191762>.
+<http://marineregions.org/mrgid/33663?t=1639192088> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#LowerBathyalProvinces>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/33663/geometries?source=108&attributeValue=33663>;
+    <http://marineregions.org/ns/ontology#isPartlyPartOf> <http://marineregions.org/mrgid/1912>, <http://marineregions.org/mrgid/4286>, <http://marineregions.org/mrgid/1914>, <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/33663>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T03:08:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "BY13"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Lower Bathyal Province"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-16.520475749432 -29.310458092384)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-167 <http://www.w3.org/2000/01/rdf-schema#label> "Watling, L.; Guinotte, J.; Clark, M.R.; Smith, C.R. (2013). A proposed biogeography of the deep ocean floor. Prog. Oceanogr. 111: 91-112 DOI: 10.1016/j.pocean.2012.11.003".
+_:n3-166 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-167.
+<http://marineregions.org/mrgid/33663?t=1639192088> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-166.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/4286> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of Guinea"@en.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/33663?t=1639192088>.
+<http://marineregions.org/mrgid/8180?t=1639193008> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8180/geometries?source=111&attributeValue=3382>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1914>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8180>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T03:23:28Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Jahont Seamount"@en;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -39.45666667; Long: -7.825"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-10. Proposer: Russian Federal Research Institute of Fisheries and Oceanography (VNIRO). Year of proposal: 1993."@en, "GEBCO: discoverer and year of discovery: Discoverer: Russian fisheries research vessel  \"Yakhont\". Year of discovery: 1977. History: Named from the Russian fishery research vessel \"Yakhont\" that discovered this feature."@en, "Additional information: Formerly, Jahont Seamount. Minimum depth (m): 216."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Yakhont Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-7.825 -39.456667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1914> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Atlantic Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8180?t=1639193008>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/7/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/7/9-0.ttl>.

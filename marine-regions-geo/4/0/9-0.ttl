@@ -2197,3 +2197,97 @@ _:n3-2398 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47675?t=1638621009>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/9-0.ttl>.
+<http://marineregions.org/mrgid/8235?t=1639192794> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8235/geometries?source=111&attributeValue=840>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8235>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T03:19:54Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:9092558>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-15. Proposer: Scott B. Gudes, National Oceanic and Atmospheric Administration (NOAA), USA. Year of proposal: 2001."@en, "GEBCO: discoverer and year of discovery: Discoverer: U.S. icebreaker \"Southwind\". Year of discovery: 1966. History: Named after Edward T. Earhart, U.S. Navy personnel from the Naval Ice Center. He died on 11 September 2001 in the crash of American Airlines Flight 77 into the Pentagon, Washington"@en, "Additional information: Minimum depth (m): 1968. Maximum depth (m): 5068. Total relief (m): 3100."@en, "Coordinates in ACUF: Latitude: -40.5; Longitude: -158.933333"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Earhart Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-158.25 -40.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+_:n3-442 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "9092558".
+<urn:acuf:ufi:9092558> <https://schema.org/identifier> _:n3-442;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D9092558>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8235?t=1639192794>.
+<http://marineregions.org/mrgid/30429?t=1639193194> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Drift>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/30429/geometries?source=95&attributeValue=30429>;
+    <http://marineregions.org/ns/ontology#isInfluencedBy> <http://marineregions.org/mrgid/30233>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/7219>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/30429>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T03:26:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#note> "Maximum age: Miocene"@en, "Coordinate information: Coordinates redefined in 2014. \nThese coordinates represent the centroid and the bounding box of the polygon from the shapefile."@en, "Drift type: Fan Drift"@en, "Mean contourite type: Muddy"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Hikurangi Fan Drift"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-174.21015 -35.393156,-178.07674 -35.393156,-178.07674 -38.677109,-174.21015 -38.677109,-174.21015 -35.393156)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-175.91681335446 -36.994884807052)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-621 <http://www.w3.org/2000/01/rdf-schema#label> "Venuti, A., et al. (2007). Magnetic proxy for the deep (Pacific) western boundary current variability across the mid-Pleistocene climate transition. Earth and Planetary Science Letters 259(1-2): 107-118.".
+_:n3-620 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-621.
+<http://marineregions.org/mrgid/30429?t=1639193194> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-620.
+<http://marineregions.org/mrgid/30233> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Current>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Deep Western Boundary Current"@en.
+<http://marineregions.org/mrgid/7219> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Basin>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southwest Pacific Basin"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/30429?t=1639193194>.
+<http://marineregions.org/mrgid/58401?t=1639193895> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Rock>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/58401/geometries?source=234&attributeValue=13749>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/58401>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T03:38:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dougall Rocks"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-177.91369 -29.2957,-177.91527 -29.2957,-177.91527 -29.29676,-177.91369 -29.29676,-177.91369 -29.2957)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-177.914479 -29.296251)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://gazetteer.linz.govt.nz/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+<https://gazetteer.linz.govt.nz/> <http://www.w3.org/2000/01/rdf-schema#label> "New Zealand Gazetteer".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/58401?t=1639193895>.
+<http://marineregions.org/mrgid/58744?t=1639194395> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/58744/geometries?source=105&attributeValue=889165>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/58744>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T03:46:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -37.439833; Long: -178.963167; minLat: -37.66239; minLong: -179.09384; maxLat: -37.19579; maxLong: -178.78395"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "Additional information: Feature description: A seamount approximately 210km east of East Cape. History/Origin/Meaning: Named for James William Brodie (1920-2009), Director of the New Zealand Oceanographic Institute from 1954 to 1977."@en, "Additional information: Adopted from NZGB Gazetteer. This feature is located on the E border of Hikurangi Trough, approximately 210 km offshore from the most E part of the North Island of New Zealand. Minimum depth (m): 2170. Maximum depth (m): 3550. Total relief (m): 1380. Dimension/size: 52 km x 20 km."@en, "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-32. Proposer: New Zealand Geographic Board (NZGB). History: 2019."@en, "GEBCO: discoverer and year of discovery: History: Named after James William Brodie (1920-2009), Director of the New Zealand Oceanographic Institute from 1954 to 1977."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Brodie Seamount"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-178.78395 -37.19579,-179.09384 -37.19579,-179.09384 -37.66239,-178.78395 -37.66239,-178.78395 -37.19579)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-178.92941 -37.42679)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/58744?t=1639194395>.
+<http://marineregions.org/mrgid/49811?t=1639194517> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/49811/geometries?source=105&attributeValue=6536>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/49811>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T03:48:37Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -26.36101 ; Long: -177.28568 (update 2020-04-22)"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-29. Proposer: Mark Dyer, New Zealand Geographic Board (NZGB); and Adam Greenland, New Zealand Hydrographic Office (LINZ). Year of proposal: 2016. "@en, "GEBCO: discoverer and year of discovery: Discoverer: New Zealand research vessel \"Tangaroa\". Year of discovery: 1983. History: Named for the Maori keeper/guardian goddess of geothermal activity."@en, "Additional information: This feature forms a multiple peak volcano. Minimum depth (m): 298. Maximum depth (m): 1800. Total relief (m): 1502. Dimension: 22 km x 20 km."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Hinepuia Seamounts"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(-177.17242 -26.27055,-177.39572 -26.27055,-177.39572 -26.4463,-177.17242 -26.4463,-177.17242 -26.27055)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-177.28568 -26.36101)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/49811?t=1639194517>.
+<http://marineregions.org/mrgid/57695?t=1639195157> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineProtectedAreaMPA>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/57695/geometries?source=232&attributeValue=55420>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1910>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/57695>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T03:59:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kermadec Islands Marine Reserve"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-177.977367 -29.386757)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://gazetteer.linz.govt.nz/>.
+<http://marineregions.org/mrgid/1910> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "South Pacific Ocean"@en.
+<https://gazetteer.linz.govt.nz/> <http://www.w3.org/2000/01/rdf-schema#label> "New Zealand Gazetteer".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/57695?t=1639195157>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/0/9-0.ttl>.

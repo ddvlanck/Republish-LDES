@@ -5322,3 +5322,73 @@ _:n3-1910 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6550?t=1638621151>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/9-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/9-0.ttl>.
+<http://marineregions.org/mrgid/21472?t=1639192229> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#LonghurstProvince>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/21472/geometries?source=44&attributeValue=ISSG>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/22538>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/21472>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T03:10:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "ISSG"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian S. Subtropical Gyre Province"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(76.3334073103 -26.2182682519)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-218 <http://www.w3.org/2000/01/rdf-schema#label> "Ecological geography of the Sea (Longhurst, 1998)".
+_:n3-217 <http://www.w3.org/ns/prov#wasAttributedTo> _:n3-218.
+<http://marineregions.org/mrgid/21472?t=1639192229> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-217.
+<http://marineregions.org/mrgid/22538> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#LonghurstProvince>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Longhurst Provinces"@en.
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/21472?t=1639192229>.
+<http://marineregions.org/mrgid/7276?t=1639192326> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#FractureZone>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7276/geometries?source=110&attributeValue=1111>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7276>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T03:12:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:111194>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-11. Proposer: Robert L. Fisher, Scripps Institution of Oceanography (SIO), USA. Year of proposal: 1993."@en, "GEBCO: discoverer and year of discovery: Discoverer: U.S. research vessels \"Argo\" and \"Horizon\". Year of discovery: 1963. History: Named from the \"Geelvinck\" (\"Goldfinch\" in Dutch language), Willem de Vlamingh's vessel in 1697-1698, when he visited St. Paul and Amsterdam Islands and the Southwes"@en, "Coordinates in ACUF: Latitude: -42; Longitude: 84.666667"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Geelvinck Fracture Zone"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(89 -37,82 -37,82 -44,89 -44,89 -37)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(85.888024425079 -40.679238575992)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+_:n3-258 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "111194".
+<urn:acuf:ufi:111194> <https://schema.org/identifier> _:n3-258;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D111194>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7276?t=1639192326>.
+<http://marineregions.org/mrgid/6245?t=1639192491> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6245/geometries?source=111&attributeValue=3286>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1904>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6245>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T03:14:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -34.96666667; Long: 81.16666667"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCGN-7. Proposer: Robert L. Fisher, Scripps Institution of Oceanography (SIO), USA. Year of proposal: 1987."@en, "GEBCO: discoverer and year of discovery: Discoverer: Austrian research vessel \"Novara\". Year of discovery: 1857. History: Named after Ferdinand von Hochstetter (1829-1884), a German petrographer aboard the Austrian research vessel \"Novara\", who spent 18 days mapping and studying St. Paul Island "@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Von Hochstetter Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(81.166667 -34.966667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6245?t=1639192491>.
+<http://marineregions.org/mrgid/47962?t=1639194785> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level4>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/47962/geometries?source=50&attributeValue=ASP-OO>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/47541>;
+    <http://marineregions.org/ns/ontology#isRelatedTo> <http://marineregions.org/mrgid/47541>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/47962>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T03:53:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:tdwg:wgsrpd:ASP-OO>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Amsterdam-St.Paul Is."@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(77.588882446289 -37.81861114502,77.481658935547 -37.81861114502,77.481658935547 -38.739723205566,77.588882446289 -38.739723205566,77.588882446289 -37.81861114502)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(77.532902524988 -37.977421061563)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <https://github.com/tdwg/wgsrpd>.
+<http://marineregions.org/mrgid/47541> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TDWG-Level3>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Amsterdam-St.Paul Is."@en.
+_:n3-1307 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> "TDWG code";
+    <https://schema.org/value> "ASP-OO".
+<urn:tdwg:wgsrpd:ASP-OO> <https://schema.org/identifier> _:n3-1307;
+    <https://schema.org/url> <https://github.com/tdwg/wgsrpd>.
+<https://github.com/tdwg/wgsrpd> <http://www.w3.org/2000/01/rdf-schema#label> "TDWG - World Geographical Scheme for Recording Plant Distributions".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47962?t=1639194785>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/9-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/9-0.ttl>.
