@@ -4288,3 +4288,66 @@ _:n3-700 <http://www.w3.org/2000/01/rdf-schema#label> "Aphia".
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/25415?t=1639195040>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/10/7-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/10/7-0.ttl>.
+<http://marineregions.org/mrgid/8350?t=1639195220> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://marineregions.org/ns/ontology#contains> <http://marineregions.org/mrgid/25393>, <http://marineregions.org/mrgid/25413>, <http://marineregions.org/mrgid/25545>, <http://marineregions.org/mrgid/49073>, <http://marineregions.org/mrgid/49306>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8350/geometries?source=79&attributeValue=8350>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/2187>;
+    <http://marineregions.org/ns/ontology#isPartlyPartOf> <http://marineregions.org/mrgid/4265>, <http://marineregions.org/mrgid/4268>, <http://marineregions.org/mrgid/1904>;
+    <http://marineregions.org/ns/ontology#partlyContains> <http://marineregions.org/mrgid/7429>, <http://marineregions.org/mrgid/7430>, <http://marineregions.org/mrgid/7893>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8350>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T04:00:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.marineregions.org/eezdetails.php?mrgid=8350>;
+    <http://www.w3.org/2004/02/skos/core#note> "Centroid calculation method: Centroid"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Somali Exclusive Economic Zone"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(54.44504 13.52464,41.56622 13.52464,41.56622 -1.65407,54.44504 -1.65407,54.44504 13.52464)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(48.7186 5.38252)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.marineregions.org>.
+<http://marineregions.org/mrgid/25393> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Somali part of the Gulf of Aden"@en.
+<http://marineregions.org/mrgid/25413> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Somali part of the Arabian Sea"@en.
+<http://marineregions.org/mrgid/25545> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#MarineRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Somali part of the Indian Ocean"@en.
+<http://marineregions.org/mrgid/49073> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#TerritorialSea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Somali 12 NM"@en.
+<http://marineregions.org/mrgid/49306> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ContiguousZone>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Somali 24 NM"@en.
+<http://marineregions.org/mrgid/2187> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Nation>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Federal Republic of Somalia"@en.
+<http://marineregions.org/mrgid/4265> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gulf of Aden"@en.
+<http://marineregions.org/mrgid/4268> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arabian Sea"@en.
+<http://marineregions.org/mrgid/1904> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Indian Ocean"@en.
+<http://marineregions.org/mrgid/7429> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ridge>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "West Sheba Ridge"@en.
+<http://marineregions.org/mrgid/7430> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Trough>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alula-Fartak Trough"@en.
+<http://marineregions.org/mrgid/7893> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Ridge>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Girdler Ridge"@en.
+<http://www.marineregions.org> <http://www.w3.org/2000/01/rdf-schema#label> "Flanders Marine Institute (2019). Maritime Boundaries Geodatabase: Maritime Boundaries and Exclusive Economic Zones (200NM), version 11. Available online at http://www.marineregions.org/. https://doi.org/10.14284/386".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8350?t=1639195220>.
+<http://marineregions.org/mrgid/8095?t=1639196241> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8095/geometries?source=111&attributeValue=2661>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4268>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8095>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T04:17:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "MGU Seamount"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-154447>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 12.36666667; Long: 61.25"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCGN-8. Proposer: V. F. Kanaev and Galina V. Agapova, Institute of Oceanology of the Russian Academy of Sciences (IO RAS). Year of proposal: 1967."@en, "GEBCO: discoverer and year of discovery: Discoverer: Russian research vessel \"Vityaz\". Year of discovery: 1967. History: Named after \"Sadko\", the hero of Russian folklore, singer and traveller, who found himself on the bottom of the Indian Ocean, in the Kingdom of Neptune."@en, "Additional information: Formerly, MGU Seamount. Shown as MGU Seamount in the ACUF Gazetteer."@en, "Coordinates in ACUF: Latitude: 12.333333; Longitude: 61.25"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sadko Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(61.25 12.366667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4268> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arabian Sea"@en.
+_:n3-202 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-154447".
+<urn:acuf:ufi:-154447> <https://schema.org/identifier> _:n3-202;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-154447>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8095?t=1639196241>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/10/7-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/10/7-0.ttl>.

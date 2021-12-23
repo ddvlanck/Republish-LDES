@@ -470,3 +470,42 @@ _:n3-1069 <http://www.w3.org/ns/prov#wasAttributedTo> <http://gis.ices.dk/>.
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/24027?t=1639193000>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/2-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/2-0.ttl>.
+<http://marineregions.org/mrgid/7846?t=1639196509> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Rise>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7846/geometries?source=110&attributeValue=552>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4246>, <http://marineregions.org/mrgid/5690>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7846>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T04:21:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Central Kara Plateau"@en;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:-152886>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Proposer: Nikolay N. Zubov, Floating Marine Scientific Institute (Plavmornin), Russia. Year of proposal: 1935."@en, "GEBCO: discoverer and year of discovery: Discoverer: Russian research vessel \"Sadko\". Year of discovery: 1935. History: Named from its geographical position, in the centre of the Kara Sea."@en, "Coordinates in ACUF: Latitude: 79.5; Longitude: 78"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Central Kara Rise"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(87.666667 82.083333,77.166667 82.083333,77.166667 77.333333,87.666667 77.333333,87.666667 82.083333)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(83.618780682366 79.748564518044)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4246> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kara Sea"@en.
+<http://marineregions.org/mrgid/5690> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#EEZ>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Russian Exclusive economic Zone"@en.
+_:n3-260 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "-152886".
+<urn:acuf:ufi:-152886> <https://schema.org/identifier> _:n3-260;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D-152886>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7846?t=1639196509>.
+<http://marineregions.org/mrgid/47449?t=1639197753> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/47449/geometries?source=213&attributeValue=79M8>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/36329>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/47449>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T04:42:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "79M8"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(69 75.5,68 75.5,68 75,69 75,69 75.5)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(68.5 75.249156085608)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-485 <http://www.w3.org/ns/prov#wasAttributedTo> <http://gis.ices.dk/>.
+<http://marineregions.org/mrgid/47449?t=1639197753> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-485.
+<http://marineregions.org/mrgid/36329> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#ICESStatisticalRectangles>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "ICES Statistical Rectangles"@en.
+<http://gis.ices.dk/> <http://www.w3.org/2000/01/rdf-schema#label> "International Council for the Exploration of the Sea (ICES)".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/47449?t=1639197753>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/2-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/11/2-0.ttl>.

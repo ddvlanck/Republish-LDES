@@ -1304,3 +1304,25 @@ _:n3-289 <http://www.w3.org/2000/01/rdf-schema#label> "IMIS".
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6994?t=1638587024>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/8/12-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/8/12-0.ttl>.
+<http://marineregions.org/mrgid/6977?t=1639197507> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/6977/geometries?source=111&attributeValue=1757>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1907>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/6977>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T04:38:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:9032672>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: -67.55; Long: -0.666666667"@en, "Previous coordinates: Lat: -67.55 ; Long: -0.66667 (update 2020-04-22)"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-13. Proposer: Hans Werner Schenke, Alfred-Wegener Institute for Polar and Marine Research (AWI), Germany. Year of proposal: 1999."@en, "GEBCO: discoverer and year of discovery: History: Named after Werner Lichtner (1945-1989), German cartographer, who worked on computer cartography and computer-aided mapping, with focus on marine cartography."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lichtner Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-0.66667 -67.57306)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1907> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Southern Ocean"@en.
+_:n3-438 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "9032672".
+<urn:acuf:ufi:9032672> <https://schema.org/identifier> _:n3-438;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D9032672>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/6977?t=1639197507>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/8/12-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/8/12-0.ttl>.

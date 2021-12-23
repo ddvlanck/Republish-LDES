@@ -13449,3 +13449,60 @@ _:n3-1464 a <https://schema.org/PropertyValue>;
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7747?t=1639195147>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/13/6-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/13/6-0.ttl>.
+<http://marineregions.org/mrgid/8554?t=1639195673> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#LargeMarineEcosystem>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8554/geometries?source=24&attributeValue=49>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/22539>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8554>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T04:07:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://lme.edc.uri.edu/index.php/lme-briefs/23-kuroshio-current-lme-49>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kuroshio Current"@en;
+    <http://www.w3.org/ns/dcat#bbox> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Polygon(146.23283 42.6161,120.8319 42.6161,120.8319 21.3211,146.23283 21.3211,146.23283 42.6161)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(134.69158 30.95066)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+_:n3-97 <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.lmehub.net/>.
+<http://marineregions.org/mrgid/8554?t=1639195673> <http://www.w3.org/ns/prov#hadPrimarySource> _:n3-97.
+<http://marineregions.org/mrgid/22539> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#GeneralRegion>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Large Marine Ecosystems"@en.
+<https://www.lmehub.net/> <http://www.w3.org/2000/01/rdf-schema#label> "Large Marine Ecosystems of the World".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8554?t=1639195673>.
+<http://marineregions.org/mrgid/7421?t=1639196444> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7421/geometries?source=111&attributeValue=1633>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4300>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7421>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T04:20:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:382354>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 24.510023; Long: 133.57489"@en;
+    <http://www.w3.org/2004/02/skos/core#note> ": Corrected latitude/longitude (GEBCO October 2002 error: 24°22'30\"N/133°35'24\"E)\r\nUpdated with GEBCO May 2014."@en, "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-14. Proposer: Japanese Committee on Undersea Feature Names (JCUFN). Year of proposal: 2000."@en, "GEBCO: discoverer and year of discovery: History: Koki is the Japanese term for \"70th birthday\"."@en, "Additional information: One of pair (with Kiju Seamount). Taken from Japanese Bathymetric Chart No. 6725. Minimum depth (m): 1180. Maximum depth (m): 4180. Total relief (m): 3000."@en, "Coordinates in ACUF: Latitude: 24.493333; Longitude: 133.585278"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Koki Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(133.5748938 24.5100229)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4300> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Philippine Sea"@en.
+_:n3-247 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "382354".
+<urn:acuf:ufi:382354> <https://schema.org/identifier> _:n3-247;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D382354>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7421?t=1639196444>.
+<http://marineregions.org/mrgid/7736?t=1639198638> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/7736/geometries?source=111&attributeValue=1608>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/4300>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/7736>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T04:57:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "Kita Okidaitō Seamount"@en, "Kita-Okidaitō-kaizan"@ja, "きたおきだいとうかいざん"@ja, "北沖大東海山"@ja;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:9250044>;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-14. Proposer: Japanese Committee on Undersea Feature Names (JCUFN). Year of proposal: 2000."@en, "GEBCO: discoverer and year of discovery: History: Named from the nearby island of Oki-Daito, Japan. (\"Kita\" means \"North\", in Japanese)."@en, "Additional information: Taken from Japanase Bathymetric Chart No. 6315. Minimum depth (m): 3930. Maximum depth (m): 5330. Total relief (m): 1400."@en, "Coordinates in ACUF: Latitude: 25.45; Longitude: 129.55"@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Kita-Oki-Daito Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(129.55 25.46)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/4300> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Philippine Sea"@en.
+_:n3-593 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "9250044".
+<urn:acuf:ufi:9250044> <https://schema.org/identifier> _:n3-593;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D9250044>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/7736?t=1639198638>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/13/6-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/13/6-0.ttl>.

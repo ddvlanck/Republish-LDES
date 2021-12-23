@@ -3044,3 +3044,25 @@ _:n3-92 <http://www.w3.org/2000/01/rdf-schema#label> "Masdea".
 <https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/14291?t=1639193762>.
 <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/7-0.ttl> a <https://w3id.org/tree#Node>.
 <https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/7-0.ttl>.
+<http://marineregions.org/mrgid/8089?t=1639195527> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#Seamounts>;
+    <http://marineregions.org/ns/ontology#hasGeometry> <http://marineregions.org/mrgid/8089/geometries?source=111&attributeValue=2100>;
+    <http://marineregions.org/ns/ontology#isPartOf> <http://marineregions.org/mrgid/1912>;
+    <http://purl.org/dc/terms/isVersionOf> <http://marineregions.org/mrgid/8089>;
+    <http://purl.org/dc/terms/modified> "2021-12-11T04:05:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <urn:acuf:ufi:343976>;
+    <http://www.w3.org/2004/02/skos/core#historyNote> "Previous coordinates: Lat: 4.016666667; Long: -32.36666667"@en;
+    <http://www.w3.org/2004/02/skos/core#note> "GEBCO: associated meeting, proposer and year of proposal: Associated meeting: SCUFN-12. Proposer: Gleb B. Udintsev, Institute of Oceanology of the Russian Academy of Sciences (IO RAS). Year of proposal: 1997."@en, "GEBCO: discoverer and year of discovery: Discoverer: Russian research vessel \"Akademik Nikolay Strakhov\". Year of discovery: 1988. History: Named after the Russian professor M. V. Muratov (1908-1982), author of monographs on the tectonics of the ocean."@en, "Additional information: Minimum depth (m): 1750."@en;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Muratov Seamount"@en;
+    <http://www.w3.org/ns/dcat#centroid> "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-32.366667 4.016667)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>;
+    <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.ngdc.noaa.gov/gazetteer/>.
+<http://marineregions.org/mrgid/1912> a <http://marineregions.org/ns/ontology#MRGeoObject>, <http://marineregions.org/ns/placetypes#IHOSeaArea>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "North Atlantic Ocean"@en.
+_:n3-62 a <https://schema.org/PropertyValue>;
+    <https://schema.org/propertyID> <http://www.wikidata.org/entity/P2326>;
+    <https://schema.org/value> "343976".
+<urn:acuf:ufi:343976> <https://schema.org/identifier> _:n3-62;
+    <https://schema.org/url> <https://geonames.nga.mil/arcgis/rest/services/Research/GeoNames/MapServer/0/query?where=UNIQUE_FEATURE_IDENTIFIER_UFI%3D343976>.
+<http://www.ngdc.noaa.gov/gazetteer/> <http://www.w3.org/2000/01/rdf-schema#label> "IHO-IOC GEBCO Gazetteer of Undersea Feature Names".
+<https://marineregions.org/feed> <https://w3id.org/tree#member> <http://marineregions.org/mrgid/8089?t=1639195527>.
+<https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/7-0.ttl> a <https://w3id.org/tree#Node>.
+<https://marineregions.org/feed> <http://rdfs.org/ns/void#subset> <https://ddvlanck.github.io/Republish-LDES/marine-regions-geo/4/6/7-0.ttl>.
