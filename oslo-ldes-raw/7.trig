@@ -1,174 +1,764 @@
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats> {
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#BegraafplaatsBlok#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#BegraafplaatsBlok>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een deel binnen de begraafplaats. Dit blok is op zichzelf staande structuur binnen de begraafplaats en zorgt voor een gebiedsdekkende structuur."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Begraafplaats blok"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#BegraafplaatsRij#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#BegraafplaatsRij>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een rij is een verzameling graven van hetzelfde type. Een rij ligt typisch volledig binnen een bepaald blok. "@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Begraafplaats rij"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Columbarium#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Columbarium>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een columbarium is een muur met nissen waarin urnen geplaatst worden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Columbarium"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#Element>.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Graf#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Graf>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Plaats waar iemand begraven ligt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Graf"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#Element>.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Strooiweide#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Strooiweide>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Plaats, meestal grasperkje, op het kerkhof waar assen van overledenen uitgestrooid worden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Strooiweide"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Urnenveld#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Urnenveld>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een urnenveld is een constructie in of op de grond met nissen waarin urnen geplaatst worden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Urnenveld"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#Element>.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#bezetting#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#bezetting>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft het aantal bezette plaatsen van een graf weer."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "bezetting"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Thing>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer>.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#capaciteit#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#capaciteit>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft het aantal beschikbare plaatsen van een graf weer."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "capaciteit"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Graf>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer>.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#grafkelderAanwezig#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#grafkelderAanwezig>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan of het graf voorzien is van een ondergrondse of bovengrondse ruimte."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "grafkelder aanwezig"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Graf>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#grafteken#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#grafteken>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan of er al dan niet een grafteken, bijvoorbeeld een zerk, aanwezig is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "grafteken"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Graf>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#graftype#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#graftype>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type graf."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "graftype"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Graf>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/openbaardomein#Deel#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#Deel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Homogeen gedeelte van het aardoppervlak, met een gelijkaardige hoofdfunctie en fysiek voorkomen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Deel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>.
-<https://data.vlaanderen.be/ns/openbaardomein#Element#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#Element>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Afzonderlijk te onderscheiden element dat ofwel direct of indirect bevestigd is aan het aardoppervlak."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Element"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>.
-<https://data.vlaanderen.be/ns/openbaardomein#FysiekObject#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De hoofdklasse waar alle objecten die geïnventariseerd kunnen worden van afgeleid worden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Fysiek object"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/prov#Entity>, <http://schema.org/Thing>.
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Zichtbare laag van het aardoppervlak, met een gelijkaardige functie, dat geen deel uitmaakt van 'waterdeel'."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Terreindeel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#Deel>.
-<https://schema.org/QuantitativeValue#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/QuantitativeValue>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van de kwantiteit van een bepaald kenmerk van een object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Kwantitatieve Waarde"@nl.
-<http://open.vocab.org/terms/length#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://open.vocab.org/terms/length>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De lineare grootte van het object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "lengte"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>.
-<http://purl.org/dc/terms/relation#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/relation>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijst naar een object in een andere databank dat meer informatie kan verschaffen over het beheerobject."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "relatie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource>.
-<http://schema.org/width#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/width>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De breedte van het object. In geval van een ongelijkmatige breedte wordt de gemiddelde breedte opgenomen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "breedte"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>.
-<http://www.w3.org/ns/locn#geometry#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#geometry>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De geometrie overeenkomstig met een bepaald object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "geometrie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#Geometry>.
-<https://data.vlaanderen.be/ns/openbaardomein#begindatum#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#begindatum>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum waarop de huidige versie van het gebied of object in gebruik wordt genomen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "begindatum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+<https://data.vlaanderen.be/ns/cultureel-erfgoed> {
+<https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aard van de deelname van de Agent aan de Activiteit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Rol"@nl.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed#Waarde#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Waarde>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De concrete, kwantitatieve of kwalitatieve invulling van een grootheid of categorie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Waarde"@nl.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol.activiteit#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol.activiteit>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Referentie naar verbonden klasse."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Activiteit"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol.agent#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol.agent>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Referentie naar verbonden klasse."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
+<http://id.loc.gov/datatypes/edtf/EDTF#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://id.loc.gov/datatypes/edtf/EDTF>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Min of meer afgebakende tijdsduur."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Periode"@nl.
+<http://purl.org/dc/terms/Agent#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/Agent>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Iemand die of iets dat kan handelen of een effect kan teweeg brengen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@nl.
+<http://schema.org/ContactPoint#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email, telefoon, adres die toelaat om iemand of iets te contacteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Contactinfo"@nl.
+<http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Overdracht van de opslag van een MaterieelDing (bv een MensgemaaktObject) van de ene Agent naar de andere, bv van de eigenaar naar een museum."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bewaring"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity>.
+<http://www.cidoc-crm.org/cidoc-crm/E11_Modification#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E11_Modification>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Activiteit waarbij een MaterieelDing wordt geproduceerd, gewijzigd of veranderd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Wijziging"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity>.
+<http://www.cidoc-crm.org/cidoc-crm/E12_Production#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E12_Production>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Activiteit die leidt tot en slaagt in het ontstaan van een MaterieelDing."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Productie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E11_Modification>.
+<http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het vaststellen van de waarde van een kenmerk (attribuut of associatie) van een Entiteit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Toekenning"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity>.
+<http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het vaststellen van de staat van een MaterieelDing."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Conditiebeoordeling"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment>.
+<http://www.cidoc-crm.org/cidoc-crm/E16_Measurement#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E16_Measurement>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Vaststelling van kwantitatieve, fysische of andere kenmerken van een Entiteit die systematisch bepaald kunnen worden dmv een objectieve procedure of door directe observatie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Meting"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment>.
+<http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het toekennen van een type aan een Entiteit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Classificatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment>.
+<http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Persistent fysiek item met een relatief stabiele vorm, kan mensgemaakt zijn of natuurlijk."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Materieel Ding"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E70_Thing>.
+<http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Abstracte superklasse."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Entiteit"@nl.
+<http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Fysiek object ontstaan door een doelbewuste menselijke activiteit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Mensgemaakt Object"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://wherever/TODO>, <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing>.
+<http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Fysieke kenmerken die doelbewust zijn gecreëerd door menselijke activiteit, zoals krassen, kunstmatige grotten, kunstmatige waterkanalen, enz."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Mensgemaakt Kenmerk"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing>, <https://wherever/TODO>.
+<http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Niet-materiële voortbrengselen van de geest of andere door mensen geproduceerde gegevens."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Conceptueel Ding"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E70_Thing>.
+<http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Fenomenen die plaatsvinden in een bepaalde tijdspanne."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Temporele Entiteit"@nl.
+<http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Staat waarin een object zich bevindt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Conditie"@nl.
+<http://www.cidoc-crm.org/cidoc-crm/E54_Dimension#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Kwantificeerbare eigenschap van een Entiteit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Dimensie"@nl.
+<http://www.cidoc-crm.org/cidoc-crm/E5_Event#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E5_Event>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Onderscheidbaar, afgelijnd en samenhangend proces of interactie dat een cultureel, sociaal of materieel effect teweeg brengt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Gebeurtenis"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://wherever/TODO>.
+<http://www.cidoc-crm.org/cidoc-crm/E65_Creation#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Activiteit die leidt tot het onstaan van een ConceptueelDing, bv een gedicht, tekst, muziek, beelden, films etc."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Creatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity>.
+<http://www.cidoc-crm.org/cidoc-crm/E6_Destruction#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E6_Destruction>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Gebeurtenis waarbij een MaterieelDing dusdanig wordt aangetast dat het ophoudt te bestaan."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Vernietiging"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E5_Event>.
+<http://www.cidoc-crm.org/cidoc-crm/E70_Thing#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E70_Thing>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Afzonderlijk hanteerbaar,identificeerbaar,als eenheid te beschrijven,persistent item."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Ding"@nl.
+<http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Immaterieel object dat informatie omvat, ttz gegevens of data waaraan op één of andere manier betekenis is gegeven. Een Informatieobject gaat ergens over (het is propositioneel) en brengt dat over dmv symbolen (karakters, tekens etc.) of aggregaties daarvan."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Informatie Object"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://wherever/TODO>, <http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object>.
+<http://www.cidoc-crm.org/cidoc-crm/E78_Collection#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E78_Collection>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verzameling MateriëleDingen die voor een specifiek doel en een bepaald publiek en volgens een ontwikkelingsplan door één of meer personen of organisaties wordt samengesteld en onderhouden (\"gecureerd\" en \"bewaard\" in museumtermen)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Gecureerde Collectie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://wherever/TODO>, <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing>.
+<http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Uitbreiding, vergroting of verbetering van een MaterieelDing door toevoeging van een deel."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Toevoeging Deel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E11_Modification>.
+<http://www.cidoc-crm.org/cidoc-crm/E7_Activity#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Actie die bewust wordt uitgevoerd door een Agent met de bedoeling een cultureel, sociaal of materieel effect teweeg te brengen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Activiteit"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E5_Event>.
+<http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Inkrimping van een MaterieelDing door verwijdering van een deel."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Verwijdering Deel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E11_Modification>.
+<http://www.cidoc-crm.org/cidoc-crm/E87_Curation_Activity#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E87_Curation_Activity>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Activiteit die de continuïteit verzekert op het vlak van beheer, behoud en evolutie van een GecureerdeCollectie volgens een impliciet of expliciet plan."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Curatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity>.
+<http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Overdracht van de eigendomstitel van een MaterieelDing van de ene Agent naar de andere, bv door een verkoop of een erfenis."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Verwerving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity>.
+<http://www.cidoc-crm.org/cidoc-crm/E9_Move#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/E9_Move>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Wijziging in de fysieke locatie van een MensgemaaktObject."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Verhuis"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity>.
+<http://www.w3.org/ns/adms#Identifier#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/adms#Identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie gebruikt om een object uniek te identificeren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Identificator"@nl.
+<http://www.w3.org/ns/locn#Address#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#Address>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Meer leesbare voorstelling met enkel de basisgegevens van het adres, bedoeld voor het gebruik van een adres als attribuut van een ander object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Adresvoorstelling"@nl.
+<http://www.w3.org/ns/org#Organization#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/org#Organization>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een aantal mensen georganiseerd in een gemeenschap of andere sociale, commerciële of politieke structuur. De groep heeft een gemeenschappelijk doel of bestaansreden die de individuele leden ervan overstijgt en kan handelen als agent. Een organisatie heeft dikwijls een hiërarchische structuur."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Organisatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://purl.org/dc/terms/Agent>.
+<http://www.w3.org/ns/person#Person#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/person#Person>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Natuurlijk persoon."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Persoon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://purl.org/dc/terms/Agent>.
+<http://www.w3.org/ns/prov#Location#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/prov#Location>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van een geografische positie,dmv coordinaten,een toponiem,een adreslabel,een verwijzing naar een plaats/regio of verwijzing naar een adres."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Locatie"@nl.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed#Beschrijving#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Beschrijving>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Schriftelijke weergave van kenmerken van iets of iemand."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Beschrijving"@nl.
+<https://data.vlaanderen.be/ns/generiek#StandaardEenheid#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/generiek#StandaardEenheid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Eenheid vastgelegd door een standaardiserende organisatie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Standaard Eenheid"@nl.
+<https://schema.org/Number#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/Number>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van een hoeveelheid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Getal"@nl.
+<https://wherever/TODO#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://wherever/TODO>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Type Entiteit"@nl.
+<https://www.iflastandards.info/fr/frbr/frbroo#F1#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#F1>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Idee of combinatie van ideeën achter één of meer artistieke of intellectuele Expressies."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Werk"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://wherever/TODO>, <http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object>.
+<https://www.iflastandards.info/fr/frbr/frbroo#F19#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#F19>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Werk bedoeld om verspreid te worden voor een groter publiek, in materiële of elektronische vorm en gericht op het weergeven van de Expressies van andere Werken."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Publicatiewerk"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://wherever/TODO>.
+<https://www.iflastandards.info/fr/frbr/frbroo#F21#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#F21>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Werk gericht op het vastleggen van verschijnselen die plaatsvinden in een bepaald tijdsbestek."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Opnamewerk"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://wherever/TODO>.
+<https://www.iflastandards.info/fr/frbr/frbroo#F22#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#F22>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De immateriële realisatie van een Individueel Werk op een bepaald moment dat als een compleet geheel kan worden beschouwd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Zelfstandige Expressie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object>.
+<https://www.iflastandards.info/fr/frbr/frbroo#F24#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#F24>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geheel van zaken die uitdrukking geven aan de beslissingen van uitgevers mbt de selectie van de inhoud en de lay-out van publicaties."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Publicatie Expressie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://wherever/TODO>.
+<https://www.iflastandards.info/fr/frbr/frbroo#F25#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#F25>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Set van instructies waaraan individuele uitvoeringen van een Voorstelling moeten voldoen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Voorstellingsplan"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://wherever/TODO>.
+<https://www.iflastandards.info/fr/frbr/frbroo#F26#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#F26>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Expressie die het resultaat is van een Opnamesessie, bedoeld om wat daarbij geregistreerd werd over te brengen en te bewaren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Opname"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://wherever/TODO>.
+<https://www.iflastandards.info/fr/frbr/frbroo#F27#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#F27>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Activiteit die het ontstaan van een Werk markeert."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Conceptie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation>.
+<https://www.iflastandards.info/fr/frbr/frbroo#F28#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#F28>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Activiteit die leidt tot het ontstaan van een ZelfstandigeExpressie van een Werk."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Expressie Creatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation>, <http://www.cidoc-crm.org/cidoc-crm/E12_Production>.
+<https://www.iflastandards.info/fr/frbr/frbroo#F29#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#F29>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het vastleggen van verschijnselen die plaatsvinden in een bepaald tijdsbestek, bv de live opname van een voorstelling, het filmen van een documentaire."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Opnamesessie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://www.iflastandards.info/fr/frbr/frbroo#F28>.
+<https://www.iflastandards.info/fr/frbr/frbroo#F30#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#F30>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Activiteit die betrekking heeft op het publiceren, ttz het verspreiden van expressies naar een groot publiek, bv in boekvorm of op het web."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Publicatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://www.iflastandards.info/fr/frbr/frbroo#F28>.
+<https://www.iflastandards.info/fr/frbr/frbroo#F31#2021-04-22> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#F31>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het tonen van een artistieke expressie aan een publiek, bv theater, dans, muziek..."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Voorstelling"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity>.
+<http://purl.org/dc/terms/creator#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/creator>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Link naar de agent die de identificator heeft uitgegeven."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegekend door"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
+<http://purl.org/dc/terms/issued#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/issued>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijdstip waarop de identificator werd uitgegeven."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegekend op"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<https://data.vlaanderen.be/ns/openbaardomein#einddatum#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#einddatum>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum waarop de huidige versie van het beheerobject uit gebruik wordt genomen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "einddatum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<https://data.vlaanderen.be/ns/openbaardomein#nauwkeurigheid#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#nauwkeurigheid>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De precisie waarmee het object opgemeten werd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "nauwkeurigheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
+<http://schema.org/email#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/email>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Email-adres waarnaar men kan mailen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "email"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<http://schema.org/faxNumber#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/faxNumber>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Faxnummer waarnaar men kan faxen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "fax"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<http://schema.org/telephone#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/telephone>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Telefoonnummer waarop men kan bellen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "telefoon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<http://www.cidoc-crm.org/cidoc-crm/P108_has_produced#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P108_has_produced>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "MaterieelDing dat ontstond."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "product"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E12_Production>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing>.
+<http://www.cidoc-crm.org/cidoc-crm/P110_augmented#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P110_augmented>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "MaterieelDing waaraan iets is toegevoegd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "uitbreiding van"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing>.
+<http://www.cidoc-crm.org/cidoc-crm/P111_added#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P111_added>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "MaterieelDing dat is toegevoegd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegevoegd"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing>.
+<http://www.cidoc-crm.org/cidoc-crm/P112_diminished#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P112_diminished>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "MaterieelDing dat verkleind werd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "inkrimping van"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing>.
+<http://www.cidoc-crm.org/cidoc-crm/P113_removed#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P113_removed>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "MaterieelDing dat is verwijderd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "verwijderd"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing>.
+<http://www.cidoc-crm.org/cidoc-crm/P11_had_participant#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P11_had_participant>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Agent die actief of passief deelnam aan de Gebeurtenis."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "deelnemer"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E5_Event>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
+<http://www.cidoc-crm.org/cidoc-crm/P126_employed#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P126_employed>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Materiaal dat is gebruikt bij de Wijziging."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "gebruikt materiaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E11_Modification>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/openbaardomein#niveau#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#niveau>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het niveau waarop het object zich bevindt, relatief ten opzichte van andere objecten."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "niveau"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer>.
-<https://data.vlaanderen.be/ns/openbaardomein#oppervlakte#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#oppervlakte>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De afmeting van het object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "oppervlakte"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#Deel>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>.
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Element.heeftObstakel#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Element.heeftObstakel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het specifieke Element dat een obstakel vormt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft obstakel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#Element>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>.
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel.heeftObstakel#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel.heeftObstakel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het specifieke Element dat een obstakel vormt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft obstakel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/openbaardomein#Element>.
-<https://schema.org/unitCode#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+<http://www.cidoc-crm.org/cidoc-crm/P13_destroyed#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P13_destroyed>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "MaterieelDing dat werd vernietigd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "vernietiging van"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E6_Destruction>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing>.
+<http://www.cidoc-crm.org/cidoc-crm/P14.1_in_the_role_of#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P14.1_in_the_role_of>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aard van de Rol."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "rol"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Entiteit waaraan het kenmerk is toegekend."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegekend aan"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity>.
+<http://www.cidoc-crm.org/cidoc-crm/P141_assigned#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P141_assigned>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Waarde van het kenmerk die is toegekend."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegekende waarde"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Waarde>.
+<http://www.cidoc-crm.org/cidoc-crm/P147_curated#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P147_curated>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Collectie die werd gecureerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "cureerde"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E87_Curation_Activity>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E78_Collection>.
+<http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Agent die actief deelnam aan de Activiteit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "uitgevoerd door"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
+<http://www.cidoc-crm.org/cidoc-crm/P14i_performed#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P14i_performed>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Activiteit waaraan de Agent actief deelnam."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "voerde uit"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Agent>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity>.
+<http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Materieel of immaterieel Ding gebruikt en essentieel voor de uitvoering of het resultaat van de Activiteit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "gebruikt object"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E70_Thing>.
+<http://www.cidoc-crm.org/cidoc-crm/P177_assigned_property_type#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P177_assigned_property_type>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het kenmerk dat is toegekend."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegekend attribuut"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
+<http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Identificator van de TemporeleEntiteit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "identificator"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Identifier>.
+<http://www.cidoc-crm.org/cidoc-crm/P22_transferred_title_to#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P22_transferred_title_to>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Agent die eigenaar wordt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "overgedragen aan"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
+<http://www.cidoc-crm.org/cidoc-crm/P22i_acquired_title_through#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P22i_acquired_title_through>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Activiteit waarbij de Agent een MaterieelDing in eigendom kreeg."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "in eigendom gekregen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Agent>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition>.
+<http://www.cidoc-crm.org/cidoc-crm/P23_transfered_title_from#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P23_transfered_title_from>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Agent die zijn bezit afstaat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "overgedragen van"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
+<http://www.cidoc-crm.org/cidoc-crm/P23i_surrendered_title_through#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P23i_surrendered_title_through>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Activiteit waarbij de Agent een MaterieelDing in eigendom gaf."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "in eigendom gegeven"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Agent>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition>.
+<http://www.cidoc-crm.org/cidoc-crm/P24_transferred_title_of#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P24_transferred_title_of>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "MaterieelDing dat werd verworven."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "overdracht van"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing>.
+<http://www.cidoc-crm.org/cidoc-crm/P25_moved#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P25_moved>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "MensgemaaktObject dat is verhuisd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "verhuisd"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E9_Move>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object>.
+<http://www.cidoc-crm.org/cidoc-crm/P26_moved_to#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P26_moved_to>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Locatie waarnaar het object is verhuisd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "verhuisd naar"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E9_Move>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://wherever/TODO>.
+<http://www.cidoc-crm.org/cidoc-crm/P27_moved_from#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P27_moved_from>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Locatie van waaruit het object is verhuisd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "verhuisd van"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E9_Move>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://wherever/TODO>.
+<http://www.cidoc-crm.org/cidoc-crm/P28_custody_surrendered_by#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P28_custody_surrendered_by>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Agent die het MatereelDing in bewaring gaf."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "overgedragen van"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
+<http://www.cidoc-crm.org/cidoc-crm/P28i_surrendered_custody_through#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P28i_surrendered_custody_through>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Activiteit waarbij de Agent een MaterieelDing in bewaring gaf."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "in bewaring gegeven"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Agent>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody>.
+<http://www.cidoc-crm.org/cidoc-crm/P29_custody_received_by#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P29_custody_received_by>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Agent die het MaterieelDing in bewaring kreeg."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "overgedragen aan"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
+<http://www.cidoc-crm.org/cidoc-crm/P29i_received_custody_through#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P29i_received_custody_through>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Activiteit waarbij de Agent een MaterieelDing in bewaring kreeg."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "in bewaring gekregen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Agent>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody>.
+<http://www.cidoc-crm.org/cidoc-crm/P2_has_type#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aard van de TemporeleEntiteit"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://wherever/TODO>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aard van de Conditie waarin het object zich bevindt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Type van de Entiteit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://wherever/TODO>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Grootheid van de Dimensie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://www.cidoc-crm.org/cidoc-crm/P30_transferred_custody_of#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P30_transferred_custody_of>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "MateriaalDing waarvan de Bewaring werd overgedragen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "overdracht van"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing>.
+<http://www.cidoc-crm.org/cidoc-crm/P31_has_modified#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P31_has_modified>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het MaterieelDing dat werd gewijzigd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "is gewijzigd"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E11_Modification>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing>.
+<http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Techniek of methode die gebruikt werd bij de Activiteit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "gebruikte techniek"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://www.cidoc-crm.org/cidoc-crm/P34_concerned#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P34_concerned>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het MaterieelDing dat werd beoordeeld tijdens Conditiebeoordeling."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "conditie van"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing>.
+<http://www.cidoc-crm.org/cidoc-crm/P35_has_identified#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P35_has_identified>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De conditie waarin het MaterieelDing zich bleek te bevinden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "vastgestelde staat"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State>.
+<http://www.cidoc-crm.org/cidoc-crm/P39_measured#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P39_measured>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Entiteit die werd gemeten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "gemeten entiteit"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E16_Measurement>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity>.
+<http://www.cidoc-crm.org/cidoc-crm/P3_has_note#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van de TemporeleEntiteit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Beschrijving>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van de Conditie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "nota"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Beschrijving>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van de Entiteit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Beschrijving>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van de Dimensie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Beschrijving>.
+<http://www.cidoc-crm.org/cidoc-crm/P40_observed_dimension#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P40_observed_dimension>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De Dimensie die werd gemeten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "vastgestelde waarde"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E16_Measurement>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension>.
+<http://www.cidoc-crm.org/cidoc-crm/P41_classified#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P41_classified>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "MaterieelDing dat werd geclassificeerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "getypeerde entiteit"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity>.
+<http://www.cidoc-crm.org/cidoc-crm/P42_assigned#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P42_assigned>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Type dat aan het MaterieelDing werd toegekend."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegekend type"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://wherever/TODO>.
+<http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Periode waarin de Gebeurtenis plaatsvond."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "tijd"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E5_Event>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://id.loc.gov/datatypes/edtf/EDTF>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijdspanne waarin het fenomeen plaatsvond."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "tijd"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://id.loc.gov/datatypes/edtf/EDTF>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijdspanne waarin het object zich in deze Conditie bevindt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "periode"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://id.loc.gov/datatypes/edtf/EDTF>.
+<http://www.cidoc-crm.org/cidoc-crm/P74_has_current_or_former_residence#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P74_has_current_or_former_residence>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Residentie van de Agent."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "residentie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Agent>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://wherever/TODO>.
+<http://www.cidoc-crm.org/cidoc-crm/P76_has_contact_point#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P76_has_contact_point>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Contactinfo van de Agent."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactinfo"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Agent>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/ContactPoint>.
+<http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Locatie waar de Gebeurtenis plaatsvond."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "plaats"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E5_Event>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://wherever/TODO>.
+<http://www.cidoc-crm.org/cidoc-crm/P94_has_created#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P94_has_created>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het ConceptueelDing dat werd gecreëerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "creatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object>.
+<http://www.w3.org/2004/02/skos/core#notation#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2004/02/skos/core#notation>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "String gebruikt om het object uniek te identificeren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "identificator"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>.
+<http://www.w3.org/2004/02/skos/core#prefLabel#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam waarmee de organisatie bij voorkeur wordt aangeduid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "voorkeursnaam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/org#Organization>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<http://www.w3.org/ns/adms#identifier#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/adms#identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Identificator van de Entiteit."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "identificator"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Identifier>.
+<http://www.w3.org/ns/adms#schemaAgency#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/adms#schemaAgency>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam vd agent die de identificator heeft toegekend."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegekend door (String)"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<http://www.w3.org/ns/locn#address#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#address>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Adres dat men kan aanschrijven of bezoeken."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "adres"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/locn#Address>.
+<http://www.w3.org/ns/locn#fullAddress#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#fullAddress>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het complete adres in één string, al dan niet geformatteerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "volledig adres"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<http://xmlns.com/foaf/0.1/familyName#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/familyName>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Gedeelte van de volledige naam vd persoon ontvangen van de vorige generatie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "achternaam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/person#Person>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<http://xmlns.com/foaf/0.1/givenName#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/givenName>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam die een kind bij geboorte wordt gegeven. Onderscheidt het kind van de andere kinderen in de familie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "voornaam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/person#Person>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<http://xmlns.com/foaf/0.1/name#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/name>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van bvb de persoon die men kan contacteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactnaam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<http://xmlns.com/foaf/0.1/page#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/page>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Website waarnaar men kan surfen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "website"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed#tekst#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/cultureel-erfgoed#tekst>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Tekst van de Beschrijving."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "tekst"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Beschrijving>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<https://data.vlaanderen.be/ns/cultureel-erfgoed#type#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/cultureel-erfgoed#type>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aard van de beschrijving."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Beschrijving>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://schema.org/unitCode#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <https://schema.org/unitCode>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "De gestandaardiseerde eenheid waarin de waarde is uitgedrukt."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "standaard eenheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension>;
     <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/generiek#StandaardEenheid>.
-<https://schema.org/unitText#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+<https://schema.org/unitText#2021-04-22> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
     <http://purl.org/dc/terms/isVersionOf> <https://schema.org/unitText>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "De eenheid waarin de waarde is uitgedrukt."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "eenheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<https://schema.org/value#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+<https://schema.org/value#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <https://schema.org/value>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "Getal waarmee de kwantiteit van het kenmerk kan worden uitgedrukt."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "waarde"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/Number>
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/Number>.
+<https://www.iflastandards.info/fr/frbr/frbroo#R16#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#R16>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het Werk dat gecreëerd werd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "werk"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.iflastandards.info/fr/frbr/frbroo#F27>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.iflastandards.info/fr/frbr/frbroo#F1>.
+<https://www.iflastandards.info/fr/frbr/frbroo#R17#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#R17>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "ZelfstandigeExpressie die werd gecreëerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "expressie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.iflastandards.info/fr/frbr/frbroo#F28>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.iflastandards.info/fr/frbr/frbroo#F22>.
+<https://www.iflastandards.info/fr/frbr/frbroo#R19#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#R19>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Werk dat hierdoor werd gerealiseerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "gerealiseerd werk"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.iflastandards.info/fr/frbr/frbroo#F28>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.iflastandards.info/fr/frbr/frbroo#F1>.
+<https://www.iflastandards.info/fr/frbr/frbroo#R20#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#R20>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "TemporeleEntiteit die werd opgenomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "opname van"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.iflastandards.info/fr/frbr/frbroo#F29>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity>.
+<https://www.iflastandards.info/fr/frbr/frbroo#R21#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#R21>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Opname die werd gecreëerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "opname"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.iflastandards.info/fr/frbr/frbroo#F29>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.iflastandards.info/fr/frbr/frbroo#F26>.
+<https://www.iflastandards.info/fr/frbr/frbroo#R22#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#R22>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Opnamewerk dat hierdoor werd gerealiseerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "gerealiseerd werk"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.iflastandards.info/fr/frbr/frbroo#F29>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.iflastandards.info/fr/frbr/frbroo#F21>.
+<https://www.iflastandards.info/fr/frbr/frbroo#R23#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#R23>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Publicatiewerk dat hierbij werd gerealiseerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "gerealiseerd werk"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.iflastandards.info/fr/frbr/frbroo#F30>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.iflastandards.info/fr/frbr/frbroo#F19>.
+<https://www.iflastandards.info/fr/frbr/frbroo#R24#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#R24>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "PublicatieExpressie die werd gecreëerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "publicatie expressie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.iflastandards.info/fr/frbr/frbroo#F30>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.iflastandards.info/fr/frbr/frbroo#F24>.
+<https://www.iflastandards.info/fr/frbr/frbroo#R25#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#R25>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Voorstellingsplan dat wordt gevolgd bij de Voorstelling."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "volgt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.iflastandards.info/fr/frbr/frbroo#F31>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.iflastandards.info/fr/frbr/frbroo#F25>.
+<https://www.iflastandards.info/fr/frbr/frbroo#R66#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.iflastandards.info/fr/frbr/frbroo#R66>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Versie van een Werk of ZelfstandigeExpressie van een Werk die wordt opgevoerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "uitgevoerde versie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.iflastandards.info/fr/frbr/frbroo#F31>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#BegraafplaatsBlok#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#BegraafplaatsRij#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Columbarium#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Graf#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Strooiweide#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Urnenveld#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#bezetting#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#capaciteit#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#grafkelderAanwezig#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#grafteken#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#graftype#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#Deel#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#Element#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel#2021-09-30>, <https://schema.org/QuantitativeValue#2021-09-30>, <http://open.vocab.org/terms/length#2021-09-30>, <http://purl.org/dc/terms/relation#2021-09-30>, <http://schema.org/width#2021-09-30>, <http://www.w3.org/ns/locn#geometry#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#begindatum#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#einddatum#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#nauwkeurigheid#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#niveau#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#oppervlakte#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Element.heeftObstakel#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel.heeftObstakel#2021-09-30>, <https://schema.org/unitCode#2021-09-30>, <https://schema.org/unitText#2021-09-30>, <https://schema.org/value#2021-09-30>;
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol#2021-04-22>, <https://data.vlaanderen.be/ns/cultureel-erfgoed#Waarde#2021-04-22>, <https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol.activiteit#2021-04-22>, <https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol.agent#2021-04-22>, <http://id.loc.gov/datatypes/edtf/EDTF#2021-04-22>, <http://purl.org/dc/terms/Agent#2021-04-22>, <http://schema.org/ContactPoint#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E11_Modification#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E12_Production#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E16_Measurement#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E5_Event#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E65_Creation#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E6_Destruction#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E70_Thing#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E78_Collection#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E7_Activity#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E87_Curation_Activity#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/E9_Move#2021-04-22>, <http://www.w3.org/ns/adms#Identifier#2021-04-22>, <http://www.w3.org/ns/locn#Address#2021-04-22>, <http://www.w3.org/ns/org#Organization#2021-04-22>, <http://www.w3.org/ns/person#Person#2021-04-22>, <http://www.w3.org/ns/prov#Location#2021-04-22>, <https://data.vlaanderen.be/ns/cultureel-erfgoed#Beschrijving#2021-04-22>, <https://data.vlaanderen.be/ns/generiek#StandaardEenheid#2021-04-22>, <https://schema.org/Number#2021-04-22>, <https://wherever/TODO#2021-04-22>, <https://www.iflastandards.info/fr/frbr/frbroo#F1#2021-04-22>, <https://www.iflastandards.info/fr/frbr/frbroo#F19#2021-04-22>, <https://www.iflastandards.info/fr/frbr/frbroo#F21#2021-04-22>, <https://www.iflastandards.info/fr/frbr/frbroo#F22#2021-04-22>, <https://www.iflastandards.info/fr/frbr/frbroo#F24#2021-04-22>, <https://www.iflastandards.info/fr/frbr/frbroo#F25#2021-04-22>, <https://www.iflastandards.info/fr/frbr/frbroo#F26#2021-04-22>, <https://www.iflastandards.info/fr/frbr/frbroo#F27#2021-04-22>, <https://www.iflastandards.info/fr/frbr/frbroo#F28#2021-04-22>, <https://www.iflastandards.info/fr/frbr/frbroo#F29#2021-04-22>, <https://www.iflastandards.info/fr/frbr/frbroo#F30#2021-04-22>, <https://www.iflastandards.info/fr/frbr/frbroo#F31#2021-04-22>, <http://purl.org/dc/terms/creator#2021-04-22>, <http://purl.org/dc/terms/issued#2021-04-22>, <http://schema.org/email#2021-04-22>, <http://schema.org/faxNumber#2021-04-22>, <http://schema.org/telephone#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P108_has_produced#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P110_augmented#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P111_added#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P112_diminished#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P113_removed#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P11_had_participant#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P126_employed#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P13_destroyed#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P14.1_in_the_role_of#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P141_assigned#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P147_curated#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P14i_performed#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P177_assigned_property_type#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P22_transferred_title_to#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P22i_acquired_title_through#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P23_transfered_title_from#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P23i_surrendered_title_through#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P24_transferred_title_of#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P25_moved#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P26_moved_to#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P27_moved_from#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P28_custody_surrendered_by#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P28i_surrendered_custody_through#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P29_custody_received_by#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P29i_received_custody_through#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P2_has_type#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P2_has_type#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P2_has_type#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P2_has_type#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P30_transferred_custody_of#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P31_has_modified#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P34_concerned#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P35_has_identified#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P39_measured#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P3_has_note#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P3_has_note#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P3_has_note#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P3_has_note#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P40_observed_dimension#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P41_classified#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P42_assigned#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P74_has_current_or_former_residence#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P76_has_contact_point#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at#2021-04-22>, <http://www.cidoc-crm.org/cidoc-crm/P94_has_created#2021-04-22>, <http://www.w3.org/2004/02/skos/core#notation#2021-04-22>, <http://www.w3.org/2004/02/skos/core#prefLabel#2021-04-22>, <http://www.w3.org/ns/adms#identifier#2021-04-22>, <http://www.w3.org/ns/adms#schemaAgency#2021-04-22>, <http://www.w3.org/ns/locn#address#2021-04-22>, <http://www.w3.org/ns/locn#fullAddress#2021-04-22>, <http://xmlns.com/foaf/0.1/familyName#2021-04-22>, <http://xmlns.com/foaf/0.1/givenName#2021-04-22>, <http://xmlns.com/foaf/0.1/name#2021-04-22>, <http://xmlns.com/foaf/0.1/page#2021-04-22>, <https://data.vlaanderen.be/ns/cultureel-erfgoed#tekst#2021-04-22>, <https://data.vlaanderen.be/ns/cultureel-erfgoed#type#2021-04-22>, <https://schema.org/unitCode#2021-04-22>, <https://schema.org/unitText#2021-04-22>, <https://schema.org/value#2021-04-22>, <https://www.iflastandards.info/fr/frbr/frbroo#R16#2021-04-22>, <https://www.iflastandards.info/fr/frbr/frbroo#R17#2021-04-22>, <https://www.iflastandards.info/fr/frbr/frbroo#R19#2021-04-22>, <https://www.iflastandards.info/fr/frbr/frbroo#R20#2021-04-22>, <https://www.iflastandards.info/fr/frbr/frbroo#R21#2021-04-22>, <https://www.iflastandards.info/fr/frbr/frbroo#R22#2021-04-22>, <https://www.iflastandards.info/fr/frbr/frbroo#R23#2021-04-22>, <https://www.iflastandards.info/fr/frbr/frbroo#R24#2021-04-22>, <https://www.iflastandards.info/fr/frbr/frbroo#R25#2021-04-22>, <https://www.iflastandards.info/fr/frbr/frbroo#R66#2021-04-22>;
     <https://w3id.org/tree#view> <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/7.trig>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/7.trig> <https://w3id.org/tree#relation> _:df_0_6.
 _:df_0_6 a <https://w3id.org/tree#Relation>;
