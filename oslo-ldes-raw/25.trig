@@ -1,1107 +1,328 @@
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod> {
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Aanbieder#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Aanbieder>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geregistreerde Organisatie die Mobiliteitsdiensten aanbiedt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Aanbieder"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/regorg#RegisteredOrganization>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Beschikbaarheid#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Beschikbaarheid>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Mate waarin iets voorhanden is voor gebruik."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Beschikbaarheid"@nl.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het vastleggen van een Reis door aankoop van een Vervoersbewijs en/of het reserveren van een Resource."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Boeking"@nl.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Dienstregeling#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Dienstregeling>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Planning in tijd en ruimte van een dienst."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Dienstregeling"@nl.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Kenmerk#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Kenmerk>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Eigenschap van de Reiziger."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Kenmerk"@nl.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Licentie#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Licentie>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Formele toestemming om een Mobiliteitsdienst aan te bieden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Licentie"@nl.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Dienstverlening die verplaatsingen van Personen tussen Locaties mogelijk maakt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Mobiliteitsdienst"@nl.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Overstap#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Overstap>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Logische verbinding tussen twee Routeknopen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Overstap"@nl.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Pseudoniem#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Pseudoniem>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van een Persoon die afwijkt van zijn werkelijke naam."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Pseudoniem"@nl.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reiziger#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reiziger>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Persoon die een Reis onderneemt of wil ondernemen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Reiziger"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://purl.org/dc/terms/Agent>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Kenmerken van de Reservatie van een Resource bij een Boeking."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Reservatie"@nl.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Middel dat de Mobiliteitsdienst aan de Reiziger kan aanbieden om zijn verplaatsing te maken."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Resource"@nl.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Mogelijke, gekozen of afgelegde weg tussen twee Locaties (resp het vertrekpunt en het aankomstpunt)."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Route"@nl.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routebeschrijving#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routebeschrijving>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van een Route."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Routebeschrijving"@nl.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Significante positie in de Route die steeds samenvalt met het begin of het einde van een Routesegment."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Routeknoop"@nl.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeplanner#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeplanner>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Software waarmee de Route van een Reis kan worden berekend."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Routeplanner"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://purl.org/dc/terms/Agent>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Deel van een Route dat zonder Overstap wordt afgelegd met hetzelfde vervoermiddel."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Routesegment"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Toegankelijkheid#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Toegankelijkheid>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Mate waarin iets bereikt kan worden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Toegankelijkheid"@nl.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Transportconnectie#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Transportconnectie>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Logische verbinding tussen twee of meer Transportobjecten in verschillende Transportnetwerken."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Transportconnectie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/netwerk#Connectie>, <https://data.vlaanderen.be/ns/transportnetwerk#Transportobject>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Uitvoerder#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Uitvoerder>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Agent die Mobiliteitsdienst uitvoert."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Uitvoerder"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://purl.org/dc/terms/Agent>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Bewijs van bepaald recht op vervoer of diensten daarmee geassocieerd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Vervoersbewijs"@nl.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Voorkeur#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Voorkeur>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Voorkeur van de Reiziger."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Voorkeur"@nl.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Waarde#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Waarde>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De concrete, kwantitatieve of kwalitatieve invulling van een grootheid of categorie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Waarde"@nl.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking.resource#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking.resource>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Resource die is gereserveerd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "resource"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking.status#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking.status>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Status van de Boeking."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "status"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking>;
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen> {
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De ruimtelijke massa van planten-individuen, in samenhang met de plaats waar zij groeien. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Begroeid voorkomen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bloemenakker#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bloemenakker>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Grasland dat is ingezaaid met (éénjarige) wilde- of half wilde soorten waarvan de bodem elk jaar moet geschoffeld of geploegd worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bloemenakker"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasland>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bloemenweide#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bloemenweide>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Grasland dat is ingezaaid met (meerjarige) wilde- of half wilde soorten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bloemenweide"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BodembedekkendeHeesters#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BodembedekkendeHeesters>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Lage, breed uitgroeiende heesters."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bodembedekkende heesters"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heester>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bodembedekkers#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bodembedekkers>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aangelegd begroeiingstype, doorgaans met vaste planten, die bedoeld is om snel de bodem te bedekken."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bodembedekkers"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sierbeplanting>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BolEnKnolgewassen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BolEnKnolgewassen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Bol- en knolgewassen beschikken over een ondergronds voedselreservoir in de vorm van een bol of een knol. Veelal verschijnen de bovengrondse delen in een specifieke periode van het jaar en kennen zij een geweldige bloei."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bol- en knolgewassen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sierbeplanting>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bollengrasland#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bollengrasland>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Grasland met planten die bloeien voor de groei van de graszode goed op gang komt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bollengrasland"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bomen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bomen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Opgaande beplanting van houtachtige gewassen die boomvormend zijn."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bomen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Braakland#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Braakland>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijdelijke eenheid die ongebruikt blijft liggen en nog niet tot ruigte of bos geëvolueerd is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Braakland"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#DrogeRuigte#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#DrogeRuigte>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Ruigte op droge bodems."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Droge ruigte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Ruigte>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Gazon#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Gazon>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Begroeiing zonder bloeiende grassen noch planten, gekenmerkt door een monotoon groen uiterlijk, lage soortendiversiteit en een kort vegetatiedek (enkele centimers hoogte). Een gazon wordt in stand gehouden door een intensief beheer (hoge maaifrequentie)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Gazon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GeschorenHaag#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GeschorenHaag>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Haag die standaard 2 keer per jaar wordt geschoren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Geschoren haag"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Haag>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasachtigen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasachtigen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Begroeiingen die overheersend bestaat uit grassen (behorende tot de Grassenfamilie, Poaceae)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Grasachtigen (deprecated)"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasdals#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasdals>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Gras- en kruidachtig vegetatietype dat voorzien is van een rastervormig verstevigingsmateriaal en bedoeld om de bodem te verstevigen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Grasdal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasland#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasland>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Grazige vegetatie met daarin kruidachtigen die jaarlijks één of meerdere malen per jaar gemaaid of begraasd wordt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Grasland"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Begroeiingen die overheersend bestaat uit grassen (behorende tot de Grassenfamilie, Poaceae)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Grazige vegetatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grindgazon#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grindgazon>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Berijdbaar gazontype specifiek op een gestabiliseerde ondergrond."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Grindgazon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Gazon>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Haag#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Haag>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Hagen zijn lijnvormige elementen en onderscheiden zich van een heestermassief doordat zowel de bovenkant als de zijkanten geschoren worden en dit 1 keer per jaar."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Haag"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heester#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heester>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Houtachtige planten die in of dicht bij de grond vertakken. Anders dan een boom vormen ze in het algemeen geen duidelijke stam, maar komen de meeste soorten met een aantal takken uit de grond, die dan ook grondtakken genoemd worden. Voorwaarde is wel dat de plant in zijn eventuele stam en takken houtweefsel vormt, hoewel dat niet tot in het hart hoeft te zijn."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Heester"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heestermassief#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heestermassief>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Heestertype gekenmerkt door een gesloten, massieve structuur, waarbij de individuele heesters moeilijk te onderscheiden zijn."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Heestermassief"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heester>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heg#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heg>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Haag die om de twee jaar wordt geschoren (of minder)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Heg"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Haag>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Hooiland#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Hooiland>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een grasland gebruikt wordt om hooi te oogsten met hoofdzakelijk inheemse planten en dat extensief gemaaid wordt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Hooiland"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Houtige planten of houtige gewassen (planta lignosa) zijn overblijvende planten die worden gekenmerkt door secundaire diktegroei, waardoor de takken, stammen en wortels veel hout bevatten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Houtachtigen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtkant#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtkant>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Ongeschoren haag of mantelvegetatie, die soms als hakhout wordt behandeld, maar niet op een door de mens aangelegde wal (verhoging)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Houtkant"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtwal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtwal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Houtkant op een door de mens aangelegde wal (verhoging)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Houtwal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Kleinfruit#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Kleinfruit>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Heesters die eetbare vruchten, zoals bessen en noten, opleveren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Kleinfruit"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heester>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Kruidachtigen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Kruidachtigen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Planten die geen blijvende houtige stengel vormen. Eenjarige, tweejarige of vaste planten, die in de winter tot de grond toe afsterven."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Kruidachtigen (deprecated)"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#NatteRuigte#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#NatteRuigte>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een vegetatie op natte standplaatsen die ontstaat na het wegvallen van beheer (maaien of begrazen) en dat gepaard gaat met de vestiging en/of uitbreiding van forse plantensoorten (zogenaamde ruigtekruiden). Deze ruigtekruiden zijn gekenmerkt door hun overblijvende natuur, hun snelle groei en de productie van aanzienlijke hoeveelheden strooisel, waardoor ze andere, vooral kleinere soorten, verdringen en de vestiging van andere soorten verhinderen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Natte ruigte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Ruigte>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#NietBegroeid#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#NietBegroeid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "(Deel van) een begroeiingstype dat door een bepaalde reden niet begroeid is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Niet begroeid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Oevervegetatie#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Oevervegetatie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Planten die in de waterbodem wortelen maar boven het water uitsteken."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Oevervegetatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Ruigte>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Rozen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Rozen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Begroeiingen die tot de rozenfamilie (Rosaceae) behoren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Rozen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heester>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Ruigte#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Ruigte>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Terrein of zoomvegetatie gedomineerd door ruigtekruiden of riet."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Ruigte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sierbeplanting>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#RuwGras#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#RuwGras>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Grasland zonder bloeiende grassen noch planten, gekenmerkt door een monotoon groen uiterlijk en een extensief beheer."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Ruw gras (deprecated)"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasachtigen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sierbeplanting#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sierbeplanting>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Eénjarige, meerjarige of vaste planten die geen blijvende houtige stengel vormen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Sierbeplanting"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Siergazon#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Siergazon>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Gazon aangelegd vanwege decoratieve waarde."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Siergazon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Gazon>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Siergrassen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Siergrassen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Grasachtige planten met een decoratieve waarde."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Siergrassen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sierbeplanting>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Speelgazon#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Speelgazon>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Gazon gebruikt als speelterrein."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Speelgazon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Gazon>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sportgazon#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sportgazon>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Gazon gebruikt als sportterrein."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Sportgazon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Gazon>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Struweel#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Struweel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een struweel is een met struiken begroeide oppervlakte dat minimaal 5 m breed is, minimaal 1 m hoog, maar meestal 2 tot 5 m hoog is. Een struweel is meestal meersoortig en vaak aan de rand van een bos terug te vinden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Struweel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#VastePlanten#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#VastePlanten>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Begroeiingstype met planten die een kruidachtige stengel hebben en overblijvend zijn."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Vaste planten"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sierbeplanting>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Watervegetatie#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Watervegetatie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "In water voorkomende vegetatie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Watervegetatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Ruigte>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Weiland#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Weiland>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Open grasland dat gebruikt wordt om vee te laten grazen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Weiland"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Wisselperk#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Wisselperk>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "\tJaarlijks opnieuw aangelegd begroeiingstype waarbij de sierwaarde centraal staat. De sierwaarde bestaat uit rijkelijk bloeiende planten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Wisselperk"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sierbeplanting>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#drassigheid#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#drassigheid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Mate waarin de bodem verzadigd is met water."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "drassigheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking.vervoersbewijs#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking.vervoersbewijs>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Vervoersbewijs voor de geboekte Reis."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "vervoersbewijs"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.aandrijving#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.aandrijving>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aandrijving van het vervoermiddel waarmee of waarvoor de Mobiliteitsdienst doorgaans wordt georganiseerd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "aandrijving"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.beschikbaarheid#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.beschikbaarheid>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschikbaarheid van de Mobiliteitsdienst."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "beschikbaarheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Beschikbaarheid>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.resource#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.resource>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Resource waarover de Mobiliteitsdienst beschikt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "resource"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.toegankelijkheid#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.toegankelijkheid>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Toegankelijkheid van de Mobiliteitsdienst."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "toegankelijkheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Toegankelijkheid>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.vervoermiddel#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.vervoermiddel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Vervoermiddel waarmee of waarvoor de Mobiliteitsdienst doorgaans wordt georganiseerd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "vervoermiddel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Overstap.aandrijving#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Overstap.aandrijving>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aandrijving van het vervoermiddel waarmee de Overstap gebeurt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "aandrijving"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Overstap>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Overstap.gerealiseerdOp#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Overstap.gerealiseerdOp>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Transportobject waarmee de Routeconnectie samenvalt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gerealiseerd op"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Overstap>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/transportnetwerk#Transportobject>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Overstap.routeknoop.source#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Overstap.routeknoop.source>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Referentie naar verbonden klasse."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Routeknoop (source)"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Overstap>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Overstap.routeknoop.target#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Overstap.routeknoop.target>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Referentie naar verbonden klasse."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Routeknoop (target)"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Overstap>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Overstap.vervoermiddel#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Overstap.vervoermiddel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Vervoermiddel waarmee de Overstap gebeurt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "vervoermiddel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Overstap>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reis.boeking#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reis.boeking>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Boeking van de Reis."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "boeking"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Trip>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reis.vervoersbewijs#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reis.vervoersbewijs>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Vervoersbewijs voor de Reis."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "vervoersbewijs"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Trip>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reiziger.vervoersbewijs#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reiziger.vervoersbewijs>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Vervoersbewijs van de Reiziger."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "vervoersbewijs"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reiziger>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie.boeking#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie.boeking>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Referentie naar verbonden klasse."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Boeking"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie.reisweg#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie.reisweg>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Reisweg waarvoor iets gereserveerd wordt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "reisweg"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Location>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie.resource#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie.resource>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Referentie naar verbonden klasse."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Resource"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource.aandrijving#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource.aandrijving>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aandrijving van het vervoermiddel."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "aandrijving"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource.dienst#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource.dienst>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Mobiliteitsdienst van de Resource."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "dienst"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource.status#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource.status>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Toestand waarin een Resource zich bevindt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "status"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource.vervoermiddel#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource.vervoermiddel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type vervoermiddel van de Resource."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "vervoermiddel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route.aankomsttijdstip#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route.aankomsttijdstip>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijdstip waarop de Route eindigt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "aankomsttijdstip"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route.afstand#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route.afstand>;
-    <http://www.w3.org/2000/01/rdf-schema#label> "afstand"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route>;
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#knipoppervlak#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#knipoppervlak>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De afmeting van het object dat geschoren moet worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "knipoppervlak"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>;
     <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route.vertrektijdstip#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route.vertrektijdstip>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijdstip waarop de Route begint."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "vertrektijdstip"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop.gerealiseerdDoor#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop.gerealiseerdDoor>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Mobiliteitsdienst die de Reiziger heeft gebruikt in de Routeknoop."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gerealiseerd door"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop.gerealiseerdMet#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop.gerealiseerdMet>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Resource van de Mobiliteitsdienst die de reiziger heeft gebruikt in de Routeknoop."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gerealiseerd met"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop.gerealiseerdOp#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop.gerealiseerdOp>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Transportobject dat met de Routeknoop samenvalt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gerealiseerd op"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/transportnetwerk#Transportobject>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop.vervoersbewijs#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop.vervoersbewijs>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Vervoersbewijs dat nodig is of gebruikt is in de Routeknoop."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "vervoersbewijs"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.aandrijving#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.aandrijving>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aandrijving van het vervoermiddel waarmee het Routesegment is afgelegd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "aandrijving"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment>;
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#materiaal#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#materiaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Materiaal waaruit de Grasdal is vervaardigd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "materiaal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.aankomsttijdstip#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.aankomsttijdstip>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijdstip waarop het Routesegment eindigt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "aankomsttijdstip"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.gerealiseerdDoor#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.gerealiseerdDoor>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Mobiliteitsdienst die de Reiziger heeft gebruikt bij het afleggen van het Routesegment."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gerealiseerd door"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.gerealiseerdMet#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.gerealiseerdMet>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Resource van de Mobiliteitsdienst die de Reiziger heeft gebruikt bij het afleggen van het Routesegment."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gerealiseerd met"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.vertrektijdstip#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.vertrektijdstip>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijdstip waarop het Routesegment begint."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "vertrektijdstip"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.vervoermiddel#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.vervoermiddel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Type vervoermiddel waarmee het Routesegment is afgelegd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "vervoermiddel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment>;
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortcode#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortcode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een unieke identificator voor de soort van het vegetatie-element. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "soortcode"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.vervoersbewijs#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.vervoersbewijs>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Vervoersbewijs waarmee het Routesegment kan worden afgelegd of is afgelegd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "vervoersbewijs"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Transportobject.beschikbaarheid#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Transportobject.beschikbaarheid>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschikbaarheid van het Transportobject."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "beschikbaarheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transportnetwerk#Transportobject>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Beschikbaarheid>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Transportobject.toegankelijkheid#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Transportobject.toegankelijkheid>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Toegankelijkheid van het Transportobject."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "toegankelijkheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transportnetwerk#Transportobject>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Toegankelijkheid>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs.afstand#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs.afstand>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Gecumuleerde afstand die men met het Vervoersbewijs mag afleggen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "afstand"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs.dienst#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs.dienst>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Mobiliteitsdienst waarvan men met het Vervoersbewijs gebruik mag maken."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "dienst"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs.reisweg#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs.reisweg>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Opeenvolging van Locaties waarvoor het Vervoersbewijs geldig is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "reisweg"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Location>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#aanbieder#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#aanbieder>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De aanbieder van de Mobiliteitsdienst."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "aanbieder"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Aanbieder>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#aangebodenBinnen#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#aangebodenBinnen>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Formeel Kader waarbinnen de Mobiliteitsdienst wordt aangeboden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "aangeboden binnen"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocab/cpsv#FormalFramework>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#aankomstknoop#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#aankomstknoop>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Knoop waar het Routesegment eindigt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "aankomstknoop"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#aankomstpunt#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#aankomstpunt>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Locatie waar de Route eindigt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "aankomstpunt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Location>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#aantal#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#aantal>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aantal reizen dat men met het Vervoersbewijs kan afleggen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "aantal"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#bedrag#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#bedrag>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geldbedrag dat aan de Mobiliteitsdienst kan worden besteed."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "bedrag"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/MonetaryAmount>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#berekendMet#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#berekendMet>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Routeplanner waarmee de Route is berekend."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "berekend met"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeplanner>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#beschikbaarOp#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#beschikbaarOp>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Transportobject waarop de Mobiliteitsdienst wordt aangeboden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "beschikbaar op"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/transportnetwerk#Transportobject>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#bestaatUit#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#bestaatUit>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Opeenvolging van Routesegmenten waaruit de Route bestaat."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "bestaat uit"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#dienstregeling#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#dienstregeling>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Schema met tijdstippen waarop iets wordt aangeboden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "dienstregeling"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Beschikbaarheid>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Dienstregeling>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#duur#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#duur>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Totale tijd waarvan men met het Vervoersbewijs van een Mobiliteitsdienst gebruik mag maken."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "duur"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#duration>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#gebruiker#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#gebruiker>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Type gebruiker waarvoor de beschikbaarheid geldt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gebruiker"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Beschikbaarheid>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#gekozenRoute#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#gekozenRoute>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Route die de Reiziger kiest uit de mogelijke Routes."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gekozen route"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Trip>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#identificator#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#identificator>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Identificator van de Resource."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "identificator"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#integreertInfoOver#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#integreertInfoOver>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Info over Transportnetwerken die een Routeplanner gebruikt om Routes te berekenen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "integreert info over"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeplanner>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/transportnetwerk#Transportnetwerk>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#isMedereizigerVan#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#isMedereizigerVan>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Reiziger die de Reiziger vergezelt tijdens de Reis."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "is medereiziger van"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reiziger>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reiziger>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#kenmerk#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#kenmerk>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Kenmerk van de Reiziger."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "kenmerk"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reiziger>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Kenmerk>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#kostprijs#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#kostprijs>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Prijs van de Route."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "kostprijs"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/MonetaryAmount>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#licentie#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#licentie>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Licentie waaronder de Mobiliteitsdienst wordt aangeboden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "licentie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Licentie>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#link#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#link>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Opeenvolging van Gerichte Links waaruit het Routesegment bestaat."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "link"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/netwerk#GerichteLink>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#mogelijkeRoute#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#mogelijkeRoute>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Routes die gevolgd kunnen worden om de Reis uit te voeren."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "mogelijke route"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Trip>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#niveau#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#niveau>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Niveau van toegankelijkheid."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "niveau"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Toegankelijkheid>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#omvat#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#omvat>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Meer specifieke Mobiliteitsdiensten waaruit de Mobiliteitsdienst is samengesteld."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "omvat"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#onderdeel#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#onderdeel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Deel van de dienst of infrastructuur waarop de Toegankelijkheid betrekking heeft.."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "onderdeel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Toegankelijkheid>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#onderneemt#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#onderneemt>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Reis die een Reiziger onderneemt of wil ondernemen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Onderneemt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reiziger>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/Trip>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#overstap#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#overstap>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Routeknoop waarnaar wordt overgestapt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "overstap"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#overstaptijd#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#overstaptijd>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijd waarin de overstap gebeurt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "overstaptijd"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Overstap>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#duration>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#periode#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#periode>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Periode waarin iets beschikbaar is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "periode"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Beschikbaarheid>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/PeriodOfTime>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#prijsplan#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#prijsplan>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Prijsplan van de Mobiliteitsdienst."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "prijsplan"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/PriceSpecification>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#pseudoniem#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#pseudoniem>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van de Reiziger die afwijkt van zijn werkelijke naam."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "pseudoniem"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reiziger>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Pseudoniem>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#reis#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#reis>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Reis die geboekt wordt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "reis"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/Trip>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#reisduur#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#reisduur>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijd waarin de Route wordt afgelegd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "reisduur"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#duration>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#routebeschrijving#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#routebeschrijving>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van de Route."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "routebeschrijving"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routebeschrijving>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#uitgevoerdDoor#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#uitgevoerdDoor>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Uitvoerder van de Mobiliteitsdienst."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "uitgevoerd door"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Uitvoerder>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#uitgevoerdeRoute#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#uitgevoerdeRoute>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Route die uiteindelijk uitgevoerd is om de Reis te realiseren."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "uitgevoerde route"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Trip>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#uitvoerder#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#uitvoerder>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Uitvoerder van het Routesegment."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "uitvoerder"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Uitvoerder>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#verkregenBinnen#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#verkregenBinnen>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Formeel Kader waarbinnen de Licentie is verkregen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "verkregen binnen"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Licentie>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocab/cpsv#FormalFramework>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#vertrekknoop#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#vertrekknoop>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Knoop waar het Routesegment begint."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "vertrekknoop"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#vertrekpunt#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#vertrekpunt>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Locatie waar de Route begint."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "vertrekpunt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Location>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#vervoersautoriteit#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#vervoersautoriteit>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Publieke Organisatie verantwoordelijk voor het verkeersmanagement of de planning, controle of het beheer van een bepaald vervoersnetwerk of vervoerswijze, of beide, die onder haar territoriale bevoegdheid vallen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "vervoersautoriteit"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Licentie>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/PublicOrganisation>.
-<https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#voorkeur#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#voorkeur>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Voorkeuren van de Reiziger."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "voorkeur"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reiziger>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Voorkeur>.
-<http://data.europa.eu/m8g/PeriodOfTime#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/PeriodOfTime>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Min of meer afgebakende tijdsduur."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Periode"@nl.
-<http://data.europa.eu/m8g/PublicOrganisation#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/PublicOrganisation>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Organisatie die volgens een wettelijk kader behoort tot de publieke sector, ongeacht het bestuursniveau waarop dat kader van kracht is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Publieke Organisatie"@nl.
-<http://purl.org/dc/terms/Location#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/Location>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een ruimtelijk gebied of benoemde plaats."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Plaats"@nl.
-<http://purl.org/vocab/cpsv#FormalFramework#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/vocab/cpsv#FormalFramework>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geheel van formele documenten dat regels, rechten, plichten ten aanzien van burgers, overheden, bedrijven etc beschrijft."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Formeel Kader"@nl.
-<http://schema.org/ContactPoint#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/ContactPoint>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email,telefoon,adres die toelaat om iemand of iets te contacteren."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Contactinfo"@nl.
-<http://schema.org/OpeningHoursSpecification#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/OpeningHoursSpecification>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie over de openingsuren ve plaats of dienst."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Openingsurenspecificatie"@nl.
-<http://www.opengis.net/ont/sf#LineString#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/sf#LineString>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Curve met lineaire interpolatie tussen de punten. Elk opeenvolgend paar punten vormt een lijnsegment. De lijnstring heeft ten minste twee punten."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Lijnstring"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/locn#Geometry>.
-<http://www.opengis.net/ont/sf#Point#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/sf#Point>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een 0-dimensioneel geometrisch object dat een bepaalde locatie in een coördinaatruimte voorstelt. Heeft een x-coördinaat en een y-coördinaat. Kan ook een z-coördinaat (hoogte) en een m-coördinaat (afstand langs een curve) hebben."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Punt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/locn#Geometry>.
-<http://www.opengis.net/ont/sf#Polygon#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/sf#Polygon>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Oppervlak bestaande uit 1 buitengrens en 0 of meer binnengrenzen. Elke binnengrens vormt een gat in de polygoon."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Polygoon"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/locn#Geometry>.
-<http://www.w3.org/1999/02/22-rdf-syntax-ns#langString#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Benaming toegekend aan of gebruikt voor een geografisch object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Geografische Naam"@nl;
-    a <http://www.w3.org/2002/07/owl#Class>;
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortnaamNederlands#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortnaamNederlands>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Soortnaam in het Nederlands."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "soortnaam Nederlands"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#vrijUitgroeiend#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#vrijUitgroeiend>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of de vegetatie of begroeiing al dan niet snoei vereist."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "vrij uitgroeiend"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#Object>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#langString#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "Combinatie van een string en de taal waarin de inhoud ervan is gesteld."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "Taalstring"@nl.
-<http://www.w3.org/2000/01/rdf-schema#Literal#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2000/01/rdf-schema#Literal>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Combinatie van een string en het type van wat de string voorstelt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Getypeerde String"@nl.
-<http://www.w3.org/ns/adms#Identifier#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/adms#Identifier>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie gebruikt om een object uniek te identificeren."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Identificator"@nl.
-<http://www.w3.org/ns/locn#Geometry#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#Geometry>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Vorm- en positiekenmerken van een object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Geometrie"@nl.
-<http://www.w3.org/ns/prov#Location#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/prov#Location>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van een geografische positie,dmv coordinaten,een toponiem,een adreslabel,een verwijzing naar een plaats/regio of verwijzing naar een adres."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Locatie"@nl.
-<https://data.vlaanderen.be/ns/generiek#StandaardEenheid#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/generiek#StandaardEenheid>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Eenheid vastgelegd door een standaardiserende organisatie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Standaard Eenheid"@nl.
-<https://data.vlaanderen.be/ns/netwerk#GerichteLink#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/netwerk#GerichteLink>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Link in hetzij zijn positieve, hetzij zijn negatieve richting."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Gerichte link"@nl.
-<https://data.vlaanderen.be/ns/netwerk#Link#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/netwerk#Link>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Curvilineair netwerkelement dat twee posities verbindt en een homogeen pad in het Netwerk vertegenwoordigt. De verbonden posities worden voorgesteld door Knopen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Link"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/netwerk#GeneriekeLink>.
-<https://data.vlaanderen.be/ns/transportnetwerk#Transportgebied#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/transportnetwerk#Transportgebied>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Tweedimensionaal Transportobject in een Transportnetwerk."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Transportgebied"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/transportnetwerk#Transportobject>, <https://data.vlaanderen.be/ns/netwerk#Netwerkgebied>.
-<https://data.vlaanderen.be/ns/transportnetwerk#Transportknoop#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/transportnetwerk#Transportknoop>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Significante positie in het Transportnetwerk die steeds samenvalt met het begin of het einde van een Transportlink."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Transportknoop"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/transportnetwerk#Transportobject>, <https://data.vlaanderen.be/ns/netwerk#Knoop>.
-<https://data.vlaanderen.be/ns/transportnetwerk#Transportnetwerk#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/transportnetwerk#Transportnetwerk>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Verzameling van Netwerkelementen die eenzelfde vervoerswijze vertegenwoordigen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Transportnetwerk"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/netwerk#Netwerk>.
-<https://data.vlaanderen.be/ns/transportnetwerk#Transportobject#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/transportnetwerk#Transportobject>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Element in een Transportnetwerk dat daarin een functie van belang vervult."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Transportobject"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/netwerk#Netwerkelement>.
-<https://schema.org/MonetaryAmount#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/MonetaryAmount>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een geldwaarde of -bereik."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Geldbedrag"@nl.
-<https://schema.org/Number#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/Number>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van een hoeveelheid."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Getal"@nl.
-<https://schema.org/PriceSpecification#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/PriceSpecification>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Prijs van de Reizen die met de Mobiliteitsdienst kunnen worden uitgevoerd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Prijsplan"@nl.
-<https://schema.org/QuantitativeValue#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
+<https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van het fysieke voorkomen van het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Fysiek voorkomen"@nl.
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van het terrein voorkomen van het terreindeel."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Terrein voorkomen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen>.
+<https://schema.org/QuantitativeValue#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <https://schema.org/QuantitativeValue>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van de kwantiteit van een bepaald kenmerk van een object."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "Kwantitatieve Waarde"@nl.
-<https://schema.org/Trip#2020-04-23> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/Trip>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Vrijwillige verplaatsing van een Persoon van de ene Locatie naar een andere Locatie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Reis"@nl.
-<http://data.europa.eu/m8g/endTime#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/endTime>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Einde vd tijdsduur."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "einde"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/PeriodOfTime>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<http://data.europa.eu/m8g/startTime#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/startTime>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanvang van de tijdsduur."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "begin"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/PeriodOfTime>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<http://data.europa.eu/m8g/territorialApplication#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/territorialApplication>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het geografisch bereik vh formeel kader."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "toepassingsgebied"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/cpsv#FormalFramework>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Location>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/territorialApplication>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Gebied of Plaats waarbinnen de Licentie geldt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "toepassingsgebied"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Licentie>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Location>.
-<http://purl.org/dc/terms/date#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/date>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijdstip waarop de Boeking is gebeurd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "datum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/date>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Periode waarvoor het Vervoersbewijs geldt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "periode"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/PeriodOfTime>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/date>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Periode waarvoor de Licentie geldt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "periode"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Licentie>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/PeriodOfTime>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/date>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Periode waarvoor iets gereserveerd wordt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "periode"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/PeriodOfTime>.
-<http://purl.org/dc/terms/description#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van het formeel kader."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/cpsv#FormalFramework>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
-    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van het Prijsplan."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/PriceSpecification>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
-<http://purl.org/dc/terms/relation#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/relation>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Ander formeel kader dat met het formeel kader verband houdt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "is gerelateerd aan"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/cpsv#FormalFramework>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocab/cpsv#FormalFramework>.
-<http://purl.org/dc/terms/spatial#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/spatial>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Gebied of Plaats waarbinnen de Mobiliteitsdienst wordt aangeboden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "ruimtelijke dekking"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Location>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/spatial>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Plaats waar de Resource zich bevindt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "ruimtelijke dekking"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Location>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/spatial>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Administratief gebied dat de Publieke Organisatie dekt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "werkingsgebied"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/PublicOrganisation>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Location>.
-<http://purl.org/dc/terms/title#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van de Mobiliteitsdienst."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
-    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van de Routeplanner."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeplanner>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>;
-    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam vh formeel kader."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/cpsv#FormalFramework>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
-    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van het Prijsplan."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/PriceSpecification>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
-<http://purl.org/dc/terms/type#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/type>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aard van de Route."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/type>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aard van de Routeknoop."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/type>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aard van de mobiliteitsdienst."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/type>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aard van de Resource."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/type>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aard van het Transportnetwerk volgens de vervoerswijze."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transportnetwerk#Transportnetwerk>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/type>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aard van de Voorkeur van de Reiziger."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Voorkeur>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/type>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aard van het Kenmerk van de Reiziger."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Kenmerk>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/type>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aard van het Vervoersbewijs."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/type>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aard van het Transportgebied."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transportnetwerk#Transportgebied>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/type>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aard van de Transportknoop."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transportnetwerk#Transportknoop>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/type>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aard van de Transportconnectie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Transportconnectie>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/type>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aard van de Toegankelijkheid."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Toegankelijkheid>;
+<http://open.vocab.org/terms/length#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://open.vocab.org/terms/length>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De lineare grootte van het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "lengte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>.
+<http://rs.tdwg.org/dwc/terms/scientificName#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://rs.tdwg.org/dwc/terms/scientificName>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De wetenschappelijke soortnaam."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "wetenschappelijke soortnaam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<http://schema.org/contactPoint#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/contactPoint>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email, telefoon... die toelaat de Organisatie te contacteren."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "contactinfo"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Aanbieder>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/ContactPoint>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/contactPoint>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email, telefoon... die toelaat de Organisatie te contacteren."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "contactinfo"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/PublicOrganisation>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/ContactPoint>.
-<http://schema.org/itinerary#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/itinerary>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Opeenvolging van Locaties die men tijdens de Reis wil aandoen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "reisweg"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Trip>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Location>.
-<http://schema.org/openingHours#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/openingHours>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Uren waarop iets beschikbaar is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "openingsurenString"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Beschikbaarheid>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>.
-<http://schema.org/partOfTrip#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/partOfTrip>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Deel van een volledige Reis dat op zichzelf ook beschouwd kan worden als een Reis."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "is deel van"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Trip>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/Trip>.
-<http://www.opengis.net/ont/geosparql#asGML#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/geosparql#asGML>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geometrie uitgedrukt in gml-formaat."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gml"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Geometry>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>.
-<http://www.opengis.net/ont/geosparql#asWKT#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/geosparql#asWKT>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geometrie uitgedrukt in wkt-formaat."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "wkt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Geometry>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>.
-<http://www.w3.org/2000/01/rdf-schema#label#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2000/01/rdf-schema#label>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van de plaats of van het gebied."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "plaatsnaam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Location>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
-<http://www.w3.org/2004/02/skos/core#prefLabel#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2004/02/skos/core#prefLabel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam waarmee de Organisatie bij voorkeur wordt aangeduid."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "voorkeursnaam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Aanbieder>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
-    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2004/02/skos/core#prefLabel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam waarmee de Organisatie bij voorkeur wordt aangeduid."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "voorkeursnaam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/PublicOrganisation>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
-<http://www.w3.org/ns/adms#identifier#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/adms#identifier>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Identificator van de Publieke Organisatie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "identificator"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/PublicOrganisation>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Identifier>.
-<http://www.w3.org/ns/locn#geometry#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#geometry>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Locatie van de Routeknoop."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "geometrie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/sf#Point>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#geometry>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geometrie van de plaats of het gebied."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "geometrie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Location>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/locn#Geometry>.
-<http://www.w3.org/ns/regorg#registration#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/regorg#registration>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Identificator die de organisatie verkreeg bij registratie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "registratie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Aanbieder>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Identifier>.
-<https://data.vlaanderen.be/ns/netwerk#GerichteLink.link#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/netwerk#GerichteLink.link>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijzing naar de Link."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "link"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/netwerk#GerichteLink>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/netwerk#Link>.
-<https://data.vlaanderen.be/ns/netwerk#Knoop.geometrie#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/netwerk#Knoop.geometrie>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Locatie van de Transportknoop."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "geometrie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transportnetwerk#Transportknoop>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/sf#Point>.
-<https://data.vlaanderen.be/ns/netwerk#Netwerkgebied.geometrie#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/netwerk#Netwerkgebied.geometrie>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van de geometrie van het Transportgebied."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "geometrie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transportnetwerk#Transportgebied>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/sf#Polygon>.
-<https://data.vlaanderen.be/ns/netwerk#bestaatUit#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/netwerk#bestaatUit>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Transportobjecten waaruit het Transportnetwerk bestaat."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "bestaat uit"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transportnetwerk#Transportnetwerk>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/transportnetwerk#Transportobject>.
-<https://data.vlaanderen.be/ns/netwerk#geometriemiddellijn#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/netwerk#geometriemiddellijn>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geometrie van de midellijn van de Link."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "geometriemiddellijn"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/netwerk#Link>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/sf#LineString>.
-<https://data.vlaanderen.be/ns/netwerk#identificator#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/netwerk#identificator>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Identificator van het Transportgebied."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "identificator"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transportnetwerk#Transportgebied>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Identifier>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/netwerk#identificator>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Identificator van de Transportknoop."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "identificator"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transportnetwerk#Transportknoop>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Identifier>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/netwerk#identificator>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Identificator van de Transportconnectie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "identificator"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Transportconnectie>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Identifier>.
-<https://data.vlaanderen.be/ns/netwerk#richting#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/netwerk#richting>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of de richting van de link overeenstemt met zijn positieve of zijn negatieve richting."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "richting"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/netwerk#GerichteLink>;
+<http://schema.org/height#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/height>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De hoogte van het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "hoogte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>.
+<http://schema.org/width#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/width>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De breedte van het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "breedte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>.
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#obstakels#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#obstakels>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Eigenschap die aangeeft of er binnen het beheerdeel al dan niet objecten voorkomen die de vrije werking van machines of andere werktuigen kan verhinderen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "obstakels"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/netwerk#verbindt#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/netwerk#verbindt>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Transportobjecten die door deTransportconnectie verbonden zijn."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "verbindt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Transportconnectie>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/transportnetwerk#Transportobject>.
-<https://data.vlaanderen.be/ns/transportnetwerk#geografischeNaam#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/transportnetwerk#geografischeNaam>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van het Transportobject."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "geografische naam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transportnetwerk#Transportobject>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
-<https://schema.org/arrivalTime#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/arrivalTime>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijdstip waarop de Reis afgelopen is of waarop de Reiziger zou willen dat ze is afgelopen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "aankomsttijdstip"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Trip>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<https://schema.org/departureTime#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/departureTime>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijdstip waarop de Reis aanvangt of waarop de Reiziger zou willen dat ze aanvangt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "vertrektijdstip"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Trip>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<https://schema.org/hoursAvailable#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/hoursAvailable>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Uren waarop iets beschikbaar is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "openingsuren"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Beschikbaarheid>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/OpeningHoursSpecification>.
-<https://schema.org/price#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/price>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Prijs die voor de geboekte Reis of gereserveerde Resource is betaald."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "prijs"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/MonetaryAmount>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/price>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Prijs die voor het Vervoersbewijs is betaald."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "prijs"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/MonetaryAmount>.
-<https://schema.org/unitCode#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#talud#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#talud>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een talud is het kunstmatig gedeelte van een vlak van de wegbaan, dijken, spoorbanen, vestingswerken, ... dat een helling (min. 20%, max 80% voor kunstmatig verharde taluds) vertoont en bedoeld voor het opvangen van een hoogteverschil."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "talud"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://schema.org/unitCode#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <https://schema.org/unitCode>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "De gestandaardiseerde eenheid waarin de waarde is uitgedrukt."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "standaard eenheid"@nl;
     <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
     <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/generiek#StandaardEenheid>.
-<https://schema.org/unitText#2020-04-23> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+<https://schema.org/unitText#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
     <http://purl.org/dc/terms/isVersionOf> <https://schema.org/unitText>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "De eenheid waarin de waarde is uitgedrukt."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "eenheid"@nl;
     <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<https://schema.org/value#2020-04-23> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/value>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Waarde van de Voorkeur van de Reiziger."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "waarde"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Voorkeur>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Waarde>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/value>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Waarde van het Kenmerk van de reiziger."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "waarde"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Kenmerk>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Waarde>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+<https://schema.org/value#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <https://schema.org/value>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "Getal waarmee de kwantiteit van het kenmerk kan worden uitgedrukt."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "waarde"@nl;
     <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
     <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/Number>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Aanbieder#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Beschikbaarheid#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Dienstregeling#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Kenmerk#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Licentie#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Overstap#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Pseudoniem#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reiziger#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routebeschrijving#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeplanner#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Toegankelijkheid#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Transportconnectie#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Uitvoerder#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Voorkeur#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Waarde#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking.resource#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking.status#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking.vervoersbewijs#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.aandrijving#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.beschikbaarheid#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.resource#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.toegankelijkheid#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.vervoermiddel#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Overstap.aandrijving#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Overstap.gerealiseerdOp#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Overstap.routeknoop.source#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Overstap.routeknoop.target#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Overstap.vervoermiddel#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reis.boeking#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reis.vervoersbewijs#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reiziger.vervoersbewijs#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie.boeking#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie.reisweg#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie.resource#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource.aandrijving#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource.dienst#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource.status#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource.vervoermiddel#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route.aankomsttijdstip#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route.afstand#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route.vertrektijdstip#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop.gerealiseerdDoor#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop.gerealiseerdMet#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop.gerealiseerdOp#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop.vervoersbewijs#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.aandrijving#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.aankomsttijdstip#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.gerealiseerdDoor#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.gerealiseerdMet#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.vertrektijdstip#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.vervoermiddel#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.vervoersbewijs#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Transportobject.beschikbaarheid#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Transportobject.toegankelijkheid#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs.afstand#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs.dienst#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs.reisweg#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#aanbieder#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#aangebodenBinnen#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#aankomstknoop#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#aankomstpunt#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#aantal#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#bedrag#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#berekendMet#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#beschikbaarOp#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#bestaatUit#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#dienstregeling#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#duur#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#gebruiker#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#gekozenRoute#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#identificator#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#integreertInfoOver#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#isMedereizigerVan#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#kenmerk#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#kostprijs#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#licentie#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#link#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#mogelijkeRoute#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#niveau#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#omvat#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#onderdeel#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#onderneemt#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#overstap#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#overstaptijd#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#periode#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#prijsplan#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#pseudoniem#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#reis#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#reisduur#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#routebeschrijving#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#uitgevoerdDoor#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#uitgevoerdeRoute#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#uitvoerder#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#verkregenBinnen#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#vertrekknoop#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#vertrekpunt#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#vervoersautoriteit#2020-04-23>, <https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#voorkeur#2020-04-23>, <http://data.europa.eu/m8g/PeriodOfTime#2020-04-23>, <http://data.europa.eu/m8g/PublicOrganisation#2020-04-23>, <http://purl.org/dc/terms/Location#2020-04-23>, <http://purl.org/vocab/cpsv#FormalFramework#2020-04-23>, <http://schema.org/ContactPoint#2020-04-23>, <http://schema.org/OpeningHoursSpecification#2020-04-23>, <http://www.opengis.net/ont/sf#LineString#2020-04-23>, <http://www.opengis.net/ont/sf#Point#2020-04-23>, <http://www.opengis.net/ont/sf#Polygon#2020-04-23>, <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString#2020-04-23>, <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString#2020-04-23>, <http://www.w3.org/2000/01/rdf-schema#Literal#2020-04-23>, <http://www.w3.org/ns/adms#Identifier#2020-04-23>, <http://www.w3.org/ns/locn#Geometry#2020-04-23>, <http://www.w3.org/ns/prov#Location#2020-04-23>, <https://data.vlaanderen.be/ns/generiek#StandaardEenheid#2020-04-23>, <https://data.vlaanderen.be/ns/netwerk#GerichteLink#2020-04-23>, <https://data.vlaanderen.be/ns/netwerk#Link#2020-04-23>, <https://data.vlaanderen.be/ns/transportnetwerk#Transportgebied#2020-04-23>, <https://data.vlaanderen.be/ns/transportnetwerk#Transportknoop#2020-04-23>, <https://data.vlaanderen.be/ns/transportnetwerk#Transportnetwerk#2020-04-23>, <https://data.vlaanderen.be/ns/transportnetwerk#Transportobject#2020-04-23>, <https://schema.org/MonetaryAmount#2020-04-23>, <https://schema.org/Number#2020-04-23>, <https://schema.org/PriceSpecification#2020-04-23>, <https://schema.org/QuantitativeValue#2020-04-23>, <https://schema.org/Trip#2020-04-23>, <http://data.europa.eu/m8g/endTime#2020-04-23>, <http://data.europa.eu/m8g/startTime#2020-04-23>, <http://data.europa.eu/m8g/territorialApplication#2020-04-23>, <http://data.europa.eu/m8g/territorialApplication#2020-04-23>, <http://purl.org/dc/terms/date#2020-04-23>, <http://purl.org/dc/terms/date#2020-04-23>, <http://purl.org/dc/terms/date#2020-04-23>, <http://purl.org/dc/terms/date#2020-04-23>, <http://purl.org/dc/terms/description#2020-04-23>, <http://purl.org/dc/terms/description#2020-04-23>, <http://purl.org/dc/terms/relation#2020-04-23>, <http://purl.org/dc/terms/spatial#2020-04-23>, <http://purl.org/dc/terms/spatial#2020-04-23>, <http://purl.org/dc/terms/spatial#2020-04-23>, <http://purl.org/dc/terms/title#2020-04-23>, <http://purl.org/dc/terms/title#2020-04-23>, <http://purl.org/dc/terms/title#2020-04-23>, <http://purl.org/dc/terms/title#2020-04-23>, <http://purl.org/dc/terms/type#2020-04-23>, <http://purl.org/dc/terms/type#2020-04-23>, <http://purl.org/dc/terms/type#2020-04-23>, <http://purl.org/dc/terms/type#2020-04-23>, <http://purl.org/dc/terms/type#2020-04-23>, <http://purl.org/dc/terms/type#2020-04-23>, <http://purl.org/dc/terms/type#2020-04-23>, <http://purl.org/dc/terms/type#2020-04-23>, <http://purl.org/dc/terms/type#2020-04-23>, <http://purl.org/dc/terms/type#2020-04-23>, <http://purl.org/dc/terms/type#2020-04-23>, <http://purl.org/dc/terms/type#2020-04-23>, <http://schema.org/contactPoint#2020-04-23>, <http://schema.org/contactPoint#2020-04-23>, <http://schema.org/itinerary#2020-04-23>, <http://schema.org/openingHours#2020-04-23>, <http://schema.org/partOfTrip#2020-04-23>, <http://www.opengis.net/ont/geosparql#asGML#2020-04-23>, <http://www.opengis.net/ont/geosparql#asWKT#2020-04-23>, <http://www.w3.org/2000/01/rdf-schema#label#2020-04-23>, <http://www.w3.org/2004/02/skos/core#prefLabel#2020-04-23>, <http://www.w3.org/2004/02/skos/core#prefLabel#2020-04-23>, <http://www.w3.org/ns/adms#identifier#2020-04-23>, <http://www.w3.org/ns/locn#geometry#2020-04-23>, <http://www.w3.org/ns/locn#geometry#2020-04-23>, <http://www.w3.org/ns/regorg#registration#2020-04-23>, <https://data.vlaanderen.be/ns/netwerk#GerichteLink.link#2020-04-23>, <https://data.vlaanderen.be/ns/netwerk#Knoop.geometrie#2020-04-23>, <https://data.vlaanderen.be/ns/netwerk#Netwerkgebied.geometrie#2020-04-23>, <https://data.vlaanderen.be/ns/netwerk#bestaatUit#2020-04-23>, <https://data.vlaanderen.be/ns/netwerk#geometriemiddellijn#2020-04-23>, <https://data.vlaanderen.be/ns/netwerk#identificator#2020-04-23>, <https://data.vlaanderen.be/ns/netwerk#identificator#2020-04-23>, <https://data.vlaanderen.be/ns/netwerk#identificator#2020-04-23>, <https://data.vlaanderen.be/ns/netwerk#richting#2020-04-23>, <https://data.vlaanderen.be/ns/netwerk#verbindt#2020-04-23>, <https://data.vlaanderen.be/ns/transportnetwerk#geografischeNaam#2020-04-23>, <https://schema.org/arrivalTime#2020-04-23>, <https://schema.org/departureTime#2020-04-23>, <https://schema.org/hoursAvailable#2020-04-23>, <https://schema.org/price#2020-04-23>, <https://schema.org/price#2020-04-23>, <https://schema.org/unitCode#2020-04-23>, <https://schema.org/unitText#2020-04-23>, <https://schema.org/value#2020-04-23>, <https://schema.org/value#2020-04-23>, <https://schema.org/value#2020-04-23>;
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bloemenakker#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bloemenweide#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BodembedekkendeHeesters#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bodembedekkers#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BolEnKnolgewassen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bollengrasland#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bomen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Braakland#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#DrogeRuigte#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Gazon#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GeschorenHaag#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasachtigen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasdals#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasland#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grindgazon#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Haag#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heester#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heestermassief#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heg#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Hooiland#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtkant#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtwal#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Kleinfruit#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Kruidachtigen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#NatteRuigte#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#NietBegroeid#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Oevervegetatie#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Rozen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Ruigte#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#RuwGras#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sierbeplanting#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Siergazon#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Siergrassen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Speelgazon#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sportgazon#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Struweel#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#VastePlanten#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Watervegetatie#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Weiland#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Wisselperk#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#drassigheid#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#knipoppervlak#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#materiaal#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortcode#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortnaamNederlands#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#vrijUitgroeiend#2021-09-30>, <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen#2021-09-30>, <https://schema.org/QuantitativeValue#2021-09-30>, <http://open.vocab.org/terms/length#2021-09-30>, <http://rs.tdwg.org/dwc/terms/scientificName#2021-09-30>, <http://schema.org/height#2021-09-30>, <http://schema.org/width#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#obstakels#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#talud#2021-09-30>, <https://schema.org/unitCode#2021-09-30>, <https://schema.org/unitText#2021-09-30>, <https://schema.org/value#2021-09-30>;
     <https://w3id.org/tree#view> <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/25.trig>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/25.trig> <https://w3id.org/tree#relation> _:df_0_24.
 _:df_0_24 a <https://w3id.org/tree#Relation>;
