@@ -31,16 +31,16 @@
     <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/melding#Melding>.
 <https://data.vlaanderen.be/ns/melding#behandelaar#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#behandelaar>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Agent die werd aangewezen om het meldingsobject op te volgen en af te handelen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "behandelaar"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.w3.org/ns/org#Organization>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#behandelaar>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "Agent die werd aangewezen om de melding op te volgen en af te handelen."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "behandelaar"@nl;
     <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#behandelaar>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Agent die werd aangewezen om het meldingsobject op te volgen en af te handelen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "behandelaar"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.w3.org/ns/org#Organization>.
 <https://data.vlaanderen.be/ns/melding#betrokkene#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#betrokkene>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "Agent die als derde belang heeft bij de Melding of geïmpacteerd is door de behandeling ervan."@nl;
