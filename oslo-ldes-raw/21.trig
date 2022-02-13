@@ -1,629 +1,369 @@
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats> {
-<http://schema.org/ContactPoint#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/ContactPoint>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email, telefoon, adres die toelaat om iemand of iets te contacteren."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Contactinfo"@nl.
-<http://www.opengis.net/ont/geosparql#Geometry#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/geosparql#Geometry>;
+<https://data.vlaanderen.be/ns/melding> {
+<https://data.vlaanderen.be/ns/melding#Applicatie#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#Applicatie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een artificiële agent in een softwareomgeving."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Applicatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://purl.org/dc/terms/Agent>.
+<https://data.vlaanderen.be/ns/melding#Eigenschap#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#Eigenschap>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De klasse voor het beschrijven van de data velden waaruit een dataset bestaat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Eigenschap"@nl.
+<https://data.vlaanderen.be/ns/melding#MeldingBody#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#MeldingBody>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De body van de Melding,deze omvat relevante informatie voor de verdere afhandeling van een melding."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Melding Body"@nl.
+<https://data.vlaanderen.be/ns/melding#Meldingsobject#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#Meldingsobject>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het Meldingsobject identificeert een resource,een specifiek deel van een resource,een bepaalde representatie van een resource of een combinatie hiervan welke gebruikt wordt binnen de Melding."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Meldingsobject"@nl.
+<https://data.vlaanderen.be/ns/melding#MeldingsobjectAttribuut#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#MeldingsobjectAttribuut>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijft een attribuut van het Meldingsobject."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Meldingsobject Attribuut"@nl.
+<https://data.vlaanderen.be/ns/melding#Meldingstatus#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#Meldingstatus>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De Status van de Melding in het verwerkingsproces op een bepaald tijdstip."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Meldingstatus"@nl.
+<https://data.vlaanderen.be/ns/melding#Terugmelding#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#Terugmelding>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een terugmelding kan gebruikt worden om bijvoorbeeld een foutief adres te melden op een website of een fout in de digitale weergave van een diploma."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Terugmelding"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/melding#Melding>.
+<https://data.vlaanderen.be/ns/melding#behandelaar#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#behandelaar>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Agent die werd aangewezen om het meldingsobject op te volgen en af te handelen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "behandelaar"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.w3.org/ns/org#Organization>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#behandelaar>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Agent die werd aangewezen om de melding op te volgen en af te handelen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "behandelaar"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
+<https://data.vlaanderen.be/ns/melding#betrokkene#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#betrokkene>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Agent die als derde belang heeft bij de Melding of geïmpacteerd is door de behandeling ervan."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "betrokkene"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Terugmelding>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
+<https://data.vlaanderen.be/ns/melding#bronhouder#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#bronhouder>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De bronhouder is verantwoordelijk voor het opnemen van gegevens in de dataset en het bewaken van de kwaliteit daarvan."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bronhouder"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.w3.org/ns/org#Organization>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#bronhouder>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De bronhouder is verantwoordelijk voor het opnemen van gegevens in de dataset en het bewaken van de kwaliteit daarvan."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bronhouder"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.w3.org/ns/org#Organization>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#bronhouder>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De bronhouder is verantwoordelijk voor het opnemen van gegevens in de dataset en het bewaken van de kwaliteit daarvan."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bronhouder"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.w3.org/ns/org#Organization>.
+<https://data.vlaanderen.be/ns/melding#eigenschap#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#eigenschap>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijst naar de Eigenschap die deel uitmaakt van een bepaalde Dataset."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "eigenschap"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/melding#Eigenschap>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#eigenschap>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijst naar de Eigenschap die deel uitmaakt van de Dataset."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "eigenschap"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/melding#Eigenschap>.
+<https://data.vlaanderen.be/ns/melding#gerelateerdeBody#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#gerelateerdeBody>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De body van de Melding die betrekking heeft op het Meldingsobject."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "gerelateerde body"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Meldingsobject>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/melding#MeldingBody>.
+<https://data.vlaanderen.be/ns/melding#heeftEigenschap#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#heeftEigenschap>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Refereert naar een Eigenschap die deel uitmaakt van het Meldingsobject."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft eigenschap"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Meldingsobject>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/melding#MeldingsobjectAttribuut>.
+<https://data.vlaanderen.be/ns/melding#heeftStatus#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#heeftStatus>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De Status verbonden aan de Melding."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft status"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/melding#Meldingstatus>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#heeftStatus>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De Status verbonden aan het Meldingsobject."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft status"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/melding#Meldingstatus>.
+<https://data.vlaanderen.be/ns/melding#huidigeWaarde#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#huidigeWaarde>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De huidige waarde van een Eigenschap."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "huidige waarde"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#MeldingsobjectAttribuut>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://data.vlaanderen.be/ns/melding#indiener#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#indiener>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Agent die de Melding heeft aangemaakt en/of ingediend."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "indiener"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Terugmelding>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
+<https://data.vlaanderen.be/ns/melding#meldbaar#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#meldbaar>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of op de eigenschap kan teruggemeld worden (true) of deze louter ter informatie van de gebruiker wordt getoond (false). "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "meldbaar"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Eigenschap>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
+<https://data.vlaanderen.be/ns/melding#melder#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#melder>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De Agent die het probleem waarover gemeld wordt opmerkte."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "melder"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Terugmelding>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
+<https://data.vlaanderen.be/ns/melding#meldingsapplicatie#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#meldingsapplicatie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De applicatie dat de Melding creëerde."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "meldingsapplicatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Terugmelding>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/melding#Applicatie>.
+<https://data.vlaanderen.be/ns/melding#meldingsorganisatie#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#meldingsorganisatie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De organisatie die verantwoordelijk is voor de applicatie die werd gebruikt voor de creatie van de melding."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "meldingsorganisatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Terugmelding>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.w3.org/ns/org#Organization>.
+<https://data.vlaanderen.be/ns/melding#meldingstype#2019-02-07> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#meldingstype>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De relatie tussen de Melding en het Meldingstype dat gebruikt worden om de melding te categoriseren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "meldingstype"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Terugmelding>.
+<https://data.vlaanderen.be/ns/melding#mogelijkeWaarden#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#mogelijkeWaarden>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Associeert de Eigenschap met een exhaustieve lijst aan mogelijk waarden (bv. een codelijst)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "mogelijke waarden"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Eigenschap>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://data.vlaanderen.be/ns/melding#statusdatum#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#statusdatum>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De datum van een Status."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "statusdatum"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Meldingstatus>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://data.vlaanderen.be/ns/melding#statuswaarde#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#statuswaarde>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type van de Status."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "status type"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Meldingstatus>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://data.vlaanderen.be/ns/melding#statuswijzigingDoor#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#statuswijzigingDoor>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De Agent die deze status heeft geactiveerd. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "statuswijziging door"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Meldingstatus>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
+<https://data.vlaanderen.be/ns/melding#verwachtType#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#verwachtType>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "True als de eigenschap verplicht mee te geven is, anders false."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "verplicht"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Eigenschap>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://data.vlaanderen.be/ns/melding#voorgesteldeWaarde#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#voorgesteldeWaarde>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De voorgestelde waarde van een Eigenschap."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "voorgestelde waarde"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#MeldingsobjectAttribuut>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://data.vlaanderen.be/ns/melding#webpagina#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/melding#webpagina>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een doorverwijzing naar een webpagina over deze Melding."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "webpagina"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Terugmelding>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
+<http://data.europa.eu/m8g/PublicOrganisation#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/PublicOrganisation>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Organisatie die volgens een wettelijk kader behoort tot de publieke sector,ongeacht het bestuursniveau waarop dat kader van kracht is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Publieke Organisatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://www.w3.org/ns/org#Organization>.
+<http://purl.org/dc/dcmitype/Dataset#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/dcmitype/Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De Dataset klasse beschrijft de gegevensbron waarop de terugmelding betrekking heeft."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Dataset"@nl.
+<http://purl.org/dc/terms/Agent#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/Agent>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Iemand die of iets dat kan handelen of een effect kan teweeg brengen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@nl.
+<http://www.w3.org/ns/locn#Geometry#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#Geometry>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "Vorm- en positiekenmerken van een object."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "Geometrie"@nl.
-<http://www.opengis.net/ont/sf#LineString#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/sf#LineString>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Curve met lineaire interpolatie tussen de punten. Elk opeenvolgend paar punten vormt een lijnsegment. De lijnstring heeft ten minste twee punten."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Lijnstring"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.opengis.net/ont/geosparql#Geometry>.
-<http://www.opengis.net/ont/sf#Point#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/sf#Point>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een 0-dimensioneel geometrisch object dat een bepaalde locatie in een coördinaatruimte voorstelt. Heeft een x-coördinaat en een y-coördinaat. Kan ook een z-coördinaat (hoogte) en een m-coördinaat (afstand langs een curve) hebben."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Punt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.opengis.net/ont/geosparql#Geometry>.
-<http://www.opengis.net/ont/sf#Polygon#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/sf#Polygon>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Oppervlak bestaande uit 1 buitengrens en 0 of meer binnengrenzen. Elke binnengrens vormt een gat in de polygoon."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Polygoon"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.opengis.net/ont/geosparql#Geometry>.
-<http://www.w3.org/1999/02/22-rdf-syntax-ns#langString#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Benaming toegekend aan of gebruikt voor een geografisch object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Geografische Naam"@nl.
-<http://www.w3.org/2000/01/rdf-schema#Resource#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2000/01/rdf-schema#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Object dat dient om vanuit een beheerobject naar te verwijzen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Relatie object"@nl.
-<http://www.w3.org/ns/org#Organization#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/org#Organization>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een aantal mensen georganiseerd in een gemeenschap of andere sociale, commerciële of politieke structuur. De groep heeft een gemeenschappelijk doel of bestaanreden die de individuele leden ervan overstijgt en kan handelen als agent. Een organisatie heeft dikwijls een hiërarchische structuur."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Organisatie"@nl.
-<https://data.vlaanderen.be/ns/openbaardomein#Collectie#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#Collectie>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een verzameling van individuele objecten waartussen een functionele relatie bestaat."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Collectie"@nl.
-<https://data.vlaanderen.be/ns/openbaardomein#Deel#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#Deel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Homogeen gedeelte van het aardoppervlak, met een gelijkaardige hoofdfunctie en fysiek voorkomen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Deel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>.
-<https://data.vlaanderen.be/ns/openbaardomein#Element#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#Element>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Afzonderlijk te onderscheiden element dat ofwel direct of indirect bevestigd is aan het aardoppervlak."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Element"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>.
-<https://data.vlaanderen.be/ns/openbaardomein#FysiekObject#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De hoofdklasse waar alle objecten die geïnventariseerd kunnen worden van afgeleid worden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Fysiek object"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/prov#Entity>, <http://schema.org/Thing>.
-<https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van het fysieke voorkomen van het object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Fysiek voorkomen"@nl.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#BegraafplaatsRij#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#BegraafplaatsRij>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een rij is een verzameling graven van hetzelfde type. Een rij ligt typisch volledig binnen een bepaald blok. "@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Begraafplaats rij"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Columbarium#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Columbarium>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een columbarium is een muur met nissen waarin urnen geplaatst worden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Columbarium"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#Element>.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Graf#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Graf>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Plaats waar iemand begraven ligt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Graf"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#Element>.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Strooiweide#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Strooiweide>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Plaats, meestal grasperkje, op het kerkhof waar assen van overledenen uitgestrooid worden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Strooiweide"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Urnenveld#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Urnenveld>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een urnenveld is een constructie in of op de grond met nissen waarin urnen geplaatst worden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Urnenveld"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#Element>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Begraafplaats#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Begraafplaats>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Gebied waar stoffelijke resten van overledenen begraven, bijgezet of verstrooid worden, inclusief de gemeenschappelijk gebruikte ruimte."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Begraafplaats"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een ruimte met daarin objecten in de openbare ruimte die samen een hoofdfunctie hebben."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Gebied"@nl.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Aanplakbord#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Aanplakbord>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "(Paalvormige en duurzame verankering van) signalisatie langsheen de openbare weg met allerlei aankondigingen, al of niet van commerciële aard, op te plakken"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Aanplakbord"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Afsluiting#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Afsluiting>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Op het terrein ondubbelzinnig aanwijsbare en permanent verankerde scheiding."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Afsluiting"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BestendigeAfsluiting#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BestendigeAfsluiting>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Op het terrein ondubbelzinnig aanwijsbare en permanent verankerde scheiding die statisch is in vorm en geen doorgang toelaat."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Bestendige afsluiting"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Afsluiting>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Deksel#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Deksel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een object om een holte of hol voorwerp af te sluiten."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Deksel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Draadafsluiting#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Draadafsluiting>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Op het terrein ondubbelzinnig aanwijsbare en permanent verankerde scheiding, bestaande uit draad. "@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Draadafsluiting"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BestendigeAfsluiting>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietsstalling#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietsstalling>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een fietsstalling is het geheel aan palen en/of verankeringspunten van een constructie bestemd voor het vastmaken van fietsen, gelegen op het openbare domein."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Fietsstalling"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infozuil#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infozuil>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "(Paalvormige en duurzame verankering van) signalisatie langsheen de openbare weg met allerlei aankondigingen, al of niet van commerciële aard, op te plakken."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Infozuil"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Individueel object op het Openbaar Domein dat niet vegetatief is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Infrastructuurelement"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#Element>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Lichtpunt#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Lichtpunt>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Elk lichtpunt dat is ingewerkt in het maaiveld of op een paaltje op beperkte hoogte boven het maaiveld (tot 2 meter) en dat gebruikt wordt als randverlichting (bvb verlichting van monument, parking,...), naast de openbare straatverlichting"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Lichtpunt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVerlichting>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#NormandischeAfsluiting#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#NormandischeAfsluiting>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een afsluiting die typisch bestaat uit betonnen palen met betonnen dwarsbalken."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Normandische afsluiting"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BestendigeAfsluiting>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbaarToilet#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbaarToilet>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een toilet dat bestemd is voor algemeen gebruik en dat zich bevindt in de openbare ruimte of op een locatie met veel passanten, zoals in trein- of benzinestations, of op een evenemententerrein."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Openbaar toilet"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareStraatverlichtingAanGevelOfMuur#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareStraatverlichtingAanGevelOfMuur>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een openbaar lichtpunt dat is bevestigd aan de gevel van een gebouw of constructie of bevestigd is aan een muur en dat gebruikt wordt om de omgeving te verlichten."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Openbare straatverlichting aan gevel of muur"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVerlichting>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVerlichting#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVerlichting>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een openbare lichtpunt dat gebruikt wordt om de omgeving te verlichten."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Openbare verlichting"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVuilnisbak#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVuilnisbak>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Deels in de grond ingewerkte of verankerde vuilnisbak, bestemd voor het deponeren van afval van de voorbijgangers en gelegen op het openbare domein."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Openbare vuilnisbak"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Paneelafsluiting#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Paneelafsluiting>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een afsluiting opgebouwd uit een of meerdere panelen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Paneelafsluiting"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BestendigeAfsluiting>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Rooster#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Rooster>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een rooster is een civieltechnische constructie, anders dan gebouw, opgetrokken uit duurzame materialen, en zichtbaar aan het aardoppervlak."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Rooster"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SelectieveAfsluiting#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SelectieveAfsluiting>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Op het terrein ondubbelzinnig aanwijsbare afsluiting die gebruikt kan worden om selectief en/of periodiek toegang te verlenen aan voertuigen, fietsers en/of voetgangers."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Selectieve afsluiting"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Afsluiting>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Slagboom#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Slagboom>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een afsluitingsmechanisme met slagboomarmen dat dient om controle uit te kunnen oefenen over het gebruik van een doorgang of een toegang."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Slagboom"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SelectieveAfsluiting>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SpandraadKetting#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SpandraadKetting>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Op het terrein ondubbelzinnig aanwijsbare en permanent verankerde scheiding, bestaande uit spandraad en/of kettingen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Afsluiting spandraad en -ketting"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BestendigeAfsluiting>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatkolk#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatkolk>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De hemelwaterinlaatconstructie, meestal geplaatst in de straatgoot of watergreppel, waarlangs het hemelwater van de verhardingen wordt afgevoerd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Straatkolk"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Rooster>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Straatmeubilair is  een diverse groep van objecten die in het algemeen in de openbare ruimte staan (zowel corridor- als surplusgebied)."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Straatmeubilair"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Toegangspoort#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Toegangspoort>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een object dat de toegang tot een gebied, zone of terreindeel periodiek kan afsluiten."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Toegangspoort"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SelectieveAfsluiting>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verlichtingspaal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verlichtingspaal>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een openbare lichtpunt op een paal dat gebruikt wordt om de omgeving te verlichten. "@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Verlichtingspaal"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVerlichting>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#ZichtbaarDekselOfLuik#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#ZichtbaarDekselOfLuik>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een zichtbaar deksel of luik is een merkteken dat zich in het vlak van de wegbaan bevindt. Het gaat om rechthoekige en veelhoekige luiken waarvan de zijde groter is dan 1,00m en cirkelvormige of vierkante deksels en luiken waarvan de zijde of diameter groter is dan 1,00m."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Zichtbaar deksel of luik"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Deksel>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Zitbank#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Zitbank>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een openbaar zitmeubel, op een duurzame manier verbonden met het aardoppervlak en gelegen in parken of langsheen de openbare weg."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Zitbank"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair>.
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Groendak#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Groendak>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Dak dat doelbewust begroeid is met planten."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Groendak"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>.
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Groenvlak#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Groenvlak>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Terreindeel met aangelegde en beheerde begroeiing, met een hoofdzakelijk visueel-structurerende functie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Groenvlak"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>.
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van het terrein voorkomen van het terreindeel."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Terrein voorkomen"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen>.
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Zichtbare laag van het aardoppervlak, met een gelijkaardige functie, dat geen deel uitmaakt van 'waterdeel'."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Terreindeel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#Deel>.
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Trap#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Trap>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Constructie, niet aanleunend bij een gebouw bestaande uit treden die de verbinding vormt tussen 2 straatpeilen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Trap tussen 2 straatniveaus"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>.
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Voetweg#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Voetweg>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "\tTerreindeel, gebruikt als voetweg of pad, bedoeld om zwakke weggebruikers specifiek binnen surplusgebieden te laten circuleren."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Voetweg"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>.
-<https://schema.org/QuantitativeValue#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/QuantitativeValue>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van de kwantiteit van een bepaald kenmerk van een object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Kwantitatieve Waarde"@nl.
-<http://fixme.com#beheerder#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://fixme.com#beheerder>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Instantie die instaat voor het beheer van het gebied."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "beheerder"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#Organization>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://fixme.com#beheerder>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Instantie die instaat voor het beheer van het object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "beheerder"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#Organization>.
-<http://fixme.com#eigenaar#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://fixme.com#eigenaar>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De entiteit (bv. de gemeente) die eigenaar is van het object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "eigenaar"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#Organization>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://fixme.com#eigenaar>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De entiteit (bv. de gemeente) die eigenaar is van het gebied."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "eigenaar"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#Organization>.
-<http://open.vocab.org/terms/length#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://open.vocab.org/terms/length>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De lineare grootte van het object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "lengte"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>.
-<http://purl.org/dc/terms/relation#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/relation>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijst naar een object in een andere databank dat meer informatie kan verschaffen over het beheerobject."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "relatie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource>.
-<http://purl.org/dc/terms/title#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+<http://www.w3.org/ns/oa#TimeState#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/oa#TimeState>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een TijdToestand legt de datum en het tijdstip vast waarop het Meldingsobject dient geïnterpreteerd te worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "TijdToestand"@nl.
+<http://www.w3.org/ns/org#OrganizationalUnit#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/org#OrganizationalUnit>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een organisatie zoals een afdeling of dienst die deel uitmaakt van de grotere organisatie en zijn bestaansreden daaraan ontleent. Heeft geen juridische status op zich."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Organisatie-eenheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://www.w3.org/ns/org#Organization>.
+<http://www.w3.org/ns/person#Person#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/person#Person>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Natuurlijk persoon."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Persoon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://purl.org/dc/terms/Agent>.
+<https://data.vlaanderen.be/ns/organisatie#Hoedanigheid#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Agent met een Functie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Hoedanigheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://purl.org/dc/terms/Agent>.
+<https://data.vlaanderen.be/ns/persoon#GeregistreerdPersoon#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/persoon#GeregistreerdPersoon>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Persoon waarvan de gegevens zijn ingeschreven in een register."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Geregistreerd Persoon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/person#Person>.
+<https://www.w3.org/ns/org#Organization#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.w3.org/ns/org#Organization>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een aantal mensen georganiseerd in een gemeenschap of andere sociale, commerciële of politieke structuur. De groep heeft een gemeenschappelijk doel of bestaanreden die de individuele leden ervan overstijgt en kan handelen als Agent. Een organisatie heeft dikwijls een hiërarchische structuur."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Organisatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://purl.org/dc/terms/Agent>.
+<http://data.vlaanderen.be/ns/persoon#registratie#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/persoon#registratie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Identificatiecode van de persoon in het register."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "registratie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/persoon#GeregistreerdPersoon>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Identifier>.
+<http://purl.org/dc/terms/description#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een beschrijving van de Status."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Meldingstatus>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een tekstuele beschrijving van de melding."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#MeldingBody>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een beschrijving van de Dataset."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/dcmitype/Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<http://purl.org/dc/terms/title#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een titel voor de collectie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De titel van de Melding."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#Collectie>;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Terugmelding>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>;
     a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een naam voor het gebied."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
-<http://schema.org/contactPoint#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/contactPoint>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email, telefoon ... die toelaat de Organisatie te contacteren."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "contactinfo"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/org#Organization>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/ContactPoint>.
-<http://schema.org/email#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/email>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Email-adres waarnaar men kan mailen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "email"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De titel van een Dataset."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/dcmitype/Dataset>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://schema.org/faxNumber#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/faxNumber>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Faxnummer waarnaar men kan faxen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "fax"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://schema.org/hoursAvailable#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/hoursAvailable>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Periode waarin contact kan worden opgenomen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "beschikbaarheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/OpeningHoursSpecification>.
-<http://schema.org/openingHours#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/openingHours>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Uren waarbinnen contact kan worden opgenomen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "openingsuren"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>.
-<http://schema.org/telephone#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/telephone>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Telefoonnummer waarop men kan bellen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "telefoon"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://schema.org/width#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/width>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De breedte van het object. In geval van een ongelijkmatige breedte wordt de gemiddelde breedte opgenomen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "breedte"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>.
-<http://www.opengis.net/ont/geosparql#asGML#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+<http://www.opengis.net/ont/geosparql#asGML#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/geosparql#asGML>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "Geometrie uitgedrukt in gml-formaat."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "gml"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#Geometry>;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Geometry>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>.
-<http://www.opengis.net/ont/geosparql#asWKT#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+<http://www.opengis.net/ont/geosparql#asWKT#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/geosparql#asWKT>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "Geometrie uitgedrukt in wkt-formaat."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "wkt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#Geometry>;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Geometry>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>.
-<http://www.w3.org/2004/02/skos/core#altLabel#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2004/02/skos/core#altLabel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Andere naam waaronder de organisatie bekend is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "alternatieve naam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/org#Organization>;
+<http://www.w3.org/2000/01/rdf-schema#label#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2000/01/rdf-schema#label>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een label voor de Eigenschap."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "label"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Eigenschap>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://www.w3.org/2004/02/skos/core#prefLabel#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+<http://www.w3.org/2004/02/skos/core#prefLabel#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2004/02/skos/core#prefLabel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam waarmee de organisatie bij voorkeur wordt aangeduid."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "voorkeursnaam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/org#Organization>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het geprefereerde label voor het Concept."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "label"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://www.w3.org/2006/vcard/ns#honorific-prefix#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2006/vcard/ns#honorific-prefix>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Titel waarmee iemand wordt aangeschreven of aangesproken of waarmee naar iemand wordt verwezen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "aanschrijfvorm"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
-<http://www.w3.org/ns/locn#address#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#address>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Adres dat men kan aanschrijven of bezoeken."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "adres"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/locn#Address>.
-<http://www.w3.org/ns/locn#geometry#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+<http://www.w3.org/ns/locn#geometry#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#geometry>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De geometrie overeenkomstig met een bepaald object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De relatie tussen de MeldingBody en een geometrie."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "geometrie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#Geometry>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#geometry>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De geometrie overeenkomstig met een bepaald gebied."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "geometrie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/sf#Polygon>.
-<http://xmlns.com/foaf/0.1/name#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/name>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van bvb de persoon die men kan contacteren."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "contactnaam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://xmlns.com/foaf/0.1/page#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/page>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Website waarnaar men kan surfen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "website"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#MeldingBody>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/locn#Geometry>.
+<http://www.w3.org/ns/oa#cachedSource#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/oa#cachedSource>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een cached momentopname van de bron op het moment van de vaststelling van de fout of onvolledigheid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "cached bron"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/oa#TimeState>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
-<https://data.vlaanderen.be/ns/openbaardomein#begindatum#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#begindatum>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum waarop de huidige versie van het gebied of object in gebruik wordt genomen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "begindatum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+<http://www.w3.org/ns/oa#hasBody#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/oa#hasBody>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het object van deze associatie is een resource die de body van de Melding beschrijft (MeldingBody)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft body"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Terugmelding>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/melding#MeldingBody>.
+<http://www.w3.org/ns/oa#hasSource#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/oa#hasSource>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De bron (Dataset) waar het Meldingsobject in voor komt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeftBron"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Meldingsobject>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/dcmitype/Dataset>.
+<http://www.w3.org/ns/oa#hasState#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/oa#hasState>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De relatie tussen het Meldingsobject en een TijdToestand."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft toestand"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Meldingsobject>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/oa#TimeState>.
+<http://www.w3.org/ns/oa#hasTarget#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/oa#hasTarget>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De relatie tussen de Melding en het doelwit, het Meldingsobject waarop de melding slaat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft doelwit"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Terugmelding>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/melding#Meldingsobject>.
+<http://www.w3.org/ns/oa#sourceDate#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/oa#sourceDate>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De datum en het tijdstip waarop het Meldingsobject moet geïnterpreteerd worden als zijnde van toepassing op de Melding."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "datum vaststelling"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/oa#TimeState>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<https://data.vlaanderen.be/ns/openbaardomein#bevat#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#bevat>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Relatie naar de objecten die deel uitmaken van de collectie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "bevat"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#Collectie>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>.
-<https://data.vlaanderen.be/ns/openbaardomein#bronnaam#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#bronnaam>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van de bron."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "bronnaam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
+<http://www.w3.org/ns/org#hasUnit#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/org#hasUnit>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijst naar een organisatie-eenheid die deel uitmaakt van de organisatie, bv een afdeling.\t"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft eenheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.w3.org/ns/org#Organization>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#OrganizationalUnit>.
+<http://www.w3.org/ns/org#unitOf#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/org#unitOf>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Organisatie waarvan de organisatie-eenheid deel uitmaakt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "is eenheid van"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/org#OrganizationalUnit>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://www.w3.org/ns/org#Organization>.
+<https://www.w3.org/ns/activitystreams#attachment#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.w3.org/ns/activitystreams#attachment>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Identificeert een resource die aan de MeldingsBody verbonden is en mogelijks speciale verwerking vraagt.\r\n"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bijlage"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#MeldingBody>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
+<https://www.w3.org/ns/activitystreams#summary#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.w3.org/ns/activitystreams#summary>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een samenvatting van de Melding."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "samenvatting"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Terugmelding>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<https://data.vlaanderen.be/ns/openbaardomein#einddatum#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#einddatum>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum waarop de huidige versie van het beheerobject uit gebruik wordt genomen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "einddatum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<https://data.vlaanderen.be/ns/openbaardomein#nauwkeurigheid#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#nauwkeurigheid>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De precisie waarmee het object opgemeten werd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "nauwkeurigheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/openbaardomein#niveau#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#niveau>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het niveau waarop het object zich bevindt, relatief ten opzichte van andere objecten."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "niveau"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer>.
-<https://data.vlaanderen.be/ns/openbaardomein#oppervlakte#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#oppervlakte>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De afmeting van het object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "oppervlakte"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#Deel>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>.
-<https://data.vlaanderen.be/ns/openbaardomein#uuid#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#uuid>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een globaal unieke identificator voor het object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "uuid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<https://data.vlaanderen.be/ns/openbaardomein#voorkomen#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#voorkomen>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijst naar het fysiek voorkomen van het beheerdeel."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "voorkomen"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#Deel>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen>.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#bezetting#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#bezetting>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft het aantal bezette plaatsen van een graf weer."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "bezetting"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Thing>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer>.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#capaciteit#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#capaciteit>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft het aantal beschikbare plaatsen van een graf weer."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "capaciteit"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Graf>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer>.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#grafkelderAanwezig#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#grafkelderAanwezig>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan of het graf voorzien is van een ondergrondse of bovengrondse ruimte."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "grafkelder aanwezig"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Graf>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#grafteken#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#grafteken>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan of er al dan niet een grafteken, bijvoorbeeld een zerk, aanwezig is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "grafteken"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Graf>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
-<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#graftype#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#graftype>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type graf."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "graftype"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Graf>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#actieveLijkbezorging#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#actieveLijkbezorging>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan of er al dan niet nog aan actieve lijkbezorging gedaan wordt op de begraafplaats."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "actieve lijkbezorging"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Begraafplaats>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#begindatum#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#begindatum>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum waarop de huidige versie van het beheergebied in gebruik wordt genomen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "begindatum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#einddatum#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#einddatum>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum waarop de huidige versie van het beheergebied uit gebruik wordt genomen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "einddatum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#lichteRecreatie#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#lichteRecreatie>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of de begraafplaats al dan niet geschikt is voor lichte recreatie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "lichte recreatie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Begraafplaats>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#afsluitbaar#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#afsluitbaar>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan of de fietsstalling al dan niet kan afgesloten worden om toegang voor onbevoegden te verhinderen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "afsluitbaar"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/infrastructuur#Infrastructuurelement>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#capaciteit#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#capaciteit>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan hoeveel fietsen gestald kunnen worden aan of in de fietsenstalling."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "capaciteit"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietsstalling>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#dekselVorm#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#dekselVorm>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De vorm van het deksel."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "deksel vorm"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Deksel>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#fietsdelen#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#fietsdelen>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan of de fietsstalling al dan niet gebruikt wordt voor deelfietsen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "fietsdelen"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietsstalling>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#materiaal#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#materiaal>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Materiaal waar het object uit vervaardigd is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "materiaal"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#nutsvoorzieningscode#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#nutsvoorzieningscode>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van de soort nutsvoorziening."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "nutsvoorzieningscode"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/infrastructuur#Infrastructuurelement>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#overdekt#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#overdekt>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan of de fietsstalling al dan niet overdekt is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "overdekt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/infrastructuur#Infrastructuurelement>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#rioleringscode#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#rioleringscode>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De rioleringscode is een arbitraire notitie van waarneembare eigenschappen van het deksel m.b.t. de beheerder en de functie van de ondergrondse ioleringsleiding."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "rioleringscode"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/infrastructuur#Infrastructuurelement>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#straatkolktype#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#straatkolktype>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type straatkolk."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "straatkolktype"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatkolk>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#verplaatsbaar#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#verplaatsbaar>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan of het element al dan niet verplaatsbaar is en dus niet permanent verankerd werd met het aardoppervlak."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "verplaatsbaar"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#Element>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
-<https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#verzinkbaar#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#verzinkbaar>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat het element ondergronds opgeborgen kan worden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "verzinkbaar"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbaarToilet>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Element.heeftObstakel#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Element.heeftObstakel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het specifieke Element dat een obstakel vormt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft obstakel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#Element>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>.
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel.heeftObstakel#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel.heeftObstakel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het specifieke Element dat een obstakel vormt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft obstakel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/openbaardomein#Element>.
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#obstakels#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#obstakels>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Eigenschap die aangeeft of er binnen het beheerdeel al dan niet objecten voorkomen die de vrije werking van machines of andere werktuigen kan verhinderen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "obstakels"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#talud#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#talud>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een talud is het kunstmatig gedeelte van een vlak van de wegbaan, dijken, spoorbanen, vestingswerken, ... dat een helling (min. 20%, max 80% voor kunstmatig verharde taluds) vertoont en bedoeld voor het opvangen van een hoogteverschil."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "talud"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#voorkomen#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#voorkomen>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het voorkomen van het terreindeel."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "voorkomen"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#Deel>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen>.
-<https://schema.org/unitCode#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/unitCode>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De gestandaardiseerde eenheid waarin de waarde is uitgedrukt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "standaard eenheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/generiek#StandaardEenheid>.
-<https://schema.org/unitText#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/unitText>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De eenheid waarin de waarde is uitgedrukt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "eenheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<https://schema.org/value#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/value>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Getal waarmee de kwantiteit van het kenmerk kan worden uitgedrukt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "waarde"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/Number>
+<https://www.w3.org/ns/hydra/core#required#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://www.w3.org/ns/hydra/core#required>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "True als de eigenschap verplicht mee te sturen is ter informatie van de behandelaar en bronhouder, anders false."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "verplicht"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/melding#Eigenschap>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <http://schema.org/ContactPoint#2021-09-30>, <http://www.opengis.net/ont/geosparql#Geometry#2021-09-30>, <http://www.opengis.net/ont/sf#LineString#2021-09-30>, <http://www.opengis.net/ont/sf#Point#2021-09-30>, <http://www.opengis.net/ont/sf#Polygon#2021-09-30>, <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString#2021-09-30>, <http://www.w3.org/2000/01/rdf-schema#Resource#2021-09-30>, <http://www.w3.org/ns/org#Organization#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#Collectie#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#Deel#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#Element#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#BegraafplaatsRij#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Columbarium#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Graf#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Strooiweide#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Urnenveld#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Begraafplaats#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Aanplakbord#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Afsluiting#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BestendigeAfsluiting#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Deksel#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Draadafsluiting#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietsstalling#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infozuil#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Lichtpunt#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#NormandischeAfsluiting#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbaarToilet#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareStraatverlichtingAanGevelOfMuur#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVerlichting#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVuilnisbak#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Paneelafsluiting#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Rooster#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SelectieveAfsluiting#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Slagboom#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SpandraadKetting#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatkolk#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Toegangspoort#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verlichtingspaal#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#ZichtbaarDekselOfLuik#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Zitbank#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Groendak#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Groenvlak#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Trap#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Voetweg#2021-09-30>, <https://schema.org/QuantitativeValue#2021-09-30>, <http://fixme.com#beheerder#2021-09-30>, <http://fixme.com#beheerder#2021-09-30>, <http://fixme.com#eigenaar#2021-09-30>, <http://fixme.com#eigenaar#2021-09-30>, <http://open.vocab.org/terms/length#2021-09-30>, <http://purl.org/dc/terms/relation#2021-09-30>, <http://purl.org/dc/terms/title#2021-09-30>, <http://purl.org/dc/terms/title#2021-09-30>, <http://schema.org/contactPoint#2021-09-30>, <http://schema.org/email#2021-09-30>, <http://schema.org/faxNumber#2021-09-30>, <http://schema.org/hoursAvailable#2021-09-30>, <http://schema.org/openingHours#2021-09-30>, <http://schema.org/telephone#2021-09-30>, <http://schema.org/width#2021-09-30>, <http://www.opengis.net/ont/geosparql#asGML#2021-09-30>, <http://www.opengis.net/ont/geosparql#asWKT#2021-09-30>, <http://www.w3.org/2004/02/skos/core#altLabel#2021-09-30>, <http://www.w3.org/2004/02/skos/core#prefLabel#2021-09-30>, <http://www.w3.org/2006/vcard/ns#honorific-prefix#2021-09-30>, <http://www.w3.org/ns/locn#address#2021-09-30>, <http://www.w3.org/ns/locn#geometry#2021-09-30>, <http://www.w3.org/ns/locn#geometry#2021-09-30>, <http://xmlns.com/foaf/0.1/name#2021-09-30>, <http://xmlns.com/foaf/0.1/page#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#begindatum#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#bevat#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#bronnaam#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#einddatum#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#nauwkeurigheid#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#niveau#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#oppervlakte#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#uuid#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#voorkomen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#bezetting#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#capaciteit#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#grafkelderAanwezig#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#grafteken#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#graftype#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#actieveLijkbezorging#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#begindatum#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#einddatum#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#lichteRecreatie#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#afsluitbaar#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#capaciteit#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#dekselVorm#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#fietsdelen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#materiaal#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#nutsvoorzieningscode#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#overdekt#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#rioleringscode#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#straatkolktype#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#verplaatsbaar#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#verzinkbaar#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Element.heeftObstakel#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel.heeftObstakel#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#obstakels#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#talud#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#voorkomen#2021-09-30>, <https://schema.org/unitCode#2021-09-30>, <https://schema.org/unitText#2021-09-30>, <https://schema.org/value#2021-09-30>;
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/melding#Applicatie#2019-02-07>, <https://data.vlaanderen.be/ns/melding#Eigenschap#2019-02-07>, <https://data.vlaanderen.be/ns/melding#MeldingBody#2019-02-07>, <https://data.vlaanderen.be/ns/melding#Meldingsobject#2019-02-07>, <https://data.vlaanderen.be/ns/melding#MeldingsobjectAttribuut#2019-02-07>, <https://data.vlaanderen.be/ns/melding#Meldingstatus#2019-02-07>, <https://data.vlaanderen.be/ns/melding#Terugmelding#2019-02-07>, <https://data.vlaanderen.be/ns/melding#behandelaar#2019-02-07>, <https://data.vlaanderen.be/ns/melding#behandelaar#2019-02-07>, <https://data.vlaanderen.be/ns/melding#betrokkene#2019-02-07>, <https://data.vlaanderen.be/ns/melding#bronhouder#2019-02-07>, <https://data.vlaanderen.be/ns/melding#bronhouder#2019-02-07>, <https://data.vlaanderen.be/ns/melding#bronhouder#2019-02-07>, <https://data.vlaanderen.be/ns/melding#eigenschap#2019-02-07>, <https://data.vlaanderen.be/ns/melding#eigenschap#2019-02-07>, <https://data.vlaanderen.be/ns/melding#gerelateerdeBody#2019-02-07>, <https://data.vlaanderen.be/ns/melding#heeftEigenschap#2019-02-07>, <https://data.vlaanderen.be/ns/melding#heeftStatus#2019-02-07>, <https://data.vlaanderen.be/ns/melding#heeftStatus#2019-02-07>, <https://data.vlaanderen.be/ns/melding#huidigeWaarde#2019-02-07>, <https://data.vlaanderen.be/ns/melding#indiener#2019-02-07>, <https://data.vlaanderen.be/ns/melding#meldbaar#2019-02-07>, <https://data.vlaanderen.be/ns/melding#melder#2019-02-07>, <https://data.vlaanderen.be/ns/melding#meldingsapplicatie#2019-02-07>, <https://data.vlaanderen.be/ns/melding#meldingsorganisatie#2019-02-07>, <https://data.vlaanderen.be/ns/melding#meldingstype#2019-02-07>, <https://data.vlaanderen.be/ns/melding#mogelijkeWaarden#2019-02-07>, <https://data.vlaanderen.be/ns/melding#statusdatum#2019-02-07>, <https://data.vlaanderen.be/ns/melding#statuswaarde#2019-02-07>, <https://data.vlaanderen.be/ns/melding#statuswijzigingDoor#2019-02-07>, <https://data.vlaanderen.be/ns/melding#verwachtType#2019-02-07>, <https://data.vlaanderen.be/ns/melding#voorgesteldeWaarde#2019-02-07>, <https://data.vlaanderen.be/ns/melding#webpagina#2019-02-07>, <http://data.europa.eu/m8g/PublicOrganisation#2019-02-07>, <http://purl.org/dc/dcmitype/Dataset#2019-02-07>, <http://purl.org/dc/terms/Agent#2019-02-07>, <http://www.w3.org/ns/locn#Geometry#2019-02-07>, <http://www.w3.org/ns/oa#TimeState#2019-02-07>, <http://www.w3.org/ns/org#OrganizationalUnit#2019-02-07>, <http://www.w3.org/ns/person#Person#2019-02-07>, <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid#2019-02-07>, <https://data.vlaanderen.be/ns/persoon#GeregistreerdPersoon#2019-02-07>, <https://www.w3.org/ns/org#Organization#2019-02-07>, <http://data.vlaanderen.be/ns/persoon#registratie#2019-02-07>, <http://purl.org/dc/terms/description#2019-02-07>, <http://purl.org/dc/terms/description#2019-02-07>, <http://purl.org/dc/terms/description#2019-02-07>, <http://purl.org/dc/terms/title#2019-02-07>, <http://purl.org/dc/terms/title#2019-02-07>, <http://www.opengis.net/ont/geosparql#asGML#2019-02-07>, <http://www.opengis.net/ont/geosparql#asWKT#2019-02-07>, <http://www.w3.org/2000/01/rdf-schema#label#2019-02-07>, <http://www.w3.org/2004/02/skos/core#prefLabel#2019-02-07>, <http://www.w3.org/ns/locn#geometry#2019-02-07>, <http://www.w3.org/ns/oa#cachedSource#2019-02-07>, <http://www.w3.org/ns/oa#hasBody#2019-02-07>, <http://www.w3.org/ns/oa#hasSource#2019-02-07>, <http://www.w3.org/ns/oa#hasState#2019-02-07>, <http://www.w3.org/ns/oa#hasTarget#2019-02-07>, <http://www.w3.org/ns/oa#sourceDate#2019-02-07>, <http://www.w3.org/ns/org#hasUnit#2019-02-07>, <http://www.w3.org/ns/org#unitOf#2019-02-07>, <https://www.w3.org/ns/activitystreams#attachment#2019-02-07>, <https://www.w3.org/ns/activitystreams#summary#2019-02-07>, <https://www.w3.org/ns/hydra/core#required#2019-02-07>;
     <https://w3id.org/tree#view> <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/21.trig>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/21.trig> <https://w3id.org/tree#relation> _:df_0_20.
 _:df_0_20 a <https://w3id.org/tree#Relation>;

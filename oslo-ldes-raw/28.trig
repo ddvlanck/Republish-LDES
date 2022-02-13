@@ -424,28 +424,28 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal>.
 <http://www.cidoc-crm.org/cidoc-crm/P128_carries#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P128_carries>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "InformatieObject dat gedragen wordt door het MensgemaaktKenmerk."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "draagt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P128_carries>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "InformatieObject dat gedragen wordt door het MensgemaaktObject."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "draagt"@nl;
     <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P128_carries>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "InformatieObject dat gedragen wordt door het MensgemaaktKenmerk."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "draagt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object>.
 <http://www.cidoc-crm.org/cidoc-crm/P128i_is_carried_by#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P128i_is_carried_by>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het MensgemaaktKenmerk dat het InformatieObject draagt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "drager"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P128i_is_carried_by>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "Het MensgemaaktObject dat het InformatieObject draagt."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "drager"@nl;
     <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object>.
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P128i_is_carried_by>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het MensgemaaktKenmerk dat het InformatieObject draagt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "drager"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature>.
 <http://www.cidoc-crm.org/cidoc-crm/P129_is_about#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P129_is_about>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "Het onderwerp van het Werk."@nl;
@@ -646,6 +646,12 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
 <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het MensgemaaktKenmerk dat deel uitmaakt van de GecureerdeCollectie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bestaat uit"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E78_Collection>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "Het MensgemaaktObject dat deel uitmaakt van de GecureerdeCollectie."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "bestaat uit"@nl;
     <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E78_Collection>;
@@ -655,24 +661,18 @@
     <http://www.w3.org/2000/01/rdf-schema#comment> "Component van het MaterieelDing."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "bestaat uit"@nl;
     <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het MensgemaaktKenmerk dat deel uitmaakt van de GecureerdeCollectie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "bestaat uit"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E78_Collection>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature>.
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing>.
 <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De GecureerdeCollectie waarvan het MensgemaaktObject deel uitmaakt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "maakt deel uit van"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E78_Collection>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "De GecureerdeCollectie waarvan het MensgemaaktKenmerk deel uitmaakt."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "maakt deel uit van"@nl;
     <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E78_Collection>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De GecureerdeCollectie waarvan het MensgemaaktObject deel uitmaakt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "maakt deel uit van"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E78_Collection>.
 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span#2021-04-22> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>;
