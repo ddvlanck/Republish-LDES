@@ -1,735 +1,328 @@
-<https://data.vlaanderen.be/ns/besluitvorming> {
-<https://data.vlaanderen.be/ns/besluitvorming#Aanleiding#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#Aanleiding>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Ontstaansgrond van een besluitvormingsaangelegenheid."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Aanleiding"@nl.
-<https://data.vlaanderen.be/ns/besluitvorming#Agenda#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#Agenda>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een geordende lijst van agendapunten voor een Vergaderactiviteit."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Agenda"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/dossier#Stuk>.
-<https://data.vlaanderen.be/ns/besluitvorming#Agendering#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#Agendering>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het inplannen van de bespreking van een besluitvormingsaangelegenheid op een agenda."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Agendering"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/prov#Activity>.
-<https://data.vlaanderen.be/ns/besluitvorming#Beslissingsactiviteit#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#Beslissingsactiviteit>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Beoordeling door de bevoegde(n) van het voorgelegde agendapunt of stuk(ken)."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Beslissingsactiviteit"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/prov#Activity>.
-<https://data.vlaanderen.be/ns/besluitvorming#Besluitvormingsaangelegenheid#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#Besluitvormingsaangelegenheid>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een samenhangende hoeveelheid activiteiten met een aanleiding en een beoogde beslissing."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Besluitvormingsaangelegenheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://dbpedia.org/ontology/Case>.
-<https://data.vlaanderen.be/ns/besluitvorming#Verslag#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#Verslag>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De formele neerslag van (een onderdeel van) de behandeling van het agendapunt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Verslag"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/dossier#Stuk>.
-<https://data.vlaanderen.be/ns/besluitvorming#agendaStatus#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#agendaStatus>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De toestand waarin de agenda zich bevindt voor een specifiek type."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "agenda status"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/besluitvorming#Agenda>;
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen> {
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De ruimtelijke massa van planten-individuen, in samenhang met de plaats waar zij groeien. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Begroeid voorkomen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bloemenakker#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bloemenakker>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Grasland dat is ingezaaid met (éénjarige) wilde- of half wilde soorten waarvan de bodem elk jaar moet geschoffeld of geploegd worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bloemenakker"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasland>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bloemenweide#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bloemenweide>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Grasland dat is ingezaaid met (meerjarige) wilde- of half wilde soorten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bloemenweide"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BodembedekkendeHeesters#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BodembedekkendeHeesters>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Lage, breed uitgroeiende heesters."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bodembedekkende heesters"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heester>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bodembedekkers#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bodembedekkers>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aangelegd begroeiingstype, doorgaans met vaste planten, die bedoeld is om snel de bodem te bedekken."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bodembedekkers"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sierbeplanting>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BolEnKnolgewassen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BolEnKnolgewassen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Bol- en knolgewassen beschikken over een ondergronds voedselreservoir in de vorm van een bol of een knol. Veelal verschijnen de bovengrondse delen in een specifieke periode van het jaar en kennen zij een geweldige bloei."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bol- en knolgewassen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sierbeplanting>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bollengrasland#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bollengrasland>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Grasland met planten die bloeien voor de groei van de graszode goed op gang komt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bollengrasland"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bomen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bomen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Opgaande beplanting van houtachtige gewassen die boomvormend zijn."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bomen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Braakland#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Braakland>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijdelijke eenheid die ongebruikt blijft liggen en nog niet tot ruigte of bos geëvolueerd is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Braakland"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#DrogeRuigte#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#DrogeRuigte>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Ruigte op droge bodems."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Droge ruigte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Ruigte>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Gazon#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Gazon>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Begroeiing zonder bloeiende grassen noch planten, gekenmerkt door een monotoon groen uiterlijk, lage soortendiversiteit en een kort vegetatiedek (enkele centimers hoogte). Een gazon wordt in stand gehouden door een intensief beheer (hoge maaifrequentie)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Gazon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GeschorenHaag#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GeschorenHaag>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Haag die standaard 2 keer per jaar wordt geschoren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Geschoren haag"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Haag>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasachtigen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasachtigen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Begroeiingen die overheersend bestaat uit grassen (behorende tot de Grassenfamilie, Poaceae)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Grasachtigen (deprecated)"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasdals#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasdals>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Gras- en kruidachtig vegetatietype dat voorzien is van een rastervormig verstevigingsmateriaal en bedoeld om de bodem te verstevigen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Grasdal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasland#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasland>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Grazige vegetatie met daarin kruidachtigen die jaarlijks één of meerdere malen per jaar gemaaid of begraasd wordt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Grasland"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Begroeiingen die overheersend bestaat uit grassen (behorende tot de Grassenfamilie, Poaceae)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Grazige vegetatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grindgazon#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grindgazon>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Berijdbaar gazontype specifiek op een gestabiliseerde ondergrond."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Grindgazon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Gazon>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Haag#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Haag>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Hagen zijn lijnvormige elementen en onderscheiden zich van een heestermassief doordat zowel de bovenkant als de zijkanten geschoren worden en dit 1 keer per jaar."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Haag"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heester#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heester>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Houtachtige planten die in of dicht bij de grond vertakken. Anders dan een boom vormen ze in het algemeen geen duidelijke stam, maar komen de meeste soorten met een aantal takken uit de grond, die dan ook grondtakken genoemd worden. Voorwaarde is wel dat de plant in zijn eventuele stam en takken houtweefsel vormt, hoewel dat niet tot in het hart hoeft te zijn."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Heester"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heestermassief#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heestermassief>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Heestertype gekenmerkt door een gesloten, massieve structuur, waarbij de individuele heesters moeilijk te onderscheiden zijn."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Heestermassief"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heester>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heg#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heg>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Haag die om de twee jaar wordt geschoren (of minder)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Heg"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Haag>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Hooiland#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Hooiland>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een grasland gebruikt wordt om hooi te oogsten met hoofdzakelijk inheemse planten en dat extensief gemaaid wordt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Hooiland"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Houtige planten of houtige gewassen (planta lignosa) zijn overblijvende planten die worden gekenmerkt door secundaire diktegroei, waardoor de takken, stammen en wortels veel hout bevatten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Houtachtigen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtkant#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtkant>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Ongeschoren haag of mantelvegetatie, die soms als hakhout wordt behandeld, maar niet op een door de mens aangelegde wal (verhoging)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Houtkant"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtwal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtwal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Houtkant op een door de mens aangelegde wal (verhoging)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Houtwal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Kleinfruit#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Kleinfruit>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Heesters die eetbare vruchten, zoals bessen en noten, opleveren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Kleinfruit"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heester>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Kruidachtigen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Kruidachtigen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Planten die geen blijvende houtige stengel vormen. Eenjarige, tweejarige of vaste planten, die in de winter tot de grond toe afsterven."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Kruidachtigen (deprecated)"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#NatteRuigte#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#NatteRuigte>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een vegetatie op natte standplaatsen die ontstaat na het wegvallen van beheer (maaien of begrazen) en dat gepaard gaat met de vestiging en/of uitbreiding van forse plantensoorten (zogenaamde ruigtekruiden). Deze ruigtekruiden zijn gekenmerkt door hun overblijvende natuur, hun snelle groei en de productie van aanzienlijke hoeveelheden strooisel, waardoor ze andere, vooral kleinere soorten, verdringen en de vestiging van andere soorten verhinderen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Natte ruigte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Ruigte>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#NietBegroeid#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#NietBegroeid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "(Deel van) een begroeiingstype dat door een bepaalde reden niet begroeid is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Niet begroeid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Oevervegetatie#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Oevervegetatie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Planten die in de waterbodem wortelen maar boven het water uitsteken."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Oevervegetatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Ruigte>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Rozen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Rozen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Begroeiingen die tot de rozenfamilie (Rosaceae) behoren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Rozen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heester>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Ruigte#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Ruigte>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Terrein of zoomvegetatie gedomineerd door ruigtekruiden of riet."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Ruigte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sierbeplanting>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#RuwGras#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#RuwGras>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Grasland zonder bloeiende grassen noch planten, gekenmerkt door een monotoon groen uiterlijk en een extensief beheer."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Ruw gras (deprecated)"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasachtigen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sierbeplanting#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sierbeplanting>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Eénjarige, meerjarige of vaste planten die geen blijvende houtige stengel vormen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Sierbeplanting"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Siergazon#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Siergazon>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Gazon aangelegd vanwege decoratieve waarde."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Siergazon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Gazon>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Siergrassen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Siergrassen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Grasachtige planten met een decoratieve waarde."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Siergrassen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sierbeplanting>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Speelgazon#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Speelgazon>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Gazon gebruikt als speelterrein."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Speelgazon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Gazon>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sportgazon#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sportgazon>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Gazon gebruikt als sportterrein."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Sportgazon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Gazon>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Struweel#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Struweel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een struweel is een met struiken begroeide oppervlakte dat minimaal 5 m breed is, minimaal 1 m hoog, maar meestal 2 tot 5 m hoog is. Een struweel is meestal meersoortig en vaak aan de rand van een bos terug te vinden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Struweel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#VastePlanten#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#VastePlanten>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Begroeiingstype met planten die een kruidachtige stengel hebben en overblijvend zijn."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Vaste planten"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sierbeplanting>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Watervegetatie#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Watervegetatie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "In water voorkomende vegetatie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Watervegetatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Ruigte>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Weiland#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Weiland>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Open grasland dat gebruikt wordt om vee te laten grazen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Weiland"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Wisselperk#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Wisselperk>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "\tJaarlijks opnieuw aangelegd begroeiingstype waarbij de sierwaarde centraal staat. De sierwaarde bestaat uit rijkelijk bloeiende planten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Wisselperk"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sierbeplanting>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#drassigheid#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#drassigheid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Mate waarin de bodem verzadigd is met water."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "drassigheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/besluitvorming#agendaType#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#agendaType>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Soort agenda."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "agenda type"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/besluitvorming#Agenda>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/besluitvorming#behandelt#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#behandelt>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De Agenda die effectief wordt behandeld op de Vergaderactiviteit."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "behandelt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/besluitvorming#Agenda>.
-<https://data.vlaanderen.be/ns/besluitvorming#beleidsveld#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#beleidsveld>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De beleidsvelden waar deze besluitvormingsaangelegenheid onder valt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "beleidsveld"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/besluitvorming#Besluitvormingsaangelegenheid>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/besluitvorming#beschrijft#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#beschrijft>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De beslissing(en) die in dit verslag beschreven zijn."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijft"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/besluitvorming#Verslag>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/besluitvorming#Beslissingsactiviteit>.
-<https://data.vlaanderen.be/ns/besluitvorming#geagendeerdStuk#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#geagendeerdStuk>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een gerelateerd stuk waarnaar wordt verwezen, geciteerd of anderszins aangegeven in het agendapunt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "geagendeerd stuk"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Agendapunt>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/dossier#Stuk>.
-<https://data.vlaanderen.be/ns/besluitvorming#genereertAgendapunt#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#genereertAgendapunt>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het agendapunt of de agendapunten die werden aangemaakt als gevolg van de agendering."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "genereert agendapunt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/besluitvorming#Agendering>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/besluit#Agendapunt>.
-<https://data.vlaanderen.be/ns/besluitvorming#genereertVerslag#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#genereertVerslag>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "de schriftelijke neerslag van (een onderdeel) van deze behandeling van agendapunt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "genereert verslag"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/besluitvorming#Verslag>.
-<https://data.vlaanderen.be/ns/besluitvorming#geplandOpenbaar#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#geplandOpenbaar>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan over de procedurestap al dan niet openbaar zal zijn."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gepland openbaar"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Procedurestap>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
-<https://data.vlaanderen.be/ns/besluitvorming#heeftAanleiding#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#heeftAanleiding>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De motivatie voor het opstarten van de Besluitvormingsaangelegenheid."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft aanleiding"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/besluitvorming#Besluitvormingsaangelegenheid>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/besluitvorming#Aanleiding>.
-<https://data.vlaanderen.be/ns/besluitvorming#heeftBeslissing#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#heeftBeslissing>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De Beslissing die volgt uit de Behandeling van het Agendapunt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft beslissing"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/besluitvorming#Beslissingsactiviteit>.
-<https://data.vlaanderen.be/ns/besluitvorming#heeftBijlage#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#heeftBijlage>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een gerelateerd Stuk dat vereist is om het stuk zijn functie of samenhang te ondersteunen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft bijlage"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Stuk>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/dossier#Stuk>.
-<https://data.vlaanderen.be/ns/besluitvorming#heeftNotulen#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#heeftNotulen>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De formele notulen van de vergadering."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft notulen"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/dossier#Stuk>.
-<https://data.vlaanderen.be/ns/besluitvorming#heeftOorsprongIn#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#heeftOorsprongIn>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het stuk waarop de aanleiding zich baseert."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft oorsprong in"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/besluitvorming#Aanleiding>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/dossier#Stuk>.
-<https://data.vlaanderen.be/ns/besluitvorming#isAgendaVoor#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#isAgendaVoor>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De Vergaderactiviteit waarvoor de Agenda wordt voorbereid."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "is agenda voor"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/besluitvorming#Agenda>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit>.
-<https://data.vlaanderen.be/ns/besluitvorming#isGehoudenDoor#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#isGehoudenDoor>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan door welk orgaan de vergadering is gehouden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "is gehouden door"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/besluit#Bestuursorgaan>.
-<https://data.vlaanderen.be/ns/besluitvorming#korteTitel#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#korteTitel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een verkorte vorm van de naam."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "korte titel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Agendapunt>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<https://data.vlaanderen.be/ns/besluitvorming#resultaat#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#resultaat>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Eindoordeel van de beoordeling."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "resultaat"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/besluitvorming#Beslissingsactiviteit>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/besluitvorming#vertrouwelijkheidsniveau#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#vertrouwelijkheidsniveau>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Indicatie van de gevoeligheid van het stuk en welke beperkingen gelden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "vertrouwelijkheidsniveau"@nl;
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#knipoppervlak#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#knipoppervlak>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De afmeting van het object dat geschoren moet worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "knipoppervlak"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>.
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#materiaal#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#materiaal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Materiaal waaruit de Grasdal is vervaardigd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "materiaal"@nl;
     <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/besluitvorming#volgnummer#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/besluitvorming#volgnummer>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Nummer van het stuk binnen een serie, kan bestaan uit cijfers of een combinatie van cijfers en alfanummerieke tekens."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "volgnummer"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Stuk>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://data.europa.eu/eli/ontology#LegalResource#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een legaal concept dat los staat van een bepaalde vorm (het achterliggende idee)."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Rechtsgrond"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/wetgeving#UnieRGLV>.
-<http://data.europa.eu/m8g/PublicOrganisation#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/PublicOrganisation>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Organisatie die volgens een wettelijk kader behoort tot de publieke sector, ongeacht het bestuursniveau waarop dat kader van kracht is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Publieke Organisatie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/org#Organization>.
-<http://data.vlaanderen.be/ns/besluit#Agendapunt#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#Agendapunt>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Formeel aanvaard te behandelen onderwerp op een vergadering."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Agendapunt"@nl.
-<http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De uitvoering van de acties om een agendapunt te verwerken tijdens een vergadering."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Behandeling van Agendapunt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit>.
-<http://data.vlaanderen.be/ns/besluit#Besluit#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#Besluit>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Authentieke schriftelijke neerslag van een beslissing van een bestuursorgaan. Deze beslissing houdt een rechtshandeling in waarbij sprake is van een beoogd rechtsgevolg."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Besluit"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://dbpedia.org/ontology/Document>, <https://data.vlaanderen.be/ns/wetgeving#LegaleVerschijningsvorm>, <https://data.vlaanderen.be/ns/generiek#FormeelKader>, <https://data.vlaanderen.be/ns/dossier#Stuk>.
-<http://data.vlaanderen.be/ns/besluit#Bestuurseenheid#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#Bestuurseenheid>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Publieke,bestuurlijke organisatie verbonden aan een territoriaal omschreven gebied met bepaalde verantwoordelijkheden waarbinnen het bestuurshandelingen kan stellen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Bestuurseenheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://data.europa.eu/m8g/PublicOrganisation>.
-<http://data.vlaanderen.be/ns/besluit#Bestuursorgaan#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#Bestuursorgaan>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een formeel orgaan van een rechtspersoon dat bevoegd is om rechtshandelingen te stellen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Bestuursorgaan"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/org#Organization>.
-<http://data.vlaanderen.be/ns/besluit#Stemming#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#Stemming>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geformaliseerde handeling waarbij de stemgerechtigde leden van een bestuursorgaan hun keuze te kennen geven."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Stemming"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit>, <https://data.vlaanderen.be/ns/besluitvorming#Beslissingsactiviteit>.
-<http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een vergadering of fase ervan."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Vergaderactiviteit"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/prov#Activity>.
-<http://purl.org/dc/terms/Agent#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/Agent>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Iemand die of iets dat kan handelen of een effect kan teweeg brengen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@nl.
-<http://www.w3.org/ns/adms#Identifier#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/adms#Identifier>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> " Informatie gebruikt om een object uniek te identificeren. "@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Identificator"@nl.
-<http://www.w3.org/ns/org#Organization#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/org#Organization>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een aantal mensen georganiseerd in een gemeenschap of andere sociale, commerciële of politieke structuur. De groep heeft een gemeenschappelijk doel of bestaansreden die de individuele leden ervan overstijgt en kan handelen als Agent. Een organisatie heeft dikwijls een hiërarchische structuur."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Organisatie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/prov#Entity>, <http://purl.org/dc/terms/Agent>.
-<http://www.w3.org/ns/prov#Activity#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/prov#Activity>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Handeling van bepaalde duur op of met entiteiten."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Activiteit"@nl.
-<http://www.w3.org/ns/prov#Association#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/prov#Association>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een toewijzing van verantwoordelijkheid aan een agent voor een activiteit, wat aangeeft dat de agent een rol in de activiteit had. "@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Agent (in rol)"@nl.
-<http://www.w3.org/ns/prov#Location#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/prov#Location>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van een geogrrafische positie, dmv coordinaten, een toponiem, een adreslabel, een verwijzing naar een plaats/regio of verwijzing naar een adres."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Locatie"@nl.
-<https://data.vlaanderen.be/ns/dossier#Dossier#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#Dossier>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Samenhangend geheel van stukken die betrekking hebben op een bepaalde zaak. "@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Dossier"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/prov#Collection>.
-<https://data.vlaanderen.be/ns/dossier#Procedurestap#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#Procedurestap>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een procedurestap is het geheel aan werk gedaan binnen een specifiek chronologisch, logisch, organisatorisch of wettelijk bepaald onderdeel van een procedure."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Procedurestap"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://dbpedia.org/ontology/UnitOfWork>.
-<https://data.vlaanderen.be/ns/dossier#Stuk#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#Stuk>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een stuk uit het dossier dat iets beschrijft en/of informatie bevat."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Stuk"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/prov#Entity>.
-<https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator#2021-02-04> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Identificator van een object opgesplitst in zijn onderdelen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Gestructureerde Identificator"@nl.
-<http://data.europa.eu/eli/ontology#date_no_longer_in_force#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#date_no_longer_in_force>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De laatste dag waarop de regelgeving nog van kracht is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "buitenwerkingtreding"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>.
-<http://data.europa.eu/eli/ontology#date_publication#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#date_publication>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De officiële publicatiedatum van het besluit."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "publicatiedatum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Besluit>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>.
-<http://data.europa.eu/eli/ontology#description#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#description>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De beknopte beschrijving van de beslissing."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Besluit>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://data.europa.eu/eli/ontology#first_date_entry_in_force#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#first_date_entry_in_force>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De datum waarop de regelgeving van kracht wordt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "inwerkingtreding"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>.
-<http://data.europa.eu/eli/ontology#language#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#language>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De taal van de verschijningsvorm."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "taal"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Besluit>;
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortcode#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortcode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een unieke identificator voor de soort van het vegetatie-element. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "soortcode"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<http://data.europa.eu/eli/ontology#realizes#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#realizes>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De rechtsgrond (rechtsbron) beschreven door dit besluit."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "realiseert"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Besluit>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource>.
-<http://data.europa.eu/eli/ontology#title#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#title>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Titel van de legale verschijningsvorm."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Besluit>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://data.europa.eu/eli/ontology#title_short#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#title_short>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De beknopte titel of officiële korte naam van een decreet, wet, besluit... Deze wordt officieel vastgelegd. Deze benaming wordt in de praktijk gebruikt om naar de rechtsgrond te verwijzen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "citeeropschrift"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Besluit>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://data.europa.eu/eli/ontology#type_document#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/eli/ontology#type_document>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type van de rechtsgrond."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "type document"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/eli/ontology#LegalResource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#ResourceType>.
-<http://data.vlaanderen.be/ns/besluit#Agendapunt.type#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#Agendapunt.type>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Type van het agendapunt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Agendapunt>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<http://data.vlaanderen.be/ns/besluit#aangebrachtNa#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#aangebrachtNa>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan dat een agendapunt na een ander agendapunt is aangebracht op een vergadering."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "is aangebracht na"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Agendapunt>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/besluit#Agendapunt>.
-<http://data.vlaanderen.be/ns/besluit#aantalOnthouders#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#aantalOnthouders>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het aantal stemmers dat als onthouding heeft gestemd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "aantal onthouders"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Stemming>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer>.
-<http://data.vlaanderen.be/ns/besluit#aantalTegenstanders#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#aantalTegenstanders>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het aantal stemmers dat als tegenstander heeft gestemd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "aantal tegenstanders"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Stemming>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer>.
-<http://data.vlaanderen.be/ns/besluit#aantalVoorstanders#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#aantalVoorstanders>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het aantal stemmers dat als voorstander heeft gestemd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "aantal voorstanders"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Stemming>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer>.
-<http://data.vlaanderen.be/ns/besluit#bestuurt#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#bestuurt>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De bestuurseenheid die door het orgaan bestuurd wordt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "bestuurt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Bestuursorgaan>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/besluit#Bestuurseenheid>.
-<http://data.vlaanderen.be/ns/besluit#gebeurtNa#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#gebeurtNa>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijzing naar het voorgaand behandeld agendapunt binnen dezelfde vergadering. Laat toe om de volgorde van de behandelingen op te bouwen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gebeurt na"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>.
-<http://data.vlaanderen.be/ns/besluit#geheim#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#geheim>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of de stemming geheim was. Bij een geheime stemming wordt niet individueel bekend gemaakt wie op wat heeft gestemd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "geheim"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Stemming>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
-<http://data.vlaanderen.be/ns/besluit#geplandOpenbaar#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#geplandOpenbaar>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of het al dan niet de bedoeling is om het agendapunt publiek te maken."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gepland openbaar"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Agendapunt>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
-<http://data.vlaanderen.be/ns/besluit#gevolg#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#gevolg>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het gevolg van de stemming."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gevolg"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Stemming>;
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortnaamNederlands#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortnaamNederlands>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Soortnaam in het Nederlands."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "soortnaam Nederlands"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
-<http://data.vlaanderen.be/ns/besluit#heeftAanwezige#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#heeftAanwezige>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een agent (bvb: mandataris) die aanwezig was tijdens (een deel van) de activiteit waar hij een zekere verantwoordelijkheid had."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft aanwezige"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
-<http://data.vlaanderen.be/ns/besluit#heeftStemming#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#heeftStemming>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een stemming die plaatsvond tijdens de behandeling van het agendapunt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft stemming"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/besluit#Stemming>.
-<http://data.vlaanderen.be/ns/besluit#motivering#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#motivering>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van de juridische en feitelijke motivering achter de beslissing die wordt uitgedrukt in het besluit."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "motivering"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Besluit>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://data.vlaanderen.be/ns/besluit#onderwerp#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#onderwerp>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De beschrijving van het onderwerp waarover de stemming gaat."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "onderwerp"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Stemming>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
-<http://data.vlaanderen.be/ns/besluit#openbaar#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#openbaar>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat de behandeling van het agendapunt publiek is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "openbaar"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
+<https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#vrijUitgroeiend#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#vrijUitgroeiend>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of de vegetatie of begroeiing al dan niet snoei vereist."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "vrij uitgroeiend"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#Object>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
-<http://data.vlaanderen.be/ns/besluit#werkingsgebied#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/besluit#werkingsgebied>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geografische gebied waarbinnen de bestuurseenheid bepaalde verantwoordelijkheden heeft waarbinnen het bestuurshandelingen kan stellen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "werkingsgebied"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Bestuurseenheid>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Location>.
-<http://purl.org/dc/terms/alternative#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/alternative>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Niet formele benaming van de besluitvormingsaangelegenheid."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "alternatieve naam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/besluitvorming#Besluitvormingsaangelegenheid>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://purl.org/dc/terms/created#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/created>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De creatiedatum van het stuk."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "creatiedatum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Stuk>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<http://purl.org/dc/terms/creator#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/creator>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Link naar de agent die de identificator heeft uitgegeven."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "toegekend door"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
-<http://purl.org/dc/terms/date#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/date>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De datum van het stuk."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "datum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Stuk>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<http://purl.org/dc/terms/description#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een omschrijving van de aanleiding"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/besluitvorming#Aanleiding>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>;
-    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Korte beschrijving van het agendapunt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Agendapunt>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://purl.org/dc/terms/isPartOf#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/isPartOf>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De Agenda waarvan dit Agendapunt een onderdeel is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "is onderdeel van"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Agendapunt>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/besluitvorming#Agenda>.
-<http://purl.org/dc/terms/issued#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/issued>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum van formele uitgifte van het stuk."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "publicatiedatum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Stuk>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>;
-    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/issued>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijdstip waarop de identificator werd uitgegeven."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "toegekend op"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<http://purl.org/dc/terms/language#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/language>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De taal van het stuk"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "taal"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Stuk>;
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#langString#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Combinatie van een string en de taal waarin de inhoud ervan is gesteld."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Taalstring"@nl.
+<https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van het fysieke voorkomen van het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Fysiek voorkomen"@nl.
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van het terrein voorkomen van het terreindeel."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Terrein voorkomen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen>.
+<https://schema.org/QuantitativeValue#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/QuantitativeValue>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van de kwantiteit van een bepaald kenmerk van een object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Kwantitatieve Waarde"@nl.
+<http://open.vocab.org/terms/length#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://open.vocab.org/terms/length>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De lineare grootte van het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "lengte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>.
+<http://rs.tdwg.org/dwc/terms/scientificName#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://rs.tdwg.org/dwc/terms/scientificName>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De wetenschappelijke soortnaam."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "wetenschappelijke soortnaam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<http://purl.org/dc/terms/replaces#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/replaces>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Origineel stuk waarvan dit stuk een herziening is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "vervangt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Stuk>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/dossier#Stuk>.
-<http://purl.org/dc/terms/spatial#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/spatial>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Administratief gebied dat de Publieke Organisatie dekt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "werkingsgebied"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/PublicOrganisation>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Location>.
-<http://purl.org/dc/terms/subject#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/subject>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het onderwerp van de activiteit."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft onderwerp"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/besluit#Agendapunt>.
-<http://purl.org/dc/terms/title#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van de besluitvormingsaangelegenheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/besluitvorming#Besluitvormingsaangelegenheid>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>;
-    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van het dossier."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Dossier>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>;
-    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van de procedurestap."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Procedurestap>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>;
-    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van het stuk."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Stuk>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>;
-    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De volledige naam van het agendapunt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Agendapunt>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>;
-    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van de activiteit."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Activity>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://purl.org/dc/terms/type#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/type>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Soort procedurestap."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Procedurestap>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/type>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Categorie waartoe het stuk behoord."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Stuk>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/type>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Categorie waartoe deze activiteit behoord."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Activity>;
+<http://schema.org/height#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/height>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De hoogte van het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "hoogte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>.
+<http://schema.org/width#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/width>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De breedte van het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "breedte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>.
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#obstakels#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#obstakels>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Eigenschap die aangeeft of er binnen het beheerdeel al dan niet objecten voorkomen die de vrije werking van machines of andere werktuigen kan verhinderen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "obstakels"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<http://www.w3.org/2004/02/skos/core#notation#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2004/02/skos/core#notation>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "String gebruikt om het object uniek te identificeren. "@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "notatie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>.
-<http://www.w3.org/2004/02/skos/core#prefLabel#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2004/02/skos/core#prefLabel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van de bestuurseenheid."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Bestuurseenheid>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>;
-    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2004/02/skos/core#prefLabel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van de eenheid."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Bestuursorgaan>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>.
-<http://www.w3.org/ns/adms#identifier#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/adms#identifier>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Identificator van het object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "identificator"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Stuk>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Identifier>.
-<http://www.w3.org/ns/org#classification#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/org#classification>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Classificatie van de bestuurseenheid."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "classificatie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Bestuurseenheid>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/org#classification>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type bestuursorgaan."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "classificatie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Bestuursorgaan>;
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#talud#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#talud>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een talud is het kunstmatig gedeelte van een vlak van de wegbaan, dijken, spoorbanen, vestingswerken, ... dat een helling (min. 20%, max 80% voor kunstmatig verharde taluds) vertoont en bedoeld voor het opvangen van een hoogteverschil."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "talud"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<http://www.w3.org/ns/prov#agent#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/prov#agent>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt de agent aan waarvan deze entiteit een rol toewijst."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "is rolspecialisatie van"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Association>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
-<http://www.w3.org/ns/prov#atLocation#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/prov#atLocation>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Locatie waar de vergaderactiviteit plaatsvindt. Doorgaans is dit een zaal in een gebouw."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "op locatie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Location>.
-<http://www.w3.org/ns/prov#generated#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/prov#generated>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het Besluit dat werd goedgekeurd door deze beslissing"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "geeft aanleiding tot"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/besluitvorming#Beslissingsactiviteit>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/besluit#Besluit>.
-<http://www.w3.org/ns/prov#hadRole#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/prov#hadRole>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De functie van een agent met betrekking tot een activiteit."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "rol"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Association>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#Role>.
-<http://www.w3.org/ns/prov#qualifiedAssociation#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/prov#qualifiedAssociation>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Persoon of organisatie die binnen een bepaalde rol een verantwoordelijkheid opneemt voor deze activiteit."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft deelnemer"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Activity>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Association>.
-<http://www.w3.org/ns/prov#used#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/prov#used>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De stukken die werden gebruikt voor de activiteit."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gebruikt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Activity>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/dossier#Stuk>.
-<http://www.w3.org/ns/prov#value#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/prov#value>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Digitale voorstelling van de data vervat in het stuk, al dan niet geencodeerd in een binair formaat."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "inhoud"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Stuk>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>;
-    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/prov#value>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De beschrijving van de beoogde rechtsgevolgen, het zogenaamde beschikkend gedeelte."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "inhoud"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Besluit>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>.
-<http://www.w3.org/ns/prov#wasAssociatedWith#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/prov#wasAssociatedWith>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een toewijzing van verantwoordelijkheid aan een agent voor een activiteit, wat aangeeft dat de agent een rol in de activiteit had."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "was geassocieerd met"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Activity>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
-<http://www.w3.org/ns/prov#wasRevisionOf#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/prov#wasRevisionOf>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Origineel agendapunt waarvan dit agendapunt een herziening is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "vervangt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.vlaanderen.be/ns/besluit#Agendapunt>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.vlaanderen.be/ns/besluit#Agendapunt>.
-<https://data.vlaanderen.be/ns/dossier#Activiteit.einddatum#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#Activiteit.einddatum>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De einddatum van de activiteit."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "einddatum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Activity>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<https://data.vlaanderen.be/ns/dossier#Activiteit.startdatum#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#Activiteit.startdatum>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De startdatum van de activiteit."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "startdatum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Activity>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<https://data.vlaanderen.be/ns/dossier#Dossier.bestaatUit#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#Dossier.bestaatUit>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een dossier bestaat uit dossierstukken."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "bestaat uit"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Entity>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/dossier#Stuk>.
-<https://data.vlaanderen.be/ns/dossier#Dossier.isNeerslagVan#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#Dossier.isNeerslagVan>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Dossier is een neerslag van een Besluitvormingsaangelegenheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "is neerslag van"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Dossier>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/besluitvorming#Besluitvormingsaangelegenheid>.
-<https://data.vlaanderen.be/ns/dossier#Procedurestap.einddatum#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#Procedurestap.einddatum>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De einddatum van de procedurestap."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "einddatum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Procedurestap>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>.
-<https://data.vlaanderen.be/ns/dossier#Procedurestap.startdatum#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#Procedurestap.startdatum>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De startdatum van de procedurestap."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "startdatum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Procedurestap>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>.
-<https://data.vlaanderen.be/ns/dossier#auteur#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#auteur>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De auteur van het stuk."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "auteur"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Entity>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
-<https://data.vlaanderen.be/ns/dossier#doorloopt#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#doorloopt>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Besluitvormingsaangelegenheid doorloopt Procedurestappen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "doorloopt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/besluitvorming#Besluitvormingsaangelegenheid>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/dossier#Procedurestap>.
-<https://data.vlaanderen.be/ns/dossier#genereert#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#genereert>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een activiteit kan een stuk genereren."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "genereert"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Activity>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/dossier#Stuk>.
-<https://data.vlaanderen.be/ns/dossier#informatieclassificatie#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#informatieclassificatie>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan welke veiligheidsmaatregelen (waaronder toegangsmaatregelen) genomen moeten worden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "informatieclassificatie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Dossier>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#informatieclassificatie>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan welke veiligheidsmaatregelen (waaronder toegangsmaatregelen) genomen moeten worden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "informatieclassificatie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/dossier#Stuk>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/dossier#openingsdatum#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#openingsdatum>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De openingsdatum van de zaak."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "openingsdatum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/besluitvorming#Besluitvormingsaangelegenheid>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>.
-<https://data.vlaanderen.be/ns/dossier#sluitingsdatum#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#sluitingsdatum>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De sluitingsdatum van de zaak."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "sluitingsdatum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/besluitvorming#Besluitvormingsaangelegenheid>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>.
-<https://data.vlaanderen.be/ns/dossier#vindtPlaatsTijdens#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/dossier#vindtPlaatsTijdens>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een activiteit vindt plaats tijdens een procedurestap."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "vindt plaats tijdens"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Activity>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/dossier#Procedurestap>.
-<https://data.vlaanderen.be/ns/generiek#geplandeStart#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/generiek#geplandeStart>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het tijdstip waarop de activiteit gepland is om te beginnen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "geplande start"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Activity>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<https://data.vlaanderen.be/ns/generiek#gestructureerdeIdentificator#2021-02-04> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/generiek#gestructureerdeIdentificator>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Identificator vh object opgesplitst in zijn onderdelen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gestructureerde identificator"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator>.
-<https://data.vlaanderen.be/ns/generiek#lokaleIdentificator#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/generiek#lokaleIdentificator>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "String gebruikt om het object uniek te identificeren binnen de naamruimte."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "lokale identificator"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator>;
+<https://schema.org/unitCode#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/unitCode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De gestandaardiseerde eenheid waarin de waarde is uitgedrukt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "standaard eenheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/generiek#StandaardEenheid>.
+<https://schema.org/unitText#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/unitText>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De eenheid waarin de waarde is uitgedrukt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "eenheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<https://data.vlaanderen.be/ns/generiek#naamruimte#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/generiek#naamruimte>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "String die toegvoegd wordt aan de lokaleidentificator om deze globaal uniek te maken."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "naamruimte"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<https://data.vlaanderen.be/ns/generiek#versieIdentificator#2021-02-04> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/generiek#versieIdentificator>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Identificator van de specifieke versie van een object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "versie-identificator"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+<https://schema.org/value#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/value>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Getal waarmee de kwantiteit van het kenmerk kan worden uitgedrukt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "waarde"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/Number>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/besluitvorming#Aanleiding#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#Agenda#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#Agendering#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#Beslissingsactiviteit#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#Besluitvormingsaangelegenheid#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#Verslag#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#agendaStatus#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#agendaType#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#behandelt#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#beleidsveld#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#beschrijft#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#geagendeerdStuk#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#genereertAgendapunt#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#genereertVerslag#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#geplandOpenbaar#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#heeftAanleiding#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#heeftBeslissing#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#heeftBijlage#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#heeftNotulen#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#heeftOorsprongIn#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#isAgendaVoor#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#isGehoudenDoor#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#korteTitel#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#resultaat#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#vertrouwelijkheidsniveau#2021-02-04>, <https://data.vlaanderen.be/ns/besluitvorming#volgnummer#2021-02-04>, <http://data.europa.eu/eli/ontology#LegalResource#2021-02-04>, <http://data.europa.eu/m8g/PublicOrganisation#2021-02-04>, <http://data.vlaanderen.be/ns/besluit#Agendapunt#2021-02-04>, <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt#2021-02-04>, <http://data.vlaanderen.be/ns/besluit#Besluit#2021-02-04>, <http://data.vlaanderen.be/ns/besluit#Bestuurseenheid#2021-02-04>, <http://data.vlaanderen.be/ns/besluit#Bestuursorgaan#2021-02-04>, <http://data.vlaanderen.be/ns/besluit#Stemming#2021-02-04>, <http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit#2021-02-04>, <http://purl.org/dc/terms/Agent#2021-02-04>, <http://www.w3.org/ns/adms#Identifier#2021-02-04>, <http://www.w3.org/ns/org#Organization#2021-02-04>, <http://www.w3.org/ns/prov#Activity#2021-02-04>, <http://www.w3.org/ns/prov#Association#2021-02-04>, <http://www.w3.org/ns/prov#Location#2021-02-04>, <https://data.vlaanderen.be/ns/dossier#Dossier#2021-02-04>, <https://data.vlaanderen.be/ns/dossier#Procedurestap#2021-02-04>, <https://data.vlaanderen.be/ns/dossier#Stuk#2021-02-04>, <https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator#2021-02-04>, <http://data.europa.eu/eli/ontology#date_no_longer_in_force#2021-02-04>, <http://data.europa.eu/eli/ontology#date_publication#2021-02-04>, <http://data.europa.eu/eli/ontology#description#2021-02-04>, <http://data.europa.eu/eli/ontology#first_date_entry_in_force#2021-02-04>, <http://data.europa.eu/eli/ontology#language#2021-02-04>, <http://data.europa.eu/eli/ontology#realizes#2021-02-04>, <http://data.europa.eu/eli/ontology#title#2021-02-04>, <http://data.europa.eu/eli/ontology#title_short#2021-02-04>, <http://data.europa.eu/eli/ontology#type_document#2021-02-04>, <http://data.vlaanderen.be/ns/besluit#Agendapunt.type#2021-02-04>, <http://data.vlaanderen.be/ns/besluit#aangebrachtNa#2021-02-04>, <http://data.vlaanderen.be/ns/besluit#aantalOnthouders#2021-02-04>, <http://data.vlaanderen.be/ns/besluit#aantalTegenstanders#2021-02-04>, <http://data.vlaanderen.be/ns/besluit#aantalVoorstanders#2021-02-04>, <http://data.vlaanderen.be/ns/besluit#bestuurt#2021-02-04>, <http://data.vlaanderen.be/ns/besluit#gebeurtNa#2021-02-04>, <http://data.vlaanderen.be/ns/besluit#geheim#2021-02-04>, <http://data.vlaanderen.be/ns/besluit#geplandOpenbaar#2021-02-04>, <http://data.vlaanderen.be/ns/besluit#gevolg#2021-02-04>, <http://data.vlaanderen.be/ns/besluit#heeftAanwezige#2021-02-04>, <http://data.vlaanderen.be/ns/besluit#heeftStemming#2021-02-04>, <http://data.vlaanderen.be/ns/besluit#motivering#2021-02-04>, <http://data.vlaanderen.be/ns/besluit#onderwerp#2021-02-04>, <http://data.vlaanderen.be/ns/besluit#openbaar#2021-02-04>, <http://data.vlaanderen.be/ns/besluit#werkingsgebied#2021-02-04>, <http://purl.org/dc/terms/alternative#2021-02-04>, <http://purl.org/dc/terms/created#2021-02-04>, <http://purl.org/dc/terms/creator#2021-02-04>, <http://purl.org/dc/terms/date#2021-02-04>, <http://purl.org/dc/terms/description#2021-02-04>, <http://purl.org/dc/terms/description#2021-02-04>, <http://purl.org/dc/terms/isPartOf#2021-02-04>, <http://purl.org/dc/terms/issued#2021-02-04>, <http://purl.org/dc/terms/issued#2021-02-04>, <http://purl.org/dc/terms/language#2021-02-04>, <http://purl.org/dc/terms/replaces#2021-02-04>, <http://purl.org/dc/terms/spatial#2021-02-04>, <http://purl.org/dc/terms/subject#2021-02-04>, <http://purl.org/dc/terms/title#2021-02-04>, <http://purl.org/dc/terms/title#2021-02-04>, <http://purl.org/dc/terms/title#2021-02-04>, <http://purl.org/dc/terms/title#2021-02-04>, <http://purl.org/dc/terms/title#2021-02-04>, <http://purl.org/dc/terms/title#2021-02-04>, <http://purl.org/dc/terms/type#2021-02-04>, <http://purl.org/dc/terms/type#2021-02-04>, <http://purl.org/dc/terms/type#2021-02-04>, <http://www.w3.org/2004/02/skos/core#notation#2021-02-04>, <http://www.w3.org/2004/02/skos/core#prefLabel#2021-02-04>, <http://www.w3.org/2004/02/skos/core#prefLabel#2021-02-04>, <http://www.w3.org/ns/adms#identifier#2021-02-04>, <http://www.w3.org/ns/org#classification#2021-02-04>, <http://www.w3.org/ns/org#classification#2021-02-04>, <http://www.w3.org/ns/prov#agent#2021-02-04>, <http://www.w3.org/ns/prov#atLocation#2021-02-04>, <http://www.w3.org/ns/prov#generated#2021-02-04>, <http://www.w3.org/ns/prov#hadRole#2021-02-04>, <http://www.w3.org/ns/prov#qualifiedAssociation#2021-02-04>, <http://www.w3.org/ns/prov#used#2021-02-04>, <http://www.w3.org/ns/prov#value#2021-02-04>, <http://www.w3.org/ns/prov#value#2021-02-04>, <http://www.w3.org/ns/prov#wasAssociatedWith#2021-02-04>, <http://www.w3.org/ns/prov#wasRevisionOf#2021-02-04>, <https://data.vlaanderen.be/ns/dossier#Activiteit.einddatum#2021-02-04>, <https://data.vlaanderen.be/ns/dossier#Activiteit.startdatum#2021-02-04>, <https://data.vlaanderen.be/ns/dossier#Dossier.bestaatUit#2021-02-04>, <https://data.vlaanderen.be/ns/dossier#Dossier.isNeerslagVan#2021-02-04>, <https://data.vlaanderen.be/ns/dossier#Procedurestap.einddatum#2021-02-04>, <https://data.vlaanderen.be/ns/dossier#Procedurestap.startdatum#2021-02-04>, <https://data.vlaanderen.be/ns/dossier#auteur#2021-02-04>, <https://data.vlaanderen.be/ns/dossier#doorloopt#2021-02-04>, <https://data.vlaanderen.be/ns/dossier#genereert#2021-02-04>, <https://data.vlaanderen.be/ns/dossier#informatieclassificatie#2021-02-04>, <https://data.vlaanderen.be/ns/dossier#informatieclassificatie#2021-02-04>, <https://data.vlaanderen.be/ns/dossier#openingsdatum#2021-02-04>, <https://data.vlaanderen.be/ns/dossier#sluitingsdatum#2021-02-04>, <https://data.vlaanderen.be/ns/dossier#vindtPlaatsTijdens#2021-02-04>, <https://data.vlaanderen.be/ns/generiek#geplandeStart#2021-02-04>, <https://data.vlaanderen.be/ns/generiek#gestructureerdeIdentificator#2021-02-04>, <https://data.vlaanderen.be/ns/generiek#lokaleIdentificator#2021-02-04>, <https://data.vlaanderen.be/ns/generiek#naamruimte#2021-02-04>, <https://data.vlaanderen.be/ns/generiek#versieIdentificator#2021-02-04>;
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bloemenakker#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bloemenweide#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BodembedekkendeHeesters#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bodembedekkers#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BolEnKnolgewassen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bollengrasland#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bomen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Braakland#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#DrogeRuigte#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Gazon#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GeschorenHaag#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasachtigen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasdals#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasland#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grindgazon#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Haag#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heester#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heestermassief#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heg#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Hooiland#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtkant#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtwal#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Kleinfruit#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Kruidachtigen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#NatteRuigte#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#NietBegroeid#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Oevervegetatie#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Rozen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Ruigte#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#RuwGras#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sierbeplanting#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Siergazon#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Siergrassen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Speelgazon#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sportgazon#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Struweel#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#VastePlanten#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Watervegetatie#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Weiland#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Wisselperk#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#drassigheid#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#knipoppervlak#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#materiaal#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortcode#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortnaamNederlands#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#vrijUitgroeiend#2021-09-30>, <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen#2021-09-30>, <https://schema.org/QuantitativeValue#2021-09-30>, <http://open.vocab.org/terms/length#2021-09-30>, <http://rs.tdwg.org/dwc/terms/scientificName#2021-09-30>, <http://schema.org/height#2021-09-30>, <http://schema.org/width#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#obstakels#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#talud#2021-09-30>, <https://schema.org/unitCode#2021-09-30>, <https://schema.org/unitText#2021-09-30>, <https://schema.org/value#2021-09-30>;
     <https://w3id.org/tree#view> <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/9.trig>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/9.trig> <https://w3id.org/tree#relation> _:df_0_8.
 _:df_0_8 a <https://w3id.org/tree#Relation>;
