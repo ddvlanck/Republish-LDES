@@ -106,16 +106,16 @@
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
 <http://purl.org/dc/terms/relation#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/relation>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De Publieke Dienstverlening waar het Merk aan gerelateerd is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "is gerelateerd met"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Brand>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocab/cpsv#PublicService>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/relation>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "Een relatie tussen twee Informeer Acties."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "is gerelateerd met"@nl;
     <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/InformAction>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/InformAction>.
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/InformAction>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/relation>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De Publieke Dienstverlening waar het Merk aan gerelateerd is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "is gerelateerd met"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Brand>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocab/cpsv#PublicService>.
 <http://schema.org/brand#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://schema.org/brand>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "Het merk dat geassocieerd is met één of meerdere Publieke Organisatie(s), in de context van Publieke Dienstverlening. "@nl;
