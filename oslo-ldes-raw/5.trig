@@ -1,200 +1,408 @@
-<https://data.vlaanderen.be/ns/openbaardomein/waterdeel> {
-<https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Beek#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Beek>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Natuurlijke Waterloop die een buiten de wegbaan gelegen natuurlijke stroom ondiep water is die vanuit een oorsprong, vaak een bron, stroomafwaarts vloeit. Een beek is onbevaarbaar."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Beek"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#NatuurlijkeWaterloop>.
-<https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Gracht#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Gracht>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een afvoerweg tot afscheiding, tot afwatering of tot ontwatering van hemelwater, drainagewater, bemalingswater en in voorkomend geval ook effluentwater uit een waterzuiveringsinstallatie, of water afkomstig uit een overstort, die niet bij de waterwegen en ook niet bij de onbevaarbare waterlopen is ingedeeld. Een gracht is niet altijd permanent watervoerend."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Gracht"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Waterloop>.
-<https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Kanaal#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Kanaal>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Kunstmatige Waterloop die bevaarbaar is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Kanaal"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#KunstmatigeWaterloop>.
-<https://data.vlaanderen.be/ns/openbaardomein/waterdeel#KunstmatigeGracht#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#KunstmatigeGracht>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Gracht die is aangelegd door de mens."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Kunstmatige gracht"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Gracht>.
-<https://data.vlaanderen.be/ns/openbaardomein/waterdeel#KunstmatigeWaterloop#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#KunstmatigeWaterloop>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Waterloop die, geheel of in grote mate, tot stand is gebracht door het ingrijpen van de mens."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Kunstmatige waterloop"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Waterloop>.
-<https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Meer#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Meer>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een meer is een door land omringde watervlakte. De meeste meren hebben een of meer voedende en afwaterende rivieren."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Meer"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Watervlak>.
-<https://data.vlaanderen.be/ns/openbaardomein/waterdeel#NatuurlijkeGracht#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#NatuurlijkeGracht>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Gracht die op natuurlijke wijze is ontstaan door de afwatering van hemelwater."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Natuurlijke gracht"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Gracht>.
-<https://data.vlaanderen.be/ns/openbaardomein/waterdeel#NatuurlijkeWaterloop#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#NatuurlijkeWaterloop>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Waterloop die op natuurlijke wijze is ontstaan."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Natuurlijke waterloop"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Waterloop>.
-<https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Poel#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Poel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een poel is een meestal door de mens uitgegraven waterpartij in een grasland, bedoeld als drinkplaats voor het vee. Het zijn meestal kleine, ondiepe waterpartijen in grasland."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Poel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Watervlak>.
-<https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Rivier#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Rivier>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Natuurlijke Waterloop, bedoeld voor de af- of aanvoer of het tijdelijk ophouden van oppervlaktewater en die (meestal) bevaarbaar is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Rivier"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#NatuurlijkeWaterloop>.
-<https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Sloot#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Sloot>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een sloot is een waterloop op plaatsen waar regenwater samenstroomt, zodat het gezamenlijk kan worden afgevoerd om wateroverlast te voorkomen. Een sloot is een onderdeel van de waterhishoudkundige infrastructuur. Het via sloten afgevoerde water wordt elders weggepompt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Sloot (deprecated)"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Waterloop>.
-<https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Slotgracht#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Slotgracht>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een slotgracht is een diepe, brede gracht, droog of gevuld met water, dat een kasteel of gebouw omringt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Slotgracht"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Watervlak>.
-<https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Ven#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Ven>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een ven is een klein, meestal ondiep meer dat voorkomt op Pleistocene zandgronden. Vennen hebben wisselende waterstanden en zijn zelden groter dan enkele hectaren. Onder vennen worden uitsluitend natuurlijke wateren verstaan."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Ven"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Watervlak>.
-<https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Vijver#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Vijver>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een vijver is een door de mens aangelegd waterlichaam met beperkte oppervlakte en wordt geassocieerd met visvangst of een sierfunctie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Vijver"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Watervlak>.
-<https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Waterdeel#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Waterdeel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Gebied dat rechtstreeks gedomineerd wordt door de tijdelijke of permanente aanwezigheid van oppervlaktewater, met een bepaalde hieraan verbonden functie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Waterdeel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#Deel>.
-<https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Waterloop#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Waterloop>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Gebied dat zorgt voor het verzamelen en transporteren van de horizontale afvloeiing van neerslag- en bronwater. "@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Waterloop"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Waterdeel>.
-<https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Watervlak#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Watervlak>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het gedeelte van het landoppervlak dat wordt ingenomen door stilstaand water en dat in hoofdzaak geen deel uitmaakt van het hydrografisch netwerk."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Watervlak"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Waterdeel>.
-<https://data.vlaanderen.be/ns/openbaardomein#Deel#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#Deel>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Homogeen gedeelte van het aardoppervlak, met een gelijkaardige hoofdfunctie en fysiek voorkomen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Deel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>.
-<https://data.vlaanderen.be/ns/openbaardomein#FysiekObject#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De hoofdklasse waar alle objecten die geïnventariseerd kunnen worden van afgeleid worden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Fysiek object"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/prov#Entity>, <http://schema.org/Thing>.
-<https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen#WaterVoorkomen#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen#WaterVoorkomen>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Fysiek voorkomen van het oppervlak bestaande uit water."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Water voorkomen"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen>.
-<https://schema.org/QuantitativeValue#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/QuantitativeValue>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van de kwantiteit van een bepaald kenmerk van een object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Kwantitatieve Waarde"@nl.
-<http://open.vocab.org/terms/length#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://open.vocab.org/terms/length>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De lineare grootte van het object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "lengte"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Waterloop>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>.
-<http://purl.org/dc/terms/relation#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+<https://data.vlaanderen.be/ns/transactie> {
+<https://data.vlaanderen.be/ns/transactie#Status#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/transactie#Status>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De status van de afname van de publieke dienstverlening."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Status"@nl.
+<https://data.vlaanderen.be/ns/transactie#actie#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/transactie#actie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Deze parameter laat toe om aan te geven dat - qua procesverloop van de transactie - de bal expliciet in het kamp van de klant (= de Agent) ligt en dat er dus een actie verwacht wordt van zijn kant."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "actie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transactie#Status>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://data.vlaanderen.be/ns/transactie#actieNodig#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/transactie#actieNodig>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Indien Actie Nodig 'Ja', dan laat dit veld toe te specifiëren welke Actie van de klant (Agent) wordt verwacht."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "actie nodig"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transactie#Status>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
+<https://data.vlaanderen.be/ns/transactie#betrouwbaarheidsniveau#2019-02-07> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/transactie#betrouwbaarheidsniveau>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan hoe betrouwbaar het bewijs is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "betrouwbaarheidsniveau"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/Evidence>.
+<https://data.vlaanderen.be/ns/transactie#heeftStatus#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/transactie#heeftStatus>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Link tussen Publieke Dienstverlening en Status."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft status"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/cpsv#PublicService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/transactie#Status>.
+<https://data.vlaanderen.be/ns/transactie#isGedocumenteerdDoor#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/transactie#isGedocumenteerdDoor>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijzing naar een dossier met een logische bundeling van documenten binnen een bepaalde consumptie van een Publieke Dienstverlening."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "is gedocumenteerd door"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/cpsv#PublicService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://lod.milieuinfo.be/ns/dossier>.
+<https://data.vlaanderen.be/ns/transactie#isInstantieVan#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/transactie#isInstantieVan>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Linkt een bepaalde consumptie van een publieke dienstverlening (een transactie) met het product uit het dienstverleningsregister."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "is instantie van"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/cpsv#PublicService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocab/cpsv#PublicService>.
+<https://data.vlaanderen.be/ns/transactie#statusEDRL#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/transactie#statusEDRL>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De status volgens de Europese Dienstenrichtlijn"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "status EDRL"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transactie#Status>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://data.vlaanderen.be/ns/transactie#statusVlaamsCode#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/transactie#statusVlaamsCode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verdere precisering van de status-fase volgens de 'Generieke Vlaamse status'."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "status Vlaamse code"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transactie#Status>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://data.vlaanderen.be/ns/transactie#statusVlaamsFase#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/transactie#statusVlaamsFase>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Is het eerste veld van 2 verplichte velden (Fase+Status) die samen de 'Generieke Vlaamse status' specifiëren. De StatusVlaamsFase vormt de eerste en hogere indeling van het dossierverloop (in aanvraag, in behandeling, in beroep, in uitvoering enz). Verdere precisering binnen de Fase gebeurt dan in het veld StatusVlaamsCode.\r\n"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "status Vlaamse fase"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transactie#Status>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://data.vlaanderen.be/ns/transactie#statusWijzigingsdatum#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/transactie#statusWijzigingsdatum>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Is de verplichte vermelding van de datum + tijdstip waarop de betrokken status werd geregistreerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "statusdatum"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transactie#Status>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>.
+<https://data.vlaanderen.be/ns/transactie#streefdatum#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/transactie#streefdatum>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Is de datum waarop verwacht wordt dat de volgende stap (status-wijziging) in de transactie zal of zou moeten plaatsvinden. Dit kan in bepaalde gevallen bepaald worden door een wettelijke termijn (van een fase of status)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "streefdatum"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/transactie#Status>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>.
+<http://data.europa.eu/m8g/Cost#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/Cost>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Deel vd kost verbonden aan de uitvoering van de Dienstverlening te betalen door de gebruiker."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Kost"@nl.
+<http://data.europa.eu/m8g/CriterionRequirement#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/CriterionRequirement>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Criterium dat toelaat te bepalen of een gebruiker recht heeft op een dienstverlening of deze mag gebruiken."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Criteriumvereiste"@nl.
+<http://data.europa.eu/m8g/Evidence#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/Evidence>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Elk stuk waarmee kan worden aangetoond dat men aan een CriteriumVereiste voldoet."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bewijs"@nl.
+<http://data.europa.eu/m8g/Output#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/Output>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Resultaat van een Publieke Dienstverlening."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Output"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/prov#Entity>.
+<http://data.europa.eu/m8g/Participation#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/Participation>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Deelname aan een Publieke Dienstverlening door een Agent."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Participatie"@nl.
+<http://data.europa.eu/m8g/PeriodOfTime#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/PeriodOfTime>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De tijdsperiode tussen twee momenten in de tijd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "TijdsInterval"@nl.
+<http://data.europa.eu/m8g/PublicOrganisation#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/PublicOrganisation>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Organisatie die volgens een wettelijk kader behoort tot de publieke sector,ongeacht het bestuursniveau waarop dat kader van kracht is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Publieke Organisatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/org#Organization>.
+<http://data.europa.eu/m8g/RequirementResponse#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/RequirementResponse>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een criterium antwoord is een bewering over een bepaald criterium vereiste. Met deze klasse wordt het effectieve antwoord van een agent op een criterium vereiste bedoelt. Een beantwoorde vereiste bestaat uit een specifieke waarde voor de specifieke vereiste en het tijdsinterval waarop de waarde van toepassing is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Criterium antwoord"@nl.
+<http://purl.org/dc/terms/Agent#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/Agent>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Iemand die of iets dat kan handelen of een effect kan teweeg brengen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@nl.
+<http://purl.org/vocab/cpsv#PublicService#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/vocab/cpsv#PublicService>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een publieke dienstverlening is een geheel van verplichte of optioneel uitgevoerde of uitvoerbare acties door of in naam van een publieke organisatie. De dienstverlening is ten bate van een individu, een bedrijf, een andere publieke organisatie of groepen hiervan."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Publieke Dienstverlening (aanbod)"@nl;
+    a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/vocab/cpsv#PublicService>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Publieke Dienstverlening is een geheel van verplichte of optioneel uitgevoerde of uitvoerbare acties door of in naam van een publieke organisatie. De dienstverlening is ten bate van een individu, een bedrijf, een andere publieke organisatie of groepen hiervan."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Publieke Dienstverlening"@nl.
+<http://www.w3.org/ns/adms#Identifier#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/adms#Identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie gebruikt om een object uniek te identificeren. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Identificator"@nl.
+<http://www.w3.org/ns/org#Organization#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/org#Organization>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een aantal mensen georganiseerd in een gemeenschap of andere sociale, commerciële of politieke structuur. De groep heeft een gemeenschappelijk doel of bestaansreden die de individuele leden ervan overstijgt en kan handelen als Agent. Een organisatie heeft dikwijls een hiërarchische structuur."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Organisatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/prov#Entity>, <http://purl.org/dc/terms/Agent>.
+<http://www.w3.org/ns/person#Person#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/person#Person>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Natuurlijk persoon."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Persoon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/prov#Entity>, <http://purl.org/dc/terms/Agent>.
+<https://data.vlaanderen.be/ns/organisatie#Hoedanigheid#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Agent met een Functie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Hoedanigheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/org#Post>, <http://purl.org/dc/terms/Agent>.
+<https://lod.milieuinfo.be/ns/dossier#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://lod.milieuinfo.be/ns/dossier>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een dossier is het geheel aan werk gedaan om tot een bestuurlijke of zakelijke beslissing te komen. Een dossier slaat doorgaans neer in een verzameling documenten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Dossier"@nl.
+<http://data.europa.eu/m8g/appliesToPeriodOfTime#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/appliesToPeriodOfTime>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Wanneer de het antwoord op het criterium van toepassing is binnen een specifieke periode kan deze eigenschap gebruikt worden om het tijdsinterval te beschrijven."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "van toepassing op tijdsinterval"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/RequirementResponse>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/PeriodOfTime>.
+<http://data.europa.eu/m8g/belongsToAgent#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/belongsToAgent>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Bewijs zal behoren tot een Agent. Een criterium kan invloed hebben op verschillende Agents; voor een Bewijs moet daarom gespecifieerd worden tot welke Agent het behoort."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "behoort tot agent"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/Evidence>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
+<http://data.europa.eu/m8g/currency#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/currency>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Munteenheid waarin de Kost is gedefinieerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "valuta"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/Cost>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.europa.eu/m8g/endTime#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/endTime>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Moment waarop het tijdsinterval eindigt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "einde"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/PeriodOfTime>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://data.europa.eu/m8g/hasCost#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/hasCost>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Kostprijs verbonden aan het gebruik van de publieke dienstverlening."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "kost"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/cpsv#PublicService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/Cost>.
+<http://data.europa.eu/m8g/hasCriterion#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/hasCriterion>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Criterium waaraan de gebruiker moet voldoen om recht te hebben op een dienstverlening of om een dienstverlening te mogen gebruiken."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft criterium"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/cpsv#PublicService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/CriterionRequirement>.
+<http://data.europa.eu/m8g/hasParticipation#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/hasParticipation>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Participatie (van een agent) aan de publieke dienstverlening."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft participatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/cpsv#PublicService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/Participation>.
+<http://data.europa.eu/m8g/issuedByOrganisation#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/issuedByOrganisation>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijst naar de organisatie die het bewijs heeft uitgegeven."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "uitgegeven door organisatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/Evidence>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#Organization>.
+<http://data.europa.eu/m8g/playsRole#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/playsRole>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Participatie van de agent (aan een publieke dienstverlening)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "speelt rol"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Agent>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/Participation>.
+<http://data.europa.eu/m8g/provenByEvidence#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/provenByEvidence>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het criterium antwoord kan gelinkt zijn aan het bewijs om het antwoord te staven."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bewezen door"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/RequirementResponse>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/Evidence>.
+<http://data.europa.eu/m8g/providesRequirementResponse#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/providesRequirementResponse>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een agent verschaft antwoorden op criterium vereisten om een Publieke Dienstverlening te kunnen consumeren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "verschaft criterium antwoord"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Agent>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/RequirementResponse>.
+<http://data.europa.eu/m8g/role#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/role>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "\tDe rol die de participant speelt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "rol"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/Participation>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.europa.eu/m8g/serviceProvider#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/serviceProvider>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Agent die de Publieke Dienstverlening verstrekt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "dienstverlener"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/cpsv#PublicService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
+<http://data.europa.eu/m8g/startTime#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/startTime>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Moment waarop het tijdsinterval begint."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "begin"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/PeriodOfTime>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://data.europa.eu/m8g/validatesCriterionRequirement#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/validatesCriterionRequirement>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Relatie naar de criterium vereiste waaraan het antwoord voldoet."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "valideert criterium vereiste"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/RequirementResponse>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/CriterionRequirement>.
+<http://data.europa.eu/m8g/value#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/value>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Omvang van de Kost, uitgedrukt in de opgegeven munteenheid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "waarde"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/Cost>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/value>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een beantwoorde vereiste moet een waarde bevatten als antwoord op een criterium vereiste. Om de criterium vereiste te vervullen, wanneer de criterium vereiste een verwachte waarde of drempel heeft, moet de waarde gelijk zijn aan de verwachte waarden of binnen het bereik liggen dat bepaald werd door de drempelwaarden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "waarde"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/RequirementResponse>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<http://purl.org/dc/terms/creator#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/creator>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Link naar de agent die de identificator heeft uitgegeven."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegekend door"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
+<http://purl.org/dc/terms/date#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/date>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De datum waarop de output werd toegekend of het financieel voordeel werd uitebetaald. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "datum"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/Output>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>.
+<http://purl.org/dc/terms/description#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van de Kost."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/Cost>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van de Participatie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/Participation>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving vh Bewijs."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/Evidence>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van de Output."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/Output>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een beschrijving van het antwoord op de vereiste."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/RequirementResponse>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<http://purl.org/dc/terms/issued#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/issued>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijdstip waarop de identificator werd uitgegeven."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegekend op"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://purl.org/dc/terms/language#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/language>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Taal waarin het aangeboden Bewijs moet zijn gesteld."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "taal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/Evidence>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/language>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Taal waarin een publieke dienstverlening wordt aangeboden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "taal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/cpsv#PublicService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://purl.org/dc/terms/relation#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/relation>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijst naar een object in een andere databank dat meer informatie kan verschaffen over het beheerobject."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "relatie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource>.
-<http://purl.org/dc/terms/title#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Andere Publieke Dienstverlening waarmee de Publieke Dienstverlening gerelateerd is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "is gerelateerd met"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/cpsv#PublicService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocab/cpsv#PublicService>.
+<http://purl.org/dc/terms/title#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam die de (VHA-) waterloop draagt bij zijn monding, zgn. (VHA-) roepnaam van de waterloop. Kan ook de waarden nvt (niet van toepassing) of ng (niet gekend) aannemen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Waterloop>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Officiële naam vh Bewijs."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/Evidence>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
     a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van het watervlak."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Officiële naam van de Output."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/Output>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Officiële naam van de publieke dienstverlening."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Watervlak>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://schema.org/width#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/width>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De breedte van het object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "breedte"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Waterloop>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>.
-<http://www.w3.org/ns/locn#geometry#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#geometry>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De geometrie overeenkomstig met een bepaald object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "geometrie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#Geometry>.
-<https://data.vlaanderen.be/ns/openbaardomein#begindatum#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#begindatum>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum waarop de huidige versie van het gebied of object in gebruik wordt genomen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "begindatum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<https://data.vlaanderen.be/ns/openbaardomein#einddatum#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#einddatum>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum waarop de huidige versie van het beheerobject uit gebruik wordt genomen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "einddatum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<https://data.vlaanderen.be/ns/openbaardomein#nauwkeurigheid#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#nauwkeurigheid>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De precisie waarmee het object opgemeten werd."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "nauwkeurigheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/cpsv#PublicService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<http://purl.org/dc/terms/type#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/type>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aard van het Bewijs."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/Evidence>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/type>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aard van de Output."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/Output>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<https://data.vlaanderen.be/ns/openbaardomein#niveau#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#niveau>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het niveau waarop het object zich bevindt, relatief ten opzichte van andere objecten."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "niveau"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer>.
-<https://data.vlaanderen.be/ns/openbaardomein#oppervlakte#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#oppervlakte>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De afmeting van het object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "oppervlakte"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#Deel>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>.
-<https://data.vlaanderen.be/ns/openbaardomein/waterdeel#voorkomen#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#voorkomen>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijst naar het voorkomen van het Waterdeel."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "voorkomen"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#Deel>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen#WaterVoorkomen>.
-<https://schema.org/unitCode#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/unitCode>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De gestandaardiseerde eenheid waarin de waarde is uitgedrukt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "standaard eenheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/generiek#StandaardEenheid>.
-<https://schema.org/unitText#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/unitText>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De eenheid waarin de waarde is uitgedrukt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "eenheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
+<http://purl.org/vocab/cpsv#hasInput#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/vocab/cpsv#hasInput>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Bewijsstuk dat moeten voorgelegd worden om de Publieke Dienstverlening te kunnen gebruiken."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft input"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/cpsv#PublicService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/Evidence>.
+<http://purl.org/vocab/cpsv#produces#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/vocab/cpsv#produces>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het werkelijke resultaat van de uitvoering vd Publieke Dienstverlening."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "produceert"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/cpsv#PublicService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/Output>.
+<http://www.w3.org/2004/02/skos/core#notation#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2004/02/skos/core#notation>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "String gebruikt om het object uniek te identificeren. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "identificator"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>.
+<http://www.w3.org/ns/adms#identifier#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/adms#identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Identificator van het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "referentie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/Evidence>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Identifier>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/adms#identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Identificator van het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "referentie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/Output>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Identifier>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/adms#identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Identificator van het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "referentie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/RequirementResponse>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Identifier>.
+<http://www.w3.org/ns/adms#schemaAgency#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/adms#schemaAgency>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam vd agent die de identificator heeft toegekend."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegekend door (String)"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<https://schema.org/value#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/value>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Getal waarmee de kwantiteit van het kenmerk kan worden uitgedrukt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "waarde"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/Number>
+<http://www.w3.org/ns/org#memberOf#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/org#memberOf>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Associeert de hoedanigheid met een bepaalde organisatie. Bv. een persoon in de hoedanigheid van zaakvoerder bij een organisatie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "is lid van"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#Organization>.
+<http://xmlns.com/foaf/0.1/page#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/page>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Documentatie gerelateerd ah Bewiijs."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "pagina"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/m8g/Evidence>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
+<https://data.vlaanderen.be/ns/generiek#gestructureerdedentificator#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/generiek#gestructureerdedentificator>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Identificator vh object opgesplitst in zijn onderdelen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "gestructureerde identificator"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator>.
+<https://data.vlaanderen.be/ns/organisatie#contactinfo#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/organisatie#contactinfo>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email, telefoon die toelaat de hoedanigheid te contacteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactinfo"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/ContactPoint>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Beek#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Gracht#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Kanaal#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#KunstmatigeGracht#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#KunstmatigeWaterloop#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Meer#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#NatuurlijkeGracht#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#NatuurlijkeWaterloop#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Poel#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Rivier#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Sloot#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Slotgracht#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Ven#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Vijver#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Waterdeel#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Waterloop#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Watervlak#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#Deel#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen#WaterVoorkomen#2021-09-30>, <https://schema.org/QuantitativeValue#2021-09-30>, <http://open.vocab.org/terms/length#2021-09-30>, <http://purl.org/dc/terms/relation#2021-09-30>, <http://purl.org/dc/terms/title#2021-09-30>, <http://purl.org/dc/terms/title#2021-09-30>, <http://schema.org/width#2021-09-30>, <http://www.w3.org/ns/locn#geometry#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#begindatum#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#einddatum#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#nauwkeurigheid#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#niveau#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#oppervlakte#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/waterdeel#voorkomen#2021-09-30>, <https://schema.org/unitCode#2021-09-30>, <https://schema.org/unitText#2021-09-30>, <https://schema.org/value#2021-09-30>;
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/transactie#Status#2019-02-07>, <https://data.vlaanderen.be/ns/transactie#actie#2019-02-07>, <https://data.vlaanderen.be/ns/transactie#actieNodig#2019-02-07>, <https://data.vlaanderen.be/ns/transactie#betrouwbaarheidsniveau#2019-02-07>, <https://data.vlaanderen.be/ns/transactie#heeftStatus#2019-02-07>, <https://data.vlaanderen.be/ns/transactie#isGedocumenteerdDoor#2019-02-07>, <https://data.vlaanderen.be/ns/transactie#isInstantieVan#2019-02-07>, <https://data.vlaanderen.be/ns/transactie#statusEDRL#2019-02-07>, <https://data.vlaanderen.be/ns/transactie#statusVlaamsCode#2019-02-07>, <https://data.vlaanderen.be/ns/transactie#statusVlaamsFase#2019-02-07>, <https://data.vlaanderen.be/ns/transactie#statusWijzigingsdatum#2019-02-07>, <https://data.vlaanderen.be/ns/transactie#streefdatum#2019-02-07>, <http://data.europa.eu/m8g/Cost#2019-02-07>, <http://data.europa.eu/m8g/CriterionRequirement#2019-02-07>, <http://data.europa.eu/m8g/Evidence#2019-02-07>, <http://data.europa.eu/m8g/Output#2019-02-07>, <http://data.europa.eu/m8g/Participation#2019-02-07>, <http://data.europa.eu/m8g/PeriodOfTime#2019-02-07>, <http://data.europa.eu/m8g/PublicOrganisation#2019-02-07>, <http://data.europa.eu/m8g/RequirementResponse#2019-02-07>, <http://purl.org/dc/terms/Agent#2019-02-07>, <http://purl.org/vocab/cpsv#PublicService#2019-02-07>, <http://purl.org/vocab/cpsv#PublicService#2019-02-07>, <http://www.w3.org/ns/adms#Identifier#2019-02-07>, <http://www.w3.org/ns/org#Organization#2019-02-07>, <http://www.w3.org/ns/person#Person#2019-02-07>, <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid#2019-02-07>, <https://lod.milieuinfo.be/ns/dossier#2019-02-07>, <http://data.europa.eu/m8g/appliesToPeriodOfTime#2019-02-07>, <http://data.europa.eu/m8g/belongsToAgent#2019-02-07>, <http://data.europa.eu/m8g/currency#2019-02-07>, <http://data.europa.eu/m8g/endTime#2019-02-07>, <http://data.europa.eu/m8g/hasCost#2019-02-07>, <http://data.europa.eu/m8g/hasCriterion#2019-02-07>, <http://data.europa.eu/m8g/hasParticipation#2019-02-07>, <http://data.europa.eu/m8g/issuedByOrganisation#2019-02-07>, <http://data.europa.eu/m8g/playsRole#2019-02-07>, <http://data.europa.eu/m8g/provenByEvidence#2019-02-07>, <http://data.europa.eu/m8g/providesRequirementResponse#2019-02-07>, <http://data.europa.eu/m8g/role#2019-02-07>, <http://data.europa.eu/m8g/serviceProvider#2019-02-07>, <http://data.europa.eu/m8g/startTime#2019-02-07>, <http://data.europa.eu/m8g/validatesCriterionRequirement#2019-02-07>, <http://data.europa.eu/m8g/value#2019-02-07>, <http://data.europa.eu/m8g/value#2019-02-07>, <http://purl.org/dc/terms/creator#2019-02-07>, <http://purl.org/dc/terms/date#2019-02-07>, <http://purl.org/dc/terms/description#2019-02-07>, <http://purl.org/dc/terms/description#2019-02-07>, <http://purl.org/dc/terms/description#2019-02-07>, <http://purl.org/dc/terms/description#2019-02-07>, <http://purl.org/dc/terms/description#2019-02-07>, <http://purl.org/dc/terms/issued#2019-02-07>, <http://purl.org/dc/terms/language#2019-02-07>, <http://purl.org/dc/terms/language#2019-02-07>, <http://purl.org/dc/terms/relation#2019-02-07>, <http://purl.org/dc/terms/title#2019-02-07>, <http://purl.org/dc/terms/title#2019-02-07>, <http://purl.org/dc/terms/title#2019-02-07>, <http://purl.org/dc/terms/type#2019-02-07>, <http://purl.org/dc/terms/type#2019-02-07>, <http://purl.org/vocab/cpsv#hasInput#2019-02-07>, <http://purl.org/vocab/cpsv#produces#2019-02-07>, <http://www.w3.org/2004/02/skos/core#notation#2019-02-07>, <http://www.w3.org/ns/adms#identifier#2019-02-07>, <http://www.w3.org/ns/adms#identifier#2019-02-07>, <http://www.w3.org/ns/adms#identifier#2019-02-07>, <http://www.w3.org/ns/adms#schemaAgency#2019-02-07>, <http://www.w3.org/ns/org#memberOf#2019-02-07>, <http://xmlns.com/foaf/0.1/page#2019-02-07>, <https://data.vlaanderen.be/ns/generiek#gestructureerdedentificator#2019-02-07>, <https://data.vlaanderen.be/ns/organisatie#contactinfo#2019-02-07>;
     <https://w3id.org/tree#view> <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/5.trig>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/5.trig> <https://w3id.org/tree#relation> _:df_0_4.
 _:df_0_4 a <https://w3id.org/tree#Relation>;
