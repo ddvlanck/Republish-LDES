@@ -1,120 +1,132 @@
-<https://data.vlaanderen.be/ns/openbaardomein/gebied> {
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Begraafplaats#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Begraafplaats>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Gebied waar stoffelijke resten van overledenen begraven, bijgezet of verstrooid worden, inclusief de gemeenschappelijk gebruikte ruimte."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Begraafplaats"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Bufferzone#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Bufferzone>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een bufferzone is een gebied noodzakelijk om de hinder met naastliggende gebieden te beperken, bijvoorbeeld tussen industrie en woonzone of park."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Bufferzone"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een ruimte met daarin objecten in de openbare ruimte die samen een hoofdfunctie hebben."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Gebied"@nl.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Groenzone#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Groenzone>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een gebied zonder specifieke functie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Groenzone"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Natuur#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Natuur>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Gebied met een ecologische functie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Natuur"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Park#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Park>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een onbebouwde en openbare ruimte omgeven door gebouwen en maakt deel uit van het stratennet van een stad of dorp."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Park"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Parking#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Parking>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Hoofdzakelijk buiten de rijbaan gelegen zone, bedoeld voor het langdurig laten stilstaan van een voertuig in parkeervakken, inclusief de gemeenschappelijk gebruikte ruimte van de zone die buiten de parkeervakken."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Parking"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Plein#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Plein>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een onbebouwde en openbare ruimte, typisch omgeven door gebouwen, dat deel uitmaakt van het stratennet van een stad of gemeente."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Plein"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Recreatiegebied#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Recreatiegebied>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een gebied met hoofdzakelijk een recreatieve functie, waaronder ook sport en spel."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Recreatiegebied"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Recyclagepark#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Recyclagepark>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Zone waar particulieren en KMO's hun afval gescheiden kunnen inzamelen en deponeren."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Recyclagepark"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Spoorweg#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Spoorweg>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Zone bedoeld om hoofdzakelijk treinverkeer te kunnen laten plaatsvinden, inclusief de gebieden die de spoorinfrastructuur ondersteunen (vb: spoorbermen)"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Spoorweg"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Tuinzone#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Tuinzone>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Gebied ingericht en/of beheerd als openbare tuin, meestal aanliggend aan gebouwen voor algemeen nut (scholen, jeugdlokalen, religieuze gebouwen, cultuurcentra, politie, brandweer, etc.)"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Tuinzone"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Volkstuin#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Volkstuin>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Gebied aangeduid en bedoeld om tuinbouw te laten plaatsvinden bij particulieren op percelen die niet aan de eigen woning gelegen zijn, inclusief de gemeenschappelijk gebruikte ruimte."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Volkstuin"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Waterverkeerzone#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Waterverkeerzone>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Gebied bedoeld om hoofdzakelijk transport via waterwegen te kunnen laten plaatsvinden, inclusief de gebieden die wezenlijk deel uitmaken van de waterwegen (vb: oevers)."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Waterverkeerzone"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Wegzone#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Wegzone>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Gebied bedoeld om hoofdzakelijk voet-, fiets- en/of motorisch verkeer te kunnen laten plaatsvinden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Wegzone"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#actieveLijkbezorging#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#actieveLijkbezorging>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan of er al dan niet nog aan actieve lijkbezorging gedaan wordt op de begraafplaats."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "actieve lijkbezorging"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Begraafplaats>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#begindatum#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#begindatum>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum waarop de huidige versie van het beheergebied in gebruik wordt genomen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "begindatum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#einddatum#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#einddatum>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum waarop de huidige versie van het beheergebied uit gebruik wordt genomen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "einddatum"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#lichteRecreatie#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#lichteRecreatie>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of de begraafplaats al dan niet geschikt is voor lichte recreatie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "lichte recreatie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Begraafplaats>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
-<http://www.w3.org/1999/02/22-rdf-syntax-ns#langString#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Benaming toegekend aan of gebruikt voor een geografisch object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Geografische Naam"@nl.
-<http://purl.org/dc/terms/title#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een naam voor het gebied."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>;
+<http://data.vlaanderen.be/ns/dcatapvl> {
+<http://purl.org/dc/terms/LicenseDocument#13-06-2019> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/LicenseDocument>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een wettelijk document dat de voorwaarden waaronder men een resource mag gebruiken."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Licentiedocument"@nl.
+<http://www.w3.org/2006/vcard/ns#Kind#13-06-2019> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2006/vcard/ns#Kind>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een beschrijving van contact informatie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Contactinfo"@nl.
+<http://www.w3.org/ns/dcat#Catalog#13-06-2019> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Open Data datasetcatalogus is een verzameling van Open Data datasets."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Datasetcatalogus"@nl.
+<http://www.w3.org/ns/dcat#Dataset#13-06-2019> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een verzameling van data, gepubliseerd en/of beheerd door een bronbeheerder, en beschikbaar in een of meerdere formaten. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Dataset"@nl.
+<http://www.w3.org/ns/dcat#Distribution#13-06-2019> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#Distribution>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een distributie is een vorm waarin de dataset wordt gepubliceerd. Dit kan als een filedump zijn, maar ook door  een API."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Distributie"@nl.
+<http://xmlns.com/foaf/0.1/Agent#13-06-2019> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/Agent>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De agent in zijn rol als uitgever  is de organisatie die verantwoordelijk is voor het toegankelijk maken, dus de publicatie, van een datasetcatalogus of dataset."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@nl.
+<http://purl.org/dc/terms/accessRights#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/accessRights>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De toegankelijkheidscategorie van de dataset."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegankelijkheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://purl.org/dc/terms/description#13-06-2019> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een bondige omschrijving van de datasetcatalogus. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een bondige omschrijving van de dataset."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
-<http://www.w3.org/ns/locn#geometry#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#geometry>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De geometrie overeenkomstig met een bepaald gebied."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "geometrie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/sf#Polygon>
+<http://purl.org/dc/terms/license#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/license>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De licentie van de distributie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft licentie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/LicenseDocument>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/license>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De licentie van de datasetcatalogus."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft licentie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/LicenseDocument>.
+<http://purl.org/dc/terms/publisher#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/publisher>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De uitgever van de datasetcatalogus"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft uitgever"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/publisher>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De uitgever van de dataset. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft uitgever"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent>.
+<http://purl.org/dc/terms/title#13-06-2019> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van de datasetcatalogus."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van de dataset"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een naam voor de distributie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<http://www.w3.org/2006/vcard/ns#hasEmail#13-06-2019> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2006/vcard/ns#hasEmail>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het e-mail adres waarmee je contact kan opnemen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "e-mail"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2006/vcard/ns#Kind>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
+<http://www.w3.org/ns/dcat#accessURL#13-06-2019> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#accessURL>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De URL waar de data kan gevonden worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegangsURL"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
+<http://www.w3.org/ns/dcat#contactPoint#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#contactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De contactinformatie via men in contact kan treden met de verantwoordelijken van de dataset. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactinfo"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/vcard/ns#Kind>.
+<http://www.w3.org/ns/dcat#dataset#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een dataset die behoort tot de datasetcatalogus"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft dataset"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Dataset>.
+<http://www.w3.org/ns/dcat#distribution#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#distribution>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De distributie van een dataset."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft distributie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Distribution>.
+<http://www.w3.org/ns/dcat#theme#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#theme>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het thema waartoe de dataset behoort."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "thema"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://xmlns.com/foaf/0.1/name#13-06-2019> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/name>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van de uitgever"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Begraafplaats#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Bufferzone#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Groenzone#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Natuur#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Park#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Parking#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Plein#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Recreatiegebied#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Recyclagepark#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Spoorweg#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Tuinzone#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Volkstuin#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Waterverkeerzone#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Wegzone#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#actieveLijkbezorging#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#begindatum#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#einddatum#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#lichteRecreatie#2021-09-30>, <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString#2021-09-30>, <http://purl.org/dc/terms/title#2021-09-30>, <http://www.w3.org/ns/locn#geometry#2021-09-30>;
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <http://purl.org/dc/terms/LicenseDocument#13-06-2019>, <http://www.w3.org/2006/vcard/ns#Kind#13-06-2019>, <http://www.w3.org/ns/dcat#Catalog#13-06-2019>, <http://www.w3.org/ns/dcat#Dataset#13-06-2019>, <http://www.w3.org/ns/dcat#Distribution#13-06-2019>, <http://xmlns.com/foaf/0.1/Agent#13-06-2019>, <http://purl.org/dc/terms/accessRights#13-06-2019>, <http://purl.org/dc/terms/description#13-06-2019>, <http://purl.org/dc/terms/description#13-06-2019>, <http://purl.org/dc/terms/license#13-06-2019>, <http://purl.org/dc/terms/license#13-06-2019>, <http://purl.org/dc/terms/publisher#13-06-2019>, <http://purl.org/dc/terms/publisher#13-06-2019>, <http://purl.org/dc/terms/title#13-06-2019>, <http://purl.org/dc/terms/title#13-06-2019>, <http://purl.org/dc/terms/title#13-06-2019>, <http://www.w3.org/2006/vcard/ns#hasEmail#13-06-2019>, <http://www.w3.org/ns/dcat#accessURL#13-06-2019>, <http://www.w3.org/ns/dcat#contactPoint#13-06-2019>, <http://www.w3.org/ns/dcat#dataset#13-06-2019>, <http://www.w3.org/ns/dcat#distribution#13-06-2019>, <http://www.w3.org/ns/dcat#theme#13-06-2019>, <http://xmlns.com/foaf/0.1/name#13-06-2019>;
     <https://w3id.org/tree#view> <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/4.trig>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/4.trig> <https://w3id.org/tree#relation> _:df_0_3.
 _:df_0_3 a <https://w3id.org/tree#Relation>;
