@@ -1,220 +1,424 @@
-<https://data.vlaanderen.be/ns/toestemming> {
-<https://data.vlaanderen.be/ns/toestemming#AlgemeneVoorwaarden#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#AlgemeneVoorwaarden>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Standaardbedingen waarnaar verwezen kan worden bij het opstellen van een schriftelijke overeenkomst. Algemene voorwaarden mogen niet 'onredelijk bezwarend' zijn; dan kunnen ze door de rechter nietig worden verklaard."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Algemene Voorwaarden"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://xmlns.com/foaf/0.1/Document>.
-<https://data.vlaanderen.be/ns/toestemming#Cookieverklaring#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#Cookieverklaring>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een document met informatie om personen duidelijk te informeren over welke cookies gebruikt worden in een toepassing en voor welke doeleinden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Cookieverklaring"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://xmlns.com/foaf/0.1/Document>.
-<https://data.vlaanderen.be/ns/toestemming#Privacyverklaring#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#Privacyverklaring>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een document met informatie om personen duidelijk te informeren over welke privacygevoelige gegevens u verzamelt en met welk doel."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Privacyverklaring"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://xmlns.com/foaf/0.1/Document>.
-<https://data.vlaanderen.be/ns/toestemming#Toestemming#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#Toestemming>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een expliciete toestemming,gegeven door een bepaalde Agent die het onderwerp vormt van de persoonlijke informatie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Toestemming"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/2000/01/rdf-schema#Resource>.
-<https://data.vlaanderen.be/ns/toestemming#Verwerkersovereenkomst#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#Verwerkersovereenkomst>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De overeenkomst die de verhouding tussen de verwerkersverantwoordelijke en de verwerker regelt. In deze overeenkomst wordt onder andere het doel van de verwerking, de beveiliging, geheimhouding, bewaartermijnen, procedures met betrekking tot vergeet-, wijzigings- en portatieverzoeken en de aansprakelijkheidsverdeling geregeld."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Verwerkersovereenkomst"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://xmlns.com/foaf/0.1/Document>.
-<https://data.vlaanderen.be/ns/toestemming#Verwerkingsactiviteit#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#Verwerkingsactiviteit>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Specificatie van de verwerkingsactiviteit waarvoor een data subject toestemming kan verlenen. Deze verwerkingsactiviteit wordt geconfigureerd door de verwerkingsverantwoordelijke en omvat onder meer informatie over het type verwerking, de verwerkingsgrond en de verwerkers."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Toestemming Descriptor"@nl.
-<https://data.vlaanderen.be/ns/toestemming#contactkanaal#2019-02-07> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#contactkanaal>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het kanaal of medium langs waar een gebruiker gecontacteerd kan worden. Bijvoorbeeld sms of e-mail."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "contactkanaal"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/toestemming#Verwerkingsactiviteit>;
-    a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#contactkanaal>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het kanaal of medium langs waar een gebruiker gecontacteerd kan worden. Bijvoorbeeld sms of e-mail."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "contactkanaal"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>.
-<https://data.vlaanderen.be/ns/toestemming#gegevenOp#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#gegevenOp>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De datum waarop de toestemming werd verleend."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gegeven op"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/toestemming#Toestemming>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>.
-<https://data.vlaanderen.be/ns/toestemming#gegevenVoor#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#gegevenVoor>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Relatie met de verwerkingsactiviteit waarvoor expliciet toestemming werd gegeven."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gegeven voor"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/toestemming#Toestemming>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/toestemming#Verwerkingsactiviteit>.
-<https://data.vlaanderen.be/ns/toestemming#notificatiecategorie#2019-02-07> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#notificatiecategorie>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De notificatie categorie waarvoor de Agent toestemming verleende om gecontacteerd te worden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "notificatiecategorie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/toestemming#Toestemming>.
-<https://data.vlaanderen.be/ns/toestemming#status#2019-02-07> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#status>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De status geeft aan of de toestemming al dan niet actief is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "status"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/toestemming#Toestemming>.
-<https://data.vlaanderen.be/ns/toestemming#toestemmingsvraag#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#toestemmingsvraag>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De vraag die gesteld wordt aan gebruikers om hun toestemming te verlenen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "toestemmingsvraag"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/toestemming#Verwerkingsactiviteit>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<https://data.vlaanderen.be/ns/toestemming#verwerkingsgrond#2019-02-07> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/toestemming#verwerkingsgrond>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De rechtsgrond voor de verwerkingsactiviteit."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "rechtsgrond"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/toestemming#Verwerkingsactiviteit>.
-<http://data.europa.eu/m8g/PublicOrganisation#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.europa.eu/m8g/PublicOrganisation>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Organisatie die volgens een wettelijk kader behoort tot de publieke sector,ongeacht het bestuursniveau waarop dat kader van kracht is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Publieke Organisatie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/org#Organization>.
-<http://purl.org/dc/terms/Agent#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
+<http://data.vlaanderen.be/ns/metadata-dcat> {
+<http://data.vlaanderen.be/ns/metadata-dcat#landingspaginaVoorAuthenticatie#02-12-2021> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/metadata-dcat#landingspaginaVoorAuthenticatie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een verwijzing naar de landingspagina met de specifieke informatie over de authenticatie voor de dataservice."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "landingspagina voor authenticatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
+<http://data.vlaanderen.be/ns/metadata-dcat#landingspaginaVoorGebruiksinformatie#02-12-2021> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/metadata-dcat#landingspaginaVoorGebruiksinformatie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een verwijzing naar de landingspagina met de specifieke informatie over het gebruik van de dataservice."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "landingspagina voor gebruiksinformatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
+<http://data.vlaanderen.be/ns/metadata-dcat#landingspaginaVoorStatusinformatie#02-12-2021> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/metadata-dcat#landingspaginaVoorStatusinformatie>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een verwijzing naar de statuspagina van de dataservice"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "landingspagina voor statusinformatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
+<http://data.vlaanderen.be/ns/metadata-dcat#levensfase#02-12-2021> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/metadata-dcat#levensfase>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De levensfase waarin de dataservice zich bevindt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "levensfase"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.vlaanderen.be/ns/metadata-dcat#ontwikkelingstoestand#02-12-2021> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/metadata-dcat#ontwikkelingstoestand>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De ontwikkelingstoestand waarin de dataservice is gedeployed."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "ontwikkelingstoestand"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.vlaanderen.be/ns/metadata-dcat#statuut#02-12-2021> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/metadata-dcat#statuut>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een aanduiding van op welke basis de catalogusresource beschikbaar is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "statuut"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://purl.org/dc/terms/Agent#02-12-2021> a <http://www.w3.org/2002/07/owl#Class>;
     <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/Agent>;
     <http://www.w3.org/2000/01/rdf-schema#comment> "Iemand die of iets dat kan handelen of een effect kan teweeg brengen."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@nl.
-<http://purl.org/vocab/cpsv#PublicService#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/vocab/cpsv#PublicService>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Publieke Dienstverlening is een geheel van verplichte of optioneel uitgevoerde of uitvoerbare acties door of in naam van een publieke organisatie. De dienstverlening is ten bate van een individu, een bedrijf, een andere publieke organisatie of groepen hiervan."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Publieke Dienstverlening"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/prov#Entity>.
-<http://schema.org/ContactPoint#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/ContactPoint>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email,telefoon,adres die toelaat om iemand te contacteren."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "ContactInfo"@nl.
-<http://www.w3.org/ns/locn#Address#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#Address>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Gestructureerde voorstelling van een adres."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Adresvoorstelling"@nl.
-<http://www.w3.org/ns/org#Organization#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/org#Organization>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een aantal mensen georganiseerd in een gemeenschap of andere sociale, commerciële of politieke structuur. De groep heeft een gemeenschappelijk doel of bestaansreden die de individuele leden ervan overstijgt en kan handelen als Agent. Een organisatie heeft dikwijls een hiërarchische structuur."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Organisatie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://purl.org/dc/terms/Agent>, <http://www.w3.org/ns/prov#Entity>.
-<http://www.w3.org/ns/person#Person#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/person#Person>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een natuurlijk persoon."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Persoon"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://purl.org/dc/terms/Agent>, <http://www.w3.org/ns/prov#Entity>.
-<http://xmlns.com/foaf/0.1/Document#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/Document>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Document met omstandige informatie over de identiteit van de verantwoordelijke, de geplande verwerkingen, de doelstelling en de wettelijke grond en over de genomen maatregelen om zijn data te beschermen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Document"@nl.
-<https://data.vlaanderen.be/ns/organisatie#Hoedanigheid#2019-02-07> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Agent in een bepaalde functie bij een organisatie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Hoedanigheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/org#Post>, <http://purl.org/dc/terms/Agent>.
-<http://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "busnummer"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "huisnummer"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://data.vlaanderen.be/ns/adres#gemeentenaam#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/adres#gemeentenaam>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Gemeentenaam van het adres."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "gemeentenaam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>;
+<http://purl.org/dc/terms/LicenseDocument#02-12-2021> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/LicenseDocument>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een wettelijk document dat de voorwaarden waaronder men een resource mag gebruiken."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Licentie Document"@nl.
+<http://purl.org/dc/terms/RightsStatement#02-12-2021> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/RightsStatement>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een uitspraak of uitdrukking i.v.m. een recht dat verleend wordt bij het gebruiken van een resource."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Juridische bepaling"@nl.
+<http://purl.org/dc/terms/Standard#02-12-2021> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/Standard>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een specificatie of document dat een referentie vormt waartegen men een entiteit, of het gebruik ervan kan aftoetsen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Standaard"@nl.
+<http://www.w3.org/2006/vcard/ns#Kind#02-12-2021> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2006/vcard/ns#Kind>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een beschrijving van contactinformatie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Contactinfo"@nl.
+<http://www.w3.org/ns/dcat#Catalog#02-12-2021> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een beheerde verzameling van metadata over resources (zoals datasets en dataservices in de context van een datacatalogus)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Catalogus"@nl.
+<http://www.w3.org/ns/dcat#CatalogRecord#02-12-2021> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#CatalogRecord>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een record in een catalogus beschrijft de registratie van één resource in de catalogus."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Catalogus Record"@nl.
+<http://www.w3.org/ns/dcat#DataService#02-12-2021> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een verzameling van operaties die ofwel toegang bieden tot één of meer datasets ofwel een dataverwerkingsdoel hebben."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Dataservice"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/dcat#Resource>.
+<http://www.w3.org/ns/dcat#Dataset#02-12-2021> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een verzameling gegevens, gepubliceerd of samengesteld door één agent, en beschikbaar voor toegang of download in één of meerdere voorstellingswijzen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Dataset"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/dcat#Resource>.
+<http://www.w3.org/ns/dcat#Distribution#02-12-2021> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#Distribution>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een specifieke voorstellingswijze van een dataset, gekenmerkt door één of meerdere eigenschappen zoals taal, media-type of formaat, schematische organisatie, temporele en ruimtelijke resolutie, granulariteit, ..."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Distributie"@nl.
+<http://www.w3.org/ns/dcat#Resource#02-12-2021> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een bron (resource) gepubliceerd of beheerd door één agent."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Catalogus Resource"@nl.
+<http://purl.org/dc/terms/accessRights#02-12-2021> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/accessRights>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De toegankelijkheid voor de dataservice."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegankelijkheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/accessRights>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De toegankelijkheid voor de dataset."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegankelijkheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://purl.org/dc/terms/conformsTo#02-12-2021> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/conformsTo>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een protocol waaraan de dataservice voldoet."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "conform aan protocol"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Standard>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/conformsTo>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een standaard, schema, applicatieprofiel, vocabularium waaraan de dataset voldoet."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "conform"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Standard>.
+<http://purl.org/dc/terms/description#02-12-2021> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een bondige tekstuele omschrijving van de catalogus."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een bondige tekstuele omschrijving van de dataservice."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een bondige tekstuele omschrijving van de dataset."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
-<http://data.vlaanderen.be/ns/adres#land#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/adres#land>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Land waarin het adres gelegen is."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "land"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>;
+<http://purl.org/dc/terms/identifier#02-12-2021> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De unieke identificator voor de catalogus."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "identificator"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De unieke identificator van het record in de catalogus."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "identificator"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#CatalogRecord>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De unieke identificator van de dataservice."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "identificator"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De unieke identificator van de dataset."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "identificator"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De unieke identificator van de distributie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "identificator"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>.
+<http://purl.org/dc/terms/issued#02-12-2021> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/issued>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De datum van (formele) opname van de bijbehorende dataset of dataservice in de catalogus."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "aanmaakdatum"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#CatalogRecord>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://purl.org/dc/terms/license#02-12-2021> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/license>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De licentie van de catalogus."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "licentie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/LicenseDocument>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/license>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De licentie van de dataservice."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "licentie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/LicenseDocument>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/license>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De licentie van de distributie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "licentie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/LicenseDocument>.
+<http://purl.org/dc/terms/modified#02-12-2021> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/modified>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De meest recente datum waarop de record in de catalogus is gewijzigd, bijgewerkt of aangepast."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "wijzigingsdatum"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#CatalogRecord>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://purl.org/dc/terms/publisher#02-12-2021> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/publisher>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De uitgever, de entiteit die verantwoordelijk is voor het beschikbaar stellen, van de resource in de catalogus."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "uitgever"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Resource>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/publisher>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De uitgever, de entiteit die verantwoordelijk is voor het beschikbaar stellen, van de catalogus."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "uitgever"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
+<http://purl.org/dc/terms/rights#02-12-2021> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/rights>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Bepalingen van juridische aard die gelden op de dataservice."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "rechten"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/RightsStatement>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/rights>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Bepalingen van juridische aard die gelden op de distributie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "rechten"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/RightsStatement>.
+<http://purl.org/dc/terms/title#02-12-2021> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van de catalogus."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van het record in de catalogus."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#CatalogRecord>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van de dataservice."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van de dataset."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van de distributie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
-<http://data.vlaanderen.be/ns/adres#verwijstNaar#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://data.vlaanderen.be/ns/adres#verwijstNaar>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijst naar de identificator (URI) van een adres in het adresregister."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "verwijst naar"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/adres#Adres>.
-<http://purl.org/dc/terms/relation#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/relation>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De Publieke Dienstverlening waarbinnen de toestemming kadert."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "is gerelateerd met"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/toestemming#Verwerkingsactiviteit>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocab/cpsv#PublicService>.
-<http://purl.org/dc/terms/type#2019-02-07> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/type>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type van de verwerkingsactiviteit."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "type verwerking"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/toestemming#Verwerkingsactiviteit>.
-<http://schema.org/contactPoint#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/contactPoint>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email, telefoon die toelaat de Agent te contacteren."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "contactinfo"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Agent>;
+<http://www.w3.org/2002/07/owl#versionInfo#02-12-2021> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2002/07/owl#versionInfo>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een unieke aanduiding van een variant van de dataservice door middel van een versienummer of -naam van de dataservice."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "versie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2002/07/owl#versionInfo>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een unieke aanduiding van een variant van de dataset door middel van een versienummer of -naam van de dataset."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "versie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<http://www.w3.org/2006/vcard/ns#hasEmail#02-12-2021> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2006/vcard/ns#hasEmail>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het e-mailadres waarmee een gebruiker contact kan opnemen voor informatie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "e-mail"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2006/vcard/ns#Kind>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
+<http://www.w3.org/ns/adms#identifier#02-12-2021> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/adms#identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een alternatieve identificator (dan de unieke identificator) voor de catalogus kan hier beschreven worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "alternatieve identificator"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Identifier>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/adms#identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een alternatieve identificator (dan de unieke identificator) voor een record in de catalogus kan hier beschreven worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "alternatieve identificator"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#CatalogRecord>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Identifier>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/adms#identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een alternatieve identificator (dan de unieke identificator) voor een dataservice kan hier beschreven worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "alternatieve identificator"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Identifier>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/adms#identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een alternatieve identificator (dan de unieke identificator) voor een dataset kan hier beschreven worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "alternatieve identificator"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Identifier>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/adms#identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een alternatieve identificator (dan de unieke identificator) voor een distributie kan hier beschreven worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "alternatieve identificator"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Identifier>.
+<http://www.w3.org/ns/dcat#accessService#02-12-2021> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#accessService>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een dataservice die deze distributie aanbiedt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "wordt aangeboden door"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#DataService>.
+<http://www.w3.org/ns/dcat#accessURL#02-12-2021> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#accessURL>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een URL waar de data kan gevonden worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegangsURL"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
+<http://www.w3.org/ns/dcat#contactPoint#02-12-2021> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#contactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De relevante contactinformatie waarmee een eindgebruiker in contact kan treden met de verantwoordelijken van de catalogus."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactinformatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/vcard/ns#Kind>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#contactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De relevante contactinformatie waarmee een eindgebruiker in contact kan treden met de verantwoordelijken van de dataservice."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactinformatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/vcard/ns#Kind>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#contactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De relevante contactinformatie waarmee een eindgebruiker in contact kan treden met de verantwoordelijken van de dataset."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactinformatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/ContactPoint>.
-<http://schema.org/email#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/email>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Email-adres waarnaar men kan mailen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "email"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://schema.org/expires#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/expires>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De datum waarop de toestemming vervalt."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "vervalt"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/toestemming#Toestemming>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date>.
-<http://schema.org/telephone#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/telephone>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Telefoonnummer waarop men kan bellen of smsen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "telefoon"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://www.w3.org/2000/01/rdf-schema#label#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2000/01/rdf-schema#label>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een label voor de ToestemmingDescriptor."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "label"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/toestemming#Verwerkingsactiviteit>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://www.w3.org/2006/vcard/ns#honorific-prefix#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2006/vcard/ns#honorific-prefix>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Titel waarmee iemand wordt aangeschreven of aangesproken of waarmee naar iemand wordt verwezen."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "aanschrijfvorm"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
+<http://www.w3.org/ns/dcat#dataset#02-12-2021> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een dataset die deel uitmaakt van de catalogus."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft Dataset"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Dataset>.
+<http://www.w3.org/ns/dcat#distribution#02-12-2021> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#distribution>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een beschikbare distributie van de dataset."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "distributie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Distribution>.
+<http://www.w3.org/ns/dcat#downloadURL#02-12-2021> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#downloadURL>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De URL waar de data gedownload kan worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "downloadURL"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
+<http://www.w3.org/ns/dcat#endpointDescription#02-12-2021> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#endpointDescription>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een beschrijving van de diensten die beschikbaar zijn via de end-points, met inbegrip van hun operaties, parameters, enz."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "endpointbeschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
+<http://www.w3.org/ns/dcat#endpointURL#02-12-2021> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#endpointURL>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De rootlocatie of het primaire endpoint van de dienst (een web-resolvable URI)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "endpointURL"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
+<http://www.w3.org/ns/dcat#keyword#02-12-2021> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#keyword>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een trefwoord of tag die de resource beschrijft."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "trefwoord"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#keyword>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een trefwoord of tag die de resource beschrijft."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "trefwoord"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
-<http://www.w3.org/ns/locn#address#2019-02-07> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#address>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Adres dat men kan aanschrijven."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "adres"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/locn#Address>.
-<http://www.w3.org/ns/locn#postCode#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#postCode>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Code waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "postcode"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
-<http://www.w3.org/ns/locn#thoroughfare#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#thoroughfare>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Straatnaam van het adres."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "straatnaam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
-<http://xmlns.com/foaf/0.1/name#2019-02-07> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+<http://www.w3.org/ns/dcat#landingPage#02-12-2021> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#landingPage>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een algemene webpagina waarnaar kan worden genavigeerd in een webbrowser, met algemene aanvullende informatie over de dataservice."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "landingspagina"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#landingPage>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een algemene webpagina waarnaar kan worden genavigeerd in een webbrowser, met algemene informatie over de dataset, zijn distributies en/of aanvullende informatie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "landingspagina"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
+<http://www.w3.org/ns/dcat#record#02-12-2021> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#record>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een record beschrijft de registratie van één enkele dataset of dataservice die onderdeel is van de catalogus."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "record"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#CatalogRecord>.
+<http://www.w3.org/ns/dcat#servesdataset#02-12-2021> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#servesdataset>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De data die via deze dataservice worden aangeboden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "biedt informatie aan over"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Dataset>.
+<http://www.w3.org/ns/dcat#service#02-12-2021> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#service>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een dataservice die deel uitmaakt van de catalogus."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft DataService"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#DataService>.
+<http://www.w3.org/ns/dcat#theme#02-12-2021> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#theme>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De hoofdcategorie waartoe de dataservice behoort."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "thema"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#theme>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De hoofdcategorie waartoe de dataset behoort."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "thema"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://xmlns.com/foaf/0.1/name#02-12-2021> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
     <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/name>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van de persoon die men kan contacteren."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "contactnaam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van de agent."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/Agent>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<http://xmlns.com/foaf/0.1/page#02-12-2021> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/page>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een webpagina die ofwel toelaat om contact op te nemen (via b.v. een webformulier) of die informatie bevat hoe men contact kan opnemen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactpagina"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2006/vcard/ns#Kind>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
+<http://xmlns.com/foaf/0.1/primaryTopic#02-12-2021> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/primaryTopic>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De resource (dataset of dataservice) beschreven in het record."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "hoofdonderwerp"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#CatalogRecord>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Resource>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/toestemming#AlgemeneVoorwaarden#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#Cookieverklaring#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#Privacyverklaring#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#Toestemming#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#Verwerkersovereenkomst#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#Verwerkingsactiviteit#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#contactkanaal#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#contactkanaal#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#gegevenOp#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#gegevenVoor#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#notificatiecategorie#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#status#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#toestemmingsvraag#2019-02-07>, <https://data.vlaanderen.be/ns/toestemming#verwerkingsgrond#2019-02-07>, <http://data.europa.eu/m8g/PublicOrganisation#2019-02-07>, <http://purl.org/dc/terms/Agent#2019-02-07>, <http://purl.org/vocab/cpsv#PublicService#2019-02-07>, <http://schema.org/ContactPoint#2019-02-07>, <http://www.w3.org/ns/locn#Address#2019-02-07>, <http://www.w3.org/ns/org#Organization#2019-02-07>, <http://www.w3.org/ns/person#Person#2019-02-07>, <http://xmlns.com/foaf/0.1/Document#2019-02-07>, <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid#2019-02-07>, <http://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer#2019-02-07>, <http://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer#2019-02-07>, <http://data.vlaanderen.be/ns/adres#gemeentenaam#2019-02-07>, <http://data.vlaanderen.be/ns/adres#land#2019-02-07>, <http://data.vlaanderen.be/ns/adres#verwijstNaar#2019-02-07>, <http://purl.org/dc/terms/relation#2019-02-07>, <http://purl.org/dc/terms/type#2019-02-07>, <http://schema.org/contactPoint#2019-02-07>, <http://schema.org/email#2019-02-07>, <http://schema.org/expires#2019-02-07>, <http://schema.org/telephone#2019-02-07>, <http://www.w3.org/2000/01/rdf-schema#label#2019-02-07>, <http://www.w3.org/2006/vcard/ns#honorific-prefix#2019-02-07>, <http://www.w3.org/ns/locn#address#2019-02-07>, <http://www.w3.org/ns/locn#postCode#2019-02-07>, <http://www.w3.org/ns/locn#thoroughfare#2019-02-07>, <http://xmlns.com/foaf/0.1/name#2019-02-07>;
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <http://data.vlaanderen.be/ns/metadata-dcat#landingspaginaVoorAuthenticatie#02-12-2021>, <http://data.vlaanderen.be/ns/metadata-dcat#landingspaginaVoorGebruiksinformatie#02-12-2021>, <http://data.vlaanderen.be/ns/metadata-dcat#landingspaginaVoorStatusinformatie#02-12-2021>, <http://data.vlaanderen.be/ns/metadata-dcat#levensfase#02-12-2021>, <http://data.vlaanderen.be/ns/metadata-dcat#ontwikkelingstoestand#02-12-2021>, <http://data.vlaanderen.be/ns/metadata-dcat#statuut#02-12-2021>, <http://purl.org/dc/terms/Agent#02-12-2021>, <http://purl.org/dc/terms/LicenseDocument#02-12-2021>, <http://purl.org/dc/terms/RightsStatement#02-12-2021>, <http://purl.org/dc/terms/Standard#02-12-2021>, <http://www.w3.org/2006/vcard/ns#Kind#02-12-2021>, <http://www.w3.org/ns/dcat#Catalog#02-12-2021>, <http://www.w3.org/ns/dcat#CatalogRecord#02-12-2021>, <http://www.w3.org/ns/dcat#DataService#02-12-2021>, <http://www.w3.org/ns/dcat#Dataset#02-12-2021>, <http://www.w3.org/ns/dcat#Distribution#02-12-2021>, <http://www.w3.org/ns/dcat#Resource#02-12-2021>, <http://purl.org/dc/terms/accessRights#02-12-2021>, <http://purl.org/dc/terms/accessRights#02-12-2021>, <http://purl.org/dc/terms/conformsTo#02-12-2021>, <http://purl.org/dc/terms/conformsTo#02-12-2021>, <http://purl.org/dc/terms/description#02-12-2021>, <http://purl.org/dc/terms/description#02-12-2021>, <http://purl.org/dc/terms/description#02-12-2021>, <http://purl.org/dc/terms/identifier#02-12-2021>, <http://purl.org/dc/terms/identifier#02-12-2021>, <http://purl.org/dc/terms/identifier#02-12-2021>, <http://purl.org/dc/terms/identifier#02-12-2021>, <http://purl.org/dc/terms/identifier#02-12-2021>, <http://purl.org/dc/terms/issued#02-12-2021>, <http://purl.org/dc/terms/license#02-12-2021>, <http://purl.org/dc/terms/license#02-12-2021>, <http://purl.org/dc/terms/license#02-12-2021>, <http://purl.org/dc/terms/modified#02-12-2021>, <http://purl.org/dc/terms/publisher#02-12-2021>, <http://purl.org/dc/terms/publisher#02-12-2021>, <http://purl.org/dc/terms/rights#02-12-2021>, <http://purl.org/dc/terms/rights#02-12-2021>, <http://purl.org/dc/terms/title#02-12-2021>, <http://purl.org/dc/terms/title#02-12-2021>, <http://purl.org/dc/terms/title#02-12-2021>, <http://purl.org/dc/terms/title#02-12-2021>, <http://purl.org/dc/terms/title#02-12-2021>, <http://www.w3.org/2002/07/owl#versionInfo#02-12-2021>, <http://www.w3.org/2002/07/owl#versionInfo#02-12-2021>, <http://www.w3.org/2006/vcard/ns#hasEmail#02-12-2021>, <http://www.w3.org/ns/adms#identifier#02-12-2021>, <http://www.w3.org/ns/adms#identifier#02-12-2021>, <http://www.w3.org/ns/adms#identifier#02-12-2021>, <http://www.w3.org/ns/adms#identifier#02-12-2021>, <http://www.w3.org/ns/adms#identifier#02-12-2021>, <http://www.w3.org/ns/dcat#accessService#02-12-2021>, <http://www.w3.org/ns/dcat#accessURL#02-12-2021>, <http://www.w3.org/ns/dcat#contactPoint#02-12-2021>, <http://www.w3.org/ns/dcat#contactPoint#02-12-2021>, <http://www.w3.org/ns/dcat#contactPoint#02-12-2021>, <http://www.w3.org/ns/dcat#dataset#02-12-2021>, <http://www.w3.org/ns/dcat#distribution#02-12-2021>, <http://www.w3.org/ns/dcat#downloadURL#02-12-2021>, <http://www.w3.org/ns/dcat#endpointDescription#02-12-2021>, <http://www.w3.org/ns/dcat#endpointURL#02-12-2021>, <http://www.w3.org/ns/dcat#keyword#02-12-2021>, <http://www.w3.org/ns/dcat#keyword#02-12-2021>, <http://www.w3.org/ns/dcat#landingPage#02-12-2021>, <http://www.w3.org/ns/dcat#landingPage#02-12-2021>, <http://www.w3.org/ns/dcat#record#02-12-2021>, <http://www.w3.org/ns/dcat#servesdataset#02-12-2021>, <http://www.w3.org/ns/dcat#service#02-12-2021>, <http://www.w3.org/ns/dcat#theme#02-12-2021>, <http://www.w3.org/ns/dcat#theme#02-12-2021>, <http://xmlns.com/foaf/0.1/name#02-12-2021>, <http://xmlns.com/foaf/0.1/page#02-12-2021>, <http://xmlns.com/foaf/0.1/primaryTopic#02-12-2021>;
     <https://w3id.org/tree#view> <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/17.trig>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/17.trig> <https://w3id.org/tree#relation> _:df_0_16.
 _:df_0_16 a <https://w3id.org/tree#Relation>;
