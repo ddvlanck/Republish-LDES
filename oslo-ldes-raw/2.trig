@@ -1,120 +1,174 @@
-<https://data.vlaanderen.be/ns/openbaardomein/gebied> {
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Begraafplaats#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Begraafplaats>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Gebied waar stoffelijke resten van overledenen begraven, bijgezet of verstrooid worden, inclusief de gemeenschappelijk gebruikte ruimte."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Begraafplaats"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Bufferzone#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Bufferzone>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een bufferzone is een gebied noodzakelijk om de hinder met naastliggende gebieden te beperken, bijvoorbeeld tussen industrie en woonzone of park."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Bufferzone"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een ruimte met daarin objecten in de openbare ruimte die samen een hoofdfunctie hebben."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Gebied"@nl.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Groenzone#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Groenzone>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een gebied zonder specifieke functie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Groenzone"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Natuur#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Natuur>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Gebied met een ecologische functie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Natuur"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Park#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Park>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een onbebouwde en openbare ruimte omgeven door gebouwen en maakt deel uit van het stratennet van een stad of dorp."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Park"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Parking#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Parking>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Hoofdzakelijk buiten de rijbaan gelegen zone, bedoeld voor het langdurig laten stilstaan van een voertuig in parkeervakken, inclusief de gemeenschappelijk gebruikte ruimte van de zone die buiten de parkeervakken."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Parking"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Plein#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Plein>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een onbebouwde en openbare ruimte, typisch omgeven door gebouwen, dat deel uitmaakt van het stratennet van een stad of gemeente."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Plein"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Recreatiegebied#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Recreatiegebied>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een gebied met hoofdzakelijk een recreatieve functie, waaronder ook sport en spel."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Recreatiegebied"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Recyclagepark#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Recyclagepark>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Zone waar particulieren en KMO's hun afval gescheiden kunnen inzamelen en deponeren."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Recyclagepark"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Spoorweg#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Spoorweg>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Zone bedoeld om hoofdzakelijk treinverkeer te kunnen laten plaatsvinden, inclusief de gebieden die de spoorinfrastructuur ondersteunen (vb: spoorbermen)"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Spoorweg"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Tuinzone#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Tuinzone>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Gebied ingericht en/of beheerd als openbare tuin, meestal aanliggend aan gebouwen voor algemeen nut (scholen, jeugdlokalen, religieuze gebouwen, cultuurcentra, politie, brandweer, etc.)"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Tuinzone"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Volkstuin#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Volkstuin>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Gebied aangeduid en bedoeld om tuinbouw te laten plaatsvinden bij particulieren op percelen die niet aan de eigen woning gelegen zijn, inclusief de gemeenschappelijk gebruikte ruimte."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Volkstuin"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Waterverkeerzone#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Waterverkeerzone>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Gebied bedoeld om hoofdzakelijk transport via waterwegen te kunnen laten plaatsvinden, inclusief de gebieden die wezenlijk deel uitmaken van de waterwegen (vb: oevers)."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Waterverkeerzone"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#Wegzone#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Wegzone>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Gebied bedoeld om hoofdzakelijk voet-, fiets- en/of motorisch verkeer te kunnen laten plaatsvinden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Wegzone"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#actieveLijkbezorging#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#actieveLijkbezorging>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan of er al dan niet nog aan actieve lijkbezorging gedaan wordt op de begraafplaats."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "actieve lijkbezorging"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Begraafplaats>;
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats> {
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#BegraafplaatsBlok#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#BegraafplaatsBlok>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een deel binnen de begraafplaats. Dit blok is op zichzelf staande structuur binnen de begraafplaats en zorgt voor een gebiedsdekkende structuur."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Begraafplaats blok"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>.
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#BegraafplaatsRij#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#BegraafplaatsRij>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een rij is een verzameling graven van hetzelfde type. Een rij ligt typisch volledig binnen een bepaald blok. "@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Begraafplaats rij"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>.
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Columbarium#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Columbarium>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een columbarium is een muur met nissen waarin urnen geplaatst worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Columbarium"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#Element>.
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Graf#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Graf>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Plaats waar iemand begraven ligt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Graf"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#Element>.
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Strooiweide#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Strooiweide>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Plaats, meestal grasperkje, op het kerkhof waar assen van overledenen uitgestrooid worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Strooiweide"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>.
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Urnenveld#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Urnenveld>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een urnenveld is een constructie in of op de grond met nissen waarin urnen geplaatst worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Urnenveld"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#Element>.
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#bezetting#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#bezetting>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft het aantal bezette plaatsen van een graf weer."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bezetting"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Thing>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer>.
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#capaciteit#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#capaciteit>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft het aantal beschikbare plaatsen van een graf weer."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "capaciteit"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Graf>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer>.
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#grafkelderAanwezig#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#grafkelderAanwezig>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan of het graf voorzien is van een ondergrondse of bovengrondse ruimte."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "grafkelder aanwezig"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Graf>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#begindatum#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#begindatum>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum waarop de huidige versie van het beheergebied in gebruik wordt genomen."@nl;
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#grafteken#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#grafteken>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Duidt aan of er al dan niet een grafteken, bijvoorbeeld een zerk, aanwezig is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "grafteken"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Graf>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
+<https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#graftype#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#graftype>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type graf."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "graftype"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Graf>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://data.vlaanderen.be/ns/openbaardomein#Deel#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#Deel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Homogeen gedeelte van het aardoppervlak, met een gelijkaardige hoofdfunctie en fysiek voorkomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Deel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>.
+<https://data.vlaanderen.be/ns/openbaardomein#Element#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#Element>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Afzonderlijk te onderscheiden element dat ofwel direct of indirect bevestigd is aan het aardoppervlak."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Element"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>.
+<https://data.vlaanderen.be/ns/openbaardomein#FysiekObject#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De hoofdklasse waar alle objecten die geïnventariseerd kunnen worden van afgeleid worden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Fysiek object"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/prov#Entity>, <http://schema.org/Thing>.
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Zichtbare laag van het aardoppervlak, met een gelijkaardige functie, dat geen deel uitmaakt van 'waterdeel'."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Terreindeel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://data.vlaanderen.be/ns/openbaardomein#Deel>.
+<https://schema.org/QuantitativeValue#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/QuantitativeValue>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van de kwantiteit van een bepaald kenmerk van een object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Kwantitatieve Waarde"@nl.
+<http://open.vocab.org/terms/length#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://open.vocab.org/terms/length>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De lineare grootte van het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "lengte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>.
+<http://purl.org/dc/terms/relation#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/relation>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijst naar een object in een andere databank dat meer informatie kan verschaffen over het beheerobject."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "relatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource>.
+<http://schema.org/width#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/width>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De breedte van het object. In geval van een ongelijkmatige breedte wordt de gemiddelde breedte opgenomen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "breedte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>.
+<http://www.w3.org/ns/locn#geometry#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#geometry>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De geometrie overeenkomstig met een bepaald object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "geometrie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#Geometry>.
+<https://data.vlaanderen.be/ns/openbaardomein#begindatum#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#begindatum>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum waarop de huidige versie van het gebied of object in gebruik wordt genomen."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "begindatum"@nl;
     <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#einddatum#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#einddatum>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum waarop de huidige versie van het beheergebied uit gebruik wordt genomen."@nl;
+<https://data.vlaanderen.be/ns/openbaardomein#einddatum#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#einddatum>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Datum waarop de huidige versie van het beheerobject uit gebruik wordt genomen."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "einddatum"@nl;
     <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
-<https://data.vlaanderen.be/ns/openbaardomein/gebied#lichteRecreatie#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/gebied#lichteRecreatie>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of de begraafplaats al dan niet geschikt is voor lichte recreatie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "lichte recreatie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Begraafplaats>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
-<http://www.w3.org/1999/02/22-rdf-syntax-ns#langString#2021-09-30> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Benaming toegekend aan of gebruikt voor een geografisch object."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Geografische Naam"@nl.
-<http://purl.org/dc/terms/title#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een naam voor het gebied."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
-<http://www.w3.org/ns/locn#geometry#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#geometry>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De geometrie overeenkomstig met een bepaald gebied."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "geometrie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/sf#Polygon>
+<https://data.vlaanderen.be/ns/openbaardomein#nauwkeurigheid#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#nauwkeurigheid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De precisie waarmee het object opgemeten werd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "nauwkeurigheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://data.vlaanderen.be/ns/openbaardomein#niveau#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#niveau>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het niveau waarop het object zich bevindt, relatief ten opzichte van andere objecten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "niveau"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer>.
+<https://data.vlaanderen.be/ns/openbaardomein#oppervlakte#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein#oppervlakte>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De afmeting van het object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "oppervlakte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#Deel>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>.
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Element.heeftObstakel#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Element.heeftObstakel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het specifieke Element dat een obstakel vormt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft obstakel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein#Element>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>.
+<https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel.heeftObstakel#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel.heeftObstakel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het specifieke Element dat een obstakel vormt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "heeft obstakel"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/openbaardomein#Element>.
+<https://schema.org/unitCode#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/unitCode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De gestandaardiseerde eenheid waarin de waarde is uitgedrukt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "standaard eenheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/generiek#StandaardEenheid>.
+<https://schema.org/unitText#2021-09-30> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/unitText>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De eenheid waarin de waarde is uitgedrukt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "eenheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://schema.org/value#2021-09-30> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/value>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Getal waarmee de kwantiteit van het kenmerk kan worden uitgedrukt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "waarde"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/Number>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/gebied#Begraafplaats#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Bufferzone#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Groenzone#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Natuur#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Park#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Parking#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Plein#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Recreatiegebied#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Recyclagepark#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Spoorweg#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Tuinzone#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Volkstuin#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Waterverkeerzone#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#Wegzone#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#actieveLijkbezorging#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#begindatum#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#einddatum#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/gebied#lichteRecreatie#2021-09-30>, <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString#2021-09-30>, <http://purl.org/dc/terms/title#2021-09-30>, <http://www.w3.org/ns/locn#geometry#2021-09-30>;
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#BegraafplaatsBlok#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#BegraafplaatsRij#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Columbarium#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Graf#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Strooiweide#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Urnenveld#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#bezetting#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#capaciteit#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#grafkelderAanwezig#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#grafteken#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#graftype#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#Deel#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#Element#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel#2021-09-30>, <https://schema.org/QuantitativeValue#2021-09-30>, <http://open.vocab.org/terms/length#2021-09-30>, <http://purl.org/dc/terms/relation#2021-09-30>, <http://schema.org/width#2021-09-30>, <http://www.w3.org/ns/locn#geometry#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#begindatum#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#einddatum#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#nauwkeurigheid#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#niveau#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein#oppervlakte#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Element.heeftObstakel#2021-09-30>, <https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel.heeftObstakel#2021-09-30>, <https://schema.org/unitCode#2021-09-30>, <https://schema.org/unitText#2021-09-30>, <https://schema.org/value#2021-09-30>;
     <https://w3id.org/tree#view> <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/2.trig>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/2.trig> <https://w3id.org/tree#relation> _:df_0_1.
 _:df_0_1 a <https://w3id.org/tree#Relation>;

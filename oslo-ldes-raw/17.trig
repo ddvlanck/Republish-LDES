@@ -1,132 +1,1188 @@
-<http://data.vlaanderen.be/ns/dcatapvl> {
-<http://purl.org/dc/terms/LicenseDocument#13-06-2019> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/LicenseDocument>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een wettelijk document dat de voorwaarden waaronder men een resource mag gebruiken."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Licentiedocument"@nl.
-<http://www.w3.org/2006/vcard/ns#Kind#13-06-2019> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2006/vcard/ns#Kind>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een beschrijving van contact informatie."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Contactinfo"@nl.
-<http://www.w3.org/ns/dcat#Catalog#13-06-2019> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#Catalog>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Open Data datasetcatalogus is een verzameling van Open Data datasets."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Datasetcatalogus"@nl.
-<http://www.w3.org/ns/dcat#Dataset#13-06-2019> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#Dataset>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een verzameling van data, gepubliseerd en/of beheerd door een bronbeheerder, en beschikbaar in een of meerdere formaten. "@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Dataset"@nl.
-<http://www.w3.org/ns/dcat#Distribution#13-06-2019> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#Distribution>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een distributie is een vorm waarin de dataset wordt gepubliceerd. Dit kan als een filedump zijn, maar ook door  een API."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Distributie"@nl.
-<http://xmlns.com/foaf/0.1/Agent#13-06-2019> a <http://www.w3.org/2002/07/owl#Class>;
-    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/Agent>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De agent in zijn rol als uitgever  is de organisatie die verantwoordelijk is voor het toegankelijk maken, dus de publicatie, van een datasetcatalogus of dataset."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@nl.
-<http://purl.org/dc/terms/accessRights#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/accessRights>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De toegankelijkheidscategorie van de dataset."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "toegankelijkheid"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<http://purl.org/dc/terms/description#13-06-2019> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een bondige omschrijving van de datasetcatalogus. "@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
-    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een bondige omschrijving van de dataset."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
+<https://purl.eu/ns/mobility/timetables-and-planning> {
+<https://purl.eu/ns/mobility/timetables-and-planning#AccessibilityAssessment#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#AccessibilityAssessment>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De toegankelijkheidskenmerken van een entiteit die wordt gebruikt door passagiers zoals een stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Toegankelijkheidsbeoordeling"@nl.
+<https://purl.eu/ns/mobility/timetables-and-planning#Country#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Country>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een jurisdictionele en geografisch afgebakende Plaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Land"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://purl.org/dc/terms/Location>.
+<https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een groepering van stopplaatsen waar vaak naar wordt verwezen voor een specifiek doel (stops in een luchthaven, hoofdstops van een stad, enz.)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Groep van Stopplaatsen"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://purl.eu/ns/mobility/timetables-and-planning#GroupOfEntities>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Level#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Level>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een geïdentificeerde verdieping (gelijkvloers, eerste, kelder, mezzanine, enz.) Binnen een uitwisselingsgebouw of site waarop sitecomponenten verblijven."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Verdieping"@nl.
+<https://purl.eu/ns/mobility/timetables-and-planning#Locale#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Locale>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Parameters en eigenschappen die moeten worden gebruikt bij het verwerken en presenteren van gegevens in een land of regio (tijdzone, taal, etc.)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Locale"@nl.
+<https://purl.eu/ns/mobility/timetables-and-planning#Operator#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Operator>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een bedrijf dat openbaarvervoersdiensten aanbiedt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Operator"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/org#Organization>, <https://purl.eu/ns/mobility/timetables-and-planning#AuthorityOrOperator>.
+<https://purl.eu/ns/mobility/timetables-and-planning#PassengerStopAssignment#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#PassengerStopAssignment>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Passagier Stopplaatstoewijzing is de toewijzing van een Geplande Stopplaats aan een fysieke Stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Passagier Stopplaatstoewijzing"@nl.
+<https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een soort plaats waarnaar of waardoor passagiers misschien willen navigeren als onderdeel van hun rit en die in detail wordt gemodelleerd door reisplanners."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Point of Interest"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://purl.eu/ns/mobility/timetables-and-planning#Site>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Presentation#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Presentation>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Bepaalt een uniforme reeks waarden om de verschijningen van een element te controleren (op een kaart, een schematische kaart, een papier- of schermbeschrijving, enz.)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Presentatie"@nl.
+<https://purl.eu/ns/mobility/timetables-and-planning#Quay#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Quay>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een plaats zoals een platform, bushalte, stand of perron waar passagiers toegang hebben tot openbaar vervoer voertuigen, taxi, auto's of ander vervoermiddel."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Perron"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlaceSpace>.
+<https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Punt waar passagiers kunnen op- of afstappen van voertuigen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Gepland Stoppunt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://fixme.com#Transportknoop>, <https://purl.eu/ns/mobility/timetables-and-planning#Point>, <https://purl.eu/ns/mobility/timetables-and-planning#TimingPoint>.
+<https://purl.eu/ns/mobility/timetables-and-planning#ServiceLink#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#ServiceLink>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Verbinding tussen twee opeenvolgende Geplande Stopplaatsen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Dienstverbinding"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://purl.eu/ns/mobility/timetables-and-planning#Link>, <http://fixme.com#Transportlink>.
+<https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Fysieke toegang of uitgang naar/van een site."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Sitetoegang"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://purl.eu/ns/mobility/timetables-and-planning#SiteComponent>.
+<https://purl.eu/ns/mobility/timetables-and-planning#StopPlace#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Stopplaats stelt een station, halte, haven, luchthaven of eender welk ander fysiek toegangspunt tot het transportnetwerk voor."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Stopplaats"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://purl.eu/ns/mobility/timetables-and-planning#Site>.
+<https://purl.eu/ns/mobility/timetables-and-planning#StopPlaceEntrance#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlaceEntrance>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Fysieke toegang of uitgang naar/van een stopplaats voor een passagier."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Stopplaatstoegang"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance>.
+<https://purl.eu/ns/mobility/timetables-and-planning#StopPointInJourneyPattern#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#StopPointInJourneyPattern>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een Stopplaats in Ritpatroon beschrijft het bezoek van een dienst aan een Geplande Stopplaats volgens de volgorde in een Dienstritpatroon."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Stopplaats in Ritpatroon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <https://purl.eu/ns/mobility/timetables-and-planning#PointInLinkSequence>, <http://fixme.com#Routeknoop>.
+<https://purl.eu/ns/mobility/timetables-and-planning#TariffZone#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#TariffZone>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een zone die wordt gebruikt om een ??zonale tariefstructuur te definiëren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Tariefzone"@nl.
+<https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een geografische nederzetting die topografische context biedt bij het zoeken of presenteren van reisinformatie, bijvoorbeeld als de oorsprong of de bestemming van een reis."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Topografische Plaats"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://purl.org/dc/terms/Location>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Country.alternativeName#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Country.alternativeName>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Alternatieve naam voor het land."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "alternatieve naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Country>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
-<http://purl.org/dc/terms/license#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/license>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De licentie van de distributie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft licentie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/LicenseDocument>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/license>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De licentie van de datasetcatalogus."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft licentie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/LicenseDocument>.
-<http://purl.org/dc/terms/publisher#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/publisher>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De uitgever van de datasetcatalogus"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft uitgever"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent>;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/publisher>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De uitgever van de dataset. "@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft uitgever"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent>.
-<http://purl.org/dc/terms/title#13-06-2019> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van de datasetcatalogus."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
-    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van de dataset"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
-    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/title>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een naam voor de distributie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "titel"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution>;
+<https://purl.eu/ns/mobility/timetables-and-planning#Country.centroid#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Country.centroid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Middenpunt van het land."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "centroïde"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Country>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#Point>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Country.description#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Country.description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van het land."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "omschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Country>;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
-<http://www.w3.org/2006/vcard/ns#hasEmail#13-06-2019> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2006/vcard/ns#hasEmail>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het e-mail adres waarmee je contact kan opnemen"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "e-mail"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2006/vcard/ns#Kind>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
-<http://www.w3.org/ns/dcat#accessURL#13-06-2019> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#accessURL>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De URL waar de data kan gevonden worden."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "toegangsURL"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
-<http://www.w3.org/ns/dcat#contactPoint#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#contactPoint>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De contactinformatie via men in contact kan treden met de verantwoordelijken van de dataset. "@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "contactinfo"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/vcard/ns#Kind>.
-<http://www.w3.org/ns/dcat#dataset#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#dataset>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Een dataset die behoort tot de datasetcatalogus"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft dataset"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Dataset>.
-<http://www.w3.org/ns/dcat#distribution#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#distribution>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De distributie van een dataset."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "heeft distributie"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Distribution>.
-<http://www.w3.org/ns/dcat#theme#13-06-2019> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/dcat#theme>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Het thema waartoe de dataset behoort."@nl;
-    <http://www.w3.org/2000/01/rdf-schema#label> "thema"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
-<http://xmlns.com/foaf/0.1/name#13-06-2019> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
-    <http://purl.org/dc/terms/isVersionOf> <http://xmlns.com/foaf/0.1/name>;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "De naam van de uitgever"@nl;
+<https://purl.eu/ns/mobility/timetables-and-planning#Country.members#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Country.members>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Lijst van punten in het land."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "leden"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Country>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#Point>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Country.name#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Country.name>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van het land."@nl;
     <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
-    <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent>;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Country>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Country.placeType#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Country.placeType>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Categorisering van het land."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "plaatstype"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Country>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Country.polygon#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Country.polygon>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Veelhoek geassocieerd met het land."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "polygoon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Country>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/sf#Polygon>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Country.privateCode#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Country.privateCode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Privécode van het land."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "privécode"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Country>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Country.shortName#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Country.shortName>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Korte naam van het land."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "korte naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Country>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces.description#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces.description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van de groep stopplaatsen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "omschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces.name#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces.name>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van de groep stopplaatsen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces.privateCode#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces.privateCode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Privécode in verband met de groep stopplaatsen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "privécode"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces.purposeOfGrouping#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces.purposeOfGrouping>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Doel van het groeperen van de stopplaatsen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "doel van groepering"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces.shortName#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces.shortName>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Korte naam voor de groep stopplaatsen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "korte naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Level.description#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Level.description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van de verdieping."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "omschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Level>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Level.name#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Level.name>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van de verdieping."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Level>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Level.publicCode#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Level.publicCode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Publieke code van de verdieping."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "publieke code"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Level>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Level.shortName#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Level.shortName>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Korte naam voor de verdieping."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "korte naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Level>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Operator.address#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Operator.address>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Postadres van de operator."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "adres"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Operator>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/locn#Address>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Operator.country#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Operator.country>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijzing naar het land."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "land"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Operator>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://purl.eu/ns/mobility/timetables-and-planning#PassengerStopAssignment.scheduledStopPoint#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#PassengerStopAssignment.scheduledStopPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Referentie naar verbonden klasse."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Gepland Stoppunt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#PassengerStopAssignment>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint>.
+<https://purl.eu/ns/mobility/timetables-and-planning#PassengerStopAssignment.stopPlace#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#PassengerStopAssignment.stopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Referentie naar verbonden klasse."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Stopplaats"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#PassengerStopAssignment>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>.
+<https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest.level#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest.level>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verdieping van de Point of Interest."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "verdieping"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#Level>.
+<https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest.locale#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest.locale>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Locale-instellingstijdzone, standaardtaal, etc., voor de Point of Interest."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "locale"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#Locale>.
+<https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest.organisation#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest.organisation>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijzing naar de exploitant van de Point of Interest."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "organisatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#Operator>.
+<https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest.parentSite#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest.parentSite>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Parent site die de Point of Interest bevat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "parent site"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#Site>.
+<https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest.servedBy#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest.servedBy>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Stopplaats die de Point of Interest dient."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bediend door"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>.
+<https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest.topographicPlace#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest.topographicPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijzing naar een topografische plaats waarmee de Point of Interest is geassocieerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "topografische plaats"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Quay.accessMode#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Quay.accessMode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Toegangsmodus van het perron."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegangsmodus"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Quay>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Quay.accessibilityAssessment#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Quay.accessibilityAssessment>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Toegankelijkheid van het perron."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegankelijkheidsbeoordeling"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Quay>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#AccessibilityAssessment>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Quay.alternativeName#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Quay.alternativeName>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Alternatieve naam voor het perron."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "alternatieve naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Quay>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Quay.covered#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Quay.covered>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of het perron bedekt is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "overdekt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Quay>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Quay.crossRoad#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Quay.crossRoad>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van de dichtstbijzijnde dwarsweg of kruising en die kan worden gebruikt om het perron te lokaliseren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "kruispunt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Quay>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Quay.gated#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Quay.gated>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of het perron binnen een omheind gebied is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "omheind"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Quay>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Quay.label#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Quay.label>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Label van het perron."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "label"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Quay>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Quay.landmark#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Quay.landmark>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van een nabijgelegen oriëntatiepunt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "oriëntatiepunt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Quay>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Quay.level#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Quay.level>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verdieping van het perron."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "verdieping"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Quay>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#Level>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Quay.lighting#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Quay.lighting>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan hoe het perron verlicht is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "verlichting"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Quay>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#Quay.publicCode#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#Quay.publicCode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Gebruik om het perron aan het publiek te identificeren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "publieke code"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Quay>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.description#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van het geplande stoppunt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "omschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.location#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.location>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Locatie van het geplande stoppunt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "locatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/sf#Point>.
+<https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.name#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.name>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van het geplande stoppunt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.presentation#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.presentation>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Presentatiewaarden om te gebruiken bij het weergeven van het stoppunt, zoals een kleur en lettertype."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "presentatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#Presentation>.
+<https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.privateCode#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.privateCode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Alternatieve identificatie van het geplande stoppunt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "privécode"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.publicCode#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.publicCode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Publieke code van het geplande stoppunt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "publieke code"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.shortName#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.shortName>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Korte naam van het geplande stoppunt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "korte naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.accessMode#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.accessMode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Toegangsmodi van de ingang van de site."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegangsmodus"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.accessibilityAssessment#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.accessibilityAssessment>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Toegankelijkheidsbeoordeling van de ingang van de site."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegankelijkheidsbeoordeling"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#AccessibilityAssessment>.
+<https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.covered#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.covered>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of de ingang van de site overdekt of buiten is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "overdekt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.crossRoad#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.crossRoad>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van de dichtstbijzijnde dwarsweg of kruising die kan worden gebruikt om de ingang van de site te lokaliseren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "kruispunt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.gated#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.gated>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of de ingang van de site zich binnen een omheind gebied bevindt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "omheind"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.height#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.height>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Hoogte van de ingang van de site."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "hoogte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>.
+<https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.label#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.label>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Label van de ingang van de site."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "label"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.landmark#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.landmark>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van een nabijgelegen oriëntatiepunt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "oriëntatiepunt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.level#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.level>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verdieping van de ingang van de site."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "verdieping"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#Level>.
+<https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.lighting#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.lighting>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of de ingang van de site overdekt of buiten is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "verlichting"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.publicCode#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.publicCode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Publieke code voor de ingang van de site."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "publieke code"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.width#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.width>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Breedte van de ingang van de site."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "breedte"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>.
+<https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.accessabilityAssessment#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.accessabilityAssessment>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De algehele toegankelijkheidskenmerken van de stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegankelijkheidsbeoordeling"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#AccessibilityAssessment>.
+<https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.alternativeName#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.alternativeName>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Alternatieve naam voor de stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "alternatieve naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.alternativeName>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Alternatieve naam voor de ingang van de site."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "alternatieve naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.centroid#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.centroid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Middenpunt van de stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "centroïde"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/sf#Point>.
+<https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.covered#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.covered>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of de stopplaats bedekt is of buiten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "overdekt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.crossRoad#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.crossRoad>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van de dichtstbijzijnde dwarsweg of kruising die kan worden gebruikt om de stopplaats te vinden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "kruispunt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.gated#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.gated>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of de stopplaats binnen een omheind gebied is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "omheind"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.in#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.in>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Topografische plaats in de stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "in"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>.
+<https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.landmark#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.landmark>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van een nabijgelegen oriëntatiepunt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "oriëntatiepunt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.level#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.level>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verdieping van de stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "verdieping"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#Level>.
+<https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.lighting#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.lighting>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan hoe goed de stopplaats verlicht is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "verlichting"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.locale#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.locale>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Locale instellingen van de tijdzone, standaardtaal, enz., voor de stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Locale"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#Locale>.
+<https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.organisation#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.organisation>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijzing naar de exploitant van de stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "organisatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#Operator>.
+<https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.parentSite#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.parentSite>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Parent site die deze stopplaats bevat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "parent site"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#Site>.
+<https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.placeType#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.placeType>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Categorisering van de stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "plaatstype"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.polygon#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.polygon>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Polygoon geassocieerd met de stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "polygoon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/sf#Polygon>.
+<https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.postalAddress#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.postalAddress>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een postadres waarnaar post kan worden verzonden."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "postadres"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/locn#Address>.
+<https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.publicCode#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.publicCode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Code gebruikt om een ??stopplaats aan het publiek te identificeren als een alternatief voor een naam."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "publieke code"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.roadAddress#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.roadAddress>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Adres van een genummerd gebouw op een benoemde weg."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "wegadres"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/locn#Address>.
+<https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.url#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.url>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "URL met informatie over de stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "url"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
+<https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.centroid#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.centroid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Middenpunt van de topografische plaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "centroïde"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#Point>.
+<https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.country#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.country>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Land waar de topografische plaats is gevestigd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "land"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#Country>.
+<https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.description#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van de topografische plaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "omschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.members#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.members>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Lijst van punten binnen de topografische plaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "leden"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#Point>.
+<https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.name#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.name>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van de topografische plaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.placeType#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.placeType>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Categorisering van de topografische plaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "plaatstype"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.polygon#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.polygon>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Veelhoek geassocieerd met de topografische plaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "polygoon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/sf#Polygon>.
+<https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.postcode#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.postcode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Postcode of gedeeltelijke postcode geassocieerd met de topografische plaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "postcode"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.privateCode#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.privateCode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Alternatieve identificatie van de topografische plaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "privécode"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.servedBy#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.servedBy>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Stopplaats die de topografische plaats bedient."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bediend door"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>.
+<https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.shortName#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.shortName>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Korte naam voor de topografische plaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "korte naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<https://purl.eu/ns/mobility/timetables-and-planning#accessModes#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#accessModes>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Toegangsmodi waarmee de stopplaats toegankelijk is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegangsmodi"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#accessibility#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#accessibility>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Toegankelijkheid van de verdieping."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegankelijkheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Level>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#AccessibilityAssessment>.
+<https://purl.eu/ns/mobility/timetables-and-planning#additionalTopographicPlace#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#additionalTopographicPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Extra topografische plaatsen in verband met de Point of Interest."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "extra topografische plaats"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>.
+<https://purl.eu/ns/mobility/timetables-and-planning#allAreasWheelchair#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#allAreasWheelchair>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of alle gebieden van de verdieping rolstoeltoegankelijk zijn."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "rolstoeltoegankelijk"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Level>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
+<https://purl.eu/ns/mobility/timetables-and-planning#borderCrossing#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#borderCrossing>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of de stopplaats een grensovergang is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "grensovergang"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
+<https://purl.eu/ns/mobility/timetables-and-planning#classification#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#classification>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Classificatie van de Point of Interest."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "classificatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#compassBearing#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#compassBearing>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Helling van straat ten opzichte van het perron in graden (absolute helling van voorste deel van het voertuig wanneer gestopt bij perron)."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "helling"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Quay>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/QuantitativeValue>.
+<https://purl.eu/ns/mobility/timetables-and-planning#contained#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#contained>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Stopplaats in de topografische plaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "omvattend"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>.
+<https://purl.eu/ns/mobility/timetables-and-planning#containedIn#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#containedIn>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijzing naar andere topografische plaatsen waarbinnen de topografische plaats is ingesloten."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "omvattend in"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>.
+<https://purl.eu/ns/mobility/timetables-and-planning#containing#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#containing>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De perrons in de stopplaats, dat zijn, platforms, steigers, baaien, taxistandplaatsen en andere punten van fysieke toegang tot voertuigen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "omvattend"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#Quay>.
+<https://purl.eu/ns/mobility/timetables-and-planning#defaultLanguage#2022-04-21> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#defaultLanguage>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Standaardtaal van de locale, b.v. en, fr, de, etc."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "standaard taal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Locale>.
+<https://purl.eu/ns/mobility/timetables-and-planning#droppedKerbOutside#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#droppedKerbOutside>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of er een verlaagde stoeprand buiten de ingang van de site is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "verlaagde stoeprand"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
+<https://purl.eu/ns/mobility/timetables-and-planning#endOf#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#endOf>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Dienstverbinding waarvoor het geplande stoppunt het einde is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "einde van"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#ServiceLink>.
+<https://purl.eu/ns/mobility/timetables-and-planning#enteredThrough#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#enteredThrough>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Ingang van de stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "binnengekomen via"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlaceEntrance>.
+<https://purl.eu/ns/mobility/timetables-and-planning#entrance#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#entrance>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Ingang van de Point of Interest."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "ingang"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance>.
+<https://purl.eu/ns/mobility/timetables-and-planning#entranceType#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#entranceType>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Type ingang van de site."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegangstype"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#for#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#for>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Stopplaats die de hoofdterminus van de topografische plaats is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "voor"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>.
+<https://purl.eu/ns/mobility/timetables-and-planning#image#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#image>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "TODO"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "afbeelding"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI>.
+<https://purl.eu/ns/mobility/timetables-and-planning#isEntry#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#isEntry>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of de ingang kan worden gebruikt voor toegang tot de stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "is toegang"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
+<https://purl.eu/ns/mobility/timetables-and-planning#isExit#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#isExit>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of de ingang kan worden gebruikt voor exit van de stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "is uitgang"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
+<https://purl.eu/ns/mobility/timetables-and-planning#isExternal#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#isExternal>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of de ingang van de site extern opent."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "is extern"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
+<https://purl.eu/ns/mobility/timetables-and-planning#isoCode#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#isoCode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "ISO-code voor de topografische plaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "ISO-code"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://purl.eu/ns/mobility/timetables-and-planning#language#2022-04-21> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#language>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Andere talen ondersteund in de locale."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "taal"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Locale>.
+<https://purl.eu/ns/mobility/timetables-and-planning#locatedIn#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#locatedIn>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Land waar de stopplaats zich bevindt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "gelegen in"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#Country>.
+<https://purl.eu/ns/mobility/timetables-and-planning#locationOf#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#locationOf>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Stopplaats die zich in het land bevindt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "locatie van"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Country>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>.
+<https://purl.eu/ns/mobility/timetables-and-planning#mainTerminus#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#mainTerminus>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Topografische plaats waarvoor de stopplaats de hoofdterminus is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "hoofdterminus"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>.
+<https://purl.eu/ns/mobility/timetables-and-planning#member#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#member>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Stopplaats die lid is van de groep stopplaatsen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "lid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>.
+<https://purl.eu/ns/mobility/timetables-and-planning#nearTopographicPlace#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#nearTopographicPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Topografische plaatsen in de buurt van de Point of Interest."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "nabije topografische plaats"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>.
+<https://purl.eu/ns/mobility/timetables-and-planning#otherCountry#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#otherCountry>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Voor topografische plaatsen die over grenzen heen gaan, verwijzing naar het extra land of lde anden waar de topografische plaats in ligt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "ander land"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#Country>.
+<https://purl.eu/ns/mobility/timetables-and-planning#otherTransportmode#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#otherTransportmode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De andere transportmodes verkrijgbaar bij de stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "andere transportmodus"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#parentTopographicPlace#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#parentTopographicPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijzing naar een bovenliggende topografische plaats die de topografische plaats bevat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "parent topografische plaats"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>.
+<https://purl.eu/ns/mobility/timetables-and-planning#plateCode#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#plateCode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Asset-code die wordt gebruikt om het perron te identificeren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "plaatcode"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Quay>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://purl.eu/ns/mobility/timetables-and-planning#primaryMode#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#primaryMode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Primaire transportmodus van de operator."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "primaire modus"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Operator>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#publicUse#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#publicUse>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of de verdieping publiekelijk toegankelijk is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "openbaar gebruik"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Level>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean>.
+<https://purl.eu/ns/mobility/timetables-and-planning#quay#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#quay>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Perron van het Perron."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "perron"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Quay>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#Quay>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#quay>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijzing naar een perron binnen de stopplaats waaraan het geplande stoppunt is toegewezen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "perron"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#PassengerStopAssignment>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#Quay>.
+<https://purl.eu/ns/mobility/timetables-and-planning#quayType#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#quayType>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Classificatie van het perron."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "perrontype"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Quay>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#scheduledStopPoint#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#scheduledStopPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geplande Stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "geplande stopplaats"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint>.
+<https://purl.eu/ns/mobility/timetables-and-planning#serves#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#serves>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Topografische plaats die de stopplaats dient."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bedient"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#serves>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Point of Interest die wordt bediend door de stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bedient"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest>.
+<https://purl.eu/ns/mobility/timetables-and-planning#site#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#site>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Plaats van de verdieping."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "site"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Level>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#Site>.
+<https://purl.eu/ns/mobility/timetables-and-planning#startOf#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#startOf>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Dienstverbinding waarvoor het geplande stoppunt de start is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "start van"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#ServiceLink>.
+<https://purl.eu/ns/mobility/timetables-and-planning#stopPlace#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#stopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "stopplaats"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>.
+<https://purl.eu/ns/mobility/timetables-and-planning#stopPlaceType#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#stopPlaceType>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het type stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "stopplaatstype"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#stopPlaceWeight#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#stopPlaceWeight>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Type van verwachte uitwisseling op de stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "stopplaatsgewicht"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#stopType#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#stopType>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Type stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "stopstype"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#submode#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#submode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Submodus geassocieerd met de stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "submodus"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#summerTimeZoneOffset#2022-04-21> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#summerTimeZoneOffset>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijdzone als offset in uren of deeluren van GMT."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "zomertijdzone offset"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Locale>.
+<https://purl.eu/ns/mobility/timetables-and-planning#tariffZone#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#tariffZone>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Tariefzone geassocieerd met de stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "tariefzone"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#TariffZone>.
+<https://purl.eu/ns/mobility/timetables-and-planning#tariffZones#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#tariffZones>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Tariefzones waartoe het geplande stoppunt behoort."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "tariefzones"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#TariffZone>.
+<https://purl.eu/ns/mobility/timetables-and-planning#timeZone#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#timeZone>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam van de tijdzone die is gekoppeld aan de locale."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "tijdzone"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Locale>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://purl.eu/ns/mobility/timetables-and-planning#timeZoneOffset#2022-04-21> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#timeZoneOffset>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijdzone van de locale als offset in uren van GMT."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "tijdzone offset"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Locale>.
+<https://purl.eu/ns/mobility/timetables-and-planning#timingpointStatus#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#timingpointStatus>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Timing compliance-status van het punt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "tijdspuntstatus"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#TimingpointStatus>.
+<https://purl.eu/ns/mobility/timetables-and-planning#topographicPlaceType#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#topographicPlaceType>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Categorisering van de topografische plaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "topografische plaats type"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#transportMode#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#transportMode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De hoofdtransportmodus van de stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "transportmodus"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>;
+    a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#transportMode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Transportmodus van de groep stopplaatsen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "transportmodus"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<https://purl.eu/ns/mobility/timetables-and-planning#uicCode#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#uicCode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Uic-code van het land."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Uic-code"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#Country>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>.
+<https://purl.eu/ns/mobility/timetables-and-planning#viewedAs#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#viewedAs>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Stoppunt in ritpatroon dat verwijst naar het geplande stoppunt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "gezien als"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.eu/ns/mobility/timetables-and-planning#StopPointInJourneyPattern>.
+<https://purl.eu/ns/mobility/timetables-and-planning#weighting#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://purl.eu/ns/mobility/timetables-and-planning#weighting>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Standaard relatieve weging die moet worden gebruikt voor de stopplaats."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "gewicht"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://www.opengis.net/ont/sf#Point#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/sf#Point>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een 0-dimensioneel geometrisch object dat een bepaalde locatie in een coördinaatruimte voorstelt. Heeft een x-coördinaat en een y-coördinaat. Kan ook een z-coördinaat (hoogte) en een m-coördinaat (afstand langs een curve) hebben."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Punt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/locn#Geometry>.
+<http://www.opengis.net/ont/sf#Polygon#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/sf#Polygon>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Oppervlak bestaande uit 1 buitengrens en 0 of meer binnengrenzen. Elke binnengrens vormt een gat in de polygoon."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Polygoon"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/locn#Geometry>.
+<http://www.w3.org/ns/adms#Identifier#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/adms#Identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie gebruikt om een object uniek te identificeren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Identificator"@nl.
+<http://www.w3.org/ns/locn#Address#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#Address>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Meer leesbare voorstelling met enkel de basisgegevens van het adres, bedoeld voor het gebruik van een adres als attribuut van een ander object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Adresvoorstelling"@nl.
+<http://www.w3.org/ns/locn#Geometry#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#Geometry>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Vorm- en positiekenmerken van een object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Geometrie"@nl.
+<http://www.w3.org/ns/org#Organization#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/org#Organization>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Een aantal mensen georganiseerd in een gemeenschap of andere sociale, commerciële of politieke structuur. De groep heeft een gemeenschappelijk doel of bestaansreden die de individuele leden ervan overstijgt en kan handelen als agent. Een organisatie heeft dikwijls een hiërarchische structuur."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Organisatie"@nl.
+<http://www.w3.org/ns/regorg#RegisteredOrganization#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/regorg#RegisteredOrganization>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Organisatie met een juridisch statuut vastgelegd door registratie. Vergelijk met een formele organisatie waarbij dit statuut ook op een andere manier verkregen kan zijn."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Geregistreerde Organisatie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#subclassOf> <http://www.w3.org/ns/org#FormalOrganization>, <http://www.w3.org/ns/org#Organization>.
+<https://data.vlaanderen.be/ns/generiek#StandaardEenheid#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/generiek#StandaardEenheid>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Eenheid vastgelegd door een standaardiserende organisatie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Standaard Eenheid"@nl.
+<https://schema.org/Number#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/Number>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van een hoeveelheid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Getal"@nl.
+<https://schema.org/QuantitativeValue#2022-04-21> a <http://www.w3.org/2002/07/owl#Class>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/QuantitativeValue>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Aanduiding van de kwantiteit van een bepaald kenmerk van een object."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Kwantitatieve Waarde"@nl.
+<http://purl.org/dc/terms/creator#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/creator>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Link naar de agent die de identificator heeft uitgegeven."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegekend door"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Agent>.
+<http://purl.org/dc/terms/description#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Beschrijving van de organisatie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "beschrijving"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/org#Organization>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<http://purl.org/dc/terms/issued#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/issued>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Tijdstip waarop de identificator werd uitgegeven."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegekend op"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime>.
+<http://schema.org/contactPoint#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://schema.org/contactPoint>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Informatie zoals email, telefoon... die toelaat de Organisatie te contacteren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contactinfo"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/org#Organization>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/ContactPoint>.
+<http://www.opengis.net/ont/geosparql#asGML#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/geosparql#asGML>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geometrie uitgedrukt in gml-formaat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "gml"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Geometry>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>.
+<http://www.opengis.net/ont/geosparql#asWKT#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.opengis.net/ont/geosparql#asWKT>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Geometrie uitgedrukt in wkt-formaat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "wkt"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Geometry>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>.
+<http://www.w3.org/2004/02/skos/core#altLabel#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2004/02/skos/core#altLabel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Andere naam waaronder de organisatie bekend is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "alternatieve naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/org#Organization>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<http://www.w3.org/2004/02/skos/core#notation#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2004/02/skos/core#notation>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "String gebruikt om het object uniek te identificeren."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "identificator"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal>.
+<http://www.w3.org/2004/02/skos/core#prefLabel#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam waarmee de organisatie bij voorkeur wordt aangeduid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "voorkeursnaam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/org#Organization>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<http://www.w3.org/ns/adms#schemaAgency#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/adms#schemaAgency>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam vd agent die de identificator heeft toegekend."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "toegekend door (String)"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<http://www.w3.org/ns/locn#addressArea#2022-04-21> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#addressArea>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam ve geografisch gebied of plaats die een aantal adresseerbare objecten groepeert om deze te adresseren zonder dat het gebied of de plaats een administratieve eenheid is"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "adresgebied"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>.
+<http://www.w3.org/ns/locn#adminUnitL1#2022-04-21> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#adminUnitL1>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Hoogste Administratieve eenheid vh adres, doorgaans een land."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "administratieve eenheid niveau 1"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>.
+<http://www.w3.org/ns/locn#adminUnitL2#2022-04-21> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#adminUnitL2>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De regio vh adres, doorgaans een provincie of deelstaat of gelijkaardig gebied dat typisch meerdere plaatsen omvat."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "administratieve eenheid niveau 2"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>.
+<http://www.w3.org/ns/locn#fullAddress#2022-04-21> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#fullAddress>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Het complete adres in één string, al dan niet geformatteerd."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "volledig adres"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>.
+<http://www.w3.org/ns/locn#locatorDesignator#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#locatorDesignator>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Alfanumerieke code die de adreslocator uniek identificeert binnen de straat, administratieve eenheid etc."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "locatieaanduiding"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<http://www.w3.org/ns/locn#locatorName#2022-04-21> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#locatorName>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam of omschrijving vh het geografisch object dat de adreslocator aanduidt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "locatienaam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>.
+<http://www.w3.org/ns/locn#poBox#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#poBox>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Postbusnummer in een postkantoor."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "postbus"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<http://www.w3.org/ns/locn#postCode#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#postCode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Code waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "postcode"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<http://www.w3.org/ns/locn#postName#2022-04-21> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#postName>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Naam waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "postnaam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>.
+<http://www.w3.org/ns/locn#thoroughfare#2022-04-21> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/locn#thoroughfare>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Straatnaam vh adres."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "straatnaam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>.
+<http://www.w3.org/ns/regorg#legalName#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/regorg#legalName>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Wettelijk geregistreerde naam vd organisatie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "wettelijke naam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/regorg#RegisteredOrganization>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<http://www.w3.org/ns/regorg#orgType#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/regorg#orgType>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Soort organisatie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "type"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/org#Organization>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://www.w3.org/ns/regorg#registration#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/ns/regorg#registration>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Identificator dat de organisatie verkreeg bij registratie."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "registratie"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/regorg#RegisteredOrganization>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Identifier>.
+<https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "busnummer"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "huisnummer"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://data.vlaanderen.be/ns/adres#gemeentenaam#2022-04-21> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/adres#gemeentenaam>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Gemeentenaam vh adres."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "gemeentenaam"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>.
+<https://data.vlaanderen.be/ns/adres#land#2022-04-21> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+    <http://purl.org/dc/terms/isVersionOf> <https://data.vlaanderen.be/ns/adres#land>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Land waarin het adres gelegen is."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "land"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address>.
+<https://schema.org/unitCode#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/unitCode>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De gestandaardiseerde eenheid waarin de waarde is uitgedrukt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "standaard eenheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://data.vlaanderen.be/ns/generiek#StandaardEenheid>.
+<https://schema.org/unitText#2022-04-21> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/unitText>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "De eenheid waarin de waarde is uitgedrukt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "eenheid"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string>.
+<https://schema.org/value#2022-04-21> a <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    <http://purl.org/dc/terms/isVersionOf> <https://schema.org/value>;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Getal waarmee de kwantiteit van het kenmerk kan worden uitgedrukt."@nl;
+    <http://www.w3.org/2000/01/rdf-schema#label> "waarde"@nl;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/QuantitativeValue>;
+    <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/Number>
 }
-<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <http://purl.org/dc/terms/LicenseDocument#13-06-2019>, <http://www.w3.org/2006/vcard/ns#Kind#13-06-2019>, <http://www.w3.org/ns/dcat#Catalog#13-06-2019>, <http://www.w3.org/ns/dcat#Dataset#13-06-2019>, <http://www.w3.org/ns/dcat#Distribution#13-06-2019>, <http://xmlns.com/foaf/0.1/Agent#13-06-2019>, <http://purl.org/dc/terms/accessRights#13-06-2019>, <http://purl.org/dc/terms/description#13-06-2019>, <http://purl.org/dc/terms/description#13-06-2019>, <http://purl.org/dc/terms/license#13-06-2019>, <http://purl.org/dc/terms/license#13-06-2019>, <http://purl.org/dc/terms/publisher#13-06-2019>, <http://purl.org/dc/terms/publisher#13-06-2019>, <http://purl.org/dc/terms/title#13-06-2019>, <http://purl.org/dc/terms/title#13-06-2019>, <http://purl.org/dc/terms/title#13-06-2019>, <http://www.w3.org/2006/vcard/ns#hasEmail#13-06-2019>, <http://www.w3.org/ns/dcat#accessURL#13-06-2019>, <http://www.w3.org/ns/dcat#contactPoint#13-06-2019>, <http://www.w3.org/ns/dcat#dataset#13-06-2019>, <http://www.w3.org/ns/dcat#distribution#13-06-2019>, <http://www.w3.org/ns/dcat#theme#13-06-2019>, <http://xmlns.com/foaf/0.1/name#13-06-2019>;
+<https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw> <https://w3id.org/tree#member> <https://purl.eu/ns/mobility/timetables-and-planning#AccessibilityAssessment#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Country#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Level#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Locale#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Operator#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#PassengerStopAssignment#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Presentation#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Quay#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#ServiceLink#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#StopPlaceEntrance#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#StopPointInJourneyPattern#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#TariffZone#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Country.alternativeName#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Country.centroid#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Country.description#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Country.members#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Country.name#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Country.placeType#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Country.polygon#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Country.privateCode#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Country.shortName#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces.description#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces.name#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces.privateCode#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces.purposeOfGrouping#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces.shortName#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Level.description#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Level.name#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Level.publicCode#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Level.shortName#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Operator.address#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Operator.country#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#PassengerStopAssignment.scheduledStopPoint#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#PassengerStopAssignment.stopPlace#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest.level#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest.locale#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest.organisation#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest.parentSite#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest.servedBy#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#PointOfInterest.topographicPlace#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Quay.accessMode#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Quay.accessibilityAssessment#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Quay.alternativeName#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Quay.covered#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Quay.crossRoad#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Quay.gated#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Quay.label#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Quay.landmark#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Quay.level#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Quay.lighting#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#Quay.publicCode#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.description#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.location#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.name#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.presentation#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.privateCode#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.publicCode#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.shortName#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.accessMode#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.accessibilityAssessment#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.covered#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.crossRoad#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.gated#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.height#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.label#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.landmark#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.level#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.lighting#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.publicCode#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#SiteEntrance.width#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.accessabilityAssessment#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.alternativeName#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.alternativeName#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.centroid#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.covered#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.crossRoad#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.gated#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.in#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.landmark#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.level#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.lighting#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.locale#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.organisation#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.parentSite#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.placeType#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.polygon#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.postalAddress#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.publicCode#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.roadAddress#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.url#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.centroid#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.country#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.description#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.members#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.name#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.placeType#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.polygon#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.postcode#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.privateCode#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.servedBy#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#TopographicPlace.shortName#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#accessModes#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#accessibility#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#additionalTopographicPlace#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#allAreasWheelchair#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#borderCrossing#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#classification#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#compassBearing#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#contained#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#containedIn#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#containing#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#defaultLanguage#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#droppedKerbOutside#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#endOf#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#enteredThrough#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#entrance#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#entranceType#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#for#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#image#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#isEntry#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#isExit#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#isExternal#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#isoCode#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#language#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#locatedIn#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#locationOf#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#mainTerminus#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#member#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#nearTopographicPlace#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#otherCountry#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#otherTransportmode#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#parentTopographicPlace#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#plateCode#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#primaryMode#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#publicUse#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#quay#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#quay#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#quayType#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#scheduledStopPoint#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#serves#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#serves#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#site#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#startOf#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#stopPlace#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#stopPlaceType#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#stopPlaceWeight#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#stopType#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#submode#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#summerTimeZoneOffset#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#tariffZone#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#tariffZones#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#timeZone#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#timeZoneOffset#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#timingpointStatus#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#topographicPlaceType#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#transportMode#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#transportMode#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#uicCode#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#viewedAs#2022-04-21>, <https://purl.eu/ns/mobility/timetables-and-planning#weighting#2022-04-21>, <http://www.opengis.net/ont/sf#Point#2022-04-21>, <http://www.opengis.net/ont/sf#Polygon#2022-04-21>, <http://www.w3.org/ns/adms#Identifier#2022-04-21>, <http://www.w3.org/ns/locn#Address#2022-04-21>, <http://www.w3.org/ns/locn#Geometry#2022-04-21>, <http://www.w3.org/ns/org#Organization#2022-04-21>, <http://www.w3.org/ns/regorg#RegisteredOrganization#2022-04-21>, <https://data.vlaanderen.be/ns/generiek#StandaardEenheid#2022-04-21>, <https://schema.org/Number#2022-04-21>, <https://schema.org/QuantitativeValue#2022-04-21>, <http://purl.org/dc/terms/creator#2022-04-21>, <http://purl.org/dc/terms/description#2022-04-21>, <http://purl.org/dc/terms/issued#2022-04-21>, <http://schema.org/contactPoint#2022-04-21>, <http://www.opengis.net/ont/geosparql#asGML#2022-04-21>, <http://www.opengis.net/ont/geosparql#asWKT#2022-04-21>, <http://www.w3.org/2004/02/skos/core#altLabel#2022-04-21>, <http://www.w3.org/2004/02/skos/core#notation#2022-04-21>, <http://www.w3.org/2004/02/skos/core#prefLabel#2022-04-21>, <http://www.w3.org/ns/adms#schemaAgency#2022-04-21>, <http://www.w3.org/ns/locn#addressArea#2022-04-21>, <http://www.w3.org/ns/locn#adminUnitL1#2022-04-21>, <http://www.w3.org/ns/locn#adminUnitL2#2022-04-21>, <http://www.w3.org/ns/locn#fullAddress#2022-04-21>, <http://www.w3.org/ns/locn#locatorDesignator#2022-04-21>, <http://www.w3.org/ns/locn#locatorName#2022-04-21>, <http://www.w3.org/ns/locn#poBox#2022-04-21>, <http://www.w3.org/ns/locn#postCode#2022-04-21>, <http://www.w3.org/ns/locn#postName#2022-04-21>, <http://www.w3.org/ns/locn#thoroughfare#2022-04-21>, <http://www.w3.org/ns/regorg#legalName#2022-04-21>, <http://www.w3.org/ns/regorg#orgType#2022-04-21>, <http://www.w3.org/ns/regorg#registration#2022-04-21>, <https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer#2022-04-21>, <https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer#2022-04-21>, <https://data.vlaanderen.be/ns/adres#gemeentenaam#2022-04-21>, <https://data.vlaanderen.be/ns/adres#land#2022-04-21>, <https://schema.org/unitCode#2022-04-21>, <https://schema.org/unitText#2022-04-21>, <https://schema.org/value#2022-04-21>;
     <https://w3id.org/tree#view> <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/17.trig>.
 <https://ddvlanck.github.io/Republish-LDES/oslo-ldes-raw/17.trig> <https://w3id.org/tree#relation> _:df_0_16.
 _:df_0_16 a <https://w3id.org/tree#Relation>;
